@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "PatientExample",
+  "meta": {
+    "tag": [
+      {
+        "code": "CAG"
+      }
+    ],
+    "profile": [
+      "http://fhir.cqdg-fhir-ig/StructureDefinition/cqdg-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier",
+      "use": "official",
+      "value": "CQDG_1234567"
+    },
+    {
+      "use": "secondary",
+      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier",
+      "value": "35849400001"
+    },
+    {
+      "use": "secondary",
+      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier",
+      "value": "343434343434"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://example.org/StructureDefinition/AgeAt",
+      "valueInteger": 30,
+      "valueString": "days"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/AgeAt",
+      "valueInteger": 12,
+      "valueString": "years"
+    }
+  ],
+  "gender": "male",
+  "deceasedBoolean": true
+}

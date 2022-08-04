@@ -1,0 +1,61 @@
+{
+  "resourceType": "Condition",
+  "id": "ConditionExample",
+  "meta": {
+    "tag": [
+      {
+        "code": "CAG"
+      }
+    ],
+    "profile": [
+      "http://example.org/StructureDefinition/cqdg-condition"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/123415",
+    "identifier": {
+      "system": "specify",
+      "value": "number"
+    }
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "value": "DD_4HEERBYY3"
+    },
+    {
+      "use": "secondary",
+      "value": "SPEC00001"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "L40"
+      },
+      {
+        "system": "http://purl.obolibrary.org/obo/mondo.owl",
+        "code": "1231245",
+        "display": "fatigue"
+      }
+    ],
+    "text": "fatigue"
+  },
+  "onsetAge": {
+    "value": 5,
+    "unit": "years"
+  },
+  "stage": [
+    {
+      "summary": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "254293002",
+            "display": "TNM tumor staging system"
+          }
+        ]
+      }
+    }
+  ]
+}

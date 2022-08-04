@@ -1,0 +1,61 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "CQDGStudyCS",
+  "id": "cqdg-study-cs",
+  "description": "Code system for rapid study identification",
+  "version": "20220401",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs",
+  "concept": [
+    {
+      "code": "CAG",
+      "display": "CARTaGENE",
+      "definition": "CARTaGENE study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Étude CARTaGENE"
+        }
+      ]
+    },
+    {
+      "code": "OTH",
+      "display": "Other",
+      "definition": "Another study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Autre étude"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "value": "research-domain"
+    }
+  ],
+  "experimental": true,
+  "date": "2022-04-01",
+  "publisher": "FerLab",
+  "contact": [
+    {
+      "name": "FerLab FHIR project team",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "count": 2
+}

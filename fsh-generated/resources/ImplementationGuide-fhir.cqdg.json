@@ -1,0 +1,291 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.cqdg",
+  "url": "http://example.org/ImplementationGuide/fhir.cqdg",
+  "version": "0.1.0",
+  "name": "CQDG_FHIR_IG",
+  "status": "draft",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Ferlab.bio",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.cqdg",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.ca.baseline",
+      "version": "1.0.2",
+      "uri": "http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline",
+      "id": "hl7_fhir_ca_baseline"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-document-reference"
+        },
+        "name": "CQDGDocumentReference",
+        "description": "Document reference in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-observation-ethnicity"
+        },
+        "name": "CQDGObservationEthnicity",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-observation-laboratory"
+        },
+        "name": "CQDGObservationLaboratory",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-patient"
+        },
+        "name": "CQDGPatient",
+        "description": "A patient (donor) in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-related-person"
+        },
+        "name": "CQDGRelatedPerson",
+        "description": "Related person in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-research-study"
+        },
+        "name": "CQDGResearchStudy",
+        "description": "A research study in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-research-subject"
+        },
+        "name": "CQDGResearchSubject",
+        "description": "A research subject in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-speciimen"
+        },
+        "name": "CQDGSpecimen",
+        "description": "A specimen in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-task"
+        },
+        "name": "profile task",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-condition"
+        },
+        "name": "CQDG_Condition",
+        "description": "A condition in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-group"
+        },
+        "name": "CQDG_Group",
+        "description": "A CQDG group",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-observation"
+        },
+        "name": "CQDG_Observation",
+        "description": "An observation in CQDG",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AccessLimitations"
+        },
+        "name": "AccessLimitations",
+        "description": "Limitation of access to studies.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AccessRequirements"
+        },
+        "name": "AccessRequirements",
+        "description": "Requirements to access to studies.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AgeAt"
+        },
+        "name": "AgeAt",
+        "description": "Age at event",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/cqdg-ethnicity-vs"
+        },
+        "name": "CQDG observation value set",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/cqdg-observation-vs"
+        },
+        "name": "CQDG observation value set",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/research-domain-vs"
+        },
+        "name": "Research domain value set",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/study-domain-vs"
+        },
+        "name": "Study domain value set",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cqdg-observation-category-cs"
+        },
+        "name": "CQDGObservationCategoryCS",
+        "description": "CQDG Observation categories",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cqdg-study-cs"
+        },
+        "name": "CQDGStudyCS",
+        "description": "Code system for rapid study identification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/qc-ethnicity-cs"
+        },
+        "name": "Ethnicites in Quebec",
+        "description": "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/research-domain"
+        },
+        "name": "ResearchDomain",
+        "description": "This is an example code system for Research domain.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/study-domain"
+        },
+        "name": "StudyDomain",
+        "description": "This is an example code system for study domain.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/CQDGDocumentReferenceExample"
+        },
+        "name": "CQDGDocumentReferenceExample",
+        "description": "An example of a cqdg document reference",
+        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "Group/CQDGGroupExample"
+        },
+        "name": "CQDGGroupExample",
+        "description": "An example of a cqdg group",
+        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-group"
+      },
+      {
+        "reference": {
+          "reference": "Condition/ConditionExample"
+        },
+        "name": "ConditionExample",
+        "description": "An example of a cqdg patient.",
+        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-condition"
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "description": "An example of a cqdg patient.",
+        "exampleCanonical": "http://fhir.cqdg-fhir-ig/StructureDefinition/cqdg-patient"
+      },
+      {
+        "reference": {
+          "reference": "ResearchStudy/ResearchStudyExample"
+        },
+        "name": "ResearchStudyExample",
+        "description": "An example of a research study.",
+        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-research-study"
+      },
+      {
+        "reference": {
+          "reference": "Specimen/SpecimenExample"
+        },
+        "name": "SpecimenExample",
+        "description": "An example of a specimen",
+        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-speciimen"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

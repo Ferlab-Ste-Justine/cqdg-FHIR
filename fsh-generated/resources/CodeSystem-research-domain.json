@@ -1,0 +1,229 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ResearchDomain",
+  "id": "research-domain",
+  "description": "This is an example code system for Research domain.",
+  "version": "20220401",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/research-domain",
+  "concept": [
+    {
+      "code": "AGING",
+      "display": "Aging",
+      "definition": "Aging study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Aging study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "BDFCT",
+      "display": "BirthDefect",
+      "definition": "Birth defect study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Birth defect study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "CACNR",
+      "display": "Cancer",
+      "definition": "Cancer study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "cancer study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "CRHLT",
+      "display": "Circulatory and Respiratory Health",
+      "definition": "Circulatory and Respiratory Health study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Circulatory and Respiratory Health study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "GNHLT",
+      "display": "General Health",
+      "definition": "General Health study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "General Health study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "INFIM",
+      "display": "Infection and Immunity",
+      "definition": "Infection and Immunity study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Infection and Immunity study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "MSART",
+      "display": "Musculoskeletal Health and Arthritis",
+      "definition": "Musculoskeletal Health and Arthritis study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Musculoskeletal Health and Arthritis study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "NRDEV",
+      "display": "Neurodevelopmental Conditions",
+      "definition": "Neurodevelopmental Conditions study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Neurodevelopmental Conditions study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "NRSCA",
+      "display": "Neurosciences, Mental Health and Addiction",
+      "definition": "Neurosciences, Mental Health and Addiction study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Neurosciences, Mental Health and Addiction study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "NUTDB",
+      "display": "Nutrition, Metabolism and Diabetes",
+      "definition": "Nutrition, Metabolism and Diabetes study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Nutrition, Metabolism and Diabetes study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "POPGN",
+      "display": "Population Genomics",
+      "definition": "Population Genomics study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Population Genomics study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "RARED",
+      "display": "Rare Diseases",
+      "definition": "Rare Diseases study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Rare Diseases study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "NOTAP",
+      "display": "Not Applicable",
+      "definition": "Not Applicable study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Not Applicable study - internal label"
+        }
+      ]
+    },
+    {
+      "code": "OTHER",
+      "display": "Other",
+      "definition": "Other study",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Other study - internal label"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "value": "research-domain"
+    }
+  ],
+  "experimental": true,
+  "date": "2022-04-01",
+  "publisher": "FerLab",
+  "contact": [
+    {
+      "name": "FerLab FHIR project team",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "count": 14
+}

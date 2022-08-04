@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ResearchDomainVS",
+  "id": "research-domain-vs",
+  "title": "Research domain value set",
+  "version": "0.1.0",
+  "url": "http://example.org/ValueSet/research-domain-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/research-domain"
+      }
+    ]
+  }
+}

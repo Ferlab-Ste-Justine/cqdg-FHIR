@@ -1,0 +1,25 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "CQDGDocumentReferenceExample",
+  "meta": {
+    "profile": [
+      "http://example.org/StructureDefinition/cqdg-document-reference"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier"
+    }
+  ],
+  "status": "current",
+  "content": [
+    {
+      "attachment": {
+        "url": "TBD"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/123456"
+  }
+}

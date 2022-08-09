@@ -63,26 +63,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/cqdg-related-person"
-        },
-        "name": "CQDGRelatedPerson",
-        "description": "Related person in CQDG",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/cqdg-research-study"
         },
         "name": "CQDGResearchStudy",
         "description": "A research study in CQDG",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/cqdg-research-subject"
-        },
-        "name": "CQDGResearchSubject",
-        "description": "A research subject in CQDG",
         "exampleBoolean": false
       },
       {
@@ -269,13 +253,7 @@
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": [
-        {
-          "nameUrl": "index.html",
-          "title": "Home",
-          "generation": "markdown"
-        }
-      ]
+      "page": []
     },
     "parameter": [
       {

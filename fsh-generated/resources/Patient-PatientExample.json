@@ -38,6 +38,17 @@
       "url": "http://example.org/StructureDefinition/AgeAt",
       "valueInteger": 12,
       "valueString": "years"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/QCEthnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CA-FR",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity"
+          }
+        ]
+      }
     }
   ],
   "gender": "male",

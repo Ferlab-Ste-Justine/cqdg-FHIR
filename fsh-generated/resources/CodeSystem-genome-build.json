@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "GenomeBuild",
+  "id": "genome-build",
+  "version": "0.1.0",
+  "url": "http://acme.com/config/fhir/codesystems/genome-build",
+  "concept": [
+    {
+      "code": "GRCh38",
+      "display": "GRCh38",
+      "designation": [
+        {
+          "use": {
+            "code": "GRCh38",
+            "system": "http://acme.com/config/fhir/codesystems/genome-build"
+          },
+          "value": "GRCh38"
+        }
+      ]
+    }
+  ],
+  "count": 1
+}

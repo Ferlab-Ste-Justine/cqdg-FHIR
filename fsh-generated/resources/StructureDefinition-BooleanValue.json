@@ -1,10 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AgeAt",
-  "url": "http://example.org/StructureDefinition/AgeAt",
-  "version": "0.1.0",
-  "name": "AgeAt",
+  "id": "BooleanValue",
+  "url": "http://example.org/StructureDefinition/BooleanValue",
+  "version": "1.0.0",
+  "name": "BooleanValue",
   "status": "active",
+  "description": "Age at event",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -27,9 +28,14 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "Age at event"
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/AgeAt"
+        "fixedUri": "http://example.org/StructureDefinition/BooleanValue"
       }
     ]
   }

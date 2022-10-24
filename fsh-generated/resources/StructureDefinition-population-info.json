@@ -1,11 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AccessRequirements",
-  "url": "http://example.org/StructureDefinition/AccessRequirements",
+  "id": "population-info",
+  "url": "http://example.org/StructureDefinition/population-info",
   "version": "0.1.0",
-  "name": "AccessRequirements",
+  "name": "PopulationInfo",
   "status": "active",
-  "description": "Requirements to access to studies.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -28,14 +27,9 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension",
-        "definition": "Requirements to access to studies."
-      },
-      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/AccessRequirements"
+        "fixedUri": "http://example.org/StructureDefinition/population-info"
       },
       {
         "id": "Extension.valueCoding",
@@ -53,7 +47,15 @@
         "path": "Extension.valueCoding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://example.org/ValueSet/access-requirement-vs"
+          "valueSet": "http://example.org/ValueSet/population-vs"
+        }
+      },
+      {
+        "id": "Extension.valueCoding.code",
+        "path": "Extension.valueCoding.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/ValueSet/population-vs"
         }
       }
     ]

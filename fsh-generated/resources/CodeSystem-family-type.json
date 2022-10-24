@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "FamilyType",
+  "id": "family-type",
+  "version": "0.1.0",
+  "url": "http://acme.com/config/fhir/codesystems/family-type-codes",
+  "concept": [
+    {
+      "code": "Case-parent trio",
+      "display": "Case-parent trio",
+      "designation": [
+        {
+          "use": {
+            "code": "case-parent-trio",
+            "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+          },
+          "value": "Case-parent trio"
+        }
+      ]
+    },
+    {
+      "code": "Case-sibling",
+      "display": "Case-sibling",
+      "designation": [
+        {
+          "use": {
+            "code": "case-sibling",
+            "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+          },
+          "value": "Case-sibling"
+        }
+      ]
+    },
+    {
+      "code": "Twins",
+      "display": "Twins",
+      "designation": [
+        {
+          "use": {
+            "code": "twins",
+            "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+          },
+          "value": "Twins"
+        }
+      ]
+    },
+    {
+      "code": "Case - affected relative",
+      "display": "Case - affected relative",
+      "designation": [
+        {
+          "use": {
+            "code": "case-affected-relative",
+            "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+          },
+          "value": "Case - affected relative"
+        }
+      ]
+    },
+    {
+      "code": "Other",
+      "display": "Other",
+      "designation": [
+        {
+          "use": {
+            "code": "other",
+            "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+          },
+          "value": "Other"
+        }
+      ]
+    }
+  ],
+  "count": 5
+}

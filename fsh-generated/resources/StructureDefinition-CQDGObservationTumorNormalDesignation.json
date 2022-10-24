@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqdg-observation-laboratory",
+  "id": "CQDGObservationTumorNormalDesignation",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,9 +11,9 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://example.org/StructureDefinition/cqdg-observation-laboratory",
+  "url": "http://example.org/StructureDefinition/CQDGObservationTumorNormalDesignation",
   "version": "0.1.0",
-  "name": "CQDGObservationLaboratory",
+  "name": "CQDGObservationTumorNormalDesignation",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -51,29 +51,28 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://example.org/StructureDefinition/cqdg-observation",
+  "baseDefinition": "http://example.org/StructureDefinition/cqdg-observation-group",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "patternUri": "http://terminology.hl7.org/CodeSystem/observation-category"
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
       },
       {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "patternCode": "laboratory"
-      },
-      {
-        "id": "Observation.category.coding.display",
-        "path": "Observation.category.coding.display",
-        "patternString": "Laboratory"
-      },
-      {
-        "id": "Observation.category.text",
-        "path": "Observation.category.text",
-        "patternString": "Laboratory Observation - Tumor Histological Diagnosis"
+        "id": "Observation.valueCodeableConcept.coding.system",
+        "path": "Observation.valueCodeableConcept.coding.system",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
+        }
       }
     ]
   }

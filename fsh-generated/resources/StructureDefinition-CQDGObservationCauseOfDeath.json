@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqdg-observation",
+  "id": "CQDGObservationCauseOfDeath",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,11 +11,10 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://example.org/StructureDefinition/cqdg-observation",
+  "url": "http://example.org/StructureDefinition/CQDGObservationCauseOfDeath",
   "version": "0.1.0",
-  "name": "CQDG_Observation",
+  "name": "CQDGObservationCauseOfDeath",
   "status": "active",
-  "description": "An observation in CQDG",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -52,38 +51,28 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://example.org/StructureDefinition/cqdg-observation-group",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Observation.extension",
-        "path": "Observation.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Observation.extension:ageAtObservation",
-        "path": "Observation.extension",
-        "sliceName": "ageAtObservation",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "type": [
           {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/StructureDefinition/AgeAt"
-            ]
+            "code": "CodeableConcept"
           }
         ]
+      },
+      {
+        "id": "Observation.valueCodeableConcept.coding.system",
+        "path": "Observation.valueCodeableConcept.coding.system",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death"
+        }
       }
     ]
   }

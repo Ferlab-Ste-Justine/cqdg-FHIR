@@ -12,10 +12,10 @@
     }
   ],
   "url": "http://example.org/StructureDefinition/cqdg-document-reference",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "CQDGDocumentReference",
   "status": "active",
-  "description": "Document reference in CQDG",
+  "description": "A CQDG group",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -62,43 +62,8 @@
   "differential": {
     "element": [
       {
-        "id": "DocumentReference.identifier",
-        "path": "DocumentReference.identifier",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "system"
-            }
-          ],
-          "rules": "openAtEnd"
-        },
-        "min": 1
-      },
-      {
-        "id": "DocumentReference.identifier:CQDG_ID",
-        "path": "DocumentReference.identifier",
-        "sliceName": "CQDG_ID",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "DocumentReference.identifier:CQDG_ID.system",
-        "path": "DocumentReference.identifier.system",
-        "min": 1,
-        "patternUri": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier"
-      },
-      {
-        "id": "DocumentReference.identifier:OTHER_ID",
-        "path": "DocumentReference.identifier",
-        "sliceName": "OTHER_ID",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "DocumentReference.category",
-        "path": "DocumentReference.category",
-        "max": "1"
+        "id": "DocumentReference",
+        "path": "DocumentReference"
       }
     ]
   }

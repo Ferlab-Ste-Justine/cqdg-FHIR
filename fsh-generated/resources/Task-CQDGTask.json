@@ -1,0 +1,160 @@
+{
+  "resourceType": "Task",
+  "id": "CQDGTask",
+  "meta": {
+    "profile": [
+      "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+      "extension": [
+        {
+          "url": "workflowName",
+          "valueString": "Dragen"
+        },
+        {
+          "url": "genomeBuild",
+          "valueCoding": {
+            "code": "GRCh38",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+            "display": "GRCh38"
+          }
+        },
+        {
+          "url": "workflowVersion",
+          "valueString": "3.8.4"
+        }
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+      "extension": [
+        {
+          "url": "runName",
+          "valueString": "201106_A00516_0169_AHFM3HDSXY"
+        },
+        {
+          "url": "runAlias",
+          "valueString": "A00516_0169"
+        },
+        {
+          "url": "experimentalStrategy",
+          "valueCoding": {
+            "code": "WXS",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+            "display": "Whole Exome Sequencing"
+          }
+        },
+        {
+          "url": "platform",
+          "valueString": "Illumina NovaSeq"
+        },
+        {
+          "url": "captureKit",
+          "valueString": "RocheKapaHyperExome"
+        },
+        {
+          "url": "sequencerId",
+          "valueString": "A00516"
+        },
+        {
+          "url": "runDate",
+          "valueDateTime": "2020-11-06"
+        },
+        {
+          "url": "labAliquotId",
+          "valueString": "16774"
+        }
+      ]
+    }
+  ],
+  "status": "completed",
+  "intent": "order",
+  "priority": "routine",
+  "code": {
+    "coding": [
+      {
+        "code": "GEBA",
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+        "display": "Germline Exome Bioinformatic Analysis"
+      }
+    ]
+  },
+  "requester": {
+    "reference": "Organization/LDM-CHUSJ"
+  },
+  "owner": {
+    "reference": "Organization/CQGC"
+  },
+  "input": [
+    {
+      "type": {
+        "text": "Analysed sample"
+      },
+      "valueReference": {
+        "reference": "Specimen/222222",
+        "display": "Submitter Sample ID: 22222"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "ALIR",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+            "display": "Aligned Reads"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/289787"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "SNV",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+            "display": "SNV"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/289788"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "GCNV",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+            "display": "Germline CNV"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/289789"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "SSUP",
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+            "display": "Sequencing Data Supplement"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/289790"
+      }
+    }
+  ]
+}

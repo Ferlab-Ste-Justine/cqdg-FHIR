@@ -66,6 +66,21 @@
         }
       },
       {
+        "id": "ResearchStudy.extension:population",
+        "path": "ResearchStudy.extension",
+        "sliceName": "population",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/population-info"
+            ]
+          }
+        ]
+      },
+      {
         "id": "ResearchStudy.extension:accessLimitations",
         "path": "ResearchStudy.extension",
         "sliceName": "accessLimitations",

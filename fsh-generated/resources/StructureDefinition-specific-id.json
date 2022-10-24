@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AgeAt",
-  "url": "http://example.org/StructureDefinition/AgeAt",
+  "id": "specific-id",
+  "url": "http://example.org/StructureDefinition/specific-id",
   "version": "0.1.0",
-  "name": "AgeAt",
+  "name": "SpecificID",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -29,7 +29,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/AgeAt"
+        "fixedUri": "http://example.org/StructureDefinition/specific-id"
       }
     ]
   }

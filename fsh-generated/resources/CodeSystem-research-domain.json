@@ -1,229 +1,202 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "complete",
   "name": "ResearchDomain",
   "id": "research-domain",
-  "description": "This is an example code system for Research domain.",
-  "version": "20220401",
+  "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/research-domain",
   "concept": [
     {
-      "code": "AGING",
-      "display": "Aging",
-      "definition": "Aging study",
+      "code": "Aging",
+      "display": "Aging study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "aging",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Aging study - internal label"
+          "value": "Aging study"
         }
       ]
     },
     {
-      "code": "BDFCT",
-      "display": "BirthDefect",
-      "definition": "Birth defect study",
+      "code": "Birth Defect",
+      "display": "Birth defect study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "birth-defect",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Birth defect study - internal label"
+          "value": "Birth defect study"
         }
       ]
     },
     {
-      "code": "CACNR",
-      "display": "Cancer",
-      "definition": "Cancer study",
+      "code": "Cancer",
+      "display": "Cancer study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "cancer",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "cancer study - internal label"
+          "value": "cancer study"
         }
       ]
     },
     {
-      "code": "CRHLT",
-      "display": "Circulatory and Respiratory Health",
-      "definition": "Circulatory and Respiratory Health study",
+      "code": "Circulatory and Respiratory Health",
+      "display": "Circulatory and Respiratory Health study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "circulatory-and-respiratory-health",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Circulatory and Respiratory Health study - internal label"
+          "value": "Circulatory and Respiratory Health study"
         }
       ]
     },
     {
-      "code": "GNHLT",
+      "code": "General Health",
       "display": "General Health",
       "definition": "General Health study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "general-health",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "General Health study - internal label"
+          "value": "General Health study"
         }
       ]
     },
     {
-      "code": "INFIM",
-      "display": "Infection and Immunity",
-      "definition": "Infection and Immunity study",
+      "code": "Infection and Immunity",
+      "display": "Infection and Immunity study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "infection-and-immunity",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Infection and Immunity study - internal label"
+          "value": "Infection and Immunity study"
         }
       ]
     },
     {
-      "code": "MSART",
-      "display": "Musculoskeletal Health and Arthritis",
-      "definition": "Musculoskeletal Health and Arthritis study",
+      "code": "Musculoskeletal Health and Arthritis",
+      "display": "Musculoskeletal Health and Arthritis study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "musculoskeletal-health-and-arthritis",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Musculoskeletal Health and Arthritis study - internal label"
+          "value": "Musculoskeletal Health and Arthritis study"
         }
       ]
     },
     {
-      "code": "NRDEV",
+      "code": "Neurodevelopmental Conditions",
       "display": "Neurodevelopmental Conditions",
       "definition": "Neurodevelopmental Conditions study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "neurodevelopmental-conditions",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Neurodevelopmental Conditions study - internal label"
+          "value": "Neurodevelopmental Conditions study"
         }
       ]
     },
     {
-      "code": "NRSCA",
+      "code": "Neurosciences, Mental Health and Addiction",
       "display": "Neurosciences, Mental Health and Addiction",
       "definition": "Neurosciences, Mental Health and Addiction study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "neurosciences-mental-health-and-addiction",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Neurosciences, Mental Health and Addiction study - internal label"
+          "value": "Neurosciences, Mental Health and Addiction study"
         }
       ]
     },
     {
-      "code": "NUTDB",
+      "code": "Nutrition, Metabolism and Diabetes",
       "display": "Nutrition, Metabolism and Diabetes",
       "definition": "Nutrition, Metabolism and Diabetes study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "nutrition-metabolism-and-diabetes",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Nutrition, Metabolism and Diabetes study - internal label"
+          "value": "Nutrition, Metabolism and Diabetes study"
         }
       ]
     },
     {
-      "code": "POPGN",
+      "code": "Population Genomics",
       "display": "Population Genomics",
       "definition": "Population Genomics study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "population-genomics",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Population Genomics study - internal label"
+          "value": "Population Genomics study"
         }
       ]
     },
     {
-      "code": "RARED",
+      "code": "Rare Diseases",
       "display": "Rare Diseases",
       "definition": "Rare Diseases study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "rare-diseases",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Rare Diseases study - internal label"
+          "value": "Rare Diseases study"
         }
       ]
     },
     {
-      "code": "NOTAP",
+      "code": "Not Applicable",
       "display": "Not Applicable",
       "definition": "Not Applicable study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "not-applicable",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Not Applicable study - internal label"
+          "value": "Not Applicable study"
         }
       ]
     },
     {
-      "code": "OTHER",
+      "code": "Other",
       "display": "Other",
       "definition": "Other study",
       "designation": [
         {
           "use": {
-            "code": "internal-label",
-            "system": "http://acme.com/config/fhir/codesystems/internal"
+            "code": "other",
+            "system": "http://acme.com/config/fhir/codesystems/research-domain"
           },
-          "value": "Other study - internal label"
+          "value": "Other study"
         }
       ]
     }
   ],
-  "identifier": [
-    {
-      "value": "research-domain"
-    }
-  ],
-  "experimental": true,
-  "date": "2022-04-01",
-  "publisher": "FerLab",
-  "contact": [
-    {
-      "name": "FerLab FHIR project team",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://hl7.org/fhir"
-        }
-      ]
-    }
-  ],
-  "caseSensitive": true,
   "count": 14
 }

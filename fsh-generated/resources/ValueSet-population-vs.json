@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PopulationVS",
+  "id": "population-vs",
+  "title": "Research domain value set",
+  "version": "0.1.0",
+  "url": "http://example.org/ValueSet/population-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://acme.com/config/fhir/codesystems/population"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqdg-speciimen",
+  "id": "CQDGObservationPhenotype",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,12 +11,27 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://example.org/StructureDefinition/cqdg-speciimen",
+  "url": "http://example.org/StructureDefinition/CQDGObservationPhenotype",
   "version": "0.1.0",
-  "name": "CQDGSpecimen",
+  "name": "CQDGObservationPhenotype",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
     {
       "identity": "rim",
       "uri": "http://hl7.org/v3",
@@ -28,21 +43,21 @@
       "name": "FiveWs Pattern Mapping"
     },
     {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
     }
   ],
   "kind": "resource",
   "abstract": false,
-  "type": "Specimen",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "type": "Observation",
+  "baseDefinition": "http://example.org/StructureDefinition/cqdg-observation-group",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Specimen.extension",
-        "path": "Specimen.extension",
+        "id": "Observation.extension",
+        "path": "Observation.extension",
         "slicing": {
           "discriminator": [
             {
@@ -55,9 +70,9 @@
         }
       },
       {
-        "id": "Specimen.extension:ageBiospecimenCollection",
-        "path": "Specimen.extension",
-        "sliceName": "ageBiospecimenCollection",
+        "id": "Observation.extension:age_at_phenotype",
+        "path": "Observation.extension",
+        "sliceName": "age_at_phenotype",
         "min": 0,
         "max": "1",
         "type": [
@@ -70,49 +85,37 @@
         ]
       },
       {
-        "id": "Specimen.extension:cqdg_biospecimen_id",
-        "path": "Specimen.extension",
-        "sliceName": "cqdg_biospecimen_id",
+        "id": "Observation.extension:isObserved",
+        "path": "Observation.extension",
+        "sliceName": "isObserved",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://example.org/StructureDefinition/specific-id"
+              "http://example.org/StructureDefinition/BooleanValue"
             ]
           }
         ]
       },
       {
-        "id": "Specimen.extension:cqdg_sample_id",
-        "path": "Specimen.extension",
-        "sliceName": "cqdg_sample_id",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/StructureDefinition/specific-id"
-            ]
+            "code": "CodeableConcept"
           }
         ]
       },
       {
-        "id": "Specimen.type.coding.system",
-        "path": "Specimen.type.coding.system",
+        "id": "Observation.valueCodeableConcept.coding.system",
+        "path": "Observation.valueCodeableConcept.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://purl.obolibrary.org/obo/ncit.owl"
-        }
-      },
-      {
-        "id": "Specimen.collection.bodySite.coding.system",
-        "path": "Specimen.collection.bodySite.coding.system",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://purl.obolibrary.org/obo/ncit.owl"
+          "valueSet": "http://purl.obolibrary.org/obo/hp.owl"
         }
       }
     ]

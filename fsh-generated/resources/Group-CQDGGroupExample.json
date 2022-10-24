@@ -16,10 +16,16 @@
   "actual": true,
   "identifier": [
     {
-      "use": "official",
-      "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+      "use": "official"
     }
   ],
+  "code": {
+    "coding": [
+      {
+        "display": "Case - affected relative"
+      }
+    ]
+  },
   "member": [
     {
       "entity": {

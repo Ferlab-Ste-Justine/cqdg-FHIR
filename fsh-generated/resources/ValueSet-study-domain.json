@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "ResearchDomainVS",
-  "id": "research-domain-vs",
-  "title": "Research domain value set",
+  "name": "StudyDomain",
+  "id": "study-domain",
+  "title": "Study domain value set",
   "version": "0.1.0",
-  "url": "http://example.org/ValueSet/research-domain-vs",
+  "url": "http://example.org/ValueSet/study-domain",
   "compose": {
     "include": [
       {

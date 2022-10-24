@@ -4,12 +4,11 @@
   "content": "complete",
   "name": "CQDGStudyCS",
   "id": "cqdg-study-cs",
-  "description": "Code system for rapid study identification",
-  "version": "20220401",
+  "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs",
   "concept": [
     {
-      "code": "CAG",
+      "code": "Cartagène",
       "display": "CARTaGENE",
       "definition": "CARTaGENE study",
       "designation": [
@@ -23,7 +22,20 @@
       ]
     },
     {
-      "code": "OTH",
+      "code": "Developmental and Epileptic Encephalopathies",
+      "display": "Developmental and Epileptic Encephalopathies",
+      "designation": [
+        {
+          "use": {
+            "code": "internal-label",
+            "system": "http://acme.com/config/fhir/codesystems/internal"
+          },
+          "value": "Étude CARTaGENE"
+        }
+      ]
+    },
+    {
+      "code": "Other",
       "display": "Other",
       "definition": "Another study",
       "designation": [
@@ -43,7 +55,6 @@
     }
   ],
   "experimental": true,
-  "date": "2022-04-01",
   "publisher": "FerLab",
   "contact": [
     {
@@ -57,5 +68,5 @@
     }
   ],
   "caseSensitive": true,
-  "count": 2
+  "count": 3
 }

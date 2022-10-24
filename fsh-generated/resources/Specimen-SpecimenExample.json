@@ -28,14 +28,6 @@
       "value": "sample20478"
     }
   ],
-  "type": {
-    "coding": [
-      {
-        "display": "DNA"
-      }
-    ],
-    "text": "DNA"
-  },
   "subject": {
     "reference": "/Patient/123051"
   },
@@ -43,18 +35,5 @@
     {
       "reference": "/Specimen/124516"
     }
-  ],
-  "collection": {
-    "bodySite": {
-      "coding": [
-        {
-          "system": "undefined",
-          "version": "20220331",
-          "code": "362889002",
-          "display": ""
-        }
-      ],
-      "text": "body site"
-    }
-  }
+  ]
 }

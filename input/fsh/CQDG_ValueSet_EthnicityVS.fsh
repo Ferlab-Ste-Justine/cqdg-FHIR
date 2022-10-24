@@ -1,4 +1,4 @@
-ValueSet: CQDGEthnicityVS
-Id: cqdg-ethnicity-vs
+ValueSet: QCEthnicityVS
+Id: qc-ethnicity-vs
 Title: "CQDG observation value set"
-* include codes from system http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity
+* include codes from system qc-ethnicity

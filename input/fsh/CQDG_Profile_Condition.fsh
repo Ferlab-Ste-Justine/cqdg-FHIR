@@ -7,6 +7,8 @@ Description: "A condition in CQDG"
 * onsetAge 0..1
 * onsetAge only Age
 
+
+
 Instance: ConditionExample
 InstanceOf: CQDG_Condition
 Description: "An example of a cqdg patient."
@@ -16,15 +18,14 @@ Description: "An example of a cqdg patient."
 * subject.identifier.system = "specify"
 * subject.identifier.value = "number"
 
-// slicing?
 * identifier[0].use = #official
 * identifier[=].value = "DD_4HEERBYY3"
 
 * identifier[+].use = #secondary
 * identifier[=].value = "SPEC00001"
 
-// could be MONDO, ICD-10, HPO - non restreint pour le moment
-* code.coding[0].code = $ICD10CA#L40 // bogus example
+// only an example, could be MONDO, ICD-10, HPO - non restreint pour le moment
+* code.coding[0].code = $ICD10CA#L40 
 
 * code.coding[+].system = $MONDO
 * code.coding[=].code = $MONDO#1231245
@@ -34,7 +35,7 @@ Description: "An example of a cqdg patient."
 * onsetAge.value = 5
 * onsetAge.unit = "years"
 
-// A verifier
+
 * stage
   * summary  
     * coding
@@ -42,9 +43,3 @@ Description: "An example of a cqdg patient."
       * code = $SCT#254293002 
       * display = "TNM tumor staging system"
 
-
-// * severity 
-//   * coding 
-//     * system
-//     * code
-//     * display

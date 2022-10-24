@@ -1,72 +1,73 @@
 CodeSystem: ResearchDomain
 Id: research-domain
-Description: "This is an example code system for Research domain."
+
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/research-domain"
-//* ^identifier.system = "http://acme.com/identifiers/codesystems"
-* ^identifier.value = "research-domain"
-* ^version = "20220401"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2022-04-01"
-* ^publisher = "FerLab"
-* ^contact.name = "FerLab FHIR project team"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/fhir"
-* ^caseSensitive = true
-* ^content = #complete
 
-* #AGING "Aging" "Aging study"
-* #AGING ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #AGING ^designation.value = "Aging study - internal label"
 
-* #BDFCT "BirthDefect" "Birth defect study"
-* #BDFCT ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #BDFCT ^designation.value = "Birth defect study - internal label"
+// * ^identifier.value = "research-domain"
+// * ^version = "20220401"
+// * ^status = #draft
+// * ^experimental = true
+// * ^date = "2022-04-01"
+// * ^publisher = "FerLab"
+// * ^contact.name = "FerLab FHIR project team"
+// * ^contact.telecom.system = #url
+// * ^contact.telecom.value = "http://hl7.org/fhir"
+// * ^caseSensitive = true
+// * ^content = #complete
 
-* #CACNR "Cancer" "Cancer study"
-* #CACNR ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #CACNR ^designation.value = "cancer study - internal label"
+* #"Aging" "Aging study"
+* #"Aging" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#aging
+* #"Aging" ^designation.value = "Aging study"
 
-* #CRHLT "Circulatory and Respiratory Health" "Circulatory and Respiratory Health study"
-* #CRHLT ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #CRHLT ^designation.value = "Circulatory and Respiratory Health study - internal label"
+* #"Birth Defect" "Birth defect study"
+* #"Birth Defect" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#birth-defect
+* #"Birth Defect" ^designation.value = "Birth defect study"
 
-* #GNHLT "General Health" "General Health study"
-* #GNHLT ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #GNHLT ^designation.value = "General Health study - internal label"
+* #"Cancer" "Cancer study"
+* #"Cancer" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#cancer
+* #"Cancer" ^designation.value = "cancer study"
 
-* #INFIM "Infection and Immunity" "Infection and Immunity study"
-* #INFIM ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #INFIM ^designation.value = "Infection and Immunity study - internal label"
+* #"Circulatory and Respiratory Health" "Circulatory and Respiratory Health study"
+* #"Circulatory and Respiratory Health" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#circulatory-and-respiratory-health
+* #"Circulatory and Respiratory Health" ^designation.value = "Circulatory and Respiratory Health study"
 
-* #MSART "Musculoskeletal Health and Arthritis" "Musculoskeletal Health and Arthritis study"
-* #MSART ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #MSART ^designation.value = "Musculoskeletal Health and Arthritis study - internal label"
+* #"General Health" "General Health" "General Health study"
+* #"General Health" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#general-health
+* #"General Health" ^designation.value = "General Health study"
 
-* #NRDEV "Neurodevelopmental Conditions" "Neurodevelopmental Conditions study"
-* #NRDEV ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #NRDEV ^designation.value = "Neurodevelopmental Conditions study - internal label"
+* #"Infection and Immunity" "Infection and Immunity study"
+* #"Infection and Immunity" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#infection-and-immunity
+* #"Infection and Immunity" ^designation.value = "Infection and Immunity study"
 
-* #NRSCA "Neurosciences, Mental Health and Addiction" "Neurosciences, Mental Health and Addiction study"
-* #NRSCA ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #NRSCA ^designation.value = "Neurosciences, Mental Health and Addiction study - internal label"
+* #"Musculoskeletal Health and Arthritis" "Musculoskeletal Health and Arthritis study"
+* #"Musculoskeletal Health and Arthritis" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#musculoskeletal-health-and-arthritis
+* #"Musculoskeletal Health and Arthritis" ^designation.value = "Musculoskeletal Health and Arthritis study"
 
-* #NUTDB "Nutrition, Metabolism and Diabetes" "Nutrition, Metabolism and Diabetes study"
-* #NUTDB ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #NUTDB ^designation.value = "Nutrition, Metabolism and Diabetes study - internal label"
+* #"Neurodevelopmental Conditions" "Neurodevelopmental Conditions" "Neurodevelopmental Conditions study"
+* #"Neurodevelopmental Conditions" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#neurodevelopmental-conditions
+* #"Neurodevelopmental Conditions" ^designation.value = "Neurodevelopmental Conditions study"
 
-* #POPGN "Population Genomics" "Population Genomics study"
-* #POPGN ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #POPGN ^designation.value = "Population Genomics study - internal label"
+* #"Neurosciences, Mental Health and Addiction" "Neurosciences, Mental Health and Addiction" "Neurosciences, Mental Health and Addiction study"
+* #"Neurosciences, Mental Health and Addiction" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#neurosciences-mental-health-and-addiction
+* #"Neurosciences, Mental Health and Addiction" ^designation.value = "Neurosciences, Mental Health and Addiction study"
 
-* #RARED "Rare Diseases" "Rare Diseases study"
-* #RARED ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #RARED ^designation.value = "Rare Diseases study - internal label"
+* #"Nutrition, Metabolism and Diabetes" "Nutrition, Metabolism and Diabetes" "Nutrition, Metabolism and Diabetes study"
+* #"Nutrition, Metabolism and Diabetes" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#nutrition-metabolism-and-diabetes
+* #"Nutrition, Metabolism and Diabetes" ^designation.value = "Nutrition, Metabolism and Diabetes study"
 
-* #NOTAP "Not Applicable" "Not Applicable study"
-* #NOTAP ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #NOTAP ^designation.value = "Not Applicable study - internal label"
+* #"Population Genomics" "Population Genomics" "Population Genomics study"
+* #"Population Genomics" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#population-genomics
+* #"Population Genomics" ^designation.value = "Population Genomics study"
 
-* #OTHER "Other" "Other study"
-* #OTHER ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #OTHER ^designation.value = "Other study - internal label"
+* #"Rare Diseases" "Rare Diseases" "Rare Diseases study"
+* #"Rare Diseases" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#rare-diseases
+* #"Rare Diseases" ^designation.value = "Rare Diseases study"
+
+* #"Not Applicable" "Not Applicable" "Not Applicable study"
+* #"Not Applicable" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#not-applicable
+* #"Not Applicable" ^designation.value = "Not Applicable study"
+
+* #"Other" "Other" "Other study"
+* #"Other" ^designation.use = http://acme.com/config/fhir/codesystems/research-domain#other
+* #"Other" ^designation.value = "Other study"

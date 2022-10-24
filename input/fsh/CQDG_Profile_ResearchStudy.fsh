@@ -9,10 +9,11 @@ Description: "A research study in CQDG"
   * coding 0..1
   * text 0..1
 
-* keyword 0..*  // Codes GA4GH: voir projet FHIR
+* keyword 0..*  // Codes GA4GH
   * text 0..1
 * status 1..1
   
+* extension contains PopulationInfo named population 0..1
 * extension contains AccessLimitations named accessLimitations 0..1
 * extension contains AccessRequirements named accessRequirements 0..*
 
@@ -35,11 +36,11 @@ Description: "An example of a research study."
 * contact[=].telecom.system = #url
 * contact[=].telecom.value = "https://sdas.cartagene.qc.ca"
 
-// TO DO: code system DUO OWL 
+ 
 * category[0].coding[0].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/study-domain" 
-* category[=].coding[=].code = #GH
+* category[=].coding[=].code = #"General Health"
 * category[=].coding[=].display = "General Health"
-// * category[=].text = "free text to talk about general health"
+
 
 // Note: pas lié au consentement de l'individu mais plutot au business model de l'étude.
 * extension[accessLimitations][0].valueCoding.code = $DUO#0000005

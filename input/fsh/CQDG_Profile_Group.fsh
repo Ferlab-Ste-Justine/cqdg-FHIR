@@ -5,6 +5,9 @@ Description: "A CQDG group"
 * ^version = "1.0.0"
 * ^status = #active
 
+* code.coding
+  * system from FamilyTypeVS
+
 Instance: CQDGGroupExample
 InstanceOf: CQDG_Group
 Description: "An example of a cqdg group"
@@ -15,17 +18,13 @@ Description: "An example of a cqdg group"
 * quantity = 3 // number of people in the group
 * actual = true
 
-* identifier[0]
-  * use = #official
-  * system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-  // * value
+* identifier[0].use = #official
 
-// A VERIFIER
-// * code // should specify: case-parent trio, case-sibling
-//   * coding[0].system
-//   * coding[0].code
-//   * coding[0].display
+* code.coding[0].display = #"Case - affected relative"
 
 * member[0].entity.reference = "Patient/123415"
 * member[+].entity.reference = "Patient/123416"
 * member[+].entity.reference = "Patient/123417"
+
+// to do: create extension
+// * subject.reference = "/Patient/123051"

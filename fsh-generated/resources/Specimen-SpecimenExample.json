@@ -31,13 +31,10 @@
   "type": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "version": "20220331",
-        "code": "119297000",
-        "display": "Blood Specimen"
+        "display": "DNA"
       }
     ],
-    "text": "TOTAL DNA"
+    "text": "DNA"
   },
   "subject": {
     "reference": "/Patient/123051"
@@ -51,7 +48,7 @@
     "bodySite": {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
+          "system": "undefined",
           "version": "20220331",
           "code": "362889002",
           "display": ""

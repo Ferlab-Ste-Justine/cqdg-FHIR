@@ -1,14 +1,10 @@
 CodeSystem: CQDGStudyCS
 Id: cqdg-study-cs
-Description: "Code system for rapid study identification"
-
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs"
-//* ^identifier.system = "http://acme.com/identifiers/codesystems"
+
 * ^identifier.value = "research-domain"
-* ^version = "20220401"
 * ^status = #draft
 * ^experimental = true
-* ^date = "2022-04-01"
 * ^publisher = "FerLab"
 * ^contact.name = "FerLab FHIR project team"
 * ^contact.telecom.system = #url
@@ -16,10 +12,14 @@ Description: "Code system for rapid study identification"
 * ^caseSensitive = true
 * ^content = #complete
 
-* #CAG "CARTaGENE" "CARTaGENE study"
-* #CAG ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #CAG ^designation.value = "Étude CARTaGENE"
+* #"Cartagène" "CARTaGENE" "CARTaGENE study"
+* #"Cartagène" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Cartagène" ^designation.value = "Étude CARTaGENE"
 
-* #OTH "Other" "Another study"
-* #OTH ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
-* #OTH ^designation.value = "Autre étude"
+* #"Developmental and Epileptic Encephalopathies" "Developmental and Epileptic Encephalopathies"
+* #"Developmental and Epileptic Encephalopathies" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Developmental and Epileptic Encephalopathies" ^designation.value = "Étude CARTaGENE"
+
+* #"Other" "Other" "Another study"
+* #"Other" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Other" ^designation.value = "Autre étude"

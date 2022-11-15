@@ -6,7 +6,7 @@
   "title": "Access requirement value set",
   "description": "Requirements before access",
   "version": "0.1.0",
-  "url": "http://example.org/ValueSet/access-requirement-vs",
+  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/access-requirement-vs",
   "compose": {
     "include": [
       {
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "system": "http://acme.com/config/fhir/codesystems/access-requirements-codes"
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/access-requirements"
       }
     ]
   }

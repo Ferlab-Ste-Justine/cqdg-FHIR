@@ -4,7 +4,7 @@ Id: cqdg-task
 Title: "profile task"
 
 // exemple de CLIN
-Instance: CQDGTask
+Instance: CQDGTaskExample
 InstanceOf: Task
 Usage: #example
 // * meta.versionId = "1"

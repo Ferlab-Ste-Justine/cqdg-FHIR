@@ -5,42 +5,42 @@
   "name": "ExperimentalStrategy",
   "id": "experimental-strategy",
   "version": "0.1.0",
-  "url": "http://acme.com/config/fhir/codesystems/family-type-codes",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy",
   "concept": [
     {
-      "code": "Whole Exome Sequencing",
+      "code": "WXS",
       "display": "Whole Exome Sequencing",
       "designation": [
         {
           "use": {
-            "code": "whole-exome-sequencing",
-            "system": "http://acme.com/config/fhir/codesystems/experimental-strategy"
+            "code": "WXS",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
           },
           "value": "Whole Exome Sequencing"
         }
       ]
     },
     {
-      "code": "Whole Genome Sequencing",
+      "code": "WGS",
       "display": "Whole Genome Sequencing",
       "designation": [
         {
           "use": {
-            "code": "whole-genome-sequencing",
-            "system": "http://acme.com/config/fhir/codesystems/experimental-strategy"
+            "code": "WGS",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
           },
           "value": "Whole Genome Sequencing"
         }
       ]
     },
     {
-      "code": "Targeted Sequencing",
+      "code": "TARS",
       "display": "Targeted Sequencing",
       "designation": [
         {
           "use": {
-            "code": "targeted-sequencing",
-            "system": "http://acme.com/config/fhir/codesystems/experimental-strategy"
+            "code": "TARS",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
           },
           "value": "Targeted Sequencing"
         }

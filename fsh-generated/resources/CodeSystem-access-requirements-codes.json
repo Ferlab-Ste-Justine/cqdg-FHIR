@@ -5,7 +5,7 @@
   "name": "AccessRequirementsCodes",
   "id": "access-requirements-codes",
   "version": "0.1.0",
-  "url": "http://acme.com/config/fhir/codesystems/access-requirements-codes",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/access-requirements",
   "concept": [
     {
       "code": "Authorized",
@@ -14,7 +14,7 @@
         {
           "use": {
             "code": "authorized",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/access-requirements-codes"
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/access-requirements"
           },
           "value": "Authorized"
         }

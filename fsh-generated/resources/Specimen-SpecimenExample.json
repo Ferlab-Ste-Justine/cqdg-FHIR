@@ -8,12 +8,12 @@
       }
     ],
     "profile": [
-      "http://example.org/StructureDefinition/cqdg-speciimen"
+      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
     ]
   },
   "extension": [
     {
-      "url": "http://example.org/StructureDefinition/AgeAt",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
       "valueInteger": 19,
       "valueString": "days"
     }

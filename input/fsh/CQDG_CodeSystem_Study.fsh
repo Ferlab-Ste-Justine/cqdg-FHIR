@@ -13,13 +13,13 @@ Id: cqdg-study-cs
 * ^content = #complete
 
 * #"Cartagène" "CARTaGENE" "CARTaGENE study"
-* #"Cartagène" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Cartagène" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs#internal-label
 * #"Cartagène" ^designation.value = "Étude CARTaGENE"
 
 * #"Developmental and Epileptic Encephalopathies" "Developmental and Epileptic Encephalopathies"
-* #"Developmental and Epileptic Encephalopathies" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Developmental and Epileptic Encephalopathies" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs#internal-label
 * #"Developmental and Epileptic Encephalopathies" ^designation.value = "Étude CARTaGENE"
 
 * #"Other" "Other" "Another study"
-* #"Other" ^designation.use = http://acme.com/config/fhir/codesystems/internal#internal-label
+* #"Other" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs#internal-label
 * #"Other" ^designation.value = "Autre étude"

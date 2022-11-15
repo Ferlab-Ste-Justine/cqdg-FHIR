@@ -4,11 +4,11 @@
   "name": "FamilyTypeVS",
   "id": "family-type-vs",
   "version": "0.1.0",
-  "url": "http://example.org/ValueSet/family-type-vs",
+  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/family-type-vs",
   "compose": {
     "include": [
       {
-        "system": "http://acme.com/config/fhir/codesystems/family-type-codes"
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/family-type"
       }
     ]
   }

@@ -30,17 +30,17 @@
   ],
   "extension": [
     {
-      "url": "http://example.org/StructureDefinition/AgeAt",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
       "valueInteger": 30,
       "valueString": "days"
     },
     {
-      "url": "http://example.org/StructureDefinition/AgeAt",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
       "valueInteger": 12,
       "valueString": "years"
     },
     {
-      "url": "http://example.org/StructureDefinition/QCEthnicity",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",
       "valueCodeableConcept": {
         "coding": [
           {

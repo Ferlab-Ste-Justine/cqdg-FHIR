@@ -7,26 +7,22 @@ Id: document-format
 * #"CRAM" ^designation.language = #fr
 * #"CRAM" ^designation.value = "CRAM"
 
-* #"BAM" "BAM"
-* #"BAM" ^designation.language = #fr
-* #"BAM" ^designation.value = "BAM"
+* #"CRAI" "CRAI Index File"
+* #"CRAI" ^designation.language = #fr
+* #"CRAI" ^designation.value = "CRAI"
 
 * #"VCF" "VCF"
 * #"VCF" ^designation.language = #fr
 * #"VCF" ^designation.value = "VCF"
 
-* #"gVCF" "gVCF"
+* #"TGZ" "TGZ Archive File"
+* #"TGZ" ^designation.language = #fr
+* #"TGZ" ^designation.value = "TGZ"
+
+* #"gVCF" "gVCF File"
 * #"gVCF" ^designation.language = #fr
 * #"gVCF" ^designation.value = "gVCF"
 
-* #"CRAI Index File" "CRAI Index File"
-* #"CRAI Index File" ^designation.language = #fr
-* #"CRAI Index File" ^designation.value = "CRAI Index File"
-
-* #"TBI Index File" "TBI Index File"
-* #"TBI Index File" ^designation.language = #fr
-* #"TBI Index File" ^designation.value = "TBI Index File"
-
-* #"TGZ Archive File" "TGZ Archive File"
-* #"TGZ Archive File" ^designation.language = #fr
-* #"TGZ Archive File" ^designation.value = "TGZ Archive File"
+* #"TBI" "TBI Index File"
+* #"TBI" ^designation.language = #fr
+* #"TBI" ^designation.value = "TBI"

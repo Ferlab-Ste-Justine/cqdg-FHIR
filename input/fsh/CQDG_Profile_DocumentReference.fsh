@@ -7,7 +7,7 @@ Description: "A CQDG group"
 
 
 // exemple de CLIN
-Instance: 290977
+Instance: DocumentReferenceExample
 InstanceOf: DocumentReference
 Usage: #example
 

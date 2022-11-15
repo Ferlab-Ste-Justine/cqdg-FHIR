@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "QCEthnicity",
-  "url": "http://example.org/StructureDefinition/QCEthnicity",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",
   "version": "0.1.0",
   "name": "QCEthnicity",
   "status": "active",
@@ -40,7 +40,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/QCEthnicity"
+        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity"
       },
       {
         "id": "Extension.value[x]",

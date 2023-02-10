@@ -38,7 +38,7 @@ Usage: #example
 * status = #completed
 * intent = #order
 * priority = #routine
-* code = http://fhir.cqdg.ferlab.bio/CodeSystem/bioinfo-analysis-code#"Reads Alignement Bioinformatic Analysis" "Reads Alignement Bioinformatic Analysis"
+* code = http://fhir.cqdg.ferlab.bio/CodeSystem/bioinfo-analysis-code#"RABA" "Reads Alignement Bioinformatic Analysis"
 // * focus = Reference(ServiceRequest/22222)
 // * for = Reference(Patient/22222)
 // * authoredOn = "2022-08-12T16:45:44+00:00"

@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "ObsDiseaseStatExample",
+  "meta": {
+    "profile": [
+      "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationDiseaseStatus"
+    ]
+  },
+  "status": "registered",
+  "code": {
+    "coding": [
+      {
+        "code": "12126-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "Affected"
+      }
+    ]
+  }
+}

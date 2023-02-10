@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "ObsPhenotypeExample",
+  "meta": {
+    "profile": [
+      "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationPhenotype"
+    ]
+  },
+  "status": "registered",
+  "subject": {
+    "reference": "Patient/123415"
+  },
+  "valueCodeableConcept": {
+    "text": "Phenotype source text"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "12126-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

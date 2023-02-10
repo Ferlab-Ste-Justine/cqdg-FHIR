@@ -24,8 +24,6 @@ Description: "Requirements before access"
 * $DUO#DUO:00000045 "not for profit organisation use only"
 * $DUO#DUO:00000046 "non-commercial use only"
 
-* include codes from system access-requirements-codes
-
 
 
 

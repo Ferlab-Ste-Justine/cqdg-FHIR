@@ -5,7 +5,7 @@
   "name": "TumorNormalDesignation",
   "id": "tumor-normal-designation",
   "version": "0.1.0",
-  "url": "http://acme.com/config/fhir/codesystems/tumor-normal-designation-codes",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation",
   "concept": [
     {
       "code": "Normal",
@@ -14,7 +14,7 @@
         {
           "use": {
             "code": "normal",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes"
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
           },
           "value": "Normal"
         }
@@ -27,7 +27,7 @@
         {
           "use": {
             "code": "Tumor",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes"
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
           },
           "value": "Tumor"
         }
@@ -40,7 +40,7 @@
         {
           "use": {
             "code": "not-applicable",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes"
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
           },
           "value": "Not applicable"
         }

@@ -3,7 +3,7 @@ CodeSystem: QCEthnicity
 Id: qc-ethnicity
 Title: "Ethnicites in Quebec"
 Description: "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
-* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity-codes"
+* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity"
 // * ^publisher = "Ferlab.bio"
 // * ^caseSensitive = true
 
@@ -19,9 +19,9 @@ Description: "Classification of people living in Quebec in a named category of h
 * #"First Nations, Metis and Inuit people" ^designation.language = #fr
 * #"First Nations, Metis and Inuit people" ^designation.value = "Premières Nations, Métis et Inuits du Canada"
 
-* #"European Caucasia" "European Caucasia" "Anyone from or whose ancestors originate from the European continent (excluding French Canadians)."
-* #"European Caucasia" ^designation.language = #fr
-* #"European Caucasia" ^designation.value = "Caucasien Européen"
+* #"European Caucasian" "European Caucasian" "Anyone from or whose ancestors originate from the European continent (excluding French Canadians)."
+* #"European Caucasian" ^designation.language = #fr
+* #"European Caucasian" ^designation.value = "Caucasien Européen"
 
 * #"Arabe" "Arabe"
 * #"Arabe" ^designation.language = #fr

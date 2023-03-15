@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqdg-speciimen",
+  "id": "cqdg-specimen",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://example.org/StructureDefinition/cqdg-speciimen",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen",
   "version": "0.1.0",
   "name": "CQDGSpecimen",
   "status": "active",
@@ -64,7 +64,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://example.org/StructureDefinition/AgeAt"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt"
             ]
           }
         ]
@@ -79,7 +79,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://example.org/StructureDefinition/specific-id"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/specific-id"
             ]
           }
         ]
@@ -94,7 +94,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://example.org/StructureDefinition/specific-id"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/specific-id"
             ]
           }
         ]

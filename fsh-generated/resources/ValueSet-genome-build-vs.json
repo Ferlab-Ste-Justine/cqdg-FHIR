@@ -4,11 +4,11 @@
   "name": "GenomeBuildVS",
   "id": "genome-build-vs",
   "version": "0.1.0",
-  "url": "http://example.org/ValueSet/genome-build-vs",
+  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/genome-build-vs",
   "compose": {
     "include": [
       {
-        "system": "http://acme.com/config/fhir/codesystems/genome-build"
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build"
       }
     ]
   }

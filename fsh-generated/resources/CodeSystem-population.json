@@ -5,7 +5,7 @@
   "name": "Population",
   "id": "population",
   "version": "0.1.0",
-  "url": "http://acme.com/config/fhir/codesystems/population",
+  "url": "http://fhir.cqdg.ferlab.bio/codesystem/population",
   "concept": [
     {
       "code": "Pediatric",
@@ -14,7 +14,7 @@
         {
           "use": {
             "code": "pediatric",
-            "system": "http://acme.com/config/fhir/codesystems/population"
+            "system": "http://fhir.cqdg.ferlab.bio/codesystem/population"
           },
           "value": "Pediatric"
         }
@@ -27,7 +27,7 @@
         {
           "use": {
             "code": "pediatric-and-adult",
-            "system": "http://acme.com/config/fhir/codesystems/population"
+            "system": "http://fhir.cqdg.ferlab.bio/codesystem/population"
           },
           "value": "Pediatric and Adult"
         }

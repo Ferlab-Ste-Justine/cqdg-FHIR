@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fhir.cqdg",
-  "url": "http://example.org/ImplementationGuide/fhir.cqdg",
+  "url": "http://fhir.cqdg.ferlab.bio/ImplementationGuide/fhir.cqdg",
   "version": "0.1.0",
   "name": "CQDG_FHIR_IG",
   "status": "draft",
@@ -100,7 +100,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/cqdg-speciimen"
+          "reference": "StructureDefinition/cqdg-specimen"
         },
         "name": "CQDGSpecimen",
         "exampleBoolean": false
@@ -306,7 +306,7 @@
         "reference": {
           "reference": "ValueSet/sample-type-tissue-source-vs"
         },
-        "name": "SampleTypeTissueSourceVS",
+        "name": "CQDG Tissue Source Value Set",
         "exampleBoolean": false
       },
       {
@@ -328,13 +328,6 @@
           "reference": "ValueSet/tumor-normal-designation-vs"
         },
         "name": "TumorNormalDesignationVS",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/access-requirements-codes"
-        },
-        "name": "AccessRequirementsCodes",
         "exampleBoolean": false
       },
       {
@@ -364,6 +357,14 @@
           "reference": "CodeSystem/cause-of-death-codes"
         },
         "name": "CauseOfDeathCodes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/duo-codes"
+        },
+        "name": "DUOCodes",
+        "description": "Duo Codes",
         "exampleBoolean": false
       },
       {
@@ -432,6 +433,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/qc-sample-type"
+        },
+        "name": "Sample Type Code System",
+        "description": "Tissue sample types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/research-domain"
         },
         "name": "ResearchDomain",
@@ -453,24 +462,17 @@
       },
       {
         "reference": {
-          "reference": "DocumentReference/290977"
-        },
-        "name": "290977",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Group/CQDGGroupExample"
         },
         "name": "CQDGGroupExample",
         "description": "An example of a cqdg group",
-        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-group"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-group"
       },
       {
         "reference": {
-          "reference": "Task/CQDGTask"
+          "reference": "Task/CQDGTaskExample"
         },
-        "name": "CQDGTask",
+        "name": "CQDGTaskExample",
         "exampleBoolean": true
       },
       {
@@ -479,14 +481,21 @@
         },
         "name": "ConditionExample",
         "description": "An example of a cqdg patient.",
-        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-condition"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-condition"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/DocumentReferenceExample"
+        },
+        "name": "DocumentReferenceExample",
+        "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "Observation/ObsDiseaseStatExample"
         },
         "name": "ObsDiseaseStatExample",
-        "exampleCanonical": "http://example.org/StructureDefinition/CQDGObservationDiseaseStatus"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationDiseaseStatus"
       },
       {
         "reference": {
@@ -494,14 +503,14 @@
         },
         "name": "ObsPhenotypeExample",
         "description": "Example instance of Observation - Phenotype",
-        "exampleCanonical": "http://example.org/StructureDefinition/CQDGObservationPhenotype"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationPhenotype"
       },
       {
         "reference": {
           "reference": "Observation/ObsSocHistExample"
         },
         "name": "ObsSocHistExample",
-        "exampleCanonical": "http://example.org/StructureDefinition/CQDGObservationSocialHistory"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationSocialHistory"
       },
       {
         "reference": {
@@ -509,7 +518,7 @@
         },
         "name": "PatientExample",
         "description": "An example of a cqdg patient.",
-        "exampleCanonical": "http://fhir.cqdg-fhir-ig/StructureDefinition/cqdg-patient"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient"
       },
       {
         "reference": {
@@ -517,7 +526,7 @@
         },
         "name": "ResearchStudyExample",
         "description": "An example of a research study.",
-        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-research-study"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-research-study"
       },
       {
         "reference": {
@@ -525,20 +534,14 @@
         },
         "name": "SpecimenExample",
         "description": "An example of a specimen",
-        "exampleCanonical": "http://example.org/StructureDefinition/cqdg-speciimen"
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
       }
     ],
     "page": {
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": [
-        {
-          "nameUrl": "index.html",
-          "title": "Home",
-          "generation": "markdown"
-        }
-      ]
+      "page": []
     },
     "parameter": [
       {

@@ -1,15 +1,15 @@
 CodeSystem: TumorNormalDesignation
 Id: tumor-normal-designation
-* ^url = "http://acme.com/config/fhir/codesystems/tumor-normal-designation-codes"
+* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
 
-* #"Normal"  "Normal" 
-* #"Normal"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes#normal 
+* #"Normal"  "Normal"
+* #"Normal"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation#normal
 * #"Normal"  ^designation.value = "Normal"
 
-* #"Tumor"  "Tumor" 
-* #"Tumor"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes#Tumor 
+* #"Tumor"  "Tumor"
+* #"Tumor"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation#Tumor
 * #"Tumor"  ^designation.value = "Tumor"
 
-* #"Not applicable"  "Not applicable" 
-* #"Not applicable"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-codes#not-applicable 
+* #"Not applicable"  "Not applicable"
+* #"Not applicable"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation#not-applicable
 * #"Not applicable"  ^designation.value = "Not applicable"

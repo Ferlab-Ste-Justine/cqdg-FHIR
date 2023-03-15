@@ -1,6 +1,6 @@
 {
   "resourceType": "DocumentReference",
-  "id": "290977",
+  "id": "DocumentReferenceExample",
   "meta": {
     "tag": [
       {
@@ -21,8 +21,8 @@
   "type": {
     "coding": [
       {
-        "code": "SSUP",
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+        "code": "Sequencing Data Supplement",
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
         "display": "Sequencing Data Supplement"
       }
     ]
@@ -31,8 +31,8 @@
     {
       "coding": [
         {
-          "code": "GENO",
-          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+          "code": "Genomics",
+          "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category",
           "display": "Genomics"
         }
       ]
@@ -49,7 +49,7 @@
       "attachment": {
         "extension": [
           {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size",
+            "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/full-size",
             "valueDecimal": 22799222
           }
         ],
@@ -58,7 +58,7 @@
       },
       "format": {
         "code": "TGZ",
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/document-format",
         "display": "TGZ Archive File"
       }
     }

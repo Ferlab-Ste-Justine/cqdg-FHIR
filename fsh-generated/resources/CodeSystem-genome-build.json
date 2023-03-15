@@ -5,7 +5,7 @@
   "name": "GenomeBuild",
   "id": "genome-build",
   "version": "0.1.0",
-  "url": "http://acme.com/config/fhir/codesystems/genome-build",
+  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build",
   "concept": [
     {
       "code": "GRCh38",
@@ -14,7 +14,7 @@
         {
           "use": {
             "code": "GRCh38",
-            "system": "http://acme.com/config/fhir/codesystems/genome-build"
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build"
           },
           "value": "GRCh38"
         }

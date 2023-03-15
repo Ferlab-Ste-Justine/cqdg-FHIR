@@ -1,9 +1,5 @@
 ValueSet: SampleTypeTissueSourceVS
 Id: sample-type-tissue-source-vs
+Title: "CQDG Tissue Source Value Set"
 
-* $NCIT#C449	"DNA"
-* $NCIT#C812	"Ribonucleic Acid"
-* $NCIT#C12434	"Blood"
-* $NCIT#C13275	"Saliva"
-* $NCIT#C164014	"Solid Tissue Specimen"
-* $NCIT#C12431	"Bone Marrow"
+* include codes from system qc-sample-type

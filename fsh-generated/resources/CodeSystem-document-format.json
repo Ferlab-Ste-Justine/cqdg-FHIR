@@ -18,12 +18,12 @@
       ]
     },
     {
-      "code": "BAM",
-      "display": "BAM",
+      "code": "CRAI",
+      "display": "CRAI Index File",
       "designation": [
         {
           "language": "fr",
-          "value": "BAM"
+          "value": "CRAI"
         }
       ]
     },
@@ -38,8 +38,18 @@
       ]
     },
     {
+      "code": "TGZ",
+      "display": "TGZ Archive File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "TGZ"
+        }
+      ]
+    },
+    {
       "code": "gVCF",
-      "display": "gVCF",
+      "display": "gVCF File",
       "designation": [
         {
           "language": "fr",
@@ -48,35 +58,15 @@
       ]
     },
     {
-      "code": "CRAI Index File",
-      "display": "CRAI Index File",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "CRAI Index File"
-        }
-      ]
-    },
-    {
-      "code": "TBI Index File",
+      "code": "TBI",
       "display": "TBI Index File",
       "designation": [
         {
           "language": "fr",
-          "value": "TBI Index File"
-        }
-      ]
-    },
-    {
-      "code": "TGZ Archive File",
-      "display": "TGZ Archive File",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "TGZ Archive File"
+          "value": "TBI"
         }
       ]
     }
   ],
-  "count": 7
+  "count": 6
 }

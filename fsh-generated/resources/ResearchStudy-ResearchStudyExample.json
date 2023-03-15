@@ -3,57 +3,57 @@
   "id": "ResearchStudyExample",
   "meta": {
     "profile": [
-      "http://example.org/StructureDefinition/cqdg-research-study",
+      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-research-study",
       "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
     ]
   },
   "extension": [
     {
-      "url": "http://example.org/StructureDefinition/AccessLimitations",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessLimitations",
       "valueCoding": {
-        "code": "0000005",
+        "code": "DUO:0000005",
         "display": "obsolete general research use and clinical care"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000019",
+        "code": "DUO:0000019",
         "display": "publication required"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000021",
+        "code": "$DUO:0000021",
         "display": "ethics approval required"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000025",
+        "code": "$DUO:0000025",
         "display": "time limit on use"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000026",
+        "code": "DUO:0000026",
         "display": "user specific restriction"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000027",
+        "code": "DUO:0000027",
         "display": "project specific restriction"
       }
     },
     {
-      "url": "http://example.org/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
       "valueCoding": {
-        "code": "0000029",
+        "code": "DUO:0000029",
         "display": "return to database or resource"
       }
     }

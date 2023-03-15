@@ -4,11 +4,11 @@
   "name": "TumorNormalDesignationVS",
   "id": "tumor-normal-designation-vs",
   "version": "0.1.0",
-  "url": "http://example.org/ValueSet/tumor-normal-designation-vs",
+  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/tumor-normal-designation-vs",
   "compose": {
     "include": [
       {
-        "system": "http://acme.com/config/fhir/codesystems/tumor-normal-designation-codes"
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
       }
     ]
   }

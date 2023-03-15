@@ -1,14 +1,8 @@
-Extension: QCEthnicity
-Description: "qc ethnicity for cqdg project"
-* value[x] only CodeableConcept 
-* valueCodeableConcept from $QCETH
-
-
 Profile: CQDGPatient
 Parent: Patient
 Id: cqdg-patient // becomes the canonical URL for this
 
-* ^url = "http://fhir.cqdg-fhir-ig/StructureDefinition/cqdg-patient" 
+* ^url = "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient"
 * ^version = "0.1.0"
 
 * meta.profile ..1
@@ -39,23 +33,23 @@ Description: "An example of a cqdg patient."
 * identifier[CQDG_ID].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier"
 * identifier[CQDG_ID].value = "CQDG_1234567"
 
-* identifier[1].use = #secondary 
-* identifier[1].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier" 
+* identifier[1].use = #secondary
+* identifier[1].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier"
 * identifier[1].value = "35849400001"
 
 * identifier[2].use = #secondary
-* identifier[2].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier" 
+* identifier[2].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier"
 * identifier[2].value = "343434343434"
 
 * gender = #male
 
 * deceasedBoolean = true
 * extension[ageOfDeath].valueInteger = 30
-* extension[ageOfDeath].valueString = "days" 
+* extension[ageOfDeath].valueString = "days"
 
 * extension[ageAtRecruitment].valueInteger = 12
 * extension[ageAtRecruitment].valueString = "years"
 
-* extension[ethnicity].valueCodeableConcept = $QCETH#CA-FR
+* extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
 
 

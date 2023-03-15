@@ -1,7 +1,7 @@
 // new profile definition
 Profile: CQDGSpecimen
-Parent: Specimen 
-Id: cqdg-speciimen
+Parent: Specimen
+Id: cqdg-specimen
 
 * collection
   * bodySite
@@ -31,7 +31,7 @@ Description: "An example of a specimen"
 
 * subject.reference = "/Patient/123051"
 
-* parent.reference = "/Specimen/124516" 
+* parent.reference = "/Specimen/124516"
 
 * extension[ageBiospecimenCollection].valueInteger = 19
 * extension[ageBiospecimenCollection].valueString = "days"

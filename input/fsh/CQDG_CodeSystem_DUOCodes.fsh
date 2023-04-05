@@ -1,7 +1,13 @@
 CodeSystem: DUOCodes
 Id: duo-codes
 Description: "Duo Codes"
+
 * ^url = $DUO
+* ^title = "DUO codes"
+* ^experimental = false
+* ^description = "DUO codes"
+* ^caseSensitive = true
+
 
 * #"DUO:0000012" "research specific restrictions"
 * #"DUO:0000012" ^designation.use = $DUO#DUO:0000012

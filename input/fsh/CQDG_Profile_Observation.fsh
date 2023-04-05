@@ -37,7 +37,7 @@ Profile: CQDGObservationCauseOfDeath
 Parent: CQDGObservationGroup
 * valueCodeableConcept
   * coding
-    * system from http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death 
+    * system from http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes 
 
 Profile: CQDGObservationPhenotype
 Parent: CQDGObservationGroup

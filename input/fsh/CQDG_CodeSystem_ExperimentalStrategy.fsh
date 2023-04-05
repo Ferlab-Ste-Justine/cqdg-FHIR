@@ -1,6 +1,11 @@
 CodeSystem: ExperimentalStrategy
 Id: experimental-strategy
+
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
+* ^title = "Experimental strategy"
+* ^experimental = false
+* ^description = "Experimental strategy"
+* ^caseSensitive = true
 
 * #"WXS" "Whole Exome Sequencing"
 * #"WXS" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy#WXS

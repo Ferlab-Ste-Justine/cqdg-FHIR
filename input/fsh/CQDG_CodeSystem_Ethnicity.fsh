@@ -3,9 +3,10 @@ CodeSystem: QCEthnicity
 Id: qc-ethnicity
 Title: "Ethnicites in Quebec"
 Description: "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
+
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity"
-// * ^publisher = "Ferlab.bio"
-// * ^caseSensitive = true
+* ^experimental = false
+* ^caseSensitive = true
 
 * #"French Canadian" "French Canadian" "Descendants of the First Nations of the St. Lawrence Valley"
 * #"French Canadian" ^designation.language = #fr

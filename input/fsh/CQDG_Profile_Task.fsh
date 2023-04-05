@@ -46,11 +46,11 @@ Usage: #example
 * owner = Reference(Organization/CQGC)
 * input.type.text = "Analysed sample"
 * input.valueReference = Reference(Specimen/222222) "Submitter Sample ID: 22222"
-* output[0].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Aligned Reads" "Aligned Reads"
+* output[0].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Aligned-reads" "Aligned Reads"
 * output[=].valueReference = Reference(DocumentReference/289787)
 * output[+].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#SNV "SNV"
 * output[=].valueReference = Reference(DocumentReference/289788)
-* output[+].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Germline CNV" "Germline CNV"
+* output[+].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Germline-CNV" "Germline CNV"
 * output[=].valueReference = Reference(DocumentReference/289789)
-* output[+].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Sequencing Data Supplement" "Sequencing Data Supplement"
+* output[+].type = http://fhir.cqdg.ferlab.bio/CodeSystem/data-type#"Sequencing-data-supplement" "Sequencing-data-supplement"
 * output[=].valueReference = Reference(DocumentReference/289790)

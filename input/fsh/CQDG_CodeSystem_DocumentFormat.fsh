@@ -1,6 +1,11 @@
 CodeSystem: DocumentForamt
 Id: document-format
+
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/document-format"
+* ^title = "Document format"
+* ^experimental = false
+* ^description = "Document format"
+* ^caseSensitive = true
 
 
 * #"CRAM" "CRAM"

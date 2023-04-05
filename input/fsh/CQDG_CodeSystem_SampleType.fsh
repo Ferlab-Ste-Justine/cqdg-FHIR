@@ -3,9 +3,13 @@ CodeSystem: QCSampleType
 Id: qc-sample-type
 Title: "Sample Type Code System"
 Description: "Tissue sample types"
+
 * ^url = "http://purl.obolibrary.org/obo/ncit.owl"
-// * ^publisher = "Ferlab.bio"
-// * ^caseSensitive = true
+* ^title = "QC Sample Type"
+* ^experimental = false
+* ^description = "Qc sample type"
+* ^caseSensitive = true
+
 
 * #"NCIT:C449" "DNA"
 * #"NCIT:C449" ^designation.language = #fr

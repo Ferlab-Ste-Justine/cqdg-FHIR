@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "CQDGObservationCauseOfDeath",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationCauseOfDeath",
   "version": "0.1.0",
   "name": "CQDGObservationCauseOfDeath",
@@ -71,7 +61,7 @@
         "path": "Observation.valueCodeableConcept.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death"
+          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes"
         }
       }
     ]

@@ -334,86 +334,96 @@
         "reference": {
           "reference": "CodeSystem/bioinfo-analysis-code"
         },
-        "name": "BioinfoAnalysisCode",
+        "name": "Bioinformatics analysis code",
+        "description": "Bioinformatics analysis code",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/cqdg-observation-code"
         },
-        "name": "CQDGObservationCode",
-        "description": "CQDG Observation categories",
+        "name": "CQDG Observation codes",
+        "description": "CQDG Observation codes",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/cqdg-study-cs"
         },
-        "name": "CQDGStudyCS",
+        "name": "CQDG study code system",
+        "description": "CQDG study code system",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/cause-of-death-codes"
         },
-        "name": "CauseOfDeathCodes",
+        "name": "Codes for cause of death",
+        "description": "Codes for cause of death",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/duo-codes"
         },
-        "name": "DUOCodes",
-        "description": "Duo Codes",
+        "name": "DUO codes",
+        "description": "DUO codes",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/data-category"
         },
-        "name": "DataCategory",
+        "name": "Data category",
+        "description": "Data category",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/data-type"
         },
-        "name": "DataType",
+        "name": "Data Type",
+        "description": "Data Type",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/disease-status-cs"
         },
-        "name": "DiseaseStatusCS",
+        "name": "Disease Status Code System",
+        "description": "Disease status code system",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/document-format"
         },
-        "name": "DocumentForamt",
+        "name": "Document format",
+        "description": "Document format",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/experimental-strategy"
         },
-        "name": "ExperimentalStrategy",
+        "name": "Experimental strategy",
+        "description": "Experimental strategy",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/family-type"
         },
-        "name": "FamilyType",
+        "name": "Family type",
+        "description": "Family type",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/genome-build"
         },
-        "name": "GenomeBuild",
+        "name": "Genome Build",
+        "description": "Genome build",
         "exampleBoolean": false
       },
       {
@@ -421,6 +431,7 @@
           "reference": "CodeSystem/population"
         },
         "name": "Population",
+        "description": "Population",
         "exampleBoolean": false
       },
       {
@@ -435,29 +446,32 @@
         "reference": {
           "reference": "CodeSystem/qc-sample-type"
         },
-        "name": "Sample Type Code System",
-        "description": "Tissue sample types",
+        "name": "QC Sample Type",
+        "description": "Qc sample type",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/research-domain"
         },
-        "name": "ResearchDomain",
+        "name": "Research Domain",
+        "description": "Research domain",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/tumor-normal-designation"
         },
-        "name": "TumorNormalDesignation",
+        "name": "Tumor normal designation",
+        "description": "Tumor normal designation",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/v3-role-code"
         },
-        "name": "V3RoleCode",
+        "name": "v3 Role Code",
+        "description": "V3 role code",
         "exampleBoolean": false
       },
       {
@@ -482,13 +496,6 @@
         "name": "ConditionExample",
         "description": "An example of a cqdg patient.",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-condition"
-      },
-      {
-        "reference": {
-          "reference": "DocumentReference/DocumentReferenceExample"
-        },
-        "name": "DocumentReferenceExample",
-        "exampleBoolean": true
       },
       {
         "reference": {

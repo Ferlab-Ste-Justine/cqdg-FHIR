@@ -31,3 +31,11 @@ Id: document-format
 * #"TBI" "TBI Index File"
 * #"TBI" ^designation.language = #fr
 * #"TBI" ^designation.value = "TBI"
+
+* #"BW" "BW File"
+* #"BW" ^designation.language = #fr
+* #"BW" ^designation.value = "BW"
+
+* #"BED" "BED File"
+* #"BED" ^designation.language = #fr
+* #"BED" ^designation.value = "BED"

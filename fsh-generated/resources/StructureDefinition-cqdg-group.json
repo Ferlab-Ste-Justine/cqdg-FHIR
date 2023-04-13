@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqdg-group",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Individuals"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-group",
   "version": "1.0.0",
   "name": "CQDG_Group",

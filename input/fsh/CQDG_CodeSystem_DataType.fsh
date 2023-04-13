@@ -31,3 +31,7 @@ Id: data-type
 * #"Germline-structural-variant" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem//data-type#Germline-structural-variant
 * #"Germline-structural-variant" ^designation.value = "Germline Structural Variant"
 
+* #"IGV" "IGV"
+* #"IGV" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem//data-type#IGV
+* #"IGV" ^designation.value = "IGV"
+

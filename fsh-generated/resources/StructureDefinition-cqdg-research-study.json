@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqdg-research-study",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Specialized.Public Health &amp; Research"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-research-study",
   "version": "0.1.0",
   "name": "CQDGResearchStudy",

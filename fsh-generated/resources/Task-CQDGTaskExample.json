@@ -104,7 +104,7 @@
       "type": {
         "coding": [
           {
-            "code": "Aligned Reads",
+            "code": "Aligned-reads",
             "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
             "display": "Aligned Reads"
           }
@@ -132,7 +132,7 @@
       "type": {
         "coding": [
           {
-            "code": "Germline CNV",
+            "code": "Germline-CNV",
             "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
             "display": "Germline CNV"
           }
@@ -146,9 +146,9 @@
       "type": {
         "coding": [
           {
-            "code": "Sequencing Data Supplement",
+            "code": "Sequencing-data-supplement",
             "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
-            "display": "Sequencing Data Supplement"
+            "display": "Sequencing-data-supplement"
           }
         ]
       },

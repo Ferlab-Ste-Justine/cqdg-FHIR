@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqdg-patient",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Individuals"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient",
   "version": "0.1.0",
   "name": "CQDGPatient",

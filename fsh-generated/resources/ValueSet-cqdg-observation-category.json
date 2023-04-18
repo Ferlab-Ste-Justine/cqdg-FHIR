@@ -9,7 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/CodeSystem/observation-code"
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-observation-code"
       }
     ]
   }

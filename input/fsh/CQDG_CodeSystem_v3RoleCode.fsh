@@ -49,11 +49,11 @@ Id: v3-role-code
 * #"Fraternal-twin-sister"  ^designation.value = "Fraternal twin sister"
 
 * #"Son"  "Son" 
-* #"Son"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code#son
+* #"Son"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code#Son
 * #"Son"  ^designation.value = "Son"
 
 * #"Daughter"  "Daughter" 
-* #"Daughter"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code#daughter
+* #"Daughter"  ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code#Daughter
 * #"Daughter"  ^designation.value = "Daughter"
 
 

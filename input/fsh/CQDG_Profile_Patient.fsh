@@ -17,8 +17,8 @@ Id: cqdg-patient // becomes the canonical URL for this
 
 * extension contains AgeAt named ageOfDeath 0..1
 * extension contains AgeAt named ageAtRecruitment 0..*
+// * extension contains QCEthnicity named ethnicity 0..1
 * extension contains QCEthnicity named ethnicity 0..1
-
 
 
 

@@ -5,13 +5,13 @@ Id: cqdg-specimen
 
 * collection
   * bodySite
-    * coding.system from $NCIT
+    * coding.system from CQDGSpecimenVS
 * extension contains AgeAt named ageBiospecimenCollection 0..1
 
 * extension contains SpecificID named cqdg_biospecimen_id 0..1
 * extension contains SpecificID named cqdg_sample_id 0..1
 
-* type.coding.system from $NCIT
+* type.coding.system from CQDGSpecimenVS
 
 // -----------------------------------------------------
 // example instance of profile defined

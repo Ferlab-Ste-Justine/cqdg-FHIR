@@ -17,5 +17,5 @@ Id: population
 * #"Adult" ^designation.value = "Adult"
 
 * #"Pediatric-and-Adult" "Pediatric and Adult"
-* #"Adult" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/population#Pediatric-and-adult
-* #"Adult" ^designation.value = "Pediatric and Adult"
+* #"Pediatric-and-Adult" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/population#Pediatric-and-Adult
+* #"Pediatric-and-Adult" ^designation.value = "Pediatric and Adult"

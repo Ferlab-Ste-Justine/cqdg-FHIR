@@ -2,7 +2,7 @@ CodeSystem: DUOCodes
 Id: duo-codes
 Description: "Duo Codes"
 
-* ^url = $DUO
+* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/duo-codes"
 * ^title = "DUO codes"
 * ^experimental = false
 * ^description = "DUO codes"

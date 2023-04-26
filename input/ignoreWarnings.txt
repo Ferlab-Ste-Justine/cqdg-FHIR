@@ -1,0 +1,9 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+Code System URI 'http://fhir.cqdg.ferlab.bio/CodeSystem//data-type' is unknown so the code cannot be validated
+Code System URI 'http://purl.obolibrary.org/obo/duo.owl' is unknown so the code cannot be validated
+Code System URI 'http://purl.obolibrary.org/obo/mondo.owl' is unknown so the code cannot be validated

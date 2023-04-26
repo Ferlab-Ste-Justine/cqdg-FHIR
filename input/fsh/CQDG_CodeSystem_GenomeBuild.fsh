@@ -1,8 +1,8 @@
 CodeSystem: GenomeBuild
 Id: genome-build
+Title: "Ferlab.bio CodeSystem/genome-build"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build"
-* ^title = "Genome Build"
 * ^experimental = false
 * ^description = "Genome build"
 * ^caseSensitive = true

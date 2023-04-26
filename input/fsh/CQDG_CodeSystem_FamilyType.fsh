@@ -1,8 +1,8 @@
 CodeSystem: FamilyType
 Id: family-type
+Title: "Ferlab.bio CodeSystem/family-type"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/family-type"
-* ^title = "Family type"
 * ^experimental = false
 * ^description = "Family type"
 * ^caseSensitive = true

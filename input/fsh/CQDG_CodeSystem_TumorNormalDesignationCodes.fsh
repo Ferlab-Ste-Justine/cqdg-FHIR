@@ -1,8 +1,8 @@
 CodeSystem: TumorNormalDesignation
 Id: tumor-normal-designation
+Title: "Ferlab.bio CodeSystem/tumor-normal-designation"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
-* ^title = "Tumor normal designation"
 * ^experimental = false
 * ^description = "Tumor normal designation"
 * ^caseSensitive = true

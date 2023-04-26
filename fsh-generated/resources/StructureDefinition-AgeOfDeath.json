@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "AgeOfDeath",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeOfDeath",
+  "version": "0.1.0",
+  "name": "AgeOfDeath",
+  "title": "Ferlab.bio Extension/age-of-death",
+  "status": "active",
+  "description": "Age Of Death Extension",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/age-of-death",
+        "definition": "Age Of Death Extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeOfDeath"
+      }
+    ]
+  }
+}

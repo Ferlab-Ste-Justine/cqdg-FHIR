@@ -1,7 +1,7 @@
 CodeSystem: CQDGStudyCS
 Id: cqdg-study-cs
+Title: "Ferlab.bio CodeSystem/cqdg-study"
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs"
-* ^title = "CQDG study code system"
 * ^description = "CQDG study code system"
 * ^experimental = false
 * ^caseSensitive = true

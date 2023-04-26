@@ -4,6 +4,7 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessLimitations",
   "version": "0.1.0",
   "name": "AccessLimitations",
+  "title": "Ferlab.bio Extension/access-limitations",
   "status": "active",
   "description": "Limitation of access to studies.",
   "fhirVersion": "4.0.1",
@@ -30,6 +31,7 @@
       {
         "id": "Extension",
         "path": "Extension",
+        "short": "Ferlab.bio Extension/access-limitations",
         "definition": "Limitation of access to studies."
       },
       {

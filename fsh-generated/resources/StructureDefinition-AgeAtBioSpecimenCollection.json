@@ -1,10 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AgeAt",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
+  "id": "AgeAtBioSpecimenCollection",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection",
   "version": "0.1.0",
-  "name": "AgeAt",
+  "name": "AgeAtBiospecimenCollection",
+  "title": "Ferlab.bio Extension/age-at-biospecimen-collection",
   "status": "active",
+  "description": "Age At Bio Specimen Collection Extension",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -27,9 +29,15 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/age-at-biospecimen-collection",
+        "definition": "Age At Bio Specimen Collection Extension"
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt"
+        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection"
       }
     ]
   }

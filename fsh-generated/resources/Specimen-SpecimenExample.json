@@ -13,9 +13,13 @@
   },
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
-      "valueInteger": 19,
-      "valueString": "days"
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection",
+      "valueAge": {
+        "value": 12,
+        "code": "d",
+        "system": "http://unitsofmeasure.org",
+        "unit": "days"
+      }
     }
   ],
   "identifier": [
@@ -29,11 +33,6 @@
     }
   ],
   "subject": {
-    "reference": "/Patient/123051"
-  },
-  "parent": [
-    {
-      "reference": "/Specimen/124516"
-    }
-  ]
+    "reference": "Patient/PatientExample"
+  }
 }

@@ -4,6 +4,7 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
   "version": "0.1.0",
   "name": "AccessRequirements",
+  "title": "Ferlab.bio Extension/access-requirement",
   "status": "active",
   "description": "Requirements to access to studies.",
   "fhirVersion": "4.0.1",
@@ -30,6 +31,7 @@
       {
         "id": "Extension",
         "path": "Extension",
+        "short": "Ferlab.bio Extension/access-requirement",
         "definition": "Requirements to access to studies."
       },
       {

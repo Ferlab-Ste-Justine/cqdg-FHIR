@@ -1,11 +1,10 @@
 // Code system originally from CLIN, with modifications
 CodeSystem: QCSampleType
 Id: qc-sample-type
-Title: "Sample Type Code System"
+Title: "Ferlab.bio CodeSystem/sample-type"
 Description: "Tissue sample types"
 
-* ^url = "http://purl.obolibrary.org/obo/ncit.owl"
-* ^title = "QC Sample Type"
+* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-sample-type"
 * ^experimental = false
 * ^description = "Qc sample type"
 * ^caseSensitive = true

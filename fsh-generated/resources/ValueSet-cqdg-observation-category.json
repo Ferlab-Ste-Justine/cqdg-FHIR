@@ -3,9 +3,10 @@
   "status": "active",
   "name": "CQDGObservationCategory",
   "id": "cqdg-observation-category",
-  "title": "CQDG observation value set",
+  "title": "Ferlab.bio ValueSet/cqdg-observation",
   "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/ValueSet/cqdg-observation-category",
+  "description": "Observation ValueSet",
   "compose": {
     "include": [
       {

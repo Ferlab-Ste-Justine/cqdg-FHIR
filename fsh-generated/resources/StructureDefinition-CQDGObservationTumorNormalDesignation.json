@@ -4,7 +4,9 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationTumorNormalDesignation",
   "version": "0.1.0",
   "name": "CQDGObservationTumorNormalDesignation",
+  "title": "Ferlab.bio StructureDefinition/tumor-normal-designation",
   "status": "active",
+  "description": "An example of a cqdg Observation Group",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -61,7 +63,7 @@
         "path": "Observation.valueCodeableConcept.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation"
+          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/tumor-normal-designation-vs"
         }
       }
     ]

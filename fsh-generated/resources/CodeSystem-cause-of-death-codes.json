@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "CauseOfDeathCodes",
   "id": "cause-of-death-codes",
+  "title": "Ferlab.bio CodeSystem/cause-of-death",
   "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes",
   "concept": [
@@ -112,9 +113,9 @@
       ]
     }
   ],
-  "title": "Codes for cause of death",
   "experimental": false,
   "description": "Codes for cause of death",
   "caseSensitive": true,
+  "publisher": "ferlab.bio",
   "count": 8
 }

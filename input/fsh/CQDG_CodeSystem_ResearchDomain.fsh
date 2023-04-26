@@ -1,8 +1,8 @@
 CodeSystem: ResearchDomain
 Id: research-domain
+Title: "Ferlab.bio CodeSystem/research-domain"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/research-domain"
-* ^title = "Research Domain"
 * ^experimental = false
 * ^description = "Research domain"
 * ^caseSensitive = false

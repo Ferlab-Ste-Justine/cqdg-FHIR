@@ -12,11 +12,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/123415",
-    "identifier": {
-      "system": "specify",
-      "value": "number"
-    }
+    "reference": "Patient/PatientExample"
   },
   "identifier": [
     {
@@ -42,8 +38,10 @@
     "text": "fatigue"
   },
   "onsetAge": {
-    "value": 5,
-    "unit": "years"
+    "value": 5000,
+    "unit": "days",
+    "code": "d",
+    "system": "http://unitsofmeasure.org"
   },
   "stage": [
     {

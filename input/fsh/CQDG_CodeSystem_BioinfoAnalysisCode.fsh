@@ -1,9 +1,9 @@
 CodeSystem: BioinfoAnalysisCode
 Id: bioinfo-analysis-code
+Title: "Ferlab.bio CodeSystem/bioinformatics-analysis"
 
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/bioinfo-analysis-code"
-* ^title = "Bioinformatics analysis code"
 * ^experimental = false
 * ^description = "Bioinformatics analysis code"
 * ^caseSensitive = true

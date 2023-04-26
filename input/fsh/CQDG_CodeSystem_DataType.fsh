@@ -1,8 +1,8 @@
 CodeSystem: DataType
 Id: data-type
+Title: "Ferlab.bio CodeSystem/data-type"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type"
-* ^title = "Data Type"
 * ^experimental = false
 * ^description = "Data Type"
 * ^caseSensitive = true

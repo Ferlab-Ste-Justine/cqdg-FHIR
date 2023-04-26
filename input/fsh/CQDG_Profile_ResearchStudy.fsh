@@ -3,6 +3,7 @@ Profile: CQDGResearchStudy
 Parent: ResearchStudy
 Id: cqdg-research-study
 Description: "A research study in CQDG"
+Title: "Ferlab.bio StructureDefinition/cqdg-study"
 
 
 * category 0..1
@@ -22,6 +23,7 @@ Description: "A research study in CQDG"
 Instance: ResearchStudyExample
 InstanceOf: CQDGResearchStudy
 Description: "An example of a research study."
+Title: "Ferlab.bio Example/cqdg-study"
 
 * meta.profile = "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
 
@@ -68,8 +70,3 @@ Description: "An example of a research study."
 * keyword[+].text = "chronic conditions"
 * keyword[+].text = "population-based cohort"
 * keyword[+].text = "survey data"
-
-// à vérifier
-* principalInvestigator[0].reference = "Practitioner/10123"
-* principalInvestigator[0].display = "to be determined"
-

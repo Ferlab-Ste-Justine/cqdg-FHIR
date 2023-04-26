@@ -4,7 +4,9 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationCauseOfDeath",
   "version": "0.1.0",
   "name": "CQDGObservationCauseOfDeath",
+  "title": "Ferlab.bio StructureDefinition/cause-of-death",
   "status": "active",
+  "description": "An example of a cqdg Observation (cause of death)",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -61,7 +63,7 @@
         "path": "Observation.valueCodeableConcept.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes"
+          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-vs"
         }
       }
     ]

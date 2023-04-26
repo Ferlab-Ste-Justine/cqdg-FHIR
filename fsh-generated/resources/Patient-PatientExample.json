@@ -13,31 +13,32 @@
   },
   "identifier": [
     {
-      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier",
-      "use": "official",
-      "value": "CQDG_1234567"
+      "system": "https://fhir.qa.cqdg.ferlab.bio/fhir/Patient",
+      "value": "PatientExample"
     },
     {
       "use": "secondary",
-      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier",
-      "value": "35849400001"
-    },
-    {
-      "use": "secondary",
-      "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/external-identifier",
       "value": "343434343434"
     }
   ],
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
-      "valueInteger": 30,
-      "valueString": "days"
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeOfDeath",
+      "valueAge": {
+        "value": 30,
+        "code": "d",
+        "system": "http://unitsofmeasure.org",
+        "unit": "days"
+      }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt",
-      "valueInteger": 12,
-      "valueString": "years"
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtRecruitment",
+      "valueAge": {
+        "value": 12,
+        "code": "d",
+        "system": "http://unitsofmeasure.org",
+        "unit": "days"
+      }
     },
     {
       "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",

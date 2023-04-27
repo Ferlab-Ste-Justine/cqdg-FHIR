@@ -8,12 +8,12 @@
       }
     ],
     "profile": [
-      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient"
+      "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
     ]
   },
   "identifier": [
     {
-      "system": "https://fhir.qa.cqdg.ferlab.bio/fhir/Patient",
+      "system": "https://fhir.cqdg.ca/fhir/Patient",
       "value": "PatientExample"
     },
     {
@@ -23,7 +23,7 @@
   ],
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeOfDeath",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
       "valueAge": {
         "value": 30,
         "code": "d",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtRecruitment",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "valueAge": {
         "value": 12,
         "code": "d",
@@ -41,12 +41,12 @@
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
       "valueCodeableConcept": {
         "coding": [
           {
             "code": "Arabe",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity"
+            "system": "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"
           }
         ]
       }

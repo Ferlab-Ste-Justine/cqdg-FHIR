@@ -6,11 +6,11 @@
   "title": "Ferlab.bio ValueSet/data-category",
   "description": "Data Category ValueSet",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/data-category-vs",
+  "url": "http://fhir.cqdg.ca/ValueSet/data-category-vs",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category"
+        "system": "http://fhir.cqdg.ca/CodeSystem/data-category"
       }
     ]
   }

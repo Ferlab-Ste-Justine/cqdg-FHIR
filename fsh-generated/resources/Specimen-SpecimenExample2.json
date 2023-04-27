@@ -8,28 +8,28 @@
       }
     ],
     "profile": [
-      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
+      "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
     ]
   },
+  "identifier": [
+    {
+      "system": "https://fhir.cqdg.ca/fhir/Specimen",
+      "value": "SpecimenExample2"
+    },
+    {
+      "use": "secondary",
+      "value": "cag_sp_05569"
+    }
+  ],
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
       "valueAge": {
         "value": 12,
         "code": "d",
         "system": "http://unitsofmeasure.org",
         "unit": "days"
       }
-    }
-  ],
-  "identifier": [
-    {
-      "use": "official",
-      "value": "SP1"
-    },
-    {
-      "use": "secondary",
-      "value": "sample20479"
     }
   ],
   "subject": {

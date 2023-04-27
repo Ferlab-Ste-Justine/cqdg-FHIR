@@ -8,22 +8,18 @@
       }
     ],
     "profile": [
-      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-condition"
+      "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"
     ]
-  },
-  "subject": {
-    "reference": "Patient/PatientExample"
   },
   "identifier": [
     {
-      "use": "official",
-      "value": "DD_4HEERBYY3"
-    },
-    {
-      "use": "secondary",
-      "value": "SPEC00001"
+      "system": "https://fhir.cqdg.ca/fhir/Condition",
+      "value": "ConditionExample"
     }
   ],
+  "subject": {
+    "reference": "Patient/PatientExample"
+  },
   "code": {
     "coding": [
       {

@@ -5,12 +5,12 @@
   "id": "experimental-strategy-vs",
   "title": "Ferlab.bio ValueSet/experimental-strategy",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/experimental-strategy-vs",
+  "url": "http://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
   "description": "Experimental Strategy ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
+        "system": "http://fhir.cqdg.ca/CodeSystem/experimental-strategy"
       }
     ]
   }

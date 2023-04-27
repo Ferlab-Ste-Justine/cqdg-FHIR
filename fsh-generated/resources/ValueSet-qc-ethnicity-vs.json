@@ -5,12 +5,12 @@
   "id": "qc-ethnicity-vs",
   "title": "Ferlab.bio ValueSet/qa-ethnicity",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/qc-ethnicity-vs",
+  "url": "http://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
   "description": "QCEthnicity ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity-cs"
+        "system": "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"
       }
     ]
   }

@@ -5,12 +5,12 @@
   "id": "cqdg-observation-category",
   "title": "Ferlab.bio ValueSet/cqdg-observation",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/cqdg-observation-category",
+  "url": "http://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
   "description": "Observation ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-observation-code"
+        "system": "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"
       }
     ]
   }

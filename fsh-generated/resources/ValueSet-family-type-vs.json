@@ -5,12 +5,12 @@
   "id": "family-type-vs",
   "title": "Ferlab.bio ValueSet/family-type",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/family-type-vs",
+  "url": "http://fhir.cqdg.ca/ValueSet/family-type-vs",
   "description": "Family Type ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/family-type"
+        "system": "http://fhir.cqdg.ca/CodeSystem/family-type"
       }
     ]
   }

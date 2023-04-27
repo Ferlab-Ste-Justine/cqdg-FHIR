@@ -6,7 +6,7 @@
   "id": "data-category",
   "title": "Ferlab.bio CodeSystem/data-category",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category",
+  "url": "http://fhir.cqdg.ca/CodeSystem/data-category",
   "concept": [
     {
       "code": "Genomics",
@@ -15,7 +15,7 @@
         {
           "use": {
             "code": "Genomics",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category"
+            "system": "http://fhir.cqdg.ca/CodeSystem/data-category"
           },
           "value": "Genomics"
         }

@@ -3,7 +3,7 @@ Id: duo-codes
 Description: "Duo Codes"
 Title: "Ferlab.bio CodeSystem/duo-codes"
 
-* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/duo-codes"
+* ^url = "http://fhir.cqdg.ca/CodeSystem/duo-codes"
 * ^experimental = false
 * ^description = "DUO codes"
 * ^caseSensitive = true

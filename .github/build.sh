@@ -2,12 +2,12 @@
 set -euo pipefail
 
 echo "Running pip install"
-#pip install .
+pip install .
 
 
 mkdir -p scripts
-chmod u+x scripts/*.sh
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O scripts/publisher.jar
+chmod u+x scripts/publisher.jar
 sudo gem install jekyll
 
 echo "Generating IG"

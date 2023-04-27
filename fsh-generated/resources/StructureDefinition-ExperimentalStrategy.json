@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ExperimentalStrategy",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/ExperimentalStrategy",
+  "url": "http://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy",
   "version": "0.1.0",
   "name": "ExperimentalStrategy",
   "title": "Ferlab.bio StructureDefinition/experimental-strategy",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ferlab.bio/StructureDefinition/SequencingExperimentExtension",
+  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

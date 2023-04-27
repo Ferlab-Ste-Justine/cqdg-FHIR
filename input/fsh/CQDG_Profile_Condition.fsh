@@ -8,6 +8,12 @@ Title: "Ferlab.bio StructureDefinition/cqdg-condition"
 * onsetAge 0..1
 * onsetAge only Age
 
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #openAtEnd
+* identifier contains CQDG_ID 1..1
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Condition"
+
 
 
 Instance: ConditionExample
@@ -18,11 +24,8 @@ Description: "An example of a cqdg patient."
 * meta.tag[0].code = #CAG
 * subject.reference = "Patient/PatientExample"
 
-* identifier[0].use = #official
-* identifier[=].value = "DD_4HEERBYY3"
-
-* identifier[+].use = #secondary
-* identifier[=].value = "SPEC00001"
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Condition"
+* identifier[CQDG_ID].value = "ConditionExample"
 
 // only an example, could be MONDO, ICD-10, HPO - non restreint pour le moment
 * code.coding[0].code = $ICD10CA#L40

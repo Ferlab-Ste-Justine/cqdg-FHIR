@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Running pip install"
-pip install .
-
 
 mkdir -p scripts
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O scripts/publisher.jar

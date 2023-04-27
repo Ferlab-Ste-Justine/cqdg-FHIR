@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WorkflowName",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowName",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowName",
   "version": "0.1.0",
   "name": "WorkflowName",
   "title": "Ferlab.bio StructureDefinition/workflow-name",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
+  "baseDefinition": "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

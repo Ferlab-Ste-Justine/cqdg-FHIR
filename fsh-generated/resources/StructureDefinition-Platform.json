@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Platform",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/Platform",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/Platform",
   "version": "0.1.0",
   "name": "Platform",
   "title": "Ferlab.bio StructureDefinition/platform",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
+  "baseDefinition": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

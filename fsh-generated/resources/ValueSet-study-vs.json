@@ -5,12 +5,12 @@
   "id": "study-vs",
   "title": "Ferlab.bio ValueSet/cqdg-study",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ca/ValueSet/study-vs",
+  "url": "https://fhir.cqdg.ca/ValueSet/study-vs",
   "description": "Study ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"
+        "system": "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"
       }
     ]
   }

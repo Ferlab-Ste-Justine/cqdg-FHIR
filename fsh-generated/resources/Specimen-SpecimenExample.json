@@ -8,7 +8,7 @@
       }
     ],
     "profile": [
-      "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
+      "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
     ]
   },
   "identifier": [
@@ -23,7 +23,7 @@
   ],
   "extension": [
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
       "valueAge": {
         "value": 12,
         "code": "d",

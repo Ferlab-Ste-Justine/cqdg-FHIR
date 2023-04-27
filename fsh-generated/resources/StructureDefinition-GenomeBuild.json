@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "GenomeBuild",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/GenomeBuild",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/GenomeBuild",
   "version": "0.1.0",
   "name": "GenomeBuild",
   "title": "Ferlab.bio StructureDefinition/genome-build",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
+  "baseDefinition": "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

@@ -4,7 +4,7 @@ Id: qc-ethnicity
 Title: "Ferlab.bio CodeSystem/qc-ethnicity"
 Description: "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
 
-* ^url = "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"
+* ^url = "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"
 * ^experimental = false
 * ^caseSensitive = true
 

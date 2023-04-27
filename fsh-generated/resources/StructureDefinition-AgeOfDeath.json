@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "AgeOfDeath",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
   "version": "0.1.0",
   "name": "AgeOfDeath",
   "title": "Ferlab.bio Extension/age-of-death",
@@ -37,7 +37,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"
       }
     ]
   }

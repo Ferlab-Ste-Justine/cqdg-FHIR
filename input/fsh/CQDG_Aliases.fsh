@@ -9,7 +9,7 @@ Alias: $LOINC = http://loinc.org
 Alias: $ICD10CA = http://terminology.hl7.org/CodeSystem/icd10-CA                // TO DO: à valider
 Alias: $MONDO = http://purl.obolibrary.org/obo/mondo.owl                        // TO DO: convertir les fichiers .owl
 Alias: $DUO = http://purl.obolibrary.org/obo/duo.owl                            // TO DO: convertir les fichiers .owl
-Alias: $QCETH = http://fhir.cqdg.ca/CodeSystem/qc-ethnicity
+Alias: $QCETH = https://fhir.cqdg.ca/CodeSystem/qc-ethnicity
 Alias: $NCIT = http://purl.obolibrary.org/obo/ncit.owl
 Alias: $OBCAT = http://terminology.hl7.org/CodeSystem/observation-category
 

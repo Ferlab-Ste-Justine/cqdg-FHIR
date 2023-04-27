@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fhir.cqdg",
-  "url": "http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg",
+  "url": "https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg",
   "version": "0.1.0",
   "name": "CQDG_FHIR_IG",
   "status": "draft",
@@ -613,7 +613,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-group",
         "description": "An example of a cqdg group",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-group"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-group"
       },
       {
         "reference": {
@@ -629,7 +629,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-condition",
         "description": "An example of a cqdg patient.",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"
       },
       {
         "reference": {
@@ -653,7 +653,7 @@
         },
         "name": "Ferlab.bio Example/disease-status",
         "description": "An example of a cqdg Observation (disease)",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"
       },
       {
         "reference": {
@@ -661,7 +661,7 @@
         },
         "name": "Ferlab.bio Example/phenotype",
         "description": "An example of a cqdg Observation (phenotype)",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
       },
       {
         "reference": {
@@ -677,7 +677,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-patient",
         "description": "An example of a cqdg patient.",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
       },
       {
         "reference": {
@@ -685,7 +685,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-study",
         "description": "An example of a research study.",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"
       },
       {
         "reference": {
@@ -693,7 +693,7 @@
         },
         "name": "Ferlab.bio Example/specimen1",
         "description": "An example of a specimen",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
       },
       {
         "reference": {
@@ -701,7 +701,7 @@
         },
         "name": "Ferlab.bio Example/specimen2",
         "description": "An example of a specimen",
-        "exampleCanonical": "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
       }
     ],
     "page": {

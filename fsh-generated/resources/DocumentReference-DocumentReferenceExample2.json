@@ -13,7 +13,7 @@
       "attachment": {
         "extension": [
           {
-            "url": "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
+            "url": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
             "valueDecimal": 22799222
           }
         ],
@@ -22,7 +22,7 @@
       },
       "format": {
         "code": "TGZ",
-        "system": "http://fhir.cqdg.ca/CodeSystem/document-format",
+        "system": "https://fhir.cqdg.ca/CodeSystem/document-format",
         "display": "TGZ Archive File"
       }
     }
@@ -41,7 +41,7 @@
     "coding": [
       {
         "code": "Aligned-reads",
-        "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
+        "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
         "display": "Aligned Reads"
       }
     ]
@@ -51,7 +51,7 @@
       "coding": [
         {
           "code": "Genomics",
-          "system": "http://fhir.cqdg.ca/CodeSystem/data-category",
+          "system": "https://fhir.cqdg.ca/CodeSystem/data-category",
           "display": "Genomics"
         }
       ]

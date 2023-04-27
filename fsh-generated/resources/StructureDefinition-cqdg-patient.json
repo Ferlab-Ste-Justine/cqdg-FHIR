@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqdg-patient",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
   "version": "0.1.0",
   "name": "CQDGPatient",
   "title": "Ferlab.bio StructureDefinition/cqdg-patient",
@@ -76,7 +76,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"
+              "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"
             ]
           }
         ]
@@ -91,7 +91,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"
+              "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"
             ]
           }
         ]
@@ -106,7 +106,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity"
+              "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity"
             ]
           }
         ]

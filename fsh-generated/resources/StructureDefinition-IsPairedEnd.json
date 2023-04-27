@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "IsPairedEnd",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/IsPairedEnd",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/IsPairedEnd",
   "version": "0.1.0",
   "name": "IsPairedEnd",
   "title": "Ferlab.bio StructureDefinition/is-paired-end",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
+  "baseDefinition": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

@@ -18,7 +18,7 @@ Description: "An example of a cqdg Observation Group"
 // specimen.reference: est déjà dans le profile Observation
 * valueCodeableConcept
   * coding
-    * system from http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs
+    * system from https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs
 
 
 Profile: CQDGObservationDiseaseStatus
@@ -27,7 +27,7 @@ Title: "Ferlab.bio StructureDefinition/disease-status"
 Description: "An example of a cqdg group"
 * valueCodeableConcept
   * coding
-    * system from http://fhir.cqdg.ca/CodeSystem/disease-status
+    * system from https://fhir.cqdg.ca/CodeSystem/disease-status
 
 
 Profile: CQDGObservationCauseOfDeath
@@ -36,7 +36,7 @@ Title: "Ferlab.bio StructureDefinition/cause-of-death"
 Description: "An example of a cqdg Observation (cause of death)"
 * valueCodeableConcept
   * coding
-    * system from http://fhir.cqdg.ca/CodeSystem/cause-of-death-vs
+    * system from https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs
 
 Profile: CQDGObservationPhenotype
 Parent: CQDGObservationGroup

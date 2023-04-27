@@ -3,7 +3,7 @@
   "id": "CQDGTaskExample",
   "meta": {
     "profile": [
-      "http://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task"
+      "https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task"
     ]
   },
   "extension": [
@@ -22,11 +22,11 @@
           "valueCoding": {
             "code": "GRCh38",
             "display": "GRCh38",
-            "system": "http://fhir.cqdg.ca/CodeSystem/genome-build"
+            "system": "https://fhir.cqdg.ca/CodeSystem/genome-build"
           }
         }
       ],
-      "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension"
     },
     {
       "extension": [
@@ -47,7 +47,7 @@
           "valueCoding": {
             "code": "WXS",
             "display": "Whole Exome Sequencing",
-            "system": "http://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
           }
         },
         {
@@ -63,7 +63,7 @@
           "valueString": "MPS12348274-B04"
         }
       ],
-      "url": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
     }
   ],
   "status": "completed",
@@ -73,7 +73,7 @@
     "coding": [
       {
         "code": "RABA",
-        "system": "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "display": "Reads Alignement Bioinformatic Analysis"
       }
     ]
@@ -101,7 +101,7 @@
         "coding": [
           {
             "code": "Aligned-reads",
-            "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
             "display": "Aligned Reads"
           }
         ]
@@ -115,7 +115,7 @@
         "coding": [
           {
             "code": "SNV",
-            "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
             "display": "SNV"
           }
         ]
@@ -129,7 +129,7 @@
         "coding": [
           {
             "code": "Germline-CNV",
-            "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
             "display": "Germline CNV"
           }
         ]
@@ -143,7 +143,7 @@
         "coding": [
           {
             "code": "Sequencing-data-supplement",
-            "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
             "display": "Sequencing-data-supplement"
           }
         ]

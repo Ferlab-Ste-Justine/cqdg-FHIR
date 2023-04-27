@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "FullSizeExtension",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
   "version": "0.1.0",
   "name": "FullSizeExtension",
   "title": "Ferlab.bio Extension/full-size",
@@ -37,7 +37,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
       }
     ]
   }

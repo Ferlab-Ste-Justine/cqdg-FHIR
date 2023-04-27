@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "CQDGObservationPhenotype",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype",
   "version": "0.1.0",
   "name": "CQDGObservationPhenotype",
   "title": "Ferlab.bio StructureDefinition/phenotype",
@@ -43,7 +43,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group",
+  "baseDefinition": "https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group",
   "derivation": "constraint",
   "differential": {
     "element": [

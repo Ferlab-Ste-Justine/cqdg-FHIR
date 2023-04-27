@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "SequencingExperimentExtension",
-  "url": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
   "version": "0.1.0",
   "name": "SequencingExperimentExtension",
   "title": "Ferlab.bio StructureDefinition/sequencing-experiment",
@@ -126,7 +126,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
       },
       {
         "id": "Extension.value[x]",

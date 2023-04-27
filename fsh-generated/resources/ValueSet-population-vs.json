@@ -5,12 +5,12 @@
   "id": "population-vs",
   "title": "Ferlab.bio ValueSet/population",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ca/ValueSet/population-vs",
+  "url": "https://fhir.cqdg.ca/ValueSet/population-vs",
   "description": "Population ValueSet",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ca/CodeSystem/population"
+        "system": "https://fhir.cqdg.ca/CodeSystem/population"
       }
     ]
   }

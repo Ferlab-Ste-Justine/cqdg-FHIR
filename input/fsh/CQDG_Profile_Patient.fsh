@@ -4,7 +4,7 @@ Description: "An example of a cqdg Patient"
 Id: cqdg-patient // becomes the canonical URL for this
 Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 
-* ^url = "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
+* ^url = "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
 * ^version = "0.1.0"
 
 * meta.profile ..1

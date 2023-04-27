@@ -5,12 +5,12 @@
   "id": "cause-of-death-vs",
   "title": "Ferlab.bio ValueSet/cause-of-death",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ca/ValueSet/cause-of-death-vs",
+  "url": "https://fhir.cqdg.ca/ValueSet/cause-of-death-vs",
   "description": "Cause of death",
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"
+        "system": "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"
       }
     ]
   }

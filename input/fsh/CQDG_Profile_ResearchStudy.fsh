@@ -46,7 +46,7 @@ Title: "Ferlab.bio Example/cqdg-study"
 * contact[=].telecom.value = "https://sdas.cartagene.qc.ca"
 
 
-* category[0].coding[0].system = "http://fhir.cqdg.ca/CodeSystem/study-domain"
+* category[0].coding[0].system = "https://fhir.cqdg.ca/CodeSystem/study-domain"
 * category[=].coding[=].code = #"General Health"
 * category[=].coding[=].display = "General Health"
 

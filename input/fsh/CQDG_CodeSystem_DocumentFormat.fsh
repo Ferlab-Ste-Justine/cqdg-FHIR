@@ -2,7 +2,7 @@ CodeSystem: DocumentForamt
 Id: document-format
 Title: "Ferlab.bio CodeSystem/document-format"
 
-* ^url = "http://fhir.cqdg.ca/CodeSystem/document-format"
+* ^url = "https://fhir.cqdg.ca/CodeSystem/document-format"
 * ^experimental = false
 * ^description = "Document format"
 * ^caseSensitive = true

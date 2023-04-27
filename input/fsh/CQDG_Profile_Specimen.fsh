@@ -5,6 +5,12 @@ Id: cqdg-specimen
 Description: "An example of a cqdg Specimen"
 Title: "Ferlab.bio StructureDefinition/cqdg-specimen"
 
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #openAtEnd
+* identifier contains CQDG_ID 1..1
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
+
 * collection
   * bodySite
     * coding.system from CQDGSpecimenVS
@@ -22,11 +28,10 @@ Description: "An example of a specimen"
 * meta.tag[0].code = #CAG
 
 // sample or biospecimen identifier
-* identifier[0].use = #official
-* identifier[=].value = "SP1"
-
-* identifier[+].use = #secondary
-* identifier[=].value = "sample20478"
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
+* identifier[CQDG_ID].value = "SpecimenExample"
+* identifier[1].use = #secondary
+* identifier[=].value = "cag_sp_25565"
 
 
 * subject = Reference(Patient/PatientExample)
@@ -47,11 +52,10 @@ Description: "An example of a specimen"
 * meta.tag[0].code = #CAG
 
 // sample or biospecimen identifier
-* identifier[0].use = #official
-* identifier[=].value = "SP1"
-
-* identifier[+].use = #secondary
-* identifier[=].value = "sample20479"
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
+* identifier[CQDG_ID].value = "SpecimenExample2"
+* identifier[1].use = #secondary
+* identifier[=].value = "cag_sp_05569"
 
 
 * subject = Reference(Patient/PatientExample)

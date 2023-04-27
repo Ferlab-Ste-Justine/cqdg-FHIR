@@ -1,20 +1,20 @@
 CodeSystem: DiseaseStatusCS
-Id: disease-status-cs
+Id: disease-status
 Title: "Ferlab.bio CodeSystem/disease-status"
 
-* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs"
+* ^url = "http://fhir.cqdg.ca/CodeSystem/disease-status"
 * ^experimental = false
 * ^description = "Disease status code system"
 * ^caseSensitive = true
 
 * #"Affected" "Affected"
-* #"Affected" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs#Affected
+* #"Affected" ^designation.use = http://fhir.cqdg.ca/CodeSystem/disease-status#Affected
 * #"Affected" ^designation.value = "Affected"
 
 * #"Non-affected" "Non affected"
-* #"Non-affected" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs#Non-affected
+* #"Non-affected" ^designation.use = http://fhir.cqdg.ca/CodeSystem/disease-status#Non-affected
 * #"Non-affected" ^designation.value = "Non affected"
 
 * #"Unknown" "Unknown"
-* #"Unknown" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs#Unknown
+* #"Unknown" ^designation.use = http://fhir.cqdg.ca/CodeSystem/disease-status#Unknown
 * #"Unknown" ^designation.value = "Unknown"

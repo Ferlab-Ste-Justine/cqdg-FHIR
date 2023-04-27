@@ -22,7 +22,7 @@
     "coding": [
       {
         "code": "Sequencing-data-supplement",
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
+        "system": "http://fhir.cqdg.ca/CodeSystem/data-type",
         "display": "Sequencing Data Supplement"
       }
     ]
@@ -32,7 +32,7 @@
       "coding": [
         {
           "code": "Genomics",
-          "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category",
+          "system": "http://fhir.cqdg.ca/CodeSystem/data-category",
           "display": "Genomics"
         }
       ]
@@ -49,7 +49,7 @@
       },
       "format": {
         "code": "TGZ",
-        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/document-format",
+        "system": "http://fhir.cqdg.ca/CodeSystem/document-format",
         "display": "TGZ Archive File"
       }
     }

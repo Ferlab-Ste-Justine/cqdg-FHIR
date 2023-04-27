@@ -4,7 +4,7 @@ Id: qc-sample-type
 Title: "Ferlab.bio CodeSystem/sample-type"
 Description: "Tissue sample types"
 
-* ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-sample-type"
+* ^url = "http://fhir.cqdg.ca/CodeSystem/qc-sample-type"
 * ^experimental = false
 * ^description = "Qc sample type"
 * ^caseSensitive = true

@@ -5,6 +5,11 @@ Id: cqdg-research-study
 Description: "A research study in CQDG"
 Title: "Ferlab.bio StructureDefinition/cqdg-study"
 
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #openAtEnd
+* identifier contains CQDG_ID 1..1
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/ResearchStudy"
 
 * category 0..1
   * coding 0..1
@@ -27,7 +32,9 @@ Title: "Ferlab.bio Example/cqdg-study"
 
 * meta.profile = "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
 
-* identifier[0].use = #official
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/ResearchStudy"
+* identifier[CQDG_ID].value = "ResearchStudyExample"
+* identifier[1].use = #secondary
 * identifier[=].value = "CAG"
 
 * title = "CARTaGENE"
@@ -39,7 +46,7 @@ Title: "Ferlab.bio Example/cqdg-study"
 * contact[=].telecom.value = "https://sdas.cartagene.qc.ca"
 
 
-* category[0].coding[0].system = "http://fhir.cqdg.ferlab.bio/CodeSystem/study-domain"
+* category[0].coding[0].system = "http://fhir.cqdg.ca/CodeSystem/study-domain"
 * category[=].coding[=].code = #"General Health"
 * category[=].coding[=].display = "General Health"
 

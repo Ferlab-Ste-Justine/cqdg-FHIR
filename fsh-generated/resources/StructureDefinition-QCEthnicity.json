@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "QCEthnicity",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",
+  "url": "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
   "version": "0.1.0",
   "name": "QCEthnicity",
   "title": "Ferlab.bio Extension/qc-ethnicity",
@@ -42,7 +42,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity"
+        "fixedUri": "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity"
       },
       {
         "id": "Extension.value[x]",
@@ -70,7 +70,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.cqdg.ferlab.bio/CodeSystem/qc-ethnicity"
+          "valueSet": "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"
         }
       }
     ]

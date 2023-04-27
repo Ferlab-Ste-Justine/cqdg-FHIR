@@ -4,7 +4,7 @@ Description: "An example of a cqdg Patient"
 Id: cqdg-patient // becomes the canonical URL for this
 Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 
-* ^url = "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient"
+* ^url = "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
 * ^version = "0.1.0"
 
 * meta.profile ..1
@@ -15,7 +15,7 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #openAtEnd
 * identifier contains CQDG_ID 1..1
-* identifier[CQDG_ID].system = "https://fhir.qa.cqdg.ferlab.bio/fhir/Patient"
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Patient"
 
 * extension contains AgeOfDeath named ageOfDeath 0..1
 * extension contains AgeAtRecruitment named ageAtRecruitment 0..*
@@ -31,7 +31,7 @@ Title: "Ferlab.bio Example/cqdg-patient"
 
 * meta.tag[0].code = #CAG
 
-* identifier[CQDG_ID].system = "https://fhir.qa.cqdg.ferlab.bio/fhir/Patient"
+* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Patient"
 * identifier[CQDG_ID].value = "PatientExample"
 
 * identifier[1].use = #secondary

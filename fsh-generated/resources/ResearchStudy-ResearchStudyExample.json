@@ -3,65 +3,69 @@
   "id": "ResearchStudyExample",
   "meta": {
     "profile": [
-      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-research-study",
+      "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study",
       "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
     ]
   },
+  "identifier": [
+    {
+      "system": "https://fhir.cqdg.ca/fhir/ResearchStudy",
+      "value": "ResearchStudyExample"
+    },
+    {
+      "use": "secondary",
+      "value": "CAG"
+    }
+  ],
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessLimitations",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessLimitations",
       "valueCoding": {
         "code": "DUO:0000005",
         "display": "obsolete general research use and clinical care"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "DUO:0000019",
         "display": "publication required"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "$DUO:0000021",
         "display": "ethics approval required"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "$DUO:0000025",
         "display": "time limit on use"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "DUO:0000026",
         "display": "user specific restriction"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "DUO:0000027",
         "display": "project specific restriction"
       }
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AccessRequirements",
+      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "valueCoding": {
         "code": "DUO:0000029",
         "display": "return to database or resource"
       }
-    }
-  ],
-  "identifier": [
-    {
-      "use": "official",
-      "value": "CAG"
     }
   ],
   "title": "CARTaGENE",
@@ -82,7 +86,7 @@
     {
       "coding": [
         {
-          "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/study-domain",
+          "system": "http://fhir.cqdg.ca/CodeSystem/study-domain",
           "code": "General Health",
           "display": "General Health"
         }

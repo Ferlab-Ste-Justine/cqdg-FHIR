@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "RunName",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/RunName",
+  "url": "http://fhir.cqdg.ca/StructureDefinition/RunName",
   "version": "0.1.0",
   "name": "RunName",
   "title": "Ferlab.bio StructureDefinition/run-name",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://fhir.cqdg.ferlab.bio/StructureDefinition/SequencingExperimentExtension",
+  "baseDefinition": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
   "derivation": "constraint",
   "differential": {
     "element": [

@@ -6,7 +6,7 @@
   "id": "cqdg-study-cs",
   "title": "Ferlab.bio CodeSystem/cqdg-study",
   "version": "0.1.0",
-  "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs",
+  "url": "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
   "concept": [
     {
       "code": "Cartagène",
@@ -16,7 +16,7 @@
         {
           "use": {
             "code": "Cartagène",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs"
+            "system": "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"
           },
           "value": "Étude CARTaGENE"
         }
@@ -29,7 +29,7 @@
         {
           "use": {
             "code": "Developmental-and-Epileptic-Encephalopathies",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs"
+            "system": "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"
           },
           "value": "Étude CARTaGENE"
         }
@@ -43,7 +43,7 @@
         {
           "use": {
             "code": "Other",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-study-cs"
+            "system": "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"
           },
           "value": "Autre étude"
         }

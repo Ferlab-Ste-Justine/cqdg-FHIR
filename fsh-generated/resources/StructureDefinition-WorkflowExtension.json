@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WorkflowExtension",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/WorkflowExtension",
+  "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
   "version": "0.1.0",
   "name": "WorkflowExtension",
   "title": "Ferlab.bio StructureDefinition/cqdg-task",
@@ -78,7 +78,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/WorkflowExtension"
+        "fixedUri": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension"
       },
       {
         "id": "Extension.value[x]",

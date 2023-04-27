@@ -1,11 +1,12 @@
 CodeSystem: CauseOfDeathCodes
 Id: cause-of-death-codes
+Title: "Ferlab.bio CodeSystem/cause-of-death"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes"
-* ^title = "Codes for cause of death"
 * ^experimental = false
 * ^description = "Codes for cause of death"
 * ^caseSensitive = true
+* ^publisher = "ferlab.bio"
 
 * #"Cancer" "Cancer"
 * #"Cancer" ^designation.use = http://fhir.cqdg.ferlab.bio/CodeSystem/cause-of-death-codes#Cancer

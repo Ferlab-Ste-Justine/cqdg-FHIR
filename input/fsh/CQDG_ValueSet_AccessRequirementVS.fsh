@@ -1,7 +1,7 @@
 
 ValueSet: AccessRequirementVS
 Id: access-requirement-vs
-Title: "Access requirement value set"
+Title: "Ferlab.bio ValueSet/access-requirement"
 
 Description: "Requirements before access"
 

@@ -1,8 +1,8 @@
 CodeSystem: Population
 Id: population
+Title: "Ferlab.bio CodeSystem/population"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/population"
-* ^title = "Population"
 * ^experimental = false
 * ^description = "Population"
 * ^caseSensitive = true

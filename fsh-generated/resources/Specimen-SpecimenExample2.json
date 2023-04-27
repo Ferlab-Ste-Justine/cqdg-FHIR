@@ -1,0 +1,43 @@
+{
+  "resourceType": "Specimen",
+  "id": "SpecimenExample2",
+  "meta": {
+    "tag": [
+      {
+        "code": "CAG"
+      }
+    ],
+    "profile": [
+      "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection",
+      "valueAge": {
+        "value": 12,
+        "code": "d",
+        "system": "http://unitsofmeasure.org",
+        "unit": "days"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "value": "SP1"
+    },
+    {
+      "use": "secondary",
+      "value": "sample20479"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/PatientExample"
+  },
+  "parent": [
+    {
+      "reference": "Specimen/SpecimenExample"
+    }
+  ]
+}

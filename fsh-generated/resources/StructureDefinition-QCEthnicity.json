@@ -4,6 +4,7 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/QCEthnicity",
   "version": "0.1.0",
   "name": "QCEthnicity",
+  "title": "Ferlab.bio Extension/qc-ethnicity",
   "status": "active",
   "description": "qc ethnicity for cqdg project",
   "fhirVersion": "4.0.1",
@@ -30,6 +31,7 @@
       {
         "id": "Extension",
         "path": "Extension",
+        "short": "Ferlab.bio Extension/qc-ethnicity",
         "definition": "qc ethnicity for cqdg project"
       },
       {

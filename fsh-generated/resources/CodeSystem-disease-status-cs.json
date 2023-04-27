@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "DiseaseStatusCS",
   "id": "disease-status-cs",
+  "title": "Ferlab.bio CodeSystem/disease-status",
   "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs",
   "concept": [
@@ -47,7 +48,6 @@
       ]
     }
   ],
-  "title": "Disease Status Code System",
   "experimental": false,
   "description": "Disease status code system",
   "caseSensitive": true,

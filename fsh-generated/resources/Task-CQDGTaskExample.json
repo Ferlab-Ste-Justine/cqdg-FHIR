@@ -8,66 +8,62 @@
   },
   "extension": [
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/workflow",
       "extension": [
         {
-          "url": "workflowName",
+          "url": "WorkflowName",
           "valueString": "Dragen"
         },
         {
-          "url": "genomeBuild",
+          "url": "WorkflowVersion",
+          "valueString": "SW null"
+        },
+        {
+          "url": "GenomeBuild",
           "valueCoding": {
             "code": "GRCh38",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build",
-            "display": "GRCh38"
+            "display": "GRCh38",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/genome-build"
           }
-        },
-        {
-          "url": "workflowVersion",
-          "valueString": "3.8.4"
         }
-      ]
+      ],
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/WorkflowExtension"
     },
     {
-      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/sequencing-experiment",
       "extension": [
         {
-          "url": "runName",
-          "valueString": "201106_A00516_0169_AHFM3HDSXY"
+          "url": "RunName",
+          "valueString": "1898"
         },
         {
-          "url": "runAlias",
-          "valueString": "A00516_0169"
+          "url": "IsPairedEnd",
+          "valueBoolean": true
         },
         {
-          "url": "experimentalStrategy",
+          "url": "ReadLength",
+          "valueString": "151,8,8,151"
+        },
+        {
+          "url": "ExperimentalStrategy",
           "valueCoding": {
             "code": "WXS",
-            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy",
-            "display": "Whole Exome Sequencing"
+            "display": "Whole Exome Sequencing",
+            "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
           }
         },
         {
-          "url": "platform",
-          "valueString": "Illumina NovaSeq"
+          "url": "Platform",
+          "valueString": "Illumina NovaSeq 6000 S4 PE150"
         },
         {
-          "url": "captureKit",
-          "valueString": "RocheKapaHyperExome"
-        },
-        {
-          "url": "sequencerId",
-          "valueString": "A00516"
-        },
-        {
-          "url": "runDate",
+          "url": "RunDate",
           "valueDateTime": "2020-11-06"
         },
         {
-          "url": "labAliquotId",
-          "valueString": "16774"
+          "url": "LabAliquotId",
+          "valueString": "MPS12348274-B04"
         }
-      ]
+      ],
+      "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/SequencingExperimentExtension"
     }
   ],
   "status": "completed",
@@ -83,10 +79,10 @@
     ]
   },
   "requester": {
-    "reference": "Organization/LDM-CHUSJ"
+    "reference": "Organization/OrganizationExample"
   },
   "owner": {
-    "reference": "Organization/CQGC"
+    "reference": "Organization/OrganizationExample"
   },
   "input": [
     {
@@ -94,8 +90,8 @@
         "text": "Analysed sample"
       },
       "valueReference": {
-        "reference": "Specimen/222222",
-        "display": "Submitter Sample ID: 22222"
+        "reference": "Specimen/SpecimenExample",
+        "display": "Submitter Sample ID: SpecimenExample"
       }
     }
   ],
@@ -111,7 +107,7 @@
         ]
       },
       "valueReference": {
-        "reference": "DocumentReference/289787"
+        "reference": "DocumentReference/DocumentReferenceExample1"
       }
     },
     {
@@ -125,7 +121,7 @@
         ]
       },
       "valueReference": {
-        "reference": "DocumentReference/289788"
+        "reference": "DocumentReference/DocumentReferenceExample1"
       }
     },
     {
@@ -139,7 +135,7 @@
         ]
       },
       "valueReference": {
-        "reference": "DocumentReference/289789"
+        "reference": "DocumentReference/DocumentReferenceExample2"
       }
     },
     {
@@ -153,7 +149,7 @@
         ]
       },
       "valueReference": {
-        "reference": "DocumentReference/289790"
+        "reference": "DocumentReference/DocumentReferenceExample2"
       }
     }
   ]

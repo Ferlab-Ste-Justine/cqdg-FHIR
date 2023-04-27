@@ -1,8 +1,8 @@
 CodeSystem: DiseaseStatusCS
 Id: disease-status-cs
+Title: "Ferlab.bio CodeSystem/disease-status"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/disease-status-cs"
-* ^title = "Disease Status Code System"
 * ^experimental = false
 * ^description = "Disease status code system"
 * ^caseSensitive = true

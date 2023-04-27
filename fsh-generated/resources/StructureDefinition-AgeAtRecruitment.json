@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "AgeAtRecruitment",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtRecruitment",
+  "version": "0.1.0",
+  "name": "AgeAtRecruitment",
+  "title": "Ferlab.bio Extension/age-at-recruitment",
+  "status": "active",
+  "description": "Age At Recruitment Extension",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/age-at-recruitment",
+        "definition": "Age At Recruitment Extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtRecruitment"
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 CodeSystem: ExperimentalStrategy
 Id: experimental-strategy
+Title: "Ferlab.bio CodeSystem/experimental-strategy"
 
 * ^url = "http://fhir.cqdg.ferlab.bio/CodeSystem/experimental-strategy"
-* ^title = "Experimental strategy"
 * ^experimental = false
 * ^description = "Experimental strategy"
 * ^caseSensitive = true

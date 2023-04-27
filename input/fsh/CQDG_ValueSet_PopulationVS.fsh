@@ -1,5 +1,6 @@
 ValueSet: PopulationVS
 Id: population-vs
-Title: "Research domain value set"
+Title: "Ferlab.bio ValueSet/population"
 
+* ^description = "Population ValueSet"
 * include codes from system population

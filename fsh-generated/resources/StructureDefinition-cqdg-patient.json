@@ -4,7 +4,9 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient",
   "version": "0.1.0",
   "name": "CQDGPatient",
+  "title": "Ferlab.bio StructureDefinition/cqdg-patient",
   "status": "active",
+  "description": "An example of a cqdg Patient",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -74,7 +76,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeOfDeath"
             ]
           }
         ]
@@ -89,7 +91,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtRecruitment"
             ]
           }
         ]
@@ -134,14 +136,7 @@
         "id": "Patient.identifier:CQDG_ID.system",
         "path": "Patient.identifier.system",
         "min": 1,
-        "patternUri": "http://fhir.cqdg.ferlab.bio/CodeSystem/cqdg-identifier"
-      },
-      {
-        "id": "Patient.identifier:OTHER_ID",
-        "path": "Patient.identifier",
-        "sliceName": "OTHER_ID",
-        "min": 0,
-        "max": "*"
+        "patternUri": "https://fhir.qa.cqdg.ferlab.bio/fhir/Patient"
       }
     ]
   }

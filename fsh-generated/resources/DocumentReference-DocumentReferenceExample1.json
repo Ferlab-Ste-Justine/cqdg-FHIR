@@ -1,0 +1,65 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "DocumentReferenceExample1",
+  "meta": {
+    "tag": [
+      {
+        "code": "CAG"
+      }
+    ]
+  },
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "display": "test"
+        }
+      ]
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "code": "Sequencing-data-supplement",
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-type",
+        "display": "Sequencing Data Supplement"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "Genomics",
+          "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/data-category",
+          "display": "Genomics"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/PatientExample"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/octet-stream",
+        "url": "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
+      },
+      "format": {
+        "code": "TGZ",
+        "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/document-format",
+        "display": "TGZ Archive File"
+      }
+    }
+  ],
+  "context": {
+    "related": [
+      {
+        "reference": "Specimen/SpecimenExample",
+        "display": "Submitter Sample ID: SpecimenExample"
+      }
+    ]
+  }
+}

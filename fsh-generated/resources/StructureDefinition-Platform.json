@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "BooleanValue",
-  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/BooleanValue",
-  "version": "1.0.0",
-  "name": "BooleanValue",
+  "id": "Platform",
+  "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/Platform",
+  "version": "0.1.0",
+  "name": "Platform",
+  "title": "Ferlab.bio StructureDefinition/platform",
   "status": "active",
-  "description": "Age at event",
+  "description": "Platform Extension",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -23,19 +24,15 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "baseDefinition": "http://fhir.cqdg.ferlab.bio/StructureDefinition/SequencingExperimentExtension",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "Age at event"
-      },
-      {
-        "id": "Extension.url",
-        "path": "Extension.url",
-        "fixedUri": "http://fhir.cqdg.ferlab.bio/StructureDefinition/BooleanValue"
+        "short": "Ferlab.bio StructureDefinition/platform",
+        "definition": "Platform Extension"
       }
     ]
   }

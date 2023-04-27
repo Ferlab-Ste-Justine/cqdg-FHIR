@@ -1,6 +1,6 @@
 ValueSet: AccessLimitationsVS
 Id: access-limitation-vs
-Title: "Access limitation value set"
+Title: "Ferlab.bio ValueSet/access-limitation"
 
 Description: "Restriction on access"
 * $DUO#DUO:0000004 "No restriction"

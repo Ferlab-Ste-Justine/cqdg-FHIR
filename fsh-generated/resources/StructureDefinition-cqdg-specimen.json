@@ -4,7 +4,9 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen",
   "version": "0.1.0",
   "name": "CQDGSpecimen",
+  "title": "Ferlab.bio StructureDefinition/cqdg-specimen",
   "status": "active",
+  "description": "An example of a cqdg Specimen",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -45,46 +47,16 @@
         }
       },
       {
-        "id": "Specimen.extension:ageBiospecimenCollection",
+        "id": "Specimen.extension:ageAtBiospecimenCollection",
         "path": "Specimen.extension",
-        "sliceName": "ageBiospecimenCollection",
+        "sliceName": "ageAtBiospecimenCollection",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAt"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Specimen.extension:cqdg_biospecimen_id",
-        "path": "Specimen.extension",
-        "sliceName": "cqdg_biospecimen_id",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.cqdg.ferlab.bio/StructureDefinition/specific-id"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Specimen.extension:cqdg_sample_id",
-        "path": "Specimen.extension",
-        "sliceName": "cqdg_sample_id",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.cqdg.ferlab.bio/StructureDefinition/specific-id"
+              "http://fhir.cqdg.ferlab.bio/StructureDefinition/AgeAtBioSpecimenCollection"
             ]
           }
         ]
@@ -94,7 +66,7 @@
         "path": "Specimen.type.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://purl.obolibrary.org/obo/ncit.owl"
+          "valueSet": "http://fhir.cqdg.ferlab.bio/ValueSet/cqdg-specimen-vs"
         }
       },
       {
@@ -102,7 +74,7 @@
         "path": "Specimen.collection.bodySite.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "http://purl.obolibrary.org/obo/ncit.owl"
+          "valueSet": "http://fhir.cqdg.ferlab.bio/ValueSet/cqdg-specimen-vs"
         }
       }
     ]

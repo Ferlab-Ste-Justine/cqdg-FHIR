@@ -4,7 +4,9 @@
   "url": "http://fhir.cqdg.ferlab.bio/StructureDefinition/population-info",
   "version": "0.1.0",
   "name": "PopulationInfo",
+  "title": "Ferlab.bio Extension/population-info",
   "status": "active",
+  "description": "Population Info Extension",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -26,6 +28,12 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/population-info",
+        "definition": "Population Info Extension"
+      },
       {
         "id": "Extension.url",
         "path": "Extension.url",

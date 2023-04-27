@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "V3RoleCode",
   "id": "v3-role-code",
+  "title": "Ferlab.bio CodeSystem/v3-roles",
   "version": "0.1.0",
   "url": "http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code",
   "concept": [
@@ -143,7 +144,7 @@
       "designation": [
         {
           "use": {
-            "code": "son",
+            "code": "Son",
             "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code"
           },
           "value": "Son"
@@ -156,7 +157,7 @@
       "designation": [
         {
           "use": {
-            "code": "daughter",
+            "code": "Daughter",
             "system": "http://fhir.cqdg.ferlab.bio/CodeSystem/v3-role-code"
           },
           "value": "Daughter"
@@ -164,7 +165,6 @@
       ]
     }
   ],
-  "title": "v3 Role Code",
   "experimental": false,
   "description": "V3 role code",
   "caseSensitive": true,

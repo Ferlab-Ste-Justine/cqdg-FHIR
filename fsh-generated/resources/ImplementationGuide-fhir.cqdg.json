@@ -35,7 +35,7 @@
         "reference": {
           "reference": "StructureDefinition/cqdg-document-reference"
         },
-        "name": "CQDGDocumentReference",
+        "name": "Ferlab.bio StructureDefinition/cqdg-document-reference",
         "description": "A CQDG group",
         "exampleBoolean": false
       },
@@ -43,14 +43,15 @@
         "reference": {
           "reference": "StructureDefinition/CQDGObservationCauseOfDeath"
         },
-        "name": "CQDGObservationCauseOfDeath",
+        "name": "Ferlab.bio StructureDefinition/cause-of-death",
+        "description": "An example of a cqdg Observation (cause of death)",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/CQDGObservationDiseaseStatus"
         },
-        "name": "CQDGObservationDiseaseStatus",
+        "name": "Ferlab.bio StructureDefinition/disease-status",
         "description": "An example of a cqdg group",
         "exampleBoolean": false
       },
@@ -58,43 +59,47 @@
         "reference": {
           "reference": "StructureDefinition/cqdg-observation-group"
         },
-        "name": "CQDGObservationGroup",
+        "name": "Ferlab.bio StructureDefinition/cqdg-observation",
+        "description": "An example of a cqdg group",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/CQDGObservationPhenotype"
         },
-        "name": "CQDGObservationPhenotype",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/CQDGObservationSocialHistory"
-        },
-        "name": "CQDGObservationSocialHistory",
-        "description": "An example of a cqdg group",
+        "name": "Ferlab.bio StructureDefinition/phenotype",
+        "description": "An example of a cqdg Observation (phenotype)",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/CQDGObservationTumorNormalDesignation"
         },
-        "name": "CQDGObservationTumorNormalDesignation",
+        "name": "Ferlab.bio StructureDefinition/tumor-normal-designation",
+        "description": "An example of a cqdg Observation Group",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cqdg-organization"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqdg-organization",
+        "description": "A CQDG organization",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/cqdg-patient"
         },
-        "name": "CQDGPatient",
+        "name": "Ferlab.bio StructureDefinition/cqdg-patient",
+        "description": "An example of a cqdg Patient",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/cqdg-research-study"
         },
-        "name": "CQDGResearchStudy",
+        "name": "Ferlab.bio StructureDefinition/cqdg-study",
         "description": "A research study in CQDG",
         "exampleBoolean": false
       },
@@ -102,21 +107,23 @@
         "reference": {
           "reference": "StructureDefinition/cqdg-specimen"
         },
-        "name": "CQDGSpecimen",
+        "name": "Ferlab.bio StructureDefinition/cqdg-specimen",
+        "description": "An example of a cqdg Specimen",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/cqdg-task"
         },
-        "name": "profile task",
+        "name": "Ferlab.bio Profile/cqdg-task",
+        "description": "CQDG Task",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/cqdg-condition"
         },
-        "name": "CQDG_Condition",
+        "name": "Ferlab.bio StructureDefinition/cqdg-condition",
         "description": "A condition in CQDG",
         "exampleBoolean": false
       },
@@ -124,7 +131,7 @@
         "reference": {
           "reference": "StructureDefinition/cqdg-group"
         },
-        "name": "CQDG_Group",
+        "name": "Ferlab.bio StructureDefinition/cqdg-group",
         "description": "A CQDG group",
         "exampleBoolean": false
       },
@@ -132,7 +139,7 @@
         "reference": {
           "reference": "StructureDefinition/AccessLimitations"
         },
-        "name": "AccessLimitations",
+        "name": "Ferlab.bio Extension/access-limitations",
         "description": "Limitation of access to studies.",
         "exampleBoolean": false
       },
@@ -140,52 +147,151 @@
         "reference": {
           "reference": "StructureDefinition/AccessRequirements"
         },
-        "name": "AccessRequirements",
+        "name": "Ferlab.bio Extension/access-requirement",
         "description": "Requirements to access to studies.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/AgeAt"
+          "reference": "StructureDefinition/AgeAtBioSpecimenCollection"
         },
-        "name": "AgeAt",
+        "name": "Ferlab.bio Extension/age-at-biospecimen-collection",
+        "description": "Age At Bio Specimen Collection Extension",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/BooleanValue"
+          "reference": "StructureDefinition/AgeAtRecruitment"
         },
-        "name": "BooleanValue",
-        "description": "Age at event",
+        "name": "Ferlab.bio Extension/age-at-recruitment",
+        "description": "Age At Recruitment Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AgeOfDeath"
+        },
+        "name": "Ferlab.bio Extension/age-of-death",
+        "description": "Age Of Death Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ExperimentalStrategy"
+        },
+        "name": "Ferlab.bio StructureDefinition/experimental-strategy",
+        "description": "Experimental Strategy Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/FullSizeExtension"
+        },
+        "name": "Ferlab.bio Extension/full-size",
+        "description": "Full Size Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/GenomeBuild"
+        },
+        "name": "Ferlab.bio StructureDefinition/genome-build",
+        "description": "Genome Build Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/IsPairedEnd"
+        },
+        "name": "Ferlab.bio StructureDefinition/is-paired-end",
+        "description": "Is Paired End Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/LabAliquotId"
+        },
+        "name": "Ferlab.bio StructureDefinition/lab-aliquot-id",
+        "description": "LabAliquotId Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Platform"
+        },
+        "name": "Ferlab.bio StructureDefinition/platform",
+        "description": "Platform Extension",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/population-info"
         },
-        "name": "PopulationInfo",
+        "name": "Ferlab.bio Extension/population-info",
+        "description": "Population Info Extension",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/QCEthnicity"
         },
-        "name": "QCEthnicity",
+        "name": "Ferlab.bio Extension/qc-ethnicity",
         "description": "qc ethnicity for cqdg project",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/specific-id"
+          "reference": "StructureDefinition/RunDate"
         },
-        "name": "SpecificID",
+        "name": "Ferlab.bio StructureDefinition/run-date",
+        "description": "Run Date Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RunName"
+        },
+        "name": "Ferlab.bio StructureDefinition/run-name",
+        "description": "Run Name Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/SequencingExperimentExtension"
+        },
+        "name": "Ferlab.bio StructureDefinition/sequencing-experiment",
+        "description": "Sequencing Experiment Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/WorkflowExtension"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqdg-task",
+        "description": "Workflow Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/WorkflowName"
+        },
+        "name": "Ferlab.bio StructureDefinition/workflow-name",
+        "description": "Workflow Name Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/WorkflowVersion"
+        },
+        "name": "Ferlab.bio StructureDefinition/workflow-version",
+        "description": "Workflow Version Extension",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/access-limitation-vs"
         },
-        "name": "Access limitation value set",
+        "name": "Ferlab.bio ValueSet/access-limitation",
         "description": "Restriction on access",
         "exampleBoolean": false
       },
@@ -193,7 +299,7 @@
         "reference": {
           "reference": "ValueSet/access-requirement-vs"
         },
-        "name": "Access requirement value set",
+        "name": "Ferlab.bio ValueSet/access-requirement",
         "description": "Requirements before access",
         "exampleBoolean": false
       },
@@ -201,140 +307,167 @@
         "reference": {
           "reference": "ValueSet/bioinfo-analysis-vs"
         },
-        "name": "BioinfoAnalysisVS",
+        "name": "Ferlab.bio ValueSet/bioinfo-analysis",
+        "description": "Bioinfo Analysis ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/cqdg-diagnosis-vs"
         },
-        "name": "CQDGDiagnosisVS",
+        "name": "Ferlab.bio ValueSet/diagnosis",
+        "description": "Diagnosis ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/experimental-strategy-vs"
         },
-        "name": "CQDGFamilyTypeVS",
+        "name": "Ferlab.bio ValueSet/experimental-strategy",
+        "description": "Experimental Strategy ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/cqdg-observation-category"
         },
-        "name": "CQDG observation value set",
+        "name": "Ferlab.bio ValueSet/cqdg-observation",
+        "description": "Observation ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/cqdg-specimen-vs"
+        },
+        "name": "Ferlab.bio ValueSet/cqdg-specimen",
+        "description": "Specimen ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/cause-of-death-vs"
         },
-        "name": "CauseOfDeathVS",
+        "name": "Ferlab.bio ValueSet/cause-of-death",
+        "description": "Cause of death",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/data-category-vs"
         },
-        "name": "DataCategoryVS",
+        "name": "Ferlab.bio ValueSet/data-category",
+        "description": "Data Category ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/data-type-vs"
         },
-        "name": "DataTypeVS",
+        "name": "Ferlab.bio ValueSet/data-type",
+        "description": "Date Type ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/disease-status-vs"
         },
-        "name": "DiseaseStatusVS",
+        "name": "Ferlab.bio ValueSet/disease-status",
+        "description": "Disease Status ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/family-type-vs"
         },
-        "name": "FamilyTypeVS",
+        "name": "Ferlab.bio ValueSet/family-type",
+        "description": "Family Type ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/file-format"
         },
-        "name": "FileFormat",
+        "name": "Ferlab.bio ValueSet/file-format",
+        "description": "File Format ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/genome-build-vs"
         },
-        "name": "GenomeBuildVS",
+        "name": "Ferlab.bio ValueSet/genome-build",
+        "description": "Genome Build ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/phenotype-vs"
         },
-        "name": "PhenotypeVS",
+        "name": "Ferlab.bio ValueSet/phenotype",
+        "description": "Phenotype ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/population-vs"
         },
-        "name": "Research domain value set",
+        "name": "Ferlab.bio ValueSet/population",
+        "description": "Population ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/qc-ethnicity-vs"
         },
-        "name": "CQDG observation value set",
+        "name": "Ferlab.bio ValueSet/qa-ethnicity",
+        "description": "QCEthnicity ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/relationship-to-proband"
         },
-        "name": "Research domain value set",
+        "name": "Ferlab.bio ValueSet/relationship-to-proband",
+        "description": "Relationship To Proband ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/sample-type-tissue-source-vs"
         },
-        "name": "CQDG Tissue Source Value Set",
+        "name": "Ferlab.bio ValueSet/sample-type-tissue-source",
+        "description": "Sample Type Tissue Source ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/study-domain"
         },
-        "name": "Study domain value set",
+        "name": "Ferlab.bio ValueSet/study-domain",
+        "description": "Study Domain ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/study-vs"
         },
-        "name": "Study domain value set",
+        "name": "Ferlab.bio ValueSet/cqdg-study",
+        "description": "Study ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/tumor-normal-designation-vs"
         },
-        "name": "TumorNormalDesignationVS",
+        "name": "Ferlab.bio ValueSet/tumor-normal-designation",
+        "description": "Tumor Normal Designation ValueSet",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "CodeSystem/bioinfo-analysis-code"
         },
-        "name": "Bioinformatics analysis code",
+        "name": "Ferlab.bio CodeSystem/bioinformatics-analysis",
         "description": "Bioinformatics analysis code",
         "exampleBoolean": false
       },
@@ -342,7 +475,7 @@
         "reference": {
           "reference": "CodeSystem/cqdg-observation-code"
         },
-        "name": "CQDG Observation codes",
+        "name": "Ferlab.bio CodeSystem/cqdg-observation",
         "description": "CQDG Observation codes",
         "exampleBoolean": false
       },
@@ -350,7 +483,7 @@
         "reference": {
           "reference": "CodeSystem/cqdg-study-cs"
         },
-        "name": "CQDG study code system",
+        "name": "Ferlab.bio CodeSystem/cqdg-study",
         "description": "CQDG study code system",
         "exampleBoolean": false
       },
@@ -358,7 +491,7 @@
         "reference": {
           "reference": "CodeSystem/cause-of-death-codes"
         },
-        "name": "Codes for cause of death",
+        "name": "Ferlab.bio CodeSystem/cause-of-death",
         "description": "Codes for cause of death",
         "exampleBoolean": false
       },
@@ -366,7 +499,7 @@
         "reference": {
           "reference": "CodeSystem/duo-codes"
         },
-        "name": "DUO codes",
+        "name": "Ferlab.bio CodeSystem/duo-codes",
         "description": "DUO codes",
         "exampleBoolean": false
       },
@@ -374,7 +507,7 @@
         "reference": {
           "reference": "CodeSystem/data-category"
         },
-        "name": "Data category",
+        "name": "Ferlab.bio CodeSystem/data-category",
         "description": "Data category",
         "exampleBoolean": false
       },
@@ -382,7 +515,7 @@
         "reference": {
           "reference": "CodeSystem/data-type"
         },
-        "name": "Data Type",
+        "name": "Ferlab.bio CodeSystem/data-type",
         "description": "Data Type",
         "exampleBoolean": false
       },
@@ -390,7 +523,7 @@
         "reference": {
           "reference": "CodeSystem/disease-status-cs"
         },
-        "name": "Disease Status Code System",
+        "name": "Ferlab.bio CodeSystem/disease-status",
         "description": "Disease status code system",
         "exampleBoolean": false
       },
@@ -398,7 +531,7 @@
         "reference": {
           "reference": "CodeSystem/document-format"
         },
-        "name": "Document format",
+        "name": "Ferlab.bio CodeSystem/document-format",
         "description": "Document format",
         "exampleBoolean": false
       },
@@ -406,7 +539,7 @@
         "reference": {
           "reference": "CodeSystem/experimental-strategy"
         },
-        "name": "Experimental strategy",
+        "name": "Ferlab.bio CodeSystem/experimental-strategy",
         "description": "Experimental strategy",
         "exampleBoolean": false
       },
@@ -414,7 +547,7 @@
         "reference": {
           "reference": "CodeSystem/family-type"
         },
-        "name": "Family type",
+        "name": "Ferlab.bio CodeSystem/family-type",
         "description": "Family type",
         "exampleBoolean": false
       },
@@ -422,7 +555,7 @@
         "reference": {
           "reference": "CodeSystem/genome-build"
         },
-        "name": "Genome Build",
+        "name": "Ferlab.bio CodeSystem/genome-build",
         "description": "Genome build",
         "exampleBoolean": false
       },
@@ -430,15 +563,15 @@
         "reference": {
           "reference": "CodeSystem/population"
         },
-        "name": "Population",
+        "name": "Ferlab.bio CodeSystem/population",
         "description": "Population",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/qc-ethnicity"
+          "reference": "CodeSystem/qc-ethnicity-cs"
         },
-        "name": "Ethnicites in Quebec",
+        "name": "Ferlab.bio CodeSystem/qc-ethnicity",
         "description": "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
         "exampleBoolean": false
       },
@@ -446,7 +579,7 @@
         "reference": {
           "reference": "CodeSystem/qc-sample-type"
         },
-        "name": "QC Sample Type",
+        "name": "Ferlab.bio CodeSystem/sample-type",
         "description": "Qc sample type",
         "exampleBoolean": false
       },
@@ -454,7 +587,7 @@
         "reference": {
           "reference": "CodeSystem/research-domain"
         },
-        "name": "Research Domain",
+        "name": "Ferlab.bio CodeSystem/research-domain",
         "description": "Research domain",
         "exampleBoolean": false
       },
@@ -462,7 +595,7 @@
         "reference": {
           "reference": "CodeSystem/tumor-normal-designation"
         },
-        "name": "Tumor normal designation",
+        "name": "Ferlab.bio CodeSystem/tumor-normal-designation",
         "description": "Tumor normal designation",
         "exampleBoolean": false
       },
@@ -470,7 +603,7 @@
         "reference": {
           "reference": "CodeSystem/v3-role-code"
         },
-        "name": "v3 Role Code",
+        "name": "Ferlab.bio CodeSystem/v3-roles",
         "description": "V3 role code",
         "exampleBoolean": false
       },
@@ -478,7 +611,7 @@
         "reference": {
           "reference": "Group/CQDGGroupExample"
         },
-        "name": "CQDGGroupExample",
+        "name": "Ferlab.bio Example/cqdg-group",
         "description": "An example of a cqdg group",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-group"
       },
@@ -486,44 +619,63 @@
         "reference": {
           "reference": "Task/CQDGTaskExample"
         },
-        "name": "CQDGTaskExample",
+        "name": "Ferlab.bio Example/cqdg-task",
+        "description": "An example of a cqdg Task",
         "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "Condition/ConditionExample"
         },
-        "name": "ConditionExample",
+        "name": "Ferlab.bio Example/cqdg-condition",
         "description": "An example of a cqdg patient.",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-condition"
       },
       {
         "reference": {
+          "reference": "DocumentReference/DocumentReferenceExample1"
+        },
+        "name": "Ferlab.bio Example/cqdg-document-reference1",
+        "description": "Document Reference Example1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/DocumentReferenceExample2"
+        },
+        "name": "Ferlab.bio Example/cqdg-document-reference2",
+        "description": "Document Reference Example2",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Observation/ObsDiseaseStatExample"
         },
-        "name": "ObsDiseaseStatExample",
+        "name": "Ferlab.bio Example/disease-status",
+        "description": "An example of a cqdg Observation (disease)",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationDiseaseStatus"
       },
       {
         "reference": {
           "reference": "Observation/ObsPhenotypeExample"
         },
-        "name": "ObsPhenotypeExample",
-        "description": "Example instance of Observation - Phenotype",
+        "name": "Ferlab.bio Example/phenotype",
+        "description": "An example of a cqdg Observation (phenotype)",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationPhenotype"
       },
       {
         "reference": {
-          "reference": "Observation/ObsSocHistExample"
+          "reference": "Organization/OrganizationExample"
         },
-        "name": "ObsSocHistExample",
-        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/CQDGObservationSocialHistory"
+        "name": "Ferlab.bio Example/cqdg-organization",
+        "description": "Organization Example",
+        "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "Patient/PatientExample"
         },
-        "name": "PatientExample",
+        "name": "Ferlab.bio Example/cqdg-patient",
         "description": "An example of a cqdg patient.",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-patient"
       },
@@ -531,7 +683,7 @@
         "reference": {
           "reference": "ResearchStudy/ResearchStudyExample"
         },
-        "name": "ResearchStudyExample",
+        "name": "Ferlab.bio Example/cqdg-study",
         "description": "An example of a research study.",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-research-study"
       },
@@ -539,7 +691,15 @@
         "reference": {
           "reference": "Specimen/SpecimenExample"
         },
-        "name": "SpecimenExample",
+        "name": "Ferlab.bio Example/specimen1",
+        "description": "An example of a specimen",
+        "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
+      },
+      {
+        "reference": {
+          "reference": "Specimen/SpecimenExample2"
+        },
+        "name": "Ferlab.bio Example/specimen2",
         "description": "An example of a specimen",
         "exampleCanonical": "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-specimen"
       }
@@ -548,7 +708,13 @@
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": []
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
     },
     "parameter": [
       {

@@ -2,6 +2,7 @@ Profile: CQDG_Group
 Parent: Group
 Id: cqdg-group
 Description: "A CQDG group"
+Title: "Ferlab.bio StructureDefinition/cqdg-group"
 * ^version = "1.0.0"
 * ^status = #active
 
@@ -10,6 +11,7 @@ Description: "A CQDG group"
 
 Instance: CQDGGroupExample
 InstanceOf: CQDG_Group
+Title: "Ferlab.bio Example/cqdg-group"
 Description: "An example of a cqdg group"
 
 * meta.tag[0].code = #CAG
@@ -22,9 +24,8 @@ Description: "An example of a cqdg group"
 
 * code.coding[0].display = #"Case - affected relative"
 
-* member[0].entity.reference = "Patient/123415"
-* member[+].entity.reference = "Patient/123416"
-* member[+].entity.reference = "Patient/123417"
+* member[0].entity.reference = "Patient/PatientExample"
+
 
 // to do: create extension
 // * subject.reference = "/Patient/123051"

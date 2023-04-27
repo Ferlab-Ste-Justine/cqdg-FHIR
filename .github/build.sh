@@ -8,7 +8,7 @@ chmod u+x scripts/publisher.jar
 sudo gem install jekyll
 
 echo "Generating IG"
-java -jar ./input-cache/publisher.jar -ig .
+java -jar ./scripts/publisher.jar -ig .
 
 
 # replace gh-pages root ig directory with site_root/output

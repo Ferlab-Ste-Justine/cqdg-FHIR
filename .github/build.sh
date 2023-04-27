@@ -7,6 +7,8 @@ wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher
 chmod u+x scripts/publisher.jar
 sudo gem install jekyll
 
+npm install -g fsh-sushi
+
 echo "Generating IG"
 java -jar ./scripts/publisher.jar -ig .
 

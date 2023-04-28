@@ -21,7 +21,7 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 * extension contains AgeAtRecruitment named ageAtRecruitment 0..*
 * extension contains QCEthnicity named ethnicity 0..1
 
-
+* extension[ethnicity].valueCodeableConcept from qc-ethnicity-vs
 
 // example instance of patient profile defined
 Instance: PatientExample

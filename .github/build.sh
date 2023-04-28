@@ -17,17 +17,17 @@ java -jar ./scripts/publisher.jar -ig .
 git remote set-branches origin '*'
 git fetch origin gh-pages
 git checkout -f gh-pages
-git rm -rf --ignore-unmatch ig
+git rm -rf --ignore-unmatch docs
 
 # ignore unnecessary files
-sudo mv -f output ig
+sudo mv -f output docs
 sudo mkdir -p ignored
-sudo mv ig/*.zip ignored
-sudo mv ig/*.tgz ignored
-sudo mv ig/*.pack ignored
+sudo mv docs/*.zip ignored
+sudo mv docs/*.tgz ignored
+sudo mv docs/*.pack ignored
 
 # commit and push the generated IG
-git add ig
+git add docs
 git config --global user.email "no-mail"
 git config --global user.name "ig-deploy-bot"
 git commit -m "Deploy the implementation guide."
@@ -35,4 +35,4 @@ if [ $? -ne 0 ]; then
     echo "nothing to commit"
     exit 0
 fi
-git push -fq gh-pages
+git push --set-upstream origin gh-pages

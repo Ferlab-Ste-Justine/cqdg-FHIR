@@ -25,9 +25,7 @@ Profile: CQDGObservationDiseaseStatus
 Parent: CQDGObservationGroup
 Title: "Ferlab.bio StructureDefinition/disease-status"
 Description: "An example of a cqdg group"
-* valueCodeableConcept
-  * coding
-    * system from https://fhir.cqdg.ca/CodeSystem/disease-status
+* valueCodeableConcept from disease-status-vs
 
 
 Profile: CQDGObservationCauseOfDeath
@@ -71,4 +69,4 @@ Description: "An example of a cqdg Observation (disease)"
 
 // à vérifier, champ obligatoire:
 * code = $LOINC#12126-9	//US Unspecified body region Study observation Narrative
-* valueCodeableConcept.coding[0].code = #"Affected"
+* valueCodeableConcept = $DISEASESAT#"Affected"

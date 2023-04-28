@@ -1,0 +1,280 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "duo-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/duo-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DUO:0000012<a name=\"duo-codes-DUO.580000012\"> </a></td><td>research specific restrictions</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000015<a name=\"duo-codes-DUO.580000015\"> </a></td><td>no general methods research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000016<a name=\"duo-codes-DUO.580000016\"> </a></td><td>genetic studies only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000018<a name=\"duo-codes-DUO.580000018\"> </a></td><td>not for profit, non commercial use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000019<a name=\"duo-codes-DUO.580000019\"> </a></td><td>publication required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000020<a name=\"duo-codes-DUO.580000020\"> </a></td><td>collaboration required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000021<a name=\"duo-codes-DUO.580000021\"> </a></td><td>ethics approval required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000022<a name=\"duo-codes-DUO.580000022\"> </a></td><td>geographical restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000024<a name=\"duo-codes-DUO.580000024\"> </a></td><td>publication moratorium</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000025<a name=\"duo-codes-DUO.580000025\"> </a></td><td>time limit on use</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000026<a name=\"duo-codes-DUO.580000026\"> </a></td><td>user specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000027<a name=\"duo-codes-DUO.580000027\"> </a></td><td>project specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000028<a name=\"duo-codes-DUO.580000028\"> </a></td><td>institution specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000029<a name=\"duo-codes-DUO.580000029\"> </a></td><td>return to database or resource</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000043<a name=\"duo-codes-DUO.5800000043\"> </a></td><td>clinical care use</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000044<a name=\"duo-codes-DUO.5800000044\"> </a></td><td>population origins or ancestry research prohibited</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000045<a name=\"duo-codes-DUO.5800000045\"> </a></td><td>not for profit organisation use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000046<a name=\"duo-codes-DUO.5800000046\"> </a></td><td>non-commercial use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000004<a name=\"duo-codes-DUO.580000004\"> </a></td><td>Restriction on access</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000006<a name=\"duo-codes-DUO.580000006\"> </a></td><td>health or medical or biomedical research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000007<a name=\"duo-codes-DUO.580000007\"> </a></td><td>disease specific research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000011<a name=\"duo-codes-DUO.580000011\"> </a></td><td>population origins or ancestry research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000042<a name=\"duo-codes-DUO.580000042\"> </a></td><td>general research use</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/duo-codes",
+  "version" : "0.1.0",
+  "name" : "DUOCodes",
+  "title" : "Ferlab.bio CodeSystem/duo-codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "DUO codes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 23,
+  "concept" : [{
+    "code" : "DUO:0000012",
+    "display" : "research specific restrictions",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000012"
+      },
+      "value" : "research specific restrictions"
+    }]
+  },
+  {
+    "code" : "DUO:0000015",
+    "display" : "no general methods research",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000015"
+      },
+      "value" : "no general methods research"
+    }]
+  },
+  {
+    "code" : "DUO:0000016",
+    "display" : "genetic studies only",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000016"
+      },
+      "value" : "genetic studies only"
+    }]
+  },
+  {
+    "code" : "DUO:0000018",
+    "display" : "not for profit, non commercial use only",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000018"
+      },
+      "value" : "not for profit, non commercial use only"
+    }]
+  },
+  {
+    "code" : "DUO:0000019",
+    "display" : "publication required",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000019"
+      },
+      "value" : "publication required"
+    }]
+  },
+  {
+    "code" : "DUO:0000020",
+    "display" : "collaboration required",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000020"
+      },
+      "value" : "collaboration required"
+    }]
+  },
+  {
+    "code" : "DUO:0000021",
+    "display" : "ethics approval required",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000021"
+      },
+      "value" : "ethics approval required"
+    }]
+  },
+  {
+    "code" : "DUO:0000022",
+    "display" : "geographical restriction",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000022"
+      },
+      "value" : "geographical restriction"
+    }]
+  },
+  {
+    "code" : "DUO:0000024",
+    "display" : "publication moratorium",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000024"
+      },
+      "value" : "publication moratorium"
+    }]
+  },
+  {
+    "code" : "DUO:0000025",
+    "display" : "time limit on use",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000025"
+      },
+      "value" : "time limit on use"
+    }]
+  },
+  {
+    "code" : "DUO:0000026",
+    "display" : "user specific restriction",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000026"
+      },
+      "value" : "user specific restriction"
+    }]
+  },
+  {
+    "code" : "DUO:0000027",
+    "display" : "project specific restriction",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000027"
+      },
+      "value" : "project specific restriction"
+    }]
+  },
+  {
+    "code" : "DUO:0000028",
+    "display" : "institution specific restriction",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000028"
+      },
+      "value" : "institution specific restriction"
+    }]
+  },
+  {
+    "code" : "DUO:0000029",
+    "display" : "return to database or resource",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000029"
+      },
+      "value" : "return to database or resource"
+    }]
+  },
+  {
+    "code" : "DUO:00000043",
+    "display" : "clinical care use",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:00000043"
+      },
+      "value" : "clinical care use"
+    }]
+  },
+  {
+    "code" : "DUO:00000044",
+    "display" : "population origins or ancestry research prohibited",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:00000044"
+      },
+      "value" : "population origins or ancestry research prohibited"
+    }]
+  },
+  {
+    "code" : "DUO:00000045",
+    "display" : "not for profit organisation use only",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:00000045"
+      },
+      "value" : "not for profit organisation use only"
+    }]
+  },
+  {
+    "code" : "DUO:00000046",
+    "display" : "non-commercial use only",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:00000046"
+      },
+      "value" : "non-commercial use only"
+    }]
+  },
+  {
+    "code" : "DUO:0000004",
+    "display" : "Restriction on access",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000004"
+      },
+      "value" : "Restriction on access"
+    }]
+  },
+  {
+    "code" : "DUO:0000006",
+    "display" : "health or medical or biomedical research",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000006"
+      },
+      "value" : "health or medical or biomedical research"
+    }]
+  },
+  {
+    "code" : "DUO:0000007",
+    "display" : "disease specific research",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000007"
+      },
+      "value" : "disease specific research"
+    }]
+  },
+  {
+    "code" : "DUO:0000011",
+    "display" : "population origins or ancestry research",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000011"
+      },
+      "value" : "population origins or ancestry research"
+    }]
+  },
+  {
+    "code" : "DUO:0000042",
+    "display" : "general research use",
+    "designation" : [{
+      "use" : {
+        "system" : "http://purl.obolibrary.org/obo/duo.owl",
+        "code" : "DUO:0000042"
+      },
+      "value" : "general research use"
+    }]
+  }]
+}

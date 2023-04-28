@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="data-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">Genomics<a name="data-category-Genomics"> </a></td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/data-category"/>
+  <version value="0.1.0"/>
+  <name value="DataCategory"/>
+  <title value="Ferlab.bio CodeSystem/data-category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Data category"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="Genomics"/>
+    <display value="Genomics"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="Genomics"/>
+      </use>
+      <value value="Genomics"/>
+    </designation>
+  </concept>
+</CodeSystem>

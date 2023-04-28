@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="experimental-strategy"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/experimental-strategy</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">WXS<a name="experimental-strategy-WXS"> </a></td><td>Whole Exome Sequencing</td></tr><tr><td style="white-space:nowrap">WGS<a name="experimental-strategy-WGS"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style="white-space:nowrap">TARS<a name="experimental-strategy-TARS"> </a></td><td>Targeted Sequencing</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+  <version value="0.1.0"/>
+  <name value="ExperimentalStrategy"/>
+  <title value="Ferlab.bio CodeSystem/experimental-strategy"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Experimental strategy"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="WXS"/>
+    <display value="Whole Exome Sequencing"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+        <code value="WXS"/>
+      </use>
+      <value value="Whole Exome Sequencing"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="WGS"/>
+    <display value="Whole Genome Sequencing"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+        <code value="WGS"/>
+      </use>
+      <value value="Whole Genome Sequencing"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TARS"/>
+    <display value="Targeted Sequencing"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+        <code value="TARS"/>
+      </use>
+      <value value="Targeted Sequencing"/>
+    </designation>
+  </concept>
+</CodeSystem>

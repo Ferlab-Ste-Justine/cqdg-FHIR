@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="genome-build"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">GRCh38<a name="genome-build-GRCh38"> </a></td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/genome-build"/>
+  <version value="0.1.0"/>
+  <name value="GenomeBuild"/>
+  <title value="Ferlab.bio CodeSystem/genome-build"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Genome build"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="GRCh38"/>
+    <display value="GRCh38"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/genome-build"/>
+        <code value="GRCh38"/>
+      </use>
+      <value value="GRCh38"/>
+    </designation>
+  </concept>
+</CodeSystem>

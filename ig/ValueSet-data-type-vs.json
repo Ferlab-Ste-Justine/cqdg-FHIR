@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "data-type-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-data-type.html\"><code>http://fhir.cqdg.ca/CodeSystem/data-type</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/data-type-vs",
+  "version" : "0.1.0",
+  "name" : "DataTypeVS",
+  "title" : "Ferlab.bio ValueSet/data-type",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Date Type ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/data-type"
+    }]
+  }
+}

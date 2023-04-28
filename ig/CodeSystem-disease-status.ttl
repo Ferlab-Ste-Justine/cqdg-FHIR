@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/disease-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "disease-status"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"disease-status-Affected\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">Non-affected<a name=\"disease-status-Non-affected\"> </a></td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DiseaseStatusCS"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/disease-status"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Disease status code system"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Affected" ] ;
+     fhir:display [ fhir:v "Affected" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Affected" ]
+       ] ;
+       fhir:value [ fhir:v "Affected" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Non-affected" ] ;
+     fhir:display [ fhir:v "Non affected" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Non-affected" ]
+       ] ;
+       fhir:value [ fhir:v "Non affected" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Unknown" ]
+       ] ;
+       fhir:value [ fhir:v "Unknown" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

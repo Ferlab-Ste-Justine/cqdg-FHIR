@@ -1,0 +1,1590 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "fhir.cqdg"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "fhir.cqdg"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "5.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_ca_baseline" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.ca.baseline" ] ;
+     fhir:version [ fhir:v "1.0.2" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2022+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ci-build" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://fhir.cqdg.ca/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2022+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ci-build" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://fhir.cqdg.ca/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-document-reference" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-document-reference" ] ;
+       fhir:description [ fhir:v "A CQDG group" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath> ;
+         fhir:reference [ fhir:v "StructureDefinition/CQDGObservationCauseOfDeath" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cause-of-death" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Observation (cause of death)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus> ;
+         fhir:reference [ fhir:v "StructureDefinition/CQDGObservationDiseaseStatus" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/disease-status" ] ;
+       fhir:description [ fhir:v "An example of a cqdg group" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-observation-group" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-observation" ] ;
+       fhir:description [ fhir:v "An example of a cqdg group" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype> ;
+         fhir:reference [ fhir:v "StructureDefinition/CQDGObservationPhenotype" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/phenotype" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Observation (phenotype)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation> ;
+         fhir:reference [ fhir:v "StructureDefinition/CQDGObservationTumorNormalDesignation" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/tumor-normal-designation" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Observation Group" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-organization> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-organization" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-organization" ] ;
+       fhir:description [ fhir:v "A CQDG organization" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-patient> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-patient" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-patient" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-research-study" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-study" ] ;
+       fhir:description [ fhir:v "A research study in CQDG" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-specimen" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-specimen" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Specimen" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-task> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-task" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Profile/cqdg-task" ] ;
+       fhir:description [ fhir:v "CQDG Task" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-condition" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-condition" ] ;
+       fhir:description [ fhir:v "A condition in CQDG" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-group> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-group" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-group" ] ;
+       fhir:description [ fhir:v "A CQDG group" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AccessLimitations> ;
+         fhir:reference [ fhir:v "StructureDefinition/AccessLimitations" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/access-limitations" ] ;
+       fhir:description [ fhir:v "Limitation of access to studies." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AccessRequirements> ;
+         fhir:reference [ fhir:v "StructureDefinition/AccessRequirements" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/access-requirement" ] ;
+       fhir:description [ fhir:v "Requirements to access to studies." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection> ;
+         fhir:reference [ fhir:v "StructureDefinition/AgeAtBioSpecimenCollection" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/age-at-biospecimen-collection" ] ;
+       fhir:description [ fhir:v "Age At Bio Specimen Collection Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment> ;
+         fhir:reference [ fhir:v "StructureDefinition/AgeAtRecruitment" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/age-at-recruitment" ] ;
+       fhir:description [ fhir:v "Age At Recruitment Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath> ;
+         fhir:reference [ fhir:v "StructureDefinition/AgeOfDeath" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/age-of-death" ] ;
+       fhir:description [ fhir:v "Age Of Death Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy> ;
+         fhir:reference [ fhir:v "StructureDefinition/ExperimentalStrategy" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/experimental-strategy" ] ;
+       fhir:description [ fhir:v "Experimental Strategy Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/FullSizeExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/full-size" ] ;
+       fhir:description [ fhir:v "Full Size Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/GenomeBuild> ;
+         fhir:reference [ fhir:v "StructureDefinition/GenomeBuild" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/genome-build" ] ;
+       fhir:description [ fhir:v "Genome Build Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/IsPairedEnd> ;
+         fhir:reference [ fhir:v "StructureDefinition/IsPairedEnd" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/is-paired-end" ] ;
+       fhir:description [ fhir:v "Is Paired End Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/LabAliquotId> ;
+         fhir:reference [ fhir:v "StructureDefinition/LabAliquotId" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/lab-aliquot-id" ] ;
+       fhir:description [ fhir:v "LabAliquotId Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/Platform> ;
+         fhir:reference [ fhir:v "StructureDefinition/Platform" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/platform" ] ;
+       fhir:description [ fhir:v "Platform Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/population-info> ;
+         fhir:reference [ fhir:v "StructureDefinition/population-info" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/population-info" ] ;
+       fhir:description [ fhir:v "Population Info Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/QCEthnicity> ;
+         fhir:reference [ fhir:v "StructureDefinition/QCEthnicity" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/qc-ethnicity" ] ;
+       fhir:description [ fhir:v "qc ethnicity for cqdg project" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/RunDate> ;
+         fhir:reference [ fhir:v "StructureDefinition/RunDate" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-date" ] ;
+       fhir:description [ fhir:v "Run Date Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/RunName> ;
+         fhir:reference [ fhir:v "StructureDefinition/RunName" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-name" ] ;
+       fhir:description [ fhir:v "Run Name Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SequencingExperimentExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/sequencing-experiment" ] ;
+       fhir:description [ fhir:v "Sequencing Experiment Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/WorkflowExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-task" ] ;
+       fhir:description [ fhir:v "Workflow Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowName> ;
+         fhir:reference [ fhir:v "StructureDefinition/WorkflowName" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-name" ] ;
+       fhir:description [ fhir:v "Workflow Name Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowVersion> ;
+         fhir:reference [ fhir:v "StructureDefinition/WorkflowVersion" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-version" ] ;
+       fhir:description [ fhir:v "Workflow Version Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/access-limitation-vs> ;
+         fhir:reference [ fhir:v "ValueSet/access-limitation-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/access-limitation" ] ;
+       fhir:description [ fhir:v "Restriction on access" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/access-requirement-vs> ;
+         fhir:reference [ fhir:v "ValueSet/access-requirement-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/access-requirement" ] ;
+       fhir:description [ fhir:v "Requirements before access" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs> ;
+         fhir:reference [ fhir:v "ValueSet/bioinfo-analysis-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/bioinfo-analysis" ] ;
+       fhir:description [ fhir:v "Bioinfo Analysis ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs> ;
+         fhir:reference [ fhir:v "ValueSet/cqdg-diagnosis-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/diagnosis" ] ;
+       fhir:description [ fhir:v "Diagnosis ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/experimental-strategy-vs> ;
+         fhir:reference [ fhir:v "ValueSet/experimental-strategy-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/experimental-strategy" ] ;
+       fhir:description [ fhir:v "Experimental Strategy ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-observation-category> ;
+         fhir:reference [ fhir:v "ValueSet/cqdg-observation-category" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-observation" ] ;
+       fhir:description [ fhir:v "Observation ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs> ;
+         fhir:reference [ fhir:v "ValueSet/cqdg-specimen-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-specimen" ] ;
+       fhir:description [ fhir:v "Specimen ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/cause-of-death-vs> ;
+         fhir:reference [ fhir:v "ValueSet/cause-of-death-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/cause-of-death" ] ;
+       fhir:description [ fhir:v "Cause of death" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/data-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/data-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/data-category" ] ;
+       fhir:description [ fhir:v "Data Category ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/data-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/data-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/data-type" ] ;
+       fhir:description [ fhir:v "Date Type ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/disease-status-vs> ;
+         fhir:reference [ fhir:v "ValueSet/disease-status-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/disease-status" ] ;
+       fhir:description [ fhir:v "Disease Status ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/family-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/family-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/family-type" ] ;
+       fhir:description [ fhir:v "Family Type ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/file-format> ;
+         fhir:reference [ fhir:v "ValueSet/file-format" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/file-format" ] ;
+       fhir:description [ fhir:v "File Format ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/genome-build-vs> ;
+         fhir:reference [ fhir:v "ValueSet/genome-build-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/genome-build" ] ;
+       fhir:description [ fhir:v "Genome Build ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/phenotype-vs> ;
+         fhir:reference [ fhir:v "ValueSet/phenotype-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/phenotype" ] ;
+       fhir:description [ fhir:v "Phenotype ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/population-vs> ;
+         fhir:reference [ fhir:v "ValueSet/population-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/population" ] ;
+       fhir:description [ fhir:v "Population ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs> ;
+         fhir:reference [ fhir:v "ValueSet/qc-ethnicity-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/qa-ethnicity" ] ;
+       fhir:description [ fhir:v "QCEthnicity ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/relationship-to-proband> ;
+         fhir:reference [ fhir:v "ValueSet/relationship-to-proband" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/relationship-to-proband" ] ;
+       fhir:description [ fhir:v "Relationship To Proband ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/research-domain-vs> ;
+         fhir:reference [ fhir:v "ValueSet/research-domain-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/research-domain" ] ;
+       fhir:description [ fhir:v "Study Domain ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs> ;
+         fhir:reference [ fhir:v "ValueSet/sample-type-tissue-source-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/sample-type-tissue-source" ] ;
+       fhir:description [ fhir:v "Sample Type Tissue Source ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/study-vs> ;
+         fhir:reference [ fhir:v "ValueSet/study-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-study" ] ;
+       fhir:description [ fhir:v "Study ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs> ;
+         fhir:reference [ fhir:v "ValueSet/tumor-normal-designation-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/tumor-normal-designation" ] ;
+       fhir:description [ fhir:v "Tumor Normal Designation ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code> ;
+         fhir:reference [ fhir:v "CodeSystem/bioinfo-analysis-code" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/bioinformatics-analysis" ] ;
+       fhir:description [ fhir:v "Bioinformatics analysis code" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code> ;
+         fhir:reference [ fhir:v "CodeSystem/cqdg-observation-code" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/cqdg-observation" ] ;
+       fhir:description [ fhir:v "CQDG Observation codes" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/cqdg-study-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/cqdg-study" ] ;
+       fhir:description [ fhir:v "CQDG study code system" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes> ;
+         fhir:reference [ fhir:v "CodeSystem/cause-of-death-codes" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/cause-of-death" ] ;
+       fhir:description [ fhir:v "Codes for cause of death" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/duo-codes> ;
+         fhir:reference [ fhir:v "CodeSystem/duo-codes" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/duo-codes" ] ;
+       fhir:description [ fhir:v "DUO codes" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/data-category> ;
+         fhir:reference [ fhir:v "CodeSystem/data-category" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/data-category" ] ;
+       fhir:description [ fhir:v "Data category" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/data-type> ;
+         fhir:reference [ fhir:v "CodeSystem/data-type" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/data-type" ] ;
+       fhir:description [ fhir:v "Data Type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/disease-status> ;
+         fhir:reference [ fhir:v "CodeSystem/disease-status" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/disease-status" ] ;
+       fhir:description [ fhir:v "Disease status code system" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/document-format> ;
+         fhir:reference [ fhir:v "CodeSystem/document-format" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/document-format" ] ;
+       fhir:description [ fhir:v "Document format" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/experimental-strategy> ;
+         fhir:reference [ fhir:v "CodeSystem/experimental-strategy" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/experimental-strategy" ] ;
+       fhir:description [ fhir:v "Experimental strategy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/family-type> ;
+         fhir:reference [ fhir:v "CodeSystem/family-type" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/family-type" ] ;
+       fhir:description [ fhir:v "Family type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/genome-build> ;
+         fhir:reference [ fhir:v "CodeSystem/genome-build" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/genome-build" ] ;
+       fhir:description [ fhir:v "Genome build" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/population> ;
+         fhir:reference [ fhir:v "CodeSystem/population" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/population" ] ;
+       fhir:description [ fhir:v "Population" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/qc-ethnicity> ;
+         fhir:reference [ fhir:v "CodeSystem/qc-ethnicity" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/qc-ethnicity" ] ;
+       fhir:description [ fhir:v "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/qc-sample-type> ;
+         fhir:reference [ fhir:v "CodeSystem/qc-sample-type" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/sample-type" ] ;
+       fhir:description [ fhir:v "Qc sample type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/research-domain> ;
+         fhir:reference [ fhir:v "CodeSystem/research-domain" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/research-domain" ] ;
+       fhir:description [ fhir:v "Research domain" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation> ;
+         fhir:reference [ fhir:v "CodeSystem/tumor-normal-designation" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/tumor-normal-designation" ] ;
+       fhir:description [ fhir:v "Tumor normal designation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/CodeSystem/v3-role-code> ;
+         fhir:reference [ fhir:v "CodeSystem/v3-role-code" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/v3-roles" ] ;
+       fhir:description [ fhir:v "V3 role code" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Group" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Group/CQDGGroupExample> ;
+         fhir:reference [ fhir:v "Group/CQDGGroupExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-group" ] ;
+       fhir:description [ fhir:v "An example of a cqdg group" ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-group"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-group>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Task" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Task/CQDGTaskExample> ;
+         fhir:reference [ fhir:v "Task/CQDGTaskExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-task" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Task" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Condition/ConditionExample> ;
+         fhir:reference [ fhir:v "Condition/ConditionExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-condition" ] ;
+       fhir:description [ fhir:v "An example of a cqdg patient." ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DocumentReference" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample1> ;
+         fhir:reference [ fhir:v "DocumentReference/DocumentReferenceExample1" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-document-reference1" ] ;
+       fhir:description [ fhir:v "Document Reference Example1" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DocumentReference" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample2> ;
+         fhir:reference [ fhir:v "DocumentReference/DocumentReferenceExample2" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-document-reference2" ] ;
+       fhir:description [ fhir:v "Document Reference Example2" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Observation/ObsDiseaseStatExample> ;
+         fhir:reference [ fhir:v "Observation/ObsDiseaseStatExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/disease-status" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Observation (disease)" ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Observation/ObsPhenotypeExample> ;
+         fhir:reference [ fhir:v "Observation/ObsPhenotypeExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/phenotype" ] ;
+       fhir:description [ fhir:v "An example of a cqdg Observation (phenotype)" ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Organization/OrganizationExample> ;
+         fhir:reference [ fhir:v "Organization/OrganizationExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-organization" ] ;
+       fhir:description [ fhir:v "Organization Example" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+         fhir:reference [ fhir:v "Patient/PatientExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-patient" ] ;
+       fhir:description [ fhir:v "An example of a cqdg patient." ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ResearchStudy" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/ResearchStudy/ResearchStudyExample> ;
+         fhir:reference [ fhir:v "ResearchStudy/ResearchStudyExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/cqdg-study" ] ;
+       fhir:description [ fhir:v "An example of a research study." ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Specimen" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample> ;
+         fhir:reference [ fhir:v "Specimen/SpecimenExample" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/specimen1" ] ;
+       fhir:description [ fhir:v "An example of a specimen" ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Specimen" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample2> ;
+         fhir:reference [ fhir:v "Specimen/SpecimenExample2" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Example/specimen2" ] ;
+       fhir:description [ fhir:v "An example of a specimen" ] ;
+       fhir:example [
+         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
+         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
+       ]
+     ] ) ;
+     fhir:page [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
+       ] ) ;
+       fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Table of Contents" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/maps" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [ fhir:v "path-tx-cache" ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,115 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cause-of-death-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Cancer<a name=\"cause-of-death-codes-Cancer\"> </a></td><td>Cancer</td></tr><tr><td style=\"white-space:nowrap\">Heart-disease<a name=\"cause-of-death-codes-Heart-disease\"> </a></td><td>Heart disease</td></tr><tr><td style=\"white-space:nowrap\">Cerebrovascular-disease<a name=\"cause-of-death-codes-Cerebrovascular-disease\"> </a></td><td>Cerebrovascular disease</td></tr><tr><td style=\"white-space:nowrap\">Accidental-death<a name=\"cause-of-death-codes-Accidental-death\"> </a></td><td>Accidental death</td></tr><tr><td style=\"white-space:nowrap\">Chronic-lower-respiratory-diseases<a name=\"cause-of-death-codes-Chronic-lower-respiratory-diseases\"> </a></td><td>Chronic lower respiratory diseases</td></tr><tr><td style=\"white-space:nowrap\">Influenza-and-pneumonia<a name=\"cause-of-death-codes-Influenza-and-pneumonia\"> </a></td><td>Influenza and pneumonia</td></tr><tr><td style=\"white-space:nowrap\">Other-reasons<a name=\"cause-of-death-codes-Other-reasons\"> </a></td><td>Other reasons</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"cause-of-death-codes-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+  "version" : "0.1.0",
+  "name" : "CauseOfDeathCodes",
+  "title" : "Ferlab.bio CodeSystem/cause-of-death",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes for cause of death",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "Cancer",
+    "display" : "Cancer",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Cancer"
+      },
+      "value" : "Cancer"
+    }]
+  },
+  {
+    "code" : "Heart-disease",
+    "display" : "Heart disease",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Heart-disease"
+      },
+      "value" : "Heart disease"
+    }]
+  },
+  {
+    "code" : "Cerebrovascular-disease",
+    "display" : "Cerebrovascular disease",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Cerebrovascular-disease"
+      },
+      "value" : "Cerebrovascular disease"
+    }]
+  },
+  {
+    "code" : "Accidental-death",
+    "display" : "Accidental death",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Accidental-death"
+      },
+      "value" : "Accidental death"
+    }]
+  },
+  {
+    "code" : "Chronic-lower-respiratory-diseases",
+    "display" : "Chronic lower respiratory diseases",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Chronic-lower-respiratory-diseases"
+      },
+      "value" : "Chronic lower respiratory diseases"
+    }]
+  },
+  {
+    "code" : "Influenza-and-pneumonia",
+    "display" : "Influenza and pneumonia",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Influenza-and-pneumonia"
+      },
+      "value" : "Influenza and pneumonia"
+    }]
+  },
+  {
+    "code" : "Other-reasons",
+    "display" : "Other reasons",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Other-reasons"
+      },
+      "value" : "Other reasons"
+    }]
+  },
+  {
+    "code" : "Unknown",
+    "display" : "Unknown",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Unknown"
+      },
+      "value" : "Unknown"
+    }]
+  }]
+}

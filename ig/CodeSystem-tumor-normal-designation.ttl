@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tumor-normal-designation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Normal<a name=\"tumor-normal-designation-Normal\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">Tumor<a name=\"tumor-normal-designation-Tumor\"> </a></td><td>Tumor</td></tr><tr><td style=\"white-space:nowrap\">Not-applicable<a name=\"tumor-normal-designation-Not-applicable\"> </a></td><td>Not applicable</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TumorNormalDesignation"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/tumor-normal-designation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tumor normal designation"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Normal" ] ;
+     fhir:display [ fhir:v "Normal" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Normal" ]
+       ] ;
+       fhir:value [ fhir:v "Normal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Tumor" ] ;
+     fhir:display [ fhir:v "Tumor" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Tumor" ]
+       ] ;
+       fhir:value [ fhir:v "Tumor" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Not-applicable" ] ;
+     fhir:display [ fhir:v "Not applicable" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Not-applicable" ]
+       ] ;
+       fhir:value [ fhir:v "Not applicable" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

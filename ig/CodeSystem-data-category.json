@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "data-category",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Genomics<a name=\"data-category-Genomics\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/data-category",
+  "version" : "0.1.0",
+  "name" : "DataCategory",
+  "title" : "Ferlab.bio CodeSystem/data-category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Data category",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "Genomics",
+    "display" : "Genomics",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "Genomics"
+      },
+      "value" : "Genomics"
+    }]
+  }]
+}

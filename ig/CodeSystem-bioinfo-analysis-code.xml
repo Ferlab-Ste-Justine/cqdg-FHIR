@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="bioinfo-analysis-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">RABA<a name="bioinfo-analysis-code-RABA"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style="white-space:nowrap">SNVC<a name="bioinfo-analysis-code-SNVC"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style="white-space:nowrap">QCBA<a name="bioinfo-analysis-code-QCBA"> </a></td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style="white-space:nowrap">GEBA<a name="bioinfo-analysis-code-GEBA"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style="white-space:nowrap">GGBA<a name="bioinfo-analysis-code-GGBA"> </a></td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+  <version value="0.1.0"/>
+  <name value="BioinfoAnalysisCode"/>
+  <title value="Ferlab.bio CodeSystem/bioinformatics-analysis"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Bioinformatics analysis code"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="RABA"/>
+    <display value="Reads Alignement Bioinformatic Analysis"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+        <code value="RABA"/>
+      </use>
+      <value value="Reads Alignement Bioinformatic Analysis"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SNVC"/>
+    <display value="SNV Calling Bioinformatic Analysis"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+        <code value="SNVC"/>
+      </use>
+      <value value="Reads Alignement Bioinformatic Analysis"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="QCBA"/>
+    <display value="Quality Control Bioinformatic Analysis"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+        <code value="QCBA"/>
+      </use>
+      <value value="Quality Control Bioinformatic Analysis"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GEBA"/>
+    <display value="Germline Exome Bioinformatic Analysis"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+        <code value="GEBA"/>
+      </use>
+      <value value="Germline Exome Bioinformatic Analysis"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GGBA"/>
+    <display value="Germline Genome Bioinformatic Analysis"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+        <code value="GGBA"/>
+      </use>
+      <value value="Germline Genome Bioinformatic Analysis"/>
+    </designation>
+  </concept>
+</CodeSystem>

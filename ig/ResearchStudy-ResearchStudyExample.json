@@ -1,0 +1,98 @@
+{
+  "resourceType" : "ResearchStudy",
+  "id" : "ResearchStudyExample",
+  "meta" : {
+    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study",
+    "http://hl7.org/fhir/StructureDefinition/ResearchStudy"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ResearchStudy</b><a name=\"ResearchStudyExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ResearchStudy &quot;ResearchStudyExample&quot; </p><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-cqdg-research-study.html\">Ferlab.bio StructureDefinition/cqdg-study</a>, <a href=\"http://hl7.org/fhir/R4/researchstudy.html\">ResearchStudy</a></p></div><p><b>Ferlab.bio Extension/access-limitations</b>: obsolete general research use and clinical care (Details: [not stated] code DUO:0000005 = 'DUO:0000005', stated as 'obsolete general research use and clinical care')</p><p><b>Ferlab.bio Extension/access-requirement</b>: publication required (Details: [not stated] code DUO:0000019 = 'DUO:0000019', stated as 'publication required')</p><p><b>Ferlab.bio Extension/access-requirement</b>: ethics approval required (Details: [not stated] code $DUO:0000021 = '$DUO:0000021', stated as 'ethics approval required')</p><p><b>Ferlab.bio Extension/access-requirement</b>: time limit on use (Details: [not stated] code $DUO:0000025 = '$DUO:0000025', stated as 'time limit on use')</p><p><b>Ferlab.bio Extension/access-requirement</b>: user specific restriction (Details: [not stated] code DUO:0000026 = 'DUO:0000026', stated as 'user specific restriction')</p><p><b>Ferlab.bio Extension/access-requirement</b>: project specific restriction (Details: [not stated] code DUO:0000027 = 'DUO:0000027', stated as 'project specific restriction')</p><p><b>Ferlab.bio Extension/access-requirement</b>: return to database or resource (Details: [not stated] code DUO:0000029 = 'DUO:0000029', stated as 'return to database or resource')</p><p><b>identifier</b>: id:\u00a0ResearchStudyExample, id:\u00a0CAG\u00a0(use:\u00a0SECONDARY)</p><p><b>title</b>: CARTaGENE</p><p><b>status</b>: completed</p><p><b>category</b>: General Health <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (study-domain#General Health)</span></p><p><b>contact</b>: TBD: <a href=\"https://sdas.cartagene.qc.ca\">https://sdas.cartagene.qc.ca</a></p><p><b>keyword</b>: genomics <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span>, chronic conditions <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span>, population-based cohort <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span>, survey data <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>description</b>: CARTaGENE is a public research platform of the CHU Sainte-Justine created to accelerate health research. CARTaGENE consists of both biological samples and health data from 43,000 Qu√©bec residents aged between 40 to 69 years.</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessLimitations",
+    "valueCoding" : {
+      "code" : "DUO:0000005",
+      "display" : "obsolete general research use and clinical care"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "DUO:0000019",
+      "display" : "publication required"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "$DUO:0000021",
+      "display" : "ethics approval required"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "$DUO:0000025",
+      "display" : "time limit on use"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "DUO:0000026",
+      "display" : "user specific restriction"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "DUO:0000027",
+      "display" : "project specific restriction"
+    }
+  },
+  {
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+    "valueCoding" : {
+      "code" : "DUO:0000029",
+      "display" : "return to database or resource"
+    }
+  }],
+  "identifier" : [{
+    "system" : "https://fhir.cqdg.ca/fhir/ResearchStudy",
+    "value" : "ResearchStudyExample"
+  },
+  {
+    "use" : "secondary",
+    "value" : "CAG"
+  }],
+  "title" : "CARTaGENE",
+  "status" : "completed",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/study-domain",
+      "code" : "General Health",
+      "display" : "General Health"
+    }]
+  }],
+  "contact" : [{
+    "name" : "TBD",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://sdas.cartagene.qc.ca"
+    }]
+  }],
+  "keyword" : [{
+    "text" : "genomics"
+  },
+  {
+    "text" : "chronic conditions"
+  },
+  {
+    "text" : "population-based cohort"
+  },
+  {
+    "text" : "survey data"
+  }],
+  "description" : "CARTaGENE is a public research platform of the CHU Sainte-Justine created to accelerate health research. CARTaGENE consists of both biological samples and health data from 43,000 Qu√©bec residents aged between 40 to 69 years."
+}

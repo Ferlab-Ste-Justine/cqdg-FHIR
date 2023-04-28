@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bioinfo-analysis-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GGBA<a name=\"bioinfo-analysis-code-GGBA\"> </a></td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BioinfoAnalysisCode"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/bioinformatics-analysis"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Bioinformatics analysis code"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "RABA" ] ;
+     fhir:display [ fhir:v "Reads Alignement Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "RABA" ]
+       ] ;
+       fhir:value [ fhir:v "Reads Alignement Bioinformatic Analysis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SNVC" ] ;
+     fhir:display [ fhir:v "SNV Calling Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "SNVC" ]
+       ] ;
+       fhir:value [ fhir:v "Reads Alignement Bioinformatic Analysis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "QCBA" ] ;
+     fhir:display [ fhir:v "Quality Control Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "QCBA" ]
+       ] ;
+       fhir:value [ fhir:v "Quality Control Bioinformatic Analysis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GEBA" ] ;
+     fhir:display [ fhir:v "Germline Exome Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "GEBA" ]
+       ] ;
+       fhir:value [ fhir:v "Germline Exome Bioinformatic Analysis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GGBA" ] ;
+     fhir:display [ fhir:v "Germline Genome Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "GGBA" ]
+       ] ;
+       fhir:value [ fhir:v "Germline Genome Bioinformatic Analysis" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

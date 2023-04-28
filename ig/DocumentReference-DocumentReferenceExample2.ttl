@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample2> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DocumentReferenceExample2"] ; # 
+  fhir:meta [
+     fhir:tag ( [
+       fhir:code [ fhir:v "CAG" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DocumentReference</b><a name=\"DocumentReferenceExample2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DocumentReference &quot;DocumentReferenceExample2&quot; </p><p style=\"margin-bottom: 0px\">Tag: <span title=\"{null null}\"/></p></div><p><b>status</b>: current</p><p><b>type</b>: Aligned Reads <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type</a>#Aligned-reads)</span></p><p><b>category</b>: Genomics <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-category.html\">Ferlab.bio CodeSystem/data-category</a>#Genomics)</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a></p><p><b>securityLabel</b>: test <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated])</span></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Url</b></td></tr><tr><td>*</td><td/><td>application/octet-stream</td><td><a href=\"https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681\">https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681</a></td></tr></table><p><b>format</b>: TGZ Archive File (Details: http://fhir.cqdg.ca/CodeSystem/document-format code TGZ = 'TGZ Archive File', stated as 'TGZ Archive File')</p></blockquote><h3>Contexts</h3><table class=\"grid\"><tr><td>-</td><td><b>Related</b></td></tr><tr><td>*</td><td><a href=\"Specimen-SpecimenExample.html\">Specimen/SpecimenExample: Submitter Sample ID: SpecimenExample</a></td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "current"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Aligned-reads" ] ;
+       fhir:display [ fhir:v "Aligned Reads" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Genomics" ] ;
+       fhir:display [ fhir:v "Genomics" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:reference [ fhir:v "Patient/PatientExample" ]
+  ] ; # 
+  fhir:securityLabel ( [
+     fhir:coding ( [
+       fhir:display [ fhir:v "test" ]
+     ] )
+  ] ) ; # 
+  fhir:content ( [
+     fhir:attachment [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "22799222"^^xsd:decimal ]
+       ] ) ;
+       fhir:contentType [ fhir:v "application/octet-stream" ] ;
+       fhir:url [ fhir:v "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"^^xsd:anyURI ]
+     ] ;
+     fhir:format [
+       fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/document-format"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "TGZ" ] ;
+       fhir:display [ fhir:v "TGZ Archive File" ]
+     ]
+  ] ) ; # 
+  fhir:context [
+     fhir:related ( [
+       fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample> ;
+       fhir:reference [ fhir:v "Specimen/SpecimenExample" ] ;
+       fhir:display [ fhir:v "Submitter Sample ID: SpecimenExample" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

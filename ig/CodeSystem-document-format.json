@@ -1,0 +1,91 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "document-format",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/document-format</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM</td><td>CRAM</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td><td>CRAI</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF</td><td>VCF</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td><td>TGZ</td></tr><tr><td style=\"white-space:nowrap\">gVCF<a name=\"document-format-gVCF\"> </a></td><td>gVCF File</td><td>gVCF</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td><td>TBI</td></tr><tr><td style=\"white-space:nowrap\">BW<a name=\"document-format-BW\"> </a></td><td>BW File</td><td>BW</td></tr><tr><td style=\"white-space:nowrap\">BED<a name=\"document-format-BED\"> </a></td><td>BED File</td><td>BED</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/document-format",
+  "version" : "0.1.0",
+  "name" : "DocumentForamt",
+  "title" : "Ferlab.bio CodeSystem/document-format",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Document format",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "CRAM",
+    "display" : "CRAM",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "CRAM"
+    }]
+  },
+  {
+    "code" : "CRAI",
+    "display" : "CRAI Index File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "CRAI"
+    }]
+  },
+  {
+    "code" : "VCF",
+    "display" : "VCF",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "VCF"
+    }]
+  },
+  {
+    "code" : "TGZ",
+    "display" : "TGZ Archive File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "TGZ"
+    }]
+  },
+  {
+    "code" : "gVCF",
+    "display" : "gVCF File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "gVCF"
+    }]
+  },
+  {
+    "code" : "TBI",
+    "display" : "TBI Index File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "TBI"
+    }]
+  },
+  {
+    "code" : "BW",
+    "display" : "BW File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "BW"
+    }]
+  },
+  {
+    "code" : "BED",
+    "display" : "BED File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "BED"
+    }]
+  }]
+}

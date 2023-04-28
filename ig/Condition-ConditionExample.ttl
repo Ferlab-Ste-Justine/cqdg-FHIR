@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/Condition/ConditionExample> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConditionExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
+       fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
+     ] ) ;
+     fhir:tag ( [
+       fhir:code [ fhir:v "CAG" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"ConditionExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;ConditionExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-condition.html\">Ferlab.bio StructureDefinition/cqdg-condition</a></p><p style=\"margin-bottom: 0px\">Tag: <span title=\"{null null}\"/></p></div><p><b>identifier</b>: id: ConditionExample</p><p><b>code</b>: fatigue <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#L40; mondo.owl#1231245)</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a></p><p><b>onset</b>: 5000 days<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code d = 'd')</span></p><h3>Stages</h3><table class=\"grid\"><tr><td>-</td><td><b>Summary</b></td></tr><tr><td>*</td><td>TNM tumor staging system <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#254293002)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://fhir.cqdg.ca/fhir/Condition"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ConditionExample" ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:code [ fhir:v "L40" ]
+     ] [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/mondo.owl"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1231245" ] ;
+       fhir:display [ fhir:v "fatigue" ]
+     ] ) ;
+     fhir:text [ fhir:v "fatigue" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:reference [ fhir:v "Patient/PatientExample" ]
+  ] ; # 
+  fhir:onset [
+     a fhir:Age ;
+     fhir:value [ fhir:v "5000"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "days" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "d" ]
+  ] ; # 
+  fhir:stage ( [
+     fhir:summary [
+       fhir:coding ( [
+         a sct:254293002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "254293002" ] ;
+         fhir:display [ fhir:v "TNM tumor staging system" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

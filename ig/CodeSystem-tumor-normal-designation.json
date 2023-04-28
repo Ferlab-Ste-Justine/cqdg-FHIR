@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tumor-normal-designation",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Normal<a name=\"tumor-normal-designation-Normal\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">Tumor<a name=\"tumor-normal-designation-Tumor\"> </a></td><td>Tumor</td></tr><tr><td style=\"white-space:nowrap\">Not-applicable<a name=\"tumor-normal-designation-Not-applicable\"> </a></td><td>Not applicable</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+  "version" : "0.1.0",
+  "name" : "TumorNormalDesignation",
+  "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Tumor normal designation",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "Normal",
+    "display" : "Normal",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+        "code" : "Normal"
+      },
+      "value" : "Normal"
+    }]
+  },
+  {
+    "code" : "Tumor",
+    "display" : "Tumor",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+        "code" : "Tumor"
+      },
+      "value" : "Tumor"
+    }]
+  },
+  {
+    "code" : "Not-applicable",
+    "display" : "Not applicable",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+        "code" : "Not-applicable"
+      },
+      "value" : "Not applicable"
+    }]
+  }]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "genome-build",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/genome-build",
+  "version" : "0.1.0",
+  "name" : "GenomeBuild",
+  "title" : "Ferlab.bio CodeSystem/genome-build",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Genome build",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "GRCh38",
+    "display" : "GRCh38",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/genome-build",
+        "code" : "GRCh38"
+      },
+      "value" : "GRCh38"
+    }]
+  }]
+}

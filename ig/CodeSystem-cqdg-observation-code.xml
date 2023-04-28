@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cqdg-observation-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Family-relationship<a name="cqdg-observation-code-Family-relationship"> </a></td><td>Family Relationship</td></tr><tr><td style="white-space:nowrap">Tumor-normal-designation<a name="cqdg-observation-code-Tumor-normal-designation"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style="white-space:nowrap">Disease-Status<a name="cqdg-observation-code-Disease-Status"> </a></td><td>Disease Status</td></tr><tr><td style="white-space:nowrap">Phenotype<a name="cqdg-observation-code-Phenotype"> </a></td><td>Phenotype</td></tr><tr><td style="white-space:nowrap">Cause-of-Death<a name="cqdg-observation-code-Cause-of-Death"> </a></td><td>Cause of Death</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+  <version value="0.1.0"/>
+  <name value="CQDGObservationCode"/>
+  <title value="Ferlab.bio CodeSystem/cqdg-observation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="CQDG Observation codes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="Family-relationship"/>
+    <display value="Family Relationship"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+        <code value="Family-relationship"/>
+      </use>
+      <value value="Social history observation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Tumor-normal-designation"/>
+    <display value="Tumor Normal Designation"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+        <code value="Tumor-normal-designation"/>
+      </use>
+      <value value="Histological Diagnosis"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Disease-Status"/>
+    <display value="Disease Status"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+        <code value="Disease-Status"/>
+      </use>
+      <value value="Disease Status observation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Phenotype"/>
+    <display value="Phenotype"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+        <code value="Phenotype"/>
+      </use>
+      <value value="Phenotype observation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Cause-of-Death"/>
+    <display value="Cause of Death"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+        <code value="Cause-of-Death"/>
+      </use>
+      <value value="Cause of death"/>
+    </designation>
+  </concept>
+</CodeSystem>

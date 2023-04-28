@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cause-of-death-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cause-of-death-codes.html\"><code>http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/cause-of-death-vs",
+  "version" : "0.1.0",
+  "name" : "CauseOfDeathVS",
+  "title" : "Ferlab.bio ValueSet/cause-of-death",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Cause of death",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"
+    }]
+  }
+}

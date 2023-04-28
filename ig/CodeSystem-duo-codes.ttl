@@ -1,0 +1,267 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/duo-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "duo-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/duo-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DUO:0000012<a name=\"duo-codes-DUO.580000012\"> </a></td><td>research specific restrictions</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000015<a name=\"duo-codes-DUO.580000015\"> </a></td><td>no general methods research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000016<a name=\"duo-codes-DUO.580000016\"> </a></td><td>genetic studies only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000018<a name=\"duo-codes-DUO.580000018\"> </a></td><td>not for profit, non commercial use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000019<a name=\"duo-codes-DUO.580000019\"> </a></td><td>publication required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000020<a name=\"duo-codes-DUO.580000020\"> </a></td><td>collaboration required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000021<a name=\"duo-codes-DUO.580000021\"> </a></td><td>ethics approval required</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000022<a name=\"duo-codes-DUO.580000022\"> </a></td><td>geographical restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000024<a name=\"duo-codes-DUO.580000024\"> </a></td><td>publication moratorium</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000025<a name=\"duo-codes-DUO.580000025\"> </a></td><td>time limit on use</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000026<a name=\"duo-codes-DUO.580000026\"> </a></td><td>user specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000027<a name=\"duo-codes-DUO.580000027\"> </a></td><td>project specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000028<a name=\"duo-codes-DUO.580000028\"> </a></td><td>institution specific restriction</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000029<a name=\"duo-codes-DUO.580000029\"> </a></td><td>return to database or resource</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000043<a name=\"duo-codes-DUO.5800000043\"> </a></td><td>clinical care use</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000044<a name=\"duo-codes-DUO.5800000044\"> </a></td><td>population origins or ancestry research prohibited</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000045<a name=\"duo-codes-DUO.5800000045\"> </a></td><td>not for profit organisation use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:00000046<a name=\"duo-codes-DUO.5800000046\"> </a></td><td>non-commercial use only</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000004<a name=\"duo-codes-DUO.580000004\"> </a></td><td>Restriction on access</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000006<a name=\"duo-codes-DUO.580000006\"> </a></td><td>health or medical or biomedical research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000007<a name=\"duo-codes-DUO.580000007\"> </a></td><td>disease specific research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000011<a name=\"duo-codes-DUO.580000011\"> </a></td><td>population origins or ancestry research</td></tr><tr><td style=\"white-space:nowrap\">DUO:0000042<a name=\"duo-codes-DUO.580000042\"> </a></td><td>general research use</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/duo-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DUOCodes"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/duo-codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "DUO codes"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "23"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DUO:0000012" ] ;
+     fhir:display [ fhir:v "research specific restrictions" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000012" ]
+       ] ;
+       fhir:value [ fhir:v "research specific restrictions" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000015" ] ;
+     fhir:display [ fhir:v "no general methods research" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000015" ]
+       ] ;
+       fhir:value [ fhir:v "no general methods research" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000016" ] ;
+     fhir:display [ fhir:v "genetic studies only" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000016" ]
+       ] ;
+       fhir:value [ fhir:v "genetic studies only" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000018" ] ;
+     fhir:display [ fhir:v "not for profit, non commercial use only" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000018" ]
+       ] ;
+       fhir:value [ fhir:v "not for profit, non commercial use only" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000019" ] ;
+     fhir:display [ fhir:v "publication required" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000019" ]
+       ] ;
+       fhir:value [ fhir:v "publication required" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000020" ] ;
+     fhir:display [ fhir:v "collaboration required" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000020" ]
+       ] ;
+       fhir:value [ fhir:v "collaboration required" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000021" ] ;
+     fhir:display [ fhir:v "ethics approval required" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000021" ]
+       ] ;
+       fhir:value [ fhir:v "ethics approval required" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000022" ] ;
+     fhir:display [ fhir:v "geographical restriction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000022" ]
+       ] ;
+       fhir:value [ fhir:v "geographical restriction" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000024" ] ;
+     fhir:display [ fhir:v "publication moratorium" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000024" ]
+       ] ;
+       fhir:value [ fhir:v "publication moratorium" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000025" ] ;
+     fhir:display [ fhir:v "time limit on use" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000025" ]
+       ] ;
+       fhir:value [ fhir:v "time limit on use" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000026" ] ;
+     fhir:display [ fhir:v "user specific restriction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000026" ]
+       ] ;
+       fhir:value [ fhir:v "user specific restriction" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000027" ] ;
+     fhir:display [ fhir:v "project specific restriction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000027" ]
+       ] ;
+       fhir:value [ fhir:v "project specific restriction" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000028" ] ;
+     fhir:display [ fhir:v "institution specific restriction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000028" ]
+       ] ;
+       fhir:value [ fhir:v "institution specific restriction" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000029" ] ;
+     fhir:display [ fhir:v "return to database or resource" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000029" ]
+       ] ;
+       fhir:value [ fhir:v "return to database or resource" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:00000043" ] ;
+     fhir:display [ fhir:v "clinical care use" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:00000043" ]
+       ] ;
+       fhir:value [ fhir:v "clinical care use" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:00000044" ] ;
+     fhir:display [ fhir:v "population origins or ancestry research prohibited" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:00000044" ]
+       ] ;
+       fhir:value [ fhir:v "population origins or ancestry research prohibited" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:00000045" ] ;
+     fhir:display [ fhir:v "not for profit organisation use only" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:00000045" ]
+       ] ;
+       fhir:value [ fhir:v "not for profit organisation use only" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:00000046" ] ;
+     fhir:display [ fhir:v "non-commercial use only" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:00000046" ]
+       ] ;
+       fhir:value [ fhir:v "non-commercial use only" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000004" ] ;
+     fhir:display [ fhir:v "Restriction on access" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000004" ]
+       ] ;
+       fhir:value [ fhir:v "Restriction on access" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000006" ] ;
+     fhir:display [ fhir:v "health or medical or biomedical research" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000006" ]
+       ] ;
+       fhir:value [ fhir:v "health or medical or biomedical research" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000007" ] ;
+     fhir:display [ fhir:v "disease specific research" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000007" ]
+       ] ;
+       fhir:value [ fhir:v "disease specific research" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000011" ] ;
+     fhir:display [ fhir:v "population origins or ancestry research" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000011" ]
+       ] ;
+       fhir:value [ fhir:v "population origins or ancestry research" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DUO:0000042" ] ;
+     fhir:display [ fhir:v "general research use" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/duo.owl"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DUO:0000042" ]
+       ] ;
+       fhir:value [ fhir:v "general research use" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

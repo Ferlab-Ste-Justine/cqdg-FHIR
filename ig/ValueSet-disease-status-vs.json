@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "disease-status-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-disease-status.html\"><code>http://fhir.cqdg.ca/CodeSystem/disease-status</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/disease-status-vs",
+  "version" : "0.1.0",
+  "name" : "DiseaseStatusVS",
+  "title" : "Ferlab.bio ValueSet/disease-status",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Disease Status ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/disease-status"
+    }]
+  }
+}

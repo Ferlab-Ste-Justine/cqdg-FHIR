@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/qc-ethnicity> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "qc-ethnicity"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/qc-ethnicity</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">French Canadian<a name=\"qc-ethnicity-FrenchCanadian\"> </a></td><td>Descendants of the First Nations of the St. Lawrence Valley</td><td>Canadien Francais</td></tr><tr><td style=\"white-space:nowrap\">English Canadian<a name=\"qc-ethnicity-EnglishCanadian\"> </a></td><td>Descendants of the First Nations of the St. Lawrence Valley</td><td>Canadien Anglais</td></tr><tr><td style=\"white-space:nowrap\">First Nations, Metis and Inuit people<a name=\"qc-ethnicity-FirstNations.44MetisandInuitpeople\"> </a></td><td>Person who are descendants of the natives or the indigenous peoples of the Americas</td><td>Premières Nations, Métis et Inuits du Canada</td></tr><tr><td style=\"white-space:nowrap\">European Caucasian<a name=\"qc-ethnicity-EuropeanCaucasian\"> </a></td><td>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</td><td>Caucasien Européen</td></tr><tr><td style=\"white-space:nowrap\">Arabe<a name=\"qc-ethnicity-Arabe\"> </a></td><td/><td>Arab</td></tr><tr><td style=\"white-space:nowrap\">Hispanic and Latino Americans<a name=\"qc-ethnicity-HispanicandLatinoAmericans\"> </a></td><td>Canadian or Quebecois who are descendants of people from Latin America</td><td>Hispanique</td></tr><tr><td style=\"white-space:nowrap\">African or Caribbean<a name=\"qc-ethnicity-AfricanorCaribbean\"> </a></td><td>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</td><td>Africain ou caribéen</td></tr><tr><td style=\"white-space:nowrap\">East and Southeast Asian<a name=\"qc-ethnicity-EastandSoutheastAsian\"> </a></td><td>Canadian or Quebecois who are descendants of people from east and southeast asia</td><td>Asiatique de l'est et du sud-est</td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-ethnicity-SouthAsian\"> </a></td><td>Canadian or Quebecois who are descendants of people from south asia</td><td>Asiatique du sud</td></tr><tr><td style=\"white-space:nowrap\">Mixted<a name=\"qc-ethnicity-Mixted\"> </a></td><td>Individual descending from more than one ethnic group</td><td>Mixte</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"qc-ethnicity-Other\"> </a></td><td>Other ethnicity</td><td>Autre</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "QCEthnicity"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/qc-ethnicity"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "French Canadian" ] ;
+     fhir:display [ fhir:v "French Canadian" ] ;
+     fhir:definition [ fhir:v "Descendants of the First Nations of the St. Lawrence Valley" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Canadien Francais" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "English Canadian" ] ;
+     fhir:display [ fhir:v "English Canadian" ] ;
+     fhir:definition [ fhir:v "Descendants of the First Nations of the St. Lawrence Valley" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Canadien Anglais" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "First Nations, Metis and Inuit people" ] ;
+     fhir:display [ fhir:v "First Nations, Metis and Inuit people" ] ;
+     fhir:definition [ fhir:v "Person who are descendants of the natives or the indigenous peoples of the Americas" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Premières Nations, Métis et Inuits du Canada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "European Caucasian" ] ;
+     fhir:display [ fhir:v "European Caucasian" ] ;
+     fhir:definition [ fhir:v "Anyone from or whose ancestors originate from the European continent (excluding French Canadians)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Caucasien Européen" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Arabe" ] ;
+     fhir:display [ fhir:v "Arabe" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Arab" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Hispanic and Latino Americans" ] ;
+     fhir:display [ fhir:v "Hispanic and Latino Americans" ] ;
+     fhir:definition [ fhir:v "Canadian or Quebecois who are descendants of people from Latin America" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Hispanique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "African or Caribbean" ] ;
+     fhir:display [ fhir:v "African or Caribbean" ] ;
+     fhir:definition [ fhir:v "Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Africain ou caribéen" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "East and Southeast Asian" ] ;
+     fhir:display [ fhir:v "East and Southeast Asian" ] ;
+     fhir:definition [ fhir:v "Canadian or Quebecois who are descendants of people from east and southeast asia" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Asiatique de l'est et du sud-est" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "South Asian" ] ;
+     fhir:display [ fhir:v "South Asian" ] ;
+     fhir:definition [ fhir:v "Canadian or Quebecois who are descendants of people from south asia" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Asiatique du sud" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Mixted" ] ;
+     fhir:display [ fhir:v "Mixted" ] ;
+     fhir:definition [ fhir:v "Individual descending from more than one ethnic group" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Mixte" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other ethnicity" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Autre" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

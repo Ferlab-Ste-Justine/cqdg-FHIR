@@ -1,0 +1,138 @@
+{
+  "resourceType" : "Task",
+  "id" : "CQDGTaskExample",
+  "meta" : {
+    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Task</b><a name=\"CQDGTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Task &quot;CQDGTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task</code></p></div><blockquote><p><b>Ferlab.bio StructureDefinition/cqdg-task</b></p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-WorkflowName.html\">Ferlab.bio StructureDefinition/workflow-name</a></blockquote><p><b>value</b>: Dragen</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-WorkflowVersion.html\">Ferlab.bio StructureDefinition/workflow-version</a></blockquote><p><b>value</b>: SW null</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-GenomeBuild.html\">Ferlab.bio StructureDefinition/genome-build</a></blockquote><p><b>value</b>: GRCh38 (Details: http://fhir.cqdg.ca/CodeSystem/genome-build code GRCh38 = 'GRCh38', stated as 'GRCh38')</p></blockquote><blockquote><p><b>Ferlab.bio StructureDefinition/sequencing-experiment</b></p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-RunName.html\">Ferlab.bio StructureDefinition/run-name</a></blockquote><p><b>value</b>: 1898</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-IsPairedEnd.html\">Ferlab.bio StructureDefinition/is-paired-end</a></blockquote><p><b>value</b>: true</p><blockquote><p><b>url</b></p><code>ReadLength</code></blockquote><p><b>value</b>: 151,8,8,151</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-ExperimentalStrategy.html\">Ferlab.bio StructureDefinition/experimental-strategy</a></blockquote><p><b>value</b>: Whole Exome Sequencing (Details: http://fhir.cqdg.ca/CodeSystem/experimental-strategy code WXS = 'Whole Exome Sequencing', stated as 'Whole Exome Sequencing')</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-Platform.html\">Ferlab.bio StructureDefinition/platform</a></blockquote><p><b>value</b>: Illumina NovaSeq 6000 S4 PE150</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-RunDate.html\">Ferlab.bio StructureDefinition/run-date</a></blockquote><p><b>value</b>: 2020-11-06</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-LabAliquotId.html\">Ferlab.bio StructureDefinition/lab-aliquot-id</a></blockquote><p><b>value</b>: MPS12348274-B04</p></blockquote><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>priority</b>: routine</p><p><b>code</b>: Reads Alignement Bioinformatic Analysis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-bioinfo-analysis-code.html\">Ferlab.bio CodeSystem/bioinformatics-analysis</a>#RABA)</span></p><p><b>requester</b>: <a href=\"Organization-OrganizationExample.html\">Organization/OrganizationExample</a> &quot;CQDG&quot;</p><p><b>owner</b>: <a href=\"Organization-OrganizationExample.html\">Organization/OrganizationExample</a> &quot;CQDG&quot;</p><h3>Inputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Analysed sample <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td><a href=\"Specimen-SpecimenExample.html\">Specimen/SpecimenExample: Submitter Sample ID: SpecimenExample</a></td></tr></table><blockquote><p><b>output</b></p><p><b>type</b>: Aligned Reads <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type</a>#Aligned-reads)</span></p><p><b>value</b>: <a href=\"DocumentReference-DocumentReferenceExample1.html\">DocumentReference/DocumentReferenceExample1</a></p></blockquote><blockquote><p><b>output</b></p><p><b>type</b>: SNV <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type</a>#SNV)</span></p><p><b>value</b>: <a href=\"DocumentReference-DocumentReferenceExample1.html\">DocumentReference/DocumentReferenceExample1</a></p></blockquote><blockquote><p><b>output</b></p><p><b>type</b>: Germline CNV <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type</a>#Germline-CNV)</span></p><p><b>value</b>: <a href=\"DocumentReference-DocumentReferenceExample2.html\">DocumentReference/DocumentReferenceExample2</a></p></blockquote><blockquote><p><b>output</b></p><p><b>type</b>: Sequencing-data-supplement <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type</a>#Sequencing-data-supplement)</span></p><p><b>value</b>: <a href=\"DocumentReference-DocumentReferenceExample2.html\">DocumentReference/DocumentReferenceExample2</a></p></blockquote></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "WorkflowName",
+      "valueString" : "Dragen"
+    },
+    {
+      "url" : "WorkflowVersion",
+      "valueString" : "SW null"
+    },
+    {
+      "url" : "GenomeBuild",
+      "valueCoding" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/genome-build",
+        "code" : "GRCh38",
+        "display" : "GRCh38"
+      }
+    }],
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension"
+  },
+  {
+    "extension" : [{
+      "url" : "RunName",
+      "valueString" : "1898"
+    },
+    {
+      "url" : "IsPairedEnd",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "ReadLength",
+      "valueString" : "151,8,8,151"
+    },
+    {
+      "url" : "ExperimentalStrategy",
+      "valueCoding" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "code" : "WXS",
+        "display" : "Whole Exome Sequencing"
+      }
+    },
+    {
+      "url" : "Platform",
+      "valueString" : "Illumina NovaSeq 6000 S4 PE150"
+    },
+    {
+      "url" : "RunDate",
+      "valueDateTime" : "2020-11-06"
+    },
+    {
+      "url" : "LabAliquotId",
+      "valueString" : "MPS12348274-B04"
+    }],
+    "url" : "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
+  }],
+  "status" : "completed",
+  "intent" : "order",
+  "priority" : "routine",
+  "code" : {
+    "coding" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+      "code" : "RABA",
+      "display" : "Reads Alignement Bioinformatic Analysis"
+    }]
+  },
+  "requester" : {
+    "reference" : "Organization/OrganizationExample"
+  },
+  "owner" : {
+    "reference" : "Organization/OrganizationExample"
+  },
+  "input" : [{
+    "type" : {
+      "text" : "Analysed sample"
+    },
+    "valueReference" : {
+      "reference" : "Specimen/SpecimenExample",
+      "display" : "Submitter Sample ID: SpecimenExample"
+    }
+  }],
+  "output" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Aligned-reads",
+        "display" : "Aligned Reads"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample1"
+    }
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "SNV",
+        "display" : "SNV"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample1"
+    }
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Germline-CNV",
+        "display" : "Germline CNV"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample2"
+    }
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Sequencing-data-supplement",
+        "display" : "Sequencing-data-supplement"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample2"
+    }
+  }]
+}

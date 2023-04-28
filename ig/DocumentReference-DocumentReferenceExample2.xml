@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="DocumentReferenceExample2"/>
+  <meta>
+    <tag>
+      <code value="CAG"/>
+    </tag>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: DocumentReference</b><a name="DocumentReferenceExample2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource DocumentReference &quot;DocumentReferenceExample2&quot; </p><p style="margin-bottom: 0px">Tag: <span title="{null null}"/></p></div><p><b>status</b>: current</p><p><b>type</b>: Aligned Reads <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-data-type.html">Ferlab.bio CodeSystem/data-type</a>#Aligned-reads)</span></p><p><b>category</b>: Genomics <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-data-category.html">Ferlab.bio CodeSystem/data-category</a>#Genomics)</span></p><p><b>subject</b>: <a href="Patient-PatientExample.html">Patient/PatientExample</a></p><p><b>securityLabel</b>: test <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated])</span></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td><td><b>ContentType</b></td><td><b>Url</b></td></tr><tr><td>*</td><td/><td>application/octet-stream</td><td><a href="https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681">https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681</a></td></tr></table><p><b>format</b>: TGZ Archive File (Details: http://fhir.cqdg.ca/CodeSystem/document-format code TGZ = 'TGZ Archive File', stated as 'TGZ Archive File')</p></blockquote><h3>Contexts</h3><table class="grid"><tr><td>-</td><td><b>Related</b></td></tr><tr><td>*</td><td><a href="Specimen-SpecimenExample.html">Specimen/SpecimenExample: Submitter Sample ID: SpecimenExample</a></td></tr></table></div>
+  </text>
+  <status value="current"/>
+  <type>
+    <coding>
+      <system value="http://fhir.cqdg.ca/CodeSystem/data-type"/>
+      <code value="Aligned-reads"/>
+      <display value="Aligned Reads"/>
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://fhir.cqdg.ca/CodeSystem/data-category"/>
+      <code value="Genomics"/>
+      <display value="Genomics"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/PatientExample"/>
+  </subject>
+  <securityLabel>
+    <coding>
+      <display value="test"/>
+    </coding>
+  </securityLabel>
+  <content>
+    <attachment>
+      <extension url="http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension">
+        <valueDecimal value="22799222"/>
+      </extension>
+      <contentType value="application/octet-stream"/>
+      <url value="https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"/>
+    </attachment>
+    <format>
+      <system value="http://fhir.cqdg.ca/CodeSystem/document-format"/>
+      <code value="TGZ"/>
+      <display value="TGZ Archive File"/>
+    </format>
+  </content>
+  <context>
+    <related>
+      <reference value="Specimen/SpecimenExample"/>
+      <display value="Submitter Sample ID: SpecimenExample"/>
+    </related>
+  </context>
+</DocumentReference>

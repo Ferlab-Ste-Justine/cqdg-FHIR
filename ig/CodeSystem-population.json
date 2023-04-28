@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "population",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/population</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"population-Pediatric\"> </a></td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"population-Adult\"> </a></td><td>Adult</td></tr><tr><td style=\"white-space:nowrap\">Pediatric-and-Adult<a name=\"population-Pediatric-and-Adult\"> </a></td><td>Pediatric and Adult</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/population",
+  "version" : "0.1.0",
+  "name" : "Population",
+  "title" : "Ferlab.bio CodeSystem/population",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Population",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "Pediatric",
+    "display" : "Pediatric",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/population",
+        "code" : "Pediatric"
+      },
+      "value" : "Pediatric"
+    }]
+  },
+  {
+    "code" : "Adult",
+    "display" : "Adult",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/population",
+        "code" : "Adult"
+      },
+      "value" : "Adult"
+    }]
+  },
+  {
+    "code" : "Pediatric-and-Adult",
+    "display" : "Pediatric and Adult",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/population",
+        "code" : "Pediatric-and-Adult"
+      },
+      "value" : "Pediatric and Adult"
+    }]
+  }]
+}

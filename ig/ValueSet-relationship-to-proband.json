@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "relationship-to-proband",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-v3-role-code.html\"><code>http://fhir.cqdg.ca/CodeSystem/v3-role-code</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+  "version" : "0.1.0",
+  "name" : "RelationshipToProband",
+  "title" : "Ferlab.bio ValueSet/relationship-to-proband",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Relationship To Proband ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code"
+    }]
+  }
+}

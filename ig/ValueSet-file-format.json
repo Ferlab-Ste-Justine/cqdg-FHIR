@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "file-format",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-document-format.html\"><code>http://fhir.cqdg.ca/CodeSystem/document-format</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/file-format",
+  "version" : "0.1.0",
+  "name" : "FileFormat",
+  "title" : "Ferlab.bio ValueSet/file-format",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "File Format ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/document-format"
+    }]
+  }
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="family-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Case-parent-trio<a name="family-type-Case-parent-trio"> </a></td><td>Case-parent trio</td></tr><tr><td style="white-space:nowrap">Case-sibling<a name="family-type-Case-sibling"> </a></td><td>Case-sibling</td></tr><tr><td style="white-space:nowrap">Twins<a name="family-type-Twins"> </a></td><td>Twins</td></tr><tr><td style="white-space:nowrap">Case-affected-relative<a name="family-type-Case-affected-relative"> </a></td><td>Case - affected relative</td></tr><tr><td style="white-space:nowrap">Other<a name="family-type-Other"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+  <version value="0.1.0"/>
+  <name value="FamilyType"/>
+  <title value="Ferlab.bio CodeSystem/family-type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Family type"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="Case-parent-trio"/>
+    <display value="Case-parent trio"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+        <code value="Case-parent-trio"/>
+      </use>
+      <value value="Case-parent trio"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Case-sibling"/>
+    <display value="Case-sibling"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+        <code value="Case-sibling"/>
+      </use>
+      <value value="Case-sibling"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Twins"/>
+    <display value="Twins"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+        <code value="Twins"/>
+      </use>
+      <value value="Twins"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Case-affected-relative"/>
+    <display value="Case - affected relative"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+        <code value="Case-affected-relative"/>
+      </use>
+      <value value="Case - affected relative"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Other"/>
+    <display value="Other"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/family-type"/>
+        <code value="Other"/>
+      </use>
+      <value value="Other"/>
+    </designation>
+  </concept>
+</CodeSystem>

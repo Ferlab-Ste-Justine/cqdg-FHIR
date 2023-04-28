@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/Patient/PatientExample> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"^^xsd:anyURI ;
+       fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
+     ] ) ;
+     fhir:tag ( [
+       fhir:code [ fhir:v "CAG" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> male, DoB Unknown ( id: 343434343434 (use: SECONDARY))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id: PatientExample</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age At Recruitment Extension\"><a href=\"StructureDefinition-AgeAtRecruitment.html\">Ferlab.bio Extension/age-at-recruitment:</a></td><td colspan=\"3\"><ul><li>12 days</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age Of Death Extension\"><a href=\"StructureDefinition-AgeOfDeath.html\">Ferlab.bio Extension/age-of-death:</a></td><td colspan=\"3\"><ul><li>30 days</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"qc ethnicity for cqdg project\"><a href=\"StructureDefinition-QCEthnicity.html\">Ferlab.bio Extension/qc-ethnicity:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://fhir.cqdg.ca/CodeSystem/qc-ethnicity Arabe}\">Arabe</span></li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Age ;
+       fhir:value [ fhir:v "30"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "days" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "d" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Age ;
+       fhir:value [ fhir:v "12"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "days" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "d" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Arabe" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://fhir.cqdg.ca/fhir/Patient"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PatientExample" ]
+  ] [
+     fhir:use [ fhir:v "secondary" ] ;
+     fhir:value [ fhir:v "343434343434" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:deceased [ fhir:v "true"^^xsd:boolean] . # 
+
+# -------------------------------------------------------------------------------------
+

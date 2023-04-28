@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "disease-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"disease-status-Affected\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">Non-affected<a name=\"disease-status-Non-affected\"> </a></td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/CodeSystem/disease-status",
+  "version" : "0.1.0",
+  "name" : "DiseaseStatusCS",
+  "title" : "Ferlab.bio CodeSystem/disease-status",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Disease status code system",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "Affected",
+    "display" : "Affected",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "Affected"
+      },
+      "value" : "Affected"
+    }]
+  },
+  {
+    "code" : "Non-affected",
+    "display" : "Non affected",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "Non-affected"
+      },
+      "value" : "Non affected"
+    }]
+  },
+  {
+    "code" : "Unknown",
+    "display" : "Unknown",
+    "designation" : [{
+      "use" : {
+        "system" : "http://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "Unknown"
+      },
+      "value" : "Unknown"
+    }]
+  }]
+}

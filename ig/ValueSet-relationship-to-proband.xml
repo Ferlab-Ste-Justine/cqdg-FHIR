@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="relationship-to-proband"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-v3-role-code.html"><code>http://fhir.cqdg.ca/CodeSystem/v3-role-code</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
+  <version value="0.1.0"/>
+  <name value="RelationshipToProband"/>
+  <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
+  <status value="active"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Relationship To Proband ValueSet"/>
+  <compose>
+    <include>
+      <system value="http://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+    </include>
+  </compose>
+</ValueSet>

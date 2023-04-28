@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "research-domain-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-research-domain.html\"><code>http://fhir.cqdg.ca/CodeSystem/research-domain</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqdg.ca/ValueSet/research-domain-vs",
+  "version" : "0.1.0",
+  "name" : "ResearchDomain",
+  "title" : "Ferlab.bio ValueSet/research-domain",
+  "status" : "active",
+  "date" : "2023-04-27T14:10:57-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Study Domain ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqdg.ca/CodeSystem/research-domain"
+    }]
+  }
+}

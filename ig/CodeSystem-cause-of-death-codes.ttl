@@ -1,0 +1,117 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cause-of-death-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Cancer<a name=\"cause-of-death-codes-Cancer\"> </a></td><td>Cancer</td></tr><tr><td style=\"white-space:nowrap\">Heart-disease<a name=\"cause-of-death-codes-Heart-disease\"> </a></td><td>Heart disease</td></tr><tr><td style=\"white-space:nowrap\">Cerebrovascular-disease<a name=\"cause-of-death-codes-Cerebrovascular-disease\"> </a></td><td>Cerebrovascular disease</td></tr><tr><td style=\"white-space:nowrap\">Accidental-death<a name=\"cause-of-death-codes-Accidental-death\"> </a></td><td>Accidental death</td></tr><tr><td style=\"white-space:nowrap\">Chronic-lower-respiratory-diseases<a name=\"cause-of-death-codes-Chronic-lower-respiratory-diseases\"> </a></td><td>Chronic lower respiratory diseases</td></tr><tr><td style=\"white-space:nowrap\">Influenza-and-pneumonia<a name=\"cause-of-death-codes-Influenza-and-pneumonia\"> </a></td><td>Influenza and pneumonia</td></tr><tr><td style=\"white-space:nowrap\">Other-reasons<a name=\"cause-of-death-codes-Other-reasons\"> </a></td><td>Other reasons</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"cause-of-death-codes-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CauseOfDeathCodes"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/cause-of-death"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for cause of death"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Cancer" ] ;
+     fhir:display [ fhir:v "Cancer" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Cancer" ]
+       ] ;
+       fhir:value [ fhir:v "Cancer" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Heart-disease" ] ;
+     fhir:display [ fhir:v "Heart disease" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Heart-disease" ]
+       ] ;
+       fhir:value [ fhir:v "Heart disease" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Cerebrovascular-disease" ] ;
+     fhir:display [ fhir:v "Cerebrovascular disease" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Cerebrovascular-disease" ]
+       ] ;
+       fhir:value [ fhir:v "Cerebrovascular disease" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Accidental-death" ] ;
+     fhir:display [ fhir:v "Accidental death" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Accidental-death" ]
+       ] ;
+       fhir:value [ fhir:v "Accidental death" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Chronic-lower-respiratory-diseases" ] ;
+     fhir:display [ fhir:v "Chronic lower respiratory diseases" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Chronic-lower-respiratory-diseases" ]
+       ] ;
+       fhir:value [ fhir:v "Chronic lower respiratory diseases" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Influenza-and-pneumonia" ] ;
+     fhir:display [ fhir:v "Influenza and pneumonia" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Influenza-and-pneumonia" ]
+       ] ;
+       fhir:value [ fhir:v "Influenza and pneumonia" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Other-reasons" ] ;
+     fhir:display [ fhir:v "Other reasons" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Other-reasons" ]
+       ] ;
+       fhir:value [ fhir:v "Other reasons" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Unknown" ]
+       ] ;
+       fhir:value [ fhir:v "Unknown" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

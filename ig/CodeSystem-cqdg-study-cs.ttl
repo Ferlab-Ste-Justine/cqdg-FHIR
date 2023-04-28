@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cqdg-study-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Cartagène<a name=\"cqdg-study-cs-Cartag.232ne\"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style=\"white-space:nowrap\">Developmental-and-Epileptic-Encephalopathies<a name=\"cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"cqdg-study-cs-Other\"> </a></td><td>Other</td><td>Another study</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CQDGStudyCS"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/cqdg-study"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "CQDG study code system"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Cartagène" ] ;
+     fhir:display [ fhir:v "CARTaGENE" ] ;
+     fhir:definition [ fhir:v "CARTaGENE study" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Cartagène" ]
+       ] ;
+       fhir:value [ fhir:v "Étude CARTaGENE" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Developmental-and-Epileptic-Encephalopathies" ] ;
+     fhir:display [ fhir:v "Developmental and Epileptic Encephalopathies" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Developmental-and-Epileptic-Encephalopathies" ]
+       ] ;
+       fhir:value [ fhir:v "Étude CARTaGENE" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Another study" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Other" ]
+       ] ;
+       fhir:value [ fhir:v "Autre étude" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="disease-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Affected<a name="disease-status-Affected"> </a></td><td>Affected</td></tr><tr><td style="white-space:nowrap">Non-affected<a name="disease-status-Non-affected"> </a></td><td>Non affected</td></tr><tr><td style="white-space:nowrap">Unknown<a name="disease-status-Unknown"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/disease-status"/>
+  <version value="0.1.0"/>
+  <name value="DiseaseStatusCS"/>
+  <title value="Ferlab.bio CodeSystem/disease-status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Disease status code system"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Affected"/>
+    <display value="Affected"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/disease-status"/>
+        <code value="Affected"/>
+      </use>
+      <value value="Affected"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Non-affected"/>
+    <display value="Non affected"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/disease-status"/>
+        <code value="Non-affected"/>
+      </use>
+      <value value="Non affected"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Unknown"/>
+    <display value="Unknown"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/disease-status"/>
+        <code value="Unknown"/>
+      </use>
+      <value value="Unknown"/>
+    </designation>
+  </concept>
+</CodeSystem>

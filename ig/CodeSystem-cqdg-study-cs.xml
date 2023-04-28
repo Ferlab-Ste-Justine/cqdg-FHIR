@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cqdg-study-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Cartagène<a name="cqdg-study-cs-Cartag.232ne"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style="white-space:nowrap">Developmental-and-Epileptic-Encephalopathies<a name="cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style="white-space:nowrap">Other<a name="cqdg-study-cs-Other"> </a></td><td>Other</td><td>Another study</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+  <version value="0.1.0"/>
+  <name value="CQDGStudyCS"/>
+  <title value="Ferlab.bio CodeSystem/cqdg-study"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-27T14:10:57-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="CQDG study code system"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Cartagène"/>
+    <display value="CARTaGENE"/>
+    <definition value="CARTaGENE study"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+        <code value="Cartagène"/>
+      </use>
+      <value value="Étude CARTaGENE"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Developmental-and-Epileptic-Encephalopathies"/>
+    <display value="Developmental and Epileptic Encephalopathies"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+        <code value="Developmental-and-Epileptic-Encephalopathies"/>
+      </use>
+      <value value="Étude CARTaGENE"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Other"/>
+    <display value="Other"/>
+    <definition value="Another study"/>
+    <designation>
+      <use>
+        <system value="http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+        <code value="Other"/>
+      </use>
+      <value value="Autre étude"/>
+    </designation>
+  </concept>
+</CodeSystem>

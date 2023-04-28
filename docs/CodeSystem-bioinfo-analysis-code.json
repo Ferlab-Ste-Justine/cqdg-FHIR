@@ -3,15 +3,15 @@
   "id" : "bioinfo-analysis-code",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GGBA<a name=\"bioinfo-analysis-code-GGBA\"> </a></td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GGBA<a name=\"bioinfo-analysis-code-GGBA\"> </a></td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>"
   },
-  "url" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+  "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
   "version" : "0.1.0",
   "name" : "BioinfoAnalysisCode",
   "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     "display" : "Reads Alignement Bioinformatic Analysis",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "code" : "RABA"
       },
       "value" : "Reads Alignement Bioinformatic Analysis"
@@ -40,7 +40,7 @@
     "display" : "SNV Calling Bioinformatic Analysis",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "code" : "SNVC"
       },
       "value" : "Reads Alignement Bioinformatic Analysis"
@@ -51,7 +51,7 @@
     "display" : "Quality Control Bioinformatic Analysis",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "code" : "QCBA"
       },
       "value" : "Quality Control Bioinformatic Analysis"
@@ -62,7 +62,7 @@
     "display" : "Germline Exome Bioinformatic Analysis",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "code" : "GEBA"
       },
       "value" : "Germline Exome Bioinformatic Analysis"
@@ -73,7 +73,7 @@
     "display" : "Germline Genome Bioinformatic Analysis",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
         "code" : "GGBA"
       },
       "value" : "Germline Genome Bioinformatic Analysis"

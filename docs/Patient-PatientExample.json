@@ -2,17 +2,17 @@
   "resourceType" : "Patient",
   "id" : "PatientExample",
   "meta" : {
-    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"],
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"],
     "tag" : [{
       "code" : "CAG"
     }]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> male, DoB Unknown ( id:\u00a0343434343434\u00a0(use:\u00a0SECONDARY))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id:\u00a0PatientExample</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age At Recruitment Extension\"><a href=\"StructureDefinition-AgeAtRecruitment.html\">Ferlab.bio Extension/age-at-recruitment:</a></td><td colspan=\"3\"><ul><li>12 days</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age Of Death Extension\"><a href=\"StructureDefinition-AgeOfDeath.html\">Ferlab.bio Extension/age-of-death:</a></td><td colspan=\"3\"><ul><li>30 days</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"qc ethnicity for cqdg project\"><a href=\"StructureDefinition-QCEthnicity.html\">Ferlab.bio Extension/qc-ethnicity:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://fhir.cqdg.ca/CodeSystem/qc-ethnicity Arabe}\">Arabe</span></li></ul></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> male, DoB Unknown ( id:\u00a0343434343434\u00a0(use:\u00a0SECONDARY))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id:\u00a0PatientExample</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"qc ethnicity for cqdg project\"><a href=\"StructureDefinition-QCEthnicity.html\">Ferlab.bio Extension/qc-ethnicity:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://fhir.cqdg.ca/CodeSystem/qc-ethnicity Arabe}\">Arabe</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age At Recruitment Extension\"><a href=\"StructureDefinition-AgeAtRecruitment.html\">Ferlab.bio Extension/age-at-recruitment:</a></td><td colspan=\"3\"><ul><li>12 days</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age Of Death Extension\"><a href=\"StructureDefinition-AgeOfDeath.html\">Ferlab.bio Extension/age-of-death:</a></td><td colspan=\"3\"><ul><li>30 days</li></ul></td></tr></table></div>"
   },
   "extension" : [{
-    "url" : "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
     "valueAge" : {
       "value" : 30,
       "unit" : "days",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "url" : "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
     "valueAge" : {
       "value" : 12,
       "unit" : "days",
@@ -30,10 +30,10 @@
     }
   },
   {
-    "url" : "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
     "valueCodeableConcept" : {
       "coding" : [{
-        "system" : "http://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
         "code" : "Arabe"
       }]
     }

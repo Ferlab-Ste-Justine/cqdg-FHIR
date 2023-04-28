@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/Condition/ConditionExample> a fhir:Condition ;
+<https://fhir.cqdg.ca/Condition/ConditionExample> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ConditionExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
-       fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
+       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
      ] ) ;
      fhir:tag ( [
        fhir:code [ fhir:v "CAG" ]
@@ -37,7 +37,7 @@
      fhir:text [ fhir:v "fatigue" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:onset [

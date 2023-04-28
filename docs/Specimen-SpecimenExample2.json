@@ -2,7 +2,7 @@
   "resourceType" : "Specimen",
   "id" : "SpecimenExample2",
   "meta" : {
-    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"],
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"],
     "tag" : [{
       "code" : "CAG"
     }]
@@ -12,7 +12,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Specimen</b><a name=\"SpecimenExample2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Specimen &quot;SpecimenExample2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-specimen.html\">Ferlab.bio StructureDefinition/cqdg-specimen</a></p><p style=\"margin-bottom: 0px\">Tag: <span title=\"{null null}\"/></p></div><p><b>Ferlab.bio Extension/age-at-biospecimen-collection</b>: 12 days<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code d = 'd')</span></p><p><b>identifier</b>: id:\u00a0SpecimenExample2, id:\u00a0cag_sp_05569\u00a0(use:\u00a0SECONDARY)</p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a></p><p><b>parent</b>: <a href=\"Specimen-SpecimenExample.html\">Specimen/SpecimenExample</a></p></div>"
   },
   "extension" : [{
-    "url" : "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
     "valueAge" : {
       "value" : 12,
       "unit" : "days",

@@ -3,17 +3,17 @@
   "id" : "fhir.cqdg",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
     "valueCode" : "hl7.fhir.uv.tools#current"
   }],
-  "url" : "http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg",
+  "url" : "https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg",
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "draft",
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -148,7 +148,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://fhir.cqdg.ca/history.html"
+        "valueString" : "https://fhir.cqdg.ca/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -412,7 +412,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://fhir.cqdg.ca/history.html"
+        "valueString" : "https://fhir.cqdg.ca/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1444,7 +1444,7 @@
       },
       "name" : "Ferlab.bio Example/cqdg-group",
       "description" : "An example of a cqdg group",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-group"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-group"
     },
     {
       "extension" : [{
@@ -1468,7 +1468,7 @@
       },
       "name" : "Ferlab.bio Example/cqdg-condition",
       "description" : "An example of a cqdg patient.",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"
     },
     {
       "extension" : [{
@@ -1504,7 +1504,7 @@
       },
       "name" : "Ferlab.bio Example/disease-status",
       "description" : "An example of a cqdg Observation (disease)",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"
     },
     {
       "extension" : [{
@@ -1516,7 +1516,7 @@
       },
       "name" : "Ferlab.bio Example/phenotype",
       "description" : "An example of a cqdg Observation (phenotype)",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
     },
     {
       "extension" : [{
@@ -1540,7 +1540,7 @@
       },
       "name" : "Ferlab.bio Example/cqdg-patient",
       "description" : "An example of a cqdg patient.",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
     },
     {
       "extension" : [{
@@ -1552,7 +1552,7 @@
       },
       "name" : "Ferlab.bio Example/cqdg-study",
       "description" : "An example of a research study.",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"
     },
     {
       "extension" : [{
@@ -1564,7 +1564,7 @@
       },
       "name" : "Ferlab.bio Example/specimen1",
       "description" : "An example of a specimen",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
     },
     {
       "extension" : [{
@@ -1576,7 +1576,7 @@
       },
       "name" : "Ferlab.bio Example/specimen2",
       "description" : "An example of a specimen",
-      "exampleCanonical" : "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
     }],
     "page" : {
       "extension" : [{

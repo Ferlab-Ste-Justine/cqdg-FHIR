@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ObsPhenotypeExample",
   "meta" : {
-    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"]
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"]
   },
   "text" : {
     "status" : "generated",

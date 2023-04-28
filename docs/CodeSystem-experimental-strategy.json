@@ -3,15 +3,15 @@
   "id" : "experimental-strategy",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/experimental-strategy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"experimental-strategy-WXS\"> </a></td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">TARS<a name=\"experimental-strategy-TARS\"> </a></td><td>Targeted Sequencing</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"experimental-strategy-WXS\"> </a></td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">TARS<a name=\"experimental-strategy-TARS\"> </a></td><td>Targeted Sequencing</td></tr></table></div>"
   },
-  "url" : "http://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+  "url" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
   "version" : "0.1.0",
   "name" : "ExperimentalStrategy",
   "title" : "Ferlab.bio CodeSystem/experimental-strategy",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     "display" : "Whole Exome Sequencing",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
         "code" : "WXS"
       },
       "value" : "Whole Exome Sequencing"
@@ -40,7 +40,7 @@
     "display" : "Whole Genome Sequencing",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
         "code" : "WGS"
       },
       "value" : "Whole Genome Sequencing"
@@ -51,7 +51,7 @@
     "display" : "Targeted Sequencing",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
         "code" : "TARS"
       },
       "value" : "Targeted Sequencing"

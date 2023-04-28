@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessLimitations",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AccessLimitations",
       "title": "Ferlab.bio Extension/access-limitations",
       "types": [
         "Coding",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AccessRequirements",
       "title": "Ferlab.bio Extension/access-requirement",
       "types": [
         "Coding",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
       "title": "Ferlab.bio Extension/age-at-biospecimen-collection",
       "types": [
         "base64Binary",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "title": "Ferlab.bio Extension/age-at-recruitment",
       "types": [
         "base64Binary",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
       "title": "Ferlab.bio Extension/age-of-death",
       "types": [
         "base64Binary",
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy",
       "title": "Ferlab.bio StructureDefinition/experimental-strategy",
       "types": [
         "base64Binary",
@@ -608,7 +608,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
       "title": "Ferlab.bio Extension/full-size",
       "types": [
         "base64Binary",
@@ -664,7 +664,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/GenomeBuild",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/GenomeBuild",
       "title": "Ferlab.bio StructureDefinition/genome-build",
       "types": [
         "base64Binary",
@@ -870,7 +870,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/IsPairedEnd",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/IsPairedEnd",
       "title": "Ferlab.bio StructureDefinition/is-paired-end",
       "types": [
         "base64Binary",
@@ -1276,7 +1276,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/LabAliquotId",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/LabAliquotId",
       "title": "Ferlab.bio StructureDefinition/lab-aliquot-id",
       "types": [
         "base64Binary",
@@ -1682,7 +1682,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/Platform",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/Platform",
       "title": "Ferlab.bio StructureDefinition/platform",
       "types": [
         "base64Binary",
@@ -2088,15 +2088,14 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
       "title": "Ferlab.bio Extension/qc-ethnicity",
       "types": [
-        "CodeableConcept",
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/RunDate",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/RunDate",
       "title": "Ferlab.bio StructureDefinition/run-date",
       "types": [
         "base64Binary",
@@ -2502,7 +2501,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/RunName",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/RunName",
       "title": "Ferlab.bio StructureDefinition/run-name",
       "types": [
         "base64Binary",
@@ -2908,7 +2907,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
       "title": "Ferlab.bio StructureDefinition/sequencing-experiment",
       "types": [
         "base64Binary",
@@ -3314,7 +3313,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
       "title": "Ferlab.bio StructureDefinition/cqdg-task",
       "types": [
         "base64Binary",
@@ -3520,7 +3519,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowName",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowName",
       "title": "Ferlab.bio StructureDefinition/workflow-name",
       "types": [
         "base64Binary",
@@ -3726,7 +3725,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/WorkflowVersion",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowVersion",
       "title": "Ferlab.bio StructureDefinition/workflow-version",
       "types": [
         "base64Binary",
@@ -3932,7 +3931,7 @@
       ]
     },
     {
-      "url": "http://fhir.cqdg.ca/StructureDefinition/population-info",
+      "url": "https://fhir.cqdg.ca/StructureDefinition/population-info",
       "title": "Ferlab.bio Extension/population-info",
       "types": [
         "Coding",
@@ -3950,90 +3949,60 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group",
         "title": "Ferlab.bio StructureDefinition/cqdg-observation"
       }
     ],
     "Condition": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition",
         "title": "Ferlab.bio StructureDefinition/cqdg-condition"
       }
     ],
     "DocumentReference": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference",
         "title": "Ferlab.bio StructureDefinition/cqdg-document-reference"
       }
     ],
     "Group": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-group",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
         "title": "Ferlab.bio StructureDefinition/cqdg-group"
       }
     ],
     "Organization": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-organization",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-organization",
         "title": "Ferlab.bio StructureDefinition/cqdg-organization"
       }
     ],
     "Patient": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
         "title": "Ferlab.bio StructureDefinition/cqdg-patient"
       }
     ],
     "ResearchStudy": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study",
         "title": "Ferlab.bio StructureDefinition/cqdg-study"
       }
     ],
     "Specimen": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen",
         "title": "Ferlab.bio StructureDefinition/cqdg-specimen"
       }
     ],
     "Task": [
       {
-        "url": "http://fhir.cqdg.ca/StructureDefinition/cqdg-task",
+        "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-task",
         "title": "Ferlab.bio Profile/cqdg-task"
       }
     ]
   },
   "usage": {
-    "http://fhir.cqdg.ca/StructureDefinition/AccessLimitations": [
-      "ResearchStudy"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/AccessRequirements": [
-      "ResearchStudy"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection": [
-      "Specimen"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment": [
-      "Patient"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath": [
-      "Patient"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension": [
-      "DocumentReference.content.attachment"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/QCEthnicity": [
-      "Patient"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension": [
-      "Task"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension": [
-      "Task"
-    ],
-    "http://fhir.cqdg.ca/StructureDefinition/population-info": [
-      "ResearchStudy"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -4082,6 +4051,36 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/AccessLimitations": [
+      "ResearchStudy"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/AccessRequirements": [
+      "ResearchStudy"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection": [
+      "Specimen"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension": [
+      "DocumentReference.content.attachment"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension": [
+      "Task"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension": [
+      "Task"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/population-info": [
+      "ResearchStudy"
     ]
   }
 }

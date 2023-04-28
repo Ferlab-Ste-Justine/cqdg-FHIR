@@ -3,15 +3,15 @@
   "id" : "cqdg-observation-code",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"
   },
-  "url" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+  "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
   "version" : "0.1.0",
   "name" : "CQDGObservationCode",
   "title" : "Ferlab.bio CodeSystem/cqdg-observation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     "display" : "Family Relationship",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
         "code" : "Family-relationship"
       },
       "value" : "Social history observation"
@@ -40,7 +40,7 @@
     "display" : "Tumor Normal Designation",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
         "code" : "Tumor-normal-designation"
       },
       "value" : "Histological Diagnosis"
@@ -51,7 +51,7 @@
     "display" : "Disease Status",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
         "code" : "Disease-Status"
       },
       "value" : "Disease Status observation"
@@ -62,7 +62,7 @@
     "display" : "Phenotype",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
         "code" : "Phenotype"
       },
       "value" : "Phenotype observation"
@@ -73,7 +73,7 @@
     "display" : "Cause of Death",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
         "code" : "Cause-of-Death"
       },
       "value" : "Cause of death"

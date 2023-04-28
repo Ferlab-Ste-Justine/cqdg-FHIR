@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/Group/CQDGGroupExample> a fhir:Group ;
+<https://fhir.cqdg.ca/Group/CQDGGroupExample> a fhir:Group ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "CQDGGroupExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-group"^^xsd:anyURI ;
-       fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-group>
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-group"^^xsd:anyURI ;
+       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-group>
      ] ) ;
      fhir:tag ( [
        fhir:code [ fhir:v "CAG" ]
@@ -34,7 +34,7 @@
   fhir:quantity [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
   fhir:member ( [
      fhir:entity [
-       fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+       fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
        fhir:reference [ fhir:v "Patient/PatientExample" ]
      ]
   ] ) . # 

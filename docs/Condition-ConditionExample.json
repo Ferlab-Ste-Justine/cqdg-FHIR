@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "ConditionExample",
   "meta" : {
-    "profile" : ["http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"],
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"],
     "tag" : [{
       "code" : "CAG"
     }]

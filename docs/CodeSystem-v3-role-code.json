@@ -3,15 +3,15 @@
   "id" : "v3-role-code",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/v3-role-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Self<a name=\"v3-role-code-Self\"> </a></td><td>Self</td></tr><tr><td style=\"white-space:nowrap\">Mother<a name=\"v3-role-code-Mother\"> </a></td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\">Father<a name=\"v3-role-code-Father\"> </a></td><td>Father</td></tr><tr><td style=\"white-space:nowrap\">Brother<a name=\"v3-role-code-Brother\"> </a></td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\">Sister<a name=\"v3-role-code-Sister\"> </a></td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\">Half-brother<a name=\"v3-role-code-Half-brother\"> </a></td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\">Half-sister<a name=\"v3-role-code-Half-sister\"> </a></td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\">Identical-twin<a name=\"v3-role-code-Identical-twin\"> </a></td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-brother<a name=\"v3-role-code-Fraternal-twin-brother\"> </a></td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-sister<a name=\"v3-role-code-Fraternal-twin-sister\"> </a></td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\">Son<a name=\"v3-role-code-Son\"> </a></td><td>Son</td></tr><tr><td style=\"white-space:nowrap\">Daughter<a name=\"v3-role-code-Daughter\"> </a></td><td>Daughter</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/v3-role-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Self<a name=\"v3-role-code-Self\"> </a></td><td>Self</td></tr><tr><td style=\"white-space:nowrap\">Mother<a name=\"v3-role-code-Mother\"> </a></td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\">Father<a name=\"v3-role-code-Father\"> </a></td><td>Father</td></tr><tr><td style=\"white-space:nowrap\">Brother<a name=\"v3-role-code-Brother\"> </a></td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\">Sister<a name=\"v3-role-code-Sister\"> </a></td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\">Half-brother<a name=\"v3-role-code-Half-brother\"> </a></td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\">Half-sister<a name=\"v3-role-code-Half-sister\"> </a></td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\">Identical-twin<a name=\"v3-role-code-Identical-twin\"> </a></td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-brother<a name=\"v3-role-code-Fraternal-twin-brother\"> </a></td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-sister<a name=\"v3-role-code-Fraternal-twin-sister\"> </a></td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\">Son<a name=\"v3-role-code-Son\"> </a></td><td>Son</td></tr><tr><td style=\"white-space:nowrap\">Daughter<a name=\"v3-role-code-Daughter\"> </a></td><td>Daughter</td></tr></table></div>"
   },
-  "url" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+  "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
   "version" : "0.1.0",
   "name" : "V3RoleCode",
   "title" : "Ferlab.bio CodeSystem/v3-roles",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     "display" : "Self",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Self"
       },
       "value" : "Self"
@@ -40,7 +40,7 @@
     "display" : "Mother",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Mother"
       },
       "value" : "Mother"
@@ -51,7 +51,7 @@
     "display" : "Father",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Father"
       },
       "value" : "Father"
@@ -62,7 +62,7 @@
     "display" : "Brother",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Brother"
       },
       "value" : "Brother"
@@ -73,7 +73,7 @@
     "display" : "Sister",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Sister"
       },
       "value" : "Sister"
@@ -84,7 +84,7 @@
     "display" : "Half-brother",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Half-brother"
       },
       "value" : "Half-brother"
@@ -95,7 +95,7 @@
     "display" : "Half-sister",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Half-sister"
       },
       "value" : "Half-sister"
@@ -106,7 +106,7 @@
     "display" : "Identical twin",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Identical-twin"
       },
       "value" : "Identical twin"
@@ -117,7 +117,7 @@
     "display" : "Fraternal twin brother",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Fraternal-twin-brother"
       },
       "value" : "Fraternal twin brother"
@@ -128,7 +128,7 @@
     "display" : "Fraternal twin sister",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Fraternal-twin-sister"
       },
       "value" : "Fraternal twin sister"
@@ -139,7 +139,7 @@
     "display" : "Son",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Son"
       },
       "value" : "Son"
@@ -150,7 +150,7 @@
     "display" : "Daughter",
     "designation" : [{
       "use" : {
-        "system" : "http://fhir.cqdg.ca/CodeSystem/v3-role-code",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
         "code" : "Daughter"
       },
       "value" : "Daughter"

@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:ResearchStudy</sch:title>
     <sch:rule context="f:ResearchStudy">
-      <sch:assert test="count(f:extension[@url = 'http://fhir.cqdg.ca/StructureDefinition/population-info']) &lt;= 1">extension with URL = 'http://fhir.cqdg.ca/StructureDefinition/population-info': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://fhir.cqdg.ca/StructureDefinition/AccessLimitations']) &lt;= 1">extension with URL = 'http://fhir.cqdg.ca/StructureDefinition/AccessLimitations': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/population-info']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/population-info': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AccessLimitations']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AccessLimitations': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:category) &lt;= 1">category: maximum cardinality of 'category' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

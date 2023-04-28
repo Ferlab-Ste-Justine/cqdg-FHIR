@@ -3,49 +3,49 @@
 <ResearchStudy xmlns="http://hl7.org/fhir">
   <id value="ResearchStudyExample"/>
   <meta>
-    <profile value="http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"/>
+    <profile value="https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/ResearchStudy"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ResearchStudy</b><a name="ResearchStudyExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ResearchStudy &quot;ResearchStudyExample&quot; </p><p style="margin-bottom: 0px">Profiles: <a href="StructureDefinition-cqdg-research-study.html">Ferlab.bio StructureDefinition/cqdg-study</a>, <a href="http://hl7.org/fhir/R4/researchstudy.html">ResearchStudy</a></p></div><p><b>Ferlab.bio Extension/access-limitations</b>: obsolete general research use and clinical care (Details: [not stated] code DUO:0000005 = 'DUO:0000005', stated as 'obsolete general research use and clinical care')</p><p><b>Ferlab.bio Extension/access-requirement</b>: publication required (Details: [not stated] code DUO:0000019 = 'DUO:0000019', stated as 'publication required')</p><p><b>Ferlab.bio Extension/access-requirement</b>: ethics approval required (Details: [not stated] code $DUO:0000021 = '$DUO:0000021', stated as 'ethics approval required')</p><p><b>Ferlab.bio Extension/access-requirement</b>: time limit on use (Details: [not stated] code $DUO:0000025 = '$DUO:0000025', stated as 'time limit on use')</p><p><b>Ferlab.bio Extension/access-requirement</b>: user specific restriction (Details: [not stated] code DUO:0000026 = 'DUO:0000026', stated as 'user specific restriction')</p><p><b>Ferlab.bio Extension/access-requirement</b>: project specific restriction (Details: [not stated] code DUO:0000027 = 'DUO:0000027', stated as 'project specific restriction')</p><p><b>Ferlab.bio Extension/access-requirement</b>: return to database or resource (Details: [not stated] code DUO:0000029 = 'DUO:0000029', stated as 'return to database or resource')</p><p><b>identifier</b>: id: ResearchStudyExample, id: CAG (use: SECONDARY)</p><p><b>title</b>: CARTaGENE</p><p><b>status</b>: completed</p><p><b>category</b>: General Health <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (study-domain#General Health)</span></p><p><b>contact</b>: TBD: <a href="https://sdas.cartagene.qc.ca">https://sdas.cartagene.qc.ca</a></p><p><b>keyword</b>: genomics <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span>, chronic conditions <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span>, population-based cohort <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span>, survey data <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p><p><b>description</b>: CARTaGENE is a public research platform of the CHU Sainte-Justine created to accelerate health research. CARTaGENE consists of both biological samples and health data from 43,000 Qu√©bec residents aged between 40 to 69 years.</p></div>
   </text>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessLimitations">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessLimitations">
     <valueCoding>
       <code value="DUO:0000005"/>
       <display value="obsolete general research use and clinical care"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="DUO:0000019"/>
       <display value="publication required"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="$DUO:0000021"/>
       <display value="ethics approval required"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="$DUO:0000025"/>
       <display value="time limit on use"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="DUO:0000026"/>
       <display value="user specific restriction"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="DUO:0000027"/>
       <display value="project specific restriction"/>
     </valueCoding>
   </extension>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AccessRequirements">
     <valueCoding>
       <code value="DUO:0000029"/>
       <display value="return to database or resource"/>
@@ -63,7 +63,7 @@
   <status value="completed"/>
   <category>
     <coding>
-      <system value="http://fhir.cqdg.ca/CodeSystem/study-domain"/>
+      <system value="https://fhir.cqdg.ca/CodeSystem/study-domain"/>
       <code value="General Health"/>
       <display value="General Health"/>
     </coding>

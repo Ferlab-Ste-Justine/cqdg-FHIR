@@ -5,22 +5,22 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg> a fhir:ImplementationGuide ;
+<https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fhir.cqdg"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-28T18:08:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -141,7 +141,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://fhir.cqdg.ca/history.html" ]
+         fhir:value [ fhir:v "https://fhir.cqdg.ca/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -357,7 +357,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://fhir.cqdg.ca/history.html" ]
+         fhir:value [ fhir:v "https://fhir.cqdg.ca/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -493,7 +493,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-document-reference" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-document-reference" ] ;
@@ -505,7 +505,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath> ;
          fhir:reference [ fhir:v "StructureDefinition/CQDGObservationCauseOfDeath" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cause-of-death" ] ;
@@ -517,7 +517,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus> ;
          fhir:reference [ fhir:v "StructureDefinition/CQDGObservationDiseaseStatus" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/disease-status" ] ;
@@ -529,7 +529,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-observation-group" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-observation" ] ;
@@ -541,7 +541,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype> ;
          fhir:reference [ fhir:v "StructureDefinition/CQDGObservationPhenotype" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/phenotype" ] ;
@@ -553,7 +553,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation> ;
          fhir:reference [ fhir:v "StructureDefinition/CQDGObservationTumorNormalDesignation" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/tumor-normal-designation" ] ;
@@ -565,7 +565,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-organization> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-organization> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-organization" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-organization" ] ;
@@ -577,7 +577,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-patient> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-patient" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-patient" ] ;
@@ -589,7 +589,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-research-study" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-study" ] ;
@@ -601,7 +601,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-specimen" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-specimen" ] ;
@@ -613,7 +613,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-task> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-task> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-task" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Profile/cqdg-task" ] ;
@@ -625,7 +625,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-condition> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-condition" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-condition" ] ;
@@ -637,7 +637,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-group> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-group> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-group" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-group" ] ;
@@ -649,7 +649,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AccessLimitations> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AccessLimitations> ;
          fhir:reference [ fhir:v "StructureDefinition/AccessLimitations" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/access-limitations" ] ;
@@ -661,7 +661,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AccessRequirements> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AccessRequirements> ;
          fhir:reference [ fhir:v "StructureDefinition/AccessRequirements" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/access-requirement" ] ;
@@ -673,7 +673,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection> ;
          fhir:reference [ fhir:v "StructureDefinition/AgeAtBioSpecimenCollection" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/age-at-biospecimen-collection" ] ;
@@ -685,7 +685,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment> ;
          fhir:reference [ fhir:v "StructureDefinition/AgeAtRecruitment" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/age-at-recruitment" ] ;
@@ -697,7 +697,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/AgeOfDeath> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath> ;
          fhir:reference [ fhir:v "StructureDefinition/AgeOfDeath" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/age-of-death" ] ;
@@ -709,7 +709,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy> ;
          fhir:reference [ fhir:v "StructureDefinition/ExperimentalStrategy" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/experimental-strategy" ] ;
@@ -721,7 +721,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/FullSizeExtension> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/FullSizeExtension" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/full-size" ] ;
@@ -733,7 +733,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/GenomeBuild> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/GenomeBuild> ;
          fhir:reference [ fhir:v "StructureDefinition/GenomeBuild" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/genome-build" ] ;
@@ -745,7 +745,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/IsPairedEnd> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/IsPairedEnd> ;
          fhir:reference [ fhir:v "StructureDefinition/IsPairedEnd" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/is-paired-end" ] ;
@@ -757,7 +757,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/LabAliquotId> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/LabAliquotId> ;
          fhir:reference [ fhir:v "StructureDefinition/LabAliquotId" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/lab-aliquot-id" ] ;
@@ -769,7 +769,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/Platform> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/Platform> ;
          fhir:reference [ fhir:v "StructureDefinition/Platform" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/platform" ] ;
@@ -781,7 +781,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/population-info> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/population-info> ;
          fhir:reference [ fhir:v "StructureDefinition/population-info" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/population-info" ] ;
@@ -793,7 +793,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/QCEthnicity> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/QCEthnicity> ;
          fhir:reference [ fhir:v "StructureDefinition/QCEthnicity" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/qc-ethnicity" ] ;
@@ -805,7 +805,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/RunDate> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/RunDate> ;
          fhir:reference [ fhir:v "StructureDefinition/RunDate" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-date" ] ;
@@ -817,7 +817,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/RunName> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/RunName> ;
          fhir:reference [ fhir:v "StructureDefinition/RunName" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-name" ] ;
@@ -829,7 +829,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/SequencingExperimentExtension" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/sequencing-experiment" ] ;
@@ -841,7 +841,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowExtension> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/WorkflowExtension" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-task" ] ;
@@ -853,7 +853,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowName> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowName> ;
          fhir:reference [ fhir:v "StructureDefinition/WorkflowName" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-name" ] ;
@@ -865,7 +865,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/WorkflowVersion> ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowVersion> ;
          fhir:reference [ fhir:v "StructureDefinition/WorkflowVersion" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-version" ] ;
@@ -877,7 +877,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/access-limitation-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/access-limitation-vs> ;
          fhir:reference [ fhir:v "ValueSet/access-limitation-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/access-limitation" ] ;
@@ -889,7 +889,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/access-requirement-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/access-requirement-vs> ;
          fhir:reference [ fhir:v "ValueSet/access-requirement-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/access-requirement" ] ;
@@ -901,7 +901,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs> ;
          fhir:reference [ fhir:v "ValueSet/bioinfo-analysis-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/bioinfo-analysis" ] ;
@@ -913,7 +913,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs> ;
          fhir:reference [ fhir:v "ValueSet/cqdg-diagnosis-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/diagnosis" ] ;
@@ -925,7 +925,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/experimental-strategy-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs> ;
          fhir:reference [ fhir:v "ValueSet/experimental-strategy-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/experimental-strategy" ] ;
@@ -937,7 +937,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-observation-category> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/cqdg-observation-category> ;
          fhir:reference [ fhir:v "ValueSet/cqdg-observation-category" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-observation" ] ;
@@ -949,7 +949,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs> ;
          fhir:reference [ fhir:v "ValueSet/cqdg-specimen-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-specimen" ] ;
@@ -961,7 +961,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/cause-of-death-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/cause-of-death-vs> ;
          fhir:reference [ fhir:v "ValueSet/cause-of-death-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/cause-of-death" ] ;
@@ -973,7 +973,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/data-category-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/data-category-vs> ;
          fhir:reference [ fhir:v "ValueSet/data-category-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/data-category" ] ;
@@ -985,7 +985,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/data-type-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/data-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/data-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/data-type" ] ;
@@ -997,7 +997,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/disease-status-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/disease-status-vs> ;
          fhir:reference [ fhir:v "ValueSet/disease-status-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/disease-status" ] ;
@@ -1009,7 +1009,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/family-type-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/family-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/family-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/family-type" ] ;
@@ -1021,7 +1021,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/file-format> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/file-format> ;
          fhir:reference [ fhir:v "ValueSet/file-format" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/file-format" ] ;
@@ -1033,7 +1033,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/genome-build-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/genome-build-vs> ;
          fhir:reference [ fhir:v "ValueSet/genome-build-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/genome-build" ] ;
@@ -1045,7 +1045,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/phenotype-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/phenotype-vs> ;
          fhir:reference [ fhir:v "ValueSet/phenotype-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/phenotype" ] ;
@@ -1057,7 +1057,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/population-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/population-vs> ;
          fhir:reference [ fhir:v "ValueSet/population-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/population" ] ;
@@ -1069,7 +1069,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs> ;
          fhir:reference [ fhir:v "ValueSet/qc-ethnicity-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/qa-ethnicity" ] ;
@@ -1081,7 +1081,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/relationship-to-proband> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/relationship-to-proband> ;
          fhir:reference [ fhir:v "ValueSet/relationship-to-proband" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/relationship-to-proband" ] ;
@@ -1093,7 +1093,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/research-domain-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/research-domain-vs> ;
          fhir:reference [ fhir:v "ValueSet/research-domain-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/research-domain" ] ;
@@ -1105,7 +1105,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs> ;
          fhir:reference [ fhir:v "ValueSet/sample-type-tissue-source-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/sample-type-tissue-source" ] ;
@@ -1117,7 +1117,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/study-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/study-vs> ;
          fhir:reference [ fhir:v "ValueSet/study-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-study" ] ;
@@ -1129,7 +1129,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs> ;
+         fhir:link <https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs> ;
          fhir:reference [ fhir:v "ValueSet/tumor-normal-designation-vs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/tumor-normal-designation" ] ;
@@ -1141,7 +1141,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code> ;
          fhir:reference [ fhir:v "CodeSystem/bioinfo-analysis-code" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/bioinformatics-analysis" ] ;
@@ -1153,7 +1153,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/cqdg-observation-code> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code> ;
          fhir:reference [ fhir:v "CodeSystem/cqdg-observation-code" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/cqdg-observation" ] ;
@@ -1165,7 +1165,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> ;
          fhir:reference [ fhir:v "CodeSystem/cqdg-study-cs" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/cqdg-study" ] ;
@@ -1177,7 +1177,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/cause-of-death-codes> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes> ;
          fhir:reference [ fhir:v "CodeSystem/cause-of-death-codes" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/cause-of-death" ] ;
@@ -1189,7 +1189,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/duo-codes> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/duo-codes> ;
          fhir:reference [ fhir:v "CodeSystem/duo-codes" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/duo-codes" ] ;
@@ -1201,7 +1201,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/data-category> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/data-category> ;
          fhir:reference [ fhir:v "CodeSystem/data-category" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/data-category" ] ;
@@ -1213,7 +1213,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/data-type> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/data-type> ;
          fhir:reference [ fhir:v "CodeSystem/data-type" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/data-type" ] ;
@@ -1225,7 +1225,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/disease-status> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/disease-status> ;
          fhir:reference [ fhir:v "CodeSystem/disease-status" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/disease-status" ] ;
@@ -1237,7 +1237,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/document-format> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/document-format> ;
          fhir:reference [ fhir:v "CodeSystem/document-format" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/document-format" ] ;
@@ -1249,7 +1249,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/experimental-strategy> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/experimental-strategy> ;
          fhir:reference [ fhir:v "CodeSystem/experimental-strategy" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/experimental-strategy" ] ;
@@ -1261,7 +1261,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/family-type> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/family-type> ;
          fhir:reference [ fhir:v "CodeSystem/family-type" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/family-type" ] ;
@@ -1273,7 +1273,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/genome-build> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/genome-build> ;
          fhir:reference [ fhir:v "CodeSystem/genome-build" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/genome-build" ] ;
@@ -1285,7 +1285,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/population> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/population> ;
          fhir:reference [ fhir:v "CodeSystem/population" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/population" ] ;
@@ -1297,7 +1297,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/qc-ethnicity> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/qc-ethnicity> ;
          fhir:reference [ fhir:v "CodeSystem/qc-ethnicity" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/qc-ethnicity" ] ;
@@ -1309,7 +1309,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/qc-sample-type> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/qc-sample-type> ;
          fhir:reference [ fhir:v "CodeSystem/qc-sample-type" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/sample-type" ] ;
@@ -1321,7 +1321,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/research-domain> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/research-domain> ;
          fhir:reference [ fhir:v "CodeSystem/research-domain" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/research-domain" ] ;
@@ -1333,7 +1333,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation> ;
          fhir:reference [ fhir:v "CodeSystem/tumor-normal-designation" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/tumor-normal-designation" ] ;
@@ -1345,7 +1345,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/CodeSystem/v3-role-code> ;
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/v3-role-code> ;
          fhir:reference [ fhir:v "CodeSystem/v3-role-code" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/v3-roles" ] ;
@@ -1357,14 +1357,14 @@
          fhir:value [ fhir:v "Group" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Group/CQDGGroupExample> ;
+         fhir:link <https://fhir.cqdg.ca/Group/CQDGGroupExample> ;
          fhir:reference [ fhir:v "Group/CQDGGroupExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-group" ] ;
        fhir:description [ fhir:v "An example of a cqdg group" ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-group"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-group>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-group"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-group>
        ]
      ] [
        fhir:extension ( [
@@ -1372,7 +1372,7 @@
          fhir:value [ fhir:v "Task" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Task/CQDGTaskExample> ;
+         fhir:link <https://fhir.cqdg.ca/Task/CQDGTaskExample> ;
          fhir:reference [ fhir:v "Task/CQDGTaskExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-task" ] ;
@@ -1384,14 +1384,14 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Condition/ConditionExample> ;
+         fhir:link <https://fhir.cqdg.ca/Condition/ConditionExample> ;
          fhir:reference [ fhir:v "Condition/ConditionExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-condition" ] ;
        fhir:description [ fhir:v "An example of a cqdg patient." ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
        ]
      ] [
        fhir:extension ( [
@@ -1399,7 +1399,7 @@
          fhir:value [ fhir:v "DocumentReference" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample1> ;
+         fhir:link <https://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample1> ;
          fhir:reference [ fhir:v "DocumentReference/DocumentReferenceExample1" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-document-reference1" ] ;
@@ -1411,7 +1411,7 @@
          fhir:value [ fhir:v "DocumentReference" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample2> ;
+         fhir:link <https://fhir.cqdg.ca/DocumentReference/DocumentReferenceExample2> ;
          fhir:reference [ fhir:v "DocumentReference/DocumentReferenceExample2" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-document-reference2" ] ;
@@ -1423,14 +1423,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Observation/ObsDiseaseStatExample> ;
+         fhir:link <https://fhir.cqdg.ca/Observation/ObsDiseaseStatExample> ;
          fhir:reference [ fhir:v "Observation/ObsDiseaseStatExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/disease-status" ] ;
        fhir:description [ fhir:v "An example of a cqdg Observation (disease)" ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus>
        ]
      ] [
        fhir:extension ( [
@@ -1438,14 +1438,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Observation/ObsPhenotypeExample> ;
+         fhir:link <https://fhir.cqdg.ca/Observation/ObsPhenotypeExample> ;
          fhir:reference [ fhir:v "Observation/ObsPhenotypeExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/phenotype" ] ;
        fhir:description [ fhir:v "An example of a cqdg Observation (phenotype)" ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype>
        ]
      ] [
        fhir:extension ( [
@@ -1453,7 +1453,7 @@
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Organization/OrganizationExample> ;
+         fhir:link <https://fhir.cqdg.ca/Organization/OrganizationExample> ;
          fhir:reference [ fhir:v "Organization/OrganizationExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-organization" ] ;
@@ -1465,14 +1465,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+         fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
          fhir:reference [ fhir:v "Patient/PatientExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-patient" ] ;
        fhir:description [ fhir:v "An example of a cqdg patient." ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
        ]
      ] [
        fhir:extension ( [
@@ -1480,14 +1480,14 @@
          fhir:value [ fhir:v "ResearchStudy" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/ResearchStudy/ResearchStudyExample> ;
+         fhir:link <https://fhir.cqdg.ca/ResearchStudy/ResearchStudyExample> ;
          fhir:reference [ fhir:v "ResearchStudy/ResearchStudyExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/cqdg-study" ] ;
        fhir:description [ fhir:v "An example of a research study." ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study>
        ]
      ] [
        fhir:extension ( [
@@ -1495,14 +1495,14 @@
          fhir:value [ fhir:v "Specimen" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample> ;
+         fhir:link <https://fhir.cqdg.ca/Specimen/SpecimenExample> ;
          fhir:reference [ fhir:v "Specimen/SpecimenExample" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/specimen1" ] ;
        fhir:description [ fhir:v "An example of a specimen" ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
        ]
      ] [
        fhir:extension ( [
@@ -1510,14 +1510,14 @@
          fhir:value [ fhir:v "Specimen" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample2> ;
+         fhir:link <https://fhir.cqdg.ca/Specimen/SpecimenExample2> ;
          fhir:reference [ fhir:v "Specimen/SpecimenExample2" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Example/specimen2" ] ;
        fhir:description [ fhir:v "An example of a specimen" ] ;
        fhir:example [
-         fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
-         fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
        ]
      ] ) ;
      fhir:page [

@@ -3,15 +3,15 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="population"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/population</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Pediatric<a name="population-Pediatric"> </a></td><td>Pediatric</td></tr><tr><td style="white-space:nowrap">Adult<a name="population-Adult"> </a></td><td>Adult</td></tr><tr><td style="white-space:nowrap">Pediatric-and-Adult<a name="population-Pediatric-and-Adult"> </a></td><td>Pediatric and Adult</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/population</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Pediatric<a name="population-Pediatric"> </a></td><td>Pediatric</td></tr><tr><td style="white-space:nowrap">Adult<a name="population-Adult"> </a></td><td>Adult</td></tr><tr><td style="white-space:nowrap">Pediatric-and-Adult<a name="population-Pediatric-and-Adult"> </a></td><td>Pediatric and Adult</td></tr></table></div>
   </text>
-  <url value="http://fhir.cqdg.ca/CodeSystem/population"/>
+  <url value="https://fhir.cqdg.ca/CodeSystem/population"/>
   <version value="0.1.0"/>
   <name value="Population"/>
   <title value="Ferlab.bio CodeSystem/population"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-04-27T14:10:57-04:00"/>
+  <date value="2023-04-28T18:08:06+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -29,7 +29,7 @@
     <display value="Pediatric"/>
     <designation>
       <use>
-        <system value="http://fhir.cqdg.ca/CodeSystem/population"/>
+        <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
         <code value="Pediatric"/>
       </use>
       <value value="Pediatric"/>
@@ -40,7 +40,7 @@
     <display value="Adult"/>
     <designation>
       <use>
-        <system value="http://fhir.cqdg.ca/CodeSystem/population"/>
+        <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
         <code value="Adult"/>
       </use>
       <value value="Adult"/>
@@ -51,7 +51,7 @@
     <display value="Pediatric and Adult"/>
     <designation>
       <use>
-        <system value="http://fhir.cqdg.ca/CodeSystem/population"/>
+        <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
         <code value="Pediatric-and-Adult"/>
       </use>
       <value value="Pediatric and Adult"/>

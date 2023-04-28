@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/Observation/ObsPhenotypeExample> a fhir:Observation ;
+<https://fhir.cqdg.ca/Observation/ObsPhenotypeExample> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ObsPhenotypeExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"^^xsd:anyURI ;
-       fhir:link <http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype>
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"^^xsd:anyURI ;
+       fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype>
      ] )
   ] ; # 
   fhir:text [
@@ -28,7 +28,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:value [

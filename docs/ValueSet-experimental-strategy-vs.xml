@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="experimental-strategy-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-experimental-strategy.html"><code>http://fhir.cqdg.ca/CodeSystem/experimental-strategy</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-experimental-strategy.html"><code>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</code></a></li></ul></div>
   </text>
-  <url value="http://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
+  <url value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
   <version value="0.1.0"/>
   <name value="CQDGFamilyTypeVS"/>
   <title value="Ferlab.bio ValueSet/experimental-strategy"/>
   <status value="active"/>
-  <date value="2023-04-27T14:10:57-04:00"/>
+  <date value="2023-04-28T18:08:06+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -22,7 +22,7 @@
   <description value="Experimental Strategy ValueSet"/>
   <compose>
     <include>
-      <system value="http://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+      <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
     </include>
   </compose>
 </ValueSet>

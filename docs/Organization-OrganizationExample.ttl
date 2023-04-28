@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/Organization/OrganizationExample> a fhir:Organization ;
+<https://fhir.cqdg.ca/Organization/OrganizationExample> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "OrganizationExample"] ; # 
   fhir:meta [

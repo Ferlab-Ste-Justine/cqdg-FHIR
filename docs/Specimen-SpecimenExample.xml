@@ -3,7 +3,7 @@
 <Specimen xmlns="http://hl7.org/fhir">
   <id value="SpecimenExample"/>
   <meta>
-    <profile value="http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
+    <profile value="https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
     <tag>
       <code value="CAG"/>
     </tag>
@@ -11,7 +11,7 @@
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Specimen</b><a name="SpecimenExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Specimen &quot;SpecimenExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cqdg-specimen.html">Ferlab.bio StructureDefinition/cqdg-specimen</a></p><p style="margin-bottom: 0px">Tag: <span title="{null null}"/></p></div><p><b>Ferlab.bio Extension/age-at-biospecimen-collection</b>: 12 days<span style="background: LightGoldenRodYellow"> (Details: UCUM code d = 'd')</span></p><p><b>identifier</b>: id: SpecimenExample, id: cag_sp_25565 (use: SECONDARY)</p><p><b>subject</b>: <a href="Patient-PatientExample.html">Patient/PatientExample</a></p></div>
   </text>
-  <extension url="http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection">
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection">
     <valueAge>
       <value value="12"/>
       <unit value="days"/>

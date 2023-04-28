@@ -3,14 +3,14 @@
   "id" : "genome-build-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-genome-build.html\"><code>http://fhir.cqdg.ca/CodeSystem/genome-build</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-genome-build.html\"><code>https://fhir.cqdg.ca/CodeSystem/genome-build</code></a></li></ul></div>"
   },
-  "url" : "http://fhir.cqdg.ca/ValueSet/genome-build-vs",
+  "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
   "version" : "0.1.0",
   "name" : "GenomeBuildVS",
   "title" : "Ferlab.bio ValueSet/genome-build",
   "status" : "active",
-  "date" : "2023-04-27T14:10:57-04:00",
+  "date" : "2023-04-28T18:08:06+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -22,7 +22,7 @@
   "description" : "Genome Build ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "http://fhir.cqdg.ca/CodeSystem/genome-build"
+      "system" : "https://fhir.cqdg.ca/CodeSystem/genome-build"
     }]
   }
 }

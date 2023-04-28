@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/Specimen/SpecimenExample2> a fhir:Specimen ;
+<https://fhir.cqdg.ca/Specimen/SpecimenExample2> a fhir:Specimen ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SpecimenExample2"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
-       fhir:link <http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"^^xsd:anyURI ;
+       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen>
      ] ) ;
      fhir:tag ( [
        fhir:code [ fhir:v "CAG" ]
@@ -22,7 +22,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Specimen</b><a name=\"SpecimenExample2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Specimen &quot;SpecimenExample2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-specimen.html\">Ferlab.bio StructureDefinition/cqdg-specimen</a></p><p style=\"margin-bottom: 0px\">Tag: <span title=\"{null null}\"/></p></div><p><b>Ferlab.bio Extension/age-at-biospecimen-collection</b>: 12 days<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code d = 'd')</span></p><p><b>identifier</b>: id: SpecimenExample2, id: cag_sp_05569 (use: SECONDARY)</p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a></p><p><b>parent</b>: <a href=\"Specimen-SpecimenExample.html\">Specimen/SpecimenExample</a></p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Age ;
        fhir:value [ fhir:v "12"^^xsd:decimal ] ;
@@ -39,11 +39,11 @@
      fhir:value [ fhir:v "cag_sp_05569" ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:parent ( [
-     fhir:link <http://fhir.cqdg.ca/Specimen/SpecimenExample> ;
+     fhir:link <https://fhir.cqdg.ca/Specimen/SpecimenExample> ;
      fhir:reference [ fhir:v "Specimen/SpecimenExample" ]
   ] ) . # 
 

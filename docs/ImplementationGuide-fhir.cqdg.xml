@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.cqdg"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
     <valueCode value="hl7.fhir.uv.tools#current"/>
   </extension>
-  <url value="http://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"/>
+  <url value="https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"/>
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="draft"/>
-  <date value="2023-04-27T14:10:57-04:00"/>
+  <date value="2023-04-28T18:08:06+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -115,7 +115,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.cqdg.ca/history.html"/>
+        <valueString value="https://fhir.cqdg.ca/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -307,7 +307,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.cqdg.ca/history.html"/>
+        <valueString value="https://fhir.cqdg.ca/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1223,7 +1223,7 @@
       </reference>
       <name value="Ferlab.bio Example/cqdg-group"/>
       <description value="An example of a cqdg group"/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-group"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-group"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1245,7 +1245,7 @@
       </reference>
       <name value="Ferlab.bio Example/cqdg-condition"/>
       <description value="An example of a cqdg patient."/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-condition"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1278,7 +1278,7 @@
       </reference>
       <name value="Ferlab.bio Example/disease-status"/>
       <description value="An example of a cqdg Observation (disease)"/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1289,7 +1289,7 @@
       </reference>
       <name value="Ferlab.bio Example/phenotype"/>
       <description value="An example of a cqdg Observation (phenotype)"/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1311,7 +1311,7 @@
       </reference>
       <name value="Ferlab.bio Example/cqdg-patient"/>
       <description value="An example of a cqdg patient."/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-patient"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1322,7 +1322,7 @@
       </reference>
       <name value="Ferlab.bio Example/cqdg-study"/>
       <description value="An example of a research study."/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1333,7 +1333,7 @@
       </reference>
       <name value="Ferlab.bio Example/specimen1"/>
       <description value="An example of a specimen"/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1344,7 +1344,7 @@
       </reference>
       <name value="Ferlab.bio Example/specimen2"/>
       <description value="An example of a specimen"/>
-      <exampleCanonical value="http://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

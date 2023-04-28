@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> a fhir:CodeSystem ;
+<https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cqdg-study-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Cartagène<a name=\"cqdg-study-cs-Cartag.232ne\"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style=\"white-space:nowrap\">Developmental-and-Epileptic-Encephalopathies<a name=\"cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"cqdg-study-cs-Other\"> </a></td><td>Other</td><td>Another study</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Cartagène<a name=\"cqdg-study-cs-Cartag.232ne\"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style=\"white-space:nowrap\">Developmental-and-Epileptic-Encephalopathies<a name=\"cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"cqdg-study-cs-Other\"> </a></td><td>Other</td><td>Another study</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDGStudyCS"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/cqdg-study"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-27T14:10:57-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-28T18:08:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,7 +37,7 @@
      fhir:definition [ fhir:v "CARTaGENE study" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Cartagène" ]
        ] ;
        fhir:value [ fhir:v "Étude CARTaGENE" ]
@@ -47,7 +47,7 @@
      fhir:display [ fhir:v "Developmental and Epileptic Encephalopathies" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Developmental-and-Epileptic-Encephalopathies" ]
        ] ;
        fhir:value [ fhir:v "Étude CARTaGENE" ]
@@ -58,7 +58,7 @@
      fhir:definition [ fhir:v "Another study" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "http://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Other" ]
        ] ;
        fhir:value [ fhir:v "Autre étude" ]

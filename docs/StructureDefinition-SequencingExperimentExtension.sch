@@ -12,13 +12,9 @@
   <sch:pattern>
     <sch:title>f:Extension</sch:title>
     <sch:rule context="f:Extension">
-      <sch:assert test="count(f:extension[@url = 'RunName']) &gt;= 1">extension with URL = 'RunName': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'RunName']) &lt;= 1">extension with URL = 'RunName': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'IsPairedEnd']) &gt;= 1">extension with URL = 'IsPairedEnd': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'IsPairedEnd']) &lt;= 1">extension with URL = 'IsPairedEnd': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'ReadLength']) &gt;= 1">extension with URL = 'ReadLength': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'ReadLength']) &lt;= 1">extension with URL = 'ReadLength': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'ExperimentalStrategy']) &gt;= 1">extension with URL = 'ExperimentalStrategy': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'ExperimentalStrategy']) &lt;= 1">extension with URL = 'ExperimentalStrategy': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'Platform']) &gt;= 1">extension with URL = 'Platform': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'Platform']) &lt;= 1">extension with URL = 'Platform': maximum cardinality of 'extension' is 1</sch:assert>

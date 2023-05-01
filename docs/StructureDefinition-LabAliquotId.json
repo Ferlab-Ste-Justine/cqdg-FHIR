@@ -10,7 +10,7 @@
   "name" : "LabAliquotId",
   "title" : "Ferlab.bio StructureDefinition/lab-aliquot-id",
   "status" : "active",
-  "date" : "2023-05-01T14:10:01+00:00",
+  "date" : "2023-05-01T15:10:49+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -107,7 +107,7 @@
       },
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 5,
+      "min" : 1,
       "max" : "*",
       "base" : {
         "path" : "Element.extension",
@@ -142,7 +142,7 @@
       "sliceName" : "RunName",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",
@@ -168,6 +168,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -459,7 +460,7 @@
       "sliceName" : "IsPairedEnd",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",
@@ -485,6 +486,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -776,7 +778,7 @@
       "sliceName" : "ReadLength",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",
@@ -802,6 +804,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -1093,7 +1096,7 @@
       "sliceName" : "ExperimentalStrategy",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",
@@ -1436,6 +1439,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -1753,6 +1757,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -2070,6 +2075,7 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false
     },

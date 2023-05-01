@@ -41,8 +41,8 @@ IsPairedEnd 1..1 and
 ReadLength 1..1 and
 ExperimentalStrategy 1..1 and
 Platform 1..1 and
-RunDate 1..1 and
-LabAliquotId 1..1
+RunDate 0..1 and
+LabAliquotId 0..1
 
 Extension: RunName
 Parent: SequencingExperimentExtension

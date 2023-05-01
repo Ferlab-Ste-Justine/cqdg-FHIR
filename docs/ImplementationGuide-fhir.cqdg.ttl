@@ -12,15 +12,11 @@
      fhir:status [ fhir:v "extensions" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
   ] ; # 
-  fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
-  ] ) ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-04-28T18:08:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-01T14:10:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -270,6 +266,9 @@
          fhir:value [ fhir:v "true" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;

@@ -10,7 +10,7 @@
   "name" : "Platform",
   "title" : "Ferlab.bio StructureDefinition/platform",
   "status" : "active",
-  "date" : "2023-04-28T18:08:06+00:00",
+  "date" : "2023-05-01T14:10:01+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -107,7 +107,7 @@
       },
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 7,
+      "min" : 5,
       "max" : "*",
       "base" : {
         "path" : "Element.extension",
@@ -1727,7 +1727,7 @@
       "sliceName" : "RunDate",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",
@@ -2044,7 +2044,7 @@
       "sliceName" : "LabAliquotId",
       "short" : "Extension",
       "definition" : "An Extension",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Element.extension",

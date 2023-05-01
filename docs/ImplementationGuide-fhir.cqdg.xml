@@ -5,14 +5,11 @@
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>
   </text>
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-    <valueCode value="hl7.fhir.uv.tools#current"/>
-  </extension>
   <url value="https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"/>
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="draft"/>
-  <date value="2023-04-28T18:08:06+00:00"/>
+  <date value="2023-05-01T14:10:01+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -229,6 +226,9 @@
       <extension url="value">
         <valueString value="true"/>
       </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools#current"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

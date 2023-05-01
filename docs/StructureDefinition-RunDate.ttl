@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "RunDate"] ; # 
   fhir:title [ fhir:v "Ferlab.bio StructureDefinition/run-date"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-04-28T18:08:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-01T14:10:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -120,7 +120,7 @@
        ] ;
        fhir:short [ fhir:v "Extension" ] ;
        fhir:definition [ fhir:v "An Extension" ] ;
-       fhir:min [ fhir:v "7"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "5"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;
@@ -1534,7 +1534,7 @@
        fhir:sliceName [ fhir:v "RunDate" ] ;
        fhir:short [ fhir:v "Extension" ] ;
        fhir:definition [ fhir:v "An Extension" ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;
@@ -1809,7 +1809,7 @@
        fhir:sliceName [ fhir:v "LabAliquotId" ] ;
        fhir:short [ fhir:v "Extension" ] ;
        fhir:definition [ fhir:v "An Extension" ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;

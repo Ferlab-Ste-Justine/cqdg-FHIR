@@ -36,13 +36,13 @@ Title: "Ferlab.bio StructureDefinition/sequencing-experiment"
 Description: "Sequencing Experiment Extension"
 
 * extension contains
-RunName 1..1 and
-IsPairedEnd 1..1 and
-ReadLength 1..1 and
-ExperimentalStrategy 1..1 and
-Platform 1..1 and
-RunDate 0..1 and
-LabAliquotId 0..1
+RunName 0..1 MS and
+IsPairedEnd 0..1 MS and
+ReadLength 0..1 MS and
+ExperimentalStrategy 0..1 and
+Platform 1..1 MS and
+RunDate 0..1 MS and
+LabAliquotId 0..1 MS
 
 Extension: RunName
 Parent: SequencingExperimentExtension

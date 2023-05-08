@@ -177,50 +177,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/ExperimentalStrategy"
-        },
-        "name": "Ferlab.bio StructureDefinition/experimental-strategy",
-        "description": "Experimental Strategy Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/FullSizeExtension"
         },
         "name": "Ferlab.bio Extension/full-size",
         "description": "Full Size Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/GenomeBuild"
-        },
-        "name": "Ferlab.bio StructureDefinition/genome-build",
-        "description": "Genome Build Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/IsPairedEnd"
-        },
-        "name": "Ferlab.bio StructureDefinition/is-paired-end",
-        "description": "Is Paired End Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/LabAliquotId"
-        },
-        "name": "Ferlab.bio StructureDefinition/lab-aliquot-id",
-        "description": "LabAliquotId Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/Platform"
-        },
-        "name": "Ferlab.bio StructureDefinition/platform",
-        "description": "Platform Extension",
         "exampleBoolean": false
       },
       {
@@ -241,23 +201,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/RunDate"
-        },
-        "name": "Ferlab.bio StructureDefinition/run-date",
-        "description": "Run Date Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RunName"
-        },
-        "name": "Ferlab.bio StructureDefinition/run-name",
-        "description": "Run Name Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/SequencingExperimentExtension"
+          "reference": "StructureDefinition/sequencingExperimentExtension"
         },
         "name": "Ferlab.bio StructureDefinition/sequencing-experiment",
         "description": "Sequencing Experiment Extension",
@@ -265,26 +209,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/WorkflowExtension"
+          "reference": "StructureDefinition/workflowExtension"
         },
-        "name": "Ferlab.bio StructureDefinition/cqdg-task",
+        "name": "Ferlab.bio StructureDefinition/workflow",
         "description": "Workflow Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/WorkflowName"
-        },
-        "name": "Ferlab.bio StructureDefinition/workflow-name",
-        "description": "Workflow Name Extension",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/WorkflowVersion"
-        },
-        "name": "Ferlab.bio StructureDefinition/workflow-version",
-        "description": "Workflow Version Extension",
         "exampleBoolean": false
       },
       {

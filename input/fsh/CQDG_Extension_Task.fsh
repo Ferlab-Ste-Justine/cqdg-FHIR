@@ -1,81 +1,55 @@
 Extension: WorkflowExtension
-Id: WorkflowExtension
+Id: workflowExtension
 Description: "Workflow Extension"
-Title: "Ferlab.bio StructureDefinition/cqdg-task"
-
+Title: "Ferlab.bio StructureDefinition/workflow"
 
 * extension contains
-WorkflowName 1..1 and
-WorkflowVersion 1..1 and
-GenomeBuild 1..1
+workflowName 0..1 MS and
+workflowVersion 0..1 MS and
+genomeBuild 0..1 MS
 
-Extension: WorkflowName
-Parent: WorkflowExtension
-Title: "Ferlab.bio StructureDefinition/workflow-name"
-Description: "Workflow Name Extension"
-* valueString
+* extension[workflowName] ^definition = "No description"
+* extension[workflowName].value[x] only string
 
-Extension: WorkflowVersion
-Parent: WorkflowExtension
-Title: "Ferlab.bio StructureDefinition/workflow-version"
-Description: "Workflow Version Extension"
-* valueString
+* extension[genomeBuild].value[x] only Coding
+* extension[genomeBuild].valueCoding from genome-build-vs (required)
 
-Extension: GenomeBuild
-Parent: WorkflowExtension
-Title: "Ferlab.bio StructureDefinition/genome-build"
-Description: "Genome Build Extension"
-* valueCoding
-
+* extension[workflowVersion] ^definition = "No description"
+* extension[workflowVersion].value[x] only string
 
 //=====================================================
 
 Extension: SequencingExperimentExtension
-Id: SequencingExperimentExtension
+Id: sequencingExperimentExtension
 Title: "Ferlab.bio StructureDefinition/sequencing-experiment"
 Description: "Sequencing Experiment Extension"
 
 * extension contains
-RunName 0..1 MS and
-IsPairedEnd 0..1 MS and
-ReadLength 0..1 MS and
-ExperimentalStrategy 0..1 and
-Platform 1..1 MS and
-RunDate 0..1 MS and
-LabAliquotId 0..1 MS
+runName 0..1 MS and
+isPairedEnd 0..1 MS and
+readLength 0..1 MS and
+experimentalStrategy 0..1 and
+platform 1..1 MS and
+runDate 0..1 MS and
+labAliquotId 0..1 MS
 
-Extension: RunName
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/run-name"
-Description: "Run Name Extension"
-* valueString
+* extension[runName] ^definition = "No description"
+* extension[runName].value[x] only string
 
-Extension: IsPairedEnd
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/is-paired-end"
-Description: "Is Paired End Extension"
-* valueBoolean
+* extension[isPairedEnd] ^definition = "No description"
+* extension[isPairedEnd].value[x] only boolean
 
-Extension: ExperimentalStrategy
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/experimental-strategy"
-Description: "Experimental Strategy Extension"
-* valueCoding
+* extension[readLength] ^definition = "No description"
+* extension[readLength].value[x] only string
 
-Extension: Platform
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/platform"
-Description: "Platform Extension"
-* valueString
+* extension[experimentalStrategy].value[x] only Coding
+* extension[experimentalStrategy].valueCoding from experimental-strategy-vs (required)
 
-Extension: RunDate
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/run-date"
-Description: "Run Date Extension"
-* valueDateTime
+* extension[platform] ^definition = "No description"
+* extension[platform].value[x] only string
 
-Extension: LabAliquotId
-Parent: SequencingExperimentExtension
-Title: "Ferlab.bio StructureDefinition/lab-aliquot-id"
-Description: "LabAliquotId Extension"
-* valueString
+* extension[runDate] ^definition = "No description"
+* extension[runDate].value[x] only dateTime
+
+* extension[labAliquotId] ^definition = "No description"
+* extension[labAliquotId].value[x] only string

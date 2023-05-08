@@ -10,60 +10,60 @@
     {
       "extension": [
         {
-          "url": "WorkflowName",
+          "url": "workflowName",
           "valueString": "Dragen"
         },
         {
-          "url": "WorkflowVersion",
-          "valueString": "SW null"
-        },
-        {
-          "url": "GenomeBuild",
+          "url": "genomeBuild",
           "valueCoding": {
             "code": "GRCh38",
-            "display": "GRCh38",
-            "system": "https://fhir.cqdg.ca/CodeSystem/genome-build"
+            "system": "https://fhir.cqdg.ca/CodeSystem/genome-build",
+            "display": "GRCh38"
           }
+        },
+        {
+          "url": "workflowVersion",
+          "valueString": "SW null"
         }
       ],
-      "url": "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/workflowExtension"
     },
     {
       "extension": [
         {
-          "url": "RunName",
+          "url": "runName",
           "valueString": "1898"
         },
         {
-          "url": "Platform",
+          "url": "platform",
           "valueString": "Illumina NovaSeq 6000 S4 PE150"
         },
         {
-          "url": "IsPairedEnd",
+          "url": "isPairedEnd",
           "valueBoolean": true
         },
         {
-          "url": "ReadLength",
+          "url": "readLength",
           "valueString": "151,8,8,151"
         },
         {
-          "url": "ExperimentalStrategy",
+          "url": "experimentalStrategy",
           "valueCoding": {
             "code": "WXS",
-            "display": "Whole Exome Sequencing",
-            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+            "display": "Whole Exome Sequencing"
           }
         },
         {
-          "url": "RunDate",
+          "url": "runDate",
           "valueDateTime": "2020-11-06"
         },
         {
-          "url": "LabAliquotId",
+          "url": "labAliquotId",
           "valueString": "MPS12348274-B04"
         }
       ],
-      "url": "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"
     }
   ],
   "status": "completed",

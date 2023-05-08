@@ -3,30 +3,26 @@ Parent: Task
 Id: cqdg-task
 Description: "CQDG Task"
 Title: "Ferlab.bio Profile/cqdg-task"
+//* extension contains workflowExtension 0..1 MS
+//* extension contains SequencingExperimentExtension named sequencingExperimentExtension 1..1 MS
+
 
 Instance: CQDGTaskExample
 InstanceOf: Task
 Title: "Ferlab.bio Example/cqdg-task"
 Description: "An example of a cqdg Task"
 Usage: #example
-// * meta.versionId = "1"
-// * meta.lastUpdated = "2022-08-12T17:23:10.835+00:00"
-// * meta.source = "#7a2523cf4aac65a0"
 * meta.profile = "https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task"
-* extension[WorkflowExtension].extension[WorkflowName].valueString = "Dragen"
-* extension[WorkflowExtension].extension[WorkflowVersion].valueString = "SW null"
-* extension[WorkflowExtension].extension[GenomeBuild].valueCoding.code = https://fhir.cqdg.ca/CodeSystem/genome-build#GRCh38 "GRCh38"
-* extension[WorkflowExtension].extension[GenomeBuild].valueCoding.display = https://fhir.cqdg.ca/CodeSystem/genome-build#GRCh38 "GRCh38"
-* extension[WorkflowExtension].extension[GenomeBuild].valueCoding.system = "https://fhir.cqdg.ca/CodeSystem/genome-build"
-* extension[SequencingExperimentExtension].extension[RunName].valueString = "1898"
-* extension[SequencingExperimentExtension].extension[IsPairedEnd].valueBoolean = true
-* extension[SequencingExperimentExtension].extension[ReadLength].valueString = "151,8,8,151"
-* extension[SequencingExperimentExtension].extension[ExperimentalStrategy].valueCoding.code = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS "Whole Exome Sequencing"
-* extension[SequencingExperimentExtension].extension[ExperimentalStrategy].valueCoding.display = "Whole Exome Sequencing"
-* extension[SequencingExperimentExtension].extension[ExperimentalStrategy].valueCoding.system = "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
-* extension[SequencingExperimentExtension].extension[Platform].valueString = "Illumina NovaSeq 6000 S4 PE150"
-* extension[SequencingExperimentExtension].extension[RunDate].valueDateTime = "2020-11-06"
-* extension[SequencingExperimentExtension].extension[LabAliquotId].valueString = "MPS12348274-B04"
+* extension[workflowExtension].extension[workflowName].valueString = "Dragen"
+* extension[workflowExtension].extension[genomeBuild].valueCoding = https://fhir.cqdg.ca/CodeSystem/genome-build#GRCh38 "GRCh38"
+* extension[workflowExtension].extension[workflowVersion].valueString = "SW null"
+* extension[sequencingExperimentExtension].extension[runName].valueString = "1898"
+* extension[sequencingExperimentExtension].extension[isPairedEnd].valueBoolean = true
+* extension[sequencingExperimentExtension].extension[readLength].valueString = "151,8,8,151"
+* extension[sequencingExperimentExtension].extension[experimentalStrategy].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS "Whole Exome Sequencing"
+* extension[sequencingExperimentExtension].extension[platform].valueString = "Illumina NovaSeq 6000 S4 PE150"
+* extension[sequencingExperimentExtension].extension[runDate].valueDateTime = "2020-11-06"
+* extension[sequencingExperimentExtension].extension[labAliquotId].valueString = "MPS12348274-B04"
 * status = #completed
 * intent = #order
 * priority = #routine

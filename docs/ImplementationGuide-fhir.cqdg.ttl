@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-01T15:10:49+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T15:26:10+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -708,71 +708,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy> ;
-         fhir:reference [ fhir:v "StructureDefinition/ExperimentalStrategy" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/experimental-strategy" ] ;
-       fhir:description [ fhir:v "Experimental Strategy Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/FullSizeExtension" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/full-size" ] ;
        fhir:description [ fhir:v "Full Size Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/GenomeBuild> ;
-         fhir:reference [ fhir:v "StructureDefinition/GenomeBuild" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/genome-build" ] ;
-       fhir:description [ fhir:v "Genome Build Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/IsPairedEnd> ;
-         fhir:reference [ fhir:v "StructureDefinition/IsPairedEnd" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/is-paired-end" ] ;
-       fhir:description [ fhir:v "Is Paired End Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/LabAliquotId> ;
-         fhir:reference [ fhir:v "StructureDefinition/LabAliquotId" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/lab-aliquot-id" ] ;
-       fhir:description [ fhir:v "LabAliquotId Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/Platform> ;
-         fhir:reference [ fhir:v "StructureDefinition/Platform" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/platform" ] ;
-       fhir:description [ fhir:v "Platform Extension" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -804,32 +744,8 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/RunDate> ;
-         fhir:reference [ fhir:v "StructureDefinition/RunDate" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-date" ] ;
-       fhir:description [ fhir:v "Run Date Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/RunName> ;
-         fhir:reference [ fhir:v "StructureDefinition/RunName" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/run-name" ] ;
-       fhir:description [ fhir:v "Run Name Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension> ;
-         fhir:reference [ fhir:v "StructureDefinition/SequencingExperimentExtension" ]
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/sequencingExperimentExtension" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio StructureDefinition/sequencing-experiment" ] ;
        fhir:description [ fhir:v "Sequencing Experiment Extension" ] ;
@@ -840,35 +756,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension> ;
-         fhir:reference [ fhir:v "StructureDefinition/WorkflowExtension" ]
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/workflowExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/workflowExtension" ]
        ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-task" ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow" ] ;
        fhir:description [ fhir:v "Workflow Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowName> ;
-         fhir:reference [ fhir:v "StructureDefinition/WorkflowName" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-name" ] ;
-       fhir:description [ fhir:v "Workflow Name Extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/WorkflowVersion> ;
-         fhir:reference [ fhir:v "StructureDefinition/WorkflowVersion" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/workflow-version" ] ;
-       fhir:description [ fhir:v "Workflow Version Extension" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

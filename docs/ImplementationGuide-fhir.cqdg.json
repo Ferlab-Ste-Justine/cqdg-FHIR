@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "draft",
-  "date" : "2023-05-01T15:10:49+00:00",
+  "date" : "2023-05-08T15:26:10+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -792,70 +792,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/ExperimentalStrategy"
-      },
-      "name" : "Ferlab.bio StructureDefinition/experimental-strategy",
-      "description" : "Experimental Strategy Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/FullSizeExtension"
       },
       "name" : "Ferlab.bio Extension/full-size",
       "description" : "Full Size Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/GenomeBuild"
-      },
-      "name" : "Ferlab.bio StructureDefinition/genome-build",
-      "description" : "Genome Build Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/IsPairedEnd"
-      },
-      "name" : "Ferlab.bio StructureDefinition/is-paired-end",
-      "description" : "Is Paired End Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/LabAliquotId"
-      },
-      "name" : "Ferlab.bio StructureDefinition/lab-aliquot-id",
-      "description" : "LabAliquotId Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/Platform"
-      },
-      "name" : "Ferlab.bio StructureDefinition/platform",
-      "description" : "Platform Extension",
       "exampleBoolean" : false
     },
     {
@@ -888,31 +828,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/RunDate"
-      },
-      "name" : "Ferlab.bio StructureDefinition/run-date",
-      "description" : "Run Date Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/RunName"
-      },
-      "name" : "Ferlab.bio StructureDefinition/run-name",
-      "description" : "Run Name Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/SequencingExperimentExtension"
+        "reference" : "StructureDefinition/sequencingExperimentExtension"
       },
       "name" : "Ferlab.bio StructureDefinition/sequencing-experiment",
       "description" : "Sequencing Experiment Extension",
@@ -924,34 +840,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/WorkflowExtension"
+        "reference" : "StructureDefinition/workflowExtension"
       },
-      "name" : "Ferlab.bio StructureDefinition/cqdg-task",
+      "name" : "Ferlab.bio StructureDefinition/workflow",
       "description" : "Workflow Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/WorkflowName"
-      },
-      "name" : "Ferlab.bio StructureDefinition/workflow-name",
-      "description" : "Workflow Name Extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/WorkflowVersion"
-      },
-      "name" : "Ferlab.bio StructureDefinition/workflow-version",
-      "description" : "Workflow Version Extension",
       "exampleBoolean" : false
     },
     {

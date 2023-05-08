@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="draft"/>
-  <date value="2023-05-01T15:10:49+00:00"/>
+  <date value="2023-05-08T15:26:10+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -625,65 +625,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ExperimentalStrategy"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/experimental-strategy"/>
-      <description value="Experimental Strategy Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/FullSizeExtension"/>
       </reference>
       <name value="Ferlab.bio Extension/full-size"/>
       <description value="Full Size Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/GenomeBuild"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/genome-build"/>
-      <description value="Genome Build Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/IsPairedEnd"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/is-paired-end"/>
-      <description value="Is Paired End Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/LabAliquotId"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/lab-aliquot-id"/>
-      <description value="LabAliquotId Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Platform"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/platform"/>
-      <description value="Platform Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -713,29 +658,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/RunDate"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/run-date"/>
-      <description value="Run Date Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/RunName"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/run-name"/>
-      <description value="Run Name Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/SequencingExperimentExtension"/>
+        <reference value="StructureDefinition/sequencingExperimentExtension"/>
       </reference>
       <name value="Ferlab.bio StructureDefinition/sequencing-experiment"/>
       <description value="Sequencing Experiment Extension"/>
@@ -746,32 +669,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/WorkflowExtension"/>
+        <reference value="StructureDefinition/workflowExtension"/>
       </reference>
-      <name value="Ferlab.bio StructureDefinition/cqdg-task"/>
+      <name value="Ferlab.bio StructureDefinition/workflow"/>
       <description value="Workflow Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/WorkflowName"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/workflow-name"/>
-      <description value="Workflow Name Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/WorkflowVersion"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/workflow-version"/>
-      <description value="Workflow Version Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

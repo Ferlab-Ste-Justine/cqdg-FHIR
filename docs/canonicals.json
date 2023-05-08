@@ -196,13 +196,6 @@
     "name" : "CQDGObservationTumorNormalDesignation"
   },
   {
-    "id" : "ExperimentalStrategy",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/ExperimentalStrategy",
-    "version" : "0.1.0",
-    "name" : "ExperimentalStrategy"
-  },
-  {
     "id" : "FullSizeExtension",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
@@ -210,81 +203,11 @@
     "name" : "FullSizeExtension"
   },
   {
-    "id" : "GenomeBuild",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/GenomeBuild",
-    "version" : "0.1.0",
-    "name" : "GenomeBuild"
-  },
-  {
-    "id" : "IsPairedEnd",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/IsPairedEnd",
-    "version" : "0.1.0",
-    "name" : "IsPairedEnd"
-  },
-  {
-    "id" : "LabAliquotId",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/LabAliquotId",
-    "version" : "0.1.0",
-    "name" : "LabAliquotId"
-  },
-  {
-    "id" : "Platform",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/Platform",
-    "version" : "0.1.0",
-    "name" : "Platform"
-  },
-  {
     "id" : "QCEthnicity",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
     "version" : "0.1.0",
     "name" : "QCEthnicity"
-  },
-  {
-    "id" : "RunDate",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/RunDate",
-    "version" : "0.1.0",
-    "name" : "RunDate"
-  },
-  {
-    "id" : "RunName",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/RunName",
-    "version" : "0.1.0",
-    "name" : "RunName"
-  },
-  {
-    "id" : "SequencingExperimentExtension",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/SequencingExperimentExtension",
-    "version" : "0.1.0",
-    "name" : "SequencingExperimentExtension"
-  },
-  {
-    "id" : "WorkflowExtension",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/WorkflowExtension",
-    "version" : "0.1.0",
-    "name" : "WorkflowExtension"
-  },
-  {
-    "id" : "WorkflowName",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/WorkflowName",
-    "version" : "0.1.0",
-    "name" : "WorkflowName"
-  },
-  {
-    "id" : "WorkflowVersion",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/WorkflowVersion",
-    "version" : "0.1.0",
-    "name" : "WorkflowVersion"
   },
   {
     "id" : "cqdg-condition",
@@ -355,6 +278,20 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/population-info",
     "version" : "0.1.0",
     "name" : "PopulationInfo"
+  },
+  {
+    "id" : "sequencingExperimentExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentExtension"
+  },
+  {
+    "id" : "workflowExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/workflowExtension",
+    "version" : "0.1.0",
+    "name" : "WorkflowExtension"
   },
   {
     "id" : "access-limitation-vs",

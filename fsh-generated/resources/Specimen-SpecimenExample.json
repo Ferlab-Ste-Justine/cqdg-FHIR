@@ -34,5 +34,14 @@
   ],
   "subject": {
     "reference": "Patient/PatientExample"
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://purl.obolibrary.org/obo/ncit.owl",
+        "code": "NCIT:C12434",
+        "display": "DNA"
+      }
+    ]
   }
 }

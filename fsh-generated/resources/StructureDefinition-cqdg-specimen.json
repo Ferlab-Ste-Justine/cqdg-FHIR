@@ -93,15 +93,7 @@
         "path": "Specimen.type.coding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs"
-        }
-      },
-      {
-        "id": "Specimen.collection.bodySite.coding.system",
-        "path": "Specimen.collection.bodySite.coding.system",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs"
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"
         }
       }
     ]

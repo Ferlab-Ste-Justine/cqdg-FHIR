@@ -11,12 +11,10 @@ Title: "Ferlab.bio StructureDefinition/cqdg-specimen"
 * identifier contains CQDG_ID 1..1
 * identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
 
-* collection
-  * bodySite
-    * coding.system from CQDGSpecimenVS
-* extension contains AgeAtBiospecimenCollection named ageAtBiospecimenCollection 0..1
+* type
+  * coding.system from SampleTypeTissueSourceVS
 
-* type.coding.system from CQDGSpecimenVS
+* extension contains AgeAtBiospecimenCollection named ageAtBiospecimenCollection 0..1
 
 // -----------------------------------------------------
 // example instance of profile defined
@@ -41,6 +39,11 @@ Description: "An example of a specimen"
 * extension[ageAtBiospecimenCollection].valueAge.code = #d
 * extension[ageAtBiospecimenCollection].valueAge.system = "http://unitsofmeasure.org"
 * extension[ageAtBiospecimenCollection].valueAge.unit = "days"
+
+
+* type.coding[0].system = $NCIT
+* type.coding[0].code = #NCIT:C12434
+* type.coding[0].display = "DNA"
 
 // -----------------------------------------------------
 // example instance of profile defined

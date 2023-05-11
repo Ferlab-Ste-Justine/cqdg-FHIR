@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "draft",
-  "date" : "2023-05-11T13:00:33+00:00",
+  "date" : "2023-05-11T21:57:42+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -756,10 +756,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/AgeAtBioSpecimenCollection"
+        "reference" : "StructureDefinition/AgeAtEvent"
       },
-      "name" : "Ferlab.bio Extension/age-at-biospecimen-collection",
-      "description" : "Age At Bio Specimen Collection Extension",
+      "name" : "Ferlab.bio Extension/age-at-event",
+      "description" : "Patient's age (in days since birth) at the time of death",
       "exampleBoolean" : false
     },
     {
@@ -771,7 +771,7 @@
         "reference" : "StructureDefinition/AgeAtRecruitment"
       },
       "name" : "Ferlab.bio Extension/age-at-recruitment",
-      "description" : "Age At Recruitment Extension",
+      "description" : "Patient's age (in days since birth) at the time of recruitment",
       "exampleBoolean" : false
     },
     {
@@ -783,7 +783,7 @@
         "reference" : "StructureDefinition/AgeOfDeath"
       },
       "name" : "Ferlab.bio Extension/age-of-death",
-      "description" : "Age Of Death Extension",
+      "description" : "Patient's age (in days since birth) at the time of death",
       "exampleBoolean" : false
     },
     {

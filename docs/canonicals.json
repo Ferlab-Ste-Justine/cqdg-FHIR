@@ -1,5 +1,12 @@
 [
   {
+    "id" : "qc-sample-type",
+    "type" : "CodeSystem",
+    "url" : "http://purl.obolibrary.org/obo/ncit.owl",
+    "version" : "0.1.0",
+    "name" : "QCSampleType"
+  },
+  {
     "id" : "bioinfo-analysis-code",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
@@ -98,13 +105,6 @@
     "name" : "QCEthnicity"
   },
   {
-    "id" : "qc-sample-type",
-    "type" : "CodeSystem",
-    "url" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
-    "version" : "0.1.0",
-    "name" : "QCSampleType"
-  },
-  {
     "id" : "research-domain",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
@@ -147,11 +147,11 @@
     "name" : "AccessRequirements"
   },
   {
-    "id" : "AgeAtBioSpecimenCollection",
+    "id" : "AgeAtEvent",
     "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
     "version" : "0.1.0",
-    "name" : "AgeAtBiospecimenCollection"
+    "name" : "AgeAtEvent"
   },
   {
     "id" : "AgeAtRecruitment",

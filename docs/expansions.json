@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e03f4c2d-6928-42b4-a37d-6683205444d7",
+  "id" : "10260aea-d020-4ff0-ac03-90b0b0356934",
   "meta" : {
-    "lastUpdated" : "2023-05-11T13:00:33.608+00:00"
+    "lastUpdated" : "2023-05-11T21:57:42.779+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "TumorNormalDesignationVS",
       "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:994374d0-d37a-4e5b-bccd-eeb91a8af273",
-        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "identifier" : "urn:uuid:ce8340b9-29e9-40c3-8bdf-faec3d3eb4bc",
+        "timestamp" : "2023-05-11T21:58:05+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -62,10 +62,10 @@
       "name" : "BioinfoAnalysisVS",
       "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a4e8909f-cd4a-4091-b419-1d3d67854ddc",
-        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "identifier" : "urn:uuid:ef4b259f-7443-4f57-acbc-368266b738a6",
+        "timestamp" : "2023-05-11T21:58:05+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -116,10 +116,10 @@
       "name" : "FamilyTypeVS",
       "title" : "Ferlab.bio ValueSet/family-type",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:429106ff-a8ef-4f16-bd4d-863c96d0f8ea",
-        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "identifier" : "urn:uuid:2e944613-b191-4248-a5ce-7630b6207256",
+        "timestamp" : "2023-05-11T21:58:05+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -170,10 +170,10 @@
       "name" : "DataCategoryVS",
       "title" : "Ferlab.bio ValueSet/data-category",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:af60abed-928e-402c-b74b-ab91f1ba58c4",
-        "timestamp" : "2023-05-11T13:00:57+00:00",
+        "identifier" : "urn:uuid:3240f496-5b1d-48c6-ae09-615c33058fd9",
+        "timestamp" : "2023-05-11T21:58:05+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -204,10 +204,10 @@
       "name" : "DiseaseStatusVS",
       "title" : "Ferlab.bio ValueSet/disease-status",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f1b30583-dfdd-4c5d-9dbb-d807e635f105",
-        "timestamp" : "2023-05-11T13:00:59+00:00",
+        "identifier" : "urn:uuid:3046de4f-06a3-48ec-b955-928cfe7b7f92",
+        "timestamp" : "2023-05-11T21:58:07+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -248,10 +248,10 @@
       "name" : "DataTypeVS",
       "title" : "Ferlab.bio ValueSet/data-type",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f75e8649-5032-447e-8dcd-7b49f8000862",
-        "timestamp" : "2023-05-11T13:01:07+00:00",
+        "identifier" : "urn:uuid:59ea48fd-5e5f-4d1c-a4aa-de7580edd522",
+        "timestamp" : "2023-05-11T21:58:15+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -312,10 +312,10 @@
       "name" : "CauseOfDeathVS",
       "title" : "Ferlab.bio ValueSet/cause-of-death",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:20f6d9c2-3581-4e32-a1ce-3d4910b0ba3c",
-        "timestamp" : "2023-05-11T13:01:08+00:00",
+        "identifier" : "urn:uuid:c8b8ad20-57ab-4296-9082-c94c2ab316d1",
+        "timestamp" : "2023-05-11T21:58:15+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -381,10 +381,10 @@
       "name" : "ResearchDomain",
       "title" : "Ferlab.bio ValueSet/research-domain",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:03260e67-0a7b-4399-a02a-29d6ca3bcb0b",
-        "timestamp" : "2023-05-11T13:01:08+00:00",
+        "identifier" : "urn:uuid:0d8811b4-55fc-44b2-90b0-646ff74ea10a",
+        "timestamp" : "2023-05-11T21:58:16+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -480,10 +480,10 @@
       "name" : "GenomeBuildVS",
       "title" : "Ferlab.bio ValueSet/genome-build",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d206eef2-3b8a-48c7-a1ca-b4d42d9f2132",
-        "timestamp" : "2023-05-11T13:01:08+00:00",
+        "identifier" : "urn:uuid:4a8dfeea-536a-4cda-8414-7fff5b704347",
+        "timestamp" : "2023-05-11T21:58:16+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -507,17 +507,17 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-sample-type.html\">Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C449\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C449\">NCIT:C449</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C812\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C812\">NCIT:C812</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Ribonucleic Acid</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12434\">NCIT:C12434</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C13275\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13275\">NCIT:C13275</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C164014\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164014\">NCIT:C164014</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Solid Tissue Specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12431\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12431\">NCIT:C12431</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Bone Marrow</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-sample-type.html\">Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C449\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C449\">NCIT:C449</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C812\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C812\">NCIT:C812</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>Ribonucleic Acid</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C12434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12434\">NCIT:C12434</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C13275\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13275\">NCIT:C13275</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C164014\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164014\">NCIT:C164014</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>Solid Tissue Specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-ncit.owl-NCIT-C12431\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12431\">NCIT:C12431</a></td><td>http://purl.obolibrary.org/obo/ncit.owl</td><td>Bone Marrow</td></tr></table></div>"
       },
       "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
       "version" : "0.1.0",
       "name" : "SampleTypeTissueSourceVS",
       "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:660678c4-4d57-4486-ade8-c6bdf9c12adc",
-        "timestamp" : "2023-05-11T13:01:08+00:00",
+        "identifier" : "urn:uuid:966a1705-c4de-4aec-9982-943043ec8f98",
+        "timestamp" : "2023-05-11T21:58:16+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -525,35 +525,35 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type|0.1.0"
+          "valueUri" : "http://purl.obolibrary.org/obo/ncit.owl|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C449",
           "display" : "DNA"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C812",
           "display" : "Ribonucleic Acid"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C12434",
           "display" : "Blood"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C13275",
           "display" : "Saliva"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C164014",
           "display" : "Solid Tissue Specimen"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
           "code" : "NCIT:C12431",
           "display" : "Bone Marrow"
         }]
@@ -573,10 +573,10 @@
       "name" : "CQDGFamilyTypeVS",
       "title" : "Ferlab.bio ValueSet/experimental-strategy",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ec8b2e56-e334-451b-ba91-846edafce734",
-        "timestamp" : "2023-05-11T13:01:09+00:00",
+        "identifier" : "urn:uuid:17fa445d-60a7-4a19-a853-9d2665eca8c5",
+        "timestamp" : "2023-05-11T21:58:16+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -617,10 +617,10 @@
       "name" : "CQDGObservationCategory",
       "title" : "Ferlab.bio ValueSet/cqdg-observation",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0d7035ba-d6ec-4eeb-b4f2-57da074fd34d",
-        "timestamp" : "2023-05-11T13:01:10+00:00",
+        "identifier" : "urn:uuid:06f46703-62c4-48ae-84ba-4840e0bba959",
+        "timestamp" : "2023-05-11T21:58:18+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -671,10 +671,10 @@
       "name" : "RelationshipToProband",
       "title" : "Ferlab.bio ValueSet/relationship-to-proband",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:185e69b3-7922-48e6-8c89-0bd7fb0255a2",
-        "timestamp" : "2023-05-11T13:01:12+00:00",
+        "identifier" : "urn:uuid:5408f64c-1ce3-4107-b7b8-04cea6157c33",
+        "timestamp" : "2023-05-11T21:58:20+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -760,10 +760,10 @@
       "name" : "StudyVS",
       "title" : "Ferlab.bio ValueSet/cqdg-study",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:153eb829-94f5-40bb-9a88-4e75ea42bec4",
-        "timestamp" : "2023-05-11T13:01:12+00:00",
+        "identifier" : "urn:uuid:78beb27b-e774-4b91-b110-b6cb417ee12f",
+        "timestamp" : "2023-05-11T21:58:20+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -804,10 +804,10 @@
       "name" : "FileFormat",
       "title" : "Ferlab.bio ValueSet/file-format",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bb4473ab-4985-4f9c-ab30-4743abf5a407",
-        "timestamp" : "2023-05-11T13:01:13+00:00",
+        "identifier" : "urn:uuid:224c961d-3d84-4da6-b3ab-d990b40e0b04",
+        "timestamp" : "2023-05-11T21:58:20+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -873,10 +873,10 @@
       "name" : "QCEthnicityVS",
       "title" : "Ferlab.bio ValueSet/qa-ethnicity",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:93118af5-5244-438c-ba23-3b1699cc9a4c",
-        "timestamp" : "2023-05-11T13:01:13+00:00",
+        "identifier" : "urn:uuid:e83791d2-2800-4430-8881-576ec4bc5ae1",
+        "timestamp" : "2023-05-11T21:58:21+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -957,10 +957,10 @@
       "name" : "PopulationVS",
       "title" : "Ferlab.bio ValueSet/population",
       "status" : "active",
-      "date" : "2023-05-11T13:00:33+00:00",
+      "date" : "2023-05-11T21:57:42+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ea6b8d76-afaa-4b34-a200-d43a70dcf5e3",
-        "timestamp" : "2023-05-11T13:01:17+00:00",
+        "identifier" : "urn:uuid:76536d25-6ecb-4665-9585-b03fd8aad93c",
+        "timestamp" : "2023-05-11T21:58:24+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-11T13:00:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T21:57:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -672,11 +672,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection> ;
-         fhir:reference [ fhir:v "StructureDefinition/AgeAtBioSpecimenCollection" ]
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent> ;
+         fhir:reference [ fhir:v "StructureDefinition/AgeAtEvent" ]
        ] ;
-       fhir:name [ fhir:v "Ferlab.bio Extension/age-at-biospecimen-collection" ] ;
-       fhir:description [ fhir:v "Age At Bio Specimen Collection Extension" ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/age-at-event" ] ;
+       fhir:description [ fhir:v "Patient's age (in days since birth) at the time of death" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -688,7 +688,7 @@
          fhir:reference [ fhir:v "StructureDefinition/AgeAtRecruitment" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/age-at-recruitment" ] ;
-       fhir:description [ fhir:v "Age At Recruitment Extension" ] ;
+       fhir:description [ fhir:v "Patient's age (in days since birth) at the time of recruitment" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -700,7 +700,7 @@
          fhir:reference [ fhir:v "StructureDefinition/AgeOfDeath" ]
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/age-of-death" ] ;
-       fhir:description [ fhir:v "Age Of Death Extension" ] ;
+       fhir:description [ fhir:v "Patient's age (in days since birth) at the time of death" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

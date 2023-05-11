@@ -23,8 +23,8 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Specimen.extension:ageAtBiospecimenCollection","Specimen.extension","ageAtBiospecimenCollection","","",0,1,"","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/AgeAtBioSpecimenCollection]]} {[]}
-","Ferlab.bio Extension/age-at-biospecimen-collection","Age At Bio Specimen Collection Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Specimen.extension:ageAt","Specimen.extension","ageAt","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent]]} {[]}
+","Age at event","Age at the time of medical consultation","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.modifierExtension","Specimen.modifierExtension","","extensions

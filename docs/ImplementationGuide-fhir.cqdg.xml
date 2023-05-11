@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="draft"/>
-  <date value="2023-05-11T13:00:33+00:00"/>
+  <date value="2023-05-11T21:57:42+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -592,10 +592,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/AgeAtBioSpecimenCollection"/>
+        <reference value="StructureDefinition/AgeAtEvent"/>
       </reference>
-      <name value="Ferlab.bio Extension/age-at-biospecimen-collection"/>
-      <description value="Age At Bio Specimen Collection Extension"/>
+      <name value="Ferlab.bio Extension/age-at-event"/>
+      <description value="Patient's age (in days since birth) at the time of death"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -606,7 +606,7 @@
         <reference value="StructureDefinition/AgeAtRecruitment"/>
       </reference>
       <name value="Ferlab.bio Extension/age-at-recruitment"/>
-      <description value="Age At Recruitment Extension"/>
+      <description value="Patient's age (in days since birth) at the time of recruitment"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -617,7 +617,7 @@
         <reference value="StructureDefinition/AgeOfDeath"/>
       </reference>
       <name value="Ferlab.bio Extension/age-of-death"/>
-      <description value="Age Of Death Extension"/>
+      <description value="Patient's age (in days since birth) at the time of death"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

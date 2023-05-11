@@ -12,7 +12,8 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -33,19 +34,6 @@
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Patient/f:identifier</sch:title>
-    <sch:rule context="f:Patient/f:identifier">
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:use) &lt;= 1">use: maximum cardinality of 'use' is 1</sch:assert>
-      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
-      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
-      <sch:assert test="count(f:system) &lt;= 1">system: maximum cardinality of 'system' is 1</sch:assert>
-      <sch:assert test="count(f:value) &lt;= 1">value: maximum cardinality of 'value' is 1</sch:assert>
-      <sch:assert test="count(f:period) &lt;= 1">period: maximum cardinality of 'period' is 1</sch:assert>
-      <sch:assert test="count(f:assigner) &lt;= 1">assigner: maximum cardinality of 'assigner' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

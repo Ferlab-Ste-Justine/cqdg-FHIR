@@ -3,14 +3,14 @@
   "id" : "sample-type-tissue-source-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-qc-sample-type.html\"><code>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</code></a></li></ul></div>"
   },
   "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
   "version" : "0.1.0",
   "name" : "SampleTypeTissueSourceVS",
   "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
   "status" : "active",
-  "date" : "2023-05-08T15:26:10+00:00",
+  "date" : "2023-05-11T13:00:33+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -22,7 +22,7 @@
   "description" : "Sample Type Tissue Source ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "http://purl.obolibrary.org/obo/ncit.owl"
+      "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type"
     }]
   }
 }

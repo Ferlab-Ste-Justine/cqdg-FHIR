@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-08T15:26:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T13:00:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -833,18 +833,6 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-observation" ] ;
        fhir:description [ fhir:v "Observation ValueSet" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/ValueSet/cqdg-specimen-vs> ;
-         fhir:reference [ fhir:v "ValueSet/cqdg-specimen-vs" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio ValueSet/cqdg-specimen" ] ;
-       fhir:description [ fhir:v "Specimen ValueSet" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

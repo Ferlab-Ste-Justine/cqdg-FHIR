@@ -1,11 +1,611 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="82e63843-63d9-4593-b738-0f4b518994bf"/>
+  <id value="e03f4c2d-6928-42b4-a37d-6683205444d7"/>
   <meta>
-    <lastUpdated value="2023-05-08T15:26:10.547+00:00"/>
+    <lastUpdated value="2023-05-11T13:00:33.608+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-tumor-normal-designation.html">Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Normal"> </a>  
+                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Normal">Normal</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
+                <td>Normal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Tumor"> </a>  
+                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Tumor">Tumor</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
+                <td>Tumor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Not-applicable"> </a>  
+                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Not-applicable">Not-applicable</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
+                <td>Not applicable</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs"/>
+        <version value="0.1.0"/>
+        <name value="TumorNormalDesignationVS"/>
+        <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:994374d0-d37a-4e5b-bccd-eeb91a8af273"/>
+          <timestamp value="2023-05-11T13:00:56+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
+            <code value="Normal"/>
+            <display value="Normal"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
+            <code value="Tumor"/>
+            <display value="Tumor"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
+            <code value="Not-applicable"/>
+            <display value="Not applicable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-bioinfo-analysis-code.html">Ferlab.bio CodeSystem/bioinformatics-analysis v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-RABA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA">RABA</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
+                <td>Reads Alignement Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-SNVC"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC">SNVC</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
+                <td>SNV Calling Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-QCBA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA">QCBA</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
+                <td>Quality Control Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GEBA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA">GEBA</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
+                <td>Germline Exome Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GGBA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GGBA">GGBA</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
+                <td>Germline Genome Bioinformatic Analysis</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs"/>
+        <version value="0.1.0"/>
+        <name value="BioinfoAnalysisVS"/>
+        <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:a4e8909f-cd4a-4091-b419-1d3d67854ddc"/>
+          <timestamp value="2023-05-11T13:00:56+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+            <code value="RABA"/>
+            <display value="Reads Alignement Bioinformatic Analysis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+            <code value="SNVC"/>
+            <display value="SNV Calling Bioinformatic Analysis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+            <code value="QCBA"/>
+            <display value="Quality Control Bioinformatic Analysis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+            <code value="GEBA"/>
+            <display value="Germline Exome Bioinformatic Analysis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
+            <code value="GGBA"/>
+            <display value="Germline Genome Bioinformatic Analysis"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/family-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-family-type.html">Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-parent-trio"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Case-parent-trio">Case-parent-trio</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Case-parent trio</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-sibling"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Case-sibling">Case-sibling</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Case-sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Twins"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Twins">Twins</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Twins</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-affected-relative"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Case-affected-relative">Case-affected-relative</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Case - affected relative</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Other"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Other</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/family-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="FamilyTypeVS"/>
+        <title value="Ferlab.bio ValueSet/family-type"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:429106ff-a8ef-4f16-bd4d-863c96d0f8ea"/>
+          <timestamp value="2023-05-11T13:00:56+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/family-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Case-parent-trio"/>
+            <display value="Case-parent trio"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Case-sibling"/>
+            <display value="Case-sibling"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Twins"/>
+            <display value="Twins"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Case-affected-relative"/>
+            <display value="Case - affected relative"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/data-category-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-data-category.html">Ferlab.bio CodeSystem/data-category v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-category-Genomics"> </a>  
+                  <a href="CodeSystem-data-category.html#data-category-Genomics">Genomics</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-category</td>
+                <td>Genomics</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/data-category-vs"/>
+        <version value="0.1.0"/>
+        <name value="DataCategoryVS"/>
+        <title value="Ferlab.bio ValueSet/data-category"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:af60abed-928e-402c-b74b-ab91f1ba58c4"/>
+          <timestamp value="2023-05-11T13:00:57+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/data-category|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+            <code value="Genomics"/>
+            <display value="Genomics"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/disease-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-disease-status.html">Ferlab.bio CodeSystem/disease-status v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Affected"> </a>  
+                  <a href="CodeSystem-disease-status.html#disease-status-Affected">Affected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
+                <td>Affected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Non-affected"> </a>  
+                  <a href="CodeSystem-disease-status.html#disease-status-Non-affected">Non-affected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
+                <td>Non affected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Unknown"> </a>  
+                  <a href="CodeSystem-disease-status.html#disease-status-Unknown">Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/disease-status-vs"/>
+        <version value="0.1.0"/>
+        <name value="DiseaseStatusVS"/>
+        <title value="Ferlab.bio ValueSet/disease-status"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f1b30583-dfdd-4c5d-9dbb-d807e635f105"/>
+          <timestamp value="2023-05-11T13:00:59+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/disease-status|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
+            <code value="Affected"/>
+            <display value="Affected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
+            <code value="Non-affected"/>
+            <display value="Non affected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
+            <code value="Unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/data-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-data-type.html">Ferlab.bio CodeSystem/data-type v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Aligned-reads"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-Aligned-reads">Aligned-reads</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>Aligned Reads</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-SNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>SNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Germline-CNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-Germline-CNV">Germline-CNV</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>Germline CNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-supplement"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-supplement">Sequencing-data-supplement</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>Sequencing Data Supplement</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-index"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-index">Sequencing-data-index</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>Sequencing Data Index</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Germline-structural-variant"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-Germline-structural-variant">Germline-structural-variant</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>Germline Structural Variant</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-IGV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-IGV">IGV</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
+                <td>IGV</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/data-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="DataTypeVS"/>
+        <title value="Ferlab.bio ValueSet/data-type"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f75e8649-5032-447e-8dcd-7b49f8000862"/>
+          <timestamp value="2023-05-11T13:01:07+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/data-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Aligned-reads"/>
+            <display value="Aligned Reads"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="SNV"/>
+            <display value="SNV"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Germline-CNV"/>
+            <display value="Germline CNV"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Sequencing-data-supplement"/>
+            <display value="Sequencing Data Supplement"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Sequencing-data-index"/>
+            <display value="Sequencing Data Index"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Germline-structural-variant"/>
+            <display value="Germline Structural Variant"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="IGV"/>
+            <display value="IGV"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://fhir.cqdg.ca/ValueSet/cause-of-death-vs"/>
     <resource>
@@ -101,18 +701,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Cause of death"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:465fb70a-c79f-4516-a549-cb50579decd9"/>
-          <timestamp value="2023-05-08T15:26:35+00:00"/>
+          <identifier value="urn:uuid:20f6d9c2-3581-4e32-a1ce-3d4910b0ba3c"/>
+          <timestamp value="2023-05-11T13:01:08+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -161,1551 +753,6 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"/>
             <code value="Unknown"/>
             <display value="Unknown"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/file-format"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 8 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-document-format.html">Ferlab.bio CodeSystem/document-format v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-CRAM"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-CRAM">CRAM</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>CRAM</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-CRAI"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-CRAI">CRAI</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>CRAI Index File</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-VCF"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-VCF">VCF</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>VCF</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-TGZ"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>TGZ Archive File</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-gVCF"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-gVCF">gVCF</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>gVCF File</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-TBI"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-TBI">TBI</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>TBI Index File</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-BW"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-BW">BW</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>BW File</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-BED"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-BED">BED</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
-                <td>BED File</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/file-format"/>
-        <version value="0.1.0"/>
-        <name value="FileFormat"/>
-        <title value="Ferlab.bio ValueSet/file-format"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="File Format ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:107e7f08-d74a-4766-ae11-7b1c4737ada2"/>
-          <timestamp value="2023-05-08T15:26:35+00:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/document-format|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="CRAM"/>
-            <display value="CRAM"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="CRAI"/>
-            <display value="CRAI Index File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="VCF"/>
-            <display value="VCF"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="TGZ"/>
-            <display value="TGZ Archive File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="gVCF"/>
-            <display value="gVCF File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="TBI"/>
-            <display value="TBI Index File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="BW"/>
-            <display value="BW File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="BED"/>
-            <display value="BED File"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/data-type-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-data-type.html">Ferlab.bio CodeSystem/data-type v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Aligned-reads"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-Aligned-reads">Aligned-reads</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>Aligned Reads</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-SNV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>SNV</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Germline-CNV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-Germline-CNV">Germline-CNV</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>Germline CNV</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-supplement"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-supplement">Sequencing-data-supplement</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>Sequencing Data Supplement</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-index"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-index">Sequencing-data-index</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>Sequencing Data Index</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-Germline-structural-variant"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-Germline-structural-variant">Germline-structural-variant</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>Germline Structural Variant</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-type-IGV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-IGV">IGV</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-type</td>
-                <td>IGV</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/data-type-vs"/>
-        <version value="0.1.0"/>
-        <name value="DataTypeVS"/>
-        <title value="Ferlab.bio ValueSet/data-type"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Date Type ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:0a663b95-0267-4bc6-a358-9dc9666ee9d8"/>
-          <timestamp value="2023-05-08T15:26:35+00:00"/>
-          <total value="7"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/data-type|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Aligned-reads"/>
-            <display value="Aligned Reads"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="SNV"/>
-            <display value="SNV"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Germline-CNV"/>
-            <display value="Germline CNV"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Sequencing-data-supplement"/>
-            <display value="Sequencing Data Supplement"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Sequencing-data-index"/>
-            <display value="Sequencing Data Index"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Germline-structural-variant"/>
-            <display value="Germline Structural Variant"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="IGV"/>
-            <display value="IGV"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 11 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-qc-ethnicity.html">Ferlab.bio CodeSystem/qc-ethnicity v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-French-Canadian"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-FrenchCanadian">French Canadian</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>French Canadian</td>
-                <td>
-                  <div>
-                    <p>Descendants of the First Nations of the St. Lawrence Valley</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-English-Canadian"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EnglishCanadian">English Canadian</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>English Canadian</td>
-                <td>
-                  <div>
-                    <p>Descendants of the First Nations of the St. Lawrence Valley</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-First-Nations--Metis-and-Inuit-people"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-FirstNations.44MetisandInuitpeople">First Nations, Metis and Inuit people</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>First Nations, Metis and Inuit people</td>
-                <td>
-                  <div>
-                    <p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-European-Caucasian"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EuropeanCaucasian">European Caucasian</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>European Caucasian</td>
-                <td>
-                  <div>
-                    <p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Arabe"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Arabe">Arabe</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>Arabe</td>
-                <td>
-                  <div/>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Hispanic-and-Latino-Americans"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-HispanicandLatinoAmericans">Hispanic and Latino Americans</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>Hispanic and Latino Americans</td>
-                <td>
-                  <div>
-                    <p>Canadian or Quebecois who are descendants of people from Latin America</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-African-or-Caribbean"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-AfricanorCaribbean">African or Caribbean</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>African or Caribbean</td>
-                <td>
-                  <div>
-                    <p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-East-and-Southeast-Asian"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EastandSoutheastAsian">East and Southeast Asian</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>East and Southeast Asian</td>
-                <td>
-                  <div>
-                    <p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-South-Asian"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-SouthAsian">South Asian</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>South Asian</td>
-                <td>
-                  <div>
-                    <p>Canadian or Quebecois who are descendants of people from south asia</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Mixted"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Mixted">Mixted</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>Mixted</td>
-                <td>
-                  <div>
-                    <p>Individual descending from more than one ethnic group</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Other"> </a>  
-                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Other">Other</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
-                <td>Other</td>
-                <td>
-                  <div>
-                    <p>Other ethnicity</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs"/>
-        <version value="0.1.0"/>
-        <name value="QCEthnicityVS"/>
-        <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="QCEthnicity ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:3193d202-03a4-4bf3-9852-1201b174e6f3"/>
-          <timestamp value="2023-05-08T15:26:36+00:00"/>
-          <total value="11"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="French Canadian"/>
-            <display value="French Canadian"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="English Canadian"/>
-            <display value="English Canadian"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="First Nations, Metis and Inuit people"/>
-            <display value="First Nations, Metis and Inuit people"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="European Caucasian"/>
-            <display value="European Caucasian"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="Arabe"/>
-            <display value="Arabe"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="Hispanic and Latino Americans"/>
-            <display value="Hispanic and Latino Americans"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="African or Caribbean"/>
-            <display value="African or Caribbean"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="East and Southeast Asian"/>
-            <display value="East and Southeast Asian"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="South Asian"/>
-            <display value="South Asian"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="Mixted"/>
-            <display value="Mixted"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
-            <code value="Other"/>
-            <display value="Other"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-experimental-strategy.html">Ferlab.bio CodeSystem/experimental-strategy v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WXS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WXS">WXS</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
-                <td>Whole Exome Sequencing</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WGS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WGS">WGS</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
-                <td>Whole Genome Sequencing</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-TARS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-TARS">TARS</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
-                <td>Targeted Sequencing</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
-        <version value="0.1.0"/>
-        <name value="CQDGFamilyTypeVS"/>
-        <title value="Ferlab.bio ValueSet/experimental-strategy"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Experimental Strategy ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:57f1dba9-1356-4897-9b7d-30968aa370a9"/>
-          <timestamp value="2023-05-08T15:26:38+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
-            <code value="WXS"/>
-            <display value="Whole Exome Sequencing"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
-            <code value="WGS"/>
-            <display value="Whole Genome Sequencing"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
-            <code value="TARS"/>
-            <display value="Targeted Sequencing"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/cqdg-observation-category"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cqdg-observation-code.html">Ferlab.bio CodeSystem/cqdg-observation v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Family-relationship"> </a>  
-                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Family-relationship">Family-relationship</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
-                <td>Family Relationship</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Tumor-normal-designation"> </a>  
-                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Tumor-normal-designation">Tumor-normal-designation</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
-                <td>Tumor Normal Designation</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Disease-Status"> </a>  
-                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Disease-Status">Disease-Status</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
-                <td>Disease Status</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Phenotype"> </a>  
-                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Phenotype">Phenotype</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
-                <td>Phenotype</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Cause-of-Death"> </a>  
-                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Cause-of-Death">Cause-of-Death</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
-                <td>Cause of Death</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/cqdg-observation-category"/>
-        <version value="0.1.0"/>
-        <name value="CQDGObservationCategory"/>
-        <title value="Ferlab.bio ValueSet/cqdg-observation"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Observation ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:180a62c8-ea9d-4440-90bb-16560d0cfc8c"/>
-          <timestamp value="2023-05-08T15:26:40+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
-            <code value="Family-relationship"/>
-            <display value="Family Relationship"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
-            <code value="Tumor-normal-designation"/>
-            <display value="Tumor Normal Designation"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
-            <code value="Disease-Status"/>
-            <display value="Disease Status"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
-            <code value="Phenotype"/>
-            <display value="Phenotype"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
-            <code value="Cause-of-Death"/>
-            <display value="Cause of Death"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 12 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-v3-role-code.html">Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Self"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Self">Self</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Self</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Mother"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Mother">Mother</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Mother</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Father"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Father">Father</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Father</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Brother"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Brother">Brother</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Brother</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Sister"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Sister">Sister</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Sister</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-brother"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Half-brother">Half-brother</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Half-brother</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-sister"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Half-sister">Half-sister</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Half-sister</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Identical-twin"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Identical-twin">Identical-twin</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Identical twin</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-brother"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-brother">Fraternal-twin-brother</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Fraternal twin brother</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-sister"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-sister">Fraternal-twin-sister</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Fraternal twin sister</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Son"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Son">Son</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Son</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Daughter"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Daughter">Daughter</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Daughter</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
-        <version value="0.1.0"/>
-        <name value="RelationshipToProband"/>
-        <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Relationship To Proband ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:49e75746-262d-47ed-8839-cef877a3509e"/>
-          <timestamp value="2023-05-08T15:26:40+00:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/v3-role-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Self"/>
-            <display value="Self"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Mother"/>
-            <display value="Mother"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Father"/>
-            <display value="Father"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Brother"/>
-            <display value="Brother"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Sister"/>
-            <display value="Sister"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Half-brother"/>
-            <display value="Half-brother"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Half-sister"/>
-            <display value="Half-sister"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Identical-twin"/>
-            <display value="Identical twin"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Fraternal-twin-brother"/>
-            <display value="Fraternal twin brother"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Fraternal-twin-sister"/>
-            <display value="Fraternal twin sister"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Son"/>
-            <display value="Son"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Daughter"/>
-            <display value="Daughter"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-bioinfo-analysis-code.html">Ferlab.bio CodeSystem/bioinformatics-analysis v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-RABA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA">RABA</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
-                <td>Reads Alignement Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-SNVC"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC">SNVC</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
-                <td>SNV Calling Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-QCBA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA">QCBA</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
-                <td>Quality Control Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GEBA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA">GEBA</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
-                <td>Germline Exome Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GGBA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GGBA">GGBA</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td>
-                <td>Germline Genome Bioinformatic Analysis</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs"/>
-        <version value="0.1.0"/>
-        <name value="BioinfoAnalysisVS"/>
-        <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Bioinfo Analysis ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:52ac155f-2ff9-48c8-af9a-aa2721f2267b"/>
-          <timestamp value="2023-05-08T15:26:40+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
-            <code value="RABA"/>
-            <display value="Reads Alignement Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
-            <code value="SNVC"/>
-            <display value="SNV Calling Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
-            <code value="QCBA"/>
-            <display value="Quality Control Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
-            <code value="GEBA"/>
-            <display value="Germline Exome Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"/>
-            <code value="GGBA"/>
-            <display value="Germline Genome Bioinformatic Analysis"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/study-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cqdg-study-cs.html">Ferlab.bio CodeSystem/cqdg-study v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Cartagène"> </a>  
-                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Cartag.232ne">Cartagène</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
-                <td>CARTaGENE</td>
-                <td>
-                  <div>
-                    <p>CARTaGENE study</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies"> </a>  
-                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies">Developmental-and-Epileptic-Encephalopathies</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
-                <td>Developmental and Epileptic Encephalopathies</td>
-                <td>
-                  <div/>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Other"> </a>  
-                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Other">Other</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
-                <td>Other</td>
-                <td>
-                  <div>
-                    <p>Another study</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/study-vs"/>
-        <version value="0.1.0"/>
-        <name value="StudyVS"/>
-        <title value="Ferlab.bio ValueSet/cqdg-study"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Study ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:7a8e32cd-7f84-4cc7-ac45-f00fb509d5dc"/>
-          <timestamp value="2023-05-08T15:26:45+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
-            <code value="Cartagène"/>
-            <display value="CARTaGENE"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
-            <code value="Developmental-and-Epileptic-Encephalopathies"/>
-            <display value="Developmental and Epileptic Encephalopathies"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
-            <code value="Other"/>
-            <display value="Other"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-tumor-normal-designation.html">Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Normal"> </a>  
-                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Normal">Normal</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
-                <td>Normal</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Tumor"> </a>  
-                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Tumor">Tumor</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
-                <td>Tumor</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Not-applicable"> </a>  
-                  <a href="CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Not-applicable">Not-applicable</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td>
-                <td>Not applicable</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs"/>
-        <version value="0.1.0"/>
-        <name value="TumorNormalDesignationVS"/>
-        <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Tumor Normal Designation ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:5d0133c0-3fee-44a4-b52e-cd35bf4cf723"/>
-          <timestamp value="2023-05-08T15:26:45+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
-            <code value="Normal"/>
-            <display value="Normal"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
-            <code value="Tumor"/>
-            <display value="Tumor"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
-            <code value="Not-applicable"/>
-            <display value="Not applicable"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/population-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-population.html">Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Pediatric"> </a>  
-                  <a href="CodeSystem-population.html#population-Pediatric">Pediatric</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
-                <td>Pediatric</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Adult"> </a>  
-                  <a href="CodeSystem-population.html#population-Adult">Adult</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
-                <td>Adult</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Pediatric-and-Adult"> </a>  
-                  <a href="CodeSystem-population.html#population-Pediatric-and-Adult">Pediatric-and-Adult</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
-                <td>Pediatric and Adult</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/population-vs"/>
-        <version value="0.1.0"/>
-        <name value="PopulationVS"/>
-        <title value="Ferlab.bio ValueSet/population"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Population ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:6bf16275-c74d-4c2f-94d6-d85b93f1b676"/>
-          <timestamp value="2023-05-08T15:26:46+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/population|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
-            <code value="Pediatric"/>
-            <display value="Pediatric"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
-            <code value="Adult"/>
-            <display value="Adult"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
-            <code value="Pediatric-and-Adult"/>
-            <display value="Pediatric and Adult"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/family-type-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-family-type.html">Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-parent-trio"> </a>  
-                  <a href="CodeSystem-family-type.html#family-type-Case-parent-trio">Case-parent-trio</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
-                <td>Case-parent trio</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-sibling"> </a>  
-                  <a href="CodeSystem-family-type.html#family-type-Case-sibling">Case-sibling</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
-                <td>Case-sibling</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Twins"> </a>  
-                  <a href="CodeSystem-family-type.html#family-type-Twins">Twins</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
-                <td>Twins</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Case-affected-relative"> </a>  
-                  <a href="CodeSystem-family-type.html#family-type-Case-affected-relative">Case-affected-relative</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
-                <td>Case - affected relative</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-family-type-Other"> </a>  
-                  <a href="CodeSystem-family-type.html#family-type-Other">Other</a>
-                </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
-                <td>Other</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/family-type-vs"/>
-        <version value="0.1.0"/>
-        <name value="FamilyTypeVS"/>
-        <title value="Ferlab.bio ValueSet/family-type"/>
-        <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Family Type ValueSet"/>
-        <expansion>
-          <identifier value="urn:uuid:bfd209c3-fe05-44c2-88ed-719cd9899b72"/>
-          <timestamp value="2023-05-08T15:26:47+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/family-type|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
-            <code value="Case-parent-trio"/>
-            <display value="Case-parent trio"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
-            <code value="Case-sibling"/>
-            <display value="Case-sibling"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
-            <code value="Twins"/>
-            <display value="Twins"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
-            <code value="Case-affected-relative"/>
-            <display value="Case - affected relative"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
-            <code value="Other"/>
-            <display value="Other"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1923,18 +970,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Study Domain ValueSet"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ba1eed59-253c-4260-a9cc-beaa1ede30b2"/>
-          <timestamp value="2023-05-08T15:26:53+00:00"/>
+          <identifier value="urn:uuid:03260e67-0a7b-4399-a02a-29d6ca3bcb0b"/>
+          <timestamp value="2023-05-11T13:01:08+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2057,18 +1096,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Genome Build ValueSet"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:63a85c89-238b-412c-ab70-ac6f4f1e1286"/>
-          <timestamp value="2023-05-08T15:26:56+00:00"/>
+          <identifier value="urn:uuid:d206eef2-3b8a-48c7-a1ca-b4d42d9f2132"/>
+          <timestamp value="2023-05-11T13:01:08+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2088,7 +1119,133 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/disease-status-vs"/>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-qc-sample-type.html">Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C449"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C449">NCIT:C449</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>DNA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C812"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C812">NCIT:C812</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>Ribonucleic Acid</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12434"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12434">NCIT:C12434</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>Blood</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C13275"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13275">NCIT:C13275</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>Saliva</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C164014"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164014">NCIT:C164014</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>Solid Tissue Specimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12431"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12431">NCIT:C12431</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td>
+                <td>Bone Marrow</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"/>
+        <version value="0.1.0"/>
+        <name value="SampleTypeTissueSourceVS"/>
+        <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:660678c4-4d57-4486-ade8-c6bdf9c12adc"/>
+          <timestamp value="2023-05-11T13:01:08+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C449"/>
+            <display value="DNA"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C812"/>
+            <display value="Ribonucleic Acid"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C12434"/>
+            <display value="Blood"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C13275"/>
+            <display value="Saliva"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C164014"/>
+            <display value="Solid Tissue Specimen"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-sample-type"/>
+            <code value="NCIT:C12431"/>
+            <display value="Bone Marrow"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
     <resource>
       <ValueSet>
         <text>
@@ -2096,7 +1253,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-disease-status.html">Ferlab.bio CodeSystem/disease-status v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-experimental-strategy.html">Ferlab.bio CodeSystem/experimental-strategy v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -2112,48 +1269,40 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Affected"> </a>  
-                  <a href="CodeSystem-disease-status.html#disease-status-Affected">Affected</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WXS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WXS">WXS</a>
                 </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
-                <td>Affected</td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Whole Exome Sequencing</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Non-affected"> </a>  
-                  <a href="CodeSystem-disease-status.html#disease-status-Non-affected">Non-affected</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WGS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WGS">WGS</a>
                 </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
-                <td>Non affected</td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Whole Genome Sequencing</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-disease-status-Unknown"> </a>  
-                  <a href="CodeSystem-disease-status.html#disease-status-Unknown">Unknown</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-experimental-strategy-TARS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-TARS">TARS</a>
                 </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/disease-status</td>
-                <td>Unknown</td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Targeted Sequencing</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/disease-status-vs"/>
+        <url value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
         <version value="0.1.0"/>
-        <name value="DiseaseStatusVS"/>
-        <title value="Ferlab.bio ValueSet/disease-status"/>
+        <name value="CQDGFamilyTypeVS"/>
+        <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Disease Status ValueSet"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8afa59c7-21d2-4773-ba18-0ae6069e7182"/>
-          <timestamp value="2023-05-08T15:26:56+00:00"/>
+          <identifier value="urn:uuid:ec8b2e56-e334-451b-ba91-846edafce734"/>
+          <timestamp value="2023-05-11T13:01:09+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2161,37 +1310,37 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/disease-status|0.1.0"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
-            <code value="Affected"/>
-            <display value="Affected"/>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="WXS"/>
+            <display value="Whole Exome Sequencing"/>
           </contains>
           <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
-            <code value="Non-affected"/>
-            <display value="Non affected"/>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="WGS"/>
+            <display value="Whole Genome Sequencing"/>
           </contains>
           <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/disease-status"/>
-            <code value="Unknown"/>
-            <display value="Unknown"/>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="TARS"/>
+            <display value="Targeted Sequencing"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/data-category-vs"/>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/cqdg-observation-category"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
+            <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-data-category.html">Ferlab.bio CodeSystem/data-category v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-cqdg-observation-code.html">Ferlab.bio CodeSystem/cqdg-observation v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -2207,45 +1356,894 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-data-category-Genomics"> </a>  
-                  <a href="CodeSystem-data-category.html#data-category-Genomics">Genomics</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Family-relationship"> </a>  
+                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Family-relationship">Family-relationship</a>
                 </td>
-                <td>https://fhir.cqdg.ca/CodeSystem/data-category</td>
-                <td>Genomics</td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
+                <td>Family Relationship</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Tumor-normal-designation"> </a>  
+                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Tumor-normal-designation">Tumor-normal-designation</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
+                <td>Tumor Normal Designation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Disease-Status"> </a>  
+                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Disease-Status">Disease-Status</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
+                <td>Disease Status</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Phenotype"> </a>  
+                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Phenotype">Phenotype</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
+                <td>Phenotype</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Cause-of-Death"> </a>  
+                  <a href="CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Cause-of-Death">Cause-of-Death</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td>
+                <td>Cause of Death</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/data-category-vs"/>
+        <url value="https://fhir.cqdg.ca/ValueSet/cqdg-observation-category"/>
         <version value="0.1.0"/>
-        <name value="DataCategoryVS"/>
-        <title value="Ferlab.bio ValueSet/data-category"/>
+        <name value="CQDGObservationCategory"/>
+        <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2023-05-08T15:26:10+00:00"/>
-        <contact>
-          <name value="Ferlab.bio"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://example.org/example-publisher"/>
-          </telecom>
-        </contact>
-        <description value="Data Category ValueSet"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9b6c1bcd-c03c-4735-aed8-ff0ef309cde5"/>
-          <timestamp value="2023-05-08T15:26:56+00:00"/>
-          <total value="1"/>
+          <identifier value="urn:uuid:0d7035ba-d6ec-4eeb-b4f2-57da074fd34d"/>
+          <timestamp value="2023-05-11T13:01:10+00:00"/>
+          <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.cqdg.ca/CodeSystem/data-category|0.1.0"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
-            <code value="Genomics"/>
-            <display value="Genomics"/>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+            <code value="Family-relationship"/>
+            <display value="Family Relationship"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+            <code value="Tumor-normal-designation"/>
+            <display value="Tumor Normal Designation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+            <code value="Disease-Status"/>
+            <display value="Disease Status"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+            <code value="Phenotype"/>
+            <display value="Phenotype"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+            <code value="Cause-of-Death"/>
+            <display value="Cause of Death"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 12 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-v3-role-code.html">Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Self"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Self">Self</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Self</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Mother"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Mother">Mother</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Mother</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Father"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Father">Father</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Father</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Brother"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Brother">Brother</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Brother</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Sister"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Sister">Sister</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Sister</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-brother"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Half-brother">Half-brother</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Half-brother</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-sister"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Half-sister">Half-sister</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Half-sister</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Identical-twin"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Identical-twin">Identical-twin</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Identical twin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-brother"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-brother">Fraternal-twin-brother</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Fraternal twin brother</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-sister"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-sister">Fraternal-twin-sister</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Fraternal twin sister</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Son"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Son">Son</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Son</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-v3-role-code-Daughter"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Daughter">Daughter</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Daughter</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
+        <version value="0.1.0"/>
+        <name value="RelationshipToProband"/>
+        <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:185e69b3-7922-48e6-8c89-0bd7fb0255a2"/>
+          <timestamp value="2023-05-11T13:01:12+00:00"/>
+          <total value="12"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/v3-role-code|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Self"/>
+            <display value="Self"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Mother"/>
+            <display value="Mother"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Father"/>
+            <display value="Father"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Brother"/>
+            <display value="Brother"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Sister"/>
+            <display value="Sister"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Half-brother"/>
+            <display value="Half-brother"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Half-sister"/>
+            <display value="Half-sister"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Identical-twin"/>
+            <display value="Identical twin"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Fraternal-twin-brother"/>
+            <display value="Fraternal twin brother"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Fraternal-twin-sister"/>
+            <display value="Fraternal twin sister"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Son"/>
+            <display value="Son"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Daughter"/>
+            <display value="Daughter"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/study-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-cqdg-study-cs.html">Ferlab.bio CodeSystem/cqdg-study v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Cartagène"> </a>  
+                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Cartag.232ne">Cartagène</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
+                <td>CARTaGENE</td>
+                <td>
+                  <div>
+                    <p>CARTaGENE study</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies"> </a>  
+                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies">Developmental-and-Epileptic-Encephalopathies</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
+                <td>Developmental and Epileptic Encephalopathies</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Other"> </a>  
+                  <a href="CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td>
+                <td>Other</td>
+                <td>
+                  <div>
+                    <p>Another study</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/study-vs"/>
+        <version value="0.1.0"/>
+        <name value="StudyVS"/>
+        <title value="Ferlab.bio ValueSet/cqdg-study"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:153eb829-94f5-40bb-9a88-4e75ea42bec4"/>
+          <timestamp value="2023-05-11T13:01:12+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+            <code value="Cartagène"/>
+            <display value="CARTaGENE"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+            <code value="Developmental-and-Epileptic-Encephalopathies"/>
+            <display value="Developmental and Epileptic Encephalopathies"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/file-format"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-document-format.html">Ferlab.bio CodeSystem/document-format v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-CRAM"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-CRAM">CRAM</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>CRAM</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-CRAI"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-CRAI">CRAI</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>CRAI Index File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-VCF"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-VCF">VCF</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>VCF</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-TGZ"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>TGZ Archive File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-gVCF"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-gVCF">gVCF</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>gVCF File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-TBI"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-TBI">TBI</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>TBI Index File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-BW"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-BW">BW</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>BW File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-document-format-BED"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-BED">BED</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/document-format</td>
+                <td>BED File</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/file-format"/>
+        <version value="0.1.0"/>
+        <name value="FileFormat"/>
+        <title value="Ferlab.bio ValueSet/file-format"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:bb4473ab-4985-4f9c-ab30-4743abf5a407"/>
+          <timestamp value="2023-05-11T13:01:13+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/document-format|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="CRAM"/>
+            <display value="CRAM"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="CRAI"/>
+            <display value="CRAI Index File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="VCF"/>
+            <display value="VCF"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="TGZ"/>
+            <display value="TGZ Archive File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="gVCF"/>
+            <display value="gVCF File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="TBI"/>
+            <display value="TBI Index File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="BW"/>
+            <display value="BW File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="BED"/>
+            <display value="BED File"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-qc-ethnicity.html">Ferlab.bio CodeSystem/qc-ethnicity v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-French-Canadian"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-FrenchCanadian">French Canadian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>French Canadian</td>
+                <td>
+                  <div>
+                    <p>Descendants of the First Nations of the St. Lawrence Valley</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-English-Canadian"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EnglishCanadian">English Canadian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>English Canadian</td>
+                <td>
+                  <div>
+                    <p>Descendants of the First Nations of the St. Lawrence Valley</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-First-Nations--Metis-and-Inuit-people"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-FirstNations.44MetisandInuitpeople">First Nations, Metis and Inuit people</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>First Nations, Metis and Inuit people</td>
+                <td>
+                  <div>
+                    <p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-European-Caucasian"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EuropeanCaucasian">European Caucasian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>European Caucasian</td>
+                <td>
+                  <div>
+                    <p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Arabe"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Arabe">Arabe</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>Arabe</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Hispanic-and-Latino-Americans"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-HispanicandLatinoAmericans">Hispanic and Latino Americans</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>Hispanic and Latino Americans</td>
+                <td>
+                  <div>
+                    <p>Canadian or Quebecois who are descendants of people from Latin America</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-African-or-Caribbean"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-AfricanorCaribbean">African or Caribbean</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>African or Caribbean</td>
+                <td>
+                  <div>
+                    <p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-East-and-Southeast-Asian"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-EastandSoutheastAsian">East and Southeast Asian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>East and Southeast Asian</td>
+                <td>
+                  <div>
+                    <p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-South-Asian"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-SouthAsian">South Asian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>South Asian</td>
+                <td>
+                  <div>
+                    <p>Canadian or Quebecois who are descendants of people from south asia</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Mixted"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Mixted">Mixted</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>Mixted</td>
+                <td>
+                  <div>
+                    <p>Individual descending from more than one ethnic group</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Other"> </a>  
+                  <a href="CodeSystem-qc-ethnicity.html#qc-ethnicity-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td>
+                <td>Other</td>
+                <td>
+                  <div>
+                    <p>Other ethnicity</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs"/>
+        <version value="0.1.0"/>
+        <name value="QCEthnicityVS"/>
+        <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:93118af5-5244-438c-ba23-3b1699cc9a4c"/>
+          <timestamp value="2023-05-11T13:01:13+00:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="French Canadian"/>
+            <display value="French Canadian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="English Canadian"/>
+            <display value="English Canadian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="First Nations, Metis and Inuit people"/>
+            <display value="First Nations, Metis and Inuit people"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="European Caucasian"/>
+            <display value="European Caucasian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="Arabe"/>
+            <display value="Arabe"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="Hispanic and Latino Americans"/>
+            <display value="Hispanic and Latino Americans"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="African or Caribbean"/>
+            <display value="African or Caribbean"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="East and Southeast Asian"/>
+            <display value="East and Southeast Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="South Asian"/>
+            <display value="South Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="Mixted"/>
+            <display value="Mixted"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/population-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-population.html">Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Pediatric"> </a>  
+                  <a href="CodeSystem-population.html#population-Pediatric">Pediatric</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
+                <td>Pediatric</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Adult"> </a>  
+                  <a href="CodeSystem-population.html#population-Adult">Adult</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
+                <td>Adult</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Pediatric-and-Adult"> </a>  
+                  <a href="CodeSystem-population.html#population-Pediatric-and-Adult">Pediatric-and-Adult</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
+                <td>Pediatric and Adult</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/population-vs"/>
+        <version value="0.1.0"/>
+        <name value="PopulationVS"/>
+        <title value="Ferlab.bio ValueSet/population"/>
+        <status value="active"/>
+        <date value="2023-05-11T13:00:33+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:ea6b8d76-afaa-4b34-a200-d43a70dcf5e3"/>
+          <timestamp value="2023-05-11T13:01:17+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/population|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
+            <code value="Pediatric"/>
+            <display value="Pediatric"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
+            <code value="Adult"/>
+            <display value="Adult"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
+            <code value="Pediatric-and-Adult"/>
+            <display value="Pediatric and Adult"/>
           </contains>
         </expansion>
       </ValueSet>

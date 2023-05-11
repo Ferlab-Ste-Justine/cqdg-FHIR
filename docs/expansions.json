@@ -1,11 +1,305 @@
 {
   "resourceType" : "Bundle",
-  "id" : "82e63843-63d9-4593-b738-0f4b518994bf",
+  "id" : "e03f4c2d-6928-42b4-a37d-6683205444d7",
   "meta" : {
-    "lastUpdated" : "2023-05-08T15:26:10.547+00:00"
+    "lastUpdated" : "2023-05-11T13:00:33.608+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-tumor-normal-designation.html\">Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Normal\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Normal\">Normal</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Tumor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Tumor\">Tumor</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Tumor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Not-applicable\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Not-applicable\">Not-applicable</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Not applicable</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
+      "version" : "0.1.0",
+      "name" : "TumorNormalDesignationVS",
+      "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:994374d0-d37a-4e5b-bccd-eeb91a8af273",
+        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+          "code" : "Normal",
+          "display" : "Normal"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+          "code" : "Tumor",
+          "display" : "Tumor"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+          "code" : "Not-applicable",
+          "display" : "Not applicable"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-bioinfo-analysis-code.html\">Ferlab.bio CodeSystem/bioinformatics-analysis v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-RABA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA\">RABA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-SNVC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC\">SNVC</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-QCBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA\">QCBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA\">GEBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GGBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GGBA\">GGBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
+      "version" : "0.1.0",
+      "name" : "BioinfoAnalysisVS",
+      "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:a4e8909f-cd4a-4091-b419-1d3d67854ddc",
+        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+          "code" : "RABA",
+          "display" : "Reads Alignement Bioinformatic Analysis"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+          "code" : "SNVC",
+          "display" : "SNV Calling Bioinformatic Analysis"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+          "code" : "QCBA",
+          "display" : "Quality Control Bioinformatic Analysis"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+          "code" : "GEBA",
+          "display" : "Germline Exome Bioinformatic Analysis"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+          "code" : "GGBA",
+          "display" : "Germline Genome Bioinformatic Analysis"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/family-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-family-type.html\">Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-parent-trio\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-parent-trio\">Case-parent-trio</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case-parent trio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-sibling\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-sibling\">Case-sibling</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case-sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Twins\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Twins\">Twins</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Twins</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-affected-relative\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-affected-relative\">Case-affected-relative</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case - affected relative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Other</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/family-type-vs",
+      "version" : "0.1.0",
+      "name" : "FamilyTypeVS",
+      "title" : "Ferlab.bio ValueSet/family-type",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:429106ff-a8ef-4f16-bd4d-863c96d0f8ea",
+        "timestamp" : "2023-05-11T13:00:56+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/family-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+          "code" : "Case-parent-trio",
+          "display" : "Case-parent trio"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+          "code" : "Case-sibling",
+          "display" : "Case-sibling"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+          "code" : "Twins",
+          "display" : "Twins"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+          "code" : "Case-affected-relative",
+          "display" : "Case - affected relative"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+          "code" : "Other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-category.html\">Ferlab.bio CodeSystem/data-category v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-category-Genomics\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-category.html#data-category-Genomics\">Genomics</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-category</td><td>Genomics</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
+      "version" : "0.1.0",
+      "name" : "DataCategoryVS",
+      "title" : "Ferlab.bio ValueSet/data-category",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:af60abed-928e-402c-b74b-ab91f1ba58c4",
+        "timestamp" : "2023-05-11T13:00:57+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/data-category|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+          "code" : "Genomics",
+          "display" : "Genomics"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/disease-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-disease-status.html\">Ferlab.bio CodeSystem/disease-status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Affected\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Affected\">Affected</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Non-affected\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Non-affected\">Non-affected</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Unknown\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Unknown\">Unknown</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/disease-status-vs",
+      "version" : "0.1.0",
+      "name" : "DiseaseStatusVS",
+      "title" : "Ferlab.bio ValueSet/disease-status",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f1b30583-dfdd-4c5d-9dbb-d807e635f105",
+        "timestamp" : "2023-05-11T13:00:59+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/disease-status|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+          "code" : "Affected",
+          "display" : "Affected"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+          "code" : "Non-affected",
+          "display" : "Non affected"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+          "code" : "Unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Aligned-reads\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Aligned-reads\">Aligned-reads</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-SNV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-SNV\">SNV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Germline-CNV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Germline-CNV\">Germline-CNV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-supplement\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Sequencing-data-supplement\">Sequencing-data-supplement</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-index\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Sequencing-data-index\">Sequencing-data-index</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Germline-structural-variant\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Germline-structural-variant\">Germline-structural-variant</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-IGV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-IGV\">IGV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>IGV</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
+      "version" : "0.1.0",
+      "name" : "DataTypeVS",
+      "title" : "Ferlab.bio ValueSet/data-type",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f75e8649-5032-447e-8dcd-7b49f8000862",
+        "timestamp" : "2023-05-11T13:01:07+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/data-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "Aligned-reads",
+          "display" : "Aligned Reads"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "SNV",
+          "display" : "SNV"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "Germline-CNV",
+          "display" : "Germline CNV"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "Sequencing-data-supplement",
+          "display" : "Sequencing Data Supplement"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "Sequencing-data-index",
+          "display" : "Sequencing Data Index"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "Germline-structural-variant",
+          "display" : "Germline Structural Variant"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+          "code" : "IGV",
+          "display" : "IGV"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://fhir.cqdg.ca/ValueSet/cause-of-death-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -18,18 +312,10 @@
       "name" : "CauseOfDeathVS",
       "title" : "Ferlab.bio ValueSet/cause-of-death",
       "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Cause of death",
+      "date" : "2023-05-11T13:00:33+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:465fb70a-c79f-4516-a549-cb50579decd9",
-        "timestamp" : "2023-05-08T15:26:35+00:00",
+        "identifier" : "urn:uuid:20f6d9c2-3581-4e32-a1ce-3d4910b0ba3c",
+        "timestamp" : "2023-05-11T13:01:08+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -83,738 +369,6 @@
     }
   },
   {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/file-format",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-document-format.html\">Ferlab.bio CodeSystem/document-format v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-CRAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAM\">CRAM</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>CRAM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-CRAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAI\">CRAI</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-VCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-VCF\">VCF</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>VCF</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-TGZ\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TGZ\">TGZ</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-gVCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-gVCF\">gVCF</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>gVCF File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-TBI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TBI\">TBI</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-BW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BW\">BW</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-BED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BED\">BED</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>BED File</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/file-format",
-      "version" : "0.1.0",
-      "name" : "FileFormat",
-      "title" : "Ferlab.bio ValueSet/file-format",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "File Format ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:107e7f08-d74a-4766-ae11-7b1c4737ada2",
-        "timestamp" : "2023-05-08T15:26:35+00:00",
-        "total" : 8,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/document-format|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "CRAM",
-          "display" : "CRAM"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "CRAI",
-          "display" : "CRAI Index File"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "VCF",
-          "display" : "VCF"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "TGZ",
-          "display" : "TGZ Archive File"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "gVCF",
-          "display" : "gVCF File"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "TBI",
-          "display" : "TBI Index File"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "BW",
-          "display" : "BW File"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-          "code" : "BED",
-          "display" : "BED File"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-type.html\">Ferlab.bio CodeSystem/data-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Aligned-reads\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Aligned-reads\">Aligned-reads</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-SNV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-SNV\">SNV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Germline-CNV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Germline-CNV\">Germline-CNV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-supplement\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Sequencing-data-supplement\">Sequencing-data-supplement</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Sequencing-data-index\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Sequencing-data-index\">Sequencing-data-index</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-Germline-structural-variant\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-Germline-structural-variant\">Germline-structural-variant</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-type-IGV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-type.html#data-type-IGV\">IGV</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-type</td><td>IGV</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
-      "version" : "0.1.0",
-      "name" : "DataTypeVS",
-      "title" : "Ferlab.bio ValueSet/data-type",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Date Type ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:0a663b95-0267-4bc6-a358-9dc9666ee9d8",
-        "timestamp" : "2023-05-08T15:26:35+00:00",
-        "total" : 7,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/data-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "Aligned-reads",
-          "display" : "Aligned Reads"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "SNV",
-          "display" : "SNV"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "Germline-CNV",
-          "display" : "Germline CNV"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "Sequencing-data-supplement",
-          "display" : "Sequencing Data Supplement"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "Sequencing-data-index",
-          "display" : "Sequencing Data Index"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "Germline-structural-variant",
-          "display" : "Germline Structural Variant"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-          "code" : "IGV",
-          "display" : "IGV"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-ethnicity.html\">Ferlab.bio CodeSystem/qc-ethnicity v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-French-Canadian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-FrenchCanadian\">French Canadian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>French Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-English-Canadian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EnglishCanadian\">English Canadian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>English Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-First-Nations--Metis-and-Inuit-people\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-FirstNations.44MetisandInuitpeople\">First Nations, Metis and Inuit people</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>First Nations, Metis and Inuit people</td><td><div><p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-European-Caucasian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EuropeanCaucasian\">European Caucasian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>European Caucasian</td><td><div><p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Arabe\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Arabe\">Arabe</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Arabe</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Hispanic-and-Latino-Americans\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-HispanicandLatinoAmericans\">Hispanic and Latino Americans</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Hispanic and Latino Americans</td><td><div><p>Canadian or Quebecois who are descendants of people from Latin America</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-African-or-Caribbean\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-AfricanorCaribbean\">African or Caribbean</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>African or Caribbean</td><td><div><p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-East-and-Southeast-Asian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EastandSoutheastAsian\">East and Southeast Asian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>East and Southeast Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-South-Asian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-SouthAsian\">South Asian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>South Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from south asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Mixted\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Mixted\">Mixted</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Mixted</td><td><div><p>Individual descending from more than one ethnic group</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Other</td><td><div><p>Other ethnicity</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
-      "version" : "0.1.0",
-      "name" : "QCEthnicityVS",
-      "title" : "Ferlab.bio ValueSet/qa-ethnicity",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "QCEthnicity ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:3193d202-03a4-4bf3-9852-1201b174e6f3",
-        "timestamp" : "2023-05-08T15:26:36+00:00",
-        "total" : 11,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "French Canadian",
-          "display" : "French Canadian"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "English Canadian",
-          "display" : "English Canadian"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "First Nations, Metis and Inuit people",
-          "display" : "First Nations, Metis and Inuit people"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "European Caucasian",
-          "display" : "European Caucasian"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "Arabe",
-          "display" : "Arabe"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "Hispanic and Latino Americans",
-          "display" : "Hispanic and Latino Americans"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "African or Caribbean",
-          "display" : "African or Caribbean"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "East and Southeast Asian",
-          "display" : "East and Southeast Asian"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "South Asian",
-          "display" : "South Asian"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "Mixted",
-          "display" : "Mixted"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-          "code" : "Other",
-          "display" : "Other"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-experimental-strategy.html\">Ferlab.bio CodeSystem/experimental-strategy v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WXS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WXS\">WXS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WGS\">WGS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-TARS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-TARS\">TARS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Targeted Sequencing</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
-      "version" : "0.1.0",
-      "name" : "CQDGFamilyTypeVS",
-      "title" : "Ferlab.bio ValueSet/experimental-strategy",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Experimental Strategy ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:57f1dba9-1356-4897-9b7d-30968aa370a9",
-        "timestamp" : "2023-05-08T15:26:38+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-          "code" : "WXS",
-          "display" : "Whole Exome Sequencing"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-          "code" : "WGS",
-          "display" : "Whole Genome Sequencing"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-          "code" : "TARS",
-          "display" : "Targeted Sequencing"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cqdg-observation-code.html\">Ferlab.bio CodeSystem/cqdg-observation v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Family-relationship\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Family-relationship\">Family-relationship</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Tumor-normal-designation\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Tumor-normal-designation\">Tumor-normal-designation</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Disease-Status\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Disease-Status\">Disease-Status</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Phenotype\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Phenotype\">Phenotype</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Cause-of-Death\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Cause-of-Death\">Cause-of-Death</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Cause of Death</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
-      "version" : "0.1.0",
-      "name" : "CQDGObservationCategory",
-      "title" : "Ferlab.bio ValueSet/cqdg-observation",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Observation ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:180a62c8-ea9d-4440-90bb-16560d0cfc8c",
-        "timestamp" : "2023-05-08T15:26:40+00:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-          "code" : "Family-relationship",
-          "display" : "Family Relationship"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-          "code" : "Tumor-normal-designation",
-          "display" : "Tumor Normal Designation"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-          "code" : "Disease-Status",
-          "display" : "Disease Status"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-          "code" : "Phenotype",
-          "display" : "Phenotype"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-          "code" : "Cause-of-Death",
-          "display" : "Cause of Death"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-v3-role-code.html\">Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Self\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Self\">Self</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Self</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Mother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Mother\">Mother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Father\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Father\">Father</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Father</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Brother\">Brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Sister\">Sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Half-brother\">Half-brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Half-sister\">Half-sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Identical-twin\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Identical-twin\">Identical-twin</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-brother\">Fraternal-twin-brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-sister\">Fraternal-twin-sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Son\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Son\">Son</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Son</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Daughter\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Daughter\">Daughter</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Daughter</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
-      "version" : "0.1.0",
-      "name" : "RelationshipToProband",
-      "title" : "Ferlab.bio ValueSet/relationship-to-proband",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Relationship To Proband ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:49e75746-262d-47ed-8839-cef877a3509e",
-        "timestamp" : "2023-05-08T15:26:40+00:00",
-        "total" : 12,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Self",
-          "display" : "Self"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Mother",
-          "display" : "Mother"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Father",
-          "display" : "Father"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Brother",
-          "display" : "Brother"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Sister",
-          "display" : "Sister"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Half-brother",
-          "display" : "Half-brother"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Half-sister",
-          "display" : "Half-sister"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Identical-twin",
-          "display" : "Identical twin"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Fraternal-twin-brother",
-          "display" : "Fraternal twin brother"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Fraternal-twin-sister",
-          "display" : "Fraternal twin sister"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Son",
-          "display" : "Son"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-          "code" : "Daughter",
-          "display" : "Daughter"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-bioinfo-analysis-code.html\">Ferlab.bio CodeSystem/bioinformatics-analysis v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-RABA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA\">RABA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-SNVC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC\">SNVC</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-QCBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA\">QCBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Quality Control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA\">GEBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-bioinfo-analysis-code-GGBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GGBA\">GGBA</a></td><td>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</td><td>Germline Genome Bioinformatic Analysis</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
-      "version" : "0.1.0",
-      "name" : "BioinfoAnalysisVS",
-      "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Bioinfo Analysis ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:52ac155f-2ff9-48c8-af9a-aa2721f2267b",
-        "timestamp" : "2023-05-08T15:26:40+00:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-          "code" : "RABA",
-          "display" : "Reads Alignement Bioinformatic Analysis"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-          "code" : "SNVC",
-          "display" : "SNV Calling Bioinformatic Analysis"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-          "code" : "QCBA",
-          "display" : "Quality Control Bioinformatic Analysis"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-          "code" : "GEBA",
-          "display" : "Germline Exome Bioinformatic Analysis"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-          "code" : "GGBA",
-          "display" : "Germline Genome Bioinformatic Analysis"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/study-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cqdg-study-cs.html\">Ferlab.bio CodeSystem/cqdg-study v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Cartagène\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Cartag.232ne\">Cartagène</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>CARTaGENE</td><td><div><p>CARTaGENE study</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\">Developmental-and-Epileptic-Encephalopathies</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>Developmental and Epileptic Encephalopathies</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>Other</td><td><div><p>Another study</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",
-      "version" : "0.1.0",
-      "name" : "StudyVS",
-      "title" : "Ferlab.bio ValueSet/cqdg-study",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Study ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:7a8e32cd-7f84-4cc7-ac45-f00fb509d5dc",
-        "timestamp" : "2023-05-08T15:26:45+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-          "code" : "Cartagène",
-          "display" : "CARTaGENE"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-          "code" : "Developmental-and-Epileptic-Encephalopathies",
-          "display" : "Developmental and Epileptic Encephalopathies"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-          "code" : "Other",
-          "display" : "Other"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-tumor-normal-designation.html\">Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Normal\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Normal\">Normal</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Tumor\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Tumor\">Tumor</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Tumor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-tumor-normal-designation-Not-applicable\"> </a>\u00a0\u00a0<a href=\"CodeSystem-tumor-normal-designation.html#tumor-normal-designation-Not-applicable\">Not-applicable</a></td><td>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation</td><td>Not applicable</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
-      "version" : "0.1.0",
-      "name" : "TumorNormalDesignationVS",
-      "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Tumor Normal Designation ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:5d0133c0-3fee-44a4-b52e-cd35bf4cf723",
-        "timestamp" : "2023-05-08T15:26:45+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
-          "code" : "Normal",
-          "display" : "Normal"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
-          "code" : "Tumor",
-          "display" : "Tumor"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
-          "code" : "Not-applicable",
-          "display" : "Not applicable"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/population-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-population.html\">Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Pediatric\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Pediatric\">Pediatric</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Adult\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Adult\">Adult</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Adult</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Pediatric-and-Adult\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Pediatric-and-Adult\">Pediatric-and-Adult</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Pediatric and Adult</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/population-vs",
-      "version" : "0.1.0",
-      "name" : "PopulationVS",
-      "title" : "Ferlab.bio ValueSet/population",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Population ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:6bf16275-c74d-4c2f-94d6-d85b93f1b676",
-        "timestamp" : "2023-05-08T15:26:46+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/population|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
-          "code" : "Pediatric",
-          "display" : "Pediatric"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
-          "code" : "Adult",
-          "display" : "Adult"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
-          "code" : "Pediatric-and-Adult",
-          "display" : "Pediatric and Adult"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/family-type-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-family-type.html\">Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-parent-trio\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-parent-trio\">Case-parent-trio</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case-parent trio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-sibling\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-sibling\">Case-sibling</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case-sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Twins\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Twins\">Twins</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Twins</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Case-affected-relative\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Case-affected-relative\">Case-affected-relative</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Case - affected relative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-family-type-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-family-type.html#family-type-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/family-type</td><td>Other</td></tr></table></div>"
-      },
-      "url" : "https://fhir.cqdg.ca/ValueSet/family-type-vs",
-      "version" : "0.1.0",
-      "name" : "FamilyTypeVS",
-      "title" : "Ferlab.bio ValueSet/family-type",
-      "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Family Type ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:bfd209c3-fe05-44c2-88ed-719cd9899b72",
-        "timestamp" : "2023-05-08T15:26:47+00:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/family-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-          "code" : "Case-parent-trio",
-          "display" : "Case-parent trio"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-          "code" : "Case-sibling",
-          "display" : "Case-sibling"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-          "code" : "Twins",
-          "display" : "Twins"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-          "code" : "Case-affected-relative",
-          "display" : "Case - affected relative"
-        },
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-          "code" : "Other",
-          "display" : "Other"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://fhir.cqdg.ca/ValueSet/research-domain-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -827,18 +381,10 @@
       "name" : "ResearchDomain",
       "title" : "Ferlab.bio ValueSet/research-domain",
       "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Study Domain ValueSet",
+      "date" : "2023-05-11T13:00:33+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ba1eed59-253c-4260-a9cc-beaa1ede30b2",
-        "timestamp" : "2023-05-08T15:26:53+00:00",
+        "identifier" : "urn:uuid:03260e67-0a7b-4399-a02a-29d6ca3bcb0b",
+        "timestamp" : "2023-05-11T13:01:08+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -934,18 +480,10 @@
       "name" : "GenomeBuildVS",
       "title" : "Ferlab.bio ValueSet/genome-build",
       "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Genome Build ValueSet",
+      "date" : "2023-05-11T13:00:33+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:63a85c89-238b-412c-ab70-ac6f4f1e1286",
-        "timestamp" : "2023-05-08T15:26:56+00:00",
+        "identifier" : "urn:uuid:d206eef2-3b8a-48c7-a1ca-b4d42d9f2132",
+        "timestamp" : "2023-05-11T13:01:08+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -964,30 +502,81 @@
     }
   },
   {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/disease-status-vs",
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-disease-status.html\">Ferlab.bio CodeSystem/disease-status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Affected\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Affected\">Affected</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Non-affected\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Non-affected\">Non-affected</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-disease-status-Unknown\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-Unknown\">Unknown</a></td><td>https://fhir.cqdg.ca/CodeSystem/disease-status</td><td>Unknown</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-sample-type.html\">Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C449\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C449\">NCIT:C449</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C812\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C812\">NCIT:C812</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Ribonucleic Acid</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12434\">NCIT:C12434</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C13275\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13275\">NCIT:C13275</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C164014\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164014\">NCIT:C164014</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Solid Tissue Specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-sample-type-NCIT-C12431\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12431\">NCIT:C12431</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-sample-type</td><td>Bone Marrow</td></tr></table></div>"
       },
-      "url" : "https://fhir.cqdg.ca/ValueSet/disease-status-vs",
+      "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
       "version" : "0.1.0",
-      "name" : "DiseaseStatusVS",
-      "title" : "Ferlab.bio ValueSet/disease-status",
+      "name" : "SampleTypeTissueSourceVS",
+      "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
       "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Disease Status ValueSet",
+      "date" : "2023-05-11T13:00:33+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8afa59c7-21d2-4773-ba18-0ae6069e7182",
-        "timestamp" : "2023-05-08T15:26:56+00:00",
+        "identifier" : "urn:uuid:660678c4-4d57-4486-ade8-c6bdf9c12adc",
+        "timestamp" : "2023-05-11T13:01:08+00:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C449",
+          "display" : "DNA"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C812",
+          "display" : "Ribonucleic Acid"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C12434",
+          "display" : "Blood"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C13275",
+          "display" : "Saliva"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C164014",
+          "display" : "Solid Tissue Specimen"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-sample-type",
+          "code" : "NCIT:C12431",
+          "display" : "Bone Marrow"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-experimental-strategy.html\">Ferlab.bio CodeSystem/experimental-strategy v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WXS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WXS\">WXS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-WGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WGS\">WGS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-experimental-strategy-TARS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-TARS\">TARS</a></td><td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td><td>Targeted Sequencing</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
+      "version" : "0.1.0",
+      "name" : "CQDGFamilyTypeVS",
+      "title" : "Ferlab.bio ValueSet/experimental-strategy",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:ec8b2e56-e334-451b-ba91-846edafce734",
+        "timestamp" : "2023-05-11T13:01:09+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -995,64 +584,406 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/disease-status|0.1.0"
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-          "code" : "Affected",
-          "display" : "Affected"
+          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+          "code" : "WXS",
+          "display" : "Whole Exome Sequencing"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-          "code" : "Non-affected",
-          "display" : "Non affected"
+          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+          "code" : "WGS",
+          "display" : "Whole Genome Sequencing"
         },
         {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-          "code" : "Unknown",
-          "display" : "Unknown"
+          "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+          "code" : "TARS",
+          "display" : "Targeted Sequencing"
         }]
       }
     }
   },
   {
-    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-category.html\">Ferlab.bio CodeSystem/data-category v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-data-category-Genomics\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-category.html#data-category-Genomics\">Genomics</a></td><td>https://fhir.cqdg.ca/CodeSystem/data-category</td><td>Genomics</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cqdg-observation-code.html\">Ferlab.bio CodeSystem/cqdg-observation v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Family-relationship\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Family-relationship\">Family-relationship</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Tumor-normal-designation\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Tumor-normal-designation\">Tumor-normal-designation</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Disease-Status\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Disease-Status\">Disease-Status</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Phenotype\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Phenotype\">Phenotype</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-observation-code-Cause-of-Death\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-observation-code.html#cqdg-observation-code-Cause-of-Death\">Cause-of-Death</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</td><td>Cause of Death</td></tr></table></div>"
       },
-      "url" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
+      "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
       "version" : "0.1.0",
-      "name" : "DataCategoryVS",
-      "title" : "Ferlab.bio ValueSet/data-category",
+      "name" : "CQDGObservationCategory",
+      "title" : "Ferlab.bio ValueSet/cqdg-observation",
       "status" : "active",
-      "date" : "2023-05-08T15:26:10+00:00",
-      "contact" : [{
-        "name" : "Ferlab.bio",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }]
-      }],
-      "description" : "Data Category ValueSet",
+      "date" : "2023-05-11T13:00:33+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9b6c1bcd-c03c-4735-aed8-ff0ef309cde5",
-        "timestamp" : "2023-05-08T15:26:56+00:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:0d7035ba-d6ec-4eeb-b4f2-57da074fd34d",
+        "timestamp" : "2023-05-11T13:01:10+00:00",
+        "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/data-category|0.1.0"
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-          "code" : "Genomics",
-          "display" : "Genomics"
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+          "code" : "Family-relationship",
+          "display" : "Family Relationship"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+          "code" : "Tumor-normal-designation",
+          "display" : "Tumor Normal Designation"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+          "code" : "Disease-Status",
+          "display" : "Disease Status"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+          "code" : "Phenotype",
+          "display" : "Phenotype"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+          "code" : "Cause-of-Death",
+          "display" : "Cause of Death"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-v3-role-code.html\">Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Self\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Self\">Self</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Self</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Mother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Mother\">Mother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Father\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Father\">Father</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Father</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Brother\">Brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Sister\">Sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Half-brother\">Half-brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Half-sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Half-sister\">Half-sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Identical-twin\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Identical-twin\">Identical-twin</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-brother\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-brother\">Fraternal-twin-brother</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Fraternal-twin-sister\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Fraternal-twin-sister\">Fraternal-twin-sister</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Son\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Son\">Son</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Son</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-v3-role-code-Daughter\"> </a>\u00a0\u00a0<a href=\"CodeSystem-v3-role-code.html#v3-role-code-Daughter\">Daughter</a></td><td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td><td>Daughter</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+      "version" : "0.1.0",
+      "name" : "RelationshipToProband",
+      "title" : "Ferlab.bio ValueSet/relationship-to-proband",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:185e69b3-7922-48e6-8c89-0bd7fb0255a2",
+        "timestamp" : "2023-05-11T13:01:12+00:00",
+        "total" : 12,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Self",
+          "display" : "Self"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Mother",
+          "display" : "Mother"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Father",
+          "display" : "Father"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Brother",
+          "display" : "Brother"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Sister",
+          "display" : "Sister"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Half-brother",
+          "display" : "Half-brother"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Half-sister",
+          "display" : "Half-sister"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Identical-twin",
+          "display" : "Identical twin"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Fraternal-twin-brother",
+          "display" : "Fraternal twin brother"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Fraternal-twin-sister",
+          "display" : "Fraternal twin sister"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Son",
+          "display" : "Son"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+          "code" : "Daughter",
+          "display" : "Daughter"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/study-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cqdg-study-cs.html\">Ferlab.bio CodeSystem/cqdg-study v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Cartagène\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Cartag.232ne\">Cartagène</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>CARTaGENE</td><td><div><p>CARTaGENE study</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\">Developmental-and-Epileptic-Encephalopathies</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>Developmental and Epileptic Encephalopathies</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-cqdg-study-cs-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cqdg-study-cs.html#cqdg-study-cs-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</td><td>Other</td><td><div><p>Another study</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",
+      "version" : "0.1.0",
+      "name" : "StudyVS",
+      "title" : "Ferlab.bio ValueSet/cqdg-study",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:153eb829-94f5-40bb-9a88-4e75ea42bec4",
+        "timestamp" : "2023-05-11T13:01:12+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+          "code" : "Cartagène",
+          "display" : "CARTaGENE"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+          "code" : "Developmental-and-Epileptic-Encephalopathies",
+          "display" : "Developmental and Epileptic Encephalopathies"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+          "code" : "Other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/file-format",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-document-format.html\">Ferlab.bio CodeSystem/document-format v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-CRAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAM\">CRAM</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>CRAM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-CRAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAI\">CRAI</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-VCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-VCF\">VCF</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>VCF</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-TGZ\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TGZ\">TGZ</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-gVCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-gVCF\">gVCF</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>gVCF File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-TBI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TBI\">TBI</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-BW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BW\">BW</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-document-format-BED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BED\">BED</a></td><td>https://fhir.cqdg.ca/CodeSystem/document-format</td><td>BED File</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/file-format",
+      "version" : "0.1.0",
+      "name" : "FileFormat",
+      "title" : "Ferlab.bio ValueSet/file-format",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:bb4473ab-4985-4f9c-ab30-4743abf5a407",
+        "timestamp" : "2023-05-11T13:01:13+00:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/document-format|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "CRAM",
+          "display" : "CRAM"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "CRAI",
+          "display" : "CRAI Index File"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "VCF",
+          "display" : "VCF"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "TGZ",
+          "display" : "TGZ Archive File"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "gVCF",
+          "display" : "gVCF File"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "TBI",
+          "display" : "TBI Index File"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "BW",
+          "display" : "BW File"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+          "code" : "BED",
+          "display" : "BED File"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-ethnicity.html\">Ferlab.bio CodeSystem/qc-ethnicity v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-French-Canadian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-FrenchCanadian\">French Canadian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>French Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-English-Canadian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EnglishCanadian\">English Canadian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>English Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-First-Nations--Metis-and-Inuit-people\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-FirstNations.44MetisandInuitpeople\">First Nations, Metis and Inuit people</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>First Nations, Metis and Inuit people</td><td><div><p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-European-Caucasian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EuropeanCaucasian\">European Caucasian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>European Caucasian</td><td><div><p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Arabe\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Arabe\">Arabe</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Arabe</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Hispanic-and-Latino-Americans\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-HispanicandLatinoAmericans\">Hispanic and Latino Americans</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Hispanic and Latino Americans</td><td><div><p>Canadian or Quebecois who are descendants of people from Latin America</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-African-or-Caribbean\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-AfricanorCaribbean\">African or Caribbean</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>African or Caribbean</td><td><div><p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-East-and-Southeast-Asian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EastandSoutheastAsian\">East and Southeast Asian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>East and Southeast Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-South-Asian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-SouthAsian\">South Asian</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>South Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from south asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Mixted\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Mixted\">Mixted</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Mixted</td><td><div><p>Individual descending from more than one ethnic group</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-qc-ethnicity-Other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-Other\">Other</a></td><td>https://fhir.cqdg.ca/CodeSystem/qc-ethnicity</td><td>Other</td><td><div><p>Other ethnicity</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
+      "version" : "0.1.0",
+      "name" : "QCEthnicityVS",
+      "title" : "Ferlab.bio ValueSet/qa-ethnicity",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:93118af5-5244-438c-ba23-3b1699cc9a4c",
+        "timestamp" : "2023-05-11T13:01:13+00:00",
+        "total" : 11,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "French Canadian",
+          "display" : "French Canadian"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "English Canadian",
+          "display" : "English Canadian"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "First Nations, Metis and Inuit people",
+          "display" : "First Nations, Metis and Inuit people"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "European Caucasian",
+          "display" : "European Caucasian"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "Arabe",
+          "display" : "Arabe"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "Hispanic and Latino Americans",
+          "display" : "Hispanic and Latino Americans"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "African or Caribbean",
+          "display" : "African or Caribbean"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "East and Southeast Asian",
+          "display" : "East and Southeast Asian"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "South Asian",
+          "display" : "South Asian"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "Mixted",
+          "display" : "Mixted"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+          "code" : "Other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/population-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-population.html\">Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Pediatric\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Pediatric\">Pediatric</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Adult\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Adult\">Adult</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Adult</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.cqdg.ca-CodeSystem-population-Pediatric-and-Adult\"> </a>\u00a0\u00a0<a href=\"CodeSystem-population.html#population-Pediatric-and-Adult\">Pediatric-and-Adult</a></td><td>https://fhir.cqdg.ca/CodeSystem/population</td><td>Pediatric and Adult</td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/population-vs",
+      "version" : "0.1.0",
+      "name" : "PopulationVS",
+      "title" : "Ferlab.bio ValueSet/population",
+      "status" : "active",
+      "date" : "2023-05-11T13:00:33+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:ea6b8d76-afaa-4b34-a200-d43a70dcf5e3",
+        "timestamp" : "2023-05-11T13:01:17+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.cqdg.ca/CodeSystem/population|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
+          "code" : "Pediatric",
+          "display" : "Pediatric"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
+          "code" : "Adult",
+          "display" : "Adult"
+        },
+        {
+          "system" : "https://fhir.cqdg.ca/CodeSystem/population",
+          "code" : "Pediatric-and-Adult",
+          "display" : "Pediatric and Adult"
         }]
       }
     }

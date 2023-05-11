@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="draft"/>
-  <date value="2023-05-08T15:26:10+00:00"/>
+  <date value="2023-05-11T13:00:33+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -739,17 +739,6 @@
       </reference>
       <name value="Ferlab.bio ValueSet/cqdg-observation"/>
       <description value="Observation ValueSet"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/cqdg-specimen-vs"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/cqdg-specimen"/>
-      <description value="Specimen ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -11,16 +11,6 @@
       "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
     ]
   },
-  "identifier": [
-    {
-      "system": "https://fhir.cqdg.ca/fhir/Patient",
-      "value": "PatientExample"
-    },
-    {
-      "use": "secondary",
-      "value": "343434343434"
-    }
-  ],
   "extension": [
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
@@ -50,6 +40,12 @@
           }
         ]
       }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "secondary",
+      "value": "343434343434"
     }
   ],
   "gender": "male",

@@ -10,17 +10,10 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 * meta.profile ..1
 * meta.tag ..1
 
-// Slicing: pour permettre d'avoir un champ d'identifiant CQDG - a valider
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "system"
-* identifier ^slicing.rules = #openAtEnd
-* identifier contains CQDG_ID 1..1
-* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Patient"
-
-* extension contains AgeOfDeath named ageOfDeath 0..1
-* extension contains AgeAtRecruitment named ageAtRecruitment 0..*
-* extension contains QCEthnicity named ethnicity 0..1
-
+* extension contains
+    AgeOfDeath named ageOfDeath 1..* and
+    AgeAtRecruitment named ageAtRecruitment 1..* and
+    QCEthnicity named ethnicity 0..1
 * extension[ethnicity].valueCodeableConcept from qc-ethnicity-vs
 
 // example instance of patient profile defined
@@ -28,23 +21,21 @@ Instance: PatientExample
 InstanceOf: CQDGPatient
 Description: "An example of a cqdg patient."
 Title: "Ferlab.bio Example/cqdg-patient"
+Usage: #example
 
 * meta.tag[0].code = #CAG
 
-* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Patient"
-* identifier[CQDG_ID].value = "PatientExample"
-
-* identifier[1].use = #secondary
-* identifier[1].value = "343434343434"
+* identifier[0].use = #secondary
+* identifier[0].value = "343434343434"
 
 * gender = #male
 
 * deceasedBoolean = true
+
 * extension[ageOfDeath].valueAge.value = 30
 * extension[ageOfDeath].valueAge.code = #d
 * extension[ageOfDeath].valueAge.system = "http://unitsofmeasure.org"
 * extension[ageOfDeath].valueAge.unit = "days"
-
 * extension[ageAtRecruitment].valueAge.value = 12
 * extension[ageAtRecruitment].valueAge.code = #d
 * extension[ageAtRecruitment].valueAge.system = "http://unitsofmeasure.org"

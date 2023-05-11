@@ -1,0 +1,42 @@
+Extension: AgeAtEvent
+Title: "Ferlab.bio Extension/age-at-event"
+Description: "Patient's age (in days since birth) at the time of death"
+* ^version = "0.1.0"
+* ^status = #draft
+* ^context.type = #element
+* ^context.expression = "ClinicalImpression"
+* . 0..1 MS
+* . ^short = "Age at event"
+* . ^definition = "Age at the time of medical consultation"
+* . ^isModifier = false
+* url only uri
+* value[x] only Age
+
+Extension: AgeOfDeath
+Title: "Ferlab.bio Extension/age-of-death"
+Description: "Patient's age (in days since birth) at the time of death"
+* ^version = "0.1.0"
+* ^status = #draft
+* ^context.type = #element
+* ^context.expression = "ClinicalImpression"
+* . 0..1 MS
+* . ^short = "Age at event"
+* . ^definition = "Age at the time of medical consultation"
+* . ^isModifier = false
+* url only uri
+* value[x] only Age
+
+
+Extension: AgeAtRecruitment
+Title: "Ferlab.bio Extension/age-at-recruitment"
+Description: "Patient's age (in days since birth) at the time of recruitment"
+* ^version = "0.1.0"
+* ^status = #draft
+* ^context.type = #element
+* ^context.expression = "ClinicalImpression"
+* . 0..1 MS
+* . ^short = "Age at event"
+* . ^definition = "Age at the time of medical consultation"
+* . ^isModifier = false
+* url only uri
+* value[x] only Age

@@ -14,7 +14,7 @@ Title: "Ferlab.bio StructureDefinition/cqdg-specimen"
 * type
   * coding.system from SampleTypeTissueSourceVS
 
-* extension contains AgeAtBiospecimenCollection named ageAtBiospecimenCollection 0..1
+* extension contains AgeAtEvent named ageAt 0..1
 
 // -----------------------------------------------------
 // example instance of profile defined
@@ -35,10 +35,10 @@ Description: "An example of a specimen"
 * subject = Reference(Patient/PatientExample)
 
 
-* extension[ageAtBiospecimenCollection].valueAge.value = 12
-* extension[ageAtBiospecimenCollection].valueAge.code = #d
-* extension[ageAtBiospecimenCollection].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageAtBiospecimenCollection].valueAge.unit = "days"
+* extension[ageAt].valueAge.value = 12
+* extension[ageAt].valueAge.code = #d
+* extension[ageAt].valueAge.system = "http://unitsofmeasure.org"
+* extension[ageAt].valueAge.unit = "days"
 
 
 * type.coding[0].system = $NCIT
@@ -65,8 +65,8 @@ Description: "An example of a specimen"
 
 * parent = Reference(Specimen/SpecimenExample)
 
-* extension[ageAtBiospecimenCollection].valueAge.value = 12
-* extension[ageAtBiospecimenCollection].valueAge.code = #d
-* extension[ageAtBiospecimenCollection].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageAtBiospecimenCollection].valueAge.unit = "days"
+* extension[ageAt].valueAge.value = 12
+* extension[ageAt].valueAge.code = #d
+* extension[ageAt].valueAge.system = "http://unitsofmeasure.org"
+* extension[ageAt].valueAge.unit = "days"
 

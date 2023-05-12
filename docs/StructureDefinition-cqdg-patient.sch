@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

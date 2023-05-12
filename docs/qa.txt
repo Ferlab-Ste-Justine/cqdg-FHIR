@@ -1,9 +1,9 @@
 ﻿CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 11, warn = 91, info = 10
+err = 7, warn = 91, info = 10
 IG Publisher Version: 1.3.9
-Generated Thu May 11 21:58:56 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+Generated Fri May 12 12:34:28 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 0 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 0 / 1
@@ -51,7 +51,7 @@ Generated Thu May 11 21:58:56 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-group : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-observation-group : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-organization : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-patient : 4 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-patient : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-research-study : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-specimen : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-task : 0 / 1 / 1
@@ -180,10 +180,6 @@ WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefiniti
 == fsh-generated/resources/StructureDefinition-cqdg-organization.json ==
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-organization'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-cqdg-patient.json ==
-ERROR: Ferlab.bio StructureDefinition/cqdg-patient.extension[[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath]]].Patient.extension: Element Patient.extension: derived max (*) cannot be greater than base max (1)
-ERROR: Ferlab.bio StructureDefinition/cqdg-patient.extension[[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment]]].Patient.extension: Element Patient.extension: derived max (*) cannot be greater than base max (1)
-ERROR: StructureDefinition/cqdg-patient: StructureDefinition: Element Patient.extension: derived max (*) cannot be greater than base max (1)
-ERROR: StructureDefinition/cqdg-patient: StructureDefinition: Element Patient.extension: derived max (*) cannot be greater than base max (1)
 == fsh-generated/resources/StructureDefinition-cqdg-research-study.json ==
 == fsh-generated/resources/StructureDefinition-cqdg-specimen.json ==
 == fsh-generated/resources/StructureDefinition-cqdg-task.json ==

@@ -11,8 +11,8 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 * meta.tag ..1
 
 * extension contains
-    AgeOfDeath named ageOfDeath 1..* and
-    AgeAtRecruitment named ageAtRecruitment 1..* and
+    AgeOfDeath named ageOfDeath 0..1 and
+    AgeAtRecruitment named ageAtRecruitment 0..1 and
     QCEthnicity named ethnicity 0..1
 * extension[ethnicity].valueCodeableConcept from qc-ethnicity-vs
 

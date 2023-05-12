@@ -20,8 +20,8 @@ Description: "Patient's age (in days since birth) at the time of death"
 * ^context.type = #element
 * ^context.expression = "ClinicalImpression"
 * . 0..1 MS
-* . ^short = "Age at event"
-* . ^definition = "Age at the time of medical consultation"
+* . ^short = "Age of death"
+* . ^definition = "Age at the time of Death"
 * . ^isModifier = false
 * url only uri
 * value[x] only Age
@@ -35,7 +35,7 @@ Description: "Patient's age (in days since birth) at the time of recruitment"
 * ^context.type = #element
 * ^context.expression = "ClinicalImpression"
 * . 0..1 MS
-* . ^short = "Age at event"
+* . ^short = "Age at recruitment"
 * . ^definition = "Age at the time of medical consultation"
 * . ^isModifier = false
 * url only uri

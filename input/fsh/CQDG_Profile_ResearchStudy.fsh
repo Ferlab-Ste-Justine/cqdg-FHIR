@@ -22,6 +22,7 @@ Title: "Ferlab.bio StructureDefinition/cqdg-study"
 * extension contains PopulationInfo named population 0..1
 * extension contains AccessLimitations named accessLimitations 0..1
 * extension contains AccessRequirements named accessRequirements 0..*
+* extension contains Dataset named dataset 0..*
 
 // -----------------------------------------------------
 // example instance of profile defined
@@ -72,6 +73,12 @@ Title: "Ferlab.bio Example/cqdg-study"
 
 * extension[accessRequirements][+].valueCoding.code = #DUO:0000029
 * extension[accessRequirements][=].valueCoding.display = "return to database or resource"
+
+* extension[dataset][0].extension[name].valueString = "Dataset 1"
+* extension[dataset][0].extension[description].valueString = "Dataset 1 description"
+* extension[dataset][+].extension[name].valueString = "Dataset 2"
+* extension[dataset][=].extension[description].valueString = "Dataset 2 description"
+
 
 * keyword[0].text = "genomics"
 * keyword[+].text = "chronic conditions"

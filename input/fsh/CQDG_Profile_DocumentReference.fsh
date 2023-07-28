@@ -14,6 +14,8 @@ Usage: #example
 
 
 * meta.tag[0].code = #CAG
+* meta.tag[1].system = $DSCS
+* meta.tag[1].code = #"dataset: ds_name 1"
 * securityLabel.coding[0].display = "test"
 
 * status = #current

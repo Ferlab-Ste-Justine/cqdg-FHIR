@@ -177,6 +177,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/datasetExtension"
+        },
+        "name": "Ferlab.bio Extension/dataset",
+        "description": "dataset for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/FullSizeExtension"
         },
         "name": "Ferlab.bio Extension/full-size",
@@ -389,6 +397,14 @@
         },
         "name": "Ferlab.bio CodeSystem/bioinformatics-analysis",
         "description": "Bioinformatics analysis code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cqdg-dataset-cs"
+        },
+        "name": "Ferlab.bio CodeSystem/cqdg-dataset",
+        "description": "CQDG study dataset code system",
         "exampleBoolean": false
       },
       {

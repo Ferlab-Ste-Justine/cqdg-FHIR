@@ -66,6 +66,32 @@
         "code": "DUO:0000029",
         "display": "return to database or resource"
       }
+    },
+    {
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Dataset 1"
+        },
+        {
+          "url": "description",
+          "valueString": "Dataset 1 description"
+        }
+      ],
+      "url": "https://fhir.cqdg.ca/StructureDefinition/dataset"
+    },
+    {
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Dataset 2"
+        },
+        {
+          "url": "description",
+          "valueString": "Dataset 2 description"
+        }
+      ],
+      "url": "https://fhir.cqdg.ca/StructureDefinition/dataset"
     }
   ],
   "title": "CARTaGENE",

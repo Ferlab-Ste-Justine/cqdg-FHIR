@@ -13,10 +13,10 @@ Alias: $QCETH = https://fhir.cqdg.ca/CodeSystem/qc-ethnicity
 Alias: $DISEASESAT = https://fhir.cqdg.ca/CodeSystem/disease-status
 Alias: $NCIT = http://purl.obolibrary.org/obo/ncit.owl
 Alias: $OBCAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $DSCS = https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs
 
 // Alias: $RESEARCHSTUDY = http://hl7.org/fhir/StructureDefinition/workflow-researchStudy
 // Alias: $ASSOCENCOUNTER = http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter
-// Alias: $V2IDT = http://terminology.hl7.org/CodeSystem/v2-0203
-// Alias: $V3ACT = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
+Alias: $DSSD = https://fhir.cqdg.ca/StructureDefinition/dataset
 // Alias: $ENCTYPE = http://hl7.org/fhir/ValueSet/encounter-type
 // Alias: $UCUM = http://unitsofmeasure.org

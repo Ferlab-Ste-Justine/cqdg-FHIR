@@ -4,7 +4,7 @@ Description: "CQDG Observation codes"
 Title: "Ferlab.bio CodeSystem/cqdg-observation"
 
 
-* ^url = https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code // "http://hl7.org/fhir/CodeSystem/observation-code"
+* ^url = "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"
 * ^experimental = false
 * ^description = "CQDG Observation codes"
 * ^caseSensitive = true

@@ -3,15 +3,15 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="duo-codes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/duo-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DUO:0000012<a name="duo-codes-DUO.580000012"> </a></td><td>research specific restrictions</td></tr><tr><td style="white-space:nowrap">DUO:0000015<a name="duo-codes-DUO.580000015"> </a></td><td>no general methods research</td></tr><tr><td style="white-space:nowrap">DUO:0000016<a name="duo-codes-DUO.580000016"> </a></td><td>genetic studies only</td></tr><tr><td style="white-space:nowrap">DUO:0000018<a name="duo-codes-DUO.580000018"> </a></td><td>not for profit, non commercial use only</td></tr><tr><td style="white-space:nowrap">DUO:0000019<a name="duo-codes-DUO.580000019"> </a></td><td>publication required</td></tr><tr><td style="white-space:nowrap">DUO:0000020<a name="duo-codes-DUO.580000020"> </a></td><td>collaboration required</td></tr><tr><td style="white-space:nowrap">DUO:0000021<a name="duo-codes-DUO.580000021"> </a></td><td>ethics approval required</td></tr><tr><td style="white-space:nowrap">DUO:0000022<a name="duo-codes-DUO.580000022"> </a></td><td>geographical restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000024<a name="duo-codes-DUO.580000024"> </a></td><td>publication moratorium</td></tr><tr><td style="white-space:nowrap">DUO:0000025<a name="duo-codes-DUO.580000025"> </a></td><td>time limit on use</td></tr><tr><td style="white-space:nowrap">DUO:0000026<a name="duo-codes-DUO.580000026"> </a></td><td>user specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000027<a name="duo-codes-DUO.580000027"> </a></td><td>project specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000028<a name="duo-codes-DUO.580000028"> </a></td><td>institution specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000029<a name="duo-codes-DUO.580000029"> </a></td><td>return to database or resource</td></tr><tr><td style="white-space:nowrap">DUO:00000043<a name="duo-codes-DUO.5800000043"> </a></td><td>clinical care use</td></tr><tr><td style="white-space:nowrap">DUO:00000044<a name="duo-codes-DUO.5800000044"> </a></td><td>population origins or ancestry research prohibited</td></tr><tr><td style="white-space:nowrap">DUO:00000045<a name="duo-codes-DUO.5800000045"> </a></td><td>not for profit organisation use only</td></tr><tr><td style="white-space:nowrap">DUO:00000046<a name="duo-codes-DUO.5800000046"> </a></td><td>non-commercial use only</td></tr><tr><td style="white-space:nowrap">DUO:0000004<a name="duo-codes-DUO.580000004"> </a></td><td>Restriction on access</td></tr><tr><td style="white-space:nowrap">DUO:0000006<a name="duo-codes-DUO.580000006"> </a></td><td>health or medical or biomedical research</td></tr><tr><td style="white-space:nowrap">DUO:0000007<a name="duo-codes-DUO.580000007"> </a></td><td>disease specific research</td></tr><tr><td style="white-space:nowrap">DUO:0000011<a name="duo-codes-DUO.580000011"> </a></td><td>population origins or ancestry research</td></tr><tr><td style="white-space:nowrap">DUO:0000042<a name="duo-codes-DUO.580000042"> </a></td><td>general research use</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://purl.obolibrary.org/obo/duo.owl</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DUO:0000012<a name="duo-codes-DUO.580000012"> </a></td><td>research specific restrictions</td></tr><tr><td style="white-space:nowrap">DUO:0000015<a name="duo-codes-DUO.580000015"> </a></td><td>no general methods research</td></tr><tr><td style="white-space:nowrap">DUO:0000016<a name="duo-codes-DUO.580000016"> </a></td><td>genetic studies only</td></tr><tr><td style="white-space:nowrap">DUO:0000018<a name="duo-codes-DUO.580000018"> </a></td><td>not for profit, non commercial use only</td></tr><tr><td style="white-space:nowrap">DUO:0000019<a name="duo-codes-DUO.580000019"> </a></td><td>publication required</td></tr><tr><td style="white-space:nowrap">DUO:0000020<a name="duo-codes-DUO.580000020"> </a></td><td>collaboration required</td></tr><tr><td style="white-space:nowrap">DUO:0000021<a name="duo-codes-DUO.580000021"> </a></td><td>ethics approval required</td></tr><tr><td style="white-space:nowrap">DUO:0000022<a name="duo-codes-DUO.580000022"> </a></td><td>geographical restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000024<a name="duo-codes-DUO.580000024"> </a></td><td>publication moratorium</td></tr><tr><td style="white-space:nowrap">DUO:0000025<a name="duo-codes-DUO.580000025"> </a></td><td>time limit on use</td></tr><tr><td style="white-space:nowrap">DUO:0000026<a name="duo-codes-DUO.580000026"> </a></td><td>user specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000027<a name="duo-codes-DUO.580000027"> </a></td><td>project specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000028<a name="duo-codes-DUO.580000028"> </a></td><td>institution specific restriction</td></tr><tr><td style="white-space:nowrap">DUO:0000029<a name="duo-codes-DUO.580000029"> </a></td><td>return to database or resource</td></tr><tr><td style="white-space:nowrap">DUO:00000043<a name="duo-codes-DUO.5800000043"> </a></td><td>clinical care use</td></tr><tr><td style="white-space:nowrap">DUO:00000044<a name="duo-codes-DUO.5800000044"> </a></td><td>population origins or ancestry research prohibited</td></tr><tr><td style="white-space:nowrap">DUO:00000045<a name="duo-codes-DUO.5800000045"> </a></td><td>not for profit organisation use only</td></tr><tr><td style="white-space:nowrap">DUO:00000046<a name="duo-codes-DUO.5800000046"> </a></td><td>non-commercial use only</td></tr><tr><td style="white-space:nowrap">DUO:0000004<a name="duo-codes-DUO.580000004"> </a></td><td>Restriction on access</td></tr><tr><td style="white-space:nowrap">DUO:0000006<a name="duo-codes-DUO.580000006"> </a></td><td>health or medical or biomedical research</td></tr><tr><td style="white-space:nowrap">DUO:0000007<a name="duo-codes-DUO.580000007"> </a></td><td>disease specific research</td></tr><tr><td style="white-space:nowrap">DUO:0000011<a name="duo-codes-DUO.580000011"> </a></td><td>population origins or ancestry research</td></tr><tr><td style="white-space:nowrap">DUO:0000042<a name="duo-codes-DUO.580000042"> </a></td><td>general research use</td></tr></table></div>
   </text>
-  <url value="https://fhir.cqdg.ca/CodeSystem/duo-codes"/>
+  <url value="http://purl.obolibrary.org/obo/duo.owl"/>
   <version value="0.1.0"/>
   <name value="DUOCodes"/>
   <title value="Ferlab.bio CodeSystem/duo-codes"/>
-  <status value="active"/>
+  <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-12T12:33:13+00:00"/>
+  <date value="2023-08-01T16:12:28+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -28,10 +28,6 @@
     <code value="DUO:0000012"/>
     <display value="research specific restrictions"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000012"/>
-      </use>
       <value value="research specific restrictions"/>
     </designation>
   </concept>
@@ -39,10 +35,6 @@
     <code value="DUO:0000015"/>
     <display value="no general methods research"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000015"/>
-      </use>
       <value value="no general methods research"/>
     </designation>
   </concept>
@@ -50,10 +42,6 @@
     <code value="DUO:0000016"/>
     <display value="genetic studies only"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000016"/>
-      </use>
       <value value="genetic studies only"/>
     </designation>
   </concept>
@@ -61,10 +49,6 @@
     <code value="DUO:0000018"/>
     <display value="not for profit, non commercial use only"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000018"/>
-      </use>
       <value value="not for profit, non commercial use only"/>
     </designation>
   </concept>
@@ -72,10 +56,6 @@
     <code value="DUO:0000019"/>
     <display value="publication required"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000019"/>
-      </use>
       <value value="publication required"/>
     </designation>
   </concept>
@@ -83,10 +63,6 @@
     <code value="DUO:0000020"/>
     <display value="collaboration required"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000020"/>
-      </use>
       <value value="collaboration required"/>
     </designation>
   </concept>
@@ -94,10 +70,6 @@
     <code value="DUO:0000021"/>
     <display value="ethics approval required"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000021"/>
-      </use>
       <value value="ethics approval required"/>
     </designation>
   </concept>
@@ -105,10 +77,6 @@
     <code value="DUO:0000022"/>
     <display value="geographical restriction"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000022"/>
-      </use>
       <value value="geographical restriction"/>
     </designation>
   </concept>
@@ -116,10 +84,6 @@
     <code value="DUO:0000024"/>
     <display value="publication moratorium"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000024"/>
-      </use>
       <value value="publication moratorium"/>
     </designation>
   </concept>
@@ -127,10 +91,6 @@
     <code value="DUO:0000025"/>
     <display value="time limit on use"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000025"/>
-      </use>
       <value value="time limit on use"/>
     </designation>
   </concept>
@@ -138,10 +98,6 @@
     <code value="DUO:0000026"/>
     <display value="user specific restriction"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000026"/>
-      </use>
       <value value="user specific restriction"/>
     </designation>
   </concept>
@@ -149,10 +105,6 @@
     <code value="DUO:0000027"/>
     <display value="project specific restriction"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000027"/>
-      </use>
       <value value="project specific restriction"/>
     </designation>
   </concept>
@@ -160,10 +112,6 @@
     <code value="DUO:0000028"/>
     <display value="institution specific restriction"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000028"/>
-      </use>
       <value value="institution specific restriction"/>
     </designation>
   </concept>
@@ -171,10 +119,6 @@
     <code value="DUO:0000029"/>
     <display value="return to database or resource"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000029"/>
-      </use>
       <value value="return to database or resource"/>
     </designation>
   </concept>
@@ -182,10 +126,6 @@
     <code value="DUO:00000043"/>
     <display value="clinical care use"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:00000043"/>
-      </use>
       <value value="clinical care use"/>
     </designation>
   </concept>
@@ -193,10 +133,6 @@
     <code value="DUO:00000044"/>
     <display value="population origins or ancestry research prohibited"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:00000044"/>
-      </use>
       <value value="population origins or ancestry research prohibited"/>
     </designation>
   </concept>
@@ -204,10 +140,6 @@
     <code value="DUO:00000045"/>
     <display value="not for profit organisation use only"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:00000045"/>
-      </use>
       <value value="not for profit organisation use only"/>
     </designation>
   </concept>
@@ -215,10 +147,6 @@
     <code value="DUO:00000046"/>
     <display value="non-commercial use only"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:00000046"/>
-      </use>
       <value value="non-commercial use only"/>
     </designation>
   </concept>
@@ -226,10 +154,6 @@
     <code value="DUO:0000004"/>
     <display value="Restriction on access"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000004"/>
-      </use>
       <value value="Restriction on access"/>
     </designation>
   </concept>
@@ -237,10 +161,6 @@
     <code value="DUO:0000006"/>
     <display value="health or medical or biomedical research"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000006"/>
-      </use>
       <value value="health or medical or biomedical research"/>
     </designation>
   </concept>
@@ -248,10 +168,6 @@
     <code value="DUO:0000007"/>
     <display value="disease specific research"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000007"/>
-      </use>
       <value value="disease specific research"/>
     </designation>
   </concept>
@@ -259,10 +175,6 @@
     <code value="DUO:0000011"/>
     <display value="population origins or ancestry research"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000011"/>
-      </use>
       <value value="population origins or ancestry research"/>
     </designation>
   </concept>
@@ -270,10 +182,6 @@
     <code value="DUO:0000042"/>
     <display value="general research use"/>
     <designation>
-      <use>
-        <system value="http://purl.obolibrary.org/obo/duo.owl"/>
-        <code value="DUO:0000042"/>
-      </use>
       <value value="general research use"/>
     </designation>
   </concept>

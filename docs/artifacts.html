@@ -29,10 +29,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -160,11 +160,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-cqdg-document-reference.html"
-                     title="StructureDefinition/cqdg-document-reference">Ferlab.bio StructureDefinition/cqdg-document-reference</a>
+                  <a href="StructureDefinition-cqdg-task.html"
+                     title="StructureDefinition/cqdg-task">Ferlab.bio Profile/cqdg-task</a>
                </td>
                <td>
-<p>A CQDG group</p>
+<p>CQDG Task</p>
 </td>
             </tr>
             <tr>
@@ -178,11 +178,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-CQDGObservationDiseaseStatus.html"
-                     title="StructureDefinition/CQDGObservationDiseaseStatus">Ferlab.bio StructureDefinition/disease-status</a>
+                  <a href="StructureDefinition-cqdg-condition.html"
+                     title="StructureDefinition/cqdg-condition">Ferlab.bio StructureDefinition/cqdg-condition</a>
                </td>
                <td>
-<p>An example of a cqdg group</p>
+<p>A condition in CQDG</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cqdg-document-reference.html"
+                     title="StructureDefinition/cqdg-document-reference">Ferlab.bio StructureDefinition/cqdg-document-reference</a>
+               </td>
+               <td>
+<p>A CQDG group</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cqdg-group.html"
+                     title="StructureDefinition/cqdg-group">Ferlab.bio StructureDefinition/cqdg-group</a>
+               </td>
+               <td>
+<p>A CQDG group</p>
 </td>
             </tr>
             <tr>
@@ -192,24 +210,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>An example of a cqdg group</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-CQDGObservationPhenotype.html"
-                     title="StructureDefinition/CQDGObservationPhenotype">Ferlab.bio StructureDefinition/phenotype</a>
-               </td>
-               <td>
-<p>An example of a cqdg Observation (phenotype)</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-CQDGObservationTumorNormalDesignation.html"
-                     title="StructureDefinition/CQDGObservationTumorNormalDesignation">Ferlab.bio StructureDefinition/tumor-normal-designation</a>
-               </td>
-               <td>
-<p>An example of a cqdg Observation Group</p>
 </td>
             </tr>
             <tr>
@@ -232,15 +232,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-cqdg-research-study.html"
-                     title="StructureDefinition/cqdg-research-study">Ferlab.bio StructureDefinition/cqdg-study</a>
-               </td>
-               <td>
-<p>A research study in CQDG</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-cqdg-specimen.html"
                      title="StructureDefinition/cqdg-specimen">Ferlab.bio StructureDefinition/cqdg-specimen</a>
                </td>
@@ -250,29 +241,38 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-cqdg-task.html"
-                     title="StructureDefinition/cqdg-task">Ferlab.bio Profile/cqdg-task</a>
+                  <a href="StructureDefinition-cqdg-research-study.html"
+                     title="StructureDefinition/cqdg-research-study">Ferlab.bio StructureDefinition/cqdg-study</a>
                </td>
                <td>
-<p>CQDG Task</p>
+<p>A research study in CQDG</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-cqdg-condition.html"
-                     title="StructureDefinition/cqdg-condition">Ferlab.bio StructureDefinition/cqdg-condition</a>
+                  <a href="StructureDefinition-CQDGObservationDiseaseStatus.html"
+                     title="StructureDefinition/CQDGObservationDiseaseStatus">Ferlab.bio StructureDefinition/disease-status</a>
                </td>
                <td>
-<p>A condition in CQDG</p>
+<p>An example of a cqdg group</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-cqdg-group.html"
-                     title="StructureDefinition/cqdg-group">Ferlab.bio StructureDefinition/cqdg-group</a>
+                  <a href="StructureDefinition-CQDGObservationPhenotype.html"
+                     title="StructureDefinition/CQDGObservationPhenotype">Ferlab.bio StructureDefinition/phenotype</a>
                </td>
                <td>
-<p>A CQDG group</p>
+<p>An example of a cqdg Observation (phenotype)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CQDGObservationTumorNormalDesignation.html"
+                     title="StructureDefinition/CQDGObservationTumorNormalDesignation">Ferlab.bio StructureDefinition/tumor-normal-designation</a>
+               </td>
+               <td>
+<p>An example of a cqdg Observation Group</p>
 </td>
             </tr>
          </tbody>
@@ -330,6 +330,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Patient’s age (in days since birth) at the time of death</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-datasetExtension.html"
+                     title="StructureDefinition/datasetExtension">Ferlab.bio Extension/dataset</a>
+               </td>
+               <td>
+<p>dataset for cqdg project</p>
 </td>
             </tr>
             <tr>
@@ -418,20 +427,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-cqdg-diagnosis-vs.html"
-                     title="ValueSet/cqdg-diagnosis-vs">Ferlab.bio ValueSet/diagnosis</a>
+                  <a href="ValueSet-cause-of-death-vs.html"
+                     title="ValueSet/cause-of-death-vs">Ferlab.bio ValueSet/cause-of-death</a>
                </td>
                <td>
-<p>Diagnosis ValueSet</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-experimental-strategy-vs.html"
-                     title="ValueSet/experimental-strategy-vs">Ferlab.bio ValueSet/experimental-strategy</a>
-               </td>
-               <td>
-<p>Experimental Strategy ValueSet</p>
+<p>Cause of death</p>
 </td>
             </tr>
             <tr>
@@ -445,11 +445,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-cause-of-death-vs.html"
-                     title="ValueSet/cause-of-death-vs">Ferlab.bio ValueSet/cause-of-death</a>
+                  <a href="ValueSet-study-vs.html" title="ValueSet/study-vs">Ferlab.bio ValueSet/cqdg-study</a>
                </td>
                <td>
-<p>Cause of death</p>
+<p>Study ValueSet</p>
 </td>
             </tr>
             <tr>
@@ -470,11 +469,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-cqdg-diagnosis-vs.html"
+                     title="ValueSet/cqdg-diagnosis-vs">Ferlab.bio ValueSet/diagnosis</a>
+               </td>
+               <td>
+<p>Diagnosis ValueSet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-disease-status-vs.html"
                      title="ValueSet/disease-status-vs">Ferlab.bio ValueSet/disease-status</a>
                </td>
                <td>
 <p>Disease Status ValueSet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-experimental-strategy-vs.html"
+                     title="ValueSet/experimental-strategy-vs">Ferlab.bio ValueSet/experimental-strategy</a>
+               </td>
+               <td>
+<p>Experimental Strategy ValueSet</p>
 </td>
             </tr>
             <tr>
@@ -554,14 +571,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-study-vs.html" title="ValueSet/study-vs">Ferlab.bio ValueSet/cqdg-study</a>
-               </td>
-               <td>
-<p>Study ValueSet</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-tumor-normal-designation-vs.html"
                      title="ValueSet/tumor-normal-designation-vs">Ferlab.bio ValueSet/tumor-normal-designation</a>
                </td>
@@ -592,6 +601,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-cause-of-death-codes.html"
+                     title="CodeSystem/cause-of-death-codes">Ferlab.bio CodeSystem/cause-of-death</a>
+               </td>
+               <td>
+<p>Codes for cause of death</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-cqdg-dataset-cs.html"
+                     title="CodeSystem/cqdg-dataset-cs">Ferlab.bio CodeSystem/cqdg-dataset</a>
+               </td>
+               <td>
+<p>CQDG study dataset code system</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-cqdg-observation-code.html"
                      title="CodeSystem/cqdg-observation-code">Ferlab.bio CodeSystem/cqdg-observation</a>
                </td>
@@ -605,23 +632,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>CQDG study code system</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-cause-of-death-codes.html"
-                     title="CodeSystem/cause-of-death-codes">Ferlab.bio CodeSystem/cause-of-death</a>
-               </td>
-               <td>
-<p>Codes for cause of death</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-duo-codes.html" title="CodeSystem/duo-codes">Ferlab.bio CodeSystem/duo-codes</a>
-               </td>
-               <td>
-<p>DUO codes</p>
 </td>
             </tr>
             <tr>
@@ -655,6 +665,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Document format</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-duo-codes.html" title="CodeSystem/duo-codes">Ferlab.bio CodeSystem/duo-codes</a>
+               </td>
+               <td>
+<p>DUO codes</p>
 </td>
             </tr>
             <tr>
@@ -700,19 +718,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-qc-sample-type.html" title="CodeSystem/qc-sample-type">Ferlab.bio CodeSystem/sample-type</a>
-               </td>
-               <td>
-<p>Qc sample type</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="CodeSystem-research-domain.html"
                      title="CodeSystem/research-domain">Ferlab.bio CodeSystem/research-domain</a>
                </td>
                <td>
 <p>Research domain</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-qc-sample-type.html" title="CodeSystem/qc-sample-type">Ferlab.bio CodeSystem/sample-type</a>
+               </td>
+               <td>
+<p>Qc sample type</p>
 </td>
             </tr>
             <tr>
@@ -746,22 +764,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Group-CQDGGroupExample.html" title="Group/CQDGGroupExample">Ferlab.bio Example/cqdg-group</a>
-               </td>
-               <td>
-<p>An example of a cqdg group</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Task-CQDGTaskExample.html" title="Task/CQDGTaskExample">Ferlab.bio Example/cqdg-task</a>
-               </td>
-               <td>
-<p>An example of a cqdg Task</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Condition-ConditionExample.html"
                      title="Condition/ConditionExample">Ferlab.bio Example/cqdg-condition</a>
                </td>
@@ -789,20 +791,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-ObsDiseaseStatExample.html"
-                     title="Observation/ObsDiseaseStatExample">Ferlab.bio Example/disease-status</a>
+                  <a href="Group-CQDGGroupExample.html" title="Group/CQDGGroupExample">Ferlab.bio Example/cqdg-group</a>
                </td>
                <td>
-<p>An example of a cqdg Observation (disease)</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-ObsPhenotypeExample.html"
-                     title="Observation/ObsPhenotypeExample">Ferlab.bio Example/phenotype</a>
-               </td>
-               <td>
-<p>An example of a cqdg Observation (phenotype)</p>
+<p>An example of a cqdg group</p>
 </td>
             </tr>
             <tr>
@@ -829,6 +821,32 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>An example of a research study.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Task-CQDGTaskExample.html" title="Task/CQDGTaskExample">Ferlab.bio Example/cqdg-task</a>
+               </td>
+               <td>
+<p>An example of a cqdg Task</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-ObsDiseaseStatExample.html"
+                     title="Observation/ObsDiseaseStatExample">Ferlab.bio Example/disease-status</a>
+               </td>
+               <td>
+<p>An example of a cqdg Observation (disease)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-ObsPhenotypeExample.html"
+                     title="Observation/ObsPhenotypeExample">Ferlab.bio Example/phenotype</a>
+               </td>
+               <td>
+<p>An example of a cqdg Observation (phenotype)</p>
 </td>
             </tr>
             <tr>
@@ -874,7 +892,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 12, 2023 12:33+0000">2023-05-12</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 1, 2023 16:12+0000">2023-08-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

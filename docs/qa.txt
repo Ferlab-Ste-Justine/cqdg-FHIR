@@ -1,19 +1,20 @@
 ﻿CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 7, warn = 91, info = 10
-IG Publisher Version: 1.3.9
-Generated Fri May 12 12:34:28 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+err = 17, warn = 65, info = 8
+IG Publisher Version: 1.3.25
+Generated Tue Aug 01 16:15:35 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 0 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-dataset-cs : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-observation-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-study-cs : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-category : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-type : 0 / 0 / 7
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-disease-status : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-document-format : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes : 0 / 0 / 24
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes : 2 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-experimental-strategy : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-family-type : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-genome-build : 0 / 0 / 1
@@ -24,7 +25,7 @@ Generated Fri May 12 12:34:28 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-tumor-normal-designation : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-v3-role-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 0 / 2 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 0 / 1 / 3
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 3 / 1 / 3
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 1 / 3
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
@@ -33,7 +34,7 @@ Generated Fri May 12 12:34:28 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 7 / 6
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 2 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 3 / 1 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample2 : 1 / 1 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
@@ -55,12 +56,13 @@ Generated Fri May 12 12:34:28 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-research-study : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-specimen : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-task : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension : 3 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-population-info : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sequencingExperimentExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-workflowExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 7 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 20 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 1 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-bioinfo-analysis-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 0 / 2 / 1
@@ -88,6 +90,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-bioinfo-analysis-code.json ==
 == fsh-generated/resources/CodeSystem-cause-of-death-codes.json ==
+== fsh-generated/resources/CodeSystem-cqdg-dataset-cs.json ==
 == fsh-generated/resources/CodeSystem-cqdg-observation-code.json ==
 == fsh-generated/resources/CodeSystem-cqdg-study-cs.json ==
 == fsh-generated/resources/CodeSystem-data-category.json ==
@@ -95,6 +98,8 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/CodeSystem-disease-status.json ==
 == fsh-generated/resources/CodeSystem-document-format.json ==
 == fsh-generated/resources/CodeSystem-duo-codes.json ==
+ERROR: CodeSystem.where(url = 'http://purl.obolibrary.org/obo/duo.owl'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/duo-codes) does not match the URL (http://purl.obolibrary.org/obo/duo.owl)
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes: URL Mismatch https://fhir.cqdg.ca/CodeSystem/duo-codes vs http://purl.obolibrary.org/obo/duo.owl
 == fsh-generated/resources/CodeSystem-experimental-strategy.json ==
 == fsh-generated/resources/CodeSystem-family-type.json ==
 == fsh-generated/resources/CodeSystem-genome-build.json ==
@@ -111,12 +116,15 @@ WARNING: Condition/ConditionExample: Condition.meta.tag[0]: A code with no syste
 WARNING: Condition/ConditionExample: Condition.code.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample1.json ==
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[1]: Unknown Code 'dataset: ds_name 1' in the system 'https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs' for 'https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs#dataset: ds_name 1'
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement)
-INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: TGZ Archive File is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes')
+ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: Rule ext-1: 'Must have either extensions or value[x], not both' Failed
+ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: The Extension 'https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension' definition is for a simple extension, so it must contain a value
+INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File' is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample2.json ==
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-reads)
-INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: TGZ Archive File is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes')
+INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File' is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/Group-CQDGGroupExample.json ==
 WARNING: Group/CQDGGroupExample: Group.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/ImplementationGuide-fhir.cqdg.json ==
@@ -142,8 +150,8 @@ INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.category[0].codin
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
 ERROR: Specimen/SpecimenExample: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Specimen])
-WARNING: Specimen/SpecimenExample: Specimen.type.coding[0]: Wrong Display Name 'DNA' for http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434 - should be 'Blood' (for the language(s) 'en') for 'http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434'
-ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].system: The value provided ('http://purl.obolibrary.org/obo/ncit.owl') is not in the value set 'Ferlab.bio ValueSet/sample-type-tissue-source' (https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0), and a code is required from this value set) (error message = Unknown Code 'http://purl.obolibrary.org/obo/ncit.owl' in the system 'http://purl.obolibrary.org/obo/ncit.owl'; The provided code http://purl.obolibrary.org/obo/ncit.owl#http://purl.obolibrary.org/obo/ncit.owl is not in the value set 'https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs')
+ERROR: Specimen/SpecimenExample: Specimen.type.coding[0]: Wrong Display Name 'DNA' for http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434 - should be 'Blood' (for the language(s) 'en') for 'http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434'
+ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].system: The value provided ('http://purl.obolibrary.org/obo/ncit.owl') is not in the value set 'Ferlab.bio ValueSet/sample-type-tissue-source' (https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0), and a code is required from this value set) (error message = Unknown Code 'http://purl.obolibrary.org/obo/ncit.owl' in the system 'http://purl.obolibrary.org/obo/ncit.owl'; The provided code http://purl.obolibrary.org/obo/ncit.owl#http://purl.obolibrary.org/obo/ncit.owl is not in the value set 'https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0')
 == fsh-generated/resources/Specimen-SpecimenExample2.json ==
 INFORMATION: Specimen/SpecimenExample2: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0
 WARNING: Specimen/SpecimenExample2: Specimen.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
@@ -156,15 +164,15 @@ WARNING: StructureDefinition/AccessRequirements: StructureDefinition.context[0]:
 == fsh-generated/resources/StructureDefinition-AgeAtRecruitment.json ==
 == fsh-generated/resources/StructureDefinition-AgeOfDeath.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath.json ==
-WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[2].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.valueCodeableConcept.coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[3].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[36].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype.json ==
-WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[2].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.valueCodeableConcept.coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[3].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[36].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
 == fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation.json ==
-WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[2].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.valueCodeableConcept.coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[3].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[36].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-FullSizeExtension.json ==
@@ -184,6 +192,11 @@ WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefiniti
 == fsh-generated/resources/StructureDefinition-cqdg-specimen.json ==
 == fsh-generated/resources/StructureDefinition-cqdg-task.json ==
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-task'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-datasetExtension.json ==
+ERROR: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/dataset'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension.json - the canonical URL (https://fhir.cqdg.ca/StructureDefinition/datasetExtension) does not match the URL (https://fhir.cqdg.ca/StructureDefinition/dataset)
+ERROR: StructureDefinition.url: Resource id/url mismatch: datasetExtension/https://fhir.cqdg.ca/StructureDefinition/dataset
+WARNING: StructureDefinition/datasetExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension: URL Mismatch https://fhir.cqdg.ca/StructureDefinition/datasetExtension vs https://fhir.cqdg.ca/StructureDefinition/dataset
 == fsh-generated/resources/StructureDefinition-population-info.json ==
 WARNING: StructureDefinition/population-info: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/population-info'): The Implementation Guide contains no examples for this extension
@@ -192,39 +205,12 @@ WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.
 == fsh-generated/resources/StructureDefinition-workflowExtension.json ==
 WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/Task-CQDGTaskExample.json ==
-WARNING: Task/CQDGTaskExample: Task.output[3].type.coding[0]: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement - should be one of 2 choices: 'Sequencing Data Supplement, Sequencing Data Supplement' for the language(s) 'en' for 'https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement'
+ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0]: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement - should be one of 2 choices: 'Sequencing Data Supplement' or 'Sequencing Data Supplement' (for the language(s) 'en') for 'https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement'
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ValueSet-access-limitation-vs.json ==
-WARNING: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[0]: The code DUO:0000004 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-INFORMATION: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[0]: UNKNOWN_CODESYSTEM; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)
-WARNING: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[1]: The code DUO:0000006 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[2]: The code DUO:0000007 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[3]: The code DUO:0000011 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-limitation-vs: ValueSet.compose[0].include[0].concept[4]: The code DUO:0000042 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
 WARNING: ValueSet/access-limitation-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: ValueSet.where(id = 'access-limitation-vs'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/duo.owl
 == fsh-generated/resources/ValueSet-access-requirement-vs.json ==
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[0]: The code DUO:0000012 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-INFORMATION: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[0]: UNKNOWN_CODESYSTEM; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[1]: The code DUO:0000015 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[2]: The code DUO:0000016 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[3]: The code DUO:0000018 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[4]: The code DUO:0000019 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[5]: The code DUO:0000020 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[6]: The code DUO:0000021 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[7]: The code DUO:0000022 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[8]: The code DUO:0000024 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[9]: The code DUO:0000025 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[10]: The code DUO:0000026 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[11]: The code DUO:0000027 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[12]: The code DUO:0000028 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[13]: The code DUO:0000029 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[14]: The code DUO:00000043 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[15]: The code DUO:00000044 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[16]: The code DUO:00000045 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
-WARNING: ValueSet/access-requirement-vs: ValueSet.compose[0].include[0].concept[17]: The code DUO:00000046 is not valid in the system http://purl.obolibrary.org/obo/duo.owl
 WARNING: ValueSet/access-requirement-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: ValueSet.where(id = 'access-requirement-vs'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/duo.owl
 == fsh-generated/resources/ValueSet-bioinfo-analysis-vs.json ==
 WARNING: ValueSet/bioinfo-analysis-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated/resources/ValueSet-cause-of-death-vs.json ==

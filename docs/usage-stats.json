@@ -118,6 +118,64 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/dataset",
+      "title": "Ferlab.bio Extension/dataset",
+      "types": [
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/population-info",
       "title": "Ferlab.bio Extension/population-info",
       "types": [
@@ -139,7 +197,6 @@
         "string",
         "boolean",
         "string",
-        "Coding",
         "Coding",
         "string",
         "dateTime",
@@ -202,7 +259,6 @@
       "types": [
         "string",
         "string",
-        "Coding",
         "Coding",
         "base64Binary",
         "boolean",
@@ -383,6 +439,9 @@
     ],
     "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity": [
       "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/dataset": [
+      "ResearchStudy"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/population-info": [
       "ResearchStudy"

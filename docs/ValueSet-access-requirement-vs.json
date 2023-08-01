@@ -3,14 +3,14 @@
   "id" : "access-requirement-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/duo.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>DUO:0000012</td><td>research specific restrictions</td></tr><tr><td>DUO:0000015</td><td>no general methods research</td></tr><tr><td>DUO:0000016</td><td>genetic studies only</td></tr><tr><td>DUO:0000018</td><td>not for profit, non commercial use only</td></tr><tr><td>DUO:0000019</td><td>publication required</td></tr><tr><td>DUO:0000020</td><td>collaboration required</td></tr><tr><td>DUO:0000021</td><td>ethics approval required</td></tr><tr><td>DUO:0000022</td><td>geographical restriction</td></tr><tr><td>DUO:0000024</td><td>publication moratorium</td></tr><tr><td>DUO:0000025</td><td>time limit on use</td></tr><tr><td>DUO:0000026</td><td>user specific restriction</td></tr><tr><td>DUO:0000027</td><td>project specific restriction</td></tr><tr><td>DUO:0000028</td><td>institution specific restriction</td></tr><tr><td>DUO:0000029</td><td>return to database or resource</td></tr><tr><td>DUO:00000043</td><td>clinical care use</td></tr><tr><td>DUO:00000044</td><td>population origins or ancestry research prohibited</td></tr><tr><td>DUO:00000045</td><td>not for profit organisation use only</td></tr><tr><td>DUO:00000046</td><td>non-commercial use only</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-duo-codes.html\"><code>http://purl.obolibrary.org/obo/duo.owl</code></a></li></ul></div>"
   },
   "url" : "https://fhir.cqdg.ca/ValueSet/access-requirement-vs",
   "version" : "0.1.0",
   "name" : "AccessRequirementVS",
   "title" : "Ferlab.bio ValueSet/access-requirement",
-  "status" : "active",
-  "date" : "2023-05-12T12:33:13+00:00",
+  "status" : "draft",
+  "date" : "2023-08-01T16:12:28+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -22,79 +22,7 @@
   "description" : "Requirements before access",
   "compose" : {
     "include" : [{
-      "system" : "http://purl.obolibrary.org/obo/duo.owl",
-      "concept" : [{
-        "code" : "DUO:0000012",
-        "display" : "research specific restrictions"
-      },
-      {
-        "code" : "DUO:0000015",
-        "display" : "no general methods research"
-      },
-      {
-        "code" : "DUO:0000016",
-        "display" : "genetic studies only"
-      },
-      {
-        "code" : "DUO:0000018",
-        "display" : "not for profit, non commercial use only"
-      },
-      {
-        "code" : "DUO:0000019",
-        "display" : "publication required"
-      },
-      {
-        "code" : "DUO:0000020",
-        "display" : "collaboration required"
-      },
-      {
-        "code" : "DUO:0000021",
-        "display" : "ethics approval required"
-      },
-      {
-        "code" : "DUO:0000022",
-        "display" : "geographical restriction"
-      },
-      {
-        "code" : "DUO:0000024",
-        "display" : "publication moratorium"
-      },
-      {
-        "code" : "DUO:0000025",
-        "display" : "time limit on use"
-      },
-      {
-        "code" : "DUO:0000026",
-        "display" : "user specific restriction"
-      },
-      {
-        "code" : "DUO:0000027",
-        "display" : "project specific restriction"
-      },
-      {
-        "code" : "DUO:0000028",
-        "display" : "institution specific restriction"
-      },
-      {
-        "code" : "DUO:0000029",
-        "display" : "return to database or resource"
-      },
-      {
-        "code" : "DUO:00000043",
-        "display" : "clinical care use"
-      },
-      {
-        "code" : "DUO:00000044",
-        "display" : "population origins or ancestry research prohibited"
-      },
-      {
-        "code" : "DUO:00000045",
-        "display" : "not for profit organisation use only"
-      },
-      {
-        "code" : "DUO:00000046",
-        "display" : "non-commercial use only"
-      }]
+      "system" : "http://purl.obolibrary.org/obo/duo.owl"
     }]
   }
 }

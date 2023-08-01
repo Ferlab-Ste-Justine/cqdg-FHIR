@@ -102,6 +102,21 @@
         ]
       },
       {
+        "id": "ResearchStudy.extension:dataset",
+        "path": "ResearchStudy.extension",
+        "sliceName": "dataset",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/dataset"
+            ]
+          }
+        ]
+      },
+      {
         "id": "ResearchStudy.identifier",
         "path": "ResearchStudy.identifier",
         "slicing": {

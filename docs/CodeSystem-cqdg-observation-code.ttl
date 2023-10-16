@@ -10,15 +10,15 @@
   fhir:id [ fhir:v "cqdg-observation-code"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDGObservationCode"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/cqdg-observation"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-08-01T16:12:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-10-16T18:33:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;

@@ -23,6 +23,7 @@ Usage: #example
 * extension[sequencingExperimentExtension].extension[platform].valueString = "Illumina NovaSeq 6000 S4 PE150"
 * extension[sequencingExperimentExtension].extension[runDate].valueDateTime = "2020-11-06"
 * extension[sequencingExperimentExtension].extension[labAliquotId].valueString = "MPS12348274-B04"
+* extension[sequencingExperimentExtension].extension[ldmSampleId].valueString = "S03344"
 * status = #completed
 * intent = #order
 * priority = #routine

@@ -12,6 +12,24 @@
       }
     ]
   },
+  "content": [
+    {
+      "attachment": {
+        "extension": [
+          {
+            "url": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
+          }
+        ],
+        "contentType": "application/octet-stream",
+        "url": "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
+      },
+      "format": {
+        "code": "TGZ",
+        "system": "https://fhir.cqdg.ca/CodeSystem/document-format",
+        "display": "TGZ Archive File"
+      }
+    }
+  ],
   "securityLabel": [
     {
       "coding": [
@@ -45,19 +63,6 @@
   "subject": {
     "reference": "Patient/PatientExample"
   },
-  "content": [
-    {
-      "attachment": {
-        "contentType": "application/octet-stream",
-        "url": "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
-      },
-      "format": {
-        "code": "TGZ",
-        "system": "https://fhir.cqdg.ca/CodeSystem/document-format",
-        "display": "TGZ Archive File"
-      }
-    }
-  ],
   "context": {
     "related": [
       {

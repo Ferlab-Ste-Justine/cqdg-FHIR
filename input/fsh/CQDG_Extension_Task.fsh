@@ -31,7 +31,8 @@ readLength 0..1 MS and
 experimentalStrategy 0..1 and
 platform 1..1 MS and
 runDate 0..1 MS and
-labAliquotId 0..1 MS
+labAliquotId 0..1 MS and
+ldmSampleId 0..1 MS
 
 * extension[runName] ^definition = "No description"
 * extension[runName].value[x] only string
@@ -53,3 +54,6 @@ labAliquotId 0..1 MS
 
 * extension[labAliquotId] ^definition = "No description"
 * extension[labAliquotId].value[x] only string
+
+* extension[ldmSampleId] ^definition = "No description"
+* extension[ldmSampleId].value[x] only string

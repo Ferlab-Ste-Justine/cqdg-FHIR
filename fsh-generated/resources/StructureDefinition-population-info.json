@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "population-info",
   "url": "https://fhir.cqdg.ca/StructureDefinition/population-info",
-  "version": "0.1.0",
   "name": "PopulationInfo",
   "title": "Ferlab.bio Extension/population-info",
   "status": "active",
@@ -40,8 +39,23 @@
         "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/population-info"
       },
       {
-        "id": "Extension.valueCoding",
-        "path": "Extension.valueCoding",
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueCoding",
+        "path": "Extension.value[x]",
+        "sliceName": "valueCoding",
         "min": 0,
         "max": "1",
         "type": [
@@ -51,16 +65,16 @@
         ]
       },
       {
-        "id": "Extension.valueCoding.system",
-        "path": "Extension.valueCoding.system",
+        "id": "Extension.value[x]:valueCoding.system",
+        "path": "Extension.value[x].system",
         "binding": {
           "strength": "required",
           "valueSet": "https://fhir.cqdg.ca/ValueSet/population-vs"
         }
       },
       {
-        "id": "Extension.valueCoding.code",
-        "path": "Extension.valueCoding.code",
+        "id": "Extension.value[x]:valueCoding.code",
+        "path": "Extension.value[x].code",
         "binding": {
           "strength": "required",
           "valueSet": "https://fhir.cqdg.ca/ValueSet/population-vs"

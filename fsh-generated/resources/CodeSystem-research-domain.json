@@ -8,12 +8,12 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/research-domain",
   "concept": [
     {
-      "code": "Aging",
+      "code": "aging",
       "display": "Aging study",
       "designation": [
         {
           "use": {
-            "code": "Aging",
+            "code": "aging",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Aging study"
@@ -21,12 +21,12 @@
       ]
     },
     {
-      "code": "Birth-Defect",
+      "code": "birth-defect",
       "display": "Birth defect study",
       "designation": [
         {
           "use": {
-            "code": "Birth-Defect",
+            "code": "birth-defect",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Birth defect study"
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "code": "Cancer",
+      "code": "cancer",
       "display": "Cancer study",
       "designation": [
         {
           "use": {
-            "code": "Cancer",
+            "code": "cancer",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "cancer study"
@@ -47,12 +47,12 @@
       ]
     },
     {
-      "code": "Circulatory-and-Respiratory-Health",
+      "code": "circulatory-and-respiratory-health",
       "display": "Circulatory and Respiratory Health study",
       "designation": [
         {
           "use": {
-            "code": "Circulatory-and-Respiratory-Health",
+            "code": "circulatory-and-respiratory-health",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Circulatory and Respiratory Health study"
@@ -60,13 +60,13 @@
       ]
     },
     {
-      "code": "General-Health",
+      "code": "general-health",
       "display": "General Health",
       "definition": "General Health study",
       "designation": [
         {
           "use": {
-            "code": "General-Health",
+            "code": "general-health",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "General Health study"
@@ -74,12 +74,12 @@
       ]
     },
     {
-      "code": "Infection-and-Immunity",
+      "code": "infection-and-immunity",
       "display": "Infection and Immunity study",
       "designation": [
         {
           "use": {
-            "code": "Infection-and-Immunity",
+            "code": "infection-and-immunity",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Infection and Immunity study"
@@ -87,12 +87,12 @@
       ]
     },
     {
-      "code": "Musculoskeletal-Health-and-Arthritis",
+      "code": "musculoskeletal-health-and-arthritis",
       "display": "Musculoskeletal Health and Arthritis study",
       "designation": [
         {
           "use": {
-            "code": "Musculoskeletal-Health-and-Arthritis",
+            "code": "musculoskeletal-health-and-arthritis",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Musculoskeletal Health and Arthritis study"
@@ -100,13 +100,13 @@
       ]
     },
     {
-      "code": "Neurodevelopmental-Conditions",
+      "code": "neurodevelopmental-conditions",
       "display": "Neurodevelopmental Conditions",
       "definition": "Neurodevelopmental Conditions study",
       "designation": [
         {
           "use": {
-            "code": "Neurodevelopmental-Conditions",
+            "code": "neurodevelopmental-conditions",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Neurodevelopmental Conditions study"
@@ -114,13 +114,13 @@
       ]
     },
     {
-      "code": "Neurosciences-Mental-Health-and-Addiction",
+      "code": "neurosciences-mental-health-and-addiction",
       "display": "Neurosciences, Mental Health and Addiction",
       "definition": "Neurosciences, Mental Health and Addiction study",
       "designation": [
         {
           "use": {
-            "code": "Neurosciences-Mental-Health-and-Addiction",
+            "code": "neurosciences-mental-health-and-addiction",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Neurosciences, Mental Health and Addiction study"
@@ -128,13 +128,13 @@
       ]
     },
     {
-      "code": "Nutrition-Metabolism-and-Diabetes",
+      "code": "nutrition-metabolism-and-diabetes",
       "display": "Nutrition, Metabolism and Diabetes",
       "definition": "Nutrition, Metabolism and Diabetes study",
       "designation": [
         {
           "use": {
-            "code": "Nutrition-Metabolism-and-Diabetes",
+            "code": "nutrition-metabolism-and-diabetes",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Nutrition, Metabolism and Diabetes study"
@@ -142,13 +142,13 @@
       ]
     },
     {
-      "code": "Population-Genomics",
+      "code": "population-genomics",
       "display": "Population Genomics",
       "definition": "Population Genomics study",
       "designation": [
         {
           "use": {
-            "code": "Population-Genomics",
+            "code": "population-genomics",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Population Genomics study"
@@ -156,13 +156,13 @@
       ]
     },
     {
-      "code": "Rare-Diseases",
+      "code": "rare-diseases",
       "display": "Rare Diseases",
       "definition": "Rare Diseases study",
       "designation": [
         {
           "use": {
-            "code": "Rare-Diseases",
+            "code": "rare-diseases",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Rare Diseases study"
@@ -170,13 +170,13 @@
       ]
     },
     {
-      "code": "Not-Applicable",
+      "code": "not-applicable",
       "display": "Not Applicable",
       "definition": "Not Applicable study",
       "designation": [
         {
           "use": {
-            "code": "Not-Applicable",
+            "code": "not-applicable",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Not Applicable study"
@@ -184,13 +184,13 @@
       ]
     },
     {
-      "code": "Other",
+      "code": "other",
       "display": "Other",
       "definition": "Other study",
       "designation": [
         {
           "use": {
-            "code": "Other",
+            "code": "other",
             "system": "https://fhir.cqdg.ca/CodeSystem/research-domain"
           },
           "value": "Other study"

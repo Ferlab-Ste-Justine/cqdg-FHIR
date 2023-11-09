@@ -1,0 +1,215 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://purl.obolibrary.org/obo/duo.owl",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DUOCodes",
+      "title" : "Ferlab.bio CodeSystem/duo-codes",
+      "description" : "DUO codes",
+      "uses" : {
+      },
+      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
+      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+    },
+    {
+      "url" : "http://purl.obolibrary.org/obo/mondo.owl",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MONDO",
+      "title" : "Mondo Disease Ontology",
+      "description" : "The Mondo Disease Ontology is a semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology that contains cross-species disease terminology.\r\n\r\nNumerous sources for disease definitions and data models currently exist, which include HPO, OMIM, SNOMED CT, ICD, PhenoDB, MedDRA, MedGen, ORDO, DO, GARD, etc; however, these sources partially overlap and sometimes conflict, making it difficult to know definitively how they relate to each other. This has resulted in a proliferation of mappings between disease entries in different resources; however mappings are problematic: collectively, they are expensive to create and maintain. Most importantly, the mappings lack completeness, accuracy, and precision; as a result, mapping calls are often inconsistent between resources. The UMLS provides intermediate concepts through which other resources can be mapped, but these mappings suffer from the same challenges: they are not guaranteed to be one-to-one, especially in areas with evolving disease concepts such as rare disease.\r\n\r\nIn order to address the lack of a unified disease terminology that provides precise equivalences between disease concepts, we created Mondo, which provides a logic-based structure for unifying multiple disease resources.\r\n\r\nMondo’s development is coordinated with the Human Phenotype Ontology (HPO), which describes the individual phenotypic features that constitute a disease. Like the HPO, Mondo provides a hierarchical structure which can be used for classification or “rolling up” diseases to higher level groupings. It provides mappings to other disease resources, but in contrast to other mappings between ontologies, we precisely annotate each mapping using strict semantics, so that we know when two disease names or identifiers are equivalent or one-to-one, in contrast to simply being closely related.\r\n\r\nFor more information, see [https://mondo.monarchinitiative.org/](https://mondo.monarchinitiative.org/)",
+      "oids" : ["2.16.840.1.113883.3.9216"],
+      "uses" : {
+      },
+      "ValueSet-cqdg-diagnosis-vs.html" : "Ferlab.bio ValueSet/diagnosis"
+    },
+    {
+      "url" : "http://purl.obolibrary.org/obo/ncit.owl",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCSampleType",
+      "title" : "Ferlab.bio CodeSystem/sample-type",
+      "description" : "Qc sample type",
+      "uses" : {
+      },
+      "ValueSet-sample-type-tissue-source-vs.html" : "Ferlab.bio ValueSet/sample-type-tissue-source"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BioinfoAnalysisCode",
+      "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
+      "description" : "Bioinformatics analysis code",
+      "uses" : {
+      },
+      "ValueSet-bioinfo-analysis-vs.html" : "Ferlab.bio ValueSet/bioinfo-analysis"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CauseOfDeathCodes",
+      "title" : "Ferlab.bio CodeSystem/cause-of-death",
+      "description" : "Codes for cause of death",
+      "uses" : {
+      },
+      "ValueSet-cause-of-death-vs.html" : "Ferlab.bio ValueSet/cause-of-death"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGObservationCode",
+      "title" : "Ferlab.bio CodeSystem/cqdg-observation",
+      "description" : "CQDG Observation codes",
+      "uses" : {
+      },
+      "ValueSet-cqdg-observation-category.html" : "Ferlab.bio ValueSet/cqdg-observation"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGStudyCS",
+      "title" : "Ferlab.bio CodeSystem/cqdg-study",
+      "description" : "CQDG study code system",
+      "uses" : {
+      },
+      "ValueSet-study-vs.html" : "Ferlab.bio ValueSet/cqdg-study"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataCategory",
+      "title" : "Ferlab.bio CodeSystem/data-category",
+      "description" : "Data category",
+      "uses" : {
+      },
+      "ValueSet-data-category-vs.html" : "Ferlab.bio ValueSet/data-category"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataType",
+      "title" : "Ferlab.bio CodeSystem/data-type",
+      "description" : "Data Type",
+      "uses" : {
+      },
+      "ValueSet-data-type-vs.html" : "Ferlab.bio ValueSet/data-type"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DiseaseStatusCS",
+      "title" : "Ferlab.bio CodeSystem/disease-status",
+      "description" : "Disease status code system",
+      "uses" : {
+      },
+      "ValueSet-disease-status-vs.html" : "Ferlab.bio ValueSet/disease-status"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DocumentForamt",
+      "title" : "Ferlab.bio CodeSystem/document-format",
+      "description" : "Document format",
+      "uses" : {
+      },
+      "ValueSet-file-format.html" : "Ferlab.bio ValueSet/file-format"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ExperimentalStrategy",
+      "title" : "Ferlab.bio CodeSystem/experimental-strategy",
+      "description" : "Experimental strategy",
+      "uses" : {
+      },
+      "ValueSet-experimental-strategy-vs.html" : "Ferlab.bio ValueSet/experimental-strategy"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "FamilyType",
+      "title" : "Ferlab.bio CodeSystem/family-type",
+      "description" : "Family type",
+      "uses" : {
+      },
+      "ValueSet-family-type-vs.html" : "Ferlab.bio ValueSet/family-type"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenomeBuild",
+      "title" : "Ferlab.bio CodeSystem/genome-build",
+      "description" : "Genome build",
+      "uses" : {
+      },
+      "ValueSet-genome-build-vs.html" : "Ferlab.bio ValueSet/genome-build"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/population",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "Population",
+      "title" : "Ferlab.bio CodeSystem/population",
+      "description" : "Population",
+      "uses" : {
+      },
+      "ValueSet-population-vs.html" : "Ferlab.bio ValueSet/population"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCEthnicity",
+      "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
+      "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+      "uses" : {
+      },
+      "ValueSet-qc-ethnicity-vs.html" : "Ferlab.bio ValueSet/qa-ethnicity"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResearchDomain",
+      "title" : "Ferlab.bio CodeSystem/research-domain",
+      "description" : "Research domain",
+      "uses" : {
+      },
+      "ValueSet-research-domain-vs.html" : "Ferlab.bio ValueSet/research-domain"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "TumorNormalDesignation",
+      "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
+      "description" : "Tumor normal designation",
+      "uses" : {
+      },
+      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "V3RoleCode",
+      "title" : "Ferlab.bio CodeSystem/v3-roles",
+      "description" : "V3 role code",
+      "uses" : {
+      },
+      "ValueSet-relationship-to-proband.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://purl.obolibrary.org/obo/duo.owl",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DUOCodes",
+      "title" : "Ferlab.bio CodeSystem/duo-codes",
+      "description" : "DUO codes"
+    },
+    {
+      "url" : "http://purl.obolibrary.org/obo/ncit.owl",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCSampleType",
+      "title" : "Ferlab.bio CodeSystem/sample-type",
+      "description" : "Qc sample type"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BioinfoAnalysisCode",
+      "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
+      "description" : "Bioinformatics analysis code"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CauseOfDeathCodes",
+      "title" : "Ferlab.bio CodeSystem/cause-of-death",
+      "description" : "Codes for cause of death"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGDatasetCS",
+      "title" : "Ferlab.bio CodeSystem/cqdg-dataset",
+      "description" : "CQDG study dataset code system"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGObservationCode",
+      "title" : "Ferlab.bio CodeSystem/cqdg-observation",
+      "description" : "CQDG Observation codes"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGStudyCS",
+      "title" : "Ferlab.bio CodeSystem/cqdg-study",
+      "description" : "CQDG study code system"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataCategory",
+      "title" : "Ferlab.bio CodeSystem/data-category",
+      "description" : "Data category"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataType",
+      "title" : "Ferlab.bio CodeSystem/data-type",
+      "description" : "Data Type"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DiseaseStatusCS",
+      "title" : "Ferlab.bio CodeSystem/disease-status",
+      "description" : "Disease status code system"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DocumentForamt",
+      "title" : "Ferlab.bio CodeSystem/document-format",
+      "description" : "Document format"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ExperimentalStrategy",
+      "title" : "Ferlab.bio CodeSystem/experimental-strategy",
+      "description" : "Experimental strategy"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "FamilyType",
+      "title" : "Ferlab.bio CodeSystem/family-type",
+      "description" : "Family type"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenomeBuild",
+      "title" : "Ferlab.bio CodeSystem/genome-build",
+      "description" : "Genome build"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/population",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "Population",
+      "title" : "Ferlab.bio CodeSystem/population",
+      "description" : "Population"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCEthnicity",
+      "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
+      "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResearchDomain",
+      "title" : "Ferlab.bio CodeSystem/research-domain",
+      "description" : "Research domain"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "TumorNormalDesignation",
+      "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
+      "description" : "Tumor normal designation"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "V3RoleCode",
+      "title" : "Ferlab.bio CodeSystem/v3-roles",
+      "description" : "V3 role code"
+    }
+  ]
+}

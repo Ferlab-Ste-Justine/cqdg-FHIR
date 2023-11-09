@@ -2,8 +2,8 @@
 =========================================
 
 err = 17, warn = 70, info = 10
-IG Publisher Version: 1.4.15
-Generated Mon Oct 16 18:35:10 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+IG Publisher Version: 1.5.2
+Generated Thu Nov 09 20:07:53 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 0 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 0 / 1
@@ -144,7 +144,7 @@ WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has 
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Patient])
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Patient])
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==
-INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0
+INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[0].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[1].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[2].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
@@ -154,19 +154,19 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[5].value.of
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[6].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.category[0].coding[0]: Code System URI 'https://fhir.cqdg.ca/CodeSystem/study-domain' is unknown so the code cannot be validated
 == fsh-generated/resources/Specimen-SpecimenExample.json ==
-INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0
+INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Specimen])
 ERROR: Specimen/SpecimenExample: Specimen.type.coding[0]: Wrong Display Name 'DNA' for http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434 - should be one of 2 choices: 'Blood' or 'Blood' (for the language(s) '--') for 'http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434'
 ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].system: The value provided ('http://purl.obolibrary.org/obo/ncit.owl') is not in the value set 'Ferlab.bio ValueSet/sample-type-tissue-source' (https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0), and a code is required from this value set  (error message = Unknown Code 'http://purl.obolibrary.org/obo/ncit.owl' in the system 'http://purl.obolibrary.org/obo/ncit.owl|0.1.0'; The provided code 'http://purl.obolibrary.org/obo/ncit.owl#http://purl.obolibrary.org/obo/ncit.owl' is not in the value set 'https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0')
 == fsh-generated/resources/Specimen-SpecimenExample2.json ==
-INFORMATION: Specimen/SpecimenExample2: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0
+INFORMATION: Specimen/SpecimenExample2: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample2: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample2: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Specimen])
 == fsh-generated/resources/StructureDefinition-AccessLimitations.json ==
-WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type for AccessLimitations: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-AccessRequirements.json ==
-WARNING: StructureDefinition/AccessRequirements: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/AccessRequirements: StructureDefinition.context[0]: Review the extension type for AccessRequirements: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-AgeAtEvent.json ==
 == fsh-generated/resources/StructureDefinition-AgeAtRecruitment.json ==
 == fsh-generated/resources/StructureDefinition-AgeOfDeath.json ==
@@ -183,9 +183,9 @@ WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDef
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[36].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-FullSizeExtension.json ==
-WARNING: StructureDefinition/FullSizeExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/FullSizeExtension: StructureDefinition.context[0]: Review the extension type for FullSizeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-QCEthnicity.json ==
-WARNING: StructureDefinition/QCEthnicity: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/QCEthnicity: StructureDefinition.context[0]: Review the extension type for QCEthnicity: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-cqdg-condition.json ==
 == fsh-generated/resources/StructureDefinition-cqdg-document-reference.json ==
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference'): The Implementation Guide contains no examples for this profile
@@ -202,15 +202,15 @@ WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefiniti
 == fsh-generated/resources/StructureDefinition-datasetExtension.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/dataset'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension.json - the canonical URL (https://fhir.cqdg.ca/StructureDefinition/datasetExtension) does not match the URL (https://fhir.cqdg.ca/StructureDefinition/dataset)
 ERROR: StructureDefinition.url: Resource id/url mismatch: datasetExtension/https://fhir.cqdg.ca/StructureDefinition/dataset
-WARNING: StructureDefinition/datasetExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/datasetExtension: StructureDefinition.context[0]: Review the extension type for datasetExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension: URL Mismatch https://fhir.cqdg.ca/StructureDefinition/datasetExtension vs https://fhir.cqdg.ca/StructureDefinition/dataset
 == fsh-generated/resources/StructureDefinition-population-info.json ==
-WARNING: StructureDefinition/population-info: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/population-info: StructureDefinition.context[0]: Review the extension type for population-info: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/population-info'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-sequencingExperimentExtension.json ==
-WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.context[0]: Review the extension type for sequencingExperimentExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-workflowExtension.json ==
-WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type for workflowExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/Task-CQDGTaskExample.json ==
 ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0]: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement - should be one of 2 choices: 'Sequencing Data Supplement' or 'Sequencing Data Supplement' (for the language(s) '--') for 'https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement'
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles

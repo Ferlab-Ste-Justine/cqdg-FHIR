@@ -1,0 +1,196 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/access-limitation-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AccessLimitationsVS",
+      "title" : "Ferlab.bio ValueSet/access-limitation",
+      "description" : "Restriction on access",
+      "systems" : ["http://purl.obolibrary.org/obo/duo.owl"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/access-requirement-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AccessRequirementVS",
+      "title" : "Ferlab.bio ValueSet/access-requirement",
+      "description" : "Requirements before access",
+      "systems" : ["http://purl.obolibrary.org/obo/duo.owl"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BioinfoAnalysisVS",
+      "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
+      "description" : "Bioinfo Analysis ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/cause-of-death-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CauseOfDeathVS",
+      "title" : "Ferlab.bio ValueSet/cause-of-death",
+      "description" : "Cause of death",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGDiagnosisVS",
+      "title" : "Ferlab.bio ValueSet/diagnosis",
+      "description" : "Diagnosis ValueSet",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/icd10-CA",
+        "http://purl.obolibrary.org/obo/mondo.owl"
+      ]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-observation-category",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGObservationCategory",
+      "title" : "Ferlab.bio ValueSet/cqdg-observation",
+      "description" : "Observation ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataCategoryVS",
+      "title" : "Ferlab.bio ValueSet/data-category",
+      "description" : "Data Category ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataTypeVS",
+      "title" : "Ferlab.bio ValueSet/data-type",
+      "description" : "Date Type ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-type"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/disease-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DiseaseStatusVS",
+      "title" : "Ferlab.bio ValueSet/disease-status",
+      "description" : "Disease Status ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/disease-status"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGFamilyTypeVS",
+      "title" : "Ferlab.bio ValueSet/experimental-strategy",
+      "description" : "Experimental Strategy ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/experimental-strategy"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/family-type-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "FamilyTypeVS",
+      "title" : "Ferlab.bio ValueSet/family-type",
+      "description" : "Family Type ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/family-type"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/file-format",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "FileFormat",
+      "title" : "Ferlab.bio ValueSet/file-format",
+      "description" : "File Format ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/document-format"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenomeBuildVS",
+      "title" : "Ferlab.bio ValueSet/genome-build",
+      "description" : "Genome Build ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/genome-build"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/phenotype-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PhenotypeVS",
+      "title" : "Ferlab.bio ValueSet/phenotype",
+      "description" : "Phenotype ValueSet",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/population-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PopulationVS",
+      "title" : "Ferlab.bio ValueSet/population",
+      "description" : "Population ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/population"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCEthnicityVS",
+      "title" : "Ferlab.bio ValueSet/qa-ethnicity",
+      "description" : "QCEthnicity ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RelationshipToProband",
+      "title" : "Ferlab.bio ValueSet/relationship-to-proband",
+      "description" : "Relationship To Proband ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/v3-role-code"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/research-domain-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResearchDomain",
+      "title" : "Ferlab.bio ValueSet/research-domain",
+      "description" : "Study Domain ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/research-domain"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SampleTypeTissueSourceVS",
+      "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
+      "description" : "Sample Type Tissue Source ValueSet",
+      "systems" : ["http://purl.obolibrary.org/obo/ncit.owl"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "StudyVS",
+      "title" : "Ferlab.bio ValueSet/cqdg-study",
+      "description" : "Study ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "TumorNormalDesignationVS",
+      "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
+      "description" : "Tumor Normal Designation ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"]
+    }
+  ]
+}

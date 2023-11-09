@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="16d36df8-7259-4c08-a46f-2f084120ff4c"/>
+  <id value="f19f7fa4-0ac8-4c89-9733-5908e842cbea"/>
   <meta>
-    <lastUpdated value="2023-10-16T18:33:36.286+00:00"/>
+    <lastUpdated value="2023-11-09T20:06:51.225+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -221,10 +221,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f700364a-78c2-4b9c-87cd-215ed2870182"/>
-          <timestamp value="2023-10-16T18:34:23+00:00"/>
+          <identifier value="urn:uuid:8336dfb2-2550-4e3b-8e6d-d0d1abb5bfee"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -568,10 +568,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5715b128-22d5-44a8-9548-147246d59cdc"/>
-          <timestamp value="2023-10-16T18:34:23+00:00"/>
+          <identifier value="urn:uuid:c8d0f1e3-10c0-4b6d-b3a2-3a301ad86bd9"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -771,10 +771,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:68bf75c8-e566-4763-8a97-dca91c0ca841"/>
-          <timestamp value="2023-10-16T18:34:23+00:00"/>
+          <identifier value="urn:uuid:f56b2d26-c4a5-4438-948a-70348bd048ea"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -908,10 +908,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b646a5d9-dec3-4ee5-8f72-04ce4d86a0ab"/>
-          <timestamp value="2023-10-16T18:34:23+00:00"/>
+          <identifier value="urn:uuid:42a33eaf-f25b-4018-a932-c310e313d2e3"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1036,10 +1036,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:19cfc763-1855-43e7-b0b1-74258cc3eba6"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:97f81d8b-736a-4862-ab19-6d78d1a5cda8"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1117,10 +1117,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8e536e79-f883-4716-96f6-75276b053bf6"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:cf5dd666-e24b-4cce-b70d-eb505c7e5d97"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1226,10 +1226,10 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:81b94a88-796c-410e-85ff-ddbc27593f95"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:da2b97ec-6b8f-4e1a-9479-47e12b87c5cb"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1333,10 +1333,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:02fb946f-b203-4e07-ac7f-3a445286164e"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:d31d3060-bee6-4512-b85f-6e1ddb8501b5"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1420,10 +1420,10 @@
         <name value="CQDGFamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:16eb34f7-f9f0-457d-afb9-ee7124b8951f"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:231fa662-2e78-45af-b449-4b6d22604bbd"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1523,10 +1523,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2035cf3c-b2ac-4e11-9280-b7c076dd98d6"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:18c6efa5-3f06-4ea9-9283-002019fa041e"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1660,10 +1660,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8b2ff4af-aef2-4d75-80bc-af8f84133920"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:059d4026-97ca-42bc-915b-d7d4ef902d95"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1756,10 +1756,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:19ebe7cc-c000-4291-88ed-82cb862cde77"/>
-          <timestamp value="2023-10-16T18:34:24+00:00"/>
+          <identifier value="urn:uuid:fd2aff25-70ce-4dd5-b1d5-f4fc0fde34f1"/>
+          <timestamp value="2023-11-09T20:07:27+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1833,10 +1833,10 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:01f5c5f9-2c3e-45c1-878e-4a22693619c2"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:6eae38be-54ff-46b0-8e50-a8bedb4ab88a"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2050,10 +2050,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3b9e9487-3cf1-4a64-a3fb-7285d179b418"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:70da1d9b-eb05-4547-81c4-c1101617ef9b"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2249,10 +2249,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f1ff74b3-d35b-4c33-b036-3a34a45ac6c3"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:ffe5bcf4-e180-4d3a-a24f-1bffb517688e"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2354,8 +2354,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Aging"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Aging">Aging</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-aging"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-aging">aging</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Aging study</td>
@@ -2365,8 +2365,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Birth-Defect"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Birth-Defect">Birth-Defect</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-birth-defect"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-birth-defect">birth-defect</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Birth defect study</td>
@@ -2376,8 +2376,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Cancer"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Cancer">Cancer</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-cancer"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-cancer">cancer</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Cancer study</td>
@@ -2387,8 +2387,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Circulatory-and-Respiratory-Health"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Circulatory-and-Respiratory-Health">Circulatory-and-Respiratory-Health</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-circulatory-and-respiratory-health"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-circulatory-and-respiratory-health">circulatory-and-respiratory-health</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Circulatory and Respiratory Health study</td>
@@ -2398,8 +2398,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-General-Health"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-General-Health">General-Health</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-general-health"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-general-health">general-health</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>General Health</td>
@@ -2412,8 +2412,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Infection-and-Immunity"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Infection-and-Immunity">Infection-and-Immunity</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-infection-and-immunity"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-infection-and-immunity">infection-and-immunity</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Infection and Immunity study</td>
@@ -2423,8 +2423,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Musculoskeletal-Health-and-Arthritis"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Musculoskeletal-Health-and-Arthritis">Musculoskeletal-Health-and-Arthritis</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-musculoskeletal-health-and-arthritis"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-musculoskeletal-health-and-arthritis">musculoskeletal-health-and-arthritis</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Musculoskeletal Health and Arthritis study</td>
@@ -2434,8 +2434,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Neurodevelopmental-Conditions"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Neurodevelopmental-Conditions">Neurodevelopmental-Conditions</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-neurodevelopmental-conditions"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-neurodevelopmental-conditions">neurodevelopmental-conditions</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Neurodevelopmental Conditions</td>
@@ -2448,8 +2448,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Neurosciences-Mental-Health-and-Addiction"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Neurosciences-Mental-Health-and-Addiction">Neurosciences-Mental-Health-and-Addiction</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-neurosciences-mental-health-and-addiction"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-neurosciences-mental-health-and-addiction">neurosciences-mental-health-and-addiction</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Neurosciences, Mental Health and Addiction</td>
@@ -2462,8 +2462,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Nutrition-Metabolism-and-Diabetes"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Nutrition-Metabolism-and-Diabetes">Nutrition-Metabolism-and-Diabetes</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-nutrition-metabolism-and-diabetes"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-nutrition-metabolism-and-diabetes">nutrition-metabolism-and-diabetes</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Nutrition, Metabolism and Diabetes</td>
@@ -2476,8 +2476,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Population-Genomics"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Population-Genomics">Population-Genomics</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-population-genomics"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-population-genomics">population-genomics</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Population Genomics</td>
@@ -2490,8 +2490,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Rare-Diseases"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Rare-Diseases">Rare-Diseases</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-rare-diseases"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-rare-diseases">rare-diseases</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Rare Diseases</td>
@@ -2504,8 +2504,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Not-Applicable"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Not-Applicable">Not-Applicable</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-not-applicable"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-not-applicable">not-applicable</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Not Applicable</td>
@@ -2518,8 +2518,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-Other"> </a>  
-                  <a href="CodeSystem-research-domain.html#research-domain-Other">Other</a>
+                  <a name="https---fhir.cqdg.ca-CodeSystem-research-domain-other"> </a>  
+                  <a href="CodeSystem-research-domain.html#research-domain-other">other</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/research-domain</td>
                 <td>Other</td>
@@ -2538,10 +2538,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:835c02a7-9088-4224-a728-acc1fbd57e9e"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:3b5d7885-d601-437a-a0f6-7165cce6b5b4"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2553,72 +2553,72 @@
           </parameter>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Aging"/>
+            <code value="aging"/>
             <display value="Aging study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Birth-Defect"/>
+            <code value="birth-defect"/>
             <display value="Birth defect study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Cancer"/>
+            <code value="cancer"/>
             <display value="Cancer study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Circulatory-and-Respiratory-Health"/>
+            <code value="circulatory-and-respiratory-health"/>
             <display value="Circulatory and Respiratory Health study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="General-Health"/>
+            <code value="general-health"/>
             <display value="General Health"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Infection-and-Immunity"/>
+            <code value="infection-and-immunity"/>
             <display value="Infection and Immunity study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Musculoskeletal-Health-and-Arthritis"/>
+            <code value="musculoskeletal-health-and-arthritis"/>
             <display value="Musculoskeletal Health and Arthritis study"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Neurodevelopmental-Conditions"/>
+            <code value="neurodevelopmental-conditions"/>
             <display value="Neurodevelopmental Conditions"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Neurosciences-Mental-Health-and-Addiction"/>
+            <code value="neurosciences-mental-health-and-addiction"/>
             <display value="Neurosciences, Mental Health and Addiction"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Nutrition-Metabolism-and-Diabetes"/>
+            <code value="nutrition-metabolism-and-diabetes"/>
             <display value="Nutrition, Metabolism and Diabetes"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Population-Genomics"/>
+            <code value="population-genomics"/>
             <display value="Population Genomics"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Rare-Diseases"/>
+            <code value="rare-diseases"/>
             <display value="Rare Diseases"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Not-Applicable"/>
+            <code value="not-applicable"/>
             <display value="Not Applicable"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-            <code value="Other"/>
+            <code value="other"/>
             <display value="Other"/>
           </contains>
         </expansion>
@@ -2704,10 +2704,10 @@
         <name value="SampleTypeTissueSourceVS"/>
         <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c80157e9-f545-4dd0-a652-7776ccd02c2b"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:faa27470-b887-4708-a497-fc27f288a5b5"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2824,10 +2824,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:172e91d2-fbc5-474d-b091-87b6041e4327"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:28e2c326-914d-48e3-b975-6b4484feb9a1"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2911,10 +2911,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2023-10-16T18:33:36+00:00"/>
+        <date value="2023-11-09T20:06:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f3b9a95f-40d4-4c8b-9d89-5d13853b3fdb"/>
-          <timestamp value="2023-10-16T18:34:25+00:00"/>
+          <identifier value="urn:uuid:c4cec69b-7a04-41a6-8959-bb130d438d47"/>
+          <timestamp value="2023-11-09T20:07:28+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

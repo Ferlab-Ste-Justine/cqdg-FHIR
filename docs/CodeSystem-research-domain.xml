@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="research-domain"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-insensitive code system <code>https://fhir.cqdg.ca/CodeSystem/research-domain</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Aging<a name="research-domain-Aging"> </a></td><td>Aging study</td><td/></tr><tr><td style="white-space:nowrap">Birth-Defect<a name="research-domain-Birth-Defect"> </a></td><td>Birth defect study</td><td/></tr><tr><td style="white-space:nowrap">Cancer<a name="research-domain-Cancer"> </a></td><td>Cancer study</td><td/></tr><tr><td style="white-space:nowrap">Circulatory-and-Respiratory-Health<a name="research-domain-Circulatory-and-Respiratory-Health"> </a></td><td>Circulatory and Respiratory Health study</td><td/></tr><tr><td style="white-space:nowrap">General-Health<a name="research-domain-General-Health"> </a></td><td>General Health</td><td>General Health study</td></tr><tr><td style="white-space:nowrap">Infection-and-Immunity<a name="research-domain-Infection-and-Immunity"> </a></td><td>Infection and Immunity study</td><td/></tr><tr><td style="white-space:nowrap">Musculoskeletal-Health-and-Arthritis<a name="research-domain-Musculoskeletal-Health-and-Arthritis"> </a></td><td>Musculoskeletal Health and Arthritis study</td><td/></tr><tr><td style="white-space:nowrap">Neurodevelopmental-Conditions<a name="research-domain-Neurodevelopmental-Conditions"> </a></td><td>Neurodevelopmental Conditions</td><td>Neurodevelopmental Conditions study</td></tr><tr><td style="white-space:nowrap">Neurosciences-Mental-Health-and-Addiction<a name="research-domain-Neurosciences-Mental-Health-and-Addiction"> </a></td><td>Neurosciences, Mental Health and Addiction</td><td>Neurosciences, Mental Health and Addiction study</td></tr><tr><td style="white-space:nowrap">Nutrition-Metabolism-and-Diabetes<a name="research-domain-Nutrition-Metabolism-and-Diabetes"> </a></td><td>Nutrition, Metabolism and Diabetes</td><td>Nutrition, Metabolism and Diabetes study</td></tr><tr><td style="white-space:nowrap">Population-Genomics<a name="research-domain-Population-Genomics"> </a></td><td>Population Genomics</td><td>Population Genomics study</td></tr><tr><td style="white-space:nowrap">Rare-Diseases<a name="research-domain-Rare-Diseases"> </a></td><td>Rare Diseases</td><td>Rare Diseases study</td></tr><tr><td style="white-space:nowrap">Not-Applicable<a name="research-domain-Not-Applicable"> </a></td><td>Not Applicable</td><td>Not Applicable study</td></tr><tr><td style="white-space:nowrap">Other<a name="research-domain-Other"> </a></td><td>Other</td><td>Other study</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-insensitive code system <code>https://fhir.cqdg.ca/CodeSystem/research-domain</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">aging<a name="research-domain-aging"> </a></td><td>Aging study</td><td/></tr><tr><td style="white-space:nowrap">birth-defect<a name="research-domain-birth-defect"> </a></td><td>Birth defect study</td><td/></tr><tr><td style="white-space:nowrap">cancer<a name="research-domain-cancer"> </a></td><td>Cancer study</td><td/></tr><tr><td style="white-space:nowrap">circulatory-and-respiratory-health<a name="research-domain-circulatory-and-respiratory-health"> </a></td><td>Circulatory and Respiratory Health study</td><td/></tr><tr><td style="white-space:nowrap">general-health<a name="research-domain-general-health"> </a></td><td>General Health</td><td>General Health study</td></tr><tr><td style="white-space:nowrap">infection-and-immunity<a name="research-domain-infection-and-immunity"> </a></td><td>Infection and Immunity study</td><td/></tr><tr><td style="white-space:nowrap">musculoskeletal-health-and-arthritis<a name="research-domain-musculoskeletal-health-and-arthritis"> </a></td><td>Musculoskeletal Health and Arthritis study</td><td/></tr><tr><td style="white-space:nowrap">neurodevelopmental-conditions<a name="research-domain-neurodevelopmental-conditions"> </a></td><td>Neurodevelopmental Conditions</td><td>Neurodevelopmental Conditions study</td></tr><tr><td style="white-space:nowrap">neurosciences-mental-health-and-addiction<a name="research-domain-neurosciences-mental-health-and-addiction"> </a></td><td>Neurosciences, Mental Health and Addiction</td><td>Neurosciences, Mental Health and Addiction study</td></tr><tr><td style="white-space:nowrap">nutrition-metabolism-and-diabetes<a name="research-domain-nutrition-metabolism-and-diabetes"> </a></td><td>Nutrition, Metabolism and Diabetes</td><td>Nutrition, Metabolism and Diabetes study</td></tr><tr><td style="white-space:nowrap">population-genomics<a name="research-domain-population-genomics"> </a></td><td>Population Genomics</td><td>Population Genomics study</td></tr><tr><td style="white-space:nowrap">rare-diseases<a name="research-domain-rare-diseases"> </a></td><td>Rare Diseases</td><td>Rare Diseases study</td></tr><tr><td style="white-space:nowrap">not-applicable<a name="research-domain-not-applicable"> </a></td><td>Not Applicable</td><td>Not Applicable study</td></tr><tr><td style="white-space:nowrap">other<a name="research-domain-other"> </a></td><td>Other</td><td>Other study</td></tr></table></div>
   </text>
   <url value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Ferlab.bio CodeSystem/research-domain"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-10-16T18:33:36+00:00"/>
+  <date value="2023-11-09T20:06:51+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -25,163 +25,163 @@
   <content value="complete"/>
   <count value="14"/>
   <concept>
-    <code value="Aging"/>
+    <code value="aging"/>
     <display value="Aging study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Aging"/>
+        <code value="aging"/>
       </use>
       <value value="Aging study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Birth-Defect"/>
+    <code value="birth-defect"/>
     <display value="Birth defect study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Birth-Defect"/>
+        <code value="birth-defect"/>
       </use>
       <value value="Birth defect study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Cancer"/>
+    <code value="cancer"/>
     <display value="Cancer study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Cancer"/>
+        <code value="cancer"/>
       </use>
       <value value="cancer study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Circulatory-and-Respiratory-Health"/>
+    <code value="circulatory-and-respiratory-health"/>
     <display value="Circulatory and Respiratory Health study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Circulatory-and-Respiratory-Health"/>
+        <code value="circulatory-and-respiratory-health"/>
       </use>
       <value value="Circulatory and Respiratory Health study"/>
     </designation>
   </concept>
   <concept>
-    <code value="General-Health"/>
+    <code value="general-health"/>
     <display value="General Health"/>
     <definition value="General Health study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="General-Health"/>
+        <code value="general-health"/>
       </use>
       <value value="General Health study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Infection-and-Immunity"/>
+    <code value="infection-and-immunity"/>
     <display value="Infection and Immunity study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Infection-and-Immunity"/>
+        <code value="infection-and-immunity"/>
       </use>
       <value value="Infection and Immunity study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Musculoskeletal-Health-and-Arthritis"/>
+    <code value="musculoskeletal-health-and-arthritis"/>
     <display value="Musculoskeletal Health and Arthritis study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Musculoskeletal-Health-and-Arthritis"/>
+        <code value="musculoskeletal-health-and-arthritis"/>
       </use>
       <value value="Musculoskeletal Health and Arthritis study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Neurodevelopmental-Conditions"/>
+    <code value="neurodevelopmental-conditions"/>
     <display value="Neurodevelopmental Conditions"/>
     <definition value="Neurodevelopmental Conditions study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Neurodevelopmental-Conditions"/>
+        <code value="neurodevelopmental-conditions"/>
       </use>
       <value value="Neurodevelopmental Conditions study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Neurosciences-Mental-Health-and-Addiction"/>
+    <code value="neurosciences-mental-health-and-addiction"/>
     <display value="Neurosciences, Mental Health and Addiction"/>
     <definition value="Neurosciences, Mental Health and Addiction study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Neurosciences-Mental-Health-and-Addiction"/>
+        <code value="neurosciences-mental-health-and-addiction"/>
       </use>
       <value value="Neurosciences, Mental Health and Addiction study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Nutrition-Metabolism-and-Diabetes"/>
+    <code value="nutrition-metabolism-and-diabetes"/>
     <display value="Nutrition, Metabolism and Diabetes"/>
     <definition value="Nutrition, Metabolism and Diabetes study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Nutrition-Metabolism-and-Diabetes"/>
+        <code value="nutrition-metabolism-and-diabetes"/>
       </use>
       <value value="Nutrition, Metabolism and Diabetes study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Population-Genomics"/>
+    <code value="population-genomics"/>
     <display value="Population Genomics"/>
     <definition value="Population Genomics study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Population-Genomics"/>
+        <code value="population-genomics"/>
       </use>
       <value value="Population Genomics study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Rare-Diseases"/>
+    <code value="rare-diseases"/>
     <display value="Rare Diseases"/>
     <definition value="Rare Diseases study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Rare-Diseases"/>
+        <code value="rare-diseases"/>
       </use>
       <value value="Rare Diseases study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Not-Applicable"/>
+    <code value="not-applicable"/>
     <display value="Not Applicable"/>
     <definition value="Not Applicable study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Not-Applicable"/>
+        <code value="not-applicable"/>
       </use>
       <value value="Not Applicable study"/>
     </designation>
   </concept>
   <concept>
-    <code value="Other"/>
+    <code value="other"/>
     <display value="Other"/>
     <definition value="Other study"/>
     <designation>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
-        <code value="Other"/>
+        <code value="other"/>
       </use>
       <value value="Other study"/>
     </designation>

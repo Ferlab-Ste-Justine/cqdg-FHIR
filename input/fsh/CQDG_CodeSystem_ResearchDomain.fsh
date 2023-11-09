@@ -7,58 +7,58 @@ Title: "Ferlab.bio CodeSystem/research-domain"
 * ^description = "Research domain"
 * ^caseSensitive = false
 
-* #"Aging" "Aging study"
-* #"Aging" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Aging
-* #"Aging" ^designation.value = "Aging study"
+* #"aging" "Aging study"
+* #"aging" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#aging
+* #"aging" ^designation.value = "Aging study"
 
-* #"Birth-Defect" "Birth defect study"
-* #"Birth-Defect" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Birth-Defect
-* #"Birth-Defect" ^designation.value = "Birth defect study"
+* #"birth-defect" "Birth defect study"
+* #"birth-defect" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#birth-defect
+* #"birth-defect" ^designation.value = "Birth defect study"
 
-* #"Cancer" "Cancer study"
-* #"Cancer" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Cancer
-* #"Cancer" ^designation.value = "cancer study"
+* #"cancer" "Cancer study"
+* #"cancer" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#cancer
+* #"cancer" ^designation.value = "cancer study"
 
-* #"Circulatory-and-Respiratory-Health" "Circulatory and Respiratory Health study"
-* #"Circulatory-and-Respiratory-Health" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Circulatory-and-Respiratory-Health
-* #"Circulatory-and-Respiratory-Health" ^designation.value = "Circulatory and Respiratory Health study"
+* #"circulatory-and-respiratory-health" "Circulatory and Respiratory Health study"
+* #"circulatory-and-respiratory-health" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#circulatory-and-respiratory-health
+* #"circulatory-and-respiratory-health" ^designation.value = "Circulatory and Respiratory Health study"
 
-* #"General-Health" "General Health" "General Health study"
-* #"General-Health" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#General-Health
-* #"General-Health" ^designation.value = "General Health study"
+* #"general-health" "General Health" "General Health study"
+* #"general-health" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#general-health
+* #"general-health" ^designation.value = "General Health study"
 
-* #"Infection-and-Immunity" "Infection and Immunity study"
-* #"Infection-and-Immunity" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Infection-and-Immunity
-* #"Infection-and-Immunity" ^designation.value = "Infection and Immunity study"
+* #"infection-and-immunity" "Infection and Immunity study"
+* #"infection-and-immunity" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#infection-and-immunity
+* #"infection-and-immunity" ^designation.value = "Infection and Immunity study"
 
-* #"Musculoskeletal-Health-and-Arthritis" "Musculoskeletal Health and Arthritis study"
-* #"Musculoskeletal-Health-and-Arthritis" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Musculoskeletal-Health-and-Arthritis
-* #"Musculoskeletal-Health-and-Arthritis" ^designation.value = "Musculoskeletal Health and Arthritis study"
+* #"musculoskeletal-health-and-arthritis" "Musculoskeletal Health and Arthritis study"
+* #"musculoskeletal-health-and-arthritis" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#musculoskeletal-health-and-arthritis
+* #"musculoskeletal-health-and-arthritis" ^designation.value = "Musculoskeletal Health and Arthritis study"
 
-* #"Neurodevelopmental-Conditions" "Neurodevelopmental Conditions" "Neurodevelopmental Conditions study"
-* #"Neurodevelopmental-Conditions" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Neurodevelopmental-Conditions
-* #"Neurodevelopmental-Conditions" ^designation.value = "Neurodevelopmental Conditions study"
+* #"neurodevelopmental-conditions" "Neurodevelopmental Conditions" "Neurodevelopmental Conditions study"
+* #"neurodevelopmental-conditions" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#neurodevelopmental-conditions
+* #"neurodevelopmental-conditions" ^designation.value = "Neurodevelopmental Conditions study"
 
-* #"Neurosciences-Mental-Health-and-Addiction" "Neurosciences, Mental Health and Addiction" "Neurosciences, Mental Health and Addiction study"
-* #"Neurosciences-Mental-Health-and-Addiction" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Neurosciences-Mental-Health-and-Addiction
-* #"Neurosciences-Mental-Health-and-Addiction" ^designation.value = "Neurosciences, Mental Health and Addiction study"
+* #"neurosciences-mental-health-and-addiction" "Neurosciences, Mental Health and Addiction" "Neurosciences, Mental Health and Addiction study"
+* #"neurosciences-mental-health-and-addiction" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#neurosciences-mental-health-and-addiction
+* #"neurosciences-mental-health-and-addiction" ^designation.value = "Neurosciences, Mental Health and Addiction study"
 
-* #"Nutrition-Metabolism-and-Diabetes" "Nutrition, Metabolism and Diabetes" "Nutrition, Metabolism and Diabetes study"
-* #"Nutrition-Metabolism-and-Diabetes" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Nutrition-Metabolism-and-Diabetes
-* #"Nutrition-Metabolism-and-Diabetes" ^designation.value = "Nutrition, Metabolism and Diabetes study"
+* #"nutrition-metabolism-and-diabetes" "Nutrition, Metabolism and Diabetes" "Nutrition, Metabolism and Diabetes study"
+* #"nutrition-metabolism-and-diabetes" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#nutrition-metabolism-and-diabetes
+* #"nutrition-metabolism-and-diabetes" ^designation.value = "Nutrition, Metabolism and Diabetes study"
 
-* #"Population-Genomics" "Population Genomics" "Population Genomics study"
-* #"Population-Genomics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Population-Genomics
-* #"Population-Genomics" ^designation.value = "Population Genomics study"
+* #"population-genomics" "Population Genomics" "Population Genomics study"
+* #"population-genomics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#population-genomics
+* #"population-genomics" ^designation.value = "Population Genomics study"
 
-* #"Rare-Diseases" "Rare Diseases" "Rare Diseases study"
-* #"Rare-Diseases" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Rare-Diseases
-* #"Rare-Diseases" ^designation.value = "Rare Diseases study"
+* #"rare-diseases" "Rare Diseases" "Rare Diseases study"
+* #"rare-diseases" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#rare-diseases
+* #"rare-diseases" ^designation.value = "Rare Diseases study"
 
-* #"Not-Applicable" "Not Applicable" "Not Applicable study"
-* #"Not-Applicable" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Not-Applicable
-* #"Not-Applicable" ^designation.value = "Not Applicable study"
+* #"not-applicable" "Not Applicable" "Not Applicable study"
+* #"not-applicable" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#not-applicable
+* #"not-applicable" ^designation.value = "Not Applicable study"
 
-* #"Other" "Other" "Other study"
-* #"Other" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#Other
-* #"Other" ^designation.value = "Other study"
+* #"other" "Other" "Other study"
+* #"other" ^designation.use = https://fhir.cqdg.ca/CodeSystem/research-domain#other
+* #"other" ^designation.value = "Other study"

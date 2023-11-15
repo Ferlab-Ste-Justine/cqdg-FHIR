@@ -5,8 +5,8 @@ Description: "A condition in CQDG"
 Title: "Ferlab.bio StructureDefinition/cqdg-condition"
 * ^version = "1.0.0"
 * ^status = #active
-* onsetAge 0..1
-* onsetAge only Age
+
+* extension contains AgeAtEvent named ageAt 0..1
 
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -35,10 +35,7 @@ Description: "An example of a cqdg patient."
 * code.coding[=].display = "fatigue"
 * code.text = "fatigue"
 
-* onsetAge.value = 5000
-* onsetAge.unit = "days"
-* onsetAge.code = #d
-* onsetAge.system = "http://unitsofmeasure.org"
+* extension[ageAt].valueCodeableConcept = $HPO#"HP:0030674"
 
 
 * stage

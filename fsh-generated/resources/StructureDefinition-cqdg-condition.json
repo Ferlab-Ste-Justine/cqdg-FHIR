@@ -48,6 +48,35 @@
   "differential": {
     "element": [
       {
+        "id": "Condition.extension",
+        "path": "Condition.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Condition.extension:ageAt",
+        "path": "Condition.extension",
+        "sliceName": "ageAt",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Condition.identifier",
         "path": "Condition.identifier",
         "slicing": {
@@ -73,32 +102,6 @@
         "path": "Condition.identifier.system",
         "min": 1,
         "patternUri": "https://fhir.cqdg.ca/fhir/Condition"
-      },
-      {
-        "id": "Condition.onset[x]",
-        "path": "Condition.onset[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Condition.onset[x]:onsetAge",
-        "path": "Condition.onset[x]",
-        "sliceName": "onsetAge",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Age"
-          }
-        ]
       }
     ]
   }

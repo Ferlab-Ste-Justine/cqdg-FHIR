@@ -32,14 +32,9 @@ Usage: #example
 
 * deceasedBoolean = true
 
-* extension[ageOfDeath].valueAge.value = 30
-* extension[ageOfDeath].valueAge.code = #d
-* extension[ageOfDeath].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageOfDeath].valueAge.unit = "days"
-* extension[ageAtRecruitment].valueAge.value = 12
-* extension[ageAtRecruitment].valueAge.code = #d
-* extension[ageAtRecruitment].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageAtRecruitment].valueAge.unit = "days"
+* extension[ageAtRecruitment].valueCodeableConcept = $HPO#"HP:0011463"
+
+* extension[ageOfDeath].valueCodeableConcept = $HPO#"HP:0003584"
 
 * extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
 

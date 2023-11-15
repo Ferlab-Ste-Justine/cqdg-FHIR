@@ -24,11 +24,13 @@
   "extension": [
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
-      "valueAge": {
-        "value": 12,
-        "code": "d",
-        "system": "http://unitsofmeasure.org",
-        "unit": "days"
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "HP:0003584",
+            "system": "http://purl.obolibrary.org/obo/hp.owl"
+          }
+        ]
       }
     }
   ],

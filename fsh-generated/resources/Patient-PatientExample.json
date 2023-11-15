@@ -13,21 +13,25 @@
   },
   "extension": [
     {
-      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
-      "valueAge": {
-        "value": 30,
-        "code": "d",
-        "system": "http://unitsofmeasure.org",
-        "unit": "days"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "HP:0011463",
+            "system": "http://purl.obolibrary.org/obo/hp.owl"
+          }
+        ]
       }
     },
     {
-      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
-      "valueAge": {
-        "value": 12,
-        "code": "d",
-        "system": "http://unitsofmeasure.org",
-        "unit": "days"
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "HP:0003584",
+            "system": "http://purl.obolibrary.org/obo/hp.owl"
+          }
+        ]
       }
     },
     {

@@ -34,11 +34,7 @@ Description: "An example of a specimen"
 
 * subject = Reference(Patient/PatientExample)
 
-
-* extension[ageAt].valueAge.value = 12
-* extension[ageAt].valueAge.code = #d
-* extension[ageAt].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageAt].valueAge.unit = "days"
+* extension[ageAt].valueCodeableConcept = $HPO#"HP:0030674"
 
 
 * type.coding[0].system = $NCIT
@@ -65,8 +61,5 @@ Description: "An example of a specimen"
 
 * parent = Reference(Specimen/SpecimenExample)
 
-* extension[ageAt].valueAge.value = 12
-* extension[ageAt].valueAge.code = #d
-* extension[ageAt].valueAge.system = "http://unitsofmeasure.org"
-* extension[ageAt].valueAge.unit = "days"
+* extension[ageAt].valueCodeableConcept = $HPO#"HP:0003584"
 

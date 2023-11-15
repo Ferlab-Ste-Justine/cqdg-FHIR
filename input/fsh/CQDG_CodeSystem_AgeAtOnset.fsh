@@ -2,7 +2,7 @@ CodeSystem: AgeAtOnset
 Id: age-at-onset
 Title: "Ferlab.bio CodeSystem/age-at-onset"
 
-* ^url = "https://fhir.cqdg.ca/CodeSystem/age-at-onset"
+* ^url = $HPO
 * ^experimental = false
 * ^description = "Age At Onset"
 * ^caseSensitive = true

@@ -17,6 +17,19 @@
       "value": "ConditionExample"
     }
   ],
+  "extension": [
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "HP:0030674",
+            "system": "http://purl.obolibrary.org/obo/hp.owl"
+          }
+        ]
+      }
+    }
+  ],
   "subject": {
     "reference": "Patient/PatientExample"
   },
@@ -32,12 +45,6 @@
       }
     ],
     "text": "fatigue"
-  },
-  "onsetAge": {
-    "value": 5000,
-    "unit": "days",
-    "code": "d",
-    "system": "http://unitsofmeasure.org"
   },
   "stage": [
     {

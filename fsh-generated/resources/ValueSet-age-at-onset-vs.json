@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AgeAtOnsetVS",
+  "id": "age-at-onset-vs",
+  "title": "Ferlab.bio ValueSet/age-at-onset",
+  "url": "https://fhir.cqdg.ca/ValueSet/age-at-onset-vs",
+  "description": "This value set includes age at onset codes from Human Phenotype Ontology.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"
+      }
+    ]
+  }
+}

@@ -1,3 +1,4 @@
+[AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html
 [CQDGDatasetCS]: CodeSystem-cqdg-dataset-cs.html
@@ -55,6 +56,7 @@
 [WorkflowExtension]: StructureDefinition-workflowExtension.html
 [AccessLimitationsVS]: ValueSet-access-limitation-vs.html
 [AccessRequirementVS]: ValueSet-access-requirement-vs.html
+[AgeAtOnsetVS]: ValueSet-age-at-onset-vs.html
 [BioinfoAnalysisVS]: ValueSet-bioinfo-analysis-vs.html
 [CauseOfDeathVS]: ValueSet-cause-of-death-vs.html
 [CQDGObservationCategory]: ValueSet-cqdg-observation-category.html

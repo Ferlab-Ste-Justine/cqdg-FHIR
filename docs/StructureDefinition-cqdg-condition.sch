@@ -10,6 +10,12 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
+    <sch:title>f:Condition</sch:title>
+    <sch:rule context="f:Condition">
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Condition/f:identifier</sch:title>
     <sch:rule context="f:Condition/f:identifier">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>

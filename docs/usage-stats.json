@@ -37,21 +37,21 @@
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
       "title": "Ferlab.bio Extension/age-at-event",
       "types": [
-        "Age"
+        "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "title": "Ferlab.bio Extension/age-at-recruitment",
       "types": [
-        "Age"
+        "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
       "title": "Ferlab.bio Extension/age-of-death",
       "types": [
-        "Age"
+        "CodeableConcept"
       ]
     },
     {
@@ -418,6 +418,7 @@
       "ResearchStudy"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent": [
+      "Condition",
       "Specimen"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment": [

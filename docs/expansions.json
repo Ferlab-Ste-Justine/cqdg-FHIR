@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "03d9ca9a-bda4-4a23-a27f-ae62f622e33f",
+  "id" : "8be7729c-6a41-4a87-a5c0-2de1330a9735",
   "meta" : {
-    "lastUpdated" : "2023-11-15T18:25:48.993+00:00"
+    "lastUpdated" : "2023-11-15T19:01:06.822+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "AccessLimitationsVS",
       "title" : "Ferlab.bio ValueSet/access-limitation",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d70cc48a-881b-40d2-90b7-864f72dce6d8",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:c60d2c42-bc98-489f-886d-657219873fa1",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -162,10 +162,10 @@
       "name" : "AccessRequirementVS",
       "title" : "Ferlab.bio ValueSet/access-requirement",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2750b380-82ae-4b03-8ed7-b11efbdbe7df",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:ae272947-882c-445a-a725-b9ee2cb31519",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -306,10 +306,10 @@
       "name" : "AgeAtOnsetVS",
       "title" : "Ferlab.bio ValueSet/age-at-onset",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:133f1c10-ba51-4b26-ba50-dda4dabfe4ae",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:580f2e0d-7b99-4350-b8d9-dc5000f0251d",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -350,10 +350,10 @@
       "name" : "BioinfoAnalysisVS",
       "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3479438b-3b5a-42ce-b6e1-309a2b677a54",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:2c603f56-7ebb-4b8e-ad22-080678de9a51",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -404,10 +404,10 @@
       "name" : "CauseOfDeathVS",
       "title" : "Ferlab.bio ValueSet/cause-of-death",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:71229e26-dc41-4a67-9c41-b437ad50a669",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:47cc95f7-a59c-4150-88b0-03310463a385",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -473,10 +473,10 @@
       "name" : "CQDGObservationCategory",
       "title" : "Ferlab.bio ValueSet/cqdg-observation",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:84000de5-9b0a-4bdd-800e-53184e76e481",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:b60c2703-7a85-4454-ab5f-297dcc34a5c1",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -527,10 +527,10 @@
       "name" : "DataCategoryVS",
       "title" : "Ferlab.bio ValueSet/data-category",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b6d2f818-c749-4270-8968-2ef65efa905e",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:5890c237-e757-4360-9ffd-20fd3dafe8b8",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -561,10 +561,10 @@
       "name" : "DataTypeVS",
       "title" : "Ferlab.bio ValueSet/data-type",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b1b9f8b8-1357-4a1f-a8a2-629325e89fcd",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:d4960091-a371-45fe-ac5b-7aa4afcfb8d1",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -625,10 +625,10 @@
       "name" : "DiseaseStatusVS",
       "title" : "Ferlab.bio ValueSet/disease-status",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b962ea06-6f51-486b-8ee6-c9a4c0a3e68b",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:38b3fbe1-d13f-4f68-854d-4e310fa1b028",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -669,10 +669,10 @@
       "name" : "CQDGFamilyTypeVS",
       "title" : "Ferlab.bio ValueSet/experimental-strategy",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e1fea13a-7b77-4226-b955-71f7ab5bce30",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:e6061912-28ad-4451-addd-294f8e2c5e82",
+        "timestamp" : "2023-11-15T19:01:45+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -713,10 +713,10 @@
       "name" : "FamilyTypeVS",
       "title" : "Ferlab.bio ValueSet/family-type",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9105cdc2-b465-4ae4-9daf-2e7307f4b45f",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:6b9768ad-ebed-4a13-9830-0e5a6fe354cd",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -767,10 +767,10 @@
       "name" : "FileFormat",
       "title" : "Ferlab.bio ValueSet/file-format",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:72194b4f-c010-4e9a-870a-82ab25483f45",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:763e0424-0289-4552-a149-14f928dd9ebd",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -836,10 +836,10 @@
       "name" : "GenomeBuildVS",
       "title" : "Ferlab.bio ValueSet/genome-build",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a0947ccb-a201-4412-94f1-aafd7f954002",
-        "timestamp" : "2023-11-15T18:26:28+00:00",
+        "identifier" : "urn:uuid:6f4b38f0-5d72-4976-96e6-d4f98c902dd8",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -858,6 +858,80 @@
     }
   },
   {
+    "fullUrl" : "https://fhir.cqdg.ca/ValueSet/phenotype-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-age-at-onset.html\">codesystem Ferlab.bio CodeSystem/age-at-onset v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0030674\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580030674\">HP:0030674</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Antenatal</td><td><div><p>Antenatal</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003577\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003577\">HP:0003577</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Congenital</td><td><div><p>Congenital</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003623\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003623\">HP:0003623</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Neonatal (&lt; 28 days)</td><td><div><p>Neonatal (&lt; 28 days)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003593\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003593\">HP:0003593</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Infantile (&gt;= 28 days and &lt; 1 year)</td><td><div><p>Infantile (&gt;= 28 days and &lt; 1 year)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0011463\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580011463\">HP:0011463</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Childhood (&gt;= 1 year and &lt; 5 years)</td><td><div><p>Childhood (&gt;= 1 year and &lt; 5 years)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003621\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003621\">HP:0003621</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Juvenile (&gt;= 5 years and &lt; 16 years)</td><td><div><p>Juvenile (&gt;= 5 years and &lt; 16 years)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0011462\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580011462\">HP:0011462</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Young Adult (&gt;= 16 years and &lt; 40 years)</td><td><div><p>Young Adult (&gt;= 16 years and &lt; 40 years)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003596\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003596\">HP:0003596</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Middle Age (&gt;= 40 years and &lt; 60 years)</td><td><div><p>Middle Age (&gt;= 40 years and &lt; 60 years)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.obolibrary.org-obo-hp.owl-HP-0003584\"> </a>\u00a0\u00a0<a href=\"CodeSystem-age-at-onset.html#age-at-onset-HP.580003584\">HP:0003584</a></td><td>http://purl.obolibrary.org/obo/hp.owl</td><td>Senior (&gt;= 60 years)</td><td><div><p>Senior (&gt;= 60 years)</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://fhir.cqdg.ca/ValueSet/phenotype-vs",
+      "version" : "0.1.0",
+      "name" : "PhenotypeVS",
+      "title" : "Ferlab.bio ValueSet/phenotype",
+      "status" : "active",
+      "date" : "2023-11-15T19:01:06+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:028522fd-45d7-435a-8554-a75cf6fda52b",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
+        "total" : 9,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://purl.obolibrary.org/obo/hp.owl|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0030674",
+          "display" : "Antenatal"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003577",
+          "display" : "Congenital"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003623",
+          "display" : "Neonatal (< 28 days)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003593",
+          "display" : "Infantile (>= 28 days and < 1 year)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0011463",
+          "display" : "Childhood (>= 1 year and < 5 years)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003621",
+          "display" : "Juvenile (>= 5 years and < 16 years)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0011462",
+          "display" : "Young Adult (>= 16 years and < 40 years)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003596",
+          "display" : "Middle Age (>= 40 years and < 60 years)"
+        },
+        {
+          "system" : "http://purl.obolibrary.org/obo/hp.owl",
+          "code" : "HP:0003584",
+          "display" : "Senior (>= 60 years)"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://fhir.cqdg.ca/ValueSet/population-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -870,10 +944,10 @@
       "name" : "PopulationVS",
       "title" : "Ferlab.bio ValueSet/population",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1afb8624-bfdf-46f5-b7ca-b5ac2f966312",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:4b6f371e-451b-4428-9218-888acd76a764",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -914,10 +988,10 @@
       "name" : "QCEthnicityVS",
       "title" : "Ferlab.bio ValueSet/qa-ethnicity",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e3a4da75-c42c-471a-b7e9-dfa46a5ba35b",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:4eca9560-0d00-4609-8a8f-4074b1efc34b",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -998,10 +1072,10 @@
       "name" : "RelationshipToProband",
       "title" : "Ferlab.bio ValueSet/relationship-to-proband",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a4d61f61-9f9d-48a8-ad82-c126c4b84ef2",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:1d445155-2320-4fdd-a035-6f67bbcbd431",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1087,10 +1161,10 @@
       "name" : "ResearchDomain",
       "title" : "Ferlab.bio ValueSet/research-domain",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:45682688-74d4-4346-90b1-dec52677aa64",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:590e15ce-26cb-4061-87af-58379bc14cbb",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1186,10 +1260,10 @@
       "name" : "SampleTypeTissueSourceVS",
       "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a510a51a-bf1b-432c-b02a-b308a5529a05",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:1cb89ea6-59b7-496e-b5e7-a6c05fad99a1",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1245,10 +1319,10 @@
       "name" : "StudyVS",
       "title" : "Ferlab.bio ValueSet/cqdg-study",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6ec0f346-984e-4160-b970-93da32ccc836",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:bbef755d-4a01-4ba0-bf23-bdacb33574a7",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1289,10 +1363,10 @@
       "name" : "TumorNormalDesignationVS",
       "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "status" : "active",
-      "date" : "2023-11-15T18:25:48+00:00",
+      "date" : "2023-11-15T19:01:06+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c50a0e33-7e18-4735-b8e9-e4605374222e",
-        "timestamp" : "2023-11-15T18:26:29+00:00",
+        "identifier" : "urn:uuid:df50755c-0a05-49f6-af5e-710e7eed0dba",
+        "timestamp" : "2023-11-15T19:01:46+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

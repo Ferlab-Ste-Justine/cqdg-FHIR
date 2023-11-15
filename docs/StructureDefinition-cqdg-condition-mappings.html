@@ -224,7 +224,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>Event.subject</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>Event.context</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;onset[x]</td><td>Event.occurrence[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;onset[x] (onsetAge)</td><td>Event.occurrence[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;evidence</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>Event.reasonCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>Event.note</td> </tr>
@@ -271,7 +270,6 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>PID-3</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>PV1-19 (+PV1-54)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;onset[x]</td><td>PRB-16</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;onset[x] (onsetAge)</td><td>PRB-16</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;recordedDate</td><td>REL-11</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;asserter</td><td>REL-7.1 identifier + REL-7.12 type code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;stage</td><td></td> </tr>
@@ -283,7 +281,6 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>Condition</td><td>Entity. Role, or Act, Observation[classCode=OBS, moodCode=EVN, code=ASSERTION, value&lt;Diagnosis]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (CQDG_ID)</td><td>.id</td> </tr>
@@ -306,7 +303,6 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>.participation[typeCode=SBJ].role[classCode=PAT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>.inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;onset[x]</td><td>.effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;age at onset&quot;].value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;onset[x] (onsetAge)</td><td>.effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;age at onset&quot;].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;abatement[x]</td><td>.effectiveTime.high or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;age at remission&quot;].value or .inboundRelationship[typeCode=SUBJ]source[classCode=CONC, moodCode=EVN].status=completed</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;recordedDate</td><td>.participation[typeCode=AUT].time</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;recorder</td><td>.participation[typeCode=AUT].role</td> </tr>
@@ -339,7 +335,6 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>FiveWs.subject[x], FiveWs.subject</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>FiveWs.context</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;onset[x]</td><td>FiveWs.init</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;onset[x] (onsetAge)</td><td>FiveWs.init</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;abatement[x]</td><td>FiveWs.done[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;recordedDate</td><td>FiveWs.recorded</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;recorder</td><td>FiveWs.author</td> </tr>
@@ -409,7 +404,7 @@ OR &lt; 272379006 |Event|</td> </tr>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 15, 2023 18:25+0000">2023-11-15</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 15, 2023 19:01+0000">2023-11-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

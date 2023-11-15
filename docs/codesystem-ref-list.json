@@ -9,8 +9,19 @@
       "description" : "DUO codes",
       "uses" : {
       },
-      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
+    },
+    {
+      "url" : "http://purl.obolibrary.org/obo/hp.owl",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AgeAtOnset",
+      "title" : "Ferlab.bio CodeSystem/age-at-onset",
+      "description" : "Age At Onset",
+      "uses" : {
+      },
+      "ValueSet-phenotype-vs.html" : "Ferlab.bio ValueSet/phenotype"
     },
     {
       "url" : "http://purl.obolibrary.org/obo/mondo.owl",
@@ -198,8 +209,8 @@
       "description" : "Tumor normal designation",
       "uses" : {
       },
-      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation",
-      "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset"
+      "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset",
+      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation"
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",

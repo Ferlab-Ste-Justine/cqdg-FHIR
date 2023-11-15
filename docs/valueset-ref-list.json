@@ -25,6 +25,15 @@
       "StructureDefinition-AccessRequirements.html" : "Ferlab.bio Extension/access-requirement"
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/age-at-onset-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AgeAtOnsetVS",
+      "title" : "Ferlab.bio ValueSet/age-at-onset",
+      "description" : "This value set includes age at onset codes from Human Phenotype Ontology.",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"]
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs",
       "version" : "0.1.0",
       "status" : "active",

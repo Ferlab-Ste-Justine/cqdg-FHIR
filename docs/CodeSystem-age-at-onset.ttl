@@ -1,0 +1,109 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/age-at-onset> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "age-at-onset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/age-at-onset</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">HP:0030674<a name=\"age-at-onset-HP.580030674\"> </a></td><td>Antenatal</td><td>Antenatal</td><td>Anténatale</td></tr><tr><td style=\"white-space:nowrap\">HP:0003577<a name=\"age-at-onset-HP.580003577\"> </a></td><td>Congenital</td><td>Congenital</td><td>Congénitale</td></tr><tr><td style=\"white-space:nowrap\">HP:0003623<a name=\"age-at-onset-HP.580003623\"> </a></td><td>Neonatal (&lt; 28 days)</td><td>Neonatal (&lt; 28 days)</td><td>Néonatale (&lt; 28 jours)</td></tr><tr><td style=\"white-space:nowrap\">HP:0003593<a name=\"age-at-onset-HP.580003593\"> </a></td><td>Infantile (&gt;= 28 days and &lt; 1 year)</td><td>Infantile (&gt;= 28 days and &lt; 1 year)</td><td>Enfant en bas âge (&gt;= 28 jours et &lt; 1 an)</td></tr><tr><td style=\"white-space:nowrap\">HP:0011463<a name=\"age-at-onset-HP.580011463\"> </a></td><td>Childhood (&gt;= 1 year and &lt; 5 years)</td><td>Childhood (&gt;= 1 year and &lt; 5 years)</td><td>Enfance (&gt;= 1 an et &lt; 5 ans)</td></tr><tr><td style=\"white-space:nowrap\">HP:0003621<a name=\"age-at-onset-HP.580003621\"> </a></td><td>Juvenile (&gt;= 5 years and &lt; 16 years)</td><td>Juvenile (&gt;= 5 years and &lt; 16 years)</td><td>Juvénile (&gt;= 5 ans et &lt; 16 ans)</td></tr><tr><td style=\"white-space:nowrap\">HP:0011462<a name=\"age-at-onset-HP.580011462\"> </a></td><td>Young Adult (&gt;= 16 years and &lt; 40 years)</td><td>Young Adult (&gt;= 16 years and &lt; 40 years)</td><td>Jeune adulte (&gt;= 16 ans et &lt; 40 ans)</td></tr><tr><td style=\"white-space:nowrap\">HP:0003596<a name=\"age-at-onset-HP.580003596\"> </a></td><td>Middle Age (&gt;= 40 years and &lt; 60 years)</td><td>Middle Age (&gt;= 40 years and &lt; 60 years)</td><td>Adulte d'âge moyen (&gt;= 40 ans et &lt; 60 ans)</td></tr><tr><td style=\"white-space:nowrap\">HP:0003584<a name=\"age-at-onset-HP.580003584\"> </a></td><td>Senior (&gt;= 60 years)</td><td>Senior (&gt;= 60 years)</td><td>Adulte sénior (&gt;= 60 ans)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/age-at-onset"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AgeAtOnset"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/age-at-onset"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-11-15T18:25:48+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Age At Onset"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HP:0030674" ] ;
+     fhir:display [ fhir:v "Antenatal" ] ;
+     fhir:definition [ fhir:v "Antenatal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Anténatale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003577" ] ;
+     fhir:display [ fhir:v "Congenital" ] ;
+     fhir:definition [ fhir:v "Congenital" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Congénitale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003623" ] ;
+     fhir:display [ fhir:v "Neonatal (< 28 days)" ] ;
+     fhir:definition [ fhir:v "Neonatal (< 28 days)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Néonatale (< 28 jours)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003593" ] ;
+     fhir:display [ fhir:v "Infantile (>= 28 days and < 1 year)" ] ;
+     fhir:definition [ fhir:v "Infantile (>= 28 days and < 1 year)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Enfant en bas âge (>= 28 jours et < 1 an)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0011463" ] ;
+     fhir:display [ fhir:v "Childhood (>= 1 year and < 5 years)" ] ;
+     fhir:definition [ fhir:v "Childhood (>= 1 year and < 5 years)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Enfance (>= 1 an et < 5 ans)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003621" ] ;
+     fhir:display [ fhir:v "Juvenile (>= 5 years and < 16 years)" ] ;
+     fhir:definition [ fhir:v "Juvenile (>= 5 years and < 16 years)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Juvénile (>= 5 ans et < 16 ans)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0011462" ] ;
+     fhir:display [ fhir:v "Young Adult (>= 16 years and < 40 years)" ] ;
+     fhir:definition [ fhir:v "Young Adult (>= 16 years and < 40 years)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Jeune adulte (>= 16 ans et < 40 ans)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003596" ] ;
+     fhir:display [ fhir:v "Middle Age (>= 40 years and < 60 years)" ] ;
+     fhir:definition [ fhir:v "Middle Age (>= 40 years and < 60 years)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Adulte d'âge moyen (>= 40 ans et < 60 ans)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HP:0003584" ] ;
+     fhir:display [ fhir:v "Senior (>= 60 years)" ] ;
+     fhir:definition [ fhir:v "Senior (>= 60 years)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Adulte sénior (>= 60 ans)" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -70,6 +70,7 @@
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample.json: line 1, col 2, Warning - Profile reference 'https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles (STRUCTURE)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs.json: line 1, col 741, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs.json: line 1, col 749, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+/home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs.json: line 1, col 822, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-bioinfo-analysis-vs.json: line 1, col 782, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs.json: line 1, col 759, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs.json: line 1, col 976, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
@@ -95,6 +96,6 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 17, warn = 70, info = 10
-IG Publisher Version: 1.5.2
-Generated Thu Nov 09 20:07:53 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+err = 17, warn = 71, info = 10
+IG Publisher Version: 1.5.3
+Generated Wed Nov 15 18:26:54 UTC 2023. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)

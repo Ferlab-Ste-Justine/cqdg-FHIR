@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2023-11-09T20:06:51+00:00"/>
+  <date value="2023-11-15T18:25:48+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -446,6 +446,17 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/age-at-onset"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/age-at-onset"/>
+      <description value="Age At Onset"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
@@ -1071,6 +1082,17 @@
       </reference>
       <name value="Ferlab.bio ValueSet/access-requirement"/>
       <description value="Requirements before access"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/age-at-onset-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/age-at-onset"/>
+      <description value="This value set includes age at onset codes from Human Phenotype Ontology."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -10,7 +10,7 @@
   "name" : "CQDGTask",
   "title" : "Ferlab.bio Profile/cqdg-task",
   "status" : "active",
-  "date" : "2023-11-09T20:06:51+00:00",
+  "date" : "2023-11-15T18:25:48+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -241,10 +241,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -1777,10 +1773,6 @@
     },
     {
       "id" : "Task.input",
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
-        "valueString" : "Parameter"
-      }],
       "path" : "Task.input",
       "short" : "Information used to perform task",
       "definition" : "Additional information that may be needed in the execution of the task.",

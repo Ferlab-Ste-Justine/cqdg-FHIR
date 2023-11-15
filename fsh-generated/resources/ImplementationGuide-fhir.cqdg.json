@@ -33,6 +33,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "CodeSystem/age-at-onset"
+        },
+        "name": "Ferlab.bio CodeSystem/age-at-onset",
+        "description": "Age At Onset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/bioinfo-analysis-code"
         },
         "name": "Ferlab.bio CodeSystem/bioinformatics-analysis",
@@ -485,6 +493,14 @@
         },
         "name": "Ferlab.bio ValueSet/access-requirement",
         "description": "Requirements before access",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/age-at-onset-vs"
+        },
+        "name": "Ferlab.bio ValueSet/age-at-onset",
+        "description": "This value set includes age at onset codes from Human Phenotype Ontology.",
         "exampleBoolean": false
       },
       {

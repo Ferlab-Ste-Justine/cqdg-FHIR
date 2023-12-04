@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "qc-sample-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://purl.obolibrary.org/obo/ncit.owl</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">NCIT:C449<a name=\"qc-sample-type-NCIT.58C449\"> </a></td><td>DNA</td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C812<a name=\"qc-sample-type-NCIT.58C812\"> </a></td><td>Ribonucleic Acid</td><td>Ribonucleic Acid</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C12434<a name=\"qc-sample-type-NCIT.58C12434\"> </a></td><td>Blood</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C13275<a name=\"qc-sample-type-NCIT.58C13275\"> </a></td><td>Saliva</td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C164014<a name=\"qc-sample-type-NCIT.58C164014\"> </a></td><td>Solid Tissue Specimen</td><td>Solid Tissue Specimen</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C12431<a name=\"qc-sample-type-NCIT.58C12431\"> </a></td><td>Bone Marrow</td><td>Bone Marrow</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://purl.obolibrary.org/obo/ncit.owl</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">NCIT:C449<a name=\"qc-sample-type-NCIT.58C449\"> </a></td><td>DNA</td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C812<a name=\"qc-sample-type-NCIT.58C812\"> </a></td><td>Ribonucleic Acid</td><td>Ribonucleic Acid</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C12434<a name=\"qc-sample-type-NCIT.58C12434\"> </a></td><td>Blood</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C13275<a name=\"qc-sample-type-NCIT.58C13275\"> </a></td><td>Saliva</td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C164014<a name=\"qc-sample-type-NCIT.58C164014\"> </a></td><td>Solid Tissue Specimen</td><td>Solid Tissue Specimen</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C12431<a name=\"qc-sample-type-NCIT.58C12431\"> </a></td><td>Bone Marrow</td><td>Bone Marrow</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C13300<a name=\"qc-sample-type-NCIT.58C13300\"> </a></td><td>Umbilical Cord Blood</td><td>Umbilical Cord Blood</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C34320<a name=\"qc-sample-type-NCIT.58C34320\"> </a></td><td>Umbilical Cord</td><td>Umbilical Cord</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C156445<a name=\"qc-sample-type-NCIT.58C156445\"> </a></td><td>Derived Cell Line</td><td>Derived Cell Line</td></tr><tr><td style=\"white-space:nowrap\">NCIT:156440<a name=\"qc-sample-type-NCIT.58156440\"> </a></td><td>Metastatic Tumor Sample</td><td>Metastatic Tumor Sample</td></tr><tr><td style=\"white-space:nowrap\">NCIT:156441<a name=\"qc-sample-type-NCIT.58156441\"> </a></td><td>Sample Derived from New Primary</td><td>Sample Derived from New Primary</td></tr><tr><td style=\"white-space:nowrap\">NCIT:164032<a name=\"qc-sample-type-NCIT.58164032\"> </a></td><td>Tumor-Adjacent Normal Specimen</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C18009<a name=\"qc-sample-type-NCIT.58C18009\"> </a></td><td>Tumor Tissue</td><td>Tumor Tissue</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C162623<a name=\"qc-sample-type-NCIT.58C162623\"> </a></td><td>Normal Tissue Segment</td><td>Normal Tissue Segment</td></tr><tr><td style=\"white-space:nowrap\">NCIT:C156443<a name=\"qc-sample-type-NCIT.58C156443\"> </a></td><td>Cell Line-Derived Xenograft</td><td>Cell Line-Derived Xenograft</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://purl.obolibrary.org/obo/ncit.owl"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/sample-type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-15T19:01:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-04T14:59:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -30,7 +30,7 @@
   fhir:description [ fhir:v "Qc sample type"] ; # 
   fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "15"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "NCIT:C449" ] ;
      fhir:display [ fhir:v "DNA" ] ;
@@ -72,6 +72,69 @@
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Bone Marrow" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C13300" ] ;
+     fhir:display [ fhir:v "Umbilical Cord Blood" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Umbilical Cord Blood" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C34320" ] ;
+     fhir:display [ fhir:v "Umbilical Cord" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Umbilical Cord" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C156445" ] ;
+     fhir:display [ fhir:v "Derived Cell Line" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Derived Cell Line" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:156440" ] ;
+     fhir:display [ fhir:v "Metastatic Tumor Sample" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Metastatic Tumor Sample" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:156441" ] ;
+     fhir:display [ fhir:v "Sample Derived from New Primary" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Sample Derived from New Primary" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:164032" ] ;
+     fhir:display [ fhir:v "Tumor-Adjacent Normal Specimen" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Tumor-Adjacent Normal Specimen" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C18009" ] ;
+     fhir:display [ fhir:v "Tumor Tissue" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Tumor Tissue" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C162623" ] ;
+     fhir:display [ fhir:v "Normal Tissue Segment" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Normal Tissue Segment" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCIT:C156443" ] ;
+     fhir:display [ fhir:v "Cell Line-Derived Xenograft" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Cell Line-Derived Xenograft" ]
      ] )
   ] ) . # 
 

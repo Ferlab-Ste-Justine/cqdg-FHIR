@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="7d8cdf4c-ffac-49db-adca-198353f97616"/>
+  <id value="60986192-26db-49d1-8847-c7edcaae9eda"/>
   <meta>
-    <lastUpdated value="2023-12-04T14:59:45.777+00:00"/>
+    <lastUpdated value="2023-12-07T15:05:41.742+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -221,10 +221,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:475cb231-5f7a-427e-917e-e2426ca8a021"/>
-          <timestamp value="2023-12-04T15:00:25+00:00"/>
+          <identifier value="urn:uuid:30b84b48-2bad-4fe2-86a0-e84beff5b0b7"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -568,10 +568,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:52fef094-6f0c-4828-bcad-a427ac1472ca"/>
-          <timestamp value="2023-12-04T15:00:25+00:00"/>
+          <identifier value="urn:uuid:9a09ae18-c6e0-47b9-8e17-41b1513b21d8"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -755,10 +755,10 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:abbc8c4f-32be-4443-a003-e87bf6d5463d"/>
-          <timestamp value="2023-12-04T15:00:25+00:00"/>
+          <identifier value="urn:uuid:3b0f4ec8-a06e-4bbd-bcbc-10ad73db424b"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -858,10 +858,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ddb0c465-e0ac-42af-940c-a71784c8cc6c"/>
-          <timestamp value="2023-12-04T15:00:25+00:00"/>
+          <identifier value="urn:uuid:06e68918-5870-42ce-9a56-09e69e760092"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -995,10 +995,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0880bbc4-cc5e-45d3-b7c5-00e9542cf3f9"/>
-          <timestamp value="2023-12-04T15:00:25+00:00"/>
+          <identifier value="urn:uuid:e80546a5-db7e-4f88-b282-87e91ee7ca17"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1123,10 +1123,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c50727ae-b1be-4f79-bb4e-61102bcbf4e6"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:82dc5b7d-326a-419d-bfa1-8c2893467378"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1204,10 +1204,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:79811318-f4ae-4a32-ae11-08beec1c294b"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:ad54c2a4-186e-48ba-a5a1-103782455b16"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1313,10 +1313,10 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c2d82999-98ad-4226-a811-1bba8f3b47bb"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:bc096647-cfe8-4328-866c-fd5670cf0580"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1420,10 +1420,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:19e963a3-cfcd-45fa-8724-05fdab90b72c"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:04bc9511-30c6-467a-8a0c-d360eb2a70ae"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1507,10 +1507,10 @@
         <name value="CQDGFamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6f9c532d-f3e1-49f4-a803-4e4fc1b8ab5d"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:b33f5975-92fa-4fa5-980f-a2c6cbb1ffed"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1610,10 +1610,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1783262d-4cb4-42eb-82b4-c9c521856430"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:8eea6184-9d2e-405f-af97-afa1ca3ab2ca"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1747,10 +1747,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fb0abf74-07e9-451e-9eeb-1c5ee68211f5"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:24a5dea4-85ad-4e6b-bcc3-159b735121db"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1843,10 +1843,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:32c773c3-55c8-4528-9019-4492563ccec3"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:bb2235b1-0000-4606-b8d2-770c726994a9"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2025,10 +2025,10 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:84204ce8-07d4-468a-9ed0-a5583cd51916"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:4910e5da-20a3-4e4a-8f63-2c30d94954d0"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2097,7 +2097,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-population.html">codesystem Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2109,6 +2109,14 @@
                 <td>
                   <b>Display</b>
                 </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.cqdg.ca-CodeSystem-population-Fetal"> </a>  
+                  <a href="CodeSystem-population.html#population-Fetal">Fetal</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/population</td>
+                <td>Fetal</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2142,11 +2150,11 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fc32bd98-b47d-44e5-95ad-885677b73061"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:51795a7b-ada4-4587-92c6-b421d17a5469"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
+          <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -2155,6 +2163,11 @@
             <name value="used-codesystem"/>
             <valueUri value="https://fhir.cqdg.ca/CodeSystem/population|0.1.0"/>
           </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
+            <code value="Fetal"/>
+            <display value="Fetal"/>
+          </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/population"/>
             <code value="Pediatric"/>
@@ -2359,10 +2372,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6096b7fb-1785-43e7-a015-fffa4d142265"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:bd82a30e-1b53-4c56-a879-44e17d94b6b1"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2558,10 +2571,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3b6472d8-d50e-4f80-a124-52482d84b7b6"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:eeb736f8-09a0-483e-b87d-375d917d267c"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2847,10 +2860,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1ef70e0f-3c42-46ec-9335-85e6684bec6a"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:3804fef0-9242-4c5a-a5a1-ae9b0578da5c"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3085,10 +3098,10 @@
         <name value="SampleTypeTissueSourceVS"/>
         <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c220485d-de64-4863-af8a-65e7812eb6b2"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:1264302b-cf3a-413f-a67a-b2f541d3fb21"/>
+          <timestamp value="2023-12-07T15:06:19+00:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3250,10 +3263,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:365d67c4-cfa4-41a9-956b-7cfcb1e96cfa"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:d272a09c-fc65-46db-8b58-24c047830a9c"/>
+          <timestamp value="2023-12-07T15:06:20+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3337,10 +3350,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2023-12-04T14:59:45+00:00"/>
+        <date value="2023-12-07T15:05:41+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:487cb56b-8e00-4025-98e7-853aece210d3"/>
-          <timestamp value="2023-12-04T15:00:26+00:00"/>
+          <identifier value="urn:uuid:d90e6587-ae3d-444d-a9d1-f7a2d19b635a"/>
+          <timestamp value="2023-12-07T15:06:20+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

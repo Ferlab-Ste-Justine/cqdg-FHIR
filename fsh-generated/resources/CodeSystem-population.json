@@ -8,6 +8,19 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/population",
   "concept": [
     {
+      "code": "Fetal",
+      "display": "Fetal",
+      "designation": [
+        {
+          "use": {
+            "code": "Fetal",
+            "system": "https://fhir.cqdg.ca/CodeSystem/population"
+          },
+          "value": "Fetal"
+        }
+      ]
+    },
+    {
       "code": "Pediatric",
       "display": "Pediatric",
       "designation": [
@@ -50,5 +63,5 @@
   "experimental": false,
   "description": "Population",
   "caseSensitive": true,
-  "count": 3
+  "count": 4
 }

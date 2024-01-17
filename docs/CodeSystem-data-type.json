@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-01-17T16:00:29+00:00",
+  "date" : "2024-01-17T16:27:10+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -51,7 +51,7 @@
     "display" : "Germline CNV",
     "designation" : [{
       "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem//data-type",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "Germline-CNV"
       },
       "value" : "Germline CNV"
@@ -62,7 +62,7 @@
     "display" : "Sequencing Data Supplement",
     "designation" : [{
       "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem//data-type",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "Sequencing-data-supplement"
       },
       "value" : "Supplement"
@@ -73,7 +73,7 @@
     "display" : "Sequencing Data Index",
     "designation" : [{
       "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem//data-type",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "Sequencing-data-index"
       },
       "value" : "Sequencing Data Index"
@@ -84,7 +84,7 @@
     "display" : "Germline Structural Variant",
     "designation" : [{
       "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem//data-type",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "Germline-structural-variant"
       },
       "value" : "Germline Structural Variant"
@@ -95,7 +95,7 @@
     "display" : "IGV",
     "designation" : [{
       "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem//data-type",
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "IGV"
       },
       "value" : "IGV"

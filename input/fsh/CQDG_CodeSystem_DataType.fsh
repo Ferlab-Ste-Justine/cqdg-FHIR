@@ -16,22 +16,22 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"SNV" ^designation.value = "SNV"
 
 * #"Germline-CNV" "Germline CNV"
-* #"Germline-CNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Germline-CNV
+* #"Germline-CNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Germline-CNV
 * #"Germline-CNV" ^designation.value = "Germline CNV"
 
 * #"Sequencing-data-supplement" "Sequencing Data Supplement"
-* #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Sequencing-data-supplement
+* #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement
 * #"Sequencing-data-supplement" ^designation.value = "Supplement"
 
 * #"Sequencing-data-index" "Sequencing Data Index"
-* #"Sequencing-data-index" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Sequencing-data-index
+* #"Sequencing-data-index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-index
 * #"Sequencing-data-index" ^designation.value = "Sequencing Data Index"
 
 * #"Germline-structural-variant" "Germline Structural Variant"
-* #"Germline-structural-variant" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Germline-structural-variant
+* #"Germline-structural-variant" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Germline-structural-variant
 * #"Germline-structural-variant" ^designation.value = "Germline Structural Variant"
 
 * #"IGV" "IGV"
-* #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#IGV
+* #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#IGV
 * #"IGV" ^designation.value = "IGV"
 

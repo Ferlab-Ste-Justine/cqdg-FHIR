@@ -21,7 +21,7 @@ Title: "Ferlab.bio CodeSystem/data-type"
 
 * #"Sequencing-data-supplement" "Sequencing Data Supplement"
 * #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Sequencing-data-supplement
-* #"Sequencing-data-supplement" ^designation.value = "Sequencing Data Supplement"
+* #"Sequencing-data-supplement" ^designation.value = "Supplement"
 
 * #"Sequencing-data-index" "Sequencing Data Index"
 * #"Sequencing-data-index" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Sequencing-data-index

@@ -12,14 +12,14 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Aligned-reads" ^designation.value = "Aligned Reads"
 
 * #"SNV" "SNV"
-* #"SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem//data-type#Snv
+* #"SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Snv
 * #"SNV" ^designation.value = "SNV"
 
 * #"Germline-CNV" "Germline CNV"
 * #"Germline-CNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Germline-CNV
 * #"Germline-CNV" ^designation.value = "Germline CNV"
 
-* #"Sequencing-data-supplement" "Sequencing Data Supplement"
+* #"Sequencing-data-supplement" "Supplement"
 * #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement
 * #"Sequencing-data-supplement" ^designation.value = "Supplement"
 

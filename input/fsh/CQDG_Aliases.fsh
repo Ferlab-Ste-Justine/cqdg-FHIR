@@ -15,9 +15,13 @@ Alias: $DISEASESAT = https://fhir.cqdg.ca/CodeSystem/disease-status
 Alias: $NCIT = http://purl.obolibrary.org/obo/ncit.owl
 Alias: $OBCAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $DSCS = https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs
+Alias: $DATA_CATEGORY_SD = https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/DataCategory
 
 // Alias: $RESEARCHSTUDY = http://hl7.org/fhir/StructureDefinition/workflow-researchStudy
+// Alias: $DATA_CATEGORY_SD = https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/DataCategory
 // Alias: $ASSOCENCOUNTER = http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter
 Alias: $DSSD = https://fhir.cqdg.ca/StructureDefinition/dataset
+Alias: $EXP_CONT_SD = https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent
+
 // Alias: $ENCTYPE = http://hl7.org/fhir/ValueSet/encounter-type
 // Alias: $UCUM = http://unitsofmeasure.org

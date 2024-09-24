@@ -53,7 +53,8 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 4
       },
       {
         "id": "ResearchStudy.extension:population",
@@ -111,6 +112,144 @@
             "code": "Extension",
             "profile": [
               "https://fhir.cqdg.ca/StructureDefinition/dataset"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ResearchStudy.extension:dataCategory",
+        "path": "ResearchStudy.extension",
+        "sliceName": "dataCategory",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ResearchStudy.extension:dataCategory.extension",
+        "path": "ResearchStudy.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "ResearchStudy.extension:dataCategory.value[x]:valueCodeableConcept",
+        "path": "ResearchStudy.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/data-category-vs"
+        }
+      },
+      {
+        "id": "ResearchStudy.extension:studyDesign",
+        "path": "ResearchStudy.extension",
+        "sliceName": "studyDesign",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ResearchStudy.extension:studyDesign.extension",
+        "path": "ResearchStudy.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "ResearchStudy.extension:studyDesign.value[x]:valueCodeableConcept",
+        "path": "ResearchStudy.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/study-design-vs"
+        }
+      },
+      {
+        "id": "ResearchStudy.extension:dataCollectionMethod",
+        "path": "ResearchStudy.extension",
+        "sliceName": "dataCollectionMethod",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ResearchStudy.extension:dataCollectionMethod.extension",
+        "path": "ResearchStudy.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "ResearchStudy.extension:dataCollectionMethod.value[x]:valueCodeableConcept",
+        "path": "ResearchStudy.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs"
+        }
+      },
+      {
+        "id": "ResearchStudy.extension:restricted",
+        "path": "ResearchStudy.extension",
+        "sliceName": "restricted",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/Restricted"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ResearchStudy.extension:researchStudyExpectedContent",
+        "path": "ResearchStudy.extension",
+        "sliceName": "researchStudyExpectedContent",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent"
             ]
           }
         ]

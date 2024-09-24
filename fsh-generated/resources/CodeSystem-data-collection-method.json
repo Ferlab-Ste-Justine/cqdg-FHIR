@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "DataCollectionMethod",
+  "id": "data-collection-method",
+  "title": "Ferlab.bio CodeSystem/data-collection-method",
+  "url": "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+  "concept": [
+    {
+      "code": "investigator_assessment",
+      "display": "Investigator Assessment",
+      "designation": [
+        {
+          "use": {
+            "code": "investigator_assessment",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-collection-method"
+          },
+          "language": "fr",
+          "value": "Évaluation de l'investigateur"
+        }
+      ]
+    },
+    {
+      "code": "participant_caregiver_report",
+      "display": "Participant or Caregiver Report",
+      "designation": [
+        {
+          "use": {
+            "code": "participant_caregiver_report",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-collection-method"
+          },
+          "language": "fr",
+          "value": "Rapport du participant ou de l'aidant"
+        }
+      ]
+    },
+    {
+      "code": "medical_records",
+      "display": "Medical Records",
+      "designation": [
+        {
+          "use": {
+            "code": "medical_records",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-collection-method"
+          },
+          "language": "fr",
+          "value": "Dossiers médicaux"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "description": "Data category",
+  "caseSensitive": true,
+  "count": 3
+}

@@ -3,7 +3,7 @@
   "id" : "disease-status",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"disease-status-Affected\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">Non-affected<a name=\"disease-status-Non-affected\"> </a></td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem disease-status</b></p><a name=\"disease-status\"> </a><a name=\"hcdisease-status\"> </a><a name=\"disease-status-en-US\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"disease-status-Affected\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">Non-affected<a name=\"disease-status-Non-affected\"> </a></td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/disease-status",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-01-17T16:37:11+00:00",
+  "date" : "2024-10-02T15:04:17+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

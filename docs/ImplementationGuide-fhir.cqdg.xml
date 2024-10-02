@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.cqdg"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide fhir.cqdg</b></p><a name="fhir.cqdg"> </a><a name="hcfhir.cqdg"> </a><a name="fhir.cqdg-en-US"> </a><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>
   </text>
   <url value="https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg"/>
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2024-01-17T16:37:11+00:00"/>
+  <date value="2024-10-02T15:04:17+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="6.0.2"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -35,7 +35,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_ca_baseline">
     <uri value="http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline"/>
@@ -244,7 +244,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools#0.2.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -528,6 +528,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/data-collection-method"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/data-collection-method"/>
+      <description value="Data category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/data-type"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/data-type"/>
@@ -642,6 +653,17 @@
       </reference>
       <name value="Ferlab.bio CodeSystem/sample-type"/>
       <description value="Qc sample type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/study-design"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/study-design"/>
+      <description value="Data category"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -858,9 +880,53 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/DataCategoryExtension"/>
+      </reference>
+      <name value="Ferlab.bio Extension/data-category"/>
+      <description value="Categories of data collected in this study (e.g. genomics, imaging…)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/StudyDesignExtension"/>
+      </reference>
+      <name value="Ferlab.bio Extension/data-category"/>
+      <description value="Overall design of study, including whether it is longitudinal and whether family members/unrelated controls are also enrolled."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DataCollectionMethodExtension"/>
+      </reference>
+      <name value="Ferlab.bio Extension/data-collection-method"/>
+      <description value="Describes the data collection methods for the study."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/datasetExtension"/>
       </reference>
       <name value="Ferlab.bio Extension/dataset"/>
+      <description value="dataset for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/expectedStudyContent"/>
+      </reference>
+      <name value="Ferlab.bio Extension/expectedStudyContent"/>
       <description value="dataset for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1155,6 +1221,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/data-collection-method-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/data-collection-method"/>
+      <description value="Data Collection Method ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/data-type-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/data-type"/>
@@ -1298,10 +1375,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/study-design-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/study-design"/>
+      <description value="Study Design ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/tumor-normal-designation-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/tumor-normal-designation"/>
       <description value="Tumor Normal Designation ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Restricted"/>
+      </reference>
+      <name value="Restricted"/>
+      <description value="Is the study restricted (no publicly shared data on individuals)"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

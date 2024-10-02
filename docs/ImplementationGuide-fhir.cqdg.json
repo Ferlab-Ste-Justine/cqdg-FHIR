@@ -2,14 +2,14 @@
   "resourceType" : "ImplementationGuide",
   "id" : "fhir.cqdg",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.cqdg</b></p><a name=\"fhir.cqdg\"> </a><a name=\"hcfhir.cqdg\"> </a><a name=\"fhir.cqdg-en-US\"> </a><h2>CQDG_FHIR_IG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg</pre></div>"
   },
   "url" : "https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg",
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2024-01-17T16:37:11+00:00",
+  "date" : "2024-10-02T15:04:17+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "6.0.2"
   },
   {
     "id" : "hl7ext",
@@ -39,7 +39,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   },
   {
     "id" : "hl7_fhir_ca_baseline",
@@ -325,7 +325,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
     },
     {
       "extension" : [{
@@ -692,6 +692,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/data-collection-method"
+      },
+      "name" : "Ferlab.bio CodeSystem/data-collection-method",
+      "description" : "Data category",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/data-type"
       },
       "name" : "Ferlab.bio CodeSystem/data-type",
@@ -816,6 +828,18 @@
       },
       "name" : "Ferlab.bio CodeSystem/sample-type",
       "description" : "Qc sample type",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/study-design"
+      },
+      "name" : "Ferlab.bio CodeSystem/study-design",
+      "description" : "Data category",
       "exampleBoolean" : false
     },
     {
@@ -1052,9 +1076,57 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/DataCategoryExtension"
+      },
+      "name" : "Ferlab.bio Extension/data-category",
+      "description" : "Categories of data collected in this study (e.g. genomics, imaging…).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/StudyDesignExtension"
+      },
+      "name" : "Ferlab.bio Extension/data-category",
+      "description" : "Overall design of study, including whether it is longitudinal and whether family members/unrelated controls are also enrolled.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/DataCollectionMethodExtension"
+      },
+      "name" : "Ferlab.bio Extension/data-collection-method",
+      "description" : "Describes the data collection methods for the study.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/datasetExtension"
       },
       "name" : "Ferlab.bio Extension/dataset",
+      "description" : "dataset for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/expectedStudyContent"
+      },
+      "name" : "Ferlab.bio Extension/expectedStudyContent",
       "description" : "dataset for cqdg project",
       "exampleBoolean" : false
     },
@@ -1376,6 +1448,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/data-collection-method-vs"
+      },
+      "name" : "Ferlab.bio ValueSet/data-collection-method",
+      "description" : "Data Collection Method ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/data-type-vs"
       },
       "name" : "Ferlab.bio ValueSet/data-type",
@@ -1532,10 +1616,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/study-design-vs"
+      },
+      "name" : "Ferlab.bio ValueSet/study-design",
+      "description" : "Study Design ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/tumor-normal-designation-vs"
       },
       "name" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "description" : "Tumor Normal Designation ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Restricted"
+      },
+      "name" : "Restricted",
+      "description" : "Is the study restricted (no publicly shared data on individuals)",
       "exampleBoolean" : false
     }],
     "page" : {

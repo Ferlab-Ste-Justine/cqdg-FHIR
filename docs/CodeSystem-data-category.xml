@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="data-category"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">Genomics<a name="data-category-Genomics"> </a></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem data-category</b></p><a name="data-category"> </a><a name="hcdata-category"> </a><a name="data-category-en-US"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">genomics<a name="data-category-genomics"> </a></td><td>Genomics</td><td>Génomique</td></tr><tr><td style="white-space:nowrap">imaging<a name="data-category-imaging"> </a></td><td>Imaging</td><td>Imagerie</td></tr><tr><td style="white-space:nowrap">clinical<a name="data-category-clinical"> </a></td><td>Clinical</td><td>Clinique</td></tr><tr><td style="white-space:nowrap">transcriptomics<a name="data-category-transcriptomics"> </a></td><td>Transcriptomics</td><td>Transcriptomique</td></tr><tr><td style="white-space:nowrap">proteomics<a name="data-category-proteomics"> </a></td><td>Proteomics</td><td>Protéomique</td></tr><tr><td style="white-space:nowrap">metabolomics<a name="data-category-metabolomics"> </a></td><td>Metabolomics</td><td>Métabolomique</td></tr><tr><td style="white-space:nowrap">other<a name="data-category-other"> </a></td><td>Other</td><td>Autre</td></tr></table></div>
   </text>
   <url value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Ferlab.bio CodeSystem/data-category"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-01-17T16:37:11+00:00"/>
+  <date value="2024-10-02T15:04:17+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -23,16 +23,89 @@
   <description value="Data category"/>
   <caseSensitive value="true"/>
   <content value="complete"/>
-  <count value="1"/>
+  <count value="7"/>
   <concept>
-    <code value="Genomics"/>
+    <code value="genomics"/>
     <display value="Genomics"/>
     <designation>
+      <language value="fr"/>
       <use>
         <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
-        <code value="Genomics"/>
+        <code value="genomics"/>
       </use>
-      <value value="Genomics"/>
+      <value value="Génomique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="imaging"/>
+    <display value="Imaging"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="imaging"/>
+      </use>
+      <value value="Imagerie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="clinical"/>
+    <display value="Clinical"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="clinical"/>
+      </use>
+      <value value="Clinique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="transcriptomics"/>
+    <display value="Transcriptomics"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="transcriptomics"/>
+      </use>
+      <value value="Transcriptomique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="proteomics"/>
+    <display value="Proteomics"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="proteomics"/>
+      </use>
+      <value value="Protéomique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="metabolomics"/>
+    <display value="Metabolomics"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="metabolomics"/>
+      </use>
+      <value value="Métabolomique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <designation>
+      <language value="fr"/>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/data-category"/>
+        <code value="other"/>
+      </use>
+      <value value="Autre"/>
     </designation>
   </concept>
 </CodeSystem>

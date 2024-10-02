@@ -3,7 +3,7 @@
   "id" : "data-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Aligned-reads<a name=\"data-type-Aligned-reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">Germline-CNV<a name=\"data-type-Germline-CNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-supplement<a name=\"data-type-Sequencing-data-supplement\"> </a></td><td>Supplement</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-index<a name=\"data-type-Sequencing-data-index\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">Germline-structural-variant<a name=\"data-type-Germline-structural-variant\"> </a></td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><a name=\"data-type-en-US\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Aligned-reads<a name=\"data-type-Aligned-reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">Germline-CNV<a name=\"data-type-Germline-CNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-supplement<a name=\"data-type-Sequencing-data-supplement\"> </a></td><td>Supplement</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-index<a name=\"data-type-Sequencing-data-index\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">Germline-structural-variant<a name=\"data-type-Germline-structural-variant\"> </a></td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-01-17T16:37:11+00:00",
+  "date" : "2024-10-02T15:04:17+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -41,7 +41,7 @@
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Snv"
+        "code" : "SNV"
       },
       "value" : "SNV"
     }]

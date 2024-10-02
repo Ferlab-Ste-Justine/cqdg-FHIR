@@ -79,7 +79,24 @@
       "name" : "DataCategoryVS",
       "title" : "Ferlab.bio ValueSet/data-category",
       "description" : "Data Category ValueSet",
-      "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"]
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/data-collection-method",
+      "description" : "Data Collection Method ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -209,6 +226,19 @@
       "uses" : {
       },
       "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "StudyDesignVS",
+      "title" : "Ferlab.bio ValueSet/study-design",
+      "description" : "Study Design ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",

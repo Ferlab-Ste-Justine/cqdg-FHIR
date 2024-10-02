@@ -63,6 +63,13 @@
     "name" : "DataCategory"
   },
   {
+    "id" : "data-collection-method",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+    "version" : "0.1.0",
+    "name" : "DataCollectionMethod"
+  },
+  {
     "id" : "data-type",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
@@ -124,6 +131,13 @@
     "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
     "version" : "0.1.0",
     "name" : "ResearchDomain"
+  },
+  {
+    "id" : "study-design",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+    "version" : "0.1.0",
+    "name" : "StudyDesign"
   },
   {
     "id" : "tumor-normal-designation",
@@ -210,6 +224,20 @@
     "name" : "CQDGObservationTumorNormalDesignation"
   },
   {
+    "id" : "DataCategoryExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension",
+    "version" : "0.1.0",
+    "name" : "DataCategoryExtension"
+  },
+  {
+    "id" : "DataCollectionMethodExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension",
+    "version" : "0.1.0",
+    "name" : "DataCollectionMethodExtension"
+  },
+  {
     "id" : "FullSizeExtension",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
@@ -222,6 +250,27 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
     "version" : "0.1.0",
     "name" : "QCEthnicity"
+  },
+  {
+    "id" : "expectedStudyContent",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent",
+    "version" : "0.1.0",
+    "name" : "ResearchStudyExpectedContent"
+  },
+  {
+    "id" : "Restricted",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/Restricted",
+    "version" : "0.1.0",
+    "name" : "Restricted"
+  },
+  {
+    "id" : "StudyDesignExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension",
+    "version" : "0.1.0",
+    "name" : "StudyDesignExtension"
   },
   {
     "id" : "cqdg-condition",
@@ -371,6 +420,13 @@
     "name" : "DataCategoryVS"
   },
   {
+    "id" : "data-collection-method-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs",
+    "version" : "0.1.0",
+    "name" : "DataCollectionMethodVS"
+  },
+  {
     "id" : "data-type-vs",
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -453,6 +509,13 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
     "version" : "0.1.0",
     "name" : "SampleTypeTissueSourceVS"
+  },
+  {
+    "id" : "study-design-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
+    "version" : "0.1.0",
+    "name" : "StudyDesignVS"
   },
   {
     "id" : "study-vs",

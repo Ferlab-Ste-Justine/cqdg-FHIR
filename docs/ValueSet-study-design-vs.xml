@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="study-design-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet study-design-vs</b></p><a name="study-design-vs"> </a><a name="hcstudy-design-vs"> </a><a name="study-design-vs-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-study-design.html"><code>https://fhir.cqdg.ca/CodeSystem/study-design</code></a></li></ul></div>
+  </text>
+  <url value="https://fhir.cqdg.ca/ValueSet/study-design-vs"/>
+  <version value="0.1.0"/>
+  <name value="StudyDesignVS"/>
+  <title value="Ferlab.bio ValueSet/study-design"/>
+  <status value="active"/>
+  <date value="2024-10-02T15:04:17+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Study Design ValueSet"/>
+  <compose>
+    <include>
+      <system value="https://fhir.cqdg.ca/CodeSystem/study-design"/>
+    </include>
+  </compose>
+</ValueSet>

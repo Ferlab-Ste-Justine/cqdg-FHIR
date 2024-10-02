@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "family-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Case-parent-trio<a name=\"family-type-Case-parent-trio\"> </a></td><td>Case-parent trio</td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td><td>Case-sibling</td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td><td>Twins</td></tr><tr><td style=\"white-space:nowrap\">Case-affected-relative<a name=\"family-type-Case-affected-relative\"> </a></td><td>Case - affected relative</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td><td>Other</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-type</b></p><a name=\"family-type\"> </a><a name=\"hcfamily-type\"> </a><a name=\"family-type-en-US\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Case-parent-trio<a name=\"family-type-Case-parent-trio\"> </a></td><td>Case-parent trio</td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td><td>Case-sibling</td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td><td>Twins</td></tr><tr><td style=\"white-space:nowrap\">Case-affected-relative<a name=\"family-type-Case-affected-relative\"> </a></td><td>Case - affected relative</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td><td>Other</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/family-type"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/family-type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-01-17T16:37:11+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-02T15:04:17+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;

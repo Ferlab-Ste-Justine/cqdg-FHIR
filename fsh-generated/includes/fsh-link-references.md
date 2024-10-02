@@ -5,6 +5,7 @@
 [CQDGObservationCode]: CodeSystem-cqdg-observation-code.html
 [CQDGStudyCS]: CodeSystem-cqdg-study-cs.html
 [DataCategory]: CodeSystem-data-category.html
+[DataCollectionMethod]: CodeSystem-data-collection-method.html
 [DataType]: CodeSystem-data-type.html
 [DiseaseStatusCS]: CodeSystem-disease-status.html
 [DocumentForamt]: CodeSystem-document-format.html
@@ -16,6 +17,7 @@
 [QCEthnicity]: CodeSystem-qc-ethnicity.html
 [ResearchDomain]: CodeSystem-research-domain.html
 [QCSampleType]: CodeSystem-qc-sample-type.html
+[StudyDesign]: CodeSystem-study-design.html
 [TumorNormalDesignation]: CodeSystem-tumor-normal-designation.html
 [V3RoleCode]: CodeSystem-v3-role-code.html
 [ConditionExample]: Condition-ConditionExample.html
@@ -35,7 +37,11 @@
 [AgeAtEvent]: StructureDefinition-AgeAtEvent.html
 [AgeAtRecruitment]: StructureDefinition-AgeAtRecruitment.html
 [AgeOfDeath]: StructureDefinition-AgeOfDeath.html
+[DataCategoryExtension]: StructureDefinition-DataCategoryExtension.html
+[StudyDesignExtension]: StructureDefinition-StudyDesignExtension.html
+[DataCollectionMethodExtension]: StructureDefinition-DataCollectionMethodExtension.html
 [Dataset]: StructureDefinition-datasetExtension.html
+[ResearchStudyExpectedContent]: StructureDefinition-expectedStudyContent.html
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
 [PopulationInfo]: StructureDefinition-population-info.html
 [QCEthnicity]: StructureDefinition-QCEthnicity.html
@@ -62,6 +68,7 @@
 [CQDGObservationCategory]: ValueSet-cqdg-observation-category.html
 [StudyVS]: ValueSet-study-vs.html
 [DataCategoryVS]: ValueSet-data-category-vs.html
+[DataCollectionMethodVS]: ValueSet-data-collection-method-vs.html
 [DataTypeVS]: ValueSet-data-type-vs.html
 [CQDGDiagnosisVS]: ValueSet-cqdg-diagnosis-vs.html
 [DiseaseStatusVS]: ValueSet-disease-status-vs.html
@@ -75,4 +82,6 @@
 [RelationshipToProband]: ValueSet-relationship-to-proband.html
 [ResearchDomain]: ValueSet-research-domain-vs.html
 [SampleTypeTissueSourceVS]: ValueSet-sample-type-tissue-source-vs.html
+[StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
+[Restricted]: StructureDefinition-Restricted.html

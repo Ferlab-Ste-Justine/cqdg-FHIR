@@ -20,7 +20,7 @@ Usage: #example
 
 * status = #current
 * type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-data-supplement" "Sequencing Data Supplement"
-* category = https://fhir.cqdg.ca/CodeSystem/data-category#Genomics "Genomics"
+* category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal
 * content.attachment.contentType = #application/octet-stream
@@ -43,7 +43,7 @@ Usage: #example
 
 * status = #current
 * type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-reads" "Aligned Reads"
-* category = https://fhir.cqdg.ca/CodeSystem/data-category#Genomics "Genomics"
+* category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal = 22799222
 * content.attachment.contentType = #application/octet-stream

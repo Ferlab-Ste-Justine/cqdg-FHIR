@@ -89,6 +89,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/data-collection-method"
+        },
+        "name": "Ferlab.bio CodeSystem/data-collection-method",
+        "description": "Data category",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/data-type"
         },
         "name": "Ferlab.bio CodeSystem/data-type",
@@ -173,6 +181,14 @@
         },
         "name": "Ferlab.bio CodeSystem/sample-type",
         "description": "Qc sample type",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/study-design"
+        },
+        "name": "Ferlab.bio CodeSystem/study-design",
+        "description": "Data category",
         "exampleBoolean": false
       },
       {
@@ -329,9 +345,41 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/DataCategoryExtension"
+        },
+        "name": "Ferlab.bio Extension/data-category",
+        "description": "Categories of data collected in this study (e.g. genomics, imaging…).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/StudyDesignExtension"
+        },
+        "name": "Ferlab.bio Extension/data-category",
+        "description": "Overall design of study, including whether it is longitudinal and whether family members/unrelated controls are also enrolled.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/DataCollectionMethodExtension"
+        },
+        "name": "Ferlab.bio Extension/data-collection-method",
+        "description": "Describes the data collection methods for the study.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/datasetExtension"
         },
         "name": "Ferlab.bio Extension/dataset",
+        "description": "dataset for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/expectedStudyContent"
+        },
+        "name": "Ferlab.bio Extension/expectedStudyContent",
         "description": "dataset for cqdg project",
         "exampleBoolean": false
       },
@@ -545,6 +593,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/data-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/data-collection-method",
+        "description": "Data Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/data-type-vs"
         },
         "name": "Ferlab.bio ValueSet/data-type",
@@ -649,10 +705,26 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/study-design-vs"
+        },
+        "name": "Ferlab.bio ValueSet/study-design",
+        "description": "Study Design ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/tumor-normal-designation-vs"
         },
         "name": "Ferlab.bio ValueSet/tumor-normal-designation",
         "description": "Tumor Normal Designation ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Restricted"
+        },
+        "name": "Restricted",
+        "description": "Is the study restricted (no publicly shared data on individuals)",
         "exampleBoolean": false
       }
     ],

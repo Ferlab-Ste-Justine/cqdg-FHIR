@@ -8,15 +8,100 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/data-category",
   "concept": [
     {
-      "code": "Genomics",
+      "code": "genomics",
       "display": "Genomics",
       "designation": [
         {
           "use": {
-            "code": "Genomics",
+            "code": "genomics",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
           },
-          "value": "Genomics"
+          "language": "fr",
+          "value": "Génomique"
+        }
+      ]
+    },
+    {
+      "code": "imaging",
+      "display": "Imaging",
+      "designation": [
+        {
+          "use": {
+            "code": "imaging",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Imagerie"
+        }
+      ]
+    },
+    {
+      "code": "clinical",
+      "display": "Clinical",
+      "designation": [
+        {
+          "use": {
+            "code": "clinical",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Clinique"
+        }
+      ]
+    },
+    {
+      "code": "transcriptomics",
+      "display": "Transcriptomics",
+      "designation": [
+        {
+          "use": {
+            "code": "transcriptomics",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Transcriptomique"
+        }
+      ]
+    },
+    {
+      "code": "proteomics",
+      "display": "Proteomics",
+      "designation": [
+        {
+          "use": {
+            "code": "proteomics",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Protéomique"
+        }
+      ]
+    },
+    {
+      "code": "metabolomics",
+      "display": "Metabolomics",
+      "designation": [
+        {
+          "use": {
+            "code": "metabolomics",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Métabolomique"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "designation": [
+        {
+          "use": {
+            "code": "other",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Autre"
         }
       ]
     }
@@ -24,5 +109,5 @@
   "experimental": false,
   "description": "Data category",
   "caseSensitive": true,
-  "count": 1
+  "count": 7
 }

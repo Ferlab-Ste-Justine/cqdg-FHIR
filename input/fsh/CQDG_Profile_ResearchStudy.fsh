@@ -24,6 +24,18 @@ Title: "Ferlab.bio StructureDefinition/cqdg-study"
 * extension contains AccessRequirements named accessRequirements 0..*
 * extension contains Dataset named dataset 0..*
 
+* extension contains DataCategoryExtension named dataCategory 1..*
+* extension[dataCategory].valueCodeableConcept from data-category-vs
+
+* extension contains StudyDesignExtension named studyDesign 1..*
+* extension[studyDesign].valueCodeableConcept from study-design-vs
+
+* extension contains DataCollectionMethodExtension named dataCollectionMethod 1..*
+* extension[dataCollectionMethod].valueCodeableConcept from data-collection-method-vs
+
+* extension contains Restricted named restricted 1..1
+* extension contains ResearchStudyExpectedContent named researchStudyExpectedContent 0..1
+
 // -----------------------------------------------------
 // example instance of profile defined
 Instance: ResearchStudyExample
@@ -53,6 +65,8 @@ Title: "Ferlab.bio Example/cqdg-study"
 
 
 // Note: pas lié au consentement de l'individu mais plutot au business model de l'étude.
+* extension[restricted][0].valueBoolean = false
+
 * extension[accessLimitations][0].valueCoding.code = #DUO:0000005
 * extension[accessLimitations][0].valueCoding.display = "obsolete general research use and clinical care"
 
@@ -79,6 +93,21 @@ Title: "Ferlab.bio Example/cqdg-study"
 * extension[dataset][+].extension[name].valueString = "Dataset 2"
 * extension[dataset][=].extension[description].valueString = "Dataset 2 description"
 
+* extension[researchStudyExpectedContent][0].extension[expectedNumberParticipants].valueInteger = 22
+* extension[researchStudyExpectedContent][0].extension[expectedNumberBiospecimens].valueInteger = 22
+* extension[researchStudyExpectedContent][0].extension[expectedNumberFiles].valueInteger = 22
+* extension[researchStudyExpectedContent][0].extension[restrictedNumberParticipants].valueInteger = 3
+* extension[researchStudyExpectedContent][0].extension[restrictedNumberBiospeciment].valueInteger = 4
+* extension[researchStudyExpectedContent][0].extension[restrictedNumberFiles].valueInteger = 5
+
+* extension[dataCategory][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/data-category#"genomics"
+* extension[dataCategory][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/data-category#"other"
+
+* extension[studyDesign][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/study-design#"registry"
+* extension[studyDesign][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/study-design#"cohort"
+
+* extension[dataCollectionMethod][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/data-collection-method#"medical_records"
+* extension[dataCollectionMethod][+].valueCodeableConcept = https://fhir.cqdg.ca/CodeSystem/data-collection-method#"investigator_assessment"
 
 * keyword[0].text = "genomics"
 * keyword[+].text = "chronic conditions"

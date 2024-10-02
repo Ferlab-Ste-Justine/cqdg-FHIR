@@ -12,7 +12,7 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Aligned-reads" ^designation.value = "Aligned Reads"
 
 * #"SNV" "SNV"
-* #"SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Snv
+* #"SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#SNV
 * #"SNV" ^designation.value = "SNV"
 
 * #"Germline-CNV" "Germline CNV"

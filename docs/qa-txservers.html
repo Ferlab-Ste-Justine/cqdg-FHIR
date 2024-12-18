@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for CQDG_FHIR_IG</h1>
- <p>Generated Wed Oct 02 15:05:50 UTC 2024, FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = <a href="https://fhir.cqdg.ca">https://fhir.cqdg.ca</a> (<a href="https://fhir.cqdg.ca/history.html">history</a>))</p>
+ <p>Generated Wed Dec 18 18:28:36 UTC 2024, FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = <a href="https://fhir.cqdg.ca">https://fhir.cqdg.ca</a> (<a href="https://fhir.cqdg.ca/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -21,15 +21,150 @@
   </li>
 </ul>
 <h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
-<ul>
-  <li>Request for system [http://purl.obolibrary.org/obo/mondo.owl] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>Request for system [https://fhir.cqdg.ca/CodeSystem/study-domain] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>null uses the system [http://purl.obolibrary.org/obo/mondo.owl] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs|0.1.0 includes multiple systems [http://terminology.hl7.org/CodeSystem/icd10-CA, http://purl.obolibrary.org/obo/mondo.owl] best handled by multiple servers: [auth = , candidates=, auth = , candidates=]. Using master @ 'http://tx.fhir.org/r4'</li>
-</ul>
+<p>
+  <b>Decisions</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>Message</b>
+    </td>
+    <td>
+      <b>Server</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Systems</b>
+    </td>
+    <td>
+      <b>Choices</b>
+    </td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>urn:ietf:bcp:13</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/languages|4.0.1</td>
+    <td>urn:ietf:bcp:47</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/security-labels|4.0.1</td>
+    <td>[http://terminology.hl7.org/CodeSystem/v3-ActReason, http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw, http://terminology.hl7.org/CodeSystem/v3-ObservationValue, http://terminology.hl7.org/CodeSystem/v3-ActCode, http://terminology.hl7.org/CodeSystem/v3-Confidentiality]</td>
+    <td>[auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>urn:uuid:9631f787-e529-43ff-894f-ab247ac85a8c</td>
+    <td>urn:ietf:bcp:13</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/mimetypes|4.0.1</td>
+    <td>urn:ietf:bcp:13</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.cqdg.ca/CodeSystem/study-domain</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.cqdg.ca/CodeSystem/study-domain</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs|0.1.0</td>
+    <td>[http://terminology.hl7.org/CodeSystem/icd10-CA, http://purl.obolibrary.org/obo/mondo.owl]</td>
+    <td>[auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+</table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
 <a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 13. Code Systems used: </p>
+<p>Use Count: 20. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -46,11 +181,17 @@
     </th>
   </tr>
   <tr>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>http://loinc.org</td>
     <td>0</td>
     <td>3</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
     </td>
   </tr>
   <tr>
@@ -58,7 +199,7 @@
     <td>2</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-MONDO.html">Mondo Disease Ontology</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-MONDO.html">Mondo Disease Ontology</a>
     </td>
   </tr>
   <tr>
@@ -80,7 +221,7 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActCode.html">ActCode</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-ActCode.html">ActCode</a>
     </td>
   </tr>
   <tr>
@@ -88,7 +229,7 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActReason.html">ActReason</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-ActReason.html">ActReason</a>
     </td>
   </tr>
   <tr>
@@ -96,7 +237,7 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActUSPrivacyLaw.html">ActUSPrivacyLaw</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-ActUSPrivacyLaw.html">ActUSPrivacyLaw</a>
     </td>
   </tr>
   <tr>
@@ -104,7 +245,7 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-Confidentiality.html">Confidentiality</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-Confidentiality.html">Confidentiality</a>
     </td>
   </tr>
   <tr>
@@ -112,7 +253,7 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ObservationValue.html">ObservationValue</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-ObservationValue.html">ObservationValue</a>
     </td>
   </tr>
   <tr>
@@ -132,9 +273,15 @@
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ietf3066.html">Tags for the Identification of Languages</a>
+      <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-ietf3066.html">Tags for the Identification of Languages</a>
     </td>
   </tr>
 </table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>http://purl.obolibrary.org/obo/hp.owl</li>
+  <li>https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs</li>
+  <li>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs</li>
+</ul>
 </body>
 </html>

@@ -23,10 +23,12 @@ Generic: line 0, col 0, Error - The link 'https://fhir.cqdg.ca/CodeSystem/tumor-
 Generic: line 0, col 0, Error - The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
-Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters (BUSINESSRULE)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset.json: line 0, col 0, Error - Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/age-at-onset) does not match the URL (http://purl.obolibrary.org/obo/hp.owl) (INVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset.json: line 0, col 0, Error - URL Mismatch https://fhir.cqdg.ca/CodeSystem/age-at-onset vs http://purl.obolibrary.org/obo/hp.owl (BUSINESSRULE)
+/home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-dataset-cs.json: line 0, col 0, Warning - When a CodeSystem has content = 'complete', it doesnt make sense for there to be no concepts defined (BUSINESSRULE)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes.json: line 0, col 0, Error - Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/duo-codes) does not match the URL (http://purl.obolibrary.org/obo/duo.owl) (INVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes.json: line 0, col 0, Error - URL Mismatch https://fhir.cqdg.ca/CodeSystem/duo-codes vs http://purl.obolibrary.org/obo/duo.owl (BUSINESSRULE)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-sample-type.json: line 0, col 0, Error - Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-sample-type.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/qc-sample-type) does not match the URL (http://purl.obolibrary.org/obo/ncit.owl) (INVALID)
@@ -142,5 +144,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-vs.json: line 1, col 871, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-tumor-normal-designation-vs.json: line 1, col 1068, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 30, warn = 76, info = 14
-IG Publisher Version: 1.6.28
+err = 30, warn = 78, info = 14
+IG Publisher Version: 1.8.3

@@ -97,10 +97,23 @@
           "value": "IGV"
         }
       ]
+    },
+    {
+      "code": "Annotated-SNV",
+      "display": "Annotated SNV",
+      "designation": [
+        {
+          "use": {
+            "code": "Annotated-SNV",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Annotated SNV"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Data Type",
   "caseSensitive": true,
-  "count": 7
+  "count": 8
 }

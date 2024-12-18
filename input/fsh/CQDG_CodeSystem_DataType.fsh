@@ -35,3 +35,6 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#IGV
 * #"IGV" ^designation.value = "IGV"
 
+* #"Annotated-SNV" "Annotated SNV"
+* #"Annotated-SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Annotated-SNV
+* #"Annotated-SNV" ^designation.value = "Annotated SNV"

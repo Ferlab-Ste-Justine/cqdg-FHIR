@@ -45,10 +45,166 @@
           "value": "Targeted Sequencing"
         }
       ]
+    },
+    {
+      "code": "RNAS",
+      "display": "RNA-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "RNAS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "RNA-Seq"
+        }
+      ]
+    },
+    {
+      "code": "CHIPS",
+      "display": "ChIP-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "CHIPS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "ChIP-Seq"
+        }
+      ]
+    },
+    {
+      "code": "ATACS",
+      "display": "ATAC-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "ATACS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "ATAC-Seq"
+        }
+      ]
+    },
+    {
+      "code": "HIC",
+      "display": "Hi-C",
+      "designation": [
+        {
+          "use": {
+            "code": "HIC",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Hi-C"
+        }
+      ]
+    },
+    {
+      "code": "BIS",
+      "display": "Bisulfite-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "BIS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Bisulfite-Seq"
+        }
+      ]
+    },
+    {
+      "code": "TMS",
+      "display": "Targeted Methyl-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "TMS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Targeted Methyl-Seq"
+        }
+      ]
+    },
+    {
+      "code": "MRES",
+      "display": "MRE-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "MRES",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "MRE-Seq"
+        }
+      ]
+    },
+    {
+      "code": "MDIPS",
+      "display": "MeDIP-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "MDIPS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "MeDIP-Seq"
+        }
+      ]
+    },
+    {
+      "code": "MCCS",
+      "display": "MCC-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "MCCS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "MCC-Seq"
+        }
+      ]
+    },
+    {
+      "code": "MBDS",
+      "display": "MBD-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "MBDS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "MBD-Seq"
+        }
+      ]
+    },
+    {
+      "code": "EMS",
+      "display": "EM-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "EMS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "EM-Seq"
+        }
+      ]
+    },
+    {
+      "code": "DMS",
+      "display": "Direct Methyl-Seq",
+      "designation": [
+        {
+          "use": {
+            "code": "DMS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Direct Methyl-Seq"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Experimental strategy",
   "caseSensitive": true,
-  "count": 3
+  "count": 15
 }

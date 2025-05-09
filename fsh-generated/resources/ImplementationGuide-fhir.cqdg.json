@@ -185,6 +185,22 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/sequencing-experiment-selection"
+        },
+        "name": "Ferlab.bio CodeSystem/sequencing-experiment-selection",
+        "description": "Library selection method",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/sequencing-experiment-source"
+        },
+        "name": "Ferlab.bio CodeSystem/sequencing-experiment-source",
+        "description": "Sequencing experimental source",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/study-design"
         },
         "name": "Ferlab.bio CodeSystem/study-design",
@@ -273,19 +289,43 @@
       },
       {
         "reference": {
-          "reference": "Observation/ObsDiseaseStatExample"
+          "reference": "Observation/ObservationCauseOfDeathExample"
         },
-        "name": "Ferlab.bio Example/disease-status",
-        "description": "An example of a cqdg Observation (disease)",
+        "name": "Ferlab.bio Example/ObservationCauseOfDeath",
+        "description": "An example of a cqdg Observation (cause of death)",
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ObservationDiseaseStatusExample"
+        },
+        "name": "Ferlab.bio Example/ObservationDiseaseStatus",
+        "description": "An example of a cqdg Observation (disease status)",
         "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"
       },
       {
         "reference": {
-          "reference": "Observation/ObsPhenotypeExample"
+          "reference": "Observation/ObservationFamilyRelationshipExample"
         },
-        "name": "Ferlab.bio Example/phenotype",
+        "name": "Ferlab.bio Example/ObservationFamilyRelationship",
+        "description": "An example of a cqdg Observation (family relationship)",
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationFamilyRelationship"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ObservationPhenotypeExample"
+        },
+        "name": "Ferlab.bio Example/ObservationPhenotype",
         "description": "An example of a cqdg Observation (phenotype)",
         "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ObservationTumorNormalDesignationExample"
+        },
+        "name": "Ferlab.bio Example/ObservationTumorNormalDesignation",
+        "description": "An example of a cqdg Observation (tumor normal designation)",
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation"
       },
       {
         "reference": {
@@ -497,10 +537,26 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/CQDGObservationFamilyRelationship"
+        },
+        "name": "Ferlab.bio StructureDefinition/family-relationship",
+        "description": "An example of a cqdg Observation (family relationship)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/CQDGObservationPhenotype"
         },
         "name": "Ferlab.bio StructureDefinition/phenotype",
         "description": "An example of a cqdg Observation (phenotype)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sampleExtension"
+        },
+        "name": "Ferlab.bio StructureDefinition/sample",
+        "description": "Sequencing Experiment Extension",
         "exampleBoolean": false
       },
       {
@@ -681,7 +737,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/relationship-to-proband"
+          "reference": "ValueSet/relationship-to-proband-vs"
         },
         "name": "Ferlab.bio ValueSet/relationship-to-proband",
         "description": "Relationship To Proband ValueSet",
@@ -725,6 +781,22 @@
         },
         "name": "Restricted",
         "description": "Is the study restricted (no publicly shared data on individuals)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sequencing-experiment-selection-vs"
+        },
+        "name": "Sequencing Experiment Selection",
+        "description": "Sequencing Experiment Selection ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sequencing-experiment-source-vs"
+        },
+        "name": "Sequencing Experiment Source",
+        "description": "Sequencing Experiment Source ValueSet",
         "exampleBoolean": false
       }
     ],

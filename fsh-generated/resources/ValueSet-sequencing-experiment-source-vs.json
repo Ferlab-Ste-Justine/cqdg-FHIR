@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SequencingExperimentSourceVS",
+  "id": "sequencing-experiment-source-vs",
+  "title": "Sequencing Experiment Source",
+  "description": "Sequencing Experiment Source ValueSet",
+  "url": "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+      }
+    ]
+  }
+}

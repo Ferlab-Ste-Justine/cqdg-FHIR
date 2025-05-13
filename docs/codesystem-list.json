@@ -100,7 +100,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "DocumentForamt",
+      "name" : "DocumentFormat",
       "title" : "Ferlab.bio CodeSystem/document-format",
       "description" : "Document format"
     },
@@ -151,6 +151,22 @@
       "name" : "ResearchDomain",
       "title" : "Ferlab.bio CodeSystem/research-domain",
       "description" : "Research domain"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSelection",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
+      "description" : "Library selection method"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSource",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
+      "description" : "Sequencing experimental source"
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",

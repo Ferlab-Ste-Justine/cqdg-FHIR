@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="608af119-a9ff-4d49-ba91-422ebd538fb2"/>
+  <id value="75247673-a7e0-47b9-88ca-5066c8ebbf48"/>
   <meta>
-    <lastUpdated value="2024-12-18T18:27:33.393+00:00"/>
+    <lastUpdated value="2025-05-13T18:57:08.066+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -14,9 +14,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-duo-codes.html">codesystem Ferlab.bio CodeSystem/duo-codes v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 23 concepts</p>
@@ -29,7 +29,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -224,12 +224,16 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1c8161e0-5df5-458f-a9a4-bb8ef8ed7eda"/>
-          <timestamp value="2024-12-18T18:28:07+00:00"/>
+          <identifier value="urn:uuid:005d119a-f23b-41bb-8f6c-d41e753e2326"/>
+          <timestamp value="2025-05-13T18:57:50+00:00"/>
           <total value="23"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -373,9 +377,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-duo-codes.html">codesystem Ferlab.bio CodeSystem/duo-codes v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 23 concepts</p>
@@ -388,7 +392,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -583,12 +587,16 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:74845fee-5c89-4e2a-a7b7-10cb3c4485e0"/>
-          <timestamp value="2024-12-18T18:28:07+00:00"/>
+          <identifier value="urn:uuid:46271210-490f-47b0-8af5-869d1a47a57f"/>
+          <timestamp value="2025-05-13T18:57:50+00:00"/>
           <total value="23"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -732,9 +740,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-tumor-normal-designation.html">codesystem Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -747,7 +755,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -782,12 +790,16 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1744c613-08c8-421c-9d20-7a03c7b1e690"/>
-          <timestamp value="2024-12-18T18:28:08+00:00"/>
+          <identifier value="urn:uuid:80ef4a05-8732-4e3c-8ac5-05f9352fea95"/>
+          <timestamp value="2025-05-13T18:57:50+00:00"/>
           <total value="3"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -831,9 +843,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-bioinfo-analysis-code.html">codesystem Ferlab.bio CodeSystem/bioinformatics-analysis v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 5 concepts</p>
@@ -846,7 +858,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -897,12 +909,16 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:74a9ed82-3deb-4e02-b14d-502467543e9d"/>
-          <timestamp value="2024-12-18T18:28:08+00:00"/>
+          <identifier value="urn:uuid:292378ce-3127-4ca1-8125-e78f583eb0ad"/>
+          <timestamp value="2025-05-13T18:57:50+00:00"/>
           <total value="5"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -956,9 +972,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-cause-of-death-codes.html">codesystem Ferlab.bio CodeSystem/cause-of-death v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 8 concepts</p>
@@ -971,7 +987,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1046,12 +1062,16 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9ac428a7-6d9a-48ac-a961-e528ee030284"/>
-          <timestamp value="2024-12-18T18:28:08+00:00"/>
+          <identifier value="urn:uuid:074f88d1-09fa-40d3-85ad-b86dd7a4c8cf"/>
+          <timestamp value="2025-05-13T18:57:50+00:00"/>
           <total value="8"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1120,9 +1140,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-cqdg-observation-code.html">codesystem Ferlab.bio CodeSystem/cqdg-observation v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 5 concepts</p>
@@ -1135,7 +1155,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1186,12 +1206,16 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9d7df99a-cb2f-4a5b-b3cd-db6df978b756"/>
-          <timestamp value="2024-12-18T18:28:08+00:00"/>
+          <identifier value="urn:uuid:712307e6-833b-453e-b4ba-b5734b57861e"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="5"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1245,9 +1269,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-data-category.html">codesystem Ferlab.bio CodeSystem/data-category v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
@@ -1260,7 +1284,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1327,12 +1351,16 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c66f54c4-aec6-435f-aea1-4a31b788a06e"/>
-          <timestamp value="2024-12-18T18:28:08+00:00"/>
+          <identifier value="urn:uuid:79945d80-dc65-4d3c-adf8-1b62fcf5c895"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="7"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1396,9 +1424,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-data-collection-method.html">codesystem Ferlab.bio CodeSystem/data-collection-method v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -1411,7 +1439,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1446,12 +1474,16 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7d072e46-d9b0-4466-a7fd-12173a656b0d"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:8b939cdf-4baf-48cc-b42d-a506182c3ba9"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="3"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1495,9 +1527,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-data-type.html">codesystem Ferlab.bio CodeSystem/data-type v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 8 concepts</p>
@@ -1510,7 +1542,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1585,12 +1617,16 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:68776d85-c3d0-4bc3-a1e2-ee6f92b63613"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:4f261bc5-2ad8-4214-bfa5-42dbaefd00cd"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="8"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1659,9 +1695,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-disease-status.html">codesystem Ferlab.bio CodeSystem/disease-status v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -1674,7 +1710,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1709,12 +1745,16 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:78a01505-9c86-4664-b82b-34021d79ebfe"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:55c24298-ceff-4cd0-8e4e-1df5a2f0a4b6"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="3"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1758,12 +1798,12 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-experimental-strategy.html">codesystem Ferlab.bio CodeSystem/experimental-strategy v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 15 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1773,7 +1813,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1800,20 +1840,120 @@
                 <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
                 <td>Targeted Sequencing</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-RNAS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-RNAS">RNAS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>RNA-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-CHIPS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-CHIPS">CHIPS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>ChIP-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-ATACS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-ATACS">ATACS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>ATAC-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-HIC"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-HIC">HIC</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Hi-C</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-BIS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-BIS">BIS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Bisulfite-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-TMS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-TMS">TMS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Targeted Methyl-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-MRES"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-MRES">MRES</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>MRE-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-MDIPS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-MDIPS">MDIPS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>MeDIP-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-MCCS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-MCCS">MCCS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>MCC-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-MBDS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-MBDS">MBDS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>MBD-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-EMS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-EMS">EMS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>EM-Seq</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/experimental-strategy-DMS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-DMS">DMS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</td>
+                <td>Direct Methyl-Seq</td>
+              </tr>
             </table>
           </div>
         </text>
         <url value="https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs"/>
         <version value="0.1.0"/>
-        <name value="CQDGFamilyTypeVS"/>
+        <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9aa2f74b-60de-4691-a0a9-f27fe099290e"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:3be73249-7b7f-41e7-b572-2080a09a1eb1"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
+          <total value="15"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1845,6 +1985,66 @@
             <code value="TARS"/>
             <display value="Targeted Sequencing"/>
           </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="RNAS"/>
+            <display value="RNA-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="CHIPS"/>
+            <display value="ChIP-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="ATACS"/>
+            <display value="ATAC-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="HIC"/>
+            <display value="Hi-C"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="BIS"/>
+            <display value="Bisulfite-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="TMS"/>
+            <display value="Targeted Methyl-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="MRES"/>
+            <display value="MRE-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="MDIPS"/>
+            <display value="MeDIP-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="MCCS"/>
+            <display value="MCC-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="MBDS"/>
+            <display value="MBD-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="EMS"/>
+            <display value="EM-Seq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/experimental-strategy"/>
+            <code value="DMS"/>
+            <display value="Direct Methyl-Seq"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -1857,9 +2057,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-family-type.html">codesystem Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 5 concepts</p>
@@ -1872,7 +2072,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -1923,12 +2123,16 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3176f564-ed44-448b-bb12-a947dd63849f"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:64c1a226-2741-4010-82b9-446c129f0911"/>
+          <timestamp value="2025-05-13T18:57:51+00:00"/>
           <total value="5"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1982,9 +2186,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-document-format.html">codesystem Ferlab.bio CodeSystem/document-format v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 8 concepts</p>
@@ -1997,7 +2201,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -2072,12 +2276,16 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a9258c98-2411-4697-9fa1-b006e3368b3b"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:e9de4bab-2365-44e3-ab42-e157ed2c3e0d"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="8"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2146,9 +2354,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-genome-build.html">codesystem Ferlab.bio CodeSystem/genome-build v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 1 concepts</p>
@@ -2161,7 +2369,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -2180,12 +2388,16 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d1d67d80-e33c-40a1-bb69-11c9df2aed62"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:e79bb776-5f91-413b-9b39-482cc862b8fb"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="1"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2219,9 +2431,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-age-at-onset.html">codesystem Ferlab.bio CodeSystem/age-at-onset v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 9 concepts</p>
@@ -2234,7 +2446,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -2374,12 +2586,16 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:00f0e029-42c1-402d-820f-45e357f9c595"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:9619cd5a-a9ef-4d69-9d0f-12eeb3207d4c"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="9"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2453,9 +2669,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-population.html">codesystem Ferlab.bio CodeSystem/population v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 4 concepts</p>
@@ -2468,7 +2684,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -2511,12 +2727,16 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:01641f03-e003-4e2d-a23b-55ceba3597fd"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:101c45b4-ee99-4a72-a2dc-42bebfbe2861"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="4"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2565,9 +2785,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-qc-ethnicity.html">codesystem Ferlab.bio CodeSystem/qc-ethnicity v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 11 concepts</p>
@@ -2580,7 +2800,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -2745,12 +2965,16 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b80d1cf3-e19e-427d-914e-09353071f816"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:5fb8b89b-d86e-4629-84c9-d625476370cd"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="11"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2827,16 +3051,16 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-v3-role-code.html">codesystem Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 12 concepts</p>
@@ -2849,16 +3073,16 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/v3-role-code-Self"> </a>  
-                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Self">Self</a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/v3-role-code-Proband"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Proband">Proband</a>
                 </td>
                 <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
-                <td>Self</td>
+                <td>Proband</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2951,17 +3175,21 @@
             </table>
           </div>
         </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband"/>
+        <url value="https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs"/>
         <version value="0.1.0"/>
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4d7d4c99-d941-49b3-b30e-48bb40791cdb"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:bffb0ef1-68c4-499e-93fc-ae88f1291dde"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="12"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2980,8 +3208,8 @@
           </parameter>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
-            <code value="Self"/>
-            <display value="Self"/>
+            <code value="Proband"/>
+            <display value="Proband"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
@@ -3050,9 +3278,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-research-domain.html">codesystem Ferlab.bio CodeSystem/research-domain v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 14 concepts</p>
@@ -3065,7 +3293,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -3257,12 +3485,16 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fc761382-ad9c-4be6-bc2c-9a6d3cf3c5a0"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:b8b92dc8-5286-40ce-815a-c721d3cf2382"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="14"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3361,9 +3593,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-qc-sample-type.html">codesystem Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 15 concepts</p>
@@ -3376,7 +3608,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -3507,12 +3739,16 @@
         <name value="SampleTypeTissueSourceVS"/>
         <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5233ba1d-65a3-4f71-8e5d-b3fe7c1bb272"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:f133c3b0-bc9d-4232-9ea4-321e90ce3d58"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="15"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3609,6 +3845,277 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sequencing-experiment-selection.html">codesystem Ferlab.bio CodeSystem/sequencing-experiment-selection v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-CHIP"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-CHIP">CHIP</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>ChIP</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-RR"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-RR">RR</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>Reduced Representation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-RANDOM"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-RANDOM">RANDOM</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>Random</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-PA"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-PA">PA</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>PolyA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-PCR"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-PCR">PCR</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>PCR</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-ODT"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-ODT">ODT</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>Oligo-dT</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection-HS"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-HS">HS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</td>
+                <td>Hybrid Selection</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs"/>
+        <version value="0.1.0"/>
+        <name value="SequencingExperimentSelectionVS"/>
+        <title value="Sequencing Experiment Selection"/>
+        <status value="active"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:41081457-9c75-40d6-a86a-cb10fbb4e2cf"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="CHIP"/>
+            <display value="ChIP"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="RR"/>
+            <display value="Reduced Representation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="RANDOM"/>
+            <display value="Random"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="PA"/>
+            <display value="PolyA"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="PCR"/>
+            <display value="PCR"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="ODT"/>
+            <display value="Oligo-dT"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+            <code value="HS"/>
+            <display value="Hybrid Selection"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sequencing-experiment-source.html">codesystem Ferlab.bio CodeSystem/sequencing-experiment-source v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source-GEN"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-GEN">GEN</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</td>
+                <td>Genomic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source-TSC"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-TSC">TSC</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</td>
+                <td>Transcriptomic Single Cell</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source-TS"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-TS">TS</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</td>
+                <td>Transcriptomic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source-GSC"> </a>  
+                  <a href="CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-GSC">GSC</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</td>
+                <td>Genomic Single Cell</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs"/>
+        <version value="0.1.0"/>
+        <name value="SequencingExperimentSourceVS"/>
+        <title value="Sequencing Experiment Source"/>
+        <status value="active"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:10fdf256-048c-4601-9bdf-cd0e2e306640"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"/>
+            <code value="GEN"/>
+            <display value="Genomic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"/>
+            <code value="TSC"/>
+            <display value="Transcriptomic Single Cell"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"/>
+            <code value="TS"/>
+            <display value="Transcriptomic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"/>
+            <code value="GSC"/>
+            <display value="Genomic Single Cell"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://fhir.cqdg.ca/ValueSet/study-design-vs"/>
     <resource>
       <ValueSet>
@@ -3616,9 +4123,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-study-design.html">codesystem Ferlab.bio CodeSystem/study-design v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 8 concepts</p>
@@ -3631,7 +4138,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -3706,12 +4213,16 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1af5513f-423e-4ac5-aac7-a9be5438d7c4"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:7a0b9c2b-d16e-4722-ad09-fd160bc3c04a"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="8"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3780,9 +4291,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-cqdg-study-cs.html">codesystem Ferlab.bio CodeSystem/cqdg-study v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -3795,7 +4306,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -3848,12 +4359,16 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9f4ff484-ae6b-4017-8133-2633544924cb"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:cd74337d-7d1c-417c-850f-302db35642f7"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="3"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3897,9 +4412,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id">
-              <b>Generated Narrative: ValueSet </b>
+              <b>ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-tumor-normal-designation.html">codesystem Ferlab.bio CodeSystem/tumor-normal-designation v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -3912,7 +4427,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>Display (en-US)</b>
                 </td>
               </tr>
               <tr>
@@ -3947,12 +4462,16 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2024-12-18T18:27:33+00:00"/>
+        <date value="2025-05-13T18:56:15+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:72d864cf-864b-40a2-adb3-77f6f74c67f8"/>
-          <timestamp value="2024-12-18T18:28:09+00:00"/>
+          <identifier value="urn:uuid:31fe67aa-356d-4596-a1f7-3f98d5e82db7"/>
+          <timestamp value="2025-05-13T18:57:52+00:00"/>
           <total value="3"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>

@@ -599,15 +599,76 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/sampleExtension",
+      "title": "Ferlab.bio StructureDefinition/sample",
+      "types": [
+        "string",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension",
       "title": "Ferlab.bio StructureDefinition/sequencing-experiment",
       "types": [
-        "string",
+        "Coding",
         "boolean",
         "string",
+        "string",
+        "string",
+        "Coding",
         "Coding",
         "string",
-        "dateTime",
+        "string",
         "string",
         "string",
         "base64Binary",
@@ -666,9 +727,8 @@
       "url": "https://fhir.cqdg.ca/StructureDefinition/workflowExtension",
       "title": "Ferlab.bio StructureDefinition/workflow",
       "types": [
-        "string",
-        "string",
         "Coding",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -819,6 +879,9 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
     "https://fhir.cqdg.ca/StructureDefinition/AccessLimitations": [
       "ResearchStudy"
     ],
@@ -861,6 +924,9 @@
     ],
     "https://fhir.cqdg.ca/StructureDefinition/population-info": [
       "ResearchStudy"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/sampleExtension": [
+      "Task"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension": [
       "Task"

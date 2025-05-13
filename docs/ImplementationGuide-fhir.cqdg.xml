@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2024-12-18T18:27:33+00:00"/>
+  <date value="2025-05-13T18:56:15+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.1.0"/>
+    <version value="6.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -35,7 +35,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.1.0"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_ca_baseline">
     <uri value="http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline"/>
@@ -244,7 +244,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -660,6 +660,28 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/sequencing-experiment-selection"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/sequencing-experiment-selection"/>
+      <description value="Library selection method"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/sequencing-experiment-source"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/sequencing-experiment-source"/>
+      <description value="Sequencing experimental source"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/study-design"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/study-design"/>
@@ -781,10 +803,21 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/ObsDiseaseStatExample"/>
+        <reference value="Observation/ObservationCauseOfDeathExample"/>
       </reference>
-      <name value="Ferlab.bio Example/disease-status"/>
-      <description value="An example of a cqdg Observation (disease)"/>
+      <name value="Ferlab.bio Example/ObservationCauseOfDeath"/>
+      <description value="An example of a cqdg Observation (cause of death)"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationDiseaseStatusExample"/>
+      </reference>
+      <name value="Ferlab.bio Example/ObservationDiseaseStatus"/>
+      <description value="An example of a cqdg Observation (disease status)"/>
       <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"/>
     </resource>
     <resource>
@@ -792,11 +825,33 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/ObsPhenotypeExample"/>
+        <reference value="Observation/ObservationFamilyRelationshipExample"/>
       </reference>
-      <name value="Ferlab.bio Example/phenotype"/>
+      <name value="Ferlab.bio Example/ObservationFamilyRelationship"/>
+      <description value="An example of a cqdg Observation (family relationship)"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationFamilyRelationship"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationPhenotypeExample"/>
+      </reference>
+      <name value="Ferlab.bio Example/ObservationPhenotype"/>
       <description value="An example of a cqdg Observation (phenotype)"/>
       <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationTumorNormalDesignationExample"/>
+      </reference>
+      <name value="Ferlab.bio Example/ObservationTumorNormalDesignation"/>
+      <description value="An example of a cqdg Observation (tumor normal designation)"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1089,10 +1144,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/CQDGObservationFamilyRelationship"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/family-relationship"/>
+      <description value="An example of a cqdg Observation (family relationship)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/CQDGObservationPhenotype"/>
       </reference>
       <name value="Ferlab.bio StructureDefinition/phenotype"/>
       <description value="An example of a cqdg Observation (phenotype)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sampleExtension"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/sample"/>
+      <description value="Sequencing Experiment Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1342,7 +1419,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/relationship-to-proband"/>
+        <reference value="ValueSet/relationship-to-proband-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/relationship-to-proband"/>
       <description value="Relationship To Proband ValueSet"/>
@@ -1401,6 +1478,28 @@
       </reference>
       <name value="Restricted"/>
       <description value="Is the study restricted (no publicly shared data on individuals)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/sequencing-experiment-selection-vs"/>
+      </reference>
+      <name value="Sequencing Experiment Selection"/>
+      <description value="Sequencing Experiment Selection ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/sequencing-experiment-source-vs"/>
+      </reference>
+      <name value="Sequencing Experiment Source"/>
+      <description value="Sequencing Experiment Source ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

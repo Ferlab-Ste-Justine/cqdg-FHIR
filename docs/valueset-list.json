@@ -106,7 +106,7 @@
       "url" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "CQDGFamilyTypeVS",
+      "name" : "ExperimentalStrategyVS",
       "title" : "Ferlab.bio ValueSet/experimental-strategy",
       "description" : "Experimental Strategy ValueSet",
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/experimental-strategy"]
@@ -166,7 +166,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"]
     },
     {
-      "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+      "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "RelationshipToProband",
@@ -191,6 +191,28 @@
       "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
       "description" : "Sample Type Tissue Source ValueSet",
       "systems" : ["http://purl.obolibrary.org/obo/ncit.owl"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSelectionVS",
+      "title" : "Sequencing Experiment Selection",
+      "description" : "Sequencing Experiment Selection ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+      ]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSourceVS",
+      "title" : "Sequencing Experiment Source",
+      "description" : "Sequencing Experiment Source ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+      ]
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",

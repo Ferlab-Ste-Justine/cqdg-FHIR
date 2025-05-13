@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,14 +11,14 @@
   fhir:id [ fhir:v "data-collection-method-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet data-collection-method-vs</b></p><a name=\"data-collection-method-vs\"> </a><a name=\"hcdata-collection-method-vs\"> </a><a name=\"data-collection-method-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-data-collection-method.html\"><code>https://fhir.cqdg.ca/CodeSystem/data-collection-method</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet data-collection-method-vs</b></p><a name=\"data-collection-method-vs\"> </a><a name=\"hcdata-collection-method-vs\"> </a><a name=\"data-collection-method-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-data-collection-method.html\"><code>https://fhir.cqdg.ca/CodeSystem/data-collection-method</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "DataCollectionMethodVS"] ; # 
   fhir:title [ fhir:v "Ferlab.bio ValueSet/data-collection-method"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-18T18:27:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-13T18:56:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;

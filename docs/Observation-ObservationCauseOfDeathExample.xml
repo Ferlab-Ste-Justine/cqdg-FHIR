@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ObservationCauseOfDeathExample"/>
+  <meta>
+    <profile value="https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation ObservationCauseOfDeathExample</b></p><a name="ObservationCauseOfDeathExample"> </a><a name="hcObservationCauseOfDeathExample"> </a><a name="ObservationCauseOfDeathExample-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-CQDGObservationCauseOfDeath.html">Ferlab.bio StructureDefinition/cause-of-death</a></p></div><p><b>status</b>: Registered</p><p><b>code</b>: <span title="Codes:{https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code Cause-of-Death}">Cause-of-Death observation</span></p><p><b>subject</b>: <a href="Patient-PatientExample.html">Anonymous Patient Male, DoB Unknown ( 343434343434 (use: secondary, ))</a></p></div>
+  </text>
+  <status value="registered"/>
+  <code>
+    <coding>
+      <system value="https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"/>
+      <code value="Cause-of-Death"/>
+    </coding>
+    <text value="Cause-of-Death observation"/>
+  </code>
+  <subject>
+    <reference value="Patient/PatientExample"/>
+  </subject>
+</Observation>

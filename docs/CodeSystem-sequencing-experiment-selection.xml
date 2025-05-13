@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sequencing-experiment-selection"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sequencing-experiment-selection</b></p><a name="sequencing-experiment-selection"> </a><a name="hcsequencing-experiment-selection"> </a><a name="sequencing-experiment-selection-en-US"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CHIP<a name="sequencing-experiment-selection-CHIP"> </a></td><td>ChIP</td></tr><tr><td style="white-space:nowrap">RR<a name="sequencing-experiment-selection-RR"> </a></td><td>Reduced Representation</td></tr><tr><td style="white-space:nowrap">RANDOM<a name="sequencing-experiment-selection-RANDOM"> </a></td><td>Random</td></tr><tr><td style="white-space:nowrap">PA<a name="sequencing-experiment-selection-PA"> </a></td><td>PolyA</td></tr><tr><td style="white-space:nowrap">PCR<a name="sequencing-experiment-selection-PCR"> </a></td><td>PCR</td></tr><tr><td style="white-space:nowrap">ODT<a name="sequencing-experiment-selection-ODT"> </a></td><td>Oligo-dT</td></tr><tr><td style="white-space:nowrap">HS<a name="sequencing-experiment-selection-HS"> </a></td><td>Hybrid Selection</td></tr></table></div>
+  </text>
+  <url value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+  <version value="0.1.0"/>
+  <name value="SequencingExperimentSelection"/>
+  <title value="Ferlab.bio CodeSystem/sequencing-experiment-selection"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-05-13T18:56:15+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Library selection method"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="CHIP"/>
+    <display value="ChIP"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="CHIP"/>
+      </use>
+      <value value="ChIP"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RR"/>
+    <display value="Reduced Representation"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="RR"/>
+      </use>
+      <value value="Reduced Representation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RANDOM"/>
+    <display value="Random"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="RANDOM"/>
+      </use>
+      <value value="Random"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="PolyA"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="PA"/>
+      </use>
+      <value value="PolyA"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PCR"/>
+    <display value="PCR"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="PCR"/>
+      </use>
+      <value value="PCR"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ODT"/>
+    <display value="Oligo-dT"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="ODT"/>
+      </use>
+      <value value="Oligo-dT"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HS"/>
+    <display value="Hybrid Selection"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"/>
+        <code value="HS"/>
+      </use>
+      <value value="Hybrid Selection"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -2,14 +2,15 @@
   "resourceType" : "Group",
   "id" : "CQDGGroupExample",
   "meta" : {
-    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-group"],
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
+    "https://fhir.cqdg.ca/StructureDefinition/CQDGGroup"],
     "tag" : [{
       "code" : "CAG"
     }]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group CQDGGroupExample</b></p><a name=\"CQDGGroupExample\"> </a><a name=\"hcCQDGGroupExample\"> </a><a name=\"CQDGGroupExample-en-US\"> </a><p><b>identifier</b>: ?ngen-9?\u00a0(use:\u00a0official,\u00a0)</p><p><b>type</b>: Person</p><p><b>actual</b>: true</p><p><b>code</b>: <span title=\"Codes:\">Case - affected relative</span></p><p><b>quantity</b>: 3</p><h3>Members</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Entity</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Patient-PatientExample.html\">Anonymous Patient Male, DoB Unknown ( 343434343434\u00a0(use:\u00a0secondary,\u00a0))</a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group CQDGGroupExample</b></p><a name=\"CQDGGroupExample\"> </a><a name=\"hcCQDGGroupExample\"> </a><a name=\"CQDGGroupExample-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-cqdg-group.html\">Ferlab.bio StructureDefinition/cqdg-group</a>, <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&amp;canonical=https://fhir.cqdg.ca/StructureDefinition/CQDGGroup\">https://fhir.cqdg.ca/StructureDefinition/CQDGGroup</a></p><p style=\"margin-bottom: 0px\">Tag: CAG (Details: [not stated] code CAG)</p></div><p><b>identifier</b>: ?ngen-9?\u00a0(use:\u00a0official,\u00a0)</p><p><b>type</b>: Person</p><p><b>actual</b>: true</p><p><b>code</b>: <span title=\"Codes:\">Case - affected relative</span></p><p><b>quantity</b>: 3</p><h3>Members</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Entity</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Patient-PatientExample.html\">Anonymous Patient Male, DoB Unknown ( 343434343434\u00a0(use:\u00a0secondary,\u00a0))</a></td></tr></table></div>"
   },
   "identifier" : [{
     "use" : "official"

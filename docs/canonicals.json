@@ -88,7 +88,7 @@
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
     "version" : "0.1.0",
-    "name" : "DocumentForamt"
+    "name" : "DocumentFormat"
   },
   {
     "id" : "experimental-strategy",
@@ -131,6 +131,20 @@
     "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
     "version" : "0.1.0",
     "name" : "ResearchDomain"
+  },
+  {
+    "id" : "sequencing-experiment-selection",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentSelection"
+  },
+  {
+    "id" : "sequencing-experiment-source",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentSource"
   },
   {
     "id" : "study-design",
@@ -208,6 +222,13 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus",
     "version" : "0.1.0",
     "name" : "CQDGObservationDiseaseStatus"
+  },
+  {
+    "id" : "CQDGObservationFamilyRelationship",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationFamilyRelationship",
+    "version" : "0.1.0",
+    "name" : "CQDGObservationFamilyRelationship"
   },
   {
     "id" : "CQDGObservationPhenotype",
@@ -291,7 +312,7 @@
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
     "version" : "0.1.0",
-    "name" : "CQDG_Group"
+    "name" : "CQDGGroup"
   },
   {
     "id" : "cqdg-observation-group",
@@ -348,6 +369,13 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/population-info",
     "version" : "0.1.0",
     "name" : "PopulationInfo"
+  },
+  {
+    "id" : "sampleExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/sampleExtension",
+    "version" : "0.1.0",
+    "name" : "SampleExtension"
   },
   {
     "id" : "sequencingExperimentExtension",
@@ -445,7 +473,7 @@
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs",
     "version" : "0.1.0",
-    "name" : "CQDGFamilyTypeVS"
+    "name" : "ExperimentalStrategyVS"
   },
   {
     "id" : "family-type-vs",
@@ -490,9 +518,9 @@
     "name" : "QCEthnicityVS"
   },
   {
-    "id" : "relationship-to-proband",
+    "id" : "relationship-to-proband-vs",
     "type" : "ValueSet",
-    "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband",
+    "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
     "version" : "0.1.0",
     "name" : "RelationshipToProband"
   },
@@ -509,6 +537,20 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
     "version" : "0.1.0",
     "name" : "SampleTypeTissueSourceVS"
+  },
+  {
+    "id" : "sequencing-experiment-selection-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentSelectionVS"
+  },
+  {
+    "id" : "sequencing-experiment-source-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentSourceVS"
   },
   {
     "id" : "study-design-vs",

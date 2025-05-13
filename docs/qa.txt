@@ -1,9 +1,9 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 30, warn = 78, info = 14
-IG Publisher Version: 1.8.3
-Generated Wed Dec 18 18:28:36 UTC 2024. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+err = 34, warn = 101, info = 15
+IG Publisher Version: 1.8.26
+Generated Tue May 13 18:58:21 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 5 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 2 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -24,30 +24,36 @@ Generated Wed Dec 18 18:28:36 UTC 2024. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-ethnicity : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-sample-type : 2 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-research-domain : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-selection : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-source : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-study-design : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-tumor-normal-designation : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-v3-role-code : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 1 / 3 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 4 / 2 / 3
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 2 / 3
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 1 / 4 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 4 / 3 / 3
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 3 / 3
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObsDiseaseStatExample : 0 / 3 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObsPhenotypeExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationFamilyRelationshipExample : 2 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 8 / 11
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 3 / 1 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample2 : 1 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 4 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 12 / 8
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 3 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample2 : 1 / 2 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtRecruitment : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeOfDeath : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 2 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 4 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 1
@@ -66,9 +72,10 @@ Generated Wed Dec 18 18:28:36 UTC 2024. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension : 3 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-expectedStudyContent : 3 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-population-info : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sampleExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sequencingExperimentExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-workflowExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 1 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 1 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs : 0 / 1 / 1
@@ -87,34 +94,36 @@ Generated Wed Dec 18 18:28:36 UTC 2024. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-research-domain-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sample-type-tissue-source-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-source-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-design-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-tumor-normal-designation-vs : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 231, column 1590: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 442, column 295: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 322, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 330, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 808, column 237: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1105, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1326, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1333, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1811, column 237: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2108, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 231, column 1590: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 442, column 295: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 322, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 330, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 808, column 237: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1105, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1326, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1333, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1811, column 237: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
-ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2108, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 291, column 1669: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 509, column 295: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 505, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 909, column 235: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1206, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1612, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1619, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2015, column 235: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationCauseOfDeath.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2312, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 291, column 1669: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 509, column 295: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 505, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 909, column 235: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1206, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1612, column 269: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1619, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2015, column 235: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/output/StructureDefinition-CQDGObservationTumorNormalDesignation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2312, column 178: The link 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' for "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -146,48 +155,69 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-
 ERROR: CodeSystem.where(url = 'http://purl.obolibrary.org/obo/ncit.owl'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-sample-type.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/qc-sample-type) does not match the URL (http://purl.obolibrary.org/obo/ncit.owl)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-sample-type: URL Mismatch https://fhir.cqdg.ca/CodeSystem/qc-sample-type vs http://purl.obolibrary.org/obo/ncit.owl
 == fsh-generated/resources/CodeSystem-research-domain.json ==
+== fsh-generated/resources/CodeSystem-sequencing-experiment-selection.json ==
+== fsh-generated/resources/CodeSystem-sequencing-experiment-source.json ==
 == fsh-generated/resources/CodeSystem-study-design.json ==
 == fsh-generated/resources/CodeSystem-tumor-normal-designation.json ==
 == fsh-generated/resources/CodeSystem-v3-role-code.json ==
 == fsh-generated/resources/Condition-ConditionExample.json ==
 WARNING: Condition/ConditionExample: Condition.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Condition/ConditionExample: Condition: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Condition])
+WARNING: Condition/ConditionExample: Condition.identifier[0].system: URL value 'https://fhir.cqdg.ca/fhir/Condition' does not resolve
 WARNING: Condition/ConditionExample: Condition.code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Condition/ConditionExample: Condition.code.coding[1].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the code cannot be validated
 INFORMATION: Condition/ConditionExample: Condition.stage[0].summary.coding[0].code: The code '254293002' is valid but is not active
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample1.json ==
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[1].code: Unknown code 'dataset: ds_name 1' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs' version '0.1.0'
-ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.type.coding[0].display: Wrong Display Name 'Sequencing Data Supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en')
+ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.type.coding[0].display: Wrong Display Name 'Sequencing Data Supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en-US')
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement)
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both' (defined in http://hl7.org/fhir/StructureDefinition/Extension)
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: The Extension 'https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension' definition is for a simple extension, so it must contain a value
+WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.url: URL value 'https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681' does not resolve
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample2.json ==
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-reads)
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].attachment.url: URL value 'https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681' does not resolve
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/Group-CQDGGroupExample.json ==
+WARNING: Group/CQDGGroupExample: Group.meta.profile[1]: Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGGroup' does not resolve
 WARNING: Group/CQDGGroupExample: Group.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Group/CQDGGroupExample: Group.code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Group/CQDGGroupExample: Group.meta.profile[1]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGGroup' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ImplementationGuide-fhir.cqdg.json ==
-== fsh-generated/resources/Observation-ObsDiseaseStatExample.json ==
-WARNING: Observation/ObsDiseaseStatExample: Observation: Best Practice Recommendation: In general, all observations should have a subject
-WARNING: Observation/ObsDiseaseStatExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
-WARNING: Observation/ObsDiseaseStatExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-ObsPhenotypeExample.json ==
-WARNING: Observation/ObsPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
-WARNING: Observation/ObsPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ObservationCauseOfDeathExample.json ==
+WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json ==
+WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ObservationFamilyRelationshipExample.json ==
+ERROR: Observation/ObservationFamilyRelationshipExample: Observation.focus[0]: Unable to resolve resource with reference 'Patient/PatientExample2'
+ERROR: Observation/ObservationFamilyRelationshipExample: Observation.value.ofType(CodeableConcept).coding[0].system: The value provided ('https://fhir.cqdg.ca/CodeSystem/v3-role-code') was not found in the value set 'Ferlab.bio ValueSet/relationship-to-proband' (https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'https://fhir.cqdg.ca/CodeSystem/v3-role-code' in the ValueSet 'https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0'; The provided code '#https://fhir.cqdg.ca/CodeSystem/v3-role-code' was not found in the value set 'https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0')
+WARNING: Observation/ObservationFamilyRelationshipExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ObservationFamilyRelationshipExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ObservationPhenotypeExample.json ==
+WARNING: Observation/ObservationPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ObservationPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample.json ==
+WARNING: Observation/ObservationTumorNormalDesignationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ObservationTumorNormalDesignationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Organization-OrganizationExample.json ==
 WARNING: Organization/OrganizationExample: Organization.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 == fsh-generated/resources/Patient-PatientExample.json ==
+ERROR: Patient/PatientExample: Patient.meta.profile[1]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/CQDGPatient' does not resolve
 WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Patient/PatientExample: Patient.meta: Patient.meta.profile: max allowed = 1, but found 2 (from https://fhir.cqdg.ca/StructureDefinition/cqdg-patient|0.1.0)
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Patient])
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Patient])
+WARNING: Patient/PatientExample: Patient.meta.profile[1]: Profile reference 'http://hl7.org/fhir/StructureDefinition/CQDGPatient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy' does not resolve
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[0].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[1].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[2].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -201,17 +231,22 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[10].value.o
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[14].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[15].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.extension[16].value.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[0].system: URL value 'https://fhir.cqdg.ca/fhir/ResearchStudy' does not resolve
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.category[0].coding[0].system: A definition for CodeSystem 'https://fhir.cqdg.ca/CodeSystem/study-domain' could not be found, so the code cannot be validated
+WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.category[0].coding[0].system: URL value 'https://fhir.cqdg.ca/CodeSystem/study-domain' does not resolve
+WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Specimen-SpecimenExample.json ==
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Specimen])
-ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].display: Wrong Display Name 'DNA' for http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434. Valid display is 'Blood' (for the language(s) 'en')
+WARNING: Specimen/SpecimenExample: Specimen.identifier[0].system: URL value 'https://fhir.cqdg.ca/fhir/Specimen' does not resolve
+ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].display: Wrong Display Name 'DNA' for http://purl.obolibrary.org/obo/ncit.owl#NCIT:C12434. Valid display is 'Blood' (for the language(s) 'en-US')
 ERROR: Specimen/SpecimenExample: Specimen.type.coding[0].system: The value provided ('http://purl.obolibrary.org/obo/ncit.owl') was not found in the value set 'Ferlab.bio ValueSet/sample-type-tissue-source' (https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'http://purl.obolibrary.org/obo/ncit.owl' in the ValueSet 'https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0'; The provided code '#http://purl.obolibrary.org/obo/ncit.owl' was not found in the value set 'https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs|0.1.0')
 == fsh-generated/resources/Specimen-SpecimenExample2.json ==
 INFORMATION: Specimen/SpecimenExample2: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample2: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample2: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (allowed = e:ClinicalImpression; this element is [Specimen])
+WARNING: Specimen/SpecimenExample2: Specimen.identifier[0].system: URL value 'https://fhir.cqdg.ca/fhir/Specimen' does not resolve
 == fsh-generated/resources/StructureDefinition-AccessLimitations.json ==
 WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type for AccessLimitations: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-AccessRequirements.json ==
@@ -220,16 +255,20 @@ WARNING: StructureDefinition/AccessRequirements: StructureDefinition.context[0]:
 == fsh-generated/resources/StructureDefinition-AgeAtRecruitment.json ==
 == fsh-generated/resources/StructureDefinition-AgeOfDeath.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath.json ==
-WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[12].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[47].binding.valueSet: Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' does not resolve
+WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[5].binding.valueSet: Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' does not resolve
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus.json ==
+== fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype.json ==
-ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[36].binding.valueSet: Canonical URL 'http://purl.obolibrary.org/obo/hp.owl' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[3].binding.valueSet: Canonical URL 'http://purl.obolibrary.org/obo/hp.owl' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[3].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system points to something that is not a value set (CodeSystem)
-ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[36].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[47].binding.valueSet: Canonical URL 'http://purl.obolibrary.org/obo/hp.owl' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[5].binding.valueSet: Canonical URL 'http://purl.obolibrary.org/obo/hp.owl' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[5].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[47].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system points to something that is not a value set (CodeSystem)
 == fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation.json ==
-WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding.valueSet: Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
+WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding.valueSet: Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-DataCategoryExtension.json ==
 WARNING: StructureDefinition/DataCategoryExtension: StructureDefinition.context[0]: Review the extension type for DataCategoryExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
@@ -269,13 +308,16 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDe
 == fsh-generated/resources/StructureDefinition-population-info.json ==
 WARNING: StructureDefinition/population-info: StructureDefinition.context[0]: Review the extension type for population-info: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/population-info'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-sampleExtension.json ==
+WARNING: StructureDefinition/sampleExtension: StructureDefinition.context[0]: Review the extension type for sampleExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-sequencingExperimentExtension.json ==
 WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.context[0]: Review the extension type for sequencingExperimentExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-workflowExtension.json ==
 WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type for workflowExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/Task-CQDGTaskExample.json ==
-ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0].display: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en')
-WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' does not resolve
+ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0].display: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en-US')
+WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ValueSet-access-limitation-vs.json ==
 WARNING: ValueSet/access-limitation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-access-requirement-vs.json ==
@@ -288,7 +330,7 @@ WARNING: ValueSet/bioinfo-analysis-vs: ValueSet: Published value sets SHOULD con
 WARNING: ValueSet/cause-of-death-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-cqdg-diagnosis-vs.json ==
 WARNING: ValueSet/cqdg-diagnosis-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://purl.obolibrary.org/obo/mondo.owl
+WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://purl.obolibrary.org/obo/mondo.owl
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
@@ -313,12 +355,16 @@ WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to
 WARNING: ValueSet/population-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-qc-ethnicity-vs.json ==
 WARNING: ValueSet/qc-ethnicity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-relationship-to-proband.json ==
-WARNING: ValueSet/relationship-to-proband: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-relationship-to-proband-vs.json ==
+WARNING: ValueSet/relationship-to-proband-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-research-domain-vs.json ==
 WARNING: ValueSet/research-domain-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-sample-type-tissue-source-vs.json ==
 WARNING: ValueSet/sample-type-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs.json ==
+WARNING: ValueSet/sequencing-experiment-selection-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sequencing-experiment-source-vs.json ==
+WARNING: ValueSet/sequencing-experiment-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-study-design-vs.json ==
 WARNING: ValueSet/study-design-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-study-vs.json ==

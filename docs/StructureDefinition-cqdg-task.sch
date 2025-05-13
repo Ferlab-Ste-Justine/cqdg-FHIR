@@ -9,4 +9,15 @@
     you may need to use this schematron fragment to build a, 
     single schematron that validates contained resources (if you have any) 
   -->
+  <sch:pattern>
+    <sch:title>f:Task</sch:title>
+    <sch:rule context="f:Task">
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/workflowExtension']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/workflowExtension': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/workflowExtension']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/workflowExtension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/sampleExtension']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/sampleExtension': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/sampleExtension']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/sampleExtension': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
 </sch:schema>

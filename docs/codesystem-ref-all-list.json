@@ -203,8 +203,8 @@
       "description" : "DUO codes",
       "uses" : {
       },
-      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
     },
     {
       "url" : "http://purl.obolibrary.org/obo/hp.owl",
@@ -252,17 +252,17 @@
       },
       "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
       "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
       "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
       "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage"
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -387,7 +387,7 @@
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
       "version" : "1.0.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "ResearchStudyPhase",
       "title" : "ResearchStudyPhase",
       "description" : "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.",
@@ -454,7 +454,7 @@
       "oids" : ["2.16.840.1.113883.18.229"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.1.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+      "http://terminology.hl7.org/6.3.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
@@ -478,7 +478,7 @@
       "oids" : ["2.16.840.1.113883.18.311"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.1.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
+      "http://terminology.hl7.org/6.3.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
@@ -490,7 +490,7 @@
       "oids" : ["2.16.840.1.113883.18.317"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.1.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+      "http://terminology.hl7.org/6.3.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
@@ -502,7 +502,7 @@
       "oids" : ["2.16.840.1.113883.18.422"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.1.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+      "http://terminology.hl7.org/6.3.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -514,7 +514,7 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.1.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+      "http://terminology.hl7.org/6.3.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
@@ -644,7 +644,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "DocumentForamt",
+      "name" : "DocumentFormat",
       "title" : "Ferlab.bio CodeSystem/document-format",
       "description" : "Document format",
       "uses" : {
@@ -718,6 +718,28 @@
       "ValueSet-research-domain-vs.html" : "Ferlab.bio ValueSet/research-domain"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSelection",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
+      "description" : "Library selection method",
+      "uses" : {
+      },
+      "ValueSet-sequencing-experiment-selection-vs.html" : "Sequencing Experiment Selection"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSource",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
+      "description" : "Sequencing experimental source",
+      "uses" : {
+      },
+      "ValueSet-sequencing-experiment-source-vs.html" : "Sequencing Experiment Source"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
       "version" : "0.1.0",
       "status" : "active",
@@ -749,7 +771,7 @@
       "description" : "V3 role code",
       "uses" : {
       },
-      "ValueSet-relationship-to-proband.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+      "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
     },
     {
       "url" : "urn:ietf:bcp:47",

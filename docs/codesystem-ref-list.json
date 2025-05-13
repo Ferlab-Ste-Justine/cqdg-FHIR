@@ -9,8 +9,8 @@
       "description" : "DUO codes",
       "uses" : {
       },
-      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
     },
     {
       "url" : "http://purl.obolibrary.org/obo/hp.owl",
@@ -138,7 +138,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "DocumentForamt",
+      "name" : "DocumentFormat",
       "title" : "Ferlab.bio CodeSystem/document-format",
       "description" : "Document format",
       "uses" : {
@@ -212,6 +212,28 @@
       "ValueSet-research-domain-vs.html" : "Ferlab.bio ValueSet/research-domain"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSelection",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
+      "description" : "Library selection method",
+      "uses" : {
+      },
+      "ValueSet-sequencing-experiment-selection-vs.html" : "Sequencing Experiment Selection"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentSource",
+      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
+      "description" : "Sequencing experimental source",
+      "uses" : {
+      },
+      "ValueSet-sequencing-experiment-source-vs.html" : "Sequencing Experiment Source"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
       "version" : "0.1.0",
       "status" : "active",
@@ -243,7 +265,7 @@
       "description" : "V3 role code",
       "uses" : {
       },
-      "ValueSet-relationship-to-proband.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+      "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
     }
   ]
 }

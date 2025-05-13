@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "SequencingExperimentSource",
+  "id": "sequencing-experiment-source",
+  "title": "Ferlab.bio CodeSystem/sequencing-experiment-source",
+  "url": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+  "concept": [
+    {
+      "code": "GEN",
+      "display": "Genomic",
+      "designation": [
+        {
+          "use": {
+            "code": "GEN",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+          },
+          "value": "Genomic"
+        }
+      ]
+    },
+    {
+      "code": "TSC",
+      "display": "Transcriptomic Single Cell",
+      "designation": [
+        {
+          "use": {
+            "code": "TSC",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+          },
+          "value": "Transcriptomic Single Cell"
+        }
+      ]
+    },
+    {
+      "code": "TS",
+      "display": "Transcriptomic",
+      "designation": [
+        {
+          "use": {
+            "code": "TS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+          },
+          "value": "Transcriptomic"
+        }
+      ]
+    },
+    {
+      "code": "GSC",
+      "display": "Genomic Single Cell",
+      "designation": [
+        {
+          "use": {
+            "code": "GSC",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
+          },
+          "value": "Genomic Single Cell"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "description": "Sequencing experimental source",
+  "caseSensitive": true,
+  "count": 4
+}

@@ -3,16 +3,12 @@
   "id": "CQDGTaskExample",
   "meta": {
     "profile": [
-      "https://fhir.cqdg.ca/StructureDefinition/cqgc-analysis-task"
+      "https://fhir.cqdg.ca/StructureDefinition/CQDGTask"
     ]
   },
   "extension": [
     {
       "extension": [
-        {
-          "url": "workflowName",
-          "valueString": "Dragen"
-        },
         {
           "url": "genomeBuild",
           "valueCoding": {
@@ -22,30 +18,14 @@
           }
         },
         {
-          "url": "workflowVersion",
-          "valueString": "SW null"
+          "url": "pipeline",
+          "valueString": "Some Pipeline"
         }
       ],
       "url": "https://fhir.cqdg.ca/StructureDefinition/workflowExtension"
     },
     {
       "extension": [
-        {
-          "url": "runName",
-          "valueString": "1898"
-        },
-        {
-          "url": "platform",
-          "valueString": "Illumina NovaSeq 6000 S4 PE150"
-        },
-        {
-          "url": "isPairedEnd",
-          "valueBoolean": true
-        },
-        {
-          "url": "readLength",
-          "valueString": "151,8,8,151"
-        },
         {
           "url": "experimentalStrategy",
           "valueCoding": {
@@ -55,19 +35,80 @@
           }
         },
         {
-          "url": "runDate",
-          "valueDateTime": "2020-11-06"
+          "url": "isPairedEnd",
+          "valueBoolean": true
         },
         {
-          "url": "labAliquotId",
-          "valueString": "MPS12348274-B04"
+          "url": "platform",
+          "valueString": "NovaSeq S4 PE150"
         },
         {
-          "url": "ldmSampleId",
-          "valueString": "S03344"
+          "url": "readLength",
+          "valueString": "151,8,8,151"
+        },
+        {
+          "url": "selection",
+          "valueCoding": {
+            "code": "CHIP",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+            "display": "ChIP"
+          }
+        },
+        {
+          "url": "source",
+          "valueCoding": {
+            "code": "GEN",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+            "display": "Genomic"
+          }
+        },
+        {
+          "url": "protocol",
+          "valueString": "protocol2"
+        },
+        {
+          "url": "targetCaptureKit",
+          "valueString": "targetCaptureKit2"
+        },
+        {
+          "url": "targetLoci",
+          "valueString": "targetedLoci2"
+        },
+        {
+          "url": "runIds",
+          "valueString": "RunID12345"
+        },
+        {
+          "url": "runIds",
+          "valueString": "RunID67890"
+        },
+        {
+          "url": "runDates",
+          "valueString": "2023-01-01"
+        },
+        {
+          "url": "runDates",
+          "valueString": "2023-01-02"
         }
       ],
       "url": "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"
+    },
+    {
+      "extension": [
+        {
+          "url": "ldmSampleId",
+          "valueString": "LDM12345"
+        },
+        {
+          "url": "labAliquotId",
+          "valueString": "AliquotID1"
+        },
+        {
+          "url": "labAliquotId",
+          "valueString": "AliquotID2"
+        }
+      ],
+      "url": "https://fhir.cqdg.ca/StructureDefinition/sampleExtension"
     }
   ],
   "status": "completed",

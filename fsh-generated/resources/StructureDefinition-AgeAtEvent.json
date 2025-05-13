@@ -8,6 +8,13 @@
   "status": "draft",
   "description": "Patient's age (in days since birth) at the time of death",
   "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "ObservationCauseOfDeathExample",
+  "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code": "Cause-of-Death"
+      }
+    ],
+    "text": "Cause-of-Death observation"
+  },
+  "status": "registered",
+  "subject": {
+    "reference": "Patient/PatientExample"
+  }
+}

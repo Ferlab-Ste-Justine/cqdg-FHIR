@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "ObservationPhenotypeExample",
+  "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationPhenotype"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code": "Phenotype"
+      }
+    ],
+    "text": "Phenotype observation"
+  },
+  "status": "registered",
+  "subject": {
+    "reference": "Patient/PatientExample"
+  }
+}

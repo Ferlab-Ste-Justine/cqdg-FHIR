@@ -2,13 +2,14 @@
   "resourceType": "Patient",
   "id": "PatientExample",
   "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
+      "http://hl7.org/fhir/StructureDefinition/CQDGPatient"
+    ],
     "tag": [
       {
         "code": "CAG"
       }
-    ],
-    "profile": [
-      "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
     ]
   },
   "extension": [

@@ -2,13 +2,14 @@
   "resourceType": "Group",
   "id": "CQDGGroupExample",
   "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
+      "https://fhir.cqdg.ca/StructureDefinition/CQDGGroup"
+    ],
     "tag": [
       {
         "code": "CAG"
       }
-    ],
-    "profile": [
-      "https://fhir.cqdg.ca/StructureDefinition/cqdg-group"
     ]
   },
   "type": "person",

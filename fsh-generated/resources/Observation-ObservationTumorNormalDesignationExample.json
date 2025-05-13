@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "ObservationTumorNormalDesignationExample",
+  "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationTumorNormalDesignation"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code": "Tumor-normal-designation"
+      }
+    ],
+    "text": "Tumor-normal-designation observation"
+  },
+  "status": "registered",
+  "subject": {
+    "reference": "Patient/PatientExample"
+  }
+}

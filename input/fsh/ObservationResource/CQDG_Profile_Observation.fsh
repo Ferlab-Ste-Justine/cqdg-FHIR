@@ -29,7 +29,7 @@ Description: "An example of a cqdg group"
 * code.coding
   * system = "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"
   * code = #"Disease-Status"
-* valueCodeableConcept from disease-status-vs
+* valueCodeableConcept from disease-status-vs (required)
 
 //----------------------------------
 

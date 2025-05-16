@@ -8,28 +8,28 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/disease-status",
   "concept": [
     {
-      "code": "Affected",
-      "display": "Affected",
+      "code": "Yes",
+      "display": "Yes",
       "designation": [
         {
           "use": {
-            "code": "Affected",
+            "code": "Yes",
             "system": "https://fhir.cqdg.ca/CodeSystem/disease-status"
           },
-          "value": "Affected"
+          "value": "Yes"
         }
       ]
     },
     {
-      "code": "Non-affected",
-      "display": "Non affected",
+      "code": "No",
+      "display": "No",
       "designation": [
         {
           "use": {
-            "code": "Non-affected",
+            "code": "No",
             "system": "https://fhir.cqdg.ca/CodeSystem/disease-status"
           },
-          "value": "Non affected"
+          "value": "No"
         }
       ]
     },

@@ -7,13 +7,13 @@ Title: "Ferlab.bio CodeSystem/disease-status"
 * ^description = "Disease status code system"
 * ^caseSensitive = true
 
-* #"Affected" "Affected"
-* #"Affected" ^designation.use = https://fhir.cqdg.ca/CodeSystem/disease-status#Affected
-* #"Affected" ^designation.value = "Affected"
+* #"Yes" "Yes"
+* #"Yes" ^designation.use = https://fhir.cqdg.ca/CodeSystem/disease-status#Yes
+* #"Yes" ^designation.value = "Yes"
 
-* #"Non-affected" "Non affected"
-* #"Non-affected" ^designation.use = https://fhir.cqdg.ca/CodeSystem/disease-status#Non-affected
-* #"Non-affected" ^designation.value = "Non affected"
+* #"No" "No"
+* #"No" ^designation.use = https://fhir.cqdg.ca/CodeSystem/disease-status#No
+* #"No" ^designation.value = "No"
 
 * #"Unknown" "Unknown"
 * #"Unknown" ^designation.use = https://fhir.cqdg.ca/CodeSystem/disease-status#Unknown

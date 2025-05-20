@@ -59,6 +59,8 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample.json: line 1, col 2, Warning - Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGGroup' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
+/home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json: line 22, col 4, Error - Unknown code 'Affected' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/disease-status' version '0.1.0' (CODEINVALID)
+/home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json: line 22, col 4, Error - None of the codings provided are in the value set 'Ferlab.bio ValueSet/disease-status' (https://fhir.cqdg.ca/ValueSet/disease-status-vs|0.1.0), and a coding from this value set is required) (codes = https://fhir.cqdg.ca/CodeSystem/disease-status#Affected) (CODEINVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have an effective[x] () (INVALID)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationFamilyRelationshipExample.json: line 23, col 6, Error - Unable to resolve resource with reference 'Patient/PatientExample2' (STRUCTURE)
@@ -172,5 +174,5 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-vs.json: line 1, col 871, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-tumor-normal-designation-vs.json: line 1, col 1068, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 34, warn = 101, info = 15
+err = 36, warn = 101, info = 15
 IG Publisher Version: 1.8.26

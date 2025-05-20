@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 34, warn = 101, info = 15
+err = 36, warn = 101, info = 15
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 5 / 0
@@ -35,7 +35,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 2 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationFamilyRelationshipExample : 2 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 2 / 1
@@ -193,6 +193,8 @@ WARNING: Group/CQDGGroupExample: Group.meta.profile[1]: Profile reference 'https
 WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json ==
+ERROR: Observation/ObservationDiseaseStatusExample: Observation.value.ofType(CodeableConcept).coding[0].code: Unknown code 'Affected' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/disease-status' version '0.1.0'
+ERROR: Observation/ObservationDiseaseStatusExample: Observation.value.ofType(CodeableConcept): None of the codings provided are in the value set 'Ferlab.bio ValueSet/disease-status' (https://fhir.cqdg.ca/ValueSet/disease-status-vs|0.1.0), and a coding from this value set is required) (codes = https://fhir.cqdg.ca/CodeSystem/disease-status#Affected)
 WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationFamilyRelationshipExample.json ==

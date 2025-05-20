@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "disease-status"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem disease-status</b></p><a name=\"disease-status\"> </a><a name=\"hcdisease-status\"> </a><a name=\"disease-status-en-US\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"disease-status-Affected\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">Non-affected<a name=\"disease-status-Non-affected\"> </a></td><td>Non affected</td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td><td>Unknown</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem disease-status</b></p><a name=\"disease-status\"> </a><a name=\"hcdisease-status\"> </a><a name=\"disease-status-en-US\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Yes<a name=\"disease-status-Yes\"> </a></td></tr><tr><td style=\"white-space:nowrap\">No<a name=\"disease-status-No\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Unknown<a name=\"disease-status-Unknown\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/disease-status"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-05-13T18:56:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-20T15:08:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -33,24 +33,24 @@
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
-     fhir:code [ fhir:v "Affected" ] ;
-     fhir:display [ fhir:v "Affected" ] ;
+     fhir:code [ fhir:v "Yes" ] ;
+     fhir:display [ fhir:v "Yes" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "Affected" ]
+         fhir:code [ fhir:v "Yes" ]
        ] ;
-       fhir:value [ fhir:v "Affected" ]
+       fhir:value [ fhir:v "Yes" ]
      ] )
   ] [
-     fhir:code [ fhir:v "Non-affected" ] ;
-     fhir:display [ fhir:v "Non affected" ] ;
+     fhir:code [ fhir:v "No" ] ;
+     fhir:display [ fhir:v "No" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/disease-status"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "Non-affected" ]
+         fhir:code [ fhir:v "No" ]
        ] ;
-       fhir:value [ fhir:v "Non affected" ]
+       fhir:value [ fhir:v "No" ]
      ] )
   ] [
      fhir:code [ fhir:v "Unknown" ] ;

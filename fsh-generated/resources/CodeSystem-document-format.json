@@ -28,6 +28,26 @@
       ]
     },
     {
+      "code": "BAM",
+      "display": "BAM File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "BAM"
+        }
+      ]
+    },
+    {
+      "code": "BAI",
+      "display": "BAI File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "BAI"
+        }
+      ]
+    },
+    {
       "code": "VCF",
       "display": "VCF",
       "designation": [
@@ -86,10 +106,20 @@
           "value": "BED"
         }
       ]
+    },
+    {
+      "code": "FASTQ",
+      "display": "FASTQ File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "FASTQ"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Document format",
   "caseSensitive": true,
-  "count": 8
+  "count": 11
 }

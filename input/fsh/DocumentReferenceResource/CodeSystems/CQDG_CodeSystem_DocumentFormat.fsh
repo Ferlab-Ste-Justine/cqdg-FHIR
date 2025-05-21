@@ -15,6 +15,14 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"CRAI" ^designation.language = #fr
 * #"CRAI" ^designation.value = "CRAI"
 
+* #"BAM" "BAM File"
+* #"BAM" ^designation.language = #fr
+* #"BAM" ^designation.value = "BAM"
+
+* #"BAI" "BAI File"
+* #"BAI" ^designation.language = #fr
+* #"BAI" ^designation.value = "BAI"
+
 * #"VCF" "VCF"
 * #"VCF" ^designation.language = #fr
 * #"VCF" ^designation.value = "VCF"
@@ -38,3 +46,7 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"BED" "BED File"
 * #"BED" ^designation.language = #fr
 * #"BED" ^designation.value = "BED"
+
+* #"FASTQ" "FASTQ File"
+* #"FASTQ" ^designation.language = #fr
+* #"FASTQ" ^designation.value = "FASTQ"

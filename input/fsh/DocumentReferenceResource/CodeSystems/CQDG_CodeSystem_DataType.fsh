@@ -7,6 +7,10 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * ^description = "Data Type"
 * ^caseSensitive = true
 
+* #"Unaligned-Reads" "Unaligned Reads"
+* #"Unaligned-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Unaligned-Reads
+* #"Unaligned-Reads" ^designation.value = "Unaligned Reads"
+
 * #"Aligned-reads" "Aligned Reads"
 * #"Aligned-reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-reads
 * #"Aligned-reads" ^designation.value = "Aligned Reads"
@@ -22,6 +26,10 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Sequencing-data-supplement" "Supplement"
 * #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement
 * #"Sequencing-data-supplement" ^designation.value = "Supplement"
+
+* #"Metrics" "Metrics"
+* #"Metrics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Metrics
+* #"Metrics" ^designation.value = "Metrics"
 
 * #"Sequencing-data-index" "Sequencing Data Index"
 * #"Sequencing-data-index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-index

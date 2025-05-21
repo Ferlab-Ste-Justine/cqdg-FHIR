@@ -8,6 +8,19 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/data-type",
   "concept": [
     {
+      "code": "Unaligned-Reads",
+      "display": "Unaligned Reads",
+      "designation": [
+        {
+          "use": {
+            "code": "Unaligned-Reads",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Unaligned Reads"
+        }
+      ]
+    },
+    {
       "code": "Aligned-reads",
       "display": "Aligned Reads",
       "designation": [
@@ -56,6 +69,19 @@
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
           },
           "value": "Supplement"
+        }
+      ]
+    },
+    {
+      "code": "Metrics",
+      "display": "Metrics",
+      "designation": [
+        {
+          "use": {
+            "code": "Metrics",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Metrics"
         }
       ]
     },
@@ -115,5 +141,5 @@
   "experimental": false,
   "description": "Data Type",
   "caseSensitive": true,
-  "count": 8
+  "count": 10
 }

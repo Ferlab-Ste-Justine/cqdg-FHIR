@@ -19,7 +19,7 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"BAM" ^designation.language = #fr
 * #"BAM" ^designation.value = "BAM"
 
-* #"BAI" "BAI File"
+* #"BAI" "BAI Index File"
 * #"BAI" ^designation.language = #fr
 * #"BAI" ^designation.value = "BAI"
 

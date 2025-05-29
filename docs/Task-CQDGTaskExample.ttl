@@ -112,14 +112,14 @@
      ] [
        fhir:url [ fhir:v "runDates"^^xsd:anyURI ] ;
        fhir:value [
-         a fhir:string ;
-         fhir:v "2023-01-01"
+         a fhir:date ;
+         fhir:v "2023-01-01"^^xsd:date
        ]
      ] [
        fhir:url [ fhir:v "runDates"^^xsd:anyURI ] ;
        fhir:value [
-         a fhir:string ;
-         fhir:v "2023-01-02"
+         a fhir:date ;
+         fhir:v "2023-01-02"^^xsd:date
        ]
      ] ) ;
      fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"^^xsd:anyURI ]

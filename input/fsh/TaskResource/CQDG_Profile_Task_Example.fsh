@@ -19,8 +19,8 @@ Usage: #example
 * extension[sequencingExperimentExtension].extension[targetLoci].valueString = "targetedLoci2"
 * extension[sequencingExperimentExtension].extension[runIds][0].valueString = "RunID12345"
 * extension[sequencingExperimentExtension].extension[runIds][+].valueString = "RunID67890"
-* extension[sequencingExperimentExtension].extension[runDates][0].valueString = "2023-01-01"
-* extension[sequencingExperimentExtension].extension[runDates][+].valueString = "2023-01-02"
+* extension[sequencingExperimentExtension].extension[runDates][0].valueDate = "2023-01-01"
+* extension[sequencingExperimentExtension].extension[runDates][+].valueDate = "2023-01-02"
 
 * extension[sampleExtension].extension[ldmSampleId].valueString = "LDM12345"
 * extension[sampleExtension].extension[labAliquotId][0].valueString = "AliquotID1"

@@ -45,7 +45,7 @@ runIds 0..*
 * extension[targetLoci].value[x] only string
 
 * extension[runDates] 0..*
-* extension[runDates].value[x] only string
+* extension[runDates].value[x] only date
 
 * extension[runIds] 0..*
 * extension[runIds].value[x] only string

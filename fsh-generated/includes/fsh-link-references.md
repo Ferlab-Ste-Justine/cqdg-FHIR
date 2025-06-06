@@ -1,3 +1,4 @@
+[example-cqdg-program-group]: Group-example-cqdg-program-group.html
 [AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html
@@ -58,6 +59,7 @@
 [CQDGObservationGroup]: StructureDefinition-cqdg-observation-group.html
 [CQDGOrganization]: StructureDefinition-cqdg-organization.html
 [CQDGPatient]: StructureDefinition-cqdg-patient.html
+[CQDG_Program]: StructureDefinition-cqdg-program.html
 [CQDGSpecimen]: StructureDefinition-cqdg-specimen.html
 [CQDGResearchStudy]: StructureDefinition-cqdg-research-study.html
 [CQDGObservationDiseaseStatus]: StructureDefinition-CQDGObservationDiseaseStatus.html
@@ -91,6 +93,9 @@
 [SampleTypeTissueSourceVS]: ValueSet-sample-type-tissue-source-vs.html
 [StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
+[ResearchProgram]: StructureDefinition-research-program.html
+[ResearchProgramContact]: StructureDefinition-research-program-contact.html
+[ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html
 [SequencingExperimentSourceVS]: ValueSet-sequencing-experiment-source-vs.html

@@ -33,6 +33,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "Group/example-cqdg-program-group"
+        },
+        "name": "Example CQDG Program Group",
+        "description": "A Group resource example using the CQDG_Program profile",
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/age-at-onset"
         },
         "name": "Ferlab.bio CodeSystem/age-at-onset",
@@ -513,6 +521,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/cqdg-program"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqdg-program",
+        "description": "A CQDG program",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/cqdg-specimen"
         },
         "name": "Ferlab.bio StructureDefinition/cqdg-specimen",
@@ -773,6 +789,30 @@
         },
         "name": "Ferlab.bio ValueSet/tumor-normal-designation",
         "description": "Tumor Normal Designation ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/research-program"
+        },
+        "name": "Research Program",
+        "description": "Research program metadata for Group resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/research-program-contact"
+        },
+        "name": "Research Program Contact",
+        "description": "Contact details for a research program.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/research-program-related-artifact"
+        },
+        "name": "Research Program Related Artifact",
+        "description": "Represents a related artifact for a research program.",
         "exampleBoolean": false
       },
       {

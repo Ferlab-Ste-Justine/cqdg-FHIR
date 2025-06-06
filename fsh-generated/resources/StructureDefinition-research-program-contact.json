@@ -1,0 +1,313 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "research-program-contact",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
+  "name": "ResearchProgramContact",
+  "title": "Research Program Contact",
+  "status": "active",
+  "description": "Contact details for a research program.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Research Program Contact",
+        "definition": "Contact details for a research program."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:name",
+        "path": "Extension.extension",
+        "sliceName": "name",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:name.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:name.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "name"
+      },
+      {
+        "id": "Extension.extension:name.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:name.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:contactInstitution",
+        "path": "Extension.extension",
+        "sliceName": "contactInstitution",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:contactInstitution.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:contactInstitution.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "contactInstitution"
+      },
+      {
+        "id": "Extension.extension:contactInstitution.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:contactInstitution.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:contactPicture",
+        "path": "Extension.extension",
+        "sliceName": "contactPicture",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:contactPicture.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:contactPicture.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "contactPicture"
+      },
+      {
+        "id": "Extension.extension:contactPicture.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:contactPicture.value[x]:valueUrl",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueUrl",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "url"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:telecom",
+        "path": "Extension.extension",
+        "sliceName": "telecom",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:telecom.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:telecom.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "telecom"
+      },
+      {
+        "id": "Extension.extension:telecom.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:telecom.value[x]:valueContactPoint",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueContactPoint",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "ContactPoint"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:ProgramRoleEN",
+        "path": "Extension.extension",
+        "sliceName": "ProgramRoleEN",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleEN.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleEN.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "ProgramRoleEN"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleEN.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:ProgramRoleEN.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:ProgramRoleFR",
+        "path": "Extension.extension",
+        "sliceName": "ProgramRoleFR",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleFR.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleFR.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "ProgramRoleFR"
+      },
+      {
+        "id": "Extension.extension:ProgramRoleFR.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:ProgramRoleFR.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

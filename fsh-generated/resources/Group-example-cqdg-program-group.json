@@ -1,0 +1,99 @@
+{
+  "resourceType": "Group",
+  "id": "example-cqdg-program-group",
+  "meta": {
+    "profile": [
+      "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/research-program",
+      "extension": [
+        {
+          "url": "descriptionEN",
+          "valueString": "Example program in English"
+        },
+        {
+          "url": "descriptionFR",
+          "valueString": "Exemple de programme en français"
+        },
+        {
+          "url": "relatedArtifact",
+          "extension": [
+            {
+              "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact",
+              "extension": [
+                {
+                  "url": "type",
+                  "valueCode": "documentation"
+                },
+                {
+                  "url": "url",
+                  "valueUrl": "https://example.org/program"
+                },
+                {
+                  "url": "display",
+                  "valueString": "Program Website"
+                },
+                {
+                  "url": "citation",
+                  "valueMarkdown": "Example citation statement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Dr. Jane Doe"
+            },
+            {
+              "url": "contactInstitution",
+              "valueString": "Genomics Institute"
+            },
+            {
+              "url": "telecom",
+              "valueContactPoint": {
+                "system": "email",
+                "value": "jane.doe@example.org",
+                "use": "work"
+              }
+            },
+            {
+              "url": "telecom",
+              "valueContactPoint": {
+                "system": "phone",
+                "value": "+1-555-123-4567",
+                "use": "mobile"
+              }
+            },
+            {
+              "url": "ProgramRoleEN",
+              "valueString": "Program Role in English"
+            },
+            {
+              "url": "ProgramRoleFR",
+              "valueString": "Program Role en Français"
+            },
+            {
+              "url": "contactPicture",
+              "valueUrl": "https://example.org/jane.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "person",
+  "name": "Example Research Program",
+  "identifier": [
+    {
+      "value": "PRG-001"
+    }
+  ],
+  "actual": true
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cqdg-program",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/cqdg-program",
+  "version": "1.0.0",
+  "name": "CQDG_Program",
+  "title": "Ferlab.bio StructureDefinition/cqdg-program",
+  "status": "active",
+  "description": "A CQDG program",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Group",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Group",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Group.id",
+        "path": "Group.id",
+        "min": 1
+      },
+      {
+        "id": "Group.extension",
+        "path": "Group.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Group.extension:researchProgram",
+        "path": "Group.extension",
+        "sliceName": "researchProgram",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/research-program"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Group.identifier",
+        "path": "Group.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Group.identifier.value",
+        "path": "Group.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Group.name",
+        "path": "Group.name",
+        "min": 1
+      }
+    ]
+  }
+}

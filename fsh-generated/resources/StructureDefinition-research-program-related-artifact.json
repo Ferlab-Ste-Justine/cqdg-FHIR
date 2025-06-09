@@ -171,6 +171,18 @@
         ]
       },
       {
+        "id": "Extension.extension:contactPicture",
+        "path": "Extension.extension",
+        "sliceName": "contactPicture",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:contactPicture.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "contactPicture"
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
         "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"

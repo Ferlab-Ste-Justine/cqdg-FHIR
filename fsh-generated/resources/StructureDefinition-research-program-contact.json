@@ -299,21 +299,21 @@
         ]
       },
       {
-        "id": "Extension.extension:relatedContactArtifact",
+        "id": "Extension.extension:relatedArtifact",
         "path": "Extension.extension",
-        "sliceName": "relatedContactArtifact",
+        "sliceName": "relatedArtifact",
         "min": 0,
         "max": "*"
       },
       {
-        "id": "Extension.extension:relatedContactArtifact.url",
+        "id": "Extension.extension:relatedArtifact.url",
         "path": "Extension.extension.url",
-        "fixedUri": "relatedContactArtifact"
+        "fixedUri": "relatedArtifact"
       },
       {
-        "id": "Extension.extension:relatedContactArtifact/ResearchProgramContactRelatedArtifact",
+        "id": "Extension.extension:relatedArtifact/ResearchProgramRelatedArtifact",
         "path": "Extension.extension",
-        "sliceName": "relatedContactArtifact/ResearchProgramContactRelatedArtifact",
+        "sliceName": "relatedArtifact/ResearchProgramRelatedArtifact",
         "min": 0,
         "max": "1"
       },

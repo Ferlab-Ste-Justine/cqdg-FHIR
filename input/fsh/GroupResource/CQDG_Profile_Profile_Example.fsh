@@ -35,7 +35,7 @@ Description: "A Group resource example using the CQDG_Program profile"
 * extension[researchProgram].extension[research-program-contact].extension[ProgramRoleEN].valueString = "Program Role in English"
 * extension[researchProgram].extension[research-program-contact].extension[ProgramRoleFR].valueString = "Program Role en Français"
 
-* extension[researchProgram].extension[research-program-contact].extension[contact-related-artifact].extension[contactPicture].valueUrl = "https://example.org/contact-picture.jpg"
-* extension[researchProgram].extension[research-program-contact].extension[contact-related-artifact].extension[website].valueUrl = "https://example.org/contact-website"
+* extension[researchProgram].extension[research-program-contact].extension[research-program-related-artifact].extension[contactPicture].valueUrl = "https://example.org/contact-picture.jpg"
+* extension[researchProgram].extension[research-program-contact].extension[research-program-related-artifact].extension[website].valueUrl = "https://example.org/contact-website"
 
 * extension[researchProgram].extension[research-program-contact].extension[rank].valueString = "One rank"

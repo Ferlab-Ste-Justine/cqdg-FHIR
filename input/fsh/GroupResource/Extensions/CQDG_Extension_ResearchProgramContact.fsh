@@ -10,7 +10,7 @@ Description: "Contact details for a research program."
     ProgramRoleEN 0..1 and
     ProgramRoleFR 0..1 and
     rank 0..1 and
-    relatedContactArtifact 0..*
+    relatedArtifact 0..*
 
 * extension[name].valueString 1..1
 * extension[contactInstitution].valueString 0..1
@@ -19,5 +19,5 @@ Description: "Contact details for a research program."
 * extension[ProgramRoleFR].valueString 0..1
 * extension[rank].valueString 0..1
 
-* extension[relatedContactArtifact] only Extension
-* extension[relatedContactArtifact] contains ResearchProgramContactRelatedArtifact 0..1
+* extension[relatedArtifact] only Extension
+* extension[relatedArtifact] contains ResearchProgramRelatedArtifact 0..1

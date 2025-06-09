@@ -6,7 +6,8 @@ Description: "Represents a related artifact for a research program."
 * extension contains
     website 1..1 and
     citationStatement 0..1 and
-    logo 0..1
+    logo 0..1 and
+    contactPicture 0..1
 
 * extension[website].valueUrl 1..1
 * extension[citationStatement].valueString 1..1

@@ -95,7 +95,6 @@
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
 [ResearchProgram]: StructureDefinition-research-program.html
 [ResearchProgramContact]: StructureDefinition-research-program-contact.html
-[ResearchProgramContactRelatedArtifact]: StructureDefinition-contact-related-artifact.html
 [ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html

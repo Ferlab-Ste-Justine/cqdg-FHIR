@@ -126,49 +126,6 @@
         ]
       },
       {
-        "id": "Extension.extension:contactPicture",
-        "path": "Extension.extension",
-        "sliceName": "contactPicture",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:contactPicture.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:contactPicture.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "contactPicture"
-      },
-      {
-        "id": "Extension.extension:contactPicture.value[x]",
-        "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Extension.extension:contactPicture.value[x]:valueUrl",
-        "path": "Extension.extension.value[x]",
-        "sliceName": "valueUrl",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "url"
-          }
-        ]
-      },
-      {
         "id": "Extension.extension:telecom",
         "path": "Extension.extension",
         "sliceName": "telecom",
@@ -297,6 +254,68 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Extension.extension:rank",
+        "path": "Extension.extension",
+        "sliceName": "rank",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:rank.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:rank.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "rank"
+      },
+      {
+        "id": "Extension.extension:rank.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:rank.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:relatedContactArtifact",
+        "path": "Extension.extension",
+        "sliceName": "relatedContactArtifact",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:relatedContactArtifact.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "relatedContactArtifact"
+      },
+      {
+        "id": "Extension.extension:relatedContactArtifact/ResearchProgramContactRelatedArtifact",
+        "path": "Extension.extension",
+        "sliceName": "relatedContactArtifact/ResearchProgramContactRelatedArtifact",
+        "min": 0,
+        "max": "1"
       },
       {
         "id": "Extension.url",

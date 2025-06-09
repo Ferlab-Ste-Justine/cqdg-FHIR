@@ -36,27 +36,27 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 2
+        "min": 1
       },
       {
-        "id": "Extension.extension:type",
+        "id": "Extension.extension:website",
         "path": "Extension.extension",
-        "sliceName": "type",
+        "sliceName": "website",
         "min": 1,
         "max": "1"
       },
       {
-        "id": "Extension.extension:type.extension",
+        "id": "Extension.extension:website.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:type.url",
+        "id": "Extension.extension:website.url",
         "path": "Extension.extension.url",
-        "fixedUri": "type"
+        "fixedUri": "website"
       },
       {
-        "id": "Extension.extension:type.value[x]",
+        "id": "Extension.extension:website.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -71,51 +71,7 @@
         "min": 1
       },
       {
-        "id": "Extension.extension:type.value[x]:valueCode",
-        "path": "Extension.extension.value[x]",
-        "sliceName": "valueCode",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:url",
-        "path": "Extension.extension",
-        "sliceName": "url",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:url.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:url.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "url"
-      },
-      {
-        "id": "Extension.extension:url.value[x]",
-        "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Extension.extension:url.value[x]:valueUrl",
+        "id": "Extension.extension:website.value[x]:valueUrl",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueUrl",
         "min": 1,
@@ -127,24 +83,24 @@
         ]
       },
       {
-        "id": "Extension.extension:display",
+        "id": "Extension.extension:citationStatement",
         "path": "Extension.extension",
-        "sliceName": "display",
+        "sliceName": "citationStatement",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:display.extension",
+        "id": "Extension.extension:citationStatement.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:display.url",
+        "id": "Extension.extension:citationStatement.url",
         "path": "Extension.extension.url",
-        "fixedUri": "display"
+        "fixedUri": "citationStatement"
       },
       {
-        "id": "Extension.extension:display.value[x]",
+        "id": "Extension.extension:citationStatement.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -155,13 +111,14 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
-        "id": "Extension.extension:display.value[x]:valueString",
+        "id": "Extension.extension:citationStatement.value[x]:valueString",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueString",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -170,24 +127,24 @@
         ]
       },
       {
-        "id": "Extension.extension:citation",
+        "id": "Extension.extension:logo",
         "path": "Extension.extension",
-        "sliceName": "citation",
+        "sliceName": "logo",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:citation.extension",
+        "id": "Extension.extension:logo.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:citation.url",
+        "id": "Extension.extension:logo.url",
         "path": "Extension.extension.url",
-        "fixedUri": "citation"
+        "fixedUri": "logo"
       },
       {
-        "id": "Extension.extension:citation.value[x]",
+        "id": "Extension.extension:logo.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -198,17 +155,18 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
-        "id": "Extension.extension:citation.value[x]:valueString",
+        "id": "Extension.extension:logo.value[x]:valueUrl",
         "path": "Extension.extension.value[x]",
-        "sliceName": "valueString",
-        "min": 0,
+        "sliceName": "valueUrl",
+        "min": 1,
         "max": "1",
         "type": [
           {
-            "code": "string"
+            "code": "url"
           }
         ]
       },

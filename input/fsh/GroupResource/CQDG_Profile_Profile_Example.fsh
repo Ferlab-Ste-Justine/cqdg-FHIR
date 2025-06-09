@@ -9,18 +9,15 @@ Description: "A Group resource example using the CQDG_Program profile"
 * identifier[0].value = "PRG-001"
 * actual = true
 
-// ResearchProgram extension with relatedArtifact
+// ResearchProgram
 * extension[researchProgram].url = "https://fhir.cqdg.ca/StructureDefinition/research-program"
 * extension[researchProgram].extension[descriptionEN].valueString = "Example program in English"
 * extension[researchProgram].extension[descriptionFR].valueString = "Exemple de programme en français"
 
 // relatedArtifact extension
-* extension[researchProgram].extension[relatedArtifact][0].url = "relatedArtifact"
-* extension[researchProgram].extension[relatedArtifact][0].extension[research-program-related-artifact].url = "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
-* extension[researchProgram].extension[relatedArtifact][0].extension[research-program-related-artifact].extension[type].valueCode = #documentation
-* extension[researchProgram].extension[relatedArtifact][0].extension[research-program-related-artifact].extension[url].valueUrl = "https://example.org/program"
-* extension[researchProgram].extension[relatedArtifact][0].extension[research-program-related-artifact].extension[display].valueString = "Program Website"
-* extension[researchProgram].extension[relatedArtifact][0].extension[research-program-related-artifact].extension[citation].valueMarkdown = "Example citation statement"
+* extension[researchProgram].extension[research-program-related-artifact].extension[website].valueUrl = "https://example.org"
+* extension[researchProgram].extension[research-program-related-artifact].extension[citationStatement].valueString = "citation statement for the program"
+* extension[researchProgram].extension[research-program-related-artifact].extension[logo].valueUrl = "https://example.org/logo.jpg"
 
 // Add ResearchProgramContact directly under researchProgram
 * extension[researchProgram].extension[research-program-contact].url = "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"
@@ -38,4 +35,7 @@ Description: "A Group resource example using the CQDG_Program profile"
 * extension[researchProgram].extension[research-program-contact].extension[ProgramRoleEN].valueString = "Program Role in English"
 * extension[researchProgram].extension[research-program-contact].extension[ProgramRoleFR].valueString = "Program Role en Français"
 
-* extension[researchProgram].extension[research-program-contact].extension[contactPicture].valueUrl = "https://example.org/jane.jpg"
+* extension[researchProgram].extension[research-program-contact].extension[contact-related-artifact].extension[contactPicture].valueUrl = "https://example.org/contact-picture.jpg"
+* extension[researchProgram].extension[research-program-contact].extension[contact-related-artifact].extension[website].valueUrl = "https://example.org/contact-website"
+
+* extension[researchProgram].extension[research-program-contact].extension[rank].valueString = "One rank"

@@ -19,30 +19,21 @@
           "valueString": "Exemple de programme en français"
         },
         {
-          "url": "relatedArtifact",
           "extension": [
             {
-              "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact",
-              "extension": [
-                {
-                  "url": "type",
-                  "valueCode": "documentation"
-                },
-                {
-                  "url": "url",
-                  "valueUrl": "https://example.org/program"
-                },
-                {
-                  "url": "display",
-                  "valueString": "Program Website"
-                },
-                {
-                  "url": "citation",
-                  "valueMarkdown": "Example citation statement"
-                }
-              ]
+              "url": "website",
+              "valueUrl": "https://example.org"
+            },
+            {
+              "url": "citationStatement",
+              "valueString": "citation statement for the program"
+            },
+            {
+              "url": "logo",
+              "valueUrl": "https://example.org/logo.jpg"
             }
-          ]
+          ],
+          "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
         },
         {
           "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
@@ -80,8 +71,21 @@
               "valueString": "Program Role en Français"
             },
             {
-              "url": "contactPicture",
-              "valueUrl": "https://example.org/jane.jpg"
+              "extension": [
+                {
+                  "url": "contactPicture",
+                  "valueUrl": "https://example.org/contact-picture.jpg"
+                },
+                {
+                  "url": "website",
+                  "valueUrl": "https://example.org/contact-website"
+                }
+              ],
+              "url": "https://fhir.cqdg.ca/StructureDefinition/contact-related-artifact"
+            },
+            {
+              "url": "rank",
+              "valueString": "One rank"
             }
           ]
         }

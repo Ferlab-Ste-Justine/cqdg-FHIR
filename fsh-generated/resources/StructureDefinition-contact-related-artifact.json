@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "research-program",
-  "url": "https://fhir.cqdg.ca/StructureDefinition/research-program",
-  "name": "ResearchProgram",
-  "title": "Research Program",
+  "id": "contact-related-artifact",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/contact-related-artifact",
+  "name": "ResearchProgramContactRelatedArtifact",
+  "title": "Research Program Contact Related Artifact",
   "status": "active",
-  "description": "Research program metadata for Group resource",
+  "description": "Represents a contact related artifact for a research program.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -30,28 +30,28 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Research Program",
-        "definition": "Research program metadata for Group resource"
+        "short": "Research Program Contact Related Artifact",
+        "definition": "Represents a contact related artifact for a research program."
       },
       {
-        "id": "Extension.extension:descriptionEN",
+        "id": "Extension.extension:contactPicture",
         "path": "Extension.extension",
-        "sliceName": "descriptionEN",
+        "sliceName": "contactPicture",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:descriptionEN.extension",
+        "id": "Extension.extension:contactPicture.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:descriptionEN.url",
+        "id": "Extension.extension:contactPicture.url",
         "path": "Extension.extension.url",
-        "fixedUri": "descriptionEN"
+        "fixedUri": "contactPicture"
       },
       {
-        "id": "Extension.extension:descriptionEN.value[x]",
+        "id": "Extension.extension:contactPicture.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -62,40 +62,39 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
-        "id": "Extension.extension:descriptionEN.value[x]:valueString",
+        "id": "Extension.extension:contactPicture.value[x]:valueUrl",
         "path": "Extension.extension.value[x]",
-        "sliceName": "valueString",
-        "min": 1,
+        "sliceName": "valueUrl",
+        "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "string"
+            "code": "url"
           }
         ]
       },
       {
-        "id": "Extension.extension:descriptionFR",
+        "id": "Extension.extension:website",
         "path": "Extension.extension",
-        "sliceName": "descriptionFR",
+        "sliceName": "website",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:descriptionFR.extension",
+        "id": "Extension.extension:website.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:descriptionFR.url",
+        "id": "Extension.extension:website.url",
         "path": "Extension.extension.url",
-        "fixedUri": "descriptionFR"
+        "fixedUri": "website"
       },
       {
-        "id": "Extension.extension:descriptionFR.value[x]",
+        "id": "Extension.extension:website.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -106,44 +105,24 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
-        "id": "Extension.extension:descriptionFR.value[x]:valueString",
+        "id": "Extension.extension:website.value[x]:valueUrl",
         "path": "Extension.extension.value[x]",
-        "sliceName": "valueString",
-        "min": 1,
+        "sliceName": "valueUrl",
+        "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "string"
+            "code": "url"
           }
         ]
-      },
-      {
-        "id": "Extension.extension:relatedArtifact",
-        "path": "Extension.extension",
-        "sliceName": "relatedArtifact",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:relatedArtifact.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "relatedArtifact"
-      },
-      {
-        "id": "Extension.extension:relatedArtifact/ResearchProgramRelatedArtifact",
-        "path": "Extension.extension",
-        "sliceName": "relatedArtifact/ResearchProgramRelatedArtifact",
-        "min": 0,
-        "max": "1"
       },
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/research-program"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/contact-related-artifact"
       },
       {
         "id": "Extension.value[x]",

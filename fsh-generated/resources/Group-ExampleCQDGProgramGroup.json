@@ -1,6 +1,6 @@
 {
   "resourceType": "Group",
-  "id": "example-cqdg-program-group",
+  "id": "ExampleCQDGProgramGroup",
   "meta": {
     "profile": [
       "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"
@@ -88,16 +88,78 @@
               "valueString": "One rank"
             }
           ]
+        },
+        {
+          "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Dr. Jane Doe2"
+            },
+            {
+              "url": "contactInstitution",
+              "valueString": "Genomics Institute2"
+            },
+            {
+              "url": "telecom",
+              "valueContactPoint": {
+                "system": "email",
+                "value": "jane.doe@example2.org",
+                "use": "work"
+              }
+            },
+            {
+              "url": "telecom",
+              "valueContactPoint": {
+                "system": "phone",
+                "value": "+1-555-123-4568",
+                "use": "mobile"
+              }
+            },
+            {
+              "url": "ProgramRoleEN",
+              "valueString": "Program Role in English2"
+            },
+            {
+              "url": "ProgramRoleFR",
+              "valueString": "Program Role en Français2"
+            },
+            {
+              "extension": [
+                {
+                  "url": "contactPicture",
+                  "valueUrl": "https://example.org/contact-picture2.jpg"
+                },
+                {
+                  "url": "website",
+                  "valueUrl": "https://example.org/contact-website2"
+                }
+              ],
+              "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
+            },
+            {
+              "url": "rank",
+              "valueString": "Two rank"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Name of Partner"
+            },
+            {
+              "url": "rank",
+              "valueString": "rank of partner"
+            }
+          ],
+          "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"
         }
       ]
     }
   ],
-  "type": "person",
   "name": "Example Research Program",
-  "identifier": [
-    {
-      "value": "PRG-001"
-    }
-  ],
-  "actual": true
+  "actual": true,
+  "type": "healthcareservice"
 }

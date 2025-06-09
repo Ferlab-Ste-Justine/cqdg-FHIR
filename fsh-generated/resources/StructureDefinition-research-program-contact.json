@@ -154,14 +154,13 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
         "id": "Extension.extension:telecom.value[x]:valueContactPoint",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueContactPoint",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {

@@ -1,4 +1,4 @@
-[example-cqdg-program-group]: Group-example-cqdg-program-group.html
+[ExampleCQDGProgramGroup]: Group-ExampleCQDGProgramGroup.html
 [AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html
@@ -95,6 +95,7 @@
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
 [ResearchProgram]: StructureDefinition-research-program.html
 [ResearchProgramContact]: StructureDefinition-research-program-contact.html
+[ResearchProgramPartner]: StructureDefinition-research-program-partner.html
 [ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html

@@ -33,7 +33,7 @@
     "resource": [
       {
         "reference": {
-          "reference": "Group/example-cqdg-program-group"
+          "reference": "Group/ExampleCQDGProgramGroup"
         },
         "name": "Example CQDG Program Group",
         "description": "A Group resource example using the CQDG_Program profile",
@@ -805,6 +805,14 @@
         },
         "name": "Research Program Contact",
         "description": "Contact details for a research program.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/research-program-partner"
+        },
+        "name": "Research Program Partner",
+        "description": "Partner details for a research program.",
         "exampleBoolean": false
       },
       {

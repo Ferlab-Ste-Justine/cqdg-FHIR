@@ -28,11 +28,6 @@
   "differential": {
     "element": [
       {
-        "id": "Group.id",
-        "path": "Group.id",
-        "min": 1
-      },
-      {
         "id": "Group.extension",
         "path": "Group.extension",
         "slicing": {
@@ -44,13 +39,14 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "Group.extension:researchProgram",
         "path": "Group.extension",
         "sliceName": "researchProgram",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -60,16 +56,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "Group.identifier",
-        "path": "Group.identifier",
-        "mustSupport": true
-      },
-      {
-        "id": "Group.identifier.value",
-        "path": "Group.identifier.value",
-        "min": 1
       },
       {
         "id": "Group.name",

@@ -1,5 +1,5 @@
 {
-  "resourceType": "Group",
+  "resourceType": "List",
   "id": "ExampleCQDGProgramGroup",
   "meta": {
     "profile": [
@@ -85,7 +85,7 @@
             },
             {
               "url": "rank",
-              "valueString": "One rank"
+              "valueInteger": 1
             }
           ]
         },
@@ -139,7 +139,7 @@
             },
             {
               "url": "rank",
-              "valueString": "Two rank"
+              "valueInteger": 2
             }
           ]
         },
@@ -151,7 +151,28 @@
             },
             {
               "url": "rank",
-              "valueString": "rank of partner"
+              "valueInteger": 1
+            },
+            {
+              "url": "logo",
+              "valueUrl": "/partners_logos/FRQS.svg"
+            }
+          ],
+          "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"
+        },
+        {
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Name of Partner2"
+            },
+            {
+              "url": "rank",
+              "valueInteger": 2
+            },
+            {
+              "url": "logo",
+              "valueUrl": "/partners_logos/FRQS2.svg"
             }
           ],
           "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"
@@ -159,7 +180,7 @@
       ]
     }
   ],
-  "name": "Example Research Program",
-  "actual": true,
-  "type": "healthcareservice"
+  "title": "Example Research Program",
+  "status": "active",
+  "mode": "working"
 }

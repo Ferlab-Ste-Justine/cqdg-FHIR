@@ -1,4 +1,4 @@
-[ExampleCQDGProgramGroup]: Group-ExampleCQDGProgramGroup.html
+[ExampleCQDGProgramGroup]: List-ExampleCQDGProgramGroup.html
 [AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html

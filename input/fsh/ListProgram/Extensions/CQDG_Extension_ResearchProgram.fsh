@@ -9,7 +9,7 @@ Description: "Research program metadata for Group resource"
     relatedArtifact 0..1 and
     contact 0..* and
     nameFR 0..1 and
-    partner 0..1
+    partner 0..*
 
 * extension[descriptionEN].valueString 1..1
 * extension[descriptionFR].valueString 1..1
@@ -23,4 +23,4 @@ Description: "Research program metadata for Group resource"
 * extension[nameFR].valueString 1..1
 
 * extension[partner] only Extension
-* extension[partner] contains ResearchProgramPartner 0..1
+* extension[partner] contains ResearchProgramPartner 0..*

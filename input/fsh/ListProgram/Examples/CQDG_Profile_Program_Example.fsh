@@ -3,10 +3,10 @@ InstanceOf: CQDG_Program
 Title: "Example CQDG Program Group"
 Description: "A Group resource example using the CQDG_Program profile"
 
-* name = "Example Research Program"
-* actual = true
+* title = "Example Research Program"
 
-* type = #healthcareservice
+* status = #active
+* mode = #working
 
 // ResearchProgram
 * extension[researchProgram].url = "https://fhir.cqdg.ca/StructureDefinition/research-program"
@@ -32,7 +32,7 @@ Description: "A Group resource example using the CQDG_Program profile"
 * extension[researchProgram].extension[research-program-contact][0].extension[ProgramRoleFR].valueString = "Program Role en Français"
 * extension[researchProgram].extension[research-program-contact][0].extension[research-program-related-artifact].extension[contactPicture].valueUrl = "https://example.org/contact-picture.jpg"
 * extension[researchProgram].extension[research-program-contact][0].extension[research-program-related-artifact].extension[website].valueUrl = "https://example.org/contact-website"
-* extension[researchProgram].extension[research-program-contact][0].extension[rank].valueString = "One rank"
+* extension[researchProgram].extension[research-program-contact][0].extension[rank].valueInteger = 1
 
 * extension[researchProgram].extension[research-program-contact][1].url = "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"
 * extension[researchProgram].extension[research-program-contact][1].extension[name].valueString = "Dr. Jane Doe2"
@@ -47,10 +47,13 @@ Description: "A Group resource example using the CQDG_Program profile"
 * extension[researchProgram].extension[research-program-contact][1].extension[ProgramRoleFR].valueString = "Program Role en Français2"
 * extension[researchProgram].extension[research-program-contact][1].extension[research-program-related-artifact].extension[contactPicture].valueUrl = "https://example.org/contact-picture2.jpg"
 * extension[researchProgram].extension[research-program-contact][1].extension[research-program-related-artifact].extension[website].valueUrl = "https://example.org/contact-website2"
-* extension[researchProgram].extension[research-program-contact][1].extension[rank].valueString = "Two rank"
+* extension[researchProgram].extension[research-program-contact][1].extension[rank].valueInteger = 2
 
-* extension[researchProgram].extension[research-program-partner].extension[name].valueString = "Name of Partner"
-* extension[researchProgram].extension[research-program-partner].extension[rank].valueString = "rank of partner"
-
+* extension[researchProgram].extension[research-program-partner][0].extension[name].valueString = "Name of Partner"
+* extension[researchProgram].extension[research-program-partner][0].extension[rank].valueInteger = 1
+* extension[researchProgram].extension[research-program-partner][0].extension[logo].valueUrl = "/partners_logos/FRQS.svg"
+* extension[researchProgram].extension[research-program-partner][1].extension[name].valueString = "Name of Partner2"
+* extension[researchProgram].extension[research-program-partner][1].extension[rank].valueInteger = 2
+* extension[researchProgram].extension[research-program-partner][1].extension[logo].valueUrl = "/partners_logos/FRQS2.svg"
 
 

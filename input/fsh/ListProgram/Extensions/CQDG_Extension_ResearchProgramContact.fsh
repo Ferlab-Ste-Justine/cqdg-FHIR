@@ -17,7 +17,7 @@ Description: "Contact details for a research program."
 * extension[telecom].valueContactPoint 0..1
 * extension[ProgramRoleEN].valueString 0..1
 * extension[ProgramRoleFR].valueString 0..1
-* extension[rank].valueString 0..1
+* extension[rank].valueInteger 1..1
 
 * extension[relatedArtifact] only Extension
 * extension[relatedArtifact] contains ResearchProgramRelatedArtifact 0..1

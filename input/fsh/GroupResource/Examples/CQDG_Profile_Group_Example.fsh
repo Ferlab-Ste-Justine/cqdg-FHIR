@@ -6,7 +6,7 @@ Description: "An example of a cqdg group"
 * meta.profile = "https://fhir.cqdg.ca/StructureDefinition/CQDGGroup"
 * meta.tag[0].code = #CAG
 
-* type = #organization
+* type = #person
 * quantity = 3 // number of people in the group
 * actual = true
 

@@ -208,7 +208,7 @@
         "path": "Extension.extension",
         "sliceName": "partner",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Extension.extension:partner.url",
@@ -220,7 +220,7 @@
         "path": "Extension.extension",
         "sliceName": "partner/ResearchProgramPartner",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Extension.url",

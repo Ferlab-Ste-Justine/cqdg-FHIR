@@ -1,0 +1,237 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "research-program",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/research-program",
+  "name": "ResearchProgram",
+  "title": "Research Program",
+  "status": "active",
+  "description": "Research program metadata for Group resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Research Program",
+        "definition": "Research program metadata for Group resource"
+      },
+      {
+        "id": "Extension.extension:descriptionEN",
+        "path": "Extension.extension",
+        "sliceName": "descriptionEN",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:descriptionEN.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:descriptionEN.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "descriptionEN"
+      },
+      {
+        "id": "Extension.extension:descriptionEN.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:descriptionEN.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:descriptionFR",
+        "path": "Extension.extension",
+        "sliceName": "descriptionFR",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:descriptionFR.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:descriptionFR.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "descriptionFR"
+      },
+      {
+        "id": "Extension.extension:descriptionFR.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:descriptionFR.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:relatedArtifact",
+        "path": "Extension.extension",
+        "sliceName": "relatedArtifact",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:relatedArtifact.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "relatedArtifact"
+      },
+      {
+        "id": "Extension.extension:relatedArtifact/ResearchProgramRelatedArtifact",
+        "path": "Extension.extension",
+        "sliceName": "relatedArtifact/ResearchProgramRelatedArtifact",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:contact",
+        "path": "Extension.extension",
+        "sliceName": "contact",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:contact.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "contact"
+      },
+      {
+        "id": "Extension.extension:contact/ResearchProgramContact",
+        "path": "Extension.extension",
+        "sliceName": "contact/ResearchProgramContact",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:nameFR",
+        "path": "Extension.extension",
+        "sliceName": "nameFR",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:nameFR.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:nameFR.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "nameFR"
+      },
+      {
+        "id": "Extension.extension:nameFR.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:nameFR.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:partner",
+        "path": "Extension.extension",
+        "sliceName": "partner",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:partner.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "partner"
+      },
+      {
+        "id": "Extension.extension:partner/ResearchProgramPartner",
+        "path": "Extension.extension",
+        "sliceName": "partner/ResearchProgramPartner",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/research-program"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

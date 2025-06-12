@@ -9,6 +9,3 @@ Title: "Ferlab.bio StructureDefinition/cqdg-program"
 // Extensions for ResearchProgram
 * extension contains
     ResearchProgram named researchProgram 1..1
-
-
-g

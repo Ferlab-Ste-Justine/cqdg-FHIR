@@ -5,7 +5,7 @@ Description: "A Group resource example using the CQDG_Program profile"
 
 * title = "Example Research Program"
 
-* status = #active
+* status = #current
 * mode = #working
 
 // ResearchProgram

@@ -4,7 +4,7 @@ Id: cqdg-program
 Description: "A CQDG program"
 Title: "Ferlab.bio StructureDefinition/cqdg-program"
 * ^version = "1.0.0"
-* ^status = #active
+* ^status = #current
 
 // Extensions for ResearchProgram
 * extension contains

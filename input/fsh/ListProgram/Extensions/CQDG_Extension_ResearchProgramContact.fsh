@@ -1,6 +1,6 @@
 Extension: ResearchProgramContact
 Id: research-program-contact
-Title: "Research Program Contact"
+Title: "Ferlab.bio Extension/research-program-contact"
 Description: "Contact details for a research program."
 
 * extension contains

@@ -3,7 +3,7 @@
   "id": "research-program-contact",
   "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
   "name": "ResearchProgramContact",
-  "title": "Research Program Contact",
+  "title": "Ferlab.bio Extension/research-program-contact",
   "status": "active",
   "description": "Contact details for a research program.",
   "fhirVersion": "4.0.1",
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Research Program Contact",
+        "short": "Ferlab.bio Extension/research-program-contact",
         "definition": "Contact details for a research program."
       },
       {

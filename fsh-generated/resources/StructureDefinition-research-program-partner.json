@@ -3,7 +3,7 @@
   "id": "research-program-partner",
   "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-partner",
   "name": "ResearchProgramPartner",
-  "title": "Research Program Partner",
+  "title": "Ferlab.bio Extension/research-program-partner",
   "status": "active",
   "description": "Partner details for a research program.",
   "fhirVersion": "4.0.1",
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Research Program Partner",
+        "short": "Ferlab.bio Extension/research-program-partner",
         "definition": "Partner details for a research program."
       },
       {

@@ -1,4 +1,3 @@
-[ExampleCQDGProgramGroup]: List-ExampleCQDGProgramGroup.html
 [AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html
@@ -29,6 +28,7 @@
 [CQDGGroupExample]: Group-CQDGGroupExample.html
 [OrganizationExample]: Organization-OrganizationExample.html
 [PatientExample]: Patient-PatientExample.html
+[ExampleCQDGProgramGroup]: List-ExampleCQDGProgramGroup.html
 [ResearchStudyExample]: ResearchStudy-ResearchStudyExample.html
 [CQDGTaskExample]: Task-CQDGTaskExample.html
 [ObservationCauseOfDeathExample]: Observation-ObservationCauseOfDeathExample.html
@@ -51,6 +51,10 @@
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
 [PopulationInfo]: StructureDefinition-population-info.html
 [QCEthnicity]: StructureDefinition-QCEthnicity.html
+[ResearchProgram]: StructureDefinition-research-program.html
+[ResearchProgramContact]: StructureDefinition-research-program-contact.html
+[ResearchProgramPartner]: StructureDefinition-research-program-partner.html
+[ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [CQDGTask]: StructureDefinition-cqdg-task.html
 [CQDGObservationCauseOfDeath]: StructureDefinition-CQDGObservationCauseOfDeath.html
 [CQDG_Condition]: StructureDefinition-cqdg-condition.html
@@ -93,10 +97,6 @@
 [SampleTypeTissueSourceVS]: ValueSet-sample-type-tissue-source-vs.html
 [StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
-[ResearchProgram]: StructureDefinition-research-program.html
-[ResearchProgramContact]: StructureDefinition-research-program-contact.html
-[ResearchProgramPartner]: StructureDefinition-research-program-partner.html
-[ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html
 [SequencingExperimentSourceVS]: ValueSet-sequencing-experiment-source-vs.html

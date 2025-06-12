@@ -1,6 +1,6 @@
 Instance: ExampleCQDGProgramGroup
 InstanceOf: CQDG_Program
-Title: "Example CQDG Program Group"
+Title: "Ferlab.bio Example/cqdg-program-list"
 Description: "A Group resource example using the CQDG_Program profile"
 
 * title = "Example Research Program"

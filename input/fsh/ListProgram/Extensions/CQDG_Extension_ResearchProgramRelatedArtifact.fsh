@@ -1,6 +1,6 @@
 Extension: ResearchProgramRelatedArtifact
 Id: research-program-related-artifact
-Title: "Research Program Related Artifact"
+Title: "Ferlab.bio Extension/research-program-related-artifact"
 Description: "Represents a related artifact for a research program."
 
 * extension contains

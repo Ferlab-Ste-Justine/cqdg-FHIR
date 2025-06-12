@@ -3,7 +3,7 @@
   "id": "research-program",
   "url": "https://fhir.cqdg.ca/StructureDefinition/research-program",
   "name": "ResearchProgram",
-  "title": "Research Program",
+  "title": "Ferlab.bio Extension/research-program",
   "status": "active",
   "description": "Research program metadata for Group resource",
   "fhirVersion": "4.0.1",
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Research Program",
+        "short": "Ferlab.bio Extension/research-program",
         "definition": "Research program metadata for Group resource"
       },
       {

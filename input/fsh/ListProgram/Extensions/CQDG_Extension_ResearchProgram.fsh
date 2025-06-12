@@ -1,6 +1,6 @@
 Extension: ResearchProgram
 Id: research-program
-Title: "Research Program"
+Title: "Ferlab.bio Extension/research-program"
 Description: "Research program metadata for Group resource"
 
 * extension contains

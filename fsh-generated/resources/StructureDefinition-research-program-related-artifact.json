@@ -3,7 +3,7 @@
   "id": "research-program-related-artifact",
   "url": "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact",
   "name": "ResearchProgramRelatedArtifact",
-  "title": "Research Program Related Artifact",
+  "title": "Ferlab.bio Extension/research-program-related-artifact",
   "status": "active",
   "description": "Represents a related artifact for a research program.",
   "fhirVersion": "4.0.1",
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Research Program Related Artifact",
+        "short": "Ferlab.bio Extension/research-program-related-artifact",
         "definition": "Represents a related artifact for a research program."
       },
       {

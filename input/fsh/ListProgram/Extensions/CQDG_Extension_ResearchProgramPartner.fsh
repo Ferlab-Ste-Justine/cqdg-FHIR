@@ -1,6 +1,6 @@
 Extension: ResearchProgramPartner
 Id: research-program-partner
-Title: "Research Program Partner"
+Title: "Ferlab.bio Extension/research-program-partner"
 Description: "Partner details for a research program."
 
 * extension contains

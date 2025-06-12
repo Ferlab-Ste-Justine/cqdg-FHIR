@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List xmlns="http://hl7.org/fhir">
+  <id value="ExampleCQDGProgramGroup"/>
+  <meta>
+    <profile value="https://fhir.cqdg.ca/StructureDefinition/cqdg-program"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: List ExampleCQDGProgramGroup</b></p><a name="ExampleCQDGProgramGroup"> </a><a name="hcExampleCQDGProgramGroup"> </a><a name="ExampleCQDGProgramGroup-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cqdg-program.html">Ferlab.bio StructureDefinition/cqdg-program</a></p></div><h2>Example Research Program</h2><table class="clstu"><tr><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td/></tr></table><table class="grid"><tr style="backgound-color: #eeeeee"><td><b>Items</b></td></tr></table></div>
+  </text>
+  <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program">
+    <extension url="descriptionEN">
+      <valueString value="Example program in English"/>
+    </extension>
+    <extension url="descriptionFR">
+      <valueString value="Exemple de programme en français"/>
+    </extension>
+    <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact">
+      <extension url="website">
+        <valueUrl value="https://example.org"/>
+      </extension>
+      <extension url="citationStatement">
+        <valueString value="citation statement for the program"/>
+      </extension>
+      <extension url="logo">
+        <valueUrl value="https://example.org/logo.jpg"/>
+      </extension>
+    </extension>
+    <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-contact">
+      <extension url="name">
+        <valueString value="Dr. Jane Doe"/>
+      </extension>
+      <extension url="contactInstitution">
+        <valueString value="Genomics Institute"/>
+      </extension>
+      <extension url="telecom">
+        <valueContactPoint>
+          <system value="email"/>
+          <value value="jane.doe@example.org"/>
+          <use value="work"/>
+        </valueContactPoint>
+      </extension>
+      <extension url="telecom">
+        <valueContactPoint>
+          <system value="phone"/>
+          <value value="+1-555-123-4567"/>
+          <use value="mobile"/>
+        </valueContactPoint>
+      </extension>
+      <extension url="ProgramRoleEN">
+        <valueString value="Program Role in English"/>
+      </extension>
+      <extension url="ProgramRoleFR">
+        <valueString value="Program Role en Français"/>
+      </extension>
+      <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact">
+        <extension url="contactPicture">
+          <valueUrl value="https://example.org/contact-picture.jpg"/>
+        </extension>
+        <extension url="website">
+          <valueUrl value="https://example.org/contact-website"/>
+        </extension>
+      </extension>
+      <extension url="rank">
+        <valueInteger value="1"/>
+      </extension>
+    </extension>
+    <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-contact">
+      <extension url="name">
+        <valueString value="Dr. Jane Doe2"/>
+      </extension>
+      <extension url="contactInstitution">
+        <valueString value="Genomics Institute2"/>
+      </extension>
+      <extension url="telecom">
+        <valueContactPoint>
+          <system value="email"/>
+          <value value="jane.doe@example2.org"/>
+          <use value="work"/>
+        </valueContactPoint>
+      </extension>
+      <extension url="telecom">
+        <valueContactPoint>
+          <system value="phone"/>
+          <value value="+1-555-123-4568"/>
+          <use value="mobile"/>
+        </valueContactPoint>
+      </extension>
+      <extension url="ProgramRoleEN">
+        <valueString value="Program Role in English2"/>
+      </extension>
+      <extension url="ProgramRoleFR">
+        <valueString value="Program Role en Français2"/>
+      </extension>
+      <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact">
+        <extension url="contactPicture">
+          <valueUrl value="https://example.org/contact-picture2.jpg"/>
+        </extension>
+        <extension url="website">
+          <valueUrl value="https://example.org/contact-website2"/>
+        </extension>
+      </extension>
+      <extension url="rank">
+        <valueInteger value="2"/>
+      </extension>
+    </extension>
+    <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-partner">
+      <extension url="name">
+        <valueString value="Name of Partner"/>
+      </extension>
+      <extension url="rank">
+        <valueInteger value="1"/>
+      </extension>
+      <extension url="logo">
+        <valueUrl value="/partners_logos/FRQS.svg"/>
+      </extension>
+    </extension>
+    <extension url="https://fhir.cqdg.ca/StructureDefinition/research-program-partner">
+      <extension url="name">
+        <valueString value="Name of Partner2"/>
+      </extension>
+      <extension url="rank">
+        <valueInteger value="2"/>
+      </extension>
+      <extension url="logo">
+        <valueUrl value="/partners_logos/FRQS2.svg"/>
+      </extension>
+    </extension>
+  </extension>
+  <status value="current"/>
+  <mode value="working"/>
+  <title value="Example Research Program"/>
+</List>

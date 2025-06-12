@@ -95,8 +95,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
+      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method",
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -268,8 +268,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
       "uses" : {
       },
-      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category",
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",

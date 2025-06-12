@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-05-29T13:27:52+00:00"/>
+  <date value="2025-06-12T13:19:08+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -446,6 +446,17 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="List"/>
+      </extension>
+      <reference>
+        <reference value="List/ExampleCQDGProgramGroup"/>
+      </reference>
+      <name value="Example CQDG Program Group"/>
+      <description value="A Group resource example using the CQDG_Program profile"/>
+      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-program"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
@@ -1111,6 +1122,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cqdg-program"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/cqdg-program"/>
+      <description value="A CQDG program"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cqdg-specimen"/>
       </reference>
       <name value="Ferlab.bio StructureDefinition/cqdg-specimen"/>
@@ -1467,6 +1489,50 @@
       </reference>
       <name value="Ferlab.bio ValueSet/tumor-normal-designation"/>
       <description value="Tumor Normal Designation ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/research-program"/>
+      </reference>
+      <name value="Research Program"/>
+      <description value="Research program metadata for Group resource"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/research-program-contact"/>
+      </reference>
+      <name value="Research Program Contact"/>
+      <description value="Contact details for a research program."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/research-program-partner"/>
+      </reference>
+      <name value="Research Program Partner"/>
+      <description value="Partner details for a research program."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/research-program-related-artifact"/>
+      </reference>
+      <name value="Research Program Related Artifact"/>
+      <description value="Represents a related artifact for a research program."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

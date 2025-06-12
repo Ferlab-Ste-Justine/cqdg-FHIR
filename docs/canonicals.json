@@ -336,6 +336,13 @@
     "name" : "CQDGPatient"
   },
   {
+    "id" : "cqdg-program",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-program",
+    "version" : "0.1.0",
+    "name" : "CQDG_Program"
+  },
+  {
     "id" : "cqdg-research-study",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study",
@@ -369,6 +376,34 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/population-info",
     "version" : "0.1.0",
     "name" : "PopulationInfo"
+  },
+  {
+    "id" : "research-program",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program",
+    "version" : "0.1.0",
+    "name" : "ResearchProgram"
+  },
+  {
+    "id" : "research-program-contact",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-contact",
+    "version" : "0.1.0",
+    "name" : "ResearchProgramContact"
+  },
+  {
+    "id" : "research-program-partner",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-partner",
+    "version" : "0.1.0",
+    "name" : "ResearchProgramPartner"
+  },
+  {
+    "id" : "research-program-related-artifact",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact",
+    "version" : "0.1.0",
+    "name" : "ResearchProgramRelatedArtifact"
   },
   {
     "id" : "sampleExtension",

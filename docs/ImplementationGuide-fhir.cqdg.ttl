@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-29T13:27:52+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-12T13:19:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -827,6 +827,25 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
      fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "List"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/List/ExampleCQDGProgramGroup> ;
+         fhir:reference [ fhir:v "List/ExampleCQDGProgramGroup" ]
+       ] ;
+       fhir:name [ fhir:v "Example CQDG Program Group" ] ;
+       fhir:description [ fhir:v "A Group resource example using the CQDG_Program profile" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"^^xsd:anyURI ;
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-program>
+       ]
+     ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
@@ -1926,6 +1945,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-program> ;
+         fhir:reference [ fhir:v "StructureDefinition/cqdg-program" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio StructureDefinition/cqdg-program" ] ;
+       fhir:description [ fhir:v "A CQDG program" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen> ;
          fhir:reference [ fhir:v "StructureDefinition/cqdg-specimen" ]
        ] ;
@@ -2507,6 +2544,78 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/tumor-normal-designation" ] ;
        fhir:description [ fhir:v "Tumor Normal Designation ValueSet" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/research-program> ;
+         fhir:reference [ fhir:v "StructureDefinition/research-program" ]
+       ] ;
+       fhir:name [ fhir:v "Research Program" ] ;
+       fhir:description [ fhir:v "Research program metadata for Group resource" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/research-program-contact> ;
+         fhir:reference [ fhir:v "StructureDefinition/research-program-contact" ]
+       ] ;
+       fhir:name [ fhir:v "Research Program Contact" ] ;
+       fhir:description [ fhir:v "Contact details for a research program." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/research-program-partner> ;
+         fhir:reference [ fhir:v "StructureDefinition/research-program-partner" ]
+       ] ;
+       fhir:name [ fhir:v "Research Program Partner" ] ;
+       fhir:description [ fhir:v "Partner details for a research program." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact> ;
+         fhir:reference [ fhir:v "StructureDefinition/research-program-related-artifact" ]
+       ] ;
+       fhir:name [ fhir:v "Research Program Related Artifact" ] ;
+       fhir:description [ fhir:v "Represents a related artifact for a research program." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

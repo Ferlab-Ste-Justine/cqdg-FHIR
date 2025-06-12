@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2025-05-29T13:27:52+00:00",
+  "date" : "2025-06-12T13:19:08+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -603,6 +603,18 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "List"
+      }],
+      "reference" : {
+        "reference" : "List/ExampleCQDGProgramGroup"
+      },
+      "name" : "Example CQDG Program Group",
+      "description" : "A Group resource example using the CQDG_Program profile",
+      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
@@ -1328,6 +1340,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cqdg-program"
+      },
+      "name" : "Ferlab.bio StructureDefinition/cqdg-program",
+      "description" : "A CQDG program",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cqdg-specimen"
       },
       "name" : "Ferlab.bio StructureDefinition/cqdg-specimen",
@@ -1716,6 +1740,54 @@
       },
       "name" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "description" : "Tumor Normal Designation ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/research-program"
+      },
+      "name" : "Research Program",
+      "description" : "Research program metadata for Group resource",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/research-program-contact"
+      },
+      "name" : "Research Program Contact",
+      "description" : "Contact details for a research program.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/research-program-partner"
+      },
+      "name" : "Research Program Partner",
+      "description" : "Partner details for a research program.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/research-program-related-artifact"
+      },
+      "name" : "Research Program Related Artifact",
+      "description" : "Represents a related artifact for a research program.",
       "exampleBoolean" : false
     },
     {

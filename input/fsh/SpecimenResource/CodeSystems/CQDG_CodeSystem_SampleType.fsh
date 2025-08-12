@@ -45,17 +45,17 @@ Description: "Tissue sample types"
 * #"NCIT:C156445" ^designation.language = #fr
 * #"NCIT:C156445" ^designation.value = "Derived Cell Line"
 
-* #"NCIT:156440" "Metastatic Tumor Sample"
-* #"NCIT:156440" ^designation.language = #fr
-* #"NCIT:156440" ^designation.value = "Metastatic Tumor Sample"
+* #"NCIT:C156440" "Metastatic Tumor Sample"
+* #"NCIT:C156440" ^designation.language = #fr
+* #"NCIT:C156440" ^designation.value = "Metastatic Tumor Sample"
 
-* #"NCIT:156441" "Sample Derived from New Primary"
-* #"NCIT:156441" ^designation.language = #fr
-* #"NCIT:156441" ^designation.value = "Sample Derived from New Primary"
+* #"NCIT:C156441" "Sample Derived from New Primary"
+* #"NCIT:C156441" ^designation.language = #fr
+* #"NCIT:C156441" ^designation.value = "Sample Derived from New Primary"
 
-* #"NCIT:164032" "Tumor-Adjacent Normal Specimen"
-* #"NCIT:164032" ^designation.language = #fr
-* #"NCIT:164032" ^designation.value = "Tumor-Adjacent Normal Specimen"
+* #"NCIT:C164032" "Tumor-Adjacent Normal Specimen"
+* #"NCIT:C164032" ^designation.language = #fr
+* #"NCIT:C164032" ^designation.value = "Tumor-Adjacent Normal Specimen"
 
 * #"NCIT:C18009" "Tumor Tissue"
 * #"NCIT:C18009" ^designation.language = #fr

@@ -55,4 +55,8 @@ Title: "Ferlab.bio CodeSystem/v3-roles"
 * #"Daughter"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/v3-role-code#Daughter
 * #"Daughter"  ^designation.value = "Daughter"
 
+* #"Other"  "Other"
+* #"Other"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/v3-role-code#Other
+* #"Other"  ^designation.value = "Other"
+
 

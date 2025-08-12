@@ -162,10 +162,23 @@
           "value": "Daughter"
         }
       ]
+    },
+    {
+      "code": "Other",
+      "display": "Other",
+      "designation": [
+        {
+          "use": {
+            "code": "Other",
+            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+          },
+          "value": "Other"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "V3 role code",
   "caseSensitive": true,
-  "count": 12
+  "count": 13
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="03c43a2d-b487-4542-8ebe-16b131bdf4bd"/>
+  <id value="d7f72bae-680b-43fc-a79a-22744f54bc00"/>
   <meta>
-    <lastUpdated value="2025-06-12T13:43:40.290+00:00"/>
+    <lastUpdated value="2025-08-13T14:51:11.867+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -27,7 +27,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -222,16 +222,12 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:052abf90-4a12-4825-bec9-fed109cff77e"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:f59a5885-980a-43a0-ba87-1f396bf97256"/>
+          <timestamp value="2025-08-13T14:51:55+00:00"/>
           <total value="23"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -388,7 +384,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -583,16 +579,12 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5bc5867e-38d2-4b73-8a28-aa566fc23b94"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:7436c733-0319-4202-b662-0c59ea625bbd"/>
+          <timestamp value="2025-08-13T14:51:55+00:00"/>
           <total value="23"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -749,7 +741,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -784,16 +776,12 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4db5f66e-f823-4e27-98d9-7f732f492dd5"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:d9ea47cb-b560-4186-bf6a-c4092ad2fe05"/>
+          <timestamp value="2025-08-13T14:51:55+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -850,7 +838,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -901,16 +889,12 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:acf1f2f4-66dc-49f6-ac23-68160ed52eb8"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:18aa59ba-771a-4a2b-937f-c07bbb5fadf2"/>
+          <timestamp value="2025-08-13T14:51:55+00:00"/>
           <total value="5"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -977,7 +961,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1052,16 +1036,12 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:89f954be-2382-48a7-aa2f-ff1d0d956d58"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:95f40e38-1efa-4bf4-bca0-ffed2b079d8b"/>
+          <timestamp value="2025-08-13T14:51:55+00:00"/>
           <total value="8"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1143,7 +1123,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1194,16 +1174,12 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7465c91a-eb0d-48bf-900d-561bc060fa4d"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:75e17dde-471d-43d4-9753-d47dc98a0a51"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="5"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1270,7 +1246,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1337,16 +1313,12 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:dff41f54-e367-420f-94fb-a4b9ec1496dd"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:f3913394-f269-402a-ac35-dbd36968aa71"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1423,7 +1395,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1458,16 +1430,12 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1f9dbdf0-5ea8-4d81-9a35-f232a0529777"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:1cd2459c-c5fb-4b1a-ab4c-13fd14dbfdcf"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1524,7 +1492,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1615,16 +1583,12 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:551cd1b4-6d6f-47e5-a1ce-2754452b0542"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:50c40876-ff78-4eda-af9e-b647d7e5908a"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="10"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1716,7 +1680,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1751,16 +1715,12 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7aaa7c5b-c13f-4f8d-8469-2f7b9da99c23"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:f6a98a87-477c-4e0f-ac36-1ae8fad9a13e"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -1817,7 +1777,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -1948,16 +1908,12 @@
         <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ac8fb289-0914-4c46-b603-f3f97c8301e0"/>
-          <timestamp value="2025-06-12T13:44:33+00:00"/>
+          <identifier value="urn:uuid:da2938c5-6820-4b98-b7cc-53931b869ee1"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="15"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2064,7 +2020,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-family-type.html">codesystem Ferlab.bio CodeSystem/family-type v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 8 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2074,8 +2030,24 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/family-type-Case-only"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Case-only">Case-only</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Case only</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/family-type-Case-parent-duo"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Case-parent-duo">Case-parent-duo</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Case-parent duo</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2117,6 +2089,14 @@
                 <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
                 <td>Other</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/family-type-Nuclear-family"> </a>  
+                  <a href="CodeSystem-family-type.html#family-type-Nuclear-family">Nuclear-family</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/family-type</td>
+                <td>Nuclear family</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -2125,16 +2105,12 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3b1bda9d-9f4a-4b26-ab2f-dbb6ebd1ec7b"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
-          <total value="5"/>
+          <identifier value="urn:uuid:3c83c4d5-9267-4f89-ac51-cc67c0e22e44"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <total value="8"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2151,6 +2127,16 @@
             <name value="used-codesystem"/>
             <valueUri value="https://fhir.cqdg.ca/CodeSystem/family-type|0.1.0"/>
           </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Case-only"/>
+            <display value="Case only"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Case-parent-duo"/>
+            <display value="Case-parent duo"/>
+          </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
             <code value="Case-parent-trio"/>
@@ -2175,6 +2161,11 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
             <code value="Other"/>
             <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/family-type"/>
+            <code value="Nuclear-family"/>
+            <display value="Nuclear family"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2201,7 +2192,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -2300,16 +2291,12 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9757bf29-ceac-4584-b3cd-7051e88b364f"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:b4bb8adc-72d6-48f2-860a-ba031cb743e4"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="11"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2406,7 +2393,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -2425,16 +2412,12 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7bbbda5d-c49c-4ce7-ac55-ec1bba214a1d"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:3921eedd-64cc-4387-9b9f-393c27f25e47"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="1"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2481,7 +2464,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -2576,16 +2559,12 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d97fda99-5a12-4d01-94b7-08a17e7a56cd"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:b16ad8c6-d9f7-488a-b1ff-ea46da1f4522"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="9"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2672,7 +2651,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -2715,16 +2694,12 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:18e4728d-f374-45e7-8c30-fd8ab8d6fadb"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:b51c3489-a107-40f9-9911-2d363f148e64"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="4"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2786,7 +2761,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -2899,16 +2874,12 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fcbaabf2-e5ac-4ba5-a9db-d600de04bd30"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:8add956b-d960-4795-b997-ef5448e781f0"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="11"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -2995,7 +2966,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-v3-role-code.html">codesystem Ferlab.bio CodeSystem/v3-roles v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 12 concepts</p>
+            <p>This value set contains 13 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3005,7 +2976,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -3104,6 +3075,14 @@
                 <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
                 <td>Daughter</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/v3-role-code-Other"> </a>  
+                  <a href="CodeSystem-v3-role-code.html#v3-role-code-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/v3-role-code</td>
+                <td>Other</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -3112,16 +3091,12 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d02064e7-f5cb-4640-bd3c-d94193332e8a"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
-          <total value="12"/>
+          <identifier value="urn:uuid:0651b2fd-e922-4a97-9cde-df086498dc2e"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <total value="13"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3198,6 +3173,11 @@
             <code value="Daughter"/>
             <display value="Daughter"/>
           </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/v3-role-code"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -3223,7 +3203,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -3363,16 +3343,12 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:634d7743-5fd0-4574-a1f7-dbea00a8f839"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:056daf62-464f-4eb7-a574-99cb9f104630"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="14"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3484,7 +3460,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -3561,24 +3537,24 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:156440"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58156440">NCIT:156440</a>
+                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156440"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156440">NCIT:C156440</a>
                 </td>
                 <td>http://purl.obolibrary.org/obo/ncit.owl</td>
                 <td>Metastatic Tumor Sample</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:156441"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58156441">NCIT:156441</a>
+                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156441"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156441">NCIT:C156441</a>
                 </td>
                 <td>http://purl.obolibrary.org/obo/ncit.owl</td>
                 <td>Sample Derived from New Primary</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:164032"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58164032">NCIT:164032</a>
+                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C164032"> </a>  
+                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164032">NCIT:C164032</a>
                 </td>
                 <td>http://purl.obolibrary.org/obo/ncit.owl</td>
                 <td>Tumor-Adjacent Normal Specimen</td>
@@ -3615,16 +3591,12 @@
         <name value="SampleTypeTissueSourceVS"/>
         <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ed59b283-beec-4c9b-8150-e6ce64df6027"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:fb7d9b98-ff81-44f3-b8aa-bc83bf79b80f"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="15"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3688,17 +3660,17 @@
           </contains>
           <contains>
             <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:156440"/>
+            <code value="NCIT:C156440"/>
             <display value="Metastatic Tumor Sample"/>
           </contains>
           <contains>
             <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:156441"/>
+            <code value="NCIT:C156441"/>
             <display value="Sample Derived from New Primary"/>
           </contains>
           <contains>
             <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:164032"/>
+            <code value="NCIT:C164032"/>
             <display value="Tumor-Adjacent Normal Specimen"/>
           </contains>
           <contains>
@@ -3741,7 +3713,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -3808,16 +3780,12 @@
         <name value="SequencingExperimentSelectionVS"/>
         <title value="Sequencing Experiment Selection"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:217f30c0-948a-4ab5-8ba8-11cce1d24a00"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:f427b53f-f0e0-407e-a51e-4157567ff517"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -3894,7 +3862,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -3937,16 +3905,12 @@
         <name value="SequencingExperimentSourceVS"/>
         <title value="Sequencing Experiment Source"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:01f17c13-b3ca-402a-b754-b1824d32c858"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:076b5f68-4be3-46af-90da-91b066b38599"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="4"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -4008,7 +3972,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -4083,16 +4047,12 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2c7499c0-a39d-4c15-befa-15d89dab0d12"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:23eb4509-036c-43b8-be25-982874517e02"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="8"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -4174,7 +4134,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -4215,16 +4175,12 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8beeea37-8c1a-4dae-a8a9-1742f39bc711"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:e0857c79-5ae3-431a-87ad-bccdc61be703"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -4281,7 +4237,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -4316,16 +4272,12 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2025-06-12T13:42:51+00:00"/>
+        <date value="2025-08-13T14:50:19+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:852cc867-d3d2-4224-a124-eef5a2ceec57"/>
-          <timestamp value="2025-06-12T13:44:34+00:00"/>
+          <identifier value="urn:uuid:aacd85e8-251d-494f-8e52-8bb5088de4d6"/>
+          <timestamp value="2025-08-13T14:51:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>

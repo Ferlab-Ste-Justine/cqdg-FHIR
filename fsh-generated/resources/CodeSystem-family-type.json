@@ -8,6 +8,32 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/family-type",
   "concept": [
     {
+      "code": "Case-only",
+      "display": "Case only",
+      "designation": [
+        {
+          "use": {
+            "code": "Case-only",
+            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
+          },
+          "value": "Case only"
+        }
+      ]
+    },
+    {
+      "code": "Case-parent-duo",
+      "display": "Case-parent duo",
+      "designation": [
+        {
+          "use": {
+            "code": "Case-parent-duo",
+            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
+          },
+          "value": "Case-parent duo"
+        }
+      ]
+    },
+    {
       "code": "Case-parent-trio",
       "display": "Case-parent trio",
       "designation": [
@@ -71,10 +97,23 @@
           "value": "Other"
         }
       ]
+    },
+    {
+      "code": "Nuclear-family",
+      "display": "Nuclear family",
+      "designation": [
+        {
+          "use": {
+            "code": "Nuclear-family",
+            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
+          },
+          "value": "Nuclear family"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Family type",
   "caseSensitive": true,
-  "count": 5
+  "count": 8
 }

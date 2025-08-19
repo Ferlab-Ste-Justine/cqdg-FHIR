@@ -86,14 +86,6 @@
         "path": "Specimen.identifier.system",
         "min": 1,
         "patternUri": "https://fhir.cqdg.ca/fhir/Specimen"
-      },
-      {
-        "id": "Specimen.type.coding.system",
-        "path": "Specimen.type.coding.system",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"
-        }
       }
     ]
   }

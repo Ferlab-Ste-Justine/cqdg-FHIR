@@ -34,6 +34,14 @@
       }
     }
   ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://purl.obolibrary.org/obo/ncit.owl",
+        "code": "NCIT:C99999"
+      }
+    ]
+  },
   "subject": {
     "reference": "Patient/PatientExample"
   },

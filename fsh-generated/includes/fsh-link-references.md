@@ -16,7 +16,6 @@
 [Population]: CodeSystem-population.html
 [QCEthnicity]: CodeSystem-qc-ethnicity.html
 [ResearchDomain]: CodeSystem-research-domain.html
-[QCSampleType]: CodeSystem-qc-sample-type.html
 [SequencingExperimentSelection]: CodeSystem-sequencing-experiment-selection.html
 [SequencingExperimentSource]: CodeSystem-sequencing-experiment-source.html
 [StudyDesign]: CodeSystem-study-design.html
@@ -94,7 +93,6 @@
 [QCEthnicityVS]: ValueSet-qc-ethnicity-vs.html
 [RelationshipToProband]: ValueSet-relationship-to-proband-vs.html
 [ResearchDomain]: ValueSet-research-domain-vs.html
-[SampleTypeTissueSourceVS]: ValueSet-sample-type-tissue-source-vs.html
 [StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
 [Restricted]: StructureDefinition-Restricted.html

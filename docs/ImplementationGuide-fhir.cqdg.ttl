@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-13T14:50:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-20T13:12:16+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -1146,24 +1146,6 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/research-domain" ] ;
        fhir:description [ fhir:v "Research domain" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/CodeSystem/qc-sample-type> ;
-         fhir:reference [ fhir:v "CodeSystem/qc-sample-type" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio CodeSystem/sample-type" ] ;
-       fhir:description [ fhir:v "Qc sample type" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2562,24 +2544,6 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/research-domain" ] ;
        fhir:description [ fhir:v "Study Domain ValueSet" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs> ;
-         fhir:reference [ fhir:v "ValueSet/sample-type-tissue-source-vs" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio ValueSet/sample-type-tissue-source" ] ;
-       fhir:description [ fhir:v "Sample Type Tissue Source ValueSet" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

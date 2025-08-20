@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d7f72bae-680b-43fc-a79a-22744f54bc00"/>
+  <id value="91975f92-fb6f-4ba4-82a1-be8604f45905"/>
   <meta>
-    <lastUpdated value="2025-08-13T14:51:11.867+00:00"/>
+    <lastUpdated value="2025-08-20T13:12:59.897+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -222,10 +222,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f59a5885-980a-43a0-ba87-1f396bf97256"/>
-          <timestamp value="2025-08-13T14:51:55+00:00"/>
+          <identifier value="urn:uuid:a8280d15-7a92-4f00-a44c-9f26e29e6815"/>
+          <timestamp value="2025-08-20T13:13:32+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -579,10 +579,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7436c733-0319-4202-b662-0c59ea625bbd"/>
-          <timestamp value="2025-08-13T14:51:55+00:00"/>
+          <identifier value="urn:uuid:e08a457c-b639-463e-b2d3-fe09f24b0145"/>
+          <timestamp value="2025-08-20T13:13:32+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -776,10 +776,10 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d9ea47cb-b560-4186-bf6a-c4092ad2fe05"/>
-          <timestamp value="2025-08-13T14:51:55+00:00"/>
+          <identifier value="urn:uuid:7d9780b2-f4bd-4a78-86ef-9640b82aa322"/>
+          <timestamp value="2025-08-20T13:13:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -889,10 +889,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:18aa59ba-771a-4a2b-937f-c07bbb5fadf2"/>
-          <timestamp value="2025-08-13T14:51:55+00:00"/>
+          <identifier value="urn:uuid:a3291fa0-31ce-4b17-b46f-28053aa8017d"/>
+          <timestamp value="2025-08-20T13:13:32+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1036,10 +1036,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:95f40e38-1efa-4bf4-bca0-ffed2b079d8b"/>
-          <timestamp value="2025-08-13T14:51:55+00:00"/>
+          <identifier value="urn:uuid:f79d2df2-dc2f-40b6-9745-f11332253dc3"/>
+          <timestamp value="2025-08-20T13:13:32+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -1174,10 +1174,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:75e17dde-471d-43d4-9753-d47dc98a0a51"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:37e1456a-bfb7-4ba3-93af-024c57f92bcc"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1313,10 +1313,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f3913394-f269-402a-ac35-dbd36968aa71"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:f83d3977-545b-4605-9f10-376588d3d96f"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -1430,10 +1430,10 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1cd2459c-c5fb-4b1a-ab4c-13fd14dbfdcf"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:74aa064f-a081-4afe-ad9c-fb6d1826c407"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1583,10 +1583,10 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:50c40876-ff78-4eda-af9e-b647d7e5908a"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:76b3fc55-4e56-4275-a890-762303456493"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1715,10 +1715,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f6a98a87-477c-4e0f-ac36-1ae8fad9a13e"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:d3693fa1-2f7c-4010-b994-22586e4b63a5"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1908,10 +1908,10 @@
         <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:da2938c5-6820-4b98-b7cc-53931b869ee1"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:1eb33739-56d9-47f8-8f6f-4dad93ba0648"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -2105,10 +2105,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3c83c4d5-9267-4f89-ac51-cc67c0e22e44"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:dd4873e6-8a86-4d7e-92ce-a6999963f52d"/>
+          <timestamp value="2025-08-20T13:13:33+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -2291,10 +2291,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b4bb8adc-72d6-48f2-860a-ba031cb743e4"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:365ee2a0-ec42-47cd-9650-3945b43dccc7"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -2412,10 +2412,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3921eedd-64cc-4387-9b9f-393c27f25e47"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:5f332ce6-a080-4e76-a2ff-a2c9bcdb17c9"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2559,10 +2559,10 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b16ad8c6-d9f7-488a-b1ff-ea46da1f4522"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:614220fe-0de3-4559-b6e7-bdd1e2ee2dd0"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2694,10 +2694,10 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b51c3489-a107-40f9-9911-2d363f148e64"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:fd98027f-f833-402f-9596-005a6948c899"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2874,10 +2874,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8add956b-d960-4795-b997-ef5448e781f0"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:e254d440-3732-449d-950d-eefba83bae46"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -3091,10 +3091,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0651b2fd-e922-4a97-9cde-df086498dc2e"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:e9a06d9d-5bff-490c-a68a-ccbe093f4490"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -3343,10 +3343,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:056daf62-464f-4eb7-a574-99cb9f104630"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:0b967c5d-08cb-4a3c-abcb-a4a0b26ce94d"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="14"/>
           <offset value="0"/>
           <parameter>
@@ -3440,259 +3440,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-qc-sample-type.html">codesystem Ferlab.bio CodeSystem/sample-type v0.1.0 (CodeSystem)</a>
-            </p>
-            <p>This value set contains 15 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C449"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C449">NCIT:C449</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>DNA</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C812"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C812">NCIT:C812</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Ribonucleic Acid</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C12434"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12434">NCIT:C12434</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Blood</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C13275"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13275">NCIT:C13275</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Saliva</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C164014"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164014">NCIT:C164014</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Solid Tissue Specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C12431"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C12431">NCIT:C12431</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Bone Marrow</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C13300"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C13300">NCIT:C13300</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Umbilical Cord Blood</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C34320"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C34320">NCIT:C34320</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Umbilical Cord</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156445"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156445">NCIT:C156445</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Derived Cell Line</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156440"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156440">NCIT:C156440</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Metastatic Tumor Sample</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156441"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156441">NCIT:C156441</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Sample Derived from New Primary</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C164032"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C164032">NCIT:C164032</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Tumor-Adjacent Normal Specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C18009"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C18009">NCIT:C18009</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Tumor Tissue</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C162623"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C162623">NCIT:C162623</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Normal Tissue Segment</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://purl.obolibrary.org/obo/ncit.owl-NCIT:C156443"> </a>  
-                  <a href="CodeSystem-qc-sample-type.html#qc-sample-type-NCIT.58C156443">NCIT:C156443</a>
-                </td>
-                <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-                <td>Cell Line-Derived Xenograft</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs"/>
-        <version value="0.1.0"/>
-        <name value="SampleTypeTissueSourceVS"/>
-        <title value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
-        <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
-        <expansion>
-          <identifier value="urn:uuid:fb7d9b98-ff81-44f3-b8aa-bc83bf79b80f"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
-          <total value="15"/>
-          <offset value="0"/>
-          <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
-          </parameter>
-          <parameter>
-            <name value="offset"/>
-            <valueInteger value="0"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://purl.obolibrary.org/obo/ncit.owl|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C449"/>
-            <display value="DNA"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C812"/>
-            <display value="Ribonucleic Acid"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C12434"/>
-            <display value="Blood"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C13275"/>
-            <display value="Saliva"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C164014"/>
-            <display value="Solid Tissue Specimen"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C12431"/>
-            <display value="Bone Marrow"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C13300"/>
-            <display value="Umbilical Cord Blood"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C34320"/>
-            <display value="Umbilical Cord"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C156445"/>
-            <display value="Derived Cell Line"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C156440"/>
-            <display value="Metastatic Tumor Sample"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C156441"/>
-            <display value="Sample Derived from New Primary"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C164032"/>
-            <display value="Tumor-Adjacent Normal Specimen"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C18009"/>
-            <display value="Tumor Tissue"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C162623"/>
-            <display value="Normal Tissue Segment"/>
-          </contains>
-          <contains>
-            <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
-            <code value="NCIT:C156443"/>
-            <display value="Cell Line-Derived Xenograft"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs"/>
     <resource>
       <ValueSet>
@@ -3780,10 +3527,10 @@
         <name value="SequencingExperimentSelectionVS"/>
         <title value="Sequencing Experiment Selection"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f427b53f-f0e0-407e-a51e-4157567ff517"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:ff09c16d-d0f2-4542-b642-1983166817b2"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -3905,10 +3652,10 @@
         <name value="SequencingExperimentSourceVS"/>
         <title value="Sequencing Experiment Source"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:076b5f68-4be3-46af-90da-91b066b38599"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:b94b3276-997a-47ce-bd00-e08d1b26e5c2"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -4047,10 +3794,10 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:23eb4509-036c-43b8-be25-982874517e02"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:141ec552-5e94-4d48-9c73-4c024148706b"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -4175,10 +3922,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e0857c79-5ae3-431a-87ad-bccdc61be703"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:aedf2552-d6fd-44b6-8b33-391aeecdd969"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4272,10 +4019,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2025-08-13T14:50:19+00:00"/>
+        <date value="2025-08-20T13:12:16+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:aacd85e8-251d-494f-8e52-8bb5088de4d6"/>
-          <timestamp value="2025-08-13T14:51:57+00:00"/>
+          <identifier value="urn:uuid:4109a820-7566-46ff-9782-1e41b8109707"/>
+          <timestamp value="2025-08-20T13:13:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

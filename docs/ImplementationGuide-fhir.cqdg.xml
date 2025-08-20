@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-08-13T14:50:19+00:00"/>
+  <date value="2025-08-20T13:12:16+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -642,17 +642,6 @@
       </reference>
       <name value="Ferlab.bio CodeSystem/research-domain"/>
       <description value="Research domain"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/qc-sample-type"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/sample-type"/>
-      <description value="Qc sample type"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1500,17 +1489,6 @@
       </reference>
       <name value="Ferlab.bio ValueSet/research-domain"/>
       <description value="Study Domain ValueSet"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/sample-type-tissue-source-vs"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/sample-type-tissue-source"/>
-      <description value="Sample Type Tissue Source ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

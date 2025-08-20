@@ -14,13 +14,6 @@
     "name" : "AgeAtOnset"
   },
   {
-    "id" : "qc-sample-type",
-    "type" : "CodeSystem",
-    "url" : "http://purl.obolibrary.org/obo/ncit.owl",
-    "version" : "0.1.0",
-    "name" : "QCSampleType"
-  },
-  {
     "id" : "bioinfo-analysis-code",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
@@ -565,13 +558,6 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/research-domain-vs",
     "version" : "0.1.0",
     "name" : "ResearchDomain"
-  },
-  {
-    "id" : "sample-type-tissue-source-vs",
-    "type" : "ValueSet",
-    "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
-    "version" : "0.1.0",
-    "name" : "SampleTypeTissueSourceVS"
   },
   {
     "id" : "sequencing-experiment-selection-vs",

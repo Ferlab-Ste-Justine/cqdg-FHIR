@@ -95,8 +95,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
+      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method",
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -217,18 +217,6 @@
       "title" : "Ferlab.bio ValueSet/research-domain",
       "description" : "Study Domain ValueSet",
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/research-domain"]
-    },
-    {
-      "url" : "https://fhir.cqdg.ca/ValueSet/sample-type-tissue-source-vs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SampleTypeTissueSourceVS",
-      "title" : "Ferlab.bio ValueSet/sample-type-tissue-source",
-      "description" : "Sample Type Tissue Source ValueSet",
-      "systems" : ["http://purl.obolibrary.org/obo/ncit.owl"],
-      "uses" : {
-      },
-      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs",

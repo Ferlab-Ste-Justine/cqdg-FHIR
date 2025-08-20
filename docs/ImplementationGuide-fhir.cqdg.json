@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2025-08-13T14:50:19+00:00",
+  "date" : "2025-08-20T13:12:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -816,18 +816,6 @@
       },
       "name" : "Ferlab.bio CodeSystem/research-domain",
       "description" : "Research domain",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/qc-sample-type"
-      },
-      "name" : "Ferlab.bio CodeSystem/sample-type",
-      "description" : "Qc sample type",
       "exampleBoolean" : false
     },
     {
@@ -1752,18 +1740,6 @@
       },
       "name" : "Ferlab.bio ValueSet/research-domain",
       "description" : "Study Domain ValueSet",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/sample-type-tissue-source-vs"
-      },
-      "name" : "Ferlab.bio ValueSet/sample-type-tissue-source",
-      "description" : "Sample Type Tissue Source ValueSet",
       "exampleBoolean" : false
     },
     {

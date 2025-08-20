@@ -10,7 +10,4 @@ Title: "Ferlab.bio StructureDefinition/cqdg-specimen"
 * identifier contains CQDG_ID 1..1
 * identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
 
-* type
-  * coding.system from SampleTypeTissueSourceVS
-
 * extension contains AgeAtEvent named ageAt 0..1

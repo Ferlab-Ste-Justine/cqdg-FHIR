@@ -37,6 +37,8 @@ Description: "An example of a specimen"
 * identifier[1].use = #secondary
 * identifier[=].value = "cag_sp_05569"
 
+* type.coding[0].system = $NCIT
+* type.coding[0].code = #NCIT:C99999
 
 * subject = Reference(Patient/PatientExample)
 

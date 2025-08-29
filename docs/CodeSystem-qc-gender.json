@@ -1,0 +1,99 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "qc-gender",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-gender</b></p><a name=\"qc-gender\"> </a><a name=\"hcqc-gender\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">Man<a name=\"qc-gender-Man\"> </a></td><td>Homme</td></tr><tr><td style=\"white-space:nowrap\">Woman<a name=\"qc-gender-Woman\"> </a></td><td>Femme</td></tr><tr><td style=\"white-space:nowrap\">Another Gender<a name=\"qc-gender-AnotherGender\"> </a></td><td>Autre genre</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-gender-Prefernottoanswer\"> </a></td><td>Préfère ne pas répondre</td></tr><tr><td style=\"white-space:nowrap\">Not applicable<a name=\"qc-gender-Notapplicable\"> </a></td><td>Sans objet</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-gender-Missing-Unknown\"> </a></td><td>Manquant - Inconnu</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-gender-Missing-Notcollected\"> </a></td><td>Manquant - Non recueilli</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-gender-Missing-Notprovided\"> </a></td><td>Manquant - Non fourni</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-gender-Missing-Restrictedaccess\"> </a></td><td>Manquant - Accès restreint</td></tr></table></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/CodeSystem/gender",
+  "version" : "0.1.0",
+  "name" : "QCGender",
+  "title" : "Ferlab.bio CodeSystem/gender",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-29T12:39:24+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "Man",
+    "display" : "Man",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Homme"
+    }]
+  },
+  {
+    "code" : "Woman",
+    "display" : "Woman",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Femme"
+    }]
+  },
+  {
+    "code" : "Another Gender",
+    "display" : "Another Gender",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Autre genre"
+    }]
+  },
+  {
+    "code" : "Prefer not to answer",
+    "display" : "Prefer not to answer",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Préfère ne pas répondre"
+    }]
+  },
+  {
+    "code" : "Not applicable",
+    "display" : "Not applicable",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sans objet"
+    }]
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Manquant - Inconnu"
+    }]
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not collected",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Manquant - Non recueilli"
+    }]
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not provided",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Manquant - Non fourni"
+    }]
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted access",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Manquant - Accès restreint"
+    }]
+  }]
+}

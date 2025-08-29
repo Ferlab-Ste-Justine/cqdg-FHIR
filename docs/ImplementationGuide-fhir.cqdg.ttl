@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-20T13:12:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-29T12:39:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -1087,6 +1087,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/qc-gender> ;
+         fhir:reference [ fhir:v "CodeSystem/qc-gender" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/gender" ] ;
+       fhir:description [ fhir:v "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://fhir.cqdg.ca/CodeSystem/genome-build> ;
          fhir:reference [ fhir:v "CodeSystem/genome-build" ]
        ] ;
@@ -1734,6 +1752,24 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/full-size" ] ;
        fhir:description [ fhir:v "Full Size Extension" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/StructureDefinition/QCGender> ;
+         fhir:reference [ fhir:v "StructureDefinition/QCGender" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/gender" ] ;
+       fhir:description [ fhir:v "gender for cqdg project" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2436,6 +2472,24 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio ValueSet/file-format" ] ;
        fhir:description [ fhir:v "File Format ValueSet" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/ValueSet/qc-gender-vs> ;
+         fhir:reference [ fhir:v "ValueSet/qc-gender-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio ValueSet/gender" ] ;
+       fhir:description [ fhir:v "Gender ValueSet" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

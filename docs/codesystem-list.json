@@ -113,6 +113,14 @@
       "description" : "Family type"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/gender",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "QCGender",
+      "title" : "Ferlab.bio CodeSystem/gender",
+      "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses."
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
       "version" : "0.1.0",
       "status" : "active",

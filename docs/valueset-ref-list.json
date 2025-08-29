@@ -198,6 +198,18 @@
       "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/qc-gender-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenderVS",
+      "title" : "Ferlab.bio ValueSet/gender",
+      "description" : "Gender ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
       "version" : "0.1.0",
       "status" : "active",

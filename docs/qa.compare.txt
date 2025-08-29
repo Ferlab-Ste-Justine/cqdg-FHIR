@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 70, warn = 105, info = 17
+err = 71, warn = 106, info = 17
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
@@ -22,6 +22,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-genome-build : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-population : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-ethnicity : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender : 3 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-research-domain : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-selection : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-source : 0 / 0 / 1
@@ -40,7 +41,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 4 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 1 / 3 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample2 : 1 / 3 / 2
@@ -58,6 +59,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-QCEthnicity : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-QCGender : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Restricted : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StudyDesignExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-condition : 0 / 0 / 1
@@ -99,6 +101,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-gender-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-research-domain-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs : 0 / 1 / 1
@@ -154,6 +157,10 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-
 == fsh-generated/resources/CodeSystem-genome-build.json ==
 == fsh-generated/resources/CodeSystem-population.json ==
 == fsh-generated/resources/CodeSystem-qc-ethnicity.json ==
+== fsh-generated/resources/CodeSystem-qc-gender.json ==
+ERROR: CodeSystem.where(url = 'https://fhir.cqdg.ca/CodeSystem/gender'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/qc-gender) does not match the URL (https://fhir.cqdg.ca/CodeSystem/gender)
+ERROR: CodeSystem.url: Resource id/url mismatch: qc-gender/https://fhir.cqdg.ca/CodeSystem/gender
+ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender: URL Mismatch https://fhir.cqdg.ca/CodeSystem/qc-gender vs https://fhir.cqdg.ca/CodeSystem/gender
 == fsh-generated/resources/CodeSystem-research-domain.json ==
 == fsh-generated/resources/CodeSystem-sequencing-experiment-selection.json ==
 == fsh-generated/resources/CodeSystem-sequencing-experiment-source.json ==
@@ -252,12 +259,9 @@ WARNING: Observation/ObservationTumorNormalDesignationExample: Observation: Best
 == fsh-generated/resources/Organization-OrganizationExample.json ==
 WARNING: Organization/OrganizationExample: Organization.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 == fsh-generated/resources/Patient-PatientExample.json ==
-ERROR: Patient/PatientExample: Patient.meta.profile[1]: A definition could not be found for Canonical URL 'http://hl7.org/fhir/StructureDefinition/CQDGPatient'
 WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: Patient/PatientExample: Patient.meta: Patient.meta.profile: max allowed = 1, but found 2 (from https://fhir.cqdg.ca/StructureDefinition/cqdg-patient|0.1.0)
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment is not allowed to be used at this point (this element is [Patient]; allowed for this version = e:ClinicalImpression)
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath is not allowed to be used at this point (this element is [Patient]; allowed for this version = e:ClinicalImpression)
-WARNING: Patient/PatientExample: Patient.meta.profile[1]: Profile reference 'http://hl7.org/fhir/StructureDefinition/CQDGPatient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy'
@@ -320,6 +324,8 @@ WARNING: StructureDefinition/DataCollectionMethodExtension: StructureDefinition.
 WARNING: StructureDefinition/FullSizeExtension: StructureDefinition.context[0]: Review the extension type for FullSizeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-QCEthnicity.json ==
 WARNING: StructureDefinition/QCEthnicity: StructureDefinition.context[0]: Review the extension type for QCEthnicity: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-QCGender.json ==
+WARNING: StructureDefinition/QCGender: StructureDefinition.context[0]: Review the extension type for QCGender: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-Restricted.json ==
 WARNING: StructureDefinition/Restricted: StructureDefinition.context[0]: Review the extension type for Restricted: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-StudyDesignExtension.json ==
@@ -407,6 +413,8 @@ WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to
 WARNING: ValueSet/population-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-qc-ethnicity-vs.json ==
 WARNING: ValueSet/qc-ethnicity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-qc-gender-vs.json ==
+WARNING: ValueSet/qc-gender-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-relationship-to-proband-vs.json ==
 WARNING: ValueSet/relationship-to-proband-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-research-domain-vs.json ==

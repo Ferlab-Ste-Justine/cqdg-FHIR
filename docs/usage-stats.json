@@ -344,6 +344,13 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/QCGender",
+      "title": "Ferlab.bio Extension/gender",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent",
       "title": "Ferlab.bio Extension/expectedStudyContent",
       "types": [
@@ -1614,6 +1621,9 @@
       "DocumentReference.content.attachment"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/QCGender": [
       "Patient"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent": [

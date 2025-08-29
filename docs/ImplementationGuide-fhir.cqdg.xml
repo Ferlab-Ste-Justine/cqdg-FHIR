@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-08-20T13:12:16+00:00"/>
+  <date value="2025-08-29T12:39:24+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -605,6 +605,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/qc-gender"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/gender"/>
+      <description value="This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/genome-build"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/genome-build"/>
@@ -994,6 +1005,17 @@
       </reference>
       <name value="Ferlab.bio Extension/full-size"/>
       <description value="Full Size Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/QCGender"/>
+      </reference>
+      <name value="Ferlab.bio Extension/gender"/>
+      <description value="gender for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1423,6 +1445,17 @@
       </reference>
       <name value="Ferlab.bio ValueSet/file-format"/>
       <description value="File Format ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/qc-gender-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/gender"/>
+      <description value="Gender ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

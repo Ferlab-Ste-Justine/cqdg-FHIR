@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2025-08-20T13:12:16+00:00",
+  "date" : "2025-08-29T12:39:24+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -776,6 +776,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/qc-gender"
+      },
+      "name" : "Ferlab.bio CodeSystem/gender",
+      "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/genome-build"
       },
       "name" : "Ferlab.bio CodeSystem/genome-build",
@@ -1200,6 +1212,18 @@
       },
       "name" : "Ferlab.bio Extension/full-size",
       "description" : "Full Size Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/QCGender"
+      },
+      "name" : "Ferlab.bio Extension/gender",
+      "description" : "gender for cqdg project",
       "exampleBoolean" : false
     },
     {
@@ -1668,6 +1692,18 @@
       },
       "name" : "Ferlab.bio ValueSet/file-format",
       "description" : "File Format ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/qc-gender-vs"
+      },
+      "name" : "Ferlab.bio ValueSet/gender",
+      "description" : "Gender ValueSet",
       "exampleBoolean" : false
     },
     {

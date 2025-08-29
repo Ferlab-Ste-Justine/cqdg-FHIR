@@ -98,6 +98,13 @@
     "name" : "FamilyType"
   },
   {
+    "id" : "qc-gender",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/gender",
+    "version" : "0.1.0",
+    "name" : "QCGender"
+  },
+  {
     "id" : "genome-build",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
@@ -264,6 +271,13 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
     "version" : "0.1.0",
     "name" : "QCEthnicity"
+  },
+  {
+    "id" : "QCGender",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/QCGender",
+    "version" : "0.1.0",
+    "name" : "QCGender"
   },
   {
     "id" : "expectedStudyContent",
@@ -544,6 +558,13 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
     "version" : "0.1.0",
     "name" : "QCEthnicityVS"
+  },
+  {
+    "id" : "qc-gender-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/qc-gender-vs",
+    "version" : "0.1.0",
+    "name" : "GenderVS"
   },
   {
     "id" : "relationship-to-proband-vs",

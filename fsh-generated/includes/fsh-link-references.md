@@ -12,6 +12,7 @@
 [DUOCodes]: CodeSystem-duo-codes.html
 [ExperimentalStrategy]: CodeSystem-experimental-strategy.html
 [FamilyType]: CodeSystem-family-type.html
+[QCGender]: CodeSystem-qc-gender.html
 [GenomeBuild]: CodeSystem-genome-build.html
 [Population]: CodeSystem-population.html
 [QCEthnicity]: CodeSystem-qc-ethnicity.html
@@ -48,6 +49,7 @@
 [Dataset]: StructureDefinition-datasetExtension.html
 [ResearchStudyExpectedContent]: StructureDefinition-expectedStudyContent.html
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
+[QCGender]: StructureDefinition-QCGender.html
 [PopulationInfo]: StructureDefinition-population-info.html
 [QCEthnicity]: StructureDefinition-QCEthnicity.html
 [ResearchProgram]: StructureDefinition-research-program.html
@@ -87,6 +89,7 @@
 [ExperimentalStrategyVS]: ValueSet-experimental-strategy-vs.html
 [FamilyTypeVS]: ValueSet-family-type-vs.html
 [FileFormat]: ValueSet-file-format.html
+[GenderVS]: ValueSet-qc-gender-vs.html
 [GenomeBuildVS]: ValueSet-genome-build-vs.html
 [PhenotypeVS]: ValueSet-phenotype-vs.html
 [PopulationVS]: ValueSet-population-vs.html

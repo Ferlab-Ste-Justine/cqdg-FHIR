@@ -145,6 +145,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/qc-gender"
+        },
+        "name": "Ferlab.bio CodeSystem/gender",
+        "description": "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/genome-build"
         },
         "name": "Ferlab.bio CodeSystem/genome-build",
@@ -429,6 +437,14 @@
         },
         "name": "Ferlab.bio Extension/full-size",
         "description": "Full Size Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/QCGender"
+        },
+        "name": "Ferlab.bio Extension/gender",
+        "description": "gender for cqdg project",
         "exampleBoolean": false
       },
       {
@@ -741,6 +757,14 @@
         },
         "name": "Ferlab.bio ValueSet/file-format",
         "description": "File Format ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/qc-gender-vs"
+        },
+        "name": "Ferlab.bio ValueSet/gender",
+        "description": "Gender ValueSet",
         "exampleBoolean": false
       },
       {

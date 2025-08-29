@@ -1,0 +1,105 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "QCGender",
+  "id": "qc-gender",
+  "title": "Ferlab.bio CodeSystem/gender",
+  "description": "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
+  "url": "https://fhir.cqdg.ca/CodeSystem/gender",
+  "concept": [
+    {
+      "code": "Man",
+      "display": "Man",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Homme"
+        }
+      ]
+    },
+    {
+      "code": "Woman",
+      "display": "Woman",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Femme"
+        }
+      ]
+    },
+    {
+      "code": "Another Gender",
+      "display": "Another Gender",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Autre genre"
+        }
+      ]
+    },
+    {
+      "code": "Prefer not to answer",
+      "display": "Prefer not to answer",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Préfère ne pas répondre"
+        }
+      ]
+    },
+    {
+      "code": "Not applicable",
+      "display": "Not applicable",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "Missing - Unknown",
+      "display": "Missing - Unknown",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Manquant - Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not collected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Manquant - Non recueilli"
+        }
+      ]
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not provided",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Manquant - Non fourni"
+        }
+      ]
+    },
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted access",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Manquant - Accès restreint"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "count": 9
+}

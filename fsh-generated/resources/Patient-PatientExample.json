@@ -3,8 +3,7 @@
   "id": "PatientExample",
   "meta": {
     "profile": [
-      "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient",
-      "http://hl7.org/fhir/StructureDefinition/CQDGPatient"
+      "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
     ],
     "tag": [
       {
@@ -13,6 +12,18 @@
     ]
   },
   "extension": [
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/QCGender",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Prefer not to answer",
+            "system": "https://fhir.cqdg.ca/CodeSystem/gender",
+            "display": "Prefer not to answer"
+          }
+        ]
+      }
+    },
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "valueCodeableConcept": {
@@ -53,6 +64,5 @@
       "value": "343434343434"
     }
   ],
-  "gender": "male",
   "deceasedBoolean": true
 }

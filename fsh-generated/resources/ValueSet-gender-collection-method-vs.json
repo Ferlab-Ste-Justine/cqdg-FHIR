@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "GenderCollectionMethodVS",
+  "id": "gender-collection-method-vs",
+  "title": "Ferlab.bio ValueSet/gender-collection-method",
+  "url": "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs",
+  "description": "Gender Collection Method ValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/gender-collection-method"
+      }
+    ]
+  }
+}

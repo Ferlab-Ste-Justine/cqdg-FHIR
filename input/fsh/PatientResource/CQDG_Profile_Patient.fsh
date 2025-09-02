@@ -14,7 +14,9 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
     AgeOfDeath named ageOfDeath 0..1 and
     AgeAtRecruitment named ageAtRecruitment 0..1 and
     QCEthnicity named ethnicity 0..1 and
-    QCGender named gender 1..1
+    QCGender named gender 1..1 and
+    GenderCollectionMethod named genderCollectionMethod 1..1
 
 * extension[ethnicity].valueCodeableConcept from qc-ethnicity-vs
 * extension[gender].valueCodeableConcept from qc-gender-vs (required)
+* extension[genderCollectionMethod].valueCodeableConcept from gender-collection-method-vs (required)

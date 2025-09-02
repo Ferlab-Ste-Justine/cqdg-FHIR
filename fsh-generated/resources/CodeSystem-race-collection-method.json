@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "RaceCollectionMethod",
+  "id": "race-collection-method",
+  "title": "Ferlab.bio CodeSystem/race-collection-method",
+  "description": "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings.",
+  "url": "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
+  "concept": [
+    {
+      "code": "Socially assigned",
+      "display": "Socially assigned"
+    },
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted access"
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not provided"
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not collected"
+    },
+    {
+      "code": "Derived",
+      "display": "Derived"
+    },
+    {
+      "code": "Self-identified",
+      "display": "Self-identified"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "count": 6
+}

@@ -25,6 +25,18 @@
       }
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Missing - Restricted access",
+            "system": "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+            "display": "Missing - Restricted access"
+          }
+        ]
+      }
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "valueCodeableConcept": {
         "coding": [

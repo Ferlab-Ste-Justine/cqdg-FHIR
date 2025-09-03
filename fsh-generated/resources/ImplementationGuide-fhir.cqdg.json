@@ -489,18 +489,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/QCGender"
+          "reference": "StructureDefinition/GenderExtension"
         },
         "name": "Ferlab.bio Extension/gender",
         "description": "gender for cqdg project",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/GenderCollectionMethod"
-        },
-        "name": "Ferlab.bio Extension/gender-collection-method",
-        "description": "gender collection method",
         "exampleBoolean": false
       },
       {

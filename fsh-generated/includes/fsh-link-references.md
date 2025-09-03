@@ -55,8 +55,7 @@
 [Dataset]: StructureDefinition-datasetExtension.html
 [ResearchStudyExpectedContent]: StructureDefinition-expectedStudyContent.html
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
-[QCGender]: StructureDefinition-QCGender.html
-[GenderCollectionMethod]: StructureDefinition-GenderCollectionMethod.html
+[GenderExtension]: StructureDefinition-GenderExtension.html
 [PopulationInfo]: StructureDefinition-population-info.html
 [QCEthnicity]: StructureDefinition-QCEthnicity.html
 [Race]: StructureDefinition-Race.html

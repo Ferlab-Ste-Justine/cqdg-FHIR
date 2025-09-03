@@ -13,28 +13,15 @@
   },
   "extension": [
     {
-      "url": "https://fhir.cqdg.ca/StructureDefinition/QCGender",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "Prefer not to answer",
-            "system": "https://fhir.cqdg.ca/CodeSystem/gender",
-            "display": "Prefer not to answer"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "Missing - Restricted access",
-            "system": "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
-            "display": "Missing - Restricted access"
-          }
-        ]
-      }
+      "url": "https://fhir.cqdg.ca/StructureDefinition/GenderExtension",
+      "extension": [
+        {
+          "url": "gender"
+        },
+        {
+          "url": "genderCollectionMethod"
+        }
+      ]
     },
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",

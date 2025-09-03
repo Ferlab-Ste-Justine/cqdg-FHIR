@@ -18,9 +18,6 @@ Usage: #example
 
 * extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
 
-* extension[gender].valueCodeableConcept = QCGender#"Prefer not to answer" "Prefer not to answer"
-* extension[genderCollectionMethod].valueCodeableConcept = GenderCollectionMethod#"Missing - Restricted access" "Missing - Restricted access"
-
 * extension[sexAtBirth].valueCodeableConcept = SexAtBirth#"Male" "Male"
 * extension[sexAtBirthCollectionMethod].valueCodeableConcept = SexAtBirthCollectionMethod#"Self-identified" "Self-identified"
 

@@ -67,6 +67,7 @@
 [ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [SexAtBirth]: StructureDefinition-SexAtBirth.html
 [SexAtBirthCollectionMethod]: StructureDefinition-SexAtBirthCollectionMethod.html
+[VitalStatus]: StructureDefinition-VitalStatus.html
 [CQDGTask]: StructureDefinition-cqdg-task.html
 [CQDGObservationCauseOfDeath]: StructureDefinition-CQDGObservationCauseOfDeath.html
 [CQDG_Condition]: StructureDefinition-cqdg-condition.html
@@ -106,10 +107,15 @@
 [PhenotypeVS]: ValueSet-phenotype-vs.html
 [PopulationVS]: ValueSet-population-vs.html
 [QCEthnicityVS]: ValueSet-qc-ethnicity-vs.html
+[RaceVS]: ValueSet-race-vs.html
+[RaceCollectionMethodVS]: ValueSet-race-collection-method-vs.html
 [RelationshipToProband]: ValueSet-relationship-to-proband-vs.html
 [ResearchDomain]: ValueSet-research-domain-vs.html
+[SexAtBirthVS]: ValueSet-sex-at-birth-vs.html
+[SexAtBirthCollectionMethodVS]: ValueSet-sex-at-birth-collection-method-vs.html
 [StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
+[VitalStatusVS]: ValueSet-vital-status-vs.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html
 [SequencingExperimentSourceVS]: ValueSet-sequencing-experiment-source-vs.html

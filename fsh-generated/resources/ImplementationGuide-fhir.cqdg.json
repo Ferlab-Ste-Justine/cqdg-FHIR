@@ -585,6 +585,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/VitalStatus"
+        },
+        "name": "Ferlab.bio Extension/vital-status",
+        "description": "vital status for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/cqdg-task"
         },
         "name": "Ferlab.bio Profile/cqdg-task",
@@ -897,6 +905,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/race-vs"
+        },
+        "name": "Ferlab.bio ValueSet/race",
+        "description": "Race ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/race-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/race-collection-method",
+        "description": "Race Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/relationship-to-proband-vs"
         },
         "name": "Ferlab.bio ValueSet/relationship-to-proband",
@@ -913,6 +937,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/sex-at-birth-vs"
+        },
+        "name": "Ferlab.bio ValueSet/sex-at-birth",
+        "description": "Sex At Birth ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sex-at-birth-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/sex-at-birth-collection-method",
+        "description": "Sex At Birth Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/study-design-vs"
         },
         "name": "Ferlab.bio ValueSet/study-design",
@@ -925,6 +965,14 @@
         },
         "name": "Ferlab.bio ValueSet/tumor-normal-designation",
         "description": "Tumor Normal Designation ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vital-status-vs"
+        },
+        "name": "Ferlab.bio ValueSet/vital-status",
+        "description": "Vital Status ValueSet",
         "exampleBoolean": false
       },
       {

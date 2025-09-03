@@ -337,6 +337,13 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
+      "title": "Ferlab.bio Extension/gender-collection-method",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
       "title": "Ferlab.bio Extension/qc-ethnicity",
       "types": [
@@ -346,6 +353,20 @@
     {
       "url": "https://fhir.cqdg.ca/StructureDefinition/QCGender",
       "title": "Ferlab.bio Extension/gender",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/Race",
+      "title": "Ferlab.bio Extension/race",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod",
+      "title": "Ferlab.bio Extension/race-collection-method",
       "types": [
         "CodeableConcept"
       ]
@@ -420,6 +441,20 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",
+      "title": "Ferlab.bio Extension/sex-at-birth",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod",
+      "title": "Ferlab.bio Extension/sex-at-birth-collection-method",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension",
       "title": "Ferlab.bio Extension/data-category",
       "types": [
@@ -481,6 +516,13 @@
         "code",
         "string",
         "boolean"
+      ]
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/VitalStatus",
+      "title": "Ferlab.bio Extension/vital-status",
+      "types": [
+        "CodeableConcept"
       ]
     },
     {
@@ -1620,10 +1662,19 @@
     "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension": [
       "DocumentReference.content.attachment"
     ],
+    "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod": [
+      "Patient"
+    ],
     "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity": [
       "Patient"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/QCGender": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/Race": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod": [
       "Patient"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent": [
@@ -1632,8 +1683,17 @@
     "https://fhir.cqdg.ca/StructureDefinition/Restricted": [
       "ResearchStudy"
     ],
+    "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth": [
+      "Patient"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod": [
+      "Patient"
+    ],
     "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension": [
       "ResearchStudy"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/VitalStatus": [
+      "Patient"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/dataset": [
       "ResearchStudy"

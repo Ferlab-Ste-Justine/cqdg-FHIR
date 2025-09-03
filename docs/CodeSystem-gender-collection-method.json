@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "gender-collection-method",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem gender-collection-method</b></p><a name=\"gender-collection-method\"> </a><a name=\"hcgender-collection-method\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Self-identified<a name=\"gender-collection-method-Self-identified\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"gender-collection-method-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"gender-collection-method-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"gender-collection-method-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"gender-collection-method-Missing-Unknown\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"gender-collection-method-Other\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+  "version" : "0.1.0",
+  "name" : "GenderCollectionMethod",
+  "title" : "Ferlab.bio CodeSystem/gender-collection-method",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-03T17:56:07+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "This code system defines the possible methods by which a participant's gender information may be collected or recorded.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "Self-identified",
+    "display" : "Self-identified"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Other",
+    "display" : "Other"
+  }]
+}

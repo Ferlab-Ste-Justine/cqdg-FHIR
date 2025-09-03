@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="69704093-d5b7-4994-8059-cf43ab59b437"/>
+  <id value="81eb1038-046d-4eea-8091-24b3eebda443"/>
   <meta>
-    <lastUpdated value="2025-08-29T12:40:12.209+00:00"/>
+    <lastUpdated value="2025-09-03T17:56:56.889+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -222,10 +222,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5d9617d4-9f19-4007-92b1-eea601d4aee2"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:f2a05a63-a36b-482b-be44-37916a50b1a7"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -579,10 +579,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fda5c79a-f83a-4825-8a4c-5c0ace05e775"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:dbd7f8b7-47e6-4023-b274-86693258c97b"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -776,10 +776,10 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7487e57f-2fab-463a-913a-e5df8ca9326e"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:088adb5b-b23d-4067-b723-1ed38f335a8a"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -889,10 +889,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fa723b88-4922-4508-89ed-986693fd1811"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:33bcfe9a-0478-47da-8a73-6a16301e1a93"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1036,10 +1036,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:702253c8-02e2-4cce-a2f5-7809e814991b"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:3c2061fa-924c-4950-b239-171271650591"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -1174,10 +1174,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0a0f5fb6-189f-44d2-b0ee-baf22b66430d"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:f28cbe56-8c46-443d-ae14-e4366ecadaa4"/>
+          <timestamp value="2025-09-03T17:57:35+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1313,10 +1313,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b89c7774-2ffa-4e83-976d-9455372809c1"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:0b6d2ca8-607e-4a35-a63d-4150dada4027"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -1430,10 +1430,10 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:49696162-87f9-41b8-ac98-a4144478a5c6"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:f76db5b1-0776-4b7d-b5fd-a4a80e1ec925"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1583,10 +1583,10 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d9b541c7-418a-4b8f-bea7-8fff9791ac43"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:b007a7cc-1c6d-410b-bb8d-667899b9ea27"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1715,10 +1715,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e21779df-3851-4e72-b9ad-2c84921de1f1"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:540647d3-faf4-4605-aff5-1a2cfe6f4b1d"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1908,10 +1908,10 @@
         <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4e7d47f9-2bf8-425f-86d4-7aa0ee97b57d"/>
-          <timestamp value="2025-08-29T12:40:46+00:00"/>
+          <identifier value="urn:uuid:6a04c9e7-9842-44c7-b7d9-09da2bd9cf20"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -2105,10 +2105,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3d3f697a-df9d-40cb-b4e2-7583a138b2ea"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:32e8fb29-9af4-4172-ab89-718d175be122"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -2291,10 +2291,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b6388efa-3b59-479f-a2ea-b222bd45ac44"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:4bc5b5f1-82df-4bdd-a624-ee0ddade699c"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -2373,6 +2373,142 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-gender-collection-method.html">codesystem Ferlab.bio CodeSystem/gender-collection-method v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Self-identified"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Self-identified">Self-identified</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Self-identified</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Missing|20-|20Unknown"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Missing-Unknown">Missing - Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Missing - Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/gender-collection-method-Other"> </a>  
+                  <a href="CodeSystem-gender-collection-method.html#gender-collection-method-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</td>
+                <td>Other</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs"/>
+        <version value="0.1.0"/>
+        <name value="GenderCollectionMethodVS"/>
+        <title value="Ferlab.bio ValueSet/gender-collection-method"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e1faf33d-88be-413e-b3dd-c1ead6418ed1"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Self-identified"/>
+            <display value="Self-identified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Missing - Unknown"/>
+            <display value="Missing - Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://fhir.cqdg.ca/ValueSet/genome-build-vs"/>
     <resource>
       <ValueSet>
@@ -2412,10 +2548,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8deb3beb-c641-45ae-b0cc-824d286934c5"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:95525893-5a31-409c-a34d-7040a6cf2209"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2559,10 +2695,10 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5bde883a-b7a3-4b4c-b275-780d75aa32ca"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:c815a0ef-994b-4668-be63-21ce2ba1d791"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2694,10 +2830,10 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:aae5fc0d-bbb2-49b5-aeb8-51cde20c43d4"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:1744bb84-ba2e-4a0a-bbfc-f294109f14c3"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2874,10 +3010,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3aeb89a8-899c-49e3-b31f-8b46c844435a"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:6e498031-d406-4652-92ef-3653cc77c1c0"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -3059,10 +3195,10 @@
         <name value="GenderVS"/>
         <title value="Ferlab.bio ValueSet/gender"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1450018a-d6d1-4d21-aeb9-923f028ff548"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:864b954e-08dc-4e31-8add-d41df94fb500"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -3125,6 +3261,395 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/gender"/>
             <code value="Missing - Restricted access"/>
             <display value="Missing - Restricted access"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/race-collection-method-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-race-collection-method.html">codesystem Ferlab.bio CodeSystem/race-collection-method v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Socially|20assigned"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Sociallyassigned">Socially assigned</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Socially assigned</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Derived"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Derived">Derived</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Derived</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-collection-method-Self-identified"> </a>  
+                  <a href="CodeSystem-race-collection-method.html#race-collection-method-Self-identified">Self-identified</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race-collection-method</td>
+                <td>Self-identified</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/race-collection-method-vs"/>
+        <version value="0.1.0"/>
+        <name value="RaceCollectionMethodVS"/>
+        <title value="Ferlab.bio ValueSet/race-collection-method"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:4f96125f-d164-4cc7-81a3-69b408939c4e"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/race-collection-method|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Socially assigned"/>
+            <display value="Socially assigned"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Derived"/>
+            <display value="Derived"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race-collection-method"/>
+            <code value="Self-identified"/>
+            <display value="Self-identified"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/race-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-qc-race.html">codesystem Ferlab.bio CodeSystem/race v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 15 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Black"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Black">Black</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Black</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Missing|20-|20Unknown"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Missing-Unknown">Missing - Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Missing - Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Prefer|20not|20to|20answer"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Prefernottoanswer">Prefer not to answer</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Prefer not to answer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Do|20not|20know"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Donotknow">Do not know</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Do not know</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Another|20Racial|20Category"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-AnotherRacialCategory">Another Racial Category</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Another Racial Category</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-White"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-White">White</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>White</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Southeast|20Asian"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-SoutheastAsian">Southeast Asian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Southeast Asian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-South|20Asian"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-SouthAsian">South Asian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>South Asian</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Middle|20Eastern|20or|20North|20African"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-MiddleEasternorNorthAfrican">Middle Eastern or North African</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Middle Eastern or North African</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Latin|20American"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-LatinAmerican">Latin American</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Latin American</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-Indigenous|20(First|20Nations,|20Inuk/Inuit,|20M|e9tis)"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41">Indigenous (First Nations, Inuk/Inuit, Métis)</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>Indigenous (First Nations, Inuk/Inuit, Métis)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/race-East|20Asian"> </a>  
+                  <a href="CodeSystem-qc-race.html#qc-race-EastAsian">East Asian</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/race</td>
+                <td>East Asian</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/race-vs"/>
+        <version value="0.1.0"/>
+        <name value="RaceVS"/>
+        <title value="Ferlab.bio ValueSet/race"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:57a1e5c6-565e-47d3-90bf-728df5d476ce"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="15"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/race|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Black"/>
+            <display value="Black"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Missing - Unknown"/>
+            <display value="Missing - Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Prefer not to answer"/>
+            <display value="Prefer not to answer"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Do not know"/>
+            <display value="Do not know"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Another Racial Category"/>
+            <display value="Another Racial Category"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="White"/>
+            <display value="White"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Southeast Asian"/>
+            <display value="Southeast Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="South Asian"/>
+            <display value="South Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Middle Eastern or North African"/>
+            <display value="Middle Eastern or North African"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Latin American"/>
+            <display value="Latin American"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="Indigenous (First Nations, Inuk/Inuit, Métis)"/>
+            <display value="Indigenous (First Nations, Inuk/Inuit, Métis)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
+            <code value="East Asian"/>
+            <display value="East Asian"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3266,10 +3791,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:81eaa226-5e64-4d23-b4d3-92e461577f54"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:8f05626f-52f5-4bc3-9f8e-cb23d122a029"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -3518,10 +4043,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:de9dd587-3240-4091-bb0b-179a14c3bff9"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:a6f98637-a0c1-4837-a250-027f9eb330fa"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="14"/>
           <offset value="0"/>
           <parameter>
@@ -3702,10 +4227,10 @@
         <name value="SequencingExperimentSelectionVS"/>
         <title value="Sequencing Experiment Selection"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:705aaaa1-5542-413c-ab49-ff11ae3c1ac8"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:b7c3c029-d46d-4007-a965-7e1d2a90fd65"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -3827,10 +4352,10 @@
         <name value="SequencingExperimentSourceVS"/>
         <title value="Sequencing Experiment Source"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:091c3301-6933-4de6-906b-11decf4814b4"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:4a18a195-c402-4941-9390-a89372a1a184"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3868,6 +4393,330 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"/>
             <code value="GSC"/>
             <display value="Genomic Single Cell"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sex-at-birth-collection-method.html">codesystem Ferlab.bio CodeSystem/sex-at-birth-collection-method v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Self-identified"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Self-identified">Self-identified</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Self-identified</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Missing|20-|20Unknown"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Missing-Unknown">Missing - Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Missing - Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Other"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Other">Other</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Other</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Derived"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Derived">Derived</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Derived</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method-Clinician-recorded"> </a>  
+                  <a href="CodeSystem-sex-at-birth-collection-method.html#sex-at-birth-collection-method-Clinician-recorded">Clinician-recorded</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</td>
+                <td>Clinician-recorded</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs"/>
+        <version value="0.1.0"/>
+        <name value="SexAtBirthCollectionMethodVS"/>
+        <title value="Ferlab.bio ValueSet/sex-at-birth-collection-method"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:5529373c-2cdf-4a72-8803-9daf4feeba1d"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Self-identified"/>
+            <display value="Self-identified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Missing - Unknown"/>
+            <display value="Missing - Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Derived"/>
+            <display value="Derived"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"/>
+            <code value="Clinician-recorded"/>
+            <display value="Clinician-recorded"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sex-at-birth.html">codesystem Ferlab.bio CodeSystem/sex-at-birth v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Male"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Male">Male</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Missing|20-|20Unknown"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Missing-Unknown">Missing - Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Missing - Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Another|20Sex"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-AnotherSex">Another Sex</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Another Sex</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Intersex"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Intersex">Intersex</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Intersex</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sex-at-birth-Female"> </a>  
+                  <a href="CodeSystem-sex-at-birth.html#sex-at-birth-Female">Female</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</td>
+                <td>Female</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs"/>
+        <version value="0.1.0"/>
+        <name value="SexAtBirthVS"/>
+        <title value="Ferlab.bio ValueSet/sex-at-birth"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:c2410210-cd70-42cf-ab5d-bc8b49f759fa"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Missing - Unknown"/>
+            <display value="Missing - Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Another Sex"/>
+            <display value="Another Sex"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Intersex"/>
+            <display value="Intersex"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+            <code value="Female"/>
+            <display value="Female"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3969,10 +4818,10 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8c61104b-3808-4bb9-b1d5-8454f7c9b447"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:2a165ca7-237c-4b1e-a747-7799ad089730"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -4097,10 +4946,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fe28ec62-0d28-4616-86b4-d4f6a8245cc3"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:011e1bb0-0cf5-44a7-a891-13cb6836d4ab"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4194,10 +5043,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2025-08-29T12:39:24+00:00"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6d8f0ab0-44c5-4a1b-9610-60c3e1ce1715"/>
-          <timestamp value="2025-08-29T12:40:47+00:00"/>
+          <identifier value="urn:uuid:04cde180-8ba9-4df0-890b-47b380f77f29"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -4230,6 +5079,155 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"/>
             <code value="Not-applicable"/>
             <display value="Not applicable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/vital-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-vital-status.html">codesystem Ferlab.bio CodeSystem/vital-status v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Alive"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Alive">Alive</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Alive</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Not|20applicable"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Notapplicable">Not applicable</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Not applicable</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Missing|20-|20Unknown"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Missing-Unknown">Missing - Unknown</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Missing - Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Missing|20-|20Restricted|20access"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Missing-Restrictedaccess">Missing - Restricted access</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Missing - Restricted access</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Missing|20-|20Not|20provided"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Missing-Notprovided">Missing - Not provided</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Missing - Not provided</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Missing|20-|20Not|20collected"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Missing-Notcollected">Missing - Not collected</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Missing - Not collected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/vital-status-Deceased"> </a>  
+                  <a href="CodeSystem-vital-status.html#vital-status-Deceased">Deceased</a>
+                </td>
+                <td>https://fhir.cqdg.ca/CodeSystem/vital-status</td>
+                <td>Deceased</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/vital-status-vs"/>
+        <version value="0.1.0"/>
+        <name value="VitalStatusVS"/>
+        <title value="Ferlab.bio ValueSet/vital-status"/>
+        <status value="active"/>
+        <date value="2025-09-03T17:56:07+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0a39ce03-c2ed-4c33-9fc2-523816f7c439"/>
+          <timestamp value="2025-09-03T17:57:36+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/vital-status|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Alive"/>
+            <display value="Alive"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Not applicable"/>
+            <display value="Not applicable"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Missing - Unknown"/>
+            <display value="Missing - Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Missing - Restricted access"/>
+            <display value="Missing - Restricted access"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Missing - Not provided"/>
+            <display value="Missing - Not provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Missing - Not collected"/>
+            <display value="Missing - Not collected"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/vital-status"/>
+            <code value="Deceased"/>
+            <display value="Deceased"/>
           </contains>
         </expansion>
       </ValueSet>

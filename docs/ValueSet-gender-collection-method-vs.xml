@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="gender-collection-method-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet gender-collection-method-vs</b></p><a name="gender-collection-method-vs"> </a><a name="hcgender-collection-method-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-gender-collection-method.html"><code>https://fhir.cqdg.ca/CodeSystem/gender-collection-method</code></a></li></ul></div>
+  </text>
+  <url value="https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs"/>
+  <version value="0.1.0"/>
+  <name value="GenderCollectionMethodVS"/>
+  <title value="Ferlab.bio ValueSet/gender-collection-method"/>
+  <status value="active"/>
+  <date value="2025-09-03T17:56:07+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Gender Collection Method ValueSet"/>
+  <compose>
+    <include>
+      <system value="https://fhir.cqdg.ca/CodeSystem/gender-collection-method"/>
+    </include>
+  </compose>
+</ValueSet>

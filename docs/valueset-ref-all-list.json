@@ -29,10 +29,10 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
-      "StructureDefinition-cqdg-condition.html" : "Ferlab.bio StructureDefinition/cqdg-condition",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
+      "StructureDefinition-cqdg-condition.html" : "Ferlab.bio StructureDefinition/cqdg-condition",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -90,11 +90,11 @@
       "uses" : {
       },
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -239,8 +239,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -375,21 +375,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-cqdg-document-reference.html" : "Ferlab.bio StructureDefinition/cqdg-document-reference",
       "StructureDefinition-cqdg-organization.html" : "Ferlab.bio StructureDefinition/cqdg-organization",
+      "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
+      "StructureDefinition-cqdg-program.html" : "Ferlab.bio StructureDefinition/cqdg-program",
+      "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
+      "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
+      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
+      "StructureDefinition-cqdg-group.html" : "Ferlab.bio StructureDefinition/cqdg-group",
+      "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship",
       "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
       "StructureDefinition-cqdg-task.html" : "Ferlab.bio Profile/cqdg-task",
-      "StructureDefinition-cqdg-condition.html" : "Ferlab.bio StructureDefinition/cqdg-condition",
-      "StructureDefinition-cqdg-program.html" : "Ferlab.bio StructureDefinition/cqdg-program",
-      "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship",
-      "StructureDefinition-cqdg-group.html" : "Ferlab.bio StructureDefinition/cqdg-group",
-      "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
-      "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-cqdg-document-reference.html" : "Ferlab.bio StructureDefinition/cqdg-document-reference",
-      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
       "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
-      "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation"
+      "StructureDefinition-cqdg-condition.html" : "Ferlab.bio StructureDefinition/cqdg-condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -537,8 +537,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -556,8 +556,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -577,8 +577,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -596,8 +596,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -615,8 +615,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -679,8 +679,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -700,8 +700,8 @@
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -812,13 +812,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
+      "StructureDefinition-cqdg-document-reference.html" : "Ferlab.bio StructureDefinition/cqdg-document-reference",
       "StructureDefinition-cqdg-observation-group.html" : "Ferlab.bio StructureDefinition/cqdg-observation",
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
       "StructureDefinition-CQDGObservationCauseOfDeath.html" : "Ferlab.bio StructureDefinition/cause-of-death",
       "StructureDefinition-CQDGObservationPhenotype.html" : "Ferlab.bio StructureDefinition/phenotype",
-      "StructureDefinition-cqdg-document-reference.html" : "Ferlab.bio StructureDefinition/cqdg-document-reference",
-      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationTumorNormalDesignation.html" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient",
+      "StructureDefinition-CQDGObservationDiseaseStatus.html" : "Ferlab.bio StructureDefinition/disease-status",
       "StructureDefinition-CQDGObservationFamilyRelationship.html" : "Ferlab.bio StructureDefinition/family-relationship"
     },
     {
@@ -1072,8 +1072,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"],
       "uses" : {
       },
-      "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category",
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs",
@@ -1085,8 +1085,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method",
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -1141,6 +1141,18 @@
       "title" : "Ferlab.bio ValueSet/file-format",
       "description" : "File Format ValueSet",
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/document-format"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenderCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/gender-collection-method",
+      "description" : "Gender Collection Method ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender-collection-method"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
@@ -1200,6 +1212,30 @@
       "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RaceCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/race-collection-method",
+      "description" : "Race Collection Method ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/race-collection-method"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/race-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RaceVS",
+      "title" : "Ferlab.bio ValueSet/race",
+      "description" : "Race ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/race"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -1249,6 +1285,32 @@
       "StructureDefinition-sequencingExperimentExtension.html" : "Ferlab.bio StructureDefinition/sequencing-experiment"
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirthCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/sex-at-birth-collection-method",
+      "description" : "Sex At Birth Collection Method ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirthVS",
+      "title" : "Ferlab.bio ValueSet/sex-at-birth",
+      "description" : "Sex At Birth ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/sex-at-birth"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -1258,8 +1320,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
       "uses" : {
       },
-      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category",
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",
@@ -1278,6 +1340,18 @@
       "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "description" : "Tumor Normal Designation ValueSet",
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/vital-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VitalStatusVS",
+      "title" : "Ferlab.bio ValueSet/vital-status",
+      "description" : "Vital Status ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/vital-status"],
+      "uses" : {
+      },
+      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
     }
   ]
 }

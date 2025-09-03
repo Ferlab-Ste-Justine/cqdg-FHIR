@@ -130,6 +130,15 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/document-format"]
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenderCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/gender-collection-method",
+      "description" : "Gender Collection Method ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender-collection-method"]
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -175,6 +184,24 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender"]
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RaceCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/race-collection-method",
+      "description" : "Race Collection Method ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/race-collection-method"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/race-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RaceVS",
+      "title" : "Ferlab.bio ValueSet/race",
+      "description" : "Race ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/race"]
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -215,6 +242,26 @@
       ]
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirthCollectionMethodVS",
+      "title" : "Ferlab.bio ValueSet/sex-at-birth-collection-method",
+      "description" : "Sex At Birth Collection Method ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"
+      ]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirthVS",
+      "title" : "Ferlab.bio ValueSet/sex-at-birth",
+      "description" : "Sex At Birth ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/sex-at-birth"]
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -240,6 +287,15 @@
       "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
       "description" : "Tumor Normal Designation ValueSet",
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"]
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/ValueSet/vital-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VitalStatusVS",
+      "title" : "Ferlab.bio ValueSet/vital-status",
+      "description" : "Vital Status ValueSet",
+      "systems" : ["https://fhir.cqdg.ca/CodeSystem/vital-status"]
     }
   ]
 }

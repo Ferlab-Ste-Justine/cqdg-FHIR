@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/race-collection-method> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "race-collection-method"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem race-collection-method</b></p><a name=\"race-collection-method\"> </a><a name=\"hcrace-collection-method\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race-collection-method</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Socially assigned<a name=\"race-collection-method-Sociallyassigned\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"race-collection-method-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"race-collection-method-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"race-collection-method-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Derived<a name=\"race-collection-method-Derived\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Self-identified<a name=\"race-collection-method-Self-identified\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/race-collection-method"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "RaceCollectionMethod"] ; # 
+  fhir:title [ fhir:v "Ferlab.bio CodeSystem/race-collection-method"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-09-03T17:56:07+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ferlab.bio" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Socially assigned" ] ;
+     fhir:display [ fhir:v "Socially assigned" ]
+  ] [
+     fhir:code [ fhir:v "Missing - Restricted access" ] ;
+     fhir:display [ fhir:v "Missing - Restricted access" ]
+  ] [
+     fhir:code [ fhir:v "Missing - Not provided" ] ;
+     fhir:display [ fhir:v "Missing - Not provided" ]
+  ] [
+     fhir:code [ fhir:v "Missing - Not collected" ] ;
+     fhir:display [ fhir:v "Missing - Not collected" ]
+  ] [
+     fhir:code [ fhir:v "Derived" ] ;
+     fhir:display [ fhir:v "Derived" ]
+  ] [
+     fhir:code [ fhir:v "Self-identified" ] ;
+     fhir:display [ fhir:v "Self-identified" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

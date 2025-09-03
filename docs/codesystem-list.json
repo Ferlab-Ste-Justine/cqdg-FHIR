@@ -121,6 +121,14 @@
       "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses."
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "GenderCollectionMethod",
+      "title" : "Ferlab.bio CodeSystem/gender-collection-method",
+      "description" : "This code system defines the possible methods by which a participant's gender information may be collected or recorded."
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
       "version" : "0.1.0",
       "status" : "active",
@@ -143,6 +151,22 @@
       "name" : "QCEthnicity",
       "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
       "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/race",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "Race",
+      "title" : "Ferlab.bio CodeSystem/race",
+      "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets."
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RaceCollectionMethod",
+      "title" : "Ferlab.bio CodeSystem/race-collection-method",
+      "description" : "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings."
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
@@ -169,6 +193,22 @@
       "description" : "Sequencing experimental source"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirth",
+      "title" : "Ferlab.bio CodeSystem/sex-at-birth",
+      "description" : "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets."
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SexAtBirthCollectionMethod",
+      "title" : "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
+      "description" : "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts."
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
       "version" : "0.1.0",
       "status" : "active",
@@ -191,6 +231,14 @@
       "name" : "V3RoleCode",
       "title" : "Ferlab.bio CodeSystem/v3-roles",
       "description" : "V3 role code"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VitalStatus",
+      "title" : "Ferlab.bio CodeSystem/vital-status",
+      "description" : "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets."
     }
   ]
 }

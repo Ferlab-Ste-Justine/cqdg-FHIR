@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sex-at-birth"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sex-at-birth</b></p><a name="sex-at-birth"> </a><a name="hcsex-at-birth"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">Male<a name="sex-at-birth-Male"> </a></td></tr><tr><td style="white-space:nowrap">Missing - Restricted access<a name="sex-at-birth-Missing-Restrictedaccess"> </a></td></tr><tr><td style="white-space:nowrap">Missing - Not provided<a name="sex-at-birth-Missing-Notprovided"> </a></td></tr><tr><td style="white-space:nowrap">Missing - Not collected<a name="sex-at-birth-Missing-Notcollected"> </a></td></tr><tr><td style="white-space:nowrap">Missing - Unknown<a name="sex-at-birth-Missing-Unknown"> </a></td></tr><tr><td style="white-space:nowrap">Another Sex<a name="sex-at-birth-AnotherSex"> </a></td></tr><tr><td style="white-space:nowrap">Intersex<a name="sex-at-birth-Intersex"> </a></td></tr><tr><td style="white-space:nowrap">Female<a name="sex-at-birth-Female"> </a></td></tr></table></div>
+  </text>
+  <url value="https://fhir.cqdg.ca/CodeSystem/sex-at-birth"/>
+  <version value="0.1.0"/>
+  <name value="SexAtBirth"/>
+  <title value="Ferlab.bio CodeSystem/sex-at-birth"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-09-03T17:56:07+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="Male"/>
+    <display value="Male"/>
+  </concept>
+  <concept>
+    <code value="Missing - Restricted access"/>
+    <display value="Missing - Restricted access"/>
+  </concept>
+  <concept>
+    <code value="Missing - Not provided"/>
+    <display value="Missing - Not provided"/>
+  </concept>
+  <concept>
+    <code value="Missing - Not collected"/>
+    <display value="Missing - Not collected"/>
+  </concept>
+  <concept>
+    <code value="Missing - Unknown"/>
+    <display value="Missing - Unknown"/>
+  </concept>
+  <concept>
+    <code value="Another Sex"/>
+    <display value="Another Sex"/>
+  </concept>
+  <concept>
+    <code value="Intersex"/>
+    <display value="Intersex"/>
+  </concept>
+  <concept>
+    <code value="Female"/>
+    <display value="Female"/>
+  </concept>
+</CodeSystem>

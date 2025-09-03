@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-08-29T12:39:24+00:00"/>
+  <date value="2025-09-03T17:56:07+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -616,6 +616,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/gender-collection-method"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/gender-collection-method"/>
+      <description value="This code system defines the possible methods by which a participant's gender information may be collected or recorded."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/genome-build"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/genome-build"/>
@@ -642,6 +653,28 @@
       </reference>
       <name value="Ferlab.bio CodeSystem/qc-ethnicity"/>
       <description value="Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/qc-race"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/race"/>
+      <description value="This code system defines standardized categories for documenting a participant's race within clinical and research datasets."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/race-collection-method"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/race-collection-method"/>
+      <description value="This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -682,6 +715,28 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/sex-at-birth"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/sex-at-birth"/>
+      <description value="This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/sex-at-birth-collection-method"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/sex-at-birth-collection-method"/>
+      <description value="This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/study-design"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/study-design"/>
@@ -708,6 +763,17 @@
       </reference>
       <name value="Ferlab.bio CodeSystem/v3-roles"/>
       <description value="V3 role code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/vital-status"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/vital-status"/>
+      <description value="This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1023,6 +1089,17 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/GenderCollectionMethod"/>
+      </reference>
+      <name value="Ferlab.bio Extension/gender-collection-method"/>
+      <description value="gender collection method"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/population-info"/>
       </reference>
       <name value="Ferlab.bio Extension/population-info"/>
@@ -1038,6 +1115,28 @@
       </reference>
       <name value="Ferlab.bio Extension/qc-ethnicity"/>
       <description value="qc ethnicity for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Race"/>
+      </reference>
+      <name value="Ferlab.bio Extension/race"/>
+      <description value="race for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/RaceCollectionMethod"/>
+      </reference>
+      <name value="Ferlab.bio Extension/race-collection-method"/>
+      <description value="race collection method for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1082,6 +1181,39 @@
       </reference>
       <name value="Ferlab.bio Extension/research-program-related-artifact"/>
       <description value="Represents a related artifact for a research program."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SexAtBirth"/>
+      </reference>
+      <name value="Ferlab.bio Extension/sex-at-birth"/>
+      <description value="Sex at birth for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SexAtBirthCollectionMethod"/>
+      </reference>
+      <name value="Ferlab.bio Extension/sex-at-birth-collection-method"/>
+      <description value="Sex at birth collection method for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VitalStatus"/>
+      </reference>
+      <name value="Ferlab.bio Extension/vital-status"/>
+      <description value="vital status for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1463,6 +1595,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/gender-collection-method-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/gender-collection-method"/>
+      <description value="Gender Collection Method ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/genome-build-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/genome-build"/>
@@ -1507,6 +1650,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/race-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/race"/>
+      <description value="Race ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/race-collection-method-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/race-collection-method"/>
+      <description value="Race Collection Method ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/relationship-to-proband-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/relationship-to-proband"/>
@@ -1529,6 +1694,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/sex-at-birth-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/sex-at-birth"/>
+      <description value="Sex At Birth ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/sex-at-birth-collection-method-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/sex-at-birth-collection-method"/>
+      <description value="Sex At Birth Collection Method ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/study-design-vs"/>
       </reference>
       <name value="Ferlab.bio ValueSet/study-design"/>
@@ -1544,6 +1731,17 @@
       </reference>
       <name value="Ferlab.bio ValueSet/tumor-normal-designation"/>
       <description value="Tumor Normal Designation ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vital-status-vs"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/vital-status"/>
+      <description value="Vital Status ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

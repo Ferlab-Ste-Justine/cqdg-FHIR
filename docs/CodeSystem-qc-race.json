@@ -1,0 +1,87 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "qc-race",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-race</b></p><a name=\"qc-race\"> </a><a name=\"hcqc-race\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Black<a name=\"qc-race-Black\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-race-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-race-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-race-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-race-Missing-Unknown\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-race-Prefernottoanswer\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Do not know<a name=\"qc-race-Donotknow\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Another Racial Category<a name=\"qc-race-AnotherRacialCategory\"> </a></td></tr><tr><td style=\"white-space:nowrap\">White<a name=\"qc-race-White\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Southeast Asian<a name=\"qc-race-SoutheastAsian\"> </a></td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-race-SouthAsian\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Middle Eastern or North African<a name=\"qc-race-MiddleEasternorNorthAfrican\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Latin American<a name=\"qc-race-LatinAmerican\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Indigenous (First Nations, Inuk/Inuit, Métis)<a name=\"qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41\"> </a></td></tr><tr><td style=\"white-space:nowrap\">East Asian<a name=\"qc-race-EastAsian\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/CodeSystem/race",
+  "version" : "0.1.0",
+  "name" : "Race",
+  "title" : "Ferlab.bio CodeSystem/race",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-03T17:56:07+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 15,
+  "concept" : [{
+    "code" : "Black",
+    "display" : "Black"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Prefer not to answer",
+    "display" : "Prefer not to answer"
+  },
+  {
+    "code" : "Do not know",
+    "display" : "Do not know"
+  },
+  {
+    "code" : "Another Racial Category",
+    "display" : "Another Racial Category"
+  },
+  {
+    "code" : "White",
+    "display" : "White"
+  },
+  {
+    "code" : "Southeast Asian",
+    "display" : "Southeast Asian"
+  },
+  {
+    "code" : "South Asian",
+    "display" : "South Asian"
+  },
+  {
+    "code" : "Middle Eastern or North African",
+    "display" : "Middle Eastern or North African"
+  },
+  {
+    "code" : "Latin American",
+    "display" : "Latin American"
+  },
+  {
+    "code" : "Indigenous (First Nations, Inuk/Inuit, Métis)",
+    "display" : "Indigenous (First Nations, Inuk/Inuit, Métis)"
+  },
+  {
+    "code" : "East Asian",
+    "display" : "East Asian"
+  }]
+}

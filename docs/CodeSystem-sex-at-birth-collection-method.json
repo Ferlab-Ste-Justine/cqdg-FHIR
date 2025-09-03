@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "sex-at-birth-collection-method",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sex-at-birth-collection-method</b></p><a name=\"sex-at-birth-collection-method\"> </a><a name=\"hcsex-at-birth-collection-method\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Self-identified<a name=\"sex-at-birth-collection-method-Self-identified\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"sex-at-birth-collection-method-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"sex-at-birth-collection-method-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"sex-at-birth-collection-method-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"sex-at-birth-collection-method-Missing-Unknown\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"sex-at-birth-collection-method-Other\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Derived<a name=\"sex-at-birth-collection-method-Derived\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Clinician-recorded<a name=\"sex-at-birth-collection-method-Clinician-recorded\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+  "version" : "0.1.0",
+  "name" : "SexAtBirthCollectionMethod",
+  "title" : "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-03T17:56:07+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "Self-identified",
+    "display" : "Self-identified"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Other",
+    "display" : "Other"
+  },
+  {
+    "code" : "Derived",
+    "display" : "Derived"
+  },
+  {
+    "code" : "Clinician-recorded",
+    "display" : "Clinician-recorded"
+  }]
+}

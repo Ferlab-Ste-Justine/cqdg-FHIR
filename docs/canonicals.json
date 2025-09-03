@@ -105,6 +105,13 @@
     "name" : "QCGender"
   },
   {
+    "id" : "gender-collection-method",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+    "version" : "0.1.0",
+    "name" : "GenderCollectionMethod"
+  },
+  {
     "id" : "genome-build",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
@@ -124,6 +131,20 @@
     "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
     "version" : "0.1.0",
     "name" : "QCEthnicity"
+  },
+  {
+    "id" : "qc-race",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/race",
+    "version" : "0.1.0",
+    "name" : "Race"
+  },
+  {
+    "id" : "race-collection-method",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
+    "version" : "0.1.0",
+    "name" : "RaceCollectionMethod"
   },
   {
     "id" : "research-domain",
@@ -147,6 +168,20 @@
     "name" : "SequencingExperimentSource"
   },
   {
+    "id" : "sex-at-birth",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+    "version" : "0.1.0",
+    "name" : "SexAtBirth"
+  },
+  {
+    "id" : "sex-at-birth-collection-method",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+    "version" : "0.1.0",
+    "name" : "SexAtBirthCollectionMethod"
+  },
+  {
     "id" : "study-design",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
@@ -166,6 +201,13 @@
     "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
     "version" : "0.1.0",
     "name" : "V3RoleCode"
+  },
+  {
+    "id" : "vital-status",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
+    "version" : "0.1.0",
+    "name" : "VitalStatus"
   },
   {
     "id" : "fhir.cqdg",
@@ -266,6 +308,13 @@
     "name" : "FullSizeExtension"
   },
   {
+    "id" : "GenderCollectionMethod",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
+    "version" : "0.1.0",
+    "name" : "GenderCollectionMethod"
+  },
+  {
     "id" : "QCEthnicity",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
@@ -278,6 +327,20 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/QCGender",
     "version" : "0.1.0",
     "name" : "QCGender"
+  },
+  {
+    "id" : "Race",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/Race",
+    "version" : "0.1.0",
+    "name" : "Race"
+  },
+  {
+    "id" : "RaceCollectionMethod",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod",
+    "version" : "0.1.0",
+    "name" : "RaceCollectionMethod"
   },
   {
     "id" : "expectedStudyContent",
@@ -294,11 +357,32 @@
     "name" : "Restricted"
   },
   {
+    "id" : "SexAtBirth",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",
+    "version" : "0.1.0",
+    "name" : "SexAtBirth"
+  },
+  {
+    "id" : "SexAtBirthCollectionMethod",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod",
+    "version" : "0.1.0",
+    "name" : "SexAtBirthCollectionMethod"
+  },
+  {
     "id" : "StudyDesignExtension",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension",
     "version" : "0.1.0",
     "name" : "StudyDesignExtension"
+  },
+  {
+    "id" : "VitalStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/VitalStatus",
+    "version" : "0.1.0",
+    "name" : "VitalStatus"
   },
   {
     "id" : "cqdg-condition",
@@ -532,6 +616,13 @@
     "name" : "FileFormat"
   },
   {
+    "id" : "gender-collection-method-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs",
+    "version" : "0.1.0",
+    "name" : "GenderCollectionMethodVS"
+  },
+  {
     "id" : "genome-build-vs",
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
@@ -567,6 +658,20 @@
     "name" : "GenderVS"
   },
   {
+    "id" : "race-collection-method-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs",
+    "version" : "0.1.0",
+    "name" : "RaceCollectionMethodVS"
+  },
+  {
+    "id" : "race-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/race-vs",
+    "version" : "0.1.0",
+    "name" : "RaceVS"
+  },
+  {
     "id" : "relationship-to-proband-vs",
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
@@ -595,6 +700,20 @@
     "name" : "SequencingExperimentSourceVS"
   },
   {
+    "id" : "sex-at-birth-collection-method-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs",
+    "version" : "0.1.0",
+    "name" : "SexAtBirthCollectionMethodVS"
+  },
+  {
+    "id" : "sex-at-birth-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs",
+    "version" : "0.1.0",
+    "name" : "SexAtBirthVS"
+  },
+  {
     "id" : "study-design-vs",
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
@@ -614,5 +733,12 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs",
     "version" : "0.1.0",
     "name" : "TumorNormalDesignationVS"
+  },
+  {
+    "id" : "vital-status-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/vital-status-vs",
+    "version" : "0.1.0",
+    "name" : "VitalStatusVS"
   }
 ]

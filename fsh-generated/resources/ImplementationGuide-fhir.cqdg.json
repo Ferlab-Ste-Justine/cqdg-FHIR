@@ -153,6 +153,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/gender-collection-method"
+        },
+        "name": "Ferlab.bio CodeSystem/gender-collection-method",
+        "description": "This code system defines the possible methods by which a participant's gender information may be collected or recorded.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/genome-build"
         },
         "name": "Ferlab.bio CodeSystem/genome-build",
@@ -173,6 +181,22 @@
         },
         "name": "Ferlab.bio CodeSystem/qc-ethnicity",
         "description": "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/qc-race"
+        },
+        "name": "Ferlab.bio CodeSystem/race",
+        "description": "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/race-collection-method"
+        },
+        "name": "Ferlab.bio CodeSystem/race-collection-method",
+        "description": "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings.",
         "exampleBoolean": false
       },
       {
@@ -201,6 +225,22 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/sex-at-birth"
+        },
+        "name": "Ferlab.bio CodeSystem/sex-at-birth",
+        "description": "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/sex-at-birth-collection-method"
+        },
+        "name": "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
+        "description": "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/study-design"
         },
         "name": "Ferlab.bio CodeSystem/study-design",
@@ -221,6 +261,14 @@
         },
         "name": "Ferlab.bio CodeSystem/v3-roles",
         "description": "V3 role code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/vital-status"
+        },
+        "name": "Ferlab.bio CodeSystem/vital-status",
+        "description": "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets.",
         "exampleBoolean": false
       },
       {
@@ -449,6 +497,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/GenderCollectionMethod"
+        },
+        "name": "Ferlab.bio Extension/gender-collection-method",
+        "description": "gender collection method",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/population-info"
         },
         "name": "Ferlab.bio Extension/population-info",
@@ -461,6 +517,22 @@
         },
         "name": "Ferlab.bio Extension/qc-ethnicity",
         "description": "qc ethnicity for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Race"
+        },
+        "name": "Ferlab.bio Extension/race",
+        "description": "race for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RaceCollectionMethod"
+        },
+        "name": "Ferlab.bio Extension/race-collection-method",
+        "description": "race collection method for cqdg project",
         "exampleBoolean": false
       },
       {
@@ -493,6 +565,30 @@
         },
         "name": "Ferlab.bio Extension/research-program-related-artifact",
         "description": "Represents a related artifact for a research program.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/SexAtBirth"
+        },
+        "name": "Ferlab.bio Extension/sex-at-birth",
+        "description": "Sex at birth for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/SexAtBirthCollectionMethod"
+        },
+        "name": "Ferlab.bio Extension/sex-at-birth-collection-method",
+        "description": "Sex at birth collection method for cqdg project",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/VitalStatus"
+        },
+        "name": "Ferlab.bio Extension/vital-status",
+        "description": "vital status for cqdg project",
         "exampleBoolean": false
       },
       {
@@ -769,6 +865,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/gender-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/gender-collection-method",
+        "description": "Gender Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/genome-build-vs"
         },
         "name": "Ferlab.bio ValueSet/genome-build",
@@ -801,6 +905,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/race-vs"
+        },
+        "name": "Ferlab.bio ValueSet/race",
+        "description": "Race ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/race-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/race-collection-method",
+        "description": "Race Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/relationship-to-proband-vs"
         },
         "name": "Ferlab.bio ValueSet/relationship-to-proband",
@@ -817,6 +937,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/sex-at-birth-vs"
+        },
+        "name": "Ferlab.bio ValueSet/sex-at-birth",
+        "description": "Sex At Birth ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sex-at-birth-collection-method-vs"
+        },
+        "name": "Ferlab.bio ValueSet/sex-at-birth-collection-method",
+        "description": "Sex At Birth Collection Method ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/study-design-vs"
         },
         "name": "Ferlab.bio ValueSet/study-design",
@@ -829,6 +965,14 @@
         },
         "name": "Ferlab.bio ValueSet/tumor-normal-designation",
         "description": "Tumor Normal Designation ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vital-status-vs"
+        },
+        "name": "Ferlab.bio ValueSet/vital-status",
+        "description": "Vital Status ValueSet",
         "exampleBoolean": false
       },
       {

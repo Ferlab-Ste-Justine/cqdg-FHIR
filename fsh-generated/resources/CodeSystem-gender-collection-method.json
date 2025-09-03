@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "GenderCollectionMethod",
+  "id": "gender-collection-method",
+  "title": "Ferlab.bio CodeSystem/gender-collection-method",
+  "description": "This code system defines the possible methods by which a participant's gender information may be collected or recorded.",
+  "url": "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+  "concept": [
+    {
+      "code": "Self-identified",
+      "display": "Self-identified"
+    },
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted access"
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not provided"
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not collected"
+    },
+    {
+      "code": "Missing - Unknown",
+      "display": "Missing - Unknown"
+    },
+    {
+      "code": "Other",
+      "display": "Other"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "count": 6
+}

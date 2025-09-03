@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Race",
+  "id": "qc-race",
+  "title": "Ferlab.bio CodeSystem/race",
+  "description": "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
+  "url": "https://fhir.cqdg.ca/CodeSystem/race",
+  "concept": [
+    {
+      "code": "Black",
+      "display": "Black"
+    },
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted access"
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not provided"
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not collected"
+    },
+    {
+      "code": "Missing - Unknown",
+      "display": "Missing - Unknown"
+    },
+    {
+      "code": "Prefer not to answer",
+      "display": "Prefer not to answer"
+    },
+    {
+      "code": "Do not know",
+      "display": "Do not know"
+    },
+    {
+      "code": "Another Racial Category",
+      "display": "Another Racial Category"
+    },
+    {
+      "code": "White",
+      "display": "White"
+    },
+    {
+      "code": "Southeast Asian",
+      "display": "Southeast Asian"
+    },
+    {
+      "code": "South Asian",
+      "display": "South Asian"
+    },
+    {
+      "code": "Middle Eastern or North African",
+      "display": "Middle Eastern or North African"
+    },
+    {
+      "code": "Latin American",
+      "display": "Latin American"
+    },
+    {
+      "code": "Indigenous (First Nations, Inuk/Inuit, Métis)",
+      "display": "Indigenous (First Nations, Inuk/Inuit, Métis)"
+    },
+    {
+      "code": "East Asian",
+      "display": "East Asian"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "count": 15
+}

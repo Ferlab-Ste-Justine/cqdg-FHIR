@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SexAtBirthVS",
+  "id": "sex-at-birth-vs",
+  "title": "Ferlab.bio ValueSet/sex-at-birth",
+  "url": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs",
+  "description": "Sex At Birth ValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/sex-at-birth"
+      }
+    ]
+  }
+}

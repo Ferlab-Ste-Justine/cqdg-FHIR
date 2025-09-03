@@ -17,5 +17,14 @@ Usage: #example
 * extension[ageOfDeath].valueCodeableConcept = $HPO#"HP:0003584"
 
 * extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
-* extension[gender].valueCodeableConcept = QCGender#"Prefer not to answer" "Prefer not to answer"
 
+* extension[gender].valueCodeableConcept = QCGender#"Prefer not to answer" "Prefer not to answer"
+* extension[genderCollectionMethod].valueCodeableConcept = GenderCollectionMethod#"Missing - Restricted access" "Missing - Restricted access"
+
+* extension[sexAtBirth].valueCodeableConcept = SexAtBirth#"Male" "Male"
+* extension[sexAtBirthCollectionMethod].valueCodeableConcept = SexAtBirthCollectionMethod#"Self-identified" "Self-identified"
+
+* extension[race].valueCodeableConcept = SexAtBirth#"Male" "Male"
+* extension[raceCollectionMethod].valueCodeableConcept = SexAtBirthCollectionMethod#"Self-identified" "Self-identified"
+
+* extension[vitalStatus].valueCodeableConcept = VitalStatus#"Deceased" "Deceased"

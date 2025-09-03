@@ -25,6 +25,78 @@
       }
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Missing - Restricted access",
+            "system": "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+            "display": "Missing - Restricted access"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Male",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+            "display": "Male"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Self-identified",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+            "display": "Self-identified"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/Race",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Male",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+            "display": "Male"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Self-identified",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+            "display": "Self-identified"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/VitalStatus",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "Deceased",
+            "system": "https://fhir.cqdg.ca/CodeSystem/vital-status",
+            "display": "Deceased"
+          }
+        ]
+      }
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
       "valueCodeableConcept": {
         "coding": [

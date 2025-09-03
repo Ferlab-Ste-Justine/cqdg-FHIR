@@ -65,7 +65,7 @@
           "ordered": false,
           "rules": "open"
         },
-        "min": 1
+        "min": 7
       },
       {
         "id": "Patient.extension:ageOfDeath",
@@ -141,6 +141,144 @@
         "binding": {
           "strength": "required",
           "valueSet": "https://fhir.cqdg.ca/ValueSet/qc-gender-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:genderCollectionMethod",
+        "path": "Patient.extension",
+        "sliceName": "genderCollectionMethod",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:genderCollectionMethod.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:sexAtBirth",
+        "path": "Patient.extension",
+        "sliceName": "sexAtBirth",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:sexAtBirth.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:sexAtBirthCollectionMethod",
+        "path": "Patient.extension",
+        "sliceName": "sexAtBirthCollectionMethod",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:sexAtBirthCollectionMethod.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:race",
+        "path": "Patient.extension",
+        "sliceName": "race",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/Race"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:race.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:raceCollectionMethod",
+        "path": "Patient.extension",
+        "sliceName": "raceCollectionMethod",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:raceCollectionMethod.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs"
+        }
+      },
+      {
+        "id": "Patient.extension:vitalStatus",
+        "path": "Patient.extension",
+        "sliceName": "vitalStatus",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.cqdg.ca/StructureDefinition/VitalStatus"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:vitalStatus.value[x]",
+        "path": "Patient.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/vital-status-vs"
         }
       }
     ]

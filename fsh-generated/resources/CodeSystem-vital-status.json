@@ -1,0 +1,43 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "VitalStatus",
+  "id": "vital-status",
+  "title": "Ferlab.bio CodeSystem/vital-status",
+  "description": "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets.",
+  "url": "https://fhir.cqdg.ca/CodeSystem/vital-status",
+  "concept": [
+    {
+      "code": "Alive",
+      "display": "Alive"
+    },
+    {
+      "code": "Not applicable",
+      "display": "Not applicable"
+    },
+    {
+      "code": "Missing - Unknown",
+      "display": "Missing - Unknown"
+    },
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted access"
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not provided"
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not collected"
+    },
+    {
+      "code": "Deceased",
+      "display": "Deceased"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "count": 7
+}

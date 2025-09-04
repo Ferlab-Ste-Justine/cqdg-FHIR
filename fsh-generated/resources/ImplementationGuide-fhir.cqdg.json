@@ -489,7 +489,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/GenderExtension"
+          "reference": "StructureDefinition/Gender"
         },
         "name": "Ferlab.bio Extension/gender",
         "description": "gender for cqdg project",
@@ -517,14 +517,6 @@
         },
         "name": "Ferlab.bio Extension/race",
         "description": "race for cqdg project",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RaceCollectionMethod"
-        },
-        "name": "Ferlab.bio Extension/race-collection-method",
-        "description": "race collection method for cqdg project",
         "exampleBoolean": false
       },
       {
@@ -565,14 +557,6 @@
         },
         "name": "Ferlab.bio Extension/sex-at-birth",
         "description": "Sex at birth for cqdg project",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/SexAtBirthCollectionMethod"
-        },
-        "name": "Ferlab.bio Extension/sex-at-birth-collection-method",
-        "description": "Sex at birth collection method for cqdg project",
         "exampleBoolean": false
       },
       {

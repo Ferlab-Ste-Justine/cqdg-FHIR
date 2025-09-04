@@ -65,7 +65,7 @@
           "ordered": false,
           "rules": "open"
         },
-        "min": 6
+        "min": 4
       },
       {
         "id": "Patient.extension:ageOfDeath",
@@ -130,7 +130,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.cqdg.ca/StructureDefinition/GenderExtension"
+              "https://fhir.cqdg.ca/StructureDefinition/Gender"
             ]
           }
         ]
@@ -151,37 +151,6 @@
         ]
       },
       {
-        "id": "Patient.extension:sexAtBirth.value[x]",
-        "path": "Patient.extension.value[x]",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs"
-        }
-      },
-      {
-        "id": "Patient.extension:sexAtBirthCollectionMethod",
-        "path": "Patient.extension",
-        "sliceName": "sexAtBirthCollectionMethod",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Patient.extension:sexAtBirthCollectionMethod.value[x]",
-        "path": "Patient.extension.value[x]",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs"
-        }
-      },
-      {
         "id": "Patient.extension:race",
         "path": "Patient.extension",
         "sliceName": "race",
@@ -195,37 +164,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "Patient.extension:race.value[x]",
-        "path": "Patient.extension.value[x]",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-vs"
-        }
-      },
-      {
-        "id": "Patient.extension:raceCollectionMethod",
-        "path": "Patient.extension",
-        "sliceName": "raceCollectionMethod",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Patient.extension:raceCollectionMethod.value[x]",
-        "path": "Patient.extension.value[x]",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs"
-        }
       },
       {
         "id": "Patient.extension:vitalStatus",

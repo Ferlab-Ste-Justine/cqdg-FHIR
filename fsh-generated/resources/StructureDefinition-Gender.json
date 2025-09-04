@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "GenderExtension",
-  "url": "https://fhir.cqdg.ca/StructureDefinition/GenderExtension",
-  "name": "GenderExtension",
+  "id": "Gender",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/Gender",
+  "name": "Gender",
   "title": "Ferlab.bio Extension/gender",
   "status": "active",
   "description": "gender for cqdg project",
@@ -133,9 +133,52 @@
         }
       },
       {
+        "id": "Extension.extension:genderAnotherCategory",
+        "path": "Extension.extension",
+        "sliceName": "genderAnotherCategory",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:genderAnotherCategory.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:genderAnotherCategory.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "genderAnotherCategory"
+      },
+      {
+        "id": "Extension.extension:genderAnotherCategory.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:genderAnotherCategory.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/GenderExtension"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/Gender"
       },
       {
         "id": "Extension.value[x]",

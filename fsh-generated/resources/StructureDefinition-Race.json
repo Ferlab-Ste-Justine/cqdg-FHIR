@@ -36,7 +36,144 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
+        "min": 2
+      },
+      {
+        "id": "Extension.extension:race",
+        "path": "Extension.extension",
+        "sliceName": "race",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:race.extension",
+        "path": "Extension.extension.extension",
         "max": "0"
+      },
+      {
+        "id": "Extension.extension:race.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "race"
+      },
+      {
+        "id": "Extension.extension:race.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:race.value[x]:valueCodeableConcept",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-vs"
+        }
+      },
+      {
+        "id": "Extension.extension:raceCollectionMethod",
+        "path": "Extension.extension",
+        "sliceName": "raceCollectionMethod",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:raceCollectionMethod.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:raceCollectionMethod.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "raceCollectionMethod"
+      },
+      {
+        "id": "Extension.extension:raceCollectionMethod.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:raceCollectionMethod.value[x]:valueCodeableConcept",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs"
+        }
+      },
+      {
+        "id": "Extension.extension:raceAnotherCategory",
+        "path": "Extension.extension",
+        "sliceName": "raceAnotherCategory",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:raceAnotherCategory.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:raceAnotherCategory.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "raceAnotherCategory"
+      },
+      {
+        "id": "Extension.extension:raceAnotherCategory.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:raceAnotherCategory.value[x]:valueString",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
       },
       {
         "id": "Extension.url",
@@ -46,11 +183,7 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
+        "max": "0"
       }
     ]
   }

@@ -18,13 +18,16 @@ Usage: #example
 
 * extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
 
-* extension[gender].valueCodeableConcept = QCGender#"Prefer not to answer" "Prefer not to answer"
-* extension[genderCollectionMethod].valueCodeableConcept = GenderCollectionMethod#"Missing - Restricted access" "Missing - Restricted access"
+* extension[gender].extension[gender].valueCodeableConcept = qc-gender#"Man" "Man"
+* extension[gender].extension[genderAnotherCategory].valueString = "Non-binary, self-described"
+* extension[gender].extension[genderCollectionMethod].valueCodeableConcept = gender-collection-method#"Self-identified" "Self-identified"
 
-* extension[sexAtBirth].valueCodeableConcept = SexAtBirth#"Male" "Male"
-* extension[sexAtBirthCollectionMethod].valueCodeableConcept = SexAtBirthCollectionMethod#"Self-identified" "Self-identified"
+* extension[sexAtBirth].extension[sexAtBirth].valueCodeableConcept = sex-at-birth#"Male" "Male"
+* extension[sexAtBirth].extension[sexAtBirthAnotherCategory].valueString = "Fluff sex"
+* extension[sexAtBirth].extension[sexAtBirthCollectionMethod].valueCodeableConcept = sex-at-birth-collection-method#"Missing - Not provided" "Missing - Not provided"
 
-* extension[race].valueCodeableConcept = SexAtBirth#"Male" "Male"
-* extension[raceCollectionMethod].valueCodeableConcept = SexAtBirthCollectionMethod#"Self-identified" "Self-identified"
+* extension[race].extension[race].valueCodeableConcept = qc-race#"Black" "Black"
+* extension[race].extension[raceAnotherCategory].valueString = "Fluff"
+* extension[race].extension[raceCollectionMethod].valueCodeableConcept = race-collection-method#"Socially assigned" "Socially assigned"
 
 * extension[vitalStatus].valueCodeableConcept = VitalStatus#"Deceased" "Deceased"

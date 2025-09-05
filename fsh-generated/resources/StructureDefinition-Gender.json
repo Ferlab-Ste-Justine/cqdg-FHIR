@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "SexAtBirth",
-  "url": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",
-  "name": "SexAtBirth",
-  "title": "Ferlab.bio Extension/sex-at-birth",
+  "id": "Gender",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/Gender",
+  "name": "Gender",
+  "title": "Ferlab.bio Extension/gender",
   "status": "active",
-  "description": "Sex at birth for cqdg project",
+  "description": "gender for cqdg project",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -30,8 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Ferlab.bio Extension/sex-at-birth",
-        "definition": "Sex at birth for cqdg project"
+        "short": "Ferlab.bio Extension/gender",
+        "definition": "gender for cqdg project"
       },
       {
         "id": "Extension.extension",
@@ -39,24 +39,24 @@
         "min": 2
       },
       {
-        "id": "Extension.extension:sexAtBirth",
+        "id": "Extension.extension:gender",
         "path": "Extension.extension",
-        "sliceName": "sexAtBirth",
+        "sliceName": "gender",
         "min": 1,
         "max": "1"
       },
       {
-        "id": "Extension.extension:sexAtBirth.extension",
+        "id": "Extension.extension:gender.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:sexAtBirth.url",
+        "id": "Extension.extension:gender.url",
         "path": "Extension.extension.url",
-        "fixedUri": "sexAtBirth"
+        "fixedUri": "gender"
       },
       {
-        "id": "Extension.extension:sexAtBirth.value[x]",
+        "id": "Extension.extension:gender.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -70,7 +70,7 @@
         }
       },
       {
-        "id": "Extension.extension:sexAtBirth.value[x]:valueCodeableConcept",
+        "id": "Extension.extension:gender.value[x]:valueCodeableConcept",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueCodeableConcept",
         "min": 0,
@@ -82,28 +82,28 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs"
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/qc-gender-vs"
         }
       },
       {
-        "id": "Extension.extension:sexAtBirthCollectionMethod",
+        "id": "Extension.extension:genderCollectionMethod",
         "path": "Extension.extension",
-        "sliceName": "sexAtBirthCollectionMethod",
+        "sliceName": "genderCollectionMethod",
         "min": 1,
         "max": "1"
       },
       {
-        "id": "Extension.extension:sexAtBirthCollectionMethod.extension",
+        "id": "Extension.extension:genderCollectionMethod.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:sexAtBirthCollectionMethod.url",
+        "id": "Extension.extension:genderCollectionMethod.url",
         "path": "Extension.extension.url",
-        "fixedUri": "sexAtBirthCollectionMethod"
+        "fixedUri": "genderCollectionMethod"
       },
       {
-        "id": "Extension.extension:sexAtBirthCollectionMethod.value[x]",
+        "id": "Extension.extension:genderCollectionMethod.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -117,7 +117,7 @@
         }
       },
       {
-        "id": "Extension.extension:sexAtBirthCollectionMethod.value[x]:valueCodeableConcept",
+        "id": "Extension.extension:genderCollectionMethod.value[x]:valueCodeableConcept",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueCodeableConcept",
         "min": 0,
@@ -129,28 +129,28 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs"
+          "valueSet": "https://fhir.cqdg.ca/ValueSet/gender-collection-method-vs"
         }
       },
       {
-        "id": "Extension.extension:sexAtBirthAnotherCategory",
+        "id": "Extension.extension:genderAnotherCategory",
         "path": "Extension.extension",
-        "sliceName": "sexAtBirthAnotherCategory",
+        "sliceName": "genderAnotherCategory",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:sexAtBirthAnotherCategory.extension",
+        "id": "Extension.extension:genderAnotherCategory.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:sexAtBirthAnotherCategory.url",
+        "id": "Extension.extension:genderAnotherCategory.url",
         "path": "Extension.extension.url",
-        "fixedUri": "sexAtBirthAnotherCategory"
+        "fixedUri": "genderAnotherCategory"
       },
       {
-        "id": "Extension.extension:sexAtBirthAnotherCategory.value[x]",
+        "id": "Extension.extension:genderAnotherCategory.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -164,7 +164,7 @@
         }
       },
       {
-        "id": "Extension.extension:sexAtBirthAnotherCategory.value[x]:valueString",
+        "id": "Extension.extension:genderAnotherCategory.value[x]:valueString",
         "path": "Extension.extension.value[x]",
         "sliceName": "valueString",
         "min": 0,
@@ -178,7 +178,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth"
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/Gender"
       },
       {
         "id": "Extension.value[x]",

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-09-03T17:56:07+00:00"/>
+  <date value="2025-09-05T17:42:32+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -1078,21 +1078,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/QCGender"/>
+        <reference value="StructureDefinition/Gender"/>
       </reference>
       <name value="Ferlab.bio Extension/gender"/>
       <description value="gender for cqdg project"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/GenderCollectionMethod"/>
-      </reference>
-      <name value="Ferlab.bio Extension/gender-collection-method"/>
-      <description value="gender collection method"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1126,17 +1115,6 @@
       </reference>
       <name value="Ferlab.bio Extension/race"/>
       <description value="race for cqdg project"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/RaceCollectionMethod"/>
-      </reference>
-      <name value="Ferlab.bio Extension/race-collection-method"/>
-      <description value="race collection method for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1192,17 +1170,6 @@
       </reference>
       <name value="Ferlab.bio Extension/sex-at-birth"/>
       <description value="Sex at birth for cqdg project"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/SexAtBirthCollectionMethod"/>
-      </reference>
-      <name value="Ferlab.bio Extension/sex-at-birth-collection-method"/>
-      <description value="Sex at birth collection method for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

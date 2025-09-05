@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2025-09-03T17:56:07+00:00",
+  "date" : "2025-09-05T17:42:32+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -1292,22 +1292,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/QCGender"
+        "reference" : "StructureDefinition/Gender"
       },
       "name" : "Ferlab.bio Extension/gender",
       "description" : "gender for cqdg project",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/GenderCollectionMethod"
-      },
-      "name" : "Ferlab.bio Extension/gender-collection-method",
-      "description" : "gender collection method",
       "exampleBoolean" : false
     },
     {
@@ -1344,18 +1332,6 @@
       },
       "name" : "Ferlab.bio Extension/race",
       "description" : "race for cqdg project",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/RaceCollectionMethod"
-      },
-      "name" : "Ferlab.bio Extension/race-collection-method",
-      "description" : "race collection method for cqdg project",
       "exampleBoolean" : false
     },
     {
@@ -1416,18 +1392,6 @@
       },
       "name" : "Ferlab.bio Extension/sex-at-birth",
       "description" : "Sex at birth for cqdg project",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/SexAtBirthCollectionMethod"
-      },
-      "name" : "Ferlab.bio Extension/sex-at-birth-collection-method",
-      "description" : "Sex at birth collection method for cqdg project",
       "exampleBoolean" : false
     },
     {

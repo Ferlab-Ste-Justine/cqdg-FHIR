@@ -162,7 +162,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-Gender.html" : "Ferlab.bio Extension/gender"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
@@ -219,7 +219,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/gender"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-Gender.html" : "Ferlab.bio Extension/gender"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/race-collection-method-vs",
@@ -231,7 +231,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/race-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-Race.html" : "Ferlab.bio Extension/race"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/race-vs",
@@ -243,7 +243,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/race"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-Race.html" : "Ferlab.bio Extension/race"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs",
@@ -306,7 +306,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-SexAtBirth.html" : "Ferlab.bio Extension/sex-at-birth"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs",
@@ -318,7 +318,7 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/sex-at-birth"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-patient.html" : "Ferlab.bio StructureDefinition/cqdg-patient"
+      "StructureDefinition-SexAtBirth.html" : "Ferlab.bio Extension/sex-at-birth"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-design-vs",
@@ -330,8 +330,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
+      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category",
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",

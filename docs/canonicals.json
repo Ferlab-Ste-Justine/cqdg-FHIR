@@ -308,11 +308,11 @@
     "name" : "FullSizeExtension"
   },
   {
-    "id" : "GenderCollectionMethod",
+    "id" : "Gender",
     "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/Gender",
     "version" : "0.1.0",
-    "name" : "GenderCollectionMethod"
+    "name" : "Gender"
   },
   {
     "id" : "QCEthnicity",
@@ -322,25 +322,11 @@
     "name" : "QCEthnicity"
   },
   {
-    "id" : "QCGender",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/QCGender",
-    "version" : "0.1.0",
-    "name" : "QCGender"
-  },
-  {
     "id" : "Race",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/Race",
     "version" : "0.1.0",
     "name" : "Race"
-  },
-  {
-    "id" : "RaceCollectionMethod",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod",
-    "version" : "0.1.0",
-    "name" : "RaceCollectionMethod"
   },
   {
     "id" : "expectedStudyContent",
@@ -362,13 +348,6 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth",
     "version" : "0.1.0",
     "name" : "SexAtBirth"
-  },
-  {
-    "id" : "SexAtBirthCollectionMethod",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod",
-    "version" : "0.1.0",
-    "name" : "SexAtBirthCollectionMethod"
   },
   {
     "id" : "StudyDesignExtension",

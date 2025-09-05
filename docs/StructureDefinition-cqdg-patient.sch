@@ -15,18 +15,12 @@
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/QCEthnicity': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/QCGender']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/QCGender': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/QCGender']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/QCGender': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/GenderCollectionMethod': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/Gender']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/Gender': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/Gender']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/Gender': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirth']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirth': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirth']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirth': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/SexAtBirthCollectionMethod': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/Race']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/Race': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/Race']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/Race': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/RaceCollectionMethod': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/VitalStatus']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/VitalStatus': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/VitalStatus']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/VitalStatus': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
@@ -45,30 +39,6 @@
   <sch:pattern>
     <sch:title>f:Patient/f:extension</sch:title>
     <sch:rule context="f:Patient/f:extension">
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>

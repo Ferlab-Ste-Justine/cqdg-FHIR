@@ -10,7 +10,7 @@
   "name" : "CQDGResearchStudy",
   "title" : "Ferlab.bio StructureDefinition/cqdg-study",
   "status" : "active",
-  "date" : "2025-09-05T17:42:32+00:00",
+  "date" : "2025-09-12T13:34:32+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -252,7 +252,7 @@
         }],
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/languages"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/languages|4.0.1"
       }
     },
     {
@@ -2874,7 +2874,7 @@
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -3026,7 +3026,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3099,7 +3099,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/PlanDefinition"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/PlanDefinition|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3140,7 +3140,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ResearchStudy"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ResearchStudy|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3241,7 +3241,7 @@
         }],
         "strength" : "extensible",
         "description" : "Codes for the main intent of the study.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-prim-purp-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-prim-purp-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "BRIDG5.1",
@@ -3280,7 +3280,7 @@
         }],
         "strength" : "example",
         "description" : "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-phase"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-phase|4.0.1"
       },
       "mapping" : [{
         "identity" : "clinicaltrials-gov",
@@ -3571,7 +3571,7 @@
         }],
         "strength" : "example",
         "description" : "Identification of the condition or diagnosis.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/condition-code"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/condition-code|4.0.1"
       },
       "mapping" : [{
         "identity" : "clinicaltrials-gov",
@@ -3728,7 +3728,7 @@
         }],
         "strength" : "extensible",
         "description" : "Countries and regions within which this artifact is targeted for use.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/jurisdiction"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1"
       },
       "mapping" : [{
         "identity" : "BRIDG5.1",
@@ -3785,7 +3785,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Group"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Group|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3875,7 +3875,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3918,8 +3918,8 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3958,7 +3958,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Location"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Location|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -4015,7 +4015,7 @@
         }],
         "strength" : "example",
         "description" : "Codes for why the study ended prematurely.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-reason-stopped"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-reason-stopped|4.0.1"
       },
       "mapping" : [{
         "identity" : "clinicaltrials-gov",
@@ -4516,7 +4516,7 @@
         }],
         "strength" : "preferred",
         "description" : "Codes for the kind of study objective.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-objective-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-objective-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "BRIDG5.1",

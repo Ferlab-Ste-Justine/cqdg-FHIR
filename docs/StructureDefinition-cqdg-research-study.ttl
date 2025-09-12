@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "CQDGResearchStudy"] ; # 
   fhir:title [ fhir:v "Ferlab.bio StructureDefinition/cqdg-study"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-05T17:42:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-12T13:34:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -289,8 +289,8 @@
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           fhir:v "http://hl7.org/fhir/ValueSet/languages|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/languages|4.0.1>
          ]
        ]
      ] [
@@ -2941,8 +2941,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3103,8 +3103,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -3180,8 +3180,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/PlanDefinition"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PlanDefinition>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/PlanDefinition|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/PlanDefinition|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -3224,8 +3224,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchStudy"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/ResearchStudy>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchStudy|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ResearchStudy|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -3341,8 +3341,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Codes for the main intent of the study." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/research-study-prim-purp-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/research-study-prim-purp-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/research-study-prim-purp-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/research-study-prim-purp-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3388,8 +3388,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/research-study-phase"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/research-study-phase>
+           fhir:v "http://hl7.org/fhir/ValueSet/research-study-phase|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/research-study-phase|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3701,8 +3701,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "Identification of the condition or diagnosis." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/condition-code"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/condition-code>
+           fhir:v "http://hl7.org/fhir/ValueSet/condition-code|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/condition-code|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3870,8 +3870,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Countries and regions within which this artifact is targeted for use." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/jurisdiction"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/jurisdiction>
+           fhir:v "http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3930,8 +3930,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Group>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Group|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Group|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4020,8 +4020,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4065,11 +4065,11 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Practitioner"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1>
          ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/PractitionerRole"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4110,8 +4110,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Location"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Location>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Location|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Location|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4176,8 +4176,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "Codes for why the study ended prematurely." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/research-study-reason-stopped"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/research-study-reason-stopped>
+           fhir:v "http://hl7.org/fhir/ValueSet/research-study-reason-stopped|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/research-study-reason-stopped|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -4706,8 +4706,8 @@
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "Codes for the kind of study objective." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/research-study-objective-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/research-study-objective-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/research-study-objective-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/research-study-objective-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [

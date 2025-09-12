@@ -3,7 +3,7 @@
   "id" : "vital-status",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vital-status</b></p><a name=\"vital-status\"> </a><a name=\"hcvital-status\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/vital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Alive<a name=\"vital-status-Alive\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Not applicable<a name=\"vital-status-Notapplicable\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"vital-status-Missing-Unknown\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"vital-status-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"vital-status-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"vital-status-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Deceased<a name=\"vital-status-Deceased\"> </a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vital-status</b></p><a name=\"vital-status\"> </a><a name=\"hcvital-status\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/vital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Alive<a name=\"vital-status-Alive\"> </a></td><td>Alive</td></tr><tr><td style=\"white-space:nowrap\">Not applicable<a name=\"vital-status-Notapplicable\"> </a></td><td>Not Applicable</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"vital-status-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"vital-status-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"vital-status-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"vital-status-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Deceased<a name=\"vital-status-Deceased\"> </a></td><td>Deceased</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/vital-status",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-05T17:42:32+00:00",
+  "date" : "2025-09-12T13:34:32+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -30,7 +30,7 @@
   },
   {
     "code" : "Not applicable",
-    "display" : "Not applicable"
+    "display" : "Not Applicable"
   },
   {
     "code" : "Missing - Unknown",
@@ -38,15 +38,15 @@
   },
   {
     "code" : "Missing - Restricted access",
-    "display" : "Missing - Restricted access"
+    "display" : "Missing - Restricted Access"
   },
   {
     "code" : "Missing - Not provided",
-    "display" : "Missing - Not provided"
+    "display" : "Missing - Not Provided"
   },
   {
     "code" : "Missing - Not collected",
-    "display" : "Missing - Not collected"
+    "display" : "Missing - Not Collected"
   },
   {
     "code" : "Deceased",

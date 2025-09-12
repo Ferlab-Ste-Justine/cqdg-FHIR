@@ -35,7 +35,7 @@
   <name value="CQDGResearchStudy"/>
   <title value="Ferlab.bio StructureDefinition/cqdg-study"/>
   <status value="active"/>
-  <date value="2025-09-05T17:42:32+00:00"/>
+  <date value="2025-09-12T13:34:32+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -266,7 +266,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages|4.0.1"/>
       </binding>
     </element>
     <element id="ResearchStudy.text">
@@ -2815,7 +2815,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2963,7 +2963,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3034,7 +3034,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3074,7 +3074,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ResearchStudy"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ResearchStudy|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3171,7 +3171,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="Codes for the main intent of the study."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-prim-purp-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-prim-purp-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="BRIDG5.1"/>
@@ -3208,7 +3208,7 @@
         </extension>
         <strength value="example"/>
         <description value="Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-phase"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-phase|4.0.1"/>
       </binding>
       <mapping>
         <identity value="clinicaltrials-gov"/>
@@ -3487,7 +3487,7 @@
         </extension>
         <strength value="example"/>
         <description value="Identification of the condition or diagnosis."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/condition-code"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/condition-code|4.0.1"/>
       </binding>
       <mapping>
         <identity value="clinicaltrials-gov"/>
@@ -3638,7 +3638,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="Countries and regions within which this artifact is targeted for use."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/jurisdiction"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1"/>
       </binding>
       <mapping>
         <identity value="BRIDG5.1"/>
@@ -3693,7 +3693,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3781,7 +3781,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3823,8 +3823,8 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3862,7 +3862,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3917,7 +3917,7 @@
         </extension>
         <strength value="example"/>
         <description value="Codes for why the study ended prematurely."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-reason-stopped"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-reason-stopped|4.0.1"/>
       </binding>
       <mapping>
         <identity value="clinicaltrials-gov"/>
@@ -4401,7 +4401,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="Codes for the kind of study objective."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-objective-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/research-study-objective-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="BRIDG5.1"/>

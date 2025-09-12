@@ -10,7 +10,7 @@
   "name" : "CQDGSpecimen",
   "title" : "Ferlab.bio StructureDefinition/cqdg-specimen",
   "status" : "active",
-  "date" : "2025-09-05T17:42:32+00:00",
+  "date" : "2025-09-12T13:34:32+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -231,7 +231,7 @@
         }],
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/languages"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/languages|4.0.1"
       }
     },
     {
@@ -658,7 +658,7 @@
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -810,7 +810,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -985,11 +985,11 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/Group",
-        "http://hl7.org/fhir/StructureDefinition/Device",
-        "http://hl7.org/fhir/StructureDefinition/Substance",
-        "http://hl7.org/fhir/StructureDefinition/Location"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/Group|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/Device|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/Substance|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/Location|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1067,7 +1067,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Specimen"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Specimen|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1099,7 +1099,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ServiceRequest"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1284,8 +1284,8 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1395,7 +1395,7 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1448,7 +1448,7 @@
         }],
         "strength" : "example",
         "description" : "The  technique that is used to perform the procedure.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-collection-method"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-collection-method|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -1492,7 +1492,7 @@
         }],
         "strength" : "example",
         "description" : "Codes describing anatomical locations. May include laterality.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/body-site"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/body-site|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -1751,7 +1751,7 @@
         }],
         "strength" : "example",
         "description" : "Type indicating the technique used to process the specimen.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-processing-procedure"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-processing-procedure|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1772,7 +1772,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Substance"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Substance|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2064,7 +2064,7 @@
         }],
         "strength" : "example",
         "description" : "Type of specimen container.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-container-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/specimen-container-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -2089,7 +2089,7 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2124,7 +2124,7 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2162,7 +2162,7 @@
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Substance"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Substance|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",

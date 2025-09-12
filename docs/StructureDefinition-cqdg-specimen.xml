@@ -16,7 +16,7 @@
   <name value="CQDGSpecimen"/>
   <title value="Ferlab.bio StructureDefinition/cqdg-specimen"/>
   <status value="active"/>
-  <date value="2025-09-05T17:42:32+00:00"/>
+  <date value="2025-09-12T13:34:32+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -226,7 +226,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages|4.0.1"/>
       </binding>
     </element>
     <element id="Specimen.text">
@@ -639,7 +639,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -787,7 +787,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -956,11 +956,11 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1036,7 +1036,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Specimen|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1067,7 +1067,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1246,8 +1246,8 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1354,7 +1354,7 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1405,7 +1405,7 @@
         </extension>
         <strength value="example"/>
         <description value="The  technique that is used to perform the procedure."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-collection-method"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-collection-method|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1447,7 +1447,7 @@
         </extension>
         <strength value="example"/>
         <description value="Codes describing anatomical locations. May include laterality."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/body-site"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/body-site|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1696,7 +1696,7 @@
         </extension>
         <strength value="example"/>
         <description value="Type indicating the technique used to process the specimen."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-processing-procedure"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-processing-procedure|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1716,7 +1716,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1998,7 +1998,7 @@
         </extension>
         <strength value="example"/>
         <description value="Type of specimen container."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-container-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/specimen-container-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2022,7 +2022,7 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2056,7 +2056,7 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2093,7 +2093,7 @@
       </type>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>

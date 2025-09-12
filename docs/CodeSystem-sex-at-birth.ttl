@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "sex-at-birth"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sex-at-birth</b></p><a name=\"sex-at-birth\"> </a><a name=\"hcsex-at-birth\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Male<a name=\"sex-at-birth-Male\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"sex-at-birth-Missing-Restrictedaccess\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"sex-at-birth-Missing-Notprovided\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"sex-at-birth-Missing-Notcollected\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"sex-at-birth-Missing-Unknown\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Another Sex<a name=\"sex-at-birth-AnotherSex\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Intersex<a name=\"sex-at-birth-Intersex\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Female<a name=\"sex-at-birth-Female\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sex-at-birth</b></p><a name=\"sex-at-birth\"> </a><a name=\"hcsex-at-birth\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sex-at-birth</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Male<a name=\"sex-at-birth-Male\"> </a></td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"sex-at-birth-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"sex-at-birth-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"sex-at-birth-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"sex-at-birth-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Another Sex<a name=\"sex-at-birth-AnotherSex\"> </a></td><td>Another Sex</td></tr><tr><td style=\"white-space:nowrap\">Intersex<a name=\"sex-at-birth-Intersex\"> </a></td><td>Intersex</td></tr><tr><td style=\"white-space:nowrap\">Female<a name=\"sex-at-birth-Female\"> </a></td><td>Female</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/sex-at-birth"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/sex-at-birth"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-05T17:42:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-12T13:34:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,13 +37,13 @@
      fhir:display [ fhir:v "Male" ]
   ] [
      fhir:code [ fhir:v "Missing - Restricted access" ] ;
-     fhir:display [ fhir:v "Missing - Restricted access" ]
+     fhir:display [ fhir:v "Missing - Restricted Access" ]
   ] [
      fhir:code [ fhir:v "Missing - Not provided" ] ;
-     fhir:display [ fhir:v "Missing - Not provided" ]
+     fhir:display [ fhir:v "Missing - Not Provided" ]
   ] [
      fhir:code [ fhir:v "Missing - Not collected" ] ;
-     fhir:display [ fhir:v "Missing - Not collected" ]
+     fhir:display [ fhir:v "Missing - Not Collected" ]
   ] [
      fhir:code [ fhir:v "Missing - Unknown" ] ;
      fhir:display [ fhir:v "Missing - Unknown" ]

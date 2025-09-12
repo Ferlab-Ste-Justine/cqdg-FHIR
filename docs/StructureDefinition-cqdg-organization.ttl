@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "CQDGOrganization"] ; # 
   fhir:title [ fhir:v "Ferlab.bio StructureDefinition/cqdg-organization"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-05T17:42:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-12T13:34:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -293,8 +293,8 @@
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           fhir:v "http://hl7.org/fhir/ValueSet/languages|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/languages|4.0.1>
          ]
        ]
      ] [
@@ -573,8 +573,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "Used to categorize the organization." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/organization-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/organization-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/organization-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/organization-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -790,8 +790,8 @@
          ] ) ;
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -1010,8 +1010,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "The purpose for which you would contact a contact party." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/contactentity-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/contactentity-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/contactentity-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/contactentity-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -1142,8 +1142,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Endpoint>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Endpoint|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [

@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "qc-gender"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-gender</b></p><a name=\"qc-gender\"> </a><a name=\"hcqc-gender\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">Man<a name=\"qc-gender-Man\"> </a></td><td>Homme</td></tr><tr><td style=\"white-space:nowrap\">Woman<a name=\"qc-gender-Woman\"> </a></td><td>Femme</td></tr><tr><td style=\"white-space:nowrap\">Another Gender<a name=\"qc-gender-AnotherGender\"> </a></td><td>Autre genre</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-gender-Prefernottoanswer\"> </a></td><td>Préfère ne pas répondre</td></tr><tr><td style=\"white-space:nowrap\">Not applicable<a name=\"qc-gender-Notapplicable\"> </a></td><td>Sans objet</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-gender-Missing-Unknown\"> </a></td><td>Manquant - Inconnu</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-gender-Missing-Notcollected\"> </a></td><td>Manquant - Non recueilli</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-gender-Missing-Notprovided\"> </a></td><td>Manquant - Non fourni</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-gender-Missing-Restrictedaccess\"> </a></td><td>Manquant - Accès restreint</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-gender</b></p><a name=\"qc-gender\"> </a><a name=\"hcqc-gender\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">Man<a name=\"qc-gender-Man\"> </a></td><td>Man</td><td>Homme</td></tr><tr><td style=\"white-space:nowrap\">Woman<a name=\"qc-gender-Woman\"> </a></td><td>Woman</td><td>Femme</td></tr><tr><td style=\"white-space:nowrap\">Another Gender<a name=\"qc-gender-AnotherGender\"> </a></td><td>Another Gender</td><td>Autre genre</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-gender-Prefernottoanswer\"> </a></td><td>Prefer not to Answer</td><td>Préfère ne pas répondre</td></tr><tr><td style=\"white-space:nowrap\">Not applicable<a name=\"qc-gender-Notapplicable\"> </a></td><td>Not Applicable</td><td>Sans objet</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-gender-Missing-Unknown\"> </a></td><td>Missing - Unknown</td><td>Manquant - Inconnu</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-gender-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td><td>Manquant - Non recueilli</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-gender-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td><td>Manquant - Non fourni</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-gender-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td><td>Manquant - Accès restreint</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/gender"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/gender"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-05T17:42:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-12T13:34:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -55,14 +55,14 @@
      ] )
   ] [
      fhir:code [ fhir:v "Prefer not to answer" ] ;
-     fhir:display [ fhir:v "Prefer not to answer" ] ;
+     fhir:display [ fhir:v "Prefer not to Answer" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Préfère ne pas répondre" ]
      ] )
   ] [
      fhir:code [ fhir:v "Not applicable" ] ;
-     fhir:display [ fhir:v "Not applicable" ] ;
+     fhir:display [ fhir:v "Not Applicable" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Sans objet" ]
@@ -76,21 +76,21 @@
      ] )
   ] [
      fhir:code [ fhir:v "Missing - Not collected" ] ;
-     fhir:display [ fhir:v "Missing - Not collected" ] ;
+     fhir:display [ fhir:v "Missing - Not Collected" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Manquant - Non recueilli" ]
      ] )
   ] [
      fhir:code [ fhir:v "Missing - Not provided" ] ;
-     fhir:display [ fhir:v "Missing - Not provided" ] ;
+     fhir:display [ fhir:v "Missing - Not Provided" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Manquant - Non fourni" ]
      ] )
   ] [
      fhir:code [ fhir:v "Missing - Restricted access" ] ;
-     fhir:display [ fhir:v "Missing - Restricted access" ] ;
+     fhir:display [ fhir:v "Missing - Restricted Access" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Manquant - Accès restreint" ]

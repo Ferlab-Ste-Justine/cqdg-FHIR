@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="qc-gender"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem qc-gender</b></p><a name="qc-gender"> </a><a name="hcqc-gender"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">Man<a name="qc-gender-Man"> </a></td><td>Homme</td></tr><tr><td style="white-space:nowrap">Woman<a name="qc-gender-Woman"> </a></td><td>Femme</td></tr><tr><td style="white-space:nowrap">Another Gender<a name="qc-gender-AnotherGender"> </a></td><td>Autre genre</td></tr><tr><td style="white-space:nowrap">Prefer not to answer<a name="qc-gender-Prefernottoanswer"> </a></td><td>Préfère ne pas répondre</td></tr><tr><td style="white-space:nowrap">Not applicable<a name="qc-gender-Notapplicable"> </a></td><td>Sans objet</td></tr><tr><td style="white-space:nowrap">Missing - Unknown<a name="qc-gender-Missing-Unknown"> </a></td><td>Manquant - Inconnu</td></tr><tr><td style="white-space:nowrap">Missing - Not collected<a name="qc-gender-Missing-Notcollected"> </a></td><td>Manquant - Non recueilli</td></tr><tr><td style="white-space:nowrap">Missing - Not provided<a name="qc-gender-Missing-Notprovided"> </a></td><td>Manquant - Non fourni</td></tr><tr><td style="white-space:nowrap">Missing - Restricted access<a name="qc-gender-Missing-Restrictedaccess"> </a></td><td>Manquant - Accès restreint</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem qc-gender</b></p><a name="qc-gender"> </a><a name="hcqc-gender"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/gender</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">Man<a name="qc-gender-Man"> </a></td><td>Man</td><td>Homme</td></tr><tr><td style="white-space:nowrap">Woman<a name="qc-gender-Woman"> </a></td><td>Woman</td><td>Femme</td></tr><tr><td style="white-space:nowrap">Another Gender<a name="qc-gender-AnotherGender"> </a></td><td>Another Gender</td><td>Autre genre</td></tr><tr><td style="white-space:nowrap">Prefer not to answer<a name="qc-gender-Prefernottoanswer"> </a></td><td>Prefer not to Answer</td><td>Préfère ne pas répondre</td></tr><tr><td style="white-space:nowrap">Not applicable<a name="qc-gender-Notapplicable"> </a></td><td>Not Applicable</td><td>Sans objet</td></tr><tr><td style="white-space:nowrap">Missing - Unknown<a name="qc-gender-Missing-Unknown"> </a></td><td>Missing - Unknown</td><td>Manquant - Inconnu</td></tr><tr><td style="white-space:nowrap">Missing - Not collected<a name="qc-gender-Missing-Notcollected"> </a></td><td>Missing - Not Collected</td><td>Manquant - Non recueilli</td></tr><tr><td style="white-space:nowrap">Missing - Not provided<a name="qc-gender-Missing-Notprovided"> </a></td><td>Missing - Not Provided</td><td>Manquant - Non fourni</td></tr><tr><td style="white-space:nowrap">Missing - Restricted access<a name="qc-gender-Missing-Restrictedaccess"> </a></td><td>Missing - Restricted Access</td><td>Manquant - Accès restreint</td></tr></table></div>
   </text>
   <url value="https://fhir.cqdg.ca/CodeSystem/gender"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Ferlab.bio CodeSystem/gender"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-05T17:42:32+00:00"/>
+  <date value="2025-09-12T13:34:32+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -50,7 +50,7 @@
   </concept>
   <concept>
     <code value="Prefer not to answer"/>
-    <display value="Prefer not to answer"/>
+    <display value="Prefer not to Answer"/>
     <designation>
       <language value="fr"/>
       <value value="Préfère ne pas répondre"/>
@@ -58,7 +58,7 @@
   </concept>
   <concept>
     <code value="Not applicable"/>
-    <display value="Not applicable"/>
+    <display value="Not Applicable"/>
     <designation>
       <language value="fr"/>
       <value value="Sans objet"/>
@@ -74,7 +74,7 @@
   </concept>
   <concept>
     <code value="Missing - Not collected"/>
-    <display value="Missing - Not collected"/>
+    <display value="Missing - Not Collected"/>
     <designation>
       <language value="fr"/>
       <value value="Manquant - Non recueilli"/>
@@ -82,7 +82,7 @@
   </concept>
   <concept>
     <code value="Missing - Not provided"/>
-    <display value="Missing - Not provided"/>
+    <display value="Missing - Not Provided"/>
     <designation>
       <language value="fr"/>
       <value value="Manquant - Non fourni"/>
@@ -90,7 +90,7 @@
   </concept>
   <concept>
     <code value="Missing - Restricted access"/>
-    <display value="Missing - Restricted access"/>
+    <display value="Missing - Restricted Access"/>
     <designation>
       <language value="fr"/>
       <value value="Manquant - Accès restreint"/>

@@ -9,11 +9,11 @@ Description: "This code system defines the possible methods by which a participa
 
 * #"Self-identified" "Self-identified"
 
-* #"Missing - Restricted access" "Missing - Restricted access"
+* #"Missing - Restricted access" "Missing - Restricted Access"
 
-* #"Missing - Not provided" "Missing - Not provided"
+* #"Missing - Not provided" "Missing - Not Provided"
 
-* #"Missing - Not collected" "Missing - Not collected"
+* #"Missing - Not collected" "Missing - Not Collected"
 
 * #"Missing - Unknown" "Missing - Unknown"
 

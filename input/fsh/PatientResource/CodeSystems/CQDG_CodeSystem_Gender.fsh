@@ -20,11 +20,11 @@ Description: "This code system defines gender concepts used in Ferlab.bio, inclu
 * #"Another Gender" ^designation.language = #fr
 * #"Another Gender" ^designation.value = "Autre genre"
 
-* #"Prefer not to answer" "Prefer not to answer"
+* #"Prefer not to answer" "Prefer not to Answer"
 * #"Prefer not to answer" ^designation.language = #fr
 * #"Prefer not to answer" ^designation.value = "Préfère ne pas répondre"
 
-* #"Not applicable" "Not applicable"
+* #"Not applicable" "Not Applicable"
 * #"Not applicable" ^designation.language = #fr
 * #"Not applicable" ^designation.value = "Sans objet"
 
@@ -32,14 +32,14 @@ Description: "This code system defines gender concepts used in Ferlab.bio, inclu
 * #"Missing - Unknown" ^designation.language = #fr
 * #"Missing - Unknown" ^designation.value = "Manquant - Inconnu"
 
-* #"Missing - Not collected" "Missing - Not collected"
+* #"Missing - Not collected" "Missing - Not Collected"
 * #"Missing - Not collected" ^designation.language = #fr
 * #"Missing - Not collected" ^designation.value = "Manquant - Non recueilli"
 
-* #"Missing - Not provided" "Missing - Not provided"
+* #"Missing - Not provided" "Missing - Not Provided"
 * #"Missing - Not provided" ^designation.language = #fr
 * #"Missing - Not provided" ^designation.value = "Manquant - Non fourni"
 
-* #"Missing - Restricted access" "Missing - Restricted access"
+* #"Missing - Restricted access" "Missing - Restricted Access"
 * #"Missing - Restricted access" ^designation.language = #fr
 * #"Missing - Restricted access" ^designation.value = "Manquant - Accès restreint"

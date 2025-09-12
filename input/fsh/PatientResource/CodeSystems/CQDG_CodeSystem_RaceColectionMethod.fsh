@@ -7,13 +7,13 @@ Description: "This code system defines standardized methods for collecting or re
 * ^experimental = false
 * ^caseSensitive = true
 
-* #"Socially assigned" "Socially assigned"
+* #"Socially assigned" "Socially Assigned"
 
-* #"Missing - Restricted access" "Missing - Restricted access"
+* #"Missing - Restricted access" "Missing - Restricted Access"
 
-* #"Missing - Not provided" "Missing - Not provided"
+* #"Missing - Not provided" "Missing - Not Provided"
 
-* #"Missing - Not collected" "Missing - Not collected"
+* #"Missing - Not collected" "Missing - Not Collected"
 
 * #"Derived" "Derived"
 

@@ -1,3 +1,7 @@
+[CQDGSpecimenTissueSourceMissingCodes]: CodeSystem-cqdg-specimen-missing-codes.html
+[CQDGSpecimenTissueSourceVS]: ValueSet-cqdg-specimen-tissue-source-vs.html
+[CQDGTumorNormalDesignation]: CodeSystem-cqdg-tumor-normal-designation.html
+[CQDGTumorNormalDesignationVS]: ValueSet-cqdg-tumor-normal-designation-vs.html
 [AgeAtOnset]: CodeSystem-age-at-onset.html
 [BioinfoAnalysisCode]: CodeSystem-bioinfo-analysis-code.html
 [CauseOfDeathCodes]: CodeSystem-cause-of-death-codes.html
@@ -43,12 +47,13 @@
 [ObservationPhenotypeExample]: Observation-ObservationPhenotypeExample.html
 [ObservationTumorNormalDesignationExample]: Observation-ObservationTumorNormalDesignationExample.html
 [SpecimenExample]: Specimen-SpecimenExample.html
-[SpecimenExample2]: Specimen-SpecimenExample2.html
 [AccessLimitations]: StructureDefinition-AccessLimitations.html
 [AccessRequirements]: StructureDefinition-AccessRequirements.html
 [AgeAtEvent]: StructureDefinition-AgeAtEvent.html
 [AgeAtRecruitment]: StructureDefinition-AgeAtRecruitment.html
 [AgeOfDeath]: StructureDefinition-AgeOfDeath.html
+[CancerBiospecimenAnatomicLocation]: StructureDefinition-CancerBiospecimenAnatomicLocation.html
+[CancerBiospecimenType]: StructureDefinition-CancerBiospecimenType.html
 [DataCategoryExtension]: StructureDefinition-DataCategoryExtension.html
 [StudyDesignExtension]: StructureDefinition-StudyDesignExtension.html
 [DataCollectionMethodExtension]: StructureDefinition-DataCollectionMethodExtension.html
@@ -64,6 +69,8 @@
 [ResearchProgramPartner]: StructureDefinition-research-program-partner.html
 [ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [SexAtBirth]: StructureDefinition-SexAtBirth.html
+[TumorHistologicalType]: StructureDefinition-TumorHistologicalType.html
+[TumorNormalDesignation]: StructureDefinition-TumorNormalDesignation.html
 [VitalStatus]: StructureDefinition-VitalStatus.html
 [CQDGTask]: StructureDefinition-cqdg-task.html
 [CQDGObservationCauseOfDeath]: StructureDefinition-CQDGObservationCauseOfDeath.html
@@ -113,6 +120,7 @@
 [StudyDesignVS]: ValueSet-study-design-vs.html
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
 [VitalStatusVS]: ValueSet-vital-status-vs.html
+[CancerBiospecimenTypeVS]: ValueSet-ncit-special-codes-vs.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html
 [SequencingExperimentSourceVS]: ValueSet-sequencing-experiment-source-vs.html

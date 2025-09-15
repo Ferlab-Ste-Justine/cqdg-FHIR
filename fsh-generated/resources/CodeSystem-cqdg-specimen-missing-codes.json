@@ -1,0 +1,29 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CQDGSpecimenTissueSourceMissingCodes",
+  "id": "cqdg-specimen-missing-codes",
+  "title": "CQDG Specimen Missing Codes",
+  "description": "Codes for missing specimen data",
+  "url": "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+  "concept": [
+    {
+      "code": "Missing - Restricted access",
+      "display": "Missing - Restricted Access"
+    },
+    {
+      "code": "Missing - Not provided",
+      "display": "Missing - Not Provided"
+    },
+    {
+      "code": "Missing - Not collected",
+      "display": "Missing - Not Collected"
+    },
+    {
+      "code": "Missing - Unknown",
+      "display": "Missing - Unknown"
+    }
+  ],
+  "count": 4
+}

@@ -11,3 +11,11 @@ Title: "Ferlab.bio StructureDefinition/cqdg-specimen"
 * identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
 
 * extension contains AgeAtEvent named ageAt 0..1
+
+* type from CQDGSpecimenTissueSourceVS (required)
+
+* extension contains CancerBiospecimenAnatomicLocation named cancerAnatomicLocation 0..1
+* extension contains TumorHistologicalType named tumorHistologicalType 0..1
+* extension contains CancerBiospecimenType named cancerBiospecimenType 0..1
+* extension contains TumorNormalDesignation named tumorNormalDesignation 1..1
+

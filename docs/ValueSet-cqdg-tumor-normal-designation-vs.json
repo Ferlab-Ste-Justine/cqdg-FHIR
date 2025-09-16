@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cqdg-tumor-normal-designation-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cqdg-tumor-normal-designation-vs</b></p><a name=\"cqdg-tumor-normal-designation-vs\"> </a><a name=\"hccqdg-tumor-normal-designation-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-cqdg-tumor-normal-designation.html\"><code>https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation</code></a></li></ul></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs",
+  "version" : "0.1.0",
+  "name" : "CQDGTumorNormalDesignationVS",
+  "title" : "CQDG Tumor Normal Designation ValueSet",
+  "status" : "active",
+  "date" : "2025-09-16T14:36:01+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "ValueSet for Tumor Normal Designation including CQDG codes",
+  "compose" : {
+    "include" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation"
+    }]
+  }
+}

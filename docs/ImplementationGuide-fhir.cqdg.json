@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2025-09-12T13:34:32+00:00",
+  "date" : "2025-09-16T14:36:01+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -608,6 +608,54 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/cqdg-specimen-missing-codes"
+      },
+      "name" : "CQDG Specimen Missing Codes",
+      "description" : "Codes for missing specimen data",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/cqdg-specimen-tissue-source-vs"
+      },
+      "name" : "CQDG Specimen Tissue Source ValueSet",
+      "description" : "ValueSet for specimen tissue source including NCIT and missing codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/cqdg-tumor-normal-designation"
+      },
+      "name" : "CQDG Tumor Normal Designation Codes",
+      "description" : "Codes for tumor normal designation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/cqdg-tumor-normal-designation-vs"
+      },
+      "name" : "CQDG Tumor Normal Designation ValueSet",
+      "description" : "ValueSet for Tumor Normal Designation including CQDG codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/age-at-onset"
       },
       "name" : "Ferlab.bio CodeSystem/age-at-onset",
@@ -1145,18 +1193,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Specimen"
-      }],
-      "reference" : {
-        "reference" : "Specimen/SpecimenExample2"
-      },
-      "name" : "Ferlab.bio Example/specimen2",
-      "description" : "An example of a specimen",
-      "exampleCanonical" : "https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1212,6 +1248,30 @@
       },
       "name" : "Ferlab.bio Extension/age-of-death",
       "description" : "Patient's age (in days since birth) at the time of death",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/CancerBiospecimenAnatomicLocation"
+      },
+      "name" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location",
+      "description" : "cancer biospecimen anatomic location for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/CancerBiospecimenType"
+      },
+      "name" : "Ferlab.bio Extension/CancerBiospecimenType",
+      "description" : "Extension for selected NCIT codes from NCI Thesaurus.",
       "exampleBoolean" : false
     },
     {
@@ -1392,6 +1452,30 @@
       },
       "name" : "Ferlab.bio Extension/sex-at-birth",
       "description" : "Sex at birth for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/TumorHistologicalType"
+      },
+      "name" : "Ferlab.bio Extension/tumor-histological-type",
+      "description" : "tumor histological type for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/TumorNormalDesignation"
+      },
+      "name" : "Ferlab.bio Extension/tumor-normal-designation",
+      "description" : "tumor normal designation for cqdg project",
       "exampleBoolean" : false
     },
     {
@@ -1980,6 +2064,18 @@
       },
       "name" : "Ferlab.bio ValueSet/vital-status",
       "description" : "Vital Status ValueSet",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ncit-special-codes-vs"
+      },
+      "name" : "NCIT Special Codes ValueSet",
+      "description" : "ValueSet for selected NCIT codes from NCI Thesaurus.",
       "exampleBoolean" : false
     },
     {

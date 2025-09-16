@@ -214,9 +214,22 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
       "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
+      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
       "http://hl7.org/fhir/R4/valueset-c80-doc-typecodes.html" : "Document Type Value Set"
+    },
+    {
+      "url" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NciThesaurus",
+      "title" : "NCI Thesaurus",
+      "description" : "NCI Thesaurus NCI Thesaurus is a biomedical thesaurus created specifically to meet the needs of the cancer research community, especially those engaged in translational research NCI Thesaurus is produced by the NCI Enterprise Vocabulary Services project. The NCI Thesaurus is provided under an open content license.",
+      "oids" : ["2.16.840.1.113883.3.26.1.1"],
+      "uses" : {
+      },
+      "ValueSet-cqdg-specimen-tissue-source-vs.html" : "CQDG Specimen Tissue Source ValueSet",
+      "ValueSet-ncit-special-codes-vs.html" : "NCIT Special Codes ValueSet"
     },
     {
       "url" : "http://purl.obolibrary.org/obo/duo.owl",
@@ -263,19 +276,19 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
-      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes"
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -518,18 +531,6 @@
       "http://hl7.org/fhir/R4/valueset-specimen-processing-procedure.html" : "Specimen processing procedure"
     },
     {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "SpecimenType",
-      "title" : "specimenType",
-      "description" : "HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment.",
-      "oids" : ["2.16.840.1.113883.18.311"],
-      "uses" : {
-      },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
-    },
-    {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
       "version" : "2.0.0",
       "status" : "active",
@@ -635,6 +636,17 @@
       "ValueSet-cqdg-observation-category.html" : "Ferlab.bio ValueSet/cqdg-observation"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGSpecimenTissueSourceMissingCodes",
+      "title" : "CQDG Specimen Missing Codes",
+      "description" : "Codes for missing specimen data",
+      "uses" : {
+      },
+      "ValueSet-cqdg-specimen-tissue-source-vs.html" : "CQDG Specimen Tissue Source ValueSet"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
       "version" : "0.1.0",
       "status" : "active",
@@ -644,6 +656,17 @@
       "uses" : {
       },
       "ValueSet-study-vs.html" : "Ferlab.bio ValueSet/cqdg-study"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGTumorNormalDesignation",
+      "title" : "CQDG Tumor Normal Designation Codes",
+      "description" : "Codes for tumor normal designation",
+      "uses" : {
+      },
+      "ValueSet-cqdg-tumor-normal-designation-vs.html" : "CQDG Tumor Normal Designation ValueSet"
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",

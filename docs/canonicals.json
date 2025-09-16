@@ -42,11 +42,25 @@
     "name" : "CQDGObservationCode"
   },
   {
+    "id" : "cqdg-specimen-missing-codes",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+    "version" : "0.1.0",
+    "name" : "CQDGSpecimenTissueSourceMissingCodes"
+  },
+  {
     "id" : "cqdg-study-cs",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
     "version" : "0.1.0",
     "name" : "CQDGStudyCS"
+  },
+  {
+    "id" : "cqdg-tumor-normal-designation",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+    "version" : "0.1.0",
+    "name" : "CQDGTumorNormalDesignation"
   },
   {
     "id" : "data-category",
@@ -287,6 +301,20 @@
     "name" : "CQDGObservationTumorNormalDesignation"
   },
   {
+    "id" : "CancerBiospecimenAnatomicLocation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation",
+    "version" : "0.1.0",
+    "name" : "CancerBiospecimenAnatomicLocation"
+  },
+  {
+    "id" : "CancerBiospecimenType",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType",
+    "version" : "0.1.0",
+    "name" : "CancerBiospecimenType"
+  },
+  {
     "id" : "DataCategoryExtension",
     "type" : "StructureDefinition",
     "url" : "https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension",
@@ -355,6 +383,20 @@
     "url" : "https://fhir.cqdg.ca/StructureDefinition/StudyDesignExtension",
     "version" : "0.1.0",
     "name" : "StudyDesignExtension"
+  },
+  {
+    "id" : "TumorHistologicalType",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType",
+    "version" : "0.1.0",
+    "name" : "TumorHistologicalType"
+  },
+  {
+    "id" : "TumorNormalDesignation",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation",
+    "version" : "0.1.0",
+    "name" : "TumorNormalDesignation"
   },
   {
     "id" : "VitalStatus",
@@ -546,6 +588,20 @@
     "name" : "CQDGObservationCategory"
   },
   {
+    "id" : "cqdg-specimen-tissue-source-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs",
+    "version" : "0.1.0",
+    "name" : "CQDGSpecimenTissueSourceVS"
+  },
+  {
+    "id" : "cqdg-tumor-normal-designation-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs",
+    "version" : "0.1.0",
+    "name" : "CQDGTumorNormalDesignationVS"
+  },
+  {
     "id" : "data-category-vs",
     "type" : "ValueSet",
     "url" : "https://fhir.cqdg.ca/ValueSet/data-category-vs",
@@ -607,6 +663,13 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/genome-build-vs",
     "version" : "0.1.0",
     "name" : "GenomeBuildVS"
+  },
+  {
+    "id" : "ncit-special-codes-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs",
+    "version" : "0.1.0",
+    "name" : "CancerBiospecimenTypeVS"
   },
   {
     "id" : "phenotype-vs",

@@ -13,6 +13,11 @@
     <sch:title>f:Specimen</sch:title>
     <sch:rule context="f:Specimen">
       <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation']) &gt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation']) &lt;= 1">extension with URL = 'https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

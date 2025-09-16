@@ -1,16 +1,18 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 74, warn = 116, info = 16
+err = 77, warn = 127, info = 19
 IG Publisher Version: 2.0.17
-Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+Generated Tue Sep 16 14:38:45 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 2 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-dataset-cs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-observation-code : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-specimen-missing-codes : 0 / 2 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-study-cs : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-tumor-normal-designation : 0 / 2 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-category : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-collection-method : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-type : 0 / 0 / 1
@@ -49,8 +51,7 @@ Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 1 / 3 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample2 : 1 / 3 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 5 / 6 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 0 / 1
@@ -61,6 +62,8 @@ Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 4 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenType : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 1
@@ -70,6 +73,8 @@ Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Restricted : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-SexAtBirth : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StudyDesignExtension : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorHistologicalType : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorNormalDesignation : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-VitalStatus : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-condition : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-document-reference : 0 / 1 / 1
@@ -99,6 +104,8 @@ Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 0 / 3 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-observation-category : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-category-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-collection-method-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-type-vs : 0 / 1 / 1
@@ -108,6 +115,7 @@ Generated Fri Sep 12 13:36:36 UTC 2025. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-file-format : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-gender-collection-method-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-genome-build-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 0 / 1 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
@@ -158,7 +166,15 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-
 == fsh-generated/resources/CodeSystem-cqdg-dataset-cs.json ==
 WARNING: CodeSystem/cqdg-dataset-cs: CodeSystem: When a CodeSystem has content = 'complete', it doesnt make sense for there to be no concepts defined
 == fsh-generated/resources/CodeSystem-cqdg-observation-code.json ==
+== fsh-generated/resources/CodeSystem-cqdg-specimen-missing-codes.json ==
+INFORMATION: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-cqdg-study-cs.json ==
+== fsh-generated/resources/CodeSystem-cqdg-tumor-normal-designation.json ==
+INFORMATION: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-data-category.json ==
 == fsh-generated/resources/CodeSystem-data-collection-method.json ==
 == fsh-generated/resources/CodeSystem-data-type.json ==
@@ -309,14 +325,15 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Prof
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (this element is [Specimen]; allowed for this version = e:ClinicalImpression)
+WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C12434' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12434)
+WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C12455' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12455)
+WARNING: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C156445' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept): None of the codings provided are in the value set 'NCIT Special Codes ValueSet' (https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156445)
 WARNING: Specimen/SpecimenExample: Specimen.identifier[0].system: No definition could be found for URL value 'https://fhir.cqdg.ca/fhir/Specimen'
-WARNING: Specimen/SpecimenExample: Specimen.type.coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
-== fsh-generated/resources/Specimen-SpecimenExample2.json ==
-INFORMATION: Specimen/SpecimenExample2: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-WARNING: Specimen/SpecimenExample2: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: Specimen/SpecimenExample2: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (this element is [Specimen]; allowed for this version = e:ClinicalImpression)
-WARNING: Specimen/SpecimenExample2: Specimen.identifier[0].system: No definition could be found for URL value 'https://fhir.cqdg.ca/fhir/Specimen'
-WARNING: Specimen/SpecimenExample2: Specimen.type.coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.type.coding[0].code: Unknown Code 'C12434' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Specimen/SpecimenExample: Specimen.type: None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12434)
 == fsh-generated/resources/StructureDefinition-AccessLimitations.json ==
 WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type for AccessLimitations: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-AccessRequirements.json ==
@@ -340,6 +357,10 @@ ERROR: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapsho
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
+== fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation.json ==
+WARNING: StructureDefinition/CancerBiospecimenAnatomicLocation: StructureDefinition.context[0]: Review the extension type for CancerBiospecimenAnatomicLocation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-CancerBiospecimenType.json ==
+WARNING: StructureDefinition/CancerBiospecimenType: StructureDefinition.context[0]: Review the extension type for CancerBiospecimenType: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-DataCategoryExtension.json ==
 WARNING: StructureDefinition/DataCategoryExtension: StructureDefinition.context[0]: Review the extension type for DataCategoryExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension.json ==
@@ -358,6 +379,10 @@ WARNING: StructureDefinition/Restricted: StructureDefinition.context[0]: Review 
 WARNING: StructureDefinition/SexAtBirth: StructureDefinition.context[0]: Review the extension type for SexAtBirth: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-StudyDesignExtension.json ==
 WARNING: StructureDefinition/StudyDesignExtension: StructureDefinition.context[0]: Review the extension type for StudyDesignExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-TumorHistologicalType.json ==
+WARNING: StructureDefinition/TumorHistologicalType: StructureDefinition.context[0]: Review the extension type for TumorHistologicalType: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-TumorNormalDesignation.json ==
+WARNING: StructureDefinition/TumorNormalDesignation: StructureDefinition.context[0]: Review the extension type for TumorNormalDesignation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-VitalStatus.json ==
 WARNING: StructureDefinition/VitalStatus: StructureDefinition.context[0]: Review the extension type for VitalStatus: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-cqdg-condition.json ==
@@ -421,6 +446,11 @@ WARNING: ValueSet/cqdg-diagnosis-vs: ValueSet: Published value sets SHOULD confo
 WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://purl.obolibrary.org/obo/mondo.owl
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs.json ==
+WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+INFORMATION: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): The value set expansion is too large, and only a subset has been displayed
+== fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs.json ==
+WARNING: ValueSet/cqdg-tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
 WARNING: ValueSet/data-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-collection-method-vs.json ==
@@ -439,6 +469,9 @@ WARNING: ValueSet/file-format: ValueSet: Published value sets SHOULD conform to 
 WARNING: ValueSet/gender-collection-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-genome-build-vs.json ==
 WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ncit-special-codes-vs.json ==
+INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[0]: Unknown Code 'C156445' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==
 WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-population-vs.json ==

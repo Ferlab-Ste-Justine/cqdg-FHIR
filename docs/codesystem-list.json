@@ -49,12 +49,28 @@
       "description" : "CQDG Observation codes"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGSpecimenTissueSourceMissingCodes",
+      "title" : "CQDG Specimen Missing Codes",
+      "description" : "Codes for missing specimen data"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "CQDGStudyCS",
       "title" : "Ferlab.bio CodeSystem/cqdg-study",
       "description" : "CQDG study code system"
+    },
+    {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CQDGTumorNormalDesignation",
+      "title" : "CQDG Tumor Normal Designation Codes",
+      "description" : "Codes for tumor normal designation"
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",

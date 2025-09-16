@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-09-12T13:34:32+00:00"/>
+  <date value="2025-09-16T14:36:01+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -446,6 +446,50 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cqdg-specimen-missing-codes"/>
+      </reference>
+      <name value="CQDG Specimen Missing Codes"/>
+      <description value="Codes for missing specimen data"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/cqdg-specimen-tissue-source-vs"/>
+      </reference>
+      <name value="CQDG Specimen Tissue Source ValueSet"/>
+      <description value="ValueSet for specimen tissue source including NCIT and missing codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cqdg-tumor-normal-designation"/>
+      </reference>
+      <name value="CQDG Tumor Normal Designation Codes"/>
+      <description value="Codes for tumor normal designation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/cqdg-tumor-normal-designation-vs"/>
+      </reference>
+      <name value="CQDG Tumor Normal Designation ValueSet"/>
+      <description value="ValueSet for Tumor Normal Designation including CQDG codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
@@ -943,17 +987,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Specimen"/>
-      </extension>
-      <reference>
-        <reference value="Specimen/SpecimenExample2"/>
-      </reference>
-      <name value="Ferlab.bio Example/specimen2"/>
-      <description value="An example of a specimen"/>
-      <exampleCanonical value="https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1005,6 +1038,28 @@
       </reference>
       <name value="Ferlab.bio Extension/age-of-death"/>
       <description value="Patient's age (in days since birth) at the time of death"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CancerBiospecimenAnatomicLocation"/>
+      </reference>
+      <name value="Ferlab.bio Extension/cancer-biospecimen-anatomic-location"/>
+      <description value="cancer biospecimen anatomic location for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CancerBiospecimenType"/>
+      </reference>
+      <name value="Ferlab.bio Extension/CancerBiospecimenType"/>
+      <description value="Extension for selected NCIT codes from NCI Thesaurus."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1170,6 +1225,28 @@
       </reference>
       <name value="Ferlab.bio Extension/sex-at-birth"/>
       <description value="Sex at birth for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TumorHistologicalType"/>
+      </reference>
+      <name value="Ferlab.bio Extension/tumor-histological-type"/>
+      <description value="tumor histological type for cqdg project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TumorNormalDesignation"/>
+      </reference>
+      <name value="Ferlab.bio Extension/tumor-normal-designation"/>
+      <description value="tumor normal designation for cqdg project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1709,6 +1786,17 @@
       </reference>
       <name value="Ferlab.bio ValueSet/vital-status"/>
       <description value="Vital Status ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ncit-special-codes-vs"/>
+      </reference>
+      <name value="NCIT Special Codes ValueSet"/>
+      <description value="ValueSet for selected NCIT codes from NCI Thesaurus."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

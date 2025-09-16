@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cqdg-specimen-tissue-source-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cqdg-specimen-tissue-source-vs</b></p><a name=\"cqdg-specimen-tissue-source-vs\"> </a><a name=\"hccqdg-specimen-tissue-source-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-nciThesaurus.html\"><code>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-cqdg-specimen-missing-codes.html\"><code>https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes</code></a></li></ul></div>"
+  },
+  "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs",
+  "version" : "0.1.0",
+  "name" : "CQDGSpecimenTissueSourceVS",
+  "title" : "CQDG Specimen Tissue Source ValueSet",
+  "status" : "active",
+  "date" : "2025-09-16T14:36:01+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "ValueSet for specimen tissue source including NCIT and missing codes",
+  "compose" : {
+    "include" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+    },
+    {
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"
+    }]
+  }
+}

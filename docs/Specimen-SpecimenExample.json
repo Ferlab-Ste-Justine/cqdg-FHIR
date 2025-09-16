@@ -9,14 +9,64 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen SpecimenExample</b></p><a name=\"SpecimenExample\"> </a><a name=\"hcSpecimenExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-specimen.html\">Ferlab.bio StructureDefinition/cqdg-specimen</a></p><p style=\"margin-bottom: 0px\">Tag: CAG (Details: [not stated] code CAG)</p></div><p><b>Ferlab.bio Extension/age-at-event</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0030674}\">Antenatal</span></p><p><b>identifier</b>: <code>https://fhir.cqdg.ca/fhir/Specimen</code>/SpecimenExample, cag_sp_25565\u00a0(use:\u00a0secondary,\u00a0)</p><p><b>type</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/ncit.owl NCIT:C12434}\">DNA</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434\u00a0(use:\u00a0secondary,\u00a0))</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen SpecimenExample</b></p><a name=\"SpecimenExample\"> </a><a name=\"hcSpecimenExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-specimen.html\">Ferlab.bio StructureDefinition/cqdg-specimen</a></p><p style=\"margin-bottom: 0px\">Tag: CAG (Details: [not stated] code CAG)</p></div><p><b>Ferlab.bio Extension/tumor-normal-designation</b>: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation Tumor}\">Tumor</span></p><p><b>Ferlab.bio Extension/age-at-event</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0030674}\">Antenatal</span></p><blockquote><p><b>Ferlab.bio Extension/cancer-biospecimen-anatomic-location</b></p><ul><li>ncitCode: <span title=\"Codes:{http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl C12434}\">C12434</span></li><li>sourceText: Left lung lobe</li></ul></blockquote><blockquote><p><b>Ferlab.bio Extension/tumor-histological-type</b></p><ul><li>ncitCode: <span title=\"Codes:{http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl C12455}\">C12455</span></li><li>sourceText: Something carcinoma</li></ul></blockquote><p><b>Ferlab.bio Extension/CancerBiospecimenType</b>: <span title=\"Codes:{http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl C156445}\">C156445</span></p><p><b>identifier</b>: <code>https://fhir.cqdg.ca/fhir/Specimen</code>/SpecimenExample, cag_sp_25565\u00a0(use:\u00a0secondary,\u00a0)</p><p><b>type</b>: <span title=\"Codes:{http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl C12434}\">DNA</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434\u00a0(use:\u00a0secondary,\u00a0))</a></p></div>"
   },
   "extension" : [{
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+        "code" : "Tumor"
+      }]
+    }
+  },
+  {
     "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://purl.obolibrary.org/obo/hp.owl",
         "code" : "HP:0030674"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "ncitCode",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code" : "C12434"
+        }]
+      }
+    },
+    {
+      "url" : "sourceText",
+      "valueString" : "Left lung lobe"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation"
+  },
+  {
+    "extension" : [{
+      "url" : "ncitCode",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code" : "C12455"
+        }]
+      }
+    },
+    {
+      "url" : "sourceText",
+      "valueString" : "Something carcinoma"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code" : "C156445"
       }]
     }
   }],
@@ -30,8 +80,8 @@
   }],
   "type" : {
     "coding" : [{
-      "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-      "code" : "NCIT:C12434",
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C12434",
       "display" : "DNA"
     }]
   },

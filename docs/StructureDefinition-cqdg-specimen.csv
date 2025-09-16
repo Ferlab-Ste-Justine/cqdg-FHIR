@@ -20,12 +20,28 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "Specimen.contained","Specimen.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"Specimen.extension","Specimen.extension","","","",0,*,"","","","Extension {[]} {[]}
+"Specimen.extension","Specimen.extension","","","",1,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.extension:ageAt","Specimen.extension","ageAt","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent]]} {[]}
 ","Age at event","Age at the time of medical consultation","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:cancerAnatomicLocation","Specimen.extension","cancerAnatomicLocation","","",0,1,"","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation]]} {[]}
+","Ferlab.bio Extension/cancer-biospecimen-anatomic-location","cancer biospecimen anatomic location for cqdg project","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:tumorHistologicalType","Specimen.extension","tumorHistologicalType","","",0,1,"","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType]]} {[]}
+","Ferlab.bio Extension/tumor-histological-type","tumor histological type for cqdg project","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:cancerBiospecimenType","Specimen.extension","cancerBiospecimenType","","",0,1,"","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType]]} {[]}
+","Ferlab.bio Extension/CancerBiospecimenType","Extension for selected NCIT codes from NCI Thesaurus.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:tumorNormalDesignation","Specimen.extension","tumorNormalDesignation","","",1,1,"","","","Extension {[CanonicalType[https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation]]} {[]}
+","Ferlab.bio Extension/tumor-normal-designation","tumor normal designation for cqdg project","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.modifierExtension","Specimen.modifierExtension","","extensions
@@ -73,7 +89,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","available | unavailable | unsatisfactory | entered-in-error","The availability of the specimen.","This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.","","","","","","","","",,"required","Codes providing the status/availability of a specimen.","http://hl7.org/fhir/ValueSet/specimen-status|4.0.1","",,,,"Specimen.status",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","status","FiveWs.status","SPM-20"
 "Specimen.type","Specimen.type","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Kind of material that forms the specimen","The kind of material that forms the specimen.","The type can change the way that a specimen is handled and drives what kind of analyses can properly be performed on the specimen. It is frequently used in diagnostic work flow decision making systems.","","","","","","","","",,"example","The type of the specimen.","http://terminology.hl7.org/ValueSet/v2-0487","",,,,"Specimen.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Kind of material that forms the specimen","The kind of material that forms the specimen.","The type can change the way that a specimen is handled and drives what kind of analyses can properly be performed on the specimen. It is frequently used in diagnostic work flow decision making systems.","","","","","","","","",,"required","","https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs","",,,,"Specimen.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".code","FiveWs.what[x]","SPM-4 and possibly SPM-5"
 "Specimen.subject","Specimen.subject","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Group|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|4.0.1]]}
 ","Where the specimen came from. This may be from patient(s), from a location (e.g., the source of an environmental sample), or a sampling of a substance or a device","Where the specimen came from. This may be from patient(s), from a location (e.g., the source of an environmental sample), or a sampling of a substance or a device.","","Must know the subject context.","","","","","","","",,,,,"",,,,"Specimen.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

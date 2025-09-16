@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Ferlab.bio Example/specimen2 - TTL Representation -  v0.1.0</title>
+    <title>CQDG Tumor Normal Designation ValueSet - TTL Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.118"}
-    h3,h4,h5,h6{--heading-prefix:"2.118"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.46"}
+    h3,h4,h5,h6{--heading-prefix:"2.46"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -102,7 +102,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ferlab.bio Example/specimen2</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CQDG Tumor Normal Designation ValueSet</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -128,21 +128,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Specimen-SpecimenExample2.html">Narrative Content</a>
+    <a href="ValueSet-cqdg-tumor-normal-designation-vs.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Specimen-SpecimenExample2.xml.html">XML</a>
+      <a href="ValueSet-cqdg-tumor-normal-designation-vs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Specimen-SpecimenExample2.json.html">JSON</a>
+      <a href="ValueSet-cqdg-tumor-normal-designation-vs.json.html">JSON</a>
     </li>
   
 
@@ -161,10 +161,25 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Ferlab.bio Example/specimen2 - TTL Representation</h2>
+<h2 id="root">: CQDG Tumor Normal Designation ValueSet - TTL Representation</h2>
+
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2025-09-16
+          
+        
+      </td>
+
+    </tr>
+  </table>
 
 
-<p><a href="Specimen-SpecimenExample2.ttl" no-download="true">Raw ttl</a> | <a href="Specimen-SpecimenExample2.ttl" download>Download</a></p>
+<p><a href="ValueSet-cqdg-tumor-normal-designation-vs.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-cqdg-tumor-normal-designation-vs.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -180,46 +195,31 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Specimen ;
+ a fhir:ValueSet ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;SpecimenExample2&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen&gt;     ] ) ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.tag">fhir:tag</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CAG&quot; ]     ] )
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;cqdg-tumor-normal-designation-vs&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet cqdg-tumor-normal-designation-vs&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;cqdg-tumor-normal-designation-vs\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hccqdg-tumor-normal-designation-vs\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-cqdg-tumor-normal-designation.html\&quot;&gt;&lt;code&gt;https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Specimen SpecimenExample2&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;SpecimenExample2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcSpecimenExample2\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-cqdg-specimen.html\&quot;&gt;Ferlab.bio StructureDefinition/cqdg-specimen&lt;/a&gt;&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Tag: CAG (Details: [not stated] code CAG)&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio Extension/age-at-event&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0003584}\&quot;&gt;Senior (&amp;gt;= 60 years)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://fhir.cqdg.ca/fhir/Specimen&lt;/code&gt;/SpecimenExample2, cag_sp_05569 (use: secondary, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://purl.obolibrary.org/obo/ncit.owl NCIT:C99999}\&quot;&gt;NCIT:C99999&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-PatientExample.html\&quot;&gt;Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;parent&lt;/b&gt;: &lt;a href=\&quot;Specimen-SpecimenExample.html\&quot;&gt;Specimen: extension = Antenatal; identifier = https://fhir.cqdg.ca/fhir/Specimen#SpecimenExample,cag_sp_25565 (use: secondary, ); type = DNA&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.extension">fhir:extension</a> ( [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://purl.obolibrary.org/obo/hp.owl&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003584&quot; ]       ] )     ]
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CQDGTumorNormalDesignationVS&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CQDG Tumor Normal Designation ValueSet&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-16T14:36:01+00:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ferlab.bio&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ferlab.bio&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://example.org/example-publisher&quot; ]     ] )
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.cqdg.ca/fhir/Specimen&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SpecimenExample2&quot; ]
-  ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;secondary&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;cag_sp_05569&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.type">fhir:type</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://purl.obolibrary.org/obo/ncit.owl&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;NCIT:C99999&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/PatientExample&quot; ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.parent">fhir:parent</a> ( [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Specimen/SpecimenExample&quot; ]
-  ] ) . # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;ValueSet for Tumor Normal Designation including CQDG codes&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation&quot;^^xsd:anyURI ]     ] )
+  ] . # 
 
 </code></pre>
 
@@ -246,7 +246,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 12, 2025 13:35+0000">2025-09-12</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 16, 2025 14:37+0000">2025-09-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

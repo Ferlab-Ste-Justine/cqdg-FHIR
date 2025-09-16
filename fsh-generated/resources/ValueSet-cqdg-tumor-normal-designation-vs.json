@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CQDGTumorNormalDesignationVS",
+  "id": "cqdg-tumor-normal-designation-vs",
+  "title": "CQDG Tumor Normal Designation ValueSet",
+  "description": "ValueSet for Tumor Normal Designation including CQDG codes",
+  "url": "https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation"
+      }
+    ]
+  }
+}

@@ -18,31 +18,19 @@ Description: "An example of a specimen"
 * extension[ageAt].valueCodeableConcept = $HPO#"HP:0030674"
 
 
-* type.coding[0].system = $NCIT
-* type.coding[0].code = #NCIT:C12434
+* type.coding[0].system = $NCIThesaurus
+* type.coding[0].code = #C12434
 * type.coding[0].display = "DNA"
 
-// -----------------------------------------------------
-// example instance of profile defined
-Instance: SpecimenExample2
-InstanceOf: CQDGSpecimen
-Title: "Ferlab.bio Example/specimen2"
-Description: "An example of a specimen"
+* extension[cancerAnatomicLocation].extension[ncitCode].valueCodeableConcept = $NCIThesaurus#C12434
+* extension[cancerAnatomicLocation].extension[sourceText].valueString = "Left lung lobe"
+* extension[cancerAnatomicLocation].url = "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation"
 
-* meta.tag[0].code = #CAG
+* extension[tumorHistologicalType].extension[ncitCode].valueCodeableConcept = $NCIThesaurus#C12455
+* extension[tumorHistologicalType].extension[sourceText].valueString = "Something carcinoma"
+* extension[tumorHistologicalType].url = "https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType"
 
-// sample or biospecimen identifier
-* identifier[CQDG_ID].system = "https://fhir.cqdg.ca/fhir/Specimen"
-* identifier[CQDG_ID].value = "SpecimenExample2"
-* identifier[1].use = #secondary
-* identifier[=].value = "cag_sp_05569"
+* extension[cancerBiospecimenType].valueCodeableConcept = $NCIThesaurus#C156445
+* extension[cancerBiospecimenType].url = "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType"
 
-* type.coding[0].system = $NCIT
-* type.coding[0].code = #NCIT:C99999
-
-* subject = Reference(Patient/PatientExample)
-
-* parent = Reference(Specimen/SpecimenExample)
-
-* extension[ageAt].valueCodeableConcept = $HPO#"HP:0003584"
-
+* extension[tumorNormalDesignation].valueCodeableConcept = CQDGTumorNormalDesignation#Tumor

@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CQDGTumorNormalDesignation",
+  "id": "cqdg-tumor-normal-designation",
+  "title": "CQDG Tumor Normal Designation Codes",
+  "description": "Codes for tumor normal designation",
+  "url": "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+  "concept": [
+    {
+      "code": "Normal",
+      "display": "Normal"
+    },
+    {
+      "code": "Tumor",
+      "display": "Tumor"
+    },
+    {
+      "code": "Not applicable",
+      "display": "Not applicable"
+    }
+  ],
+  "count": 3
+}

@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ncit-special-codes-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name="ncit-special-codes-vs"> </a><a name="hcncit-special-codes-vs"> </a><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-nciThesaurus.html"><code>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C156445</td><td>Derived Cell Line</td></tr><tr><td>156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>156441</td><td>Sample Derived from New Primary</td></tr><tr><td>164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>C18009</td><td>Tumor Tissue</td></tr><tr><td>C162623</td><td>Normal Tissue Segment</td></tr><tr><td>C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name="ncit-special-codes-vs"> </a><a name="hcncit-special-codes-vs"> </a><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C156445</td><td>Derived Cell Line</td></tr><tr><td>156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>156441</td><td>Sample Derived from New Primary</td></tr><tr><td>164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>C18009</td><td>Tumor Tissue</td></tr><tr><td>C162623</td><td>Normal Tissue Segment</td></tr><tr><td>C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>
   </text>
   <url value="https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs"/>
   <version value="0.1.0"/>
   <name value="CancerBiospecimenTypeVS"/>
   <title value="NCIT Special Codes ValueSet"/>
   <status value="active"/>
-  <date value="2025-09-18T19:56:42+00:00"/>
+  <date value="2025-09-18T20:45:23+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -22,7 +22,7 @@
   <description value="ValueSet for selected NCIT codes from NCI Thesaurus."/>
   <compose>
     <include>
-      <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
       <concept>
         <code value="C156445"/>
         <display value="Derived Cell Line"/>

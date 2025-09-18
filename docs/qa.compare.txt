@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 77, warn = 138, info = 19
+err = 79, warn = 151, info = 18
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
@@ -51,7 +51,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 5 / 6 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 1 / 15 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 0 / 1
@@ -104,7 +104,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 0 / 3 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-observation-category : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 3 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-category-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-collection-method-vs : 0 / 1 / 1
@@ -115,7 +115,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-file-format : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-gender-collection-method-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-genome-build-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 6 / 3 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
@@ -336,15 +336,20 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Prof
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Specimen/SpecimenExample: Specimen: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent is not allowed to be used at this point (this element is [Specimen]; allowed for this version = e:ClinicalImpression)
-WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C12434' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-ERROR: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12434)
-WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C12455' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-ERROR: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12455)
-WARNING: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C156445' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-ERROR: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept): None of the codings provided are in the value set 'NCIT Special Codes ValueSet' (https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156445)
+WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept): A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept): A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.extension[4].value.ofType(CodeableConcept): A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
 WARNING: Specimen/SpecimenExample: Specimen.identifier[0].system: No definition could be found for URL value 'https://fhir.cqdg.ca/fhir/Specimen'
-WARNING: Specimen/SpecimenExample: Specimen.type.coding[0].code: Unknown Code 'C12434' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-ERROR: Specimen/SpecimenExample: Specimen.type: None of the codings provided are in the value set 'CQDG Specimen Tissue Source ValueSet' (https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0), and a coding from this value set is required) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12434)
+WARNING: Specimen/SpecimenExample: Specimen.type.coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+WARNING: Specimen/SpecimenExample: Specimen.type: Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
+WARNING: Specimen/SpecimenExample: Specimen.type: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs|0.1.0' because the code system http://purl.obolibrary.org/obo/ncit.owl was not found
 == fsh-generated/resources/StructureDefinition-AccessLimitations.json ==
 WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type for AccessLimitations: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-AccessRequirements.json ==
@@ -458,8 +463,9 @@ WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.or
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs.json ==
+WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-INFORMATION: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): The value set expansion is too large, and only a subset has been displayed
+WARNING: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl
 == fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs.json ==
 WARNING: ValueSet/cqdg-tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
@@ -481,8 +487,16 @@ WARNING: ValueSet/gender-collection-method-vs: ValueSet: Published value sets SH
 == fsh-generated/resources/ValueSet-genome-build-vs.json ==
 WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-ncit-special-codes-vs.json ==
-INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[0]: Unknown Code 'C156445' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+WARNING: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
+INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[1]: The code '156440' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[2]: The code '156441' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[3]: The code '164032' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[4]: The code 'C18009' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[5]: The code 'C162623' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
+ERROR: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].concept[6]: The code 'C156443' is not valid in the system http://purl.obolibrary.org/obo/ncit.owl (A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated)
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==
 WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-population-vs.json ==

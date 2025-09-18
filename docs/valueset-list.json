@@ -74,8 +74,8 @@
       "title" : "CQDG Specimen Tissue Source ValueSet",
       "description" : "ValueSet for specimen tissue source including NCIT and missing codes",
       "systems" : [
-        "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"
+        "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+        "http://purl.obolibrary.org/obo/ncit.owl"
       ]
     },
     {
@@ -177,7 +177,7 @@
       "name" : "CancerBiospecimenTypeVS",
       "title" : "NCIT Special Codes ValueSet",
       "description" : "ValueSet for selected NCIT codes from NCI Thesaurus.",
-      "systems" : ["http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"]
+      "systems" : ["http://purl.obolibrary.org/obo/ncit.owl"]
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/phenotype-vs",

@@ -1,19 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "NciThesaurus",
-      "title" : "NCI Thesaurus",
-      "description" : "NCI Thesaurus NCI Thesaurus is a biomedical thesaurus created specifically to meet the needs of the cancer research community, especially those engaged in translational research NCI Thesaurus is produced by the NCI Enterprise Vocabulary Services project. The NCI Thesaurus is provided under an open content license.",
-      "oids" : ["2.16.840.1.113883.3.26.1.1"],
-      "uses" : {
-      },
-      "ValueSet-cqdg-specimen-tissue-source-vs.html" : "CQDG Specimen Tissue Source ValueSet",
-      "ValueSet-ncit-special-codes-vs.html" : "NCIT Special Codes ValueSet"
-    },
-    {
       "url" : "http://purl.obolibrary.org/obo/duo.owl",
       "version" : "0.1.0",
       "status" : "active",

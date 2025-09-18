@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "CQDGObservationFamilyRelationship"] ; # 
   fhir:title [ fhir:v "Ferlab.bio StructureDefinition/family-relationship"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-16T14:36:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-18T19:56:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -413,8 +413,8 @@
        fhir:short [ fhir:v "Profiles this resource claims to conform to" ] ;
        fhir:definition [ fhir:v "A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url)." ] ;
        fhir:comment [ fhir:v "It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Meta.profile" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -490,8 +490,8 @@
        fhir:short [ fhir:v "Tags applied to this resource" ] ;
        fhir:definition [ fhir:v "Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource." ] ;
        fhir:comment [ fhir:v "The tags can be updated without changing the stated version of the resource. The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:min [ fhir:v "2"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "2" ] ;
        fhir:base [
          fhir:path [ fhir:v "Meta.tag" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;

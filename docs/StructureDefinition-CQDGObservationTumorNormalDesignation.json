@@ -10,7 +10,7 @@
   "name" : "CQDGObservationTumorNormalDesignation",
   "title" : "Ferlab.bio StructureDefinition/tumor-normal-designation",
   "status" : "active",
-  "date" : "2025-09-16T14:36:01+00:00",
+  "date" : "2025-09-18T19:56:42+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -377,8 +377,8 @@
       "short" : "Profiles this resource claims to conform to",
       "definition" : "A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url).",
       "comment" : "It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set.",
-      "min" : 0,
-      "max" : "1",
+      "min" : 1,
+      "max" : "*",
       "base" : {
         "path" : "Meta.profile",
         "min" : 0,
@@ -441,8 +441,8 @@
       "short" : "Tags applied to this resource",
       "definition" : "Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource.",
       "comment" : "The tags can be updated without changing the stated version of the resource. The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored.",
-      "min" : 0,
-      "max" : "1",
+      "min" : 2,
+      "max" : "2",
       "base" : {
         "path" : "Meta.tag",
         "min" : 0,

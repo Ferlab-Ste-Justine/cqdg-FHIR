@@ -32,8 +32,9 @@
       <sch:assert test="count(f:versionId) &lt;= 1">versionId: maximum cardinality of 'versionId' is 1</sch:assert>
       <sch:assert test="count(f:lastUpdated) &lt;= 1">lastUpdated: maximum cardinality of 'lastUpdated' is 1</sch:assert>
       <sch:assert test="count(f:source) &lt;= 1">source: maximum cardinality of 'source' is 1</sch:assert>
-      <sch:assert test="count(f:profile) &lt;= 1">profile: maximum cardinality of 'profile' is 1</sch:assert>
-      <sch:assert test="count(f:tag) &lt;= 1">tag: maximum cardinality of 'tag' is 1</sch:assert>
+      <sch:assert test="count(f:profile) &gt;= 1">profile: minimum cardinality of 'profile' is 1</sch:assert>
+      <sch:assert test="count(f:tag) &gt;= 2">tag: minimum cardinality of 'tag' is 2</sch:assert>
+      <sch:assert test="count(f:tag) &lt;= 2">tag: maximum cardinality of 'tag' is 2</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

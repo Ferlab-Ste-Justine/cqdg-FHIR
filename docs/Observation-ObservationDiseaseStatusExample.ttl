@@ -13,11 +13,16 @@
      fhir:profile ( [
        fhir:v "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus"^^xsd:anyURI ;
        fhir:link <https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus>
+     ] ) ;
+     fhir:tag ( [
+       fhir:code [ fhir:v "tag1" ]
+     ] [
+       fhir:code [ fhir:v "tag2" ]
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ObservationDiseaseStatusExample</b></p><a name=\"ObservationDiseaseStatusExample\"> </a><a name=\"hcObservationDiseaseStatusExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CQDGObservationDiseaseStatus.html\">Ferlab.bio StructureDefinition/disease-status</a></p></div><p><b>status</b>: Registered</p><p><b>code</b>: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code Disease-Status}\">Disease-Status observation</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</a></p><p><b>value</b>: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/disease-status Affected}\">Affected</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ObservationDiseaseStatusExample</b></p><a name=\"ObservationDiseaseStatusExample\"> </a><a name=\"hcObservationDiseaseStatusExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CQDGObservationDiseaseStatus.html\">Ferlab.bio StructureDefinition/disease-status</a></p><p style=\"margin-bottom: 0px\">Tags: tag1 (Details: [not stated] code tag1), tag2 (Details: [not stated] code tag2)</p></div><p><b>status</b>: Registered</p><p><b>code</b>: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code Disease-Status}\">Disease-Status observation</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</a></p><p><b>value</b>: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/disease-status Affected}\">Affected</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "registered"] ; # 
   fhir:code [

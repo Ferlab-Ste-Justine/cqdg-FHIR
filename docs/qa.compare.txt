@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 77, warn = 127, info = 19
+err = 77, warn = 138, info = 19
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
@@ -43,13 +43,13 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/List-ExampleCQDGProgramGroup : 37 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 2 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationFamilyRelationshipExample : 3 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample : 0 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 2 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationFamilyRelationshipExample : 3 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 2 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 5 / 6 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
@@ -277,29 +277,40 @@ ERROR: List/ExampleCQDGProgramGroup: List.extension[0].extension[4].extension[7]
 WARNING: List/ExampleCQDGProgramGroup: List.extension[0].extension[5].extension[2].value.ofType(url): No definition could be found for URL value '/partners_logos/FRQS.svg'
 WARNING: List/ExampleCQDGProgramGroup: List.extension[0].extension[6].extension[2].value.ofType(url): No definition could be found for URL value '/partners_logos/FRQS2.svg'
 == fsh-generated/resources/Observation-ObservationCauseOfDeathExample.json ==
+WARNING: Observation/ObservationCauseOfDeathExample: Observation.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Observation/ObservationCauseOfDeathExample: Observation.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationDiseaseStatusExample.json ==
+WARNING: Observation/ObservationDiseaseStatusExample: Observation.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Observation/ObservationDiseaseStatusExample: Observation.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Observation/ObservationDiseaseStatusExample: Observation.value.ofType(CodeableConcept).coding[0].code: Unknown code 'Affected' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/disease-status' version '0.1.0'
 ERROR: Observation/ObservationDiseaseStatusExample: Observation.value.ofType(CodeableConcept): None of the codings provided are in the value set 'Ferlab.bio ValueSet/disease-status' (https://fhir.cqdg.ca/ValueSet/disease-status-vs|0.1.0), and a coding from this value set is required) (codes = https://fhir.cqdg.ca/CodeSystem/disease-status#Affected)
 WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationDiseaseStatusExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationFamilyRelationshipExample.json ==
+WARNING: Observation/ObservationFamilyRelationshipExample: Observation.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Observation/ObservationFamilyRelationshipExample: Observation.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Observation/ObservationFamilyRelationshipExample: Observation.focus[0]: Unable to resolve resource with reference 'Patient/PatientExample2'
 ERROR: Observation/ObservationFamilyRelationshipExample: Observation.value.ofType(CodeableConcept).coding[0].system: The System URI could not be determined for the code 'https://fhir.cqdg.ca/CodeSystem/v3-role-code' in the ValueSet 'https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0'
 ERROR: Observation/ObservationFamilyRelationshipExample: Observation.value.ofType(CodeableConcept).coding[0].system: The value provided ('https://fhir.cqdg.ca/CodeSystem/v3-role-code') was not found in the value set 'Ferlab.bio ValueSet/relationship-to-proband' (https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'https://fhir.cqdg.ca/CodeSystem/v3-role-code' in the ValueSet 'https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0'; The provided code '#https://fhir.cqdg.ca/CodeSystem/v3-role-code' was not found in the value set 'https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs|0.1.0')
 WARNING: Observation/ObservationFamilyRelationshipExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationFamilyRelationshipExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationPhenotypeExample.json ==
+WARNING: Observation/ObservationPhenotypeExample: Observation.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Observation/ObservationPhenotypeExample: Observation.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Observation/ObservationPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationPhenotypeExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample.json ==
+WARNING: Observation/ObservationTumorNormalDesignationExample: Observation.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Observation/ObservationTumorNormalDesignationExample: Observation.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Observation/ObservationTumorNormalDesignationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ObservationTumorNormalDesignationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Organization-OrganizationExample.json ==
 WARNING: Organization/OrganizationExample: Organization.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 == fsh-generated/resources/Patient-PatientExample.json ==
 WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Patient/PatientExample: Patient.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment is not allowed to be used at this point (this element is [Patient]; allowed for this version = e:ClinicalImpression)
 ERROR: Patient/PatientExample: Patient: The extension https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath is not allowed to be used at this point (this element is [Patient]; allowed for this version = e:ClinicalImpression)
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==

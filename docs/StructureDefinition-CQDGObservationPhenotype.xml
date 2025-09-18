@@ -19,7 +19,7 @@
   <name value="CQDGObservationPhenotype"/>
   <title value="Ferlab.bio StructureDefinition/phenotype"/>
   <status value="active"/>
-  <date value="2025-09-16T14:36:01+00:00"/>
+  <date value="2025-09-18T19:56:42+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -372,8 +372,8 @@
       <short value="Profiles this resource claims to conform to"/>
       <definition value="A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url)."/>
       <comment value="It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set."/>
-      <min value="0"/>
-      <max value="1"/>
+      <min value="1"/>
+      <max value="*"/>
       <base>
         <path value="Meta.profile"/>
         <min value="0"/>
@@ -433,8 +433,8 @@
       <short value="Tags applied to this resource"/>
       <definition value="Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource."/>
       <comment value="The tags can be updated without changing the stated version of the resource. The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored."/>
-      <min value="0"/>
-      <max value="1"/>
+      <min value="2"/>
+      <max value="2"/>
       <base>
         <path value="Meta.tag"/>
         <min value="0"/>

@@ -4,8 +4,8 @@ Description: "An example of a cqdg group"
 Id: cqdg-observation-group
 Title: "Ferlab.bio StructureDefinition/cqdg-observation"
 
-* meta.profile ..1
-* meta.tag ..1
+* meta.profile 1..*
+* meta.tag 2..2
 
 
 Profile: CQDGObservationTumorNormalDesignation

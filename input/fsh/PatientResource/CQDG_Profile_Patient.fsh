@@ -7,8 +7,8 @@ Title: "Ferlab.bio StructureDefinition/cqdg-patient"
 * ^url = "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
 * ^version = "0.1.0"
 
-* meta.profile ..1
-* meta.tag ..1
+* meta.profile 1..*
+* meta.tag 2..2
 
 * extension contains
     AgeOfDeath named ageOfDeath 0..1 and

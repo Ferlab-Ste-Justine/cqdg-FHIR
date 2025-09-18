@@ -6,6 +6,7 @@ Usage: #example
 
 * meta.profile = "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"
 * meta.tag[0].code = #CAG
+* meta.tag[1].code = #tag2
 
 * identifier[0].use = #secondary
 * identifier[0].value = "343434343434"

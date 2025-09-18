@@ -45,12 +45,13 @@
       {
         "id": "Patient.meta.profile",
         "path": "Patient.meta.profile",
-        "max": "1"
+        "min": 1
       },
       {
         "id": "Patient.meta.tag",
         "path": "Patient.meta.tag",
-        "max": "1"
+        "min": 2,
+        "max": "2"
       },
       {
         "id": "Patient.extension",

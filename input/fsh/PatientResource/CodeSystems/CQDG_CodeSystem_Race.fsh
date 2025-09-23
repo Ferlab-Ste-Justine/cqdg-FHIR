@@ -20,7 +20,7 @@ Description: "This code system defines standardized categories for documenting a
 
 * #"Prefer not to answer" "Prefer not to Answer"
 
-* #"Do not know" "Do not know"
+* #"Do not know" "Do not Know"
 
 * #"Another Racial Category" "Another Racial Category"
 

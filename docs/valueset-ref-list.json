@@ -85,9 +85,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-TumorHistologicalType.html" : "Ferlab.bio Extension/tumor-histological-type",
       "StructureDefinition-CancerBiospecimenAnatomicLocation.html" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location",
-      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
-      "StructureDefinition-TumorHistologicalType.html" : "Ferlab.bio Extension/tumor-histological-type"
+      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs",
@@ -113,8 +113,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-      "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category"
+      "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category",
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs",

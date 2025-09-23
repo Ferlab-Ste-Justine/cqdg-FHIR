@@ -15,6 +15,8 @@ Description: "This code system defines standardized methods for collecting or re
 
 * #"Missing - Not collected" "Missing - Not Collected"
 
+* #"Missing - Unknown" "Missing - Unknown"
+
 * #"Derived" "Derived"
 
 * #"Self-identified" "Self-identified"

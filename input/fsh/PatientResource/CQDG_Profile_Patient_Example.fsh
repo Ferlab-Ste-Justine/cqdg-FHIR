@@ -17,7 +17,7 @@ Usage: #example
 
 * extension[ageOfDeath].valueCodeableConcept = $HPO#"HP:0003584"
 
-* extension[ethnicity].valueCodeableConcept = $QCETH#"Arabe"
+* extension[ethnicity].valueCodeableConcept = $QCETH#"Arab"
 
 * extension[gender].extension[gender].valueCodeableConcept = qc-gender#"Man" "Man"
 * extension[gender].extension[genderAnotherCategory].valueString = "Non-binary, self-described"

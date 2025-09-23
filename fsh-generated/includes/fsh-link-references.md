@@ -23,6 +23,7 @@
 [QCEthnicity]: CodeSystem-qc-ethnicity.html
 [Race]: CodeSystem-qc-race.html
 [RaceCollectionMethod]: CodeSystem-race-collection-method.html
+[RelationshipToProband]: CodeSystem-relationship-to-proband.html
 [ResearchDomain]: CodeSystem-research-domain.html
 [SequencingExperimentSelection]: CodeSystem-sequencing-experiment-selection.html
 [SequencingExperimentSource]: CodeSystem-sequencing-experiment-source.html
@@ -30,7 +31,6 @@
 [SexAtBirthCollectionMethod]: CodeSystem-sex-at-birth-collection-method.html
 [StudyDesign]: CodeSystem-study-design.html
 [TumorNormalDesignation]: CodeSystem-tumor-normal-designation.html
-[V3RoleCode]: CodeSystem-v3-role-code.html
 [VitalStatus]: CodeSystem-vital-status.html
 [ConditionExample]: Condition-ConditionExample.html
 [DocumentReferenceExample1]: DocumentReference-DocumentReferenceExample1.html

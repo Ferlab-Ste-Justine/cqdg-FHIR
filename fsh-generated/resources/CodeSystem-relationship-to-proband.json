@@ -2,10 +2,10 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "V3RoleCode",
-  "id": "v3-role-code",
-  "title": "Ferlab.bio CodeSystem/v3-roles",
-  "url": "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+  "name": "RelationshipToProband",
+  "id": "relationship-to-proband",
+  "title": "Ferlab.bio CodeSystem/relationship-to-proband",
+  "url": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband",
   "concept": [
     {
       "code": "Proband",
@@ -14,7 +14,7 @@
         {
           "use": {
             "code": "Proband",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Proband"
         }
@@ -27,7 +27,7 @@
         {
           "use": {
             "code": "Mother",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Mother"
         }
@@ -40,7 +40,7 @@
         {
           "use": {
             "code": "Father",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Father"
         }
@@ -53,7 +53,7 @@
         {
           "use": {
             "code": "Brother",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Brother"
         }
@@ -66,7 +66,7 @@
         {
           "use": {
             "code": "Sister",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Sister"
         }
@@ -79,7 +79,7 @@
         {
           "use": {
             "code": "Half-brother",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Half-brother"
         }
@@ -92,7 +92,7 @@
         {
           "use": {
             "code": "Half-sister",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Half-sister"
         }
@@ -105,7 +105,7 @@
         {
           "use": {
             "code": "Identical-twin",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Identical twin"
         }
@@ -118,7 +118,7 @@
         {
           "use": {
             "code": "Fraternal-twin-brother",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Fraternal twin brother"
         }
@@ -131,7 +131,7 @@
         {
           "use": {
             "code": "Fraternal-twin-sister",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Fraternal twin sister"
         }
@@ -144,7 +144,7 @@
         {
           "use": {
             "code": "Son",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Son"
         }
@@ -157,7 +157,7 @@
         {
           "use": {
             "code": "Daughter",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Daughter"
         }
@@ -170,7 +170,7 @@
         {
           "use": {
             "code": "Other",
-            "system": "https://fhir.cqdg.ca/CodeSystem/v3-role-code"
+            "system": "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"
           },
           "value": "Other"
         }
@@ -178,7 +178,7 @@
     }
   ],
   "experimental": false,
-  "description": "V3 role code",
+  "description": "relationship to proband codes",
   "caseSensitive": true,
   "count": 13
 }

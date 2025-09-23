@@ -233,6 +233,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/relationship-to-proband"
+        },
+        "name": "Ferlab.bio CodeSystem/relationship-to-proband",
+        "description": "relationship to proband codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/research-domain"
         },
         "name": "Ferlab.bio CodeSystem/research-domain",
@@ -285,14 +293,6 @@
         },
         "name": "Ferlab.bio CodeSystem/tumor-normal-designation",
         "description": "Tumor normal designation",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/v3-role-code"
-        },
-        "name": "Ferlab.bio CodeSystem/v3-roles",
-        "description": "V3 role code",
         "exampleBoolean": false
       },
       {

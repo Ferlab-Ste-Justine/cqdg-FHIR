@@ -16,21 +16,21 @@ Description: "Classification of people living in Quebec in a named category of h
 * #"English Canadian" ^designation.language = #fr
 * #"English Canadian" ^designation.value = "Canadien Anglais"
 
-* #"First Nations, Metis and Inuit people" "First Nations, Metis and Inuit people" "Person who are descendants of the natives or the indigenous peoples of the Americas"
-* #"First Nations, Metis and Inuit people" ^designation.language = #fr
-* #"First Nations, Metis and Inuit people" ^designation.value = "Premières Nations, Métis et Inuits du Canada"
+* #"First Nation, Inuit, Metis" "First Nation, Inuit, Metis" "Person who are descendants of the natives or the indigenous peoples of the Americas"
+* #"First Nation, Inuit, Metis" ^designation.language = #fr
+* #"First Nation, Inuit, Metis" ^designation.value = "Premières Nations, Métis et Inuits du Canada"
 
-* #"European Caucasian" "European Caucasian" "Anyone from or whose ancestors originate from the European continent (excluding French Canadians)."
-* #"European Caucasian" ^designation.language = #fr
-* #"European Caucasian" ^designation.value = "Caucasien Européen"
+* #"European" "European" "Anyone from or whose ancestors originate from the European continent (excluding French Canadians)."
+* #"European" ^designation.language = #fr
+* #"European" ^designation.value = "Caucasien Européen"
 
-* #"Arabe" "Arabe"
-* #"Arabe" ^designation.language = #fr
-* #"Arabe" ^designation.value = "Arab"
+* #"Arab" "Arab"
+* #"Arab" ^designation.language = #fr
+* #"Arab" ^designation.value = "Arabe"
 
-* #"Hispanic and Latino Americans" "Hispanic and Latino Americans" "Canadian or Quebecois who are descendants of people from Latin America"
-* #"Hispanic and Latino Americans" ^designation.language = #fr
-* #"Hispanic and Latino Americans" ^designation.value = "Hispanique"
+* #"Latin American" "Latin American" "Canadian or Quebecois who are descendants of people from Latin America"
+* #"Latin American" ^designation.language = #fr
+* #"Latin American" ^designation.value = "Hispanique"
 
 * #"African or Caribbean" "African or Caribbean" "Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa."
 * #"African or Caribbean" ^designation.language = #fr

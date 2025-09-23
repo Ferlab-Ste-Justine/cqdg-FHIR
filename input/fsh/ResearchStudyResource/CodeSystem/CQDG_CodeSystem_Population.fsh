@@ -19,6 +19,6 @@ Title: "Ferlab.bio CodeSystem/population"
 * #"Adult" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Adult
 * #"Adult" ^designation.value = "Adult"
 
-* #"Pediatric-and-Adult" "Pediatric and Adult"
-* #"Pediatric-and-Adult" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Pediatric-and-Adult
-* #"Pediatric-and-Adult" ^designation.value = "Pediatric and Adult"
+* #"Pediatric and Adult" "Pediatric and Adult"
+* #"Pediatric and Adult" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Pediatric-and-Adult
+* #"Pediatric and Adult" ^designation.value = "Pediatric and Adult"

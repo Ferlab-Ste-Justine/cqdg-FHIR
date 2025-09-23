@@ -1,4 +1,4 @@
-CodeSystem: TumorNormalDesignation
+CodeSystem: TumorNormalDesignationCodeSystem
 Id: tumor-normal-designation
 Title: "Ferlab.bio CodeSystem/tumor-normal-designation"
 

@@ -1,4 +1,4 @@
-CodeSystem: SexAtBirth
+CodeSystem: SexAtBirthCodeSystem
 Id: sex-at-birth
 Title: "Ferlab.bio CodeSystem/sex-at-birth"
 Description: "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets."

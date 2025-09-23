@@ -1,4 +1,4 @@
-CodeSystem: RelationshipToProband
+CodeSystem: RelationshipToProbandCodeSystem
 Id: relationship-to-proband
 Title: "Ferlab.bio CodeSystem/relationship-to-proband"
 

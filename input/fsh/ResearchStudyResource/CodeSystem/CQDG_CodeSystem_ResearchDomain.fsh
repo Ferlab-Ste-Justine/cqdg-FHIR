@@ -1,4 +1,4 @@
-CodeSystem: ResearchDomain
+CodeSystem: ResearchDomainCodeSystem
 Id: research-domain
 Title: "Ferlab.bio CodeSystem/research-domain"
 

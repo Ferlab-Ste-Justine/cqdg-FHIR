@@ -9,55 +9,19 @@
   "concept": [
     {
       "code": "Fetal",
-      "display": "Fetal",
-      "designation": [
-        {
-          "use": {
-            "code": "Fetal",
-            "system": "https://fhir.cqdg.ca/CodeSystem/population"
-          },
-          "value": "Fetal"
-        }
-      ]
+      "display": "Fetal"
     },
     {
       "code": "Pediatric",
-      "display": "Pediatric",
-      "designation": [
-        {
-          "use": {
-            "code": "Pediatric",
-            "system": "https://fhir.cqdg.ca/CodeSystem/population"
-          },
-          "value": "Pediatric"
-        }
-      ]
+      "display": "Pediatric"
     },
     {
       "code": "Adult",
-      "display": "Adult",
-      "designation": [
-        {
-          "use": {
-            "code": "Adult",
-            "system": "https://fhir.cqdg.ca/CodeSystem/population"
-          },
-          "value": "Adult"
-        }
-      ]
+      "display": "Adult"
     },
     {
       "code": "Pediatric and Adult",
-      "display": "Pediatric and Adult",
-      "designation": [
-        {
-          "use": {
-            "code": "Pediatric-and-Adult",
-            "system": "https://fhir.cqdg.ca/CodeSystem/population"
-          },
-          "value": "Pediatric and Adult"
-        }
-      ]
+      "display": "Pediatric and Adult"
     }
   ],
   "experimental": false,

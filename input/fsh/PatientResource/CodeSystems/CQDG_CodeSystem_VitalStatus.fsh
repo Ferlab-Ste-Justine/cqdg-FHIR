@@ -1,4 +1,4 @@
-CodeSystem: VitalStatus
+CodeSystem: VitalStatusCodeSystem
 Id: vital-status
 Title: "Ferlab.bio CodeSystem/vital-status"
 Description: "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets."

@@ -31,4 +31,4 @@ Usage: #example
 * extension[race].extension[raceAnotherCategory].valueString = "Fluff"
 * extension[race].extension[raceCollectionMethod].valueCodeableConcept = race-collection-method#"Socially assigned" "Socially assigned"
 
-* extension[vitalStatus].valueCodeableConcept = VitalStatus#"Deceased" "Deceased"
+* extension[vitalStatus].valueCodeableConcept = VitalStatusCodeSystem#"Deceased" "Deceased"

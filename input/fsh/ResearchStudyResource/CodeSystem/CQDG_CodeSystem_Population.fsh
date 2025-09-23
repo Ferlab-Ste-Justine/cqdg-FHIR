@@ -8,17 +8,9 @@ Title: "Ferlab.bio CodeSystem/population"
 * ^caseSensitive = true
 
 * #"Fetal" "Fetal"
-* #"Fetal" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Fetal
-* #"Fetal" ^designation.value = "Fetal"
 
 * #"Pediatric" "Pediatric"
-* #"Pediatric" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Pediatric
-* #"Pediatric" ^designation.value = "Pediatric"
 
 * #"Adult" "Adult"
-* #"Adult" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Adult
-* #"Adult" ^designation.value = "Adult"
 
 * #"Pediatric and Adult" "Pediatric and Adult"
-* #"Pediatric and Adult" ^designation.use = https://fhir.cqdg.ca/CodeSystem/population#Pediatric-and-Adult
-* #"Pediatric and Adult" ^designation.value = "Pediatric and Adult"

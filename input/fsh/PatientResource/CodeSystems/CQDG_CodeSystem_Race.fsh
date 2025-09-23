@@ -1,5 +1,4 @@
-// Code system originally from CLIN, with modifications
-CodeSystem: Race
+CodeSystem: RaceCodeSystem
 Id: qc-race
 Title: "Ferlab.bio CodeSystem/race"
 Description: "This code system defines standardized categories for documenting a participant's race within clinical and research datasets."

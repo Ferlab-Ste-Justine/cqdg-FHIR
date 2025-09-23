@@ -1,0 +1,1010 @@
+[
+  {
+    "outputFile": "CodeSystem-age-at-onset.json",
+    "fshName": "AgeAtOnset",
+    "fshType": "CodeSystem",
+    "fshFile": "Common/CQDG_CodeSystem_AgeAtOnset.fsh",
+    "startLine": 1,
+    "endLine": 45
+  },
+  {
+    "outputFile": "CodeSystem-bioinfo-analysis-code.json",
+    "fshName": "BioinfoAnalysisCode",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_BioinfoAnalysisCode.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-cause-of-death-codes.json",
+    "fshName": "CauseOfDeathCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_CauseOfDeath.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "CodeSystem-cqdg-dataset-cs.json",
+    "fshName": "CQDGDatasetCS",
+    "fshType": "CodeSystem",
+    "fshFile": "Common/CQDG_CodeSystem_Dataset.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "CodeSystem-cqdg-observation-code.json",
+    "fshName": "CQDGObservationCode",
+    "fshType": "CodeSystem",
+    "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_ObservationCode.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-cqdg-specimen-missing-codes.json",
+    "fshName": "CQDGSpecimenTissueSourceMissingCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "SpecimenResource/CodeSytem/CQDG_CodeSystem_TissueSource.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "CodeSystem-cqdg-study-cs.json",
+    "fshName": "CQDGStudyCS",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_Study.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-cqdg-tumor-normal-designation.json",
+    "fshName": "CQDGTumorNormalDesignationCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "SpecimenResource/CodeSytem/CQDG_CodeSystem_TumorNormalDesignation.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "CodeSystem-data-category.json",
+    "fshName": "DataCategory",
+    "fshType": "CodeSystem",
+    "fshFile": "Common/CQDG_CodeSystem_DataCategory.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "CodeSystem-data-collection-method.json",
+    "fshName": "DataCollectionMethod",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_DataCollectionMethod.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "CodeSystem-data-type.json",
+    "fshName": "DataType",
+    "fshType": "CodeSystem",
+    "fshFile": "DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DataType.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "CodeSystem-disease-status.json",
+    "fshName": "DiseaseStatusCS",
+    "fshType": "CodeSystem",
+    "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_DiseaseStatus.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-document-format.json",
+    "fshName": "DocumentFormat",
+    "fshType": "CodeSystem",
+    "fshFile": "DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DocumentFormat.fsh",
+    "startLine": 1,
+    "endLine": 52
+  },
+  {
+    "outputFile": "CodeSystem-duo-codes.json",
+    "fshName": "DUOCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_DUOCodes.fsh",
+    "startLine": 1,
+    "endLine": 78
+  },
+  {
+    "outputFile": "CodeSystem-experimental-strategy.json",
+    "fshName": "ExperimentalStrategy",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_ExperimentalStrategy.fsh",
+    "startLine": 1,
+    "endLine": 69
+  },
+  {
+    "outputFile": "CodeSystem-family-type.json",
+    "fshName": "FamilyType",
+    "fshType": "CodeSystem",
+    "fshFile": "GroupResource/CodeSystems/CQDG_CodeSystem_FamilyType.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-gender-collection-method.json",
+    "fshName": "GenderCollectionMethod",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_GenderCollectionMethod.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-genome-build.json",
+    "fshName": "GenomeBuild",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_GenomeBuild.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-population.json",
+    "fshName": "Population",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_Population.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-qc-ethnicity.json",
+    "fshName": "QCEthnicityCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_Ethnicity.fsh",
+    "startLine": 1,
+    "endLine": 52
+  },
+  {
+    "outputFile": "CodeSystem-qc-gender.json",
+    "fshName": "QCGender",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_Gender.fsh",
+    "startLine": 2,
+    "endLine": 45
+  },
+  {
+    "outputFile": "CodeSystem-qc-race.json",
+    "fshName": "RaceCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_Race.fsh",
+    "startLine": 1,
+    "endLine": 38
+  },
+  {
+    "outputFile": "CodeSystem-race-collection-method.json",
+    "fshName": "RaceCollectionMethod",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_RaceColectionMethod.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "CodeSystem-relationship-to-proband.json",
+    "fshName": "RelationshipToProbandCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_RelationshipToProband.fsh",
+    "startLine": 1,
+    "endLine": 60
+  },
+  {
+    "outputFile": "CodeSystem-research-domain.json",
+    "fshName": "ResearchDomainCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_ResearchDomain.fsh",
+    "startLine": 1,
+    "endLine": 64
+  },
+  {
+    "outputFile": "CodeSystem-sequencing-experiment-selection.json",
+    "fshName": "SequencingExperimentSelection",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-selection.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "CodeSystem-sequencing-experiment-source.json",
+    "fshName": "SequencingExperimentSource",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-source.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-sex-at-birth-collection-method.json",
+    "fshName": "SexAtBirthCollectionMethod",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_SexAtBirthCollectionMethod.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-sex-at-birth.json",
+    "fshName": "SexAtBirthCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_SexAtBirth.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-study-design.json",
+    "fshName": "StudyDesign",
+    "fshType": "CodeSystem",
+    "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_StudyDesign.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "CodeSystem-tumor-normal-designation.json",
+    "fshName": "TumorNormalDesignationCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_TumorNormalDesignationCodes.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-vital-status.json",
+    "fshName": "VitalStatusCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "PatientResource/CodeSystems/CQDG_CodeSystem_VitalStatus.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Condition-ConditionExample.json",
+    "fshName": "ConditionExample",
+    "fshType": "Instance",
+    "fshFile": "ConditionResource/CQDG_Profile_Condition_Exemple.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "DocumentReference-DocumentReferenceExample1.json",
+    "fshName": "DocumentReferenceExample1",
+    "fshType": "Instance",
+    "fshFile": "DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "DocumentReference-DocumentReferenceExample2.json",
+    "fshName": "DocumentReferenceExample2",
+    "fshType": "Instance",
+    "fshFile": "DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh",
+    "startLine": 26,
+    "endLine": 44
+  },
+  {
+    "outputFile": "Group-CQDGGroupExample.json",
+    "fshName": "CQDGGroupExample",
+    "fshType": "Instance",
+    "fshFile": "GroupResource/Examples/CQDG_Profile_Group_Example.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "List-ExampleCQDGProgramGroup.json",
+    "fshName": "ExampleCQDGProgramGroup",
+    "fshType": "Instance",
+    "fshFile": "ListProgram/Examples/CQDG_Profile_Program_Example.fsh",
+    "startLine": 1,
+    "endLine": 57
+  },
+  {
+    "outputFile": "Observation-ObservationCauseOfDeathExample.json",
+    "fshName": "ObservationCauseOfDeathExample",
+    "fshType": "Instance",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation_Example.fsh",
+    "startLine": 43,
+    "endLine": 56
+  },
+  {
+    "outputFile": "Observation-ObservationDiseaseStatusExample.json",
+    "fshName": "ObservationDiseaseStatusExample",
+    "fshType": "Instance",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation_Example.fsh",
+    "startLine": 20,
+    "endLine": 39
+  },
+  {
+    "outputFile": "Observation-ObservationFamilyRelationshipExample.json",
+    "fshName": "ObservationFamilyRelationshipExample",
+    "fshType": "Instance",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation_Example.fsh",
+    "startLine": 77,
+    "endLine": 97
+  },
+  {
+    "outputFile": "Observation-ObservationPhenotypeExample.json",
+    "fshName": "ObservationPhenotypeExample",
+    "fshType": "Instance",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation_Example.fsh",
+    "startLine": 2,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-ObservationTumorNormalDesignationExample.json",
+    "fshName": "ObservationTumorNormalDesignationExample",
+    "fshType": "Instance",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation_Example.fsh",
+    "startLine": 60,
+    "endLine": 73
+  },
+  {
+    "outputFile": "Organization-OrganizationExample.json",
+    "fshName": "OrganizationExample",
+    "fshType": "Instance",
+    "fshFile": "OrganizationResource/CQDG_Profile_Organization_example.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "Patient-PatientExample.json",
+    "fshName": "PatientExample",
+    "fshType": "Instance",
+    "fshFile": "PatientResource/CQDG_Profile_Patient_Example.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "ResearchStudy-ResearchStudyExample.json",
+    "fshName": "ResearchStudyExample",
+    "fshType": "Instance",
+    "fshFile": "ResearchStudyResource/CQDG_Profile_ResearchStudy_Example.fsh",
+    "startLine": 1,
+    "endLine": 75
+  },
+  {
+    "outputFile": "Specimen-SpecimenExample.json",
+    "fshName": "SpecimenExample",
+    "fshType": "Instance",
+    "fshFile": "SpecimenResource/CQDG_Profile_Specimen_example.fsh",
+    "startLine": 2,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-AccessLimitations.json",
+    "fshName": "AccessLimitations",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_AccessLimitations.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-AccessRequirements.json",
+    "fshName": "AccessRequirements",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_AccessReqirements.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-AgeAtEvent.json",
+    "fshName": "AgeAtEvent",
+    "fshType": "Extension",
+    "fshFile": "Common/CQDG_Extension_AgeAtEvent.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-AgeAtRecruitment.json",
+    "fshName": "AgeAtRecruitment",
+    "fshType": "Extension",
+    "fshFile": "Common/CQDG_Extension_AgeAtEvent.fsh",
+    "startLine": 29,
+    "endLine": 41
+  },
+  {
+    "outputFile": "StructureDefinition-AgeOfDeath.json",
+    "fshName": "AgeOfDeath",
+    "fshType": "Extension",
+    "fshFile": "Common/CQDG_Extension_AgeAtEvent.fsh",
+    "startLine": 14,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-CQDGObservationCauseOfDeath.json",
+    "fshName": "CQDGObservationCauseOfDeath",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 36,
+    "endLine": 45
+  },
+  {
+    "outputFile": "StructureDefinition-CQDGObservationDiseaseStatus.json",
+    "fshName": "CQDGObservationDiseaseStatus",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 25,
+    "endLine": 32
+  },
+  {
+    "outputFile": "StructureDefinition-CQDGObservationFamilyRelationship.json",
+    "fshName": "CQDGObservationFamilyRelationship",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 62,
+    "endLine": 71
+  },
+  {
+    "outputFile": "StructureDefinition-CQDGObservationPhenotype.json",
+    "fshName": "CQDGObservationPhenotype",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 49,
+    "endLine": 58
+  },
+  {
+    "outputFile": "StructureDefinition-CQDGObservationTumorNormalDesignation.json",
+    "fshName": "CQDGObservationTumorNormalDesignation",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 11,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-CancerBiospecimenAnatomicLocation.json",
+    "fshName": "CancerBiospecimenAnatomicLocation",
+    "fshType": "Extension",
+    "fshFile": "SpecimenResource/Extensions/CQDG_Extension_CancerBiospecimenAnatomicLocation.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-CancerBiospecimenType.json",
+    "fshName": "CancerBiospecimenType",
+    "fshType": "Extension",
+    "fshFile": "SpecimenResource/Extensions/CQDG_Extension_CancerBiospecimenType.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-DataCategoryExtension.json",
+    "fshName": "DataCategoryExtension",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_DataCategory.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-DataCollectionMethodExtension.json",
+    "fshName": "DataCollectionMethodExtension",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_DataCollectionMethod.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-FullSizeExtension.json",
+    "fshName": "FullSizeExtension",
+    "fshType": "Extension",
+    "fshFile": "DocumentReferenceResource/Extensions/CQDG_Extension_Full-Size.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-Gender.json",
+    "fshName": "Gender",
+    "fshType": "Extension",
+    "fshFile": "PatientResource/Extensions/CQDG_Extension_Gender.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-QCEthnicity.json",
+    "fshName": "QCEthnicity",
+    "fshType": "Extension",
+    "fshFile": "PatientResource/Extensions/CQDG_Extension_QCEthnicity.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-Race.json",
+    "fshName": "Race",
+    "fshType": "Extension",
+    "fshFile": "PatientResource/Extensions/CQDG_Extension_Race.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-Restricted.json",
+    "fshName": "Restricted",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_Restricted.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-SexAtBirth.json",
+    "fshName": "SexAtBirth",
+    "fshType": "Extension",
+    "fshFile": "PatientResource/Extensions/CQDG_Extension_SexAtBirth.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-StudyDesignExtension.json",
+    "fshName": "StudyDesignExtension",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_StudyDesign.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-TumorHistologicalType.json",
+    "fshName": "TumorHistologicalType",
+    "fshType": "Extension",
+    "fshFile": "SpecimenResource/Extensions/CQDG_Extension_TumorHistologicalType.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-TumorNormalDesignation.json",
+    "fshName": "TumorNormalDesignation",
+    "fshType": "Extension",
+    "fshFile": "SpecimenResource/Extensions/CQDG_Extension_TumorNormalDesignation.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-VitalStatus.json",
+    "fshName": "VitalStatus",
+    "fshType": "Extension",
+    "fshFile": "PatientResource/Extensions/CQDG_Extension_VitalStatus.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-condition.json",
+    "fshName": "CQDG_Condition",
+    "fshType": "Profile",
+    "fshFile": "ConditionResource/CQDG_Profile_Condition.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-document-reference.json",
+    "fshName": "CQDGDocumentReference",
+    "fshType": "Profile",
+    "fshFile": "DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-group.json",
+    "fshName": "CQDGGroup",
+    "fshType": "Profile",
+    "fshFile": "GroupResource/CQDG_Profile_Group.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-observation-group.json",
+    "fshName": "CQDGObservationGroup",
+    "fshType": "Profile",
+    "fshFile": "ObservationResource/CQDG_Profile_Observation.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-organization.json",
+    "fshName": "CQDGOrganization",
+    "fshType": "Profile",
+    "fshFile": "OrganizationResource/CQDG_Profile_Organization.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-patient.json",
+    "fshName": "CQDGPatient",
+    "fshType": "Profile",
+    "fshFile": "PatientResource/CQDG_Profile_Patient.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-program.json",
+    "fshName": "CQDG_Program",
+    "fshType": "Profile",
+    "fshFile": "ListProgram/CQDG_Profile_Program.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-research-study.json",
+    "fshName": "CQDGResearchStudy",
+    "fshType": "Profile",
+    "fshFile": "ResearchStudyResource/CQDG_Profile_ResearchStudy.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-specimen.json",
+    "fshName": "CQDGSpecimen",
+    "fshType": "Profile",
+    "fshFile": "SpecimenResource/CQDG_Profile_Specimen.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-cqdg-task.json",
+    "fshName": "CQDGTask",
+    "fshType": "Profile",
+    "fshFile": "TaskResource/CQDG_Profile_Task.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-datasetExtension.json",
+    "fshName": "Dataset",
+    "fshType": "Extension",
+    "fshFile": "Common/CQDG_Extension_Dataset.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-expectedStudyContent.json",
+    "fshName": "ResearchStudyExpectedContent",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_StudyStatistics.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "StructureDefinition-population-info.json",
+    "fshName": "PopulationInfo",
+    "fshType": "Extension",
+    "fshFile": "ResearchStudyResource/Extensions/CQDG_Extension_Population.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-research-program-contact.json",
+    "fshName": "ResearchProgramContact",
+    "fshType": "Extension",
+    "fshFile": "ListProgram/Extensions/CQDG_Extension_ResearchProgramContact.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-research-program-partner.json",
+    "fshName": "ResearchProgramPartner",
+    "fshType": "Extension",
+    "fshFile": "ListProgram/Extensions/CQDG_Extension_ResearchProgramPartner.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-research-program-related-artifact.json",
+    "fshName": "ResearchProgramRelatedArtifact",
+    "fshType": "Extension",
+    "fshFile": "ListProgram/Extensions/CQDG_Extension_ResearchProgramRelatedArtifact.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-research-program.json",
+    "fshName": "ResearchProgram",
+    "fshType": "Extension",
+    "fshFile": "ListProgram/Extensions/CQDG_Extension_ResearchProgram.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-sampleExtension.json",
+    "fshName": "SampleExtension",
+    "fshType": "Extension",
+    "fshFile": "TaskResource/Extensions/CQDG_Extension_SampleExtension.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sequencingExperimentExtension.json",
+    "fshName": "SequencingExperimentExtension",
+    "fshType": "Extension",
+    "fshFile": "TaskResource/Extensions/CQDG_Extension_SequencingExperimentExtension.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "StructureDefinition-workflowExtension.json",
+    "fshName": "WorkflowExtension",
+    "fshType": "Extension",
+    "fshFile": "TaskResource/Extensions/CQDG_Extension_WorkFlowExtension.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Task-CQDGTaskExample.json",
+    "fshName": "CQDGTaskExample",
+    "fshType": "Instance",
+    "fshFile": "TaskResource/CQDG_Profile_Task_Example.fsh",
+    "startLine": 1,
+    "endLine": 44
+  },
+  {
+    "outputFile": "ValueSet-access-limitation-vs.json",
+    "fshName": "AccessLimitationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_AccessLimitationVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-access-requirement-vs.json",
+    "fshName": "AccessRequirementVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_AccessRequirementVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-age-at-onset-vs.json",
+    "fshName": "AgeAtOnsetVS",
+    "fshType": "ValueSet",
+    "fshFile": "Common/CQDG_ValueSet_AgeAtOnset.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-bioinfo-analysis-vs.json",
+    "fshName": "BioinfoAnalysisVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_Bioinfo_analysis_code.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-cause-of-death-vs.json",
+    "fshName": "CauseOfDeathVS",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_CauseOfDeath.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-cqdg-diagnosis-vs.json",
+    "fshName": "CQDGDiagnosisVS",
+    "fshType": "ValueSet",
+    "fshFile": "Common/CQDG_ValueSet_DiagnosisVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-cqdg-observation-category.json",
+    "fshName": "CQDGObservationCategory",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_ObservationCategory.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-cqdg-specimen-tissue-source-vs.json",
+    "fshName": "CQDGSpecimenTissueSourceVS",
+    "fshType": "ValueSet",
+    "fshFile": "SpecimenResource/ValueSets/CQDG_ValueSet_TissueSourceVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-cqdg-tumor-normal-designation-vs.json",
+    "fshName": "CQDGTumorNormalDesignationVS",
+    "fshType": "ValueSet",
+    "fshFile": "SpecimenResource/ValueSets/CQDG_ValueSet_TumorNormalDesignationVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-data-category-vs.json",
+    "fshName": "DataCategoryVS",
+    "fshType": "ValueSet",
+    "fshFile": "Common/CQDG_ValueSet_DataCategoryVS.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-data-collection-method-vs.json",
+    "fshName": "DataCollectionMethodVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_DataCollectionMethodVS.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-data-type-vs.json",
+    "fshName": "DataTypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "DocumentReferenceResource/ValueSets/CQDG_ValueSet_DataTypeVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-disease-status-vs.json",
+    "fshName": "DiseaseStatusVS",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_DiseaseStatus.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-experimental-strategy-vs.json",
+    "fshName": "ExperimentalStrategyVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_ExperimentalStrategyVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-family-type-vs.json",
+    "fshName": "FamilyTypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "GroupResource/ValueSets/CQDG_ValueSet_FamilyType.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-file-format.json",
+    "fshName": "FileFormat",
+    "fshType": "ValueSet",
+    "fshFile": "DocumentReferenceResource/ValueSets/CQDG_ValueSet_FileFormatVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-gender-collection-method-vs.json",
+    "fshName": "GenderCollectionMethodVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_GenderCollectionMethodVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-genome-build-vs.json",
+    "fshName": "GenomeBuildVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_GenomeBuildVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-ncit-special-codes-vs.json",
+    "fshName": "CancerBiospecimenTypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "SpecimenResource/ValueSets/CQDG_ValueSet_CancerBiospecimenTypeVS.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-phenotype-vs.json",
+    "fshName": "PhenotypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_PhenotypeVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-population-vs.json",
+    "fshName": "PopulationVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_PopulationVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-qc-ethnicity-vs.json",
+    "fshName": "QCEthnicityVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_EthnicityVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-qc-gender-vs.json",
+    "fshName": "GenderVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_GenderVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-race-collection-method-vs.json",
+    "fshName": "RaceCollectionMethodVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_RaceCollectionMethodVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-race-vs.json",
+    "fshName": "RaceVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_RaceVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-relationship-to-proband-vs.json",
+    "fshName": "RelationshipToProband",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_RelationshipToProbandVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-research-domain-vs.json",
+    "fshName": "ResearchDomain",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_StudyDomain.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-sequencing-experiment-selection-vs.json",
+    "fshName": "SequencingExperimentSelectionVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentSelection.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-sequencing-experiment-source-vs.json",
+    "fshName": "SequencingExperimentSourceVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentSource.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-sex-at-birth-collection-method-vs.json",
+    "fshName": "SexAtBirthCollectionMethodVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_SexAtBirthCollectionMethodVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-sex-at-birth-vs.json",
+    "fshName": "SexAtBirthVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_SexAtBirthVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-study-design-vs.json",
+    "fshName": "StudyDesignVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_StudyDesignVS.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-study-vs.json",
+    "fshName": "StudyVS",
+    "fshType": "ValueSet",
+    "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_StudyVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-tumor-normal-designation-vs.json",
+    "fshName": "TumorNormalDesignationVS",
+    "fshType": "ValueSet",
+    "fshFile": "ObservationResource/ValueSets/CQDG_ValueSet_TumorNormalDesignation.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-vital-status-vs.json",
+    "fshName": "VitalStatusVS",
+    "fshType": "ValueSet",
+    "fshFile": "PatientResource/ValueSets/CQDG_ValueSet_VitalStatusVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  }
+]

@@ -33,4 +33,4 @@ Description: "An example of a specimen"
 * extension[cancerBiospecimenType].valueCodeableConcept = $NCIThesaurus#C156445
 * extension[cancerBiospecimenType].url = "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType"
 
-* extension[tumorNormalDesignation].valueCodeableConcept = CQDGTumorNormalDesignation#Tumor
+* extension[tumorNormalDesignation].valueCodeableConcept = CQDGTumorNormalDesignationCodeSystem#Tumor

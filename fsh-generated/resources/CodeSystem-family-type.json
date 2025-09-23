@@ -9,107 +9,35 @@
   "concept": [
     {
       "code": "Case only",
-      "display": "Case only",
-      "designation": [
-        {
-          "use": {
-            "code": "Case-only",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Case only"
-        }
-      ]
+      "display": "Case only"
     },
     {
       "code": "Case-parent duo",
-      "display": "Case-parent duo",
-      "designation": [
-        {
-          "use": {
-            "code": "Case-parent-duo",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Case-parent duo"
-        }
-      ]
+      "display": "Case-parent duo"
     },
     {
       "code": "Case-parent trio",
-      "display": "Case-parent trio",
-      "designation": [
-        {
-          "use": {
-            "code": "Case-parent-trio",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Case-parent trio"
-        }
-      ]
+      "display": "Case-parent trio"
     },
     {
       "code": "Case-sibling",
-      "display": "Case-sibling",
-      "designation": [
-        {
-          "use": {
-            "code": "Case-sibling",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Case-sibling"
-        }
-      ]
+      "display": "Case-sibling"
     },
     {
       "code": "Twins",
-      "display": "Twins",
-      "designation": [
-        {
-          "use": {
-            "code": "Twins",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Twins"
-        }
-      ]
+      "display": "Twins"
     },
     {
       "code": "Case - affected relative",
-      "display": "Case - affected relative",
-      "designation": [
-        {
-          "use": {
-            "code": "Case-affected-relative",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Case - affected relative"
-        }
-      ]
+      "display": "Case - affected relative"
     },
     {
       "code": "Other",
-      "display": "Other",
-      "designation": [
-        {
-          "use": {
-            "code": "Other",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Other"
-        }
-      ]
+      "display": "Other"
     },
     {
       "code": "Nuclear family",
-      "display": "Nuclear family",
-      "designation": [
-        {
-          "use": {
-            "code": "Nuclear-family",
-            "system": "https://fhir.cqdg.ca/CodeSystem/family-type"
-          },
-          "value": "Nuclear family"
-        }
-      ]
+      "display": "Nuclear family"
     }
   ],
   "experimental": false,

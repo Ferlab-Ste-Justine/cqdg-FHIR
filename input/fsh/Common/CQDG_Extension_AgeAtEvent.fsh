@@ -3,7 +3,6 @@ Title: "Ferlab.bio Extension/age-at-event"
 Description: "Patient's age (in days since birth) at the time of death"
 * ^version = "0.1.0"
 * ^status = #draft
-* ^context.type = #element
 * . 0..1 MS
 * . ^short = "Age at event"
 * . ^definition = "Age at the time of medical consultation"

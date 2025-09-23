@@ -47,9 +47,9 @@ ResearchStudy-ResearchStudyExample.json                         ResearchStudyExa
 Specimen-SpecimenExample.json                                   SpecimenExample                           Instance    SpecimenResource/CQDG_Profile_Specimen_example.fsh                                2 - 36
 StructureDefinition-AccessLimitations.json                      AccessLimitations                         Extension   ResearchStudyResource/Extensions/CQDG_Extension_AccessLimitations.fsh             1 - 8
 StructureDefinition-AccessRequirements.json                     AccessRequirements                        Extension   ResearchStudyResource/Extensions/CQDG_Extension_AccessReqirements.fsh             1 - 8
-StructureDefinition-AgeAtEvent.json                             AgeAtEvent                                Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              1 - 12
-StructureDefinition-AgeAtRecruitment.json                       AgeAtRecruitment                          Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              29 - 41
-StructureDefinition-AgeOfDeath.json                             AgeOfDeath                                Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              14 - 26
+StructureDefinition-AgeAtEvent.json                             AgeAtEvent                                Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              1 - 11
+StructureDefinition-AgeAtRecruitment.json                       AgeAtRecruitment                          Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              28 - 40
+StructureDefinition-AgeOfDeath.json                             AgeOfDeath                                Extension   Common/CQDG_Extension_AgeAtEvent.fsh                                              13 - 25
 StructureDefinition-CQDGObservationCauseOfDeath.json            CQDGObservationCauseOfDeath               Profile     ObservationResource/CQDG_Profile_Observation.fsh                                  36 - 45
 StructureDefinition-CQDGObservationDiseaseStatus.json           CQDGObservationDiseaseStatus              Profile     ObservationResource/CQDG_Profile_Observation.fsh                                  25 - 32
 StructureDefinition-CQDGObservationFamilyRelationship.json      CQDGObservationFamilyRelationship         Profile     ObservationResource/CQDG_Profile_Observation.fsh                                  62 - 71

@@ -10,7 +10,7 @@
   "name" : "AgeAtEvent",
   "title" : "Ferlab.bio Extension/age-at-event",
   "status" : "draft",
-  "date" : "2025-09-22T20:20:13+00:00",
+  "date" : "2025-09-23T20:31:36+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -30,7 +30,7 @@
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "ClinicalImpression"
+    "expression" : "Element"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",

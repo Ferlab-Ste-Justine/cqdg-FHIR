@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "ncit-special-codes-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name=\"ncit-special-codes-vs\"> </a><a name=\"hcncit-special-codes-vs\"> </a><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C156445</td><td>Derived Cell Line</td></tr><tr><td>156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>156441</td><td>Sample Derived from New Primary</td></tr><tr><td>164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>C18009</td><td>Tumor Tissue</td></tr><tr><td>C162623</td><td>Normal Tissue Segment</td></tr><tr><td>C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name=\"ncit-special-codes-vs\"> </a><a name=\"hcncit-special-codes-vs\"> </a><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>NCIT:C156445</td><td>Derived Cell Line</td></tr><tr><td>NCIT:156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>NCIT:156441</td><td>Sample Derived from New Primary</td></tr><tr><td>NCIT:164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>NCIT:C18009</td><td>Tumor Tissue</td></tr><tr><td>NCIT:C162623</td><td>Normal Tissue Segment</td></tr><tr><td>NCIT:C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CancerBiospecimenTypeVS"] ; # 
   fhir:title [ fhir:v "NCIT Special Codes ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-22T20:20:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-23T20:31:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -32,25 +32,25 @@
      fhir:include ( [
        fhir:system [ fhir:v "http://purl.obolibrary.org/obo/ncit.owl"^^xsd:anyURI ] ;
        fhir:concept ( [
-         fhir:code [ fhir:v "C156445" ] ;
+         fhir:code [ fhir:v "NCIT:C156445" ] ;
          fhir:display [ fhir:v "Derived Cell Line" ]
        ] [
-         fhir:code [ fhir:v "156440" ] ;
+         fhir:code [ fhir:v "NCIT:156440" ] ;
          fhir:display [ fhir:v "Metastatic Tumor Sample" ]
        ] [
-         fhir:code [ fhir:v "156441" ] ;
+         fhir:code [ fhir:v "NCIT:156441" ] ;
          fhir:display [ fhir:v "Sample Derived from New Primary" ]
        ] [
-         fhir:code [ fhir:v "164032" ] ;
+         fhir:code [ fhir:v "NCIT:164032" ] ;
          fhir:display [ fhir:v "Tumor-Adjacent Normal Specimen" ]
        ] [
-         fhir:code [ fhir:v "C18009" ] ;
+         fhir:code [ fhir:v "NCIT:C18009" ] ;
          fhir:display [ fhir:v "Tumor Tissue" ]
        ] [
-         fhir:code [ fhir:v "C162623" ] ;
+         fhir:code [ fhir:v "NCIT:C162623" ] ;
          fhir:display [ fhir:v "Normal Tissue Segment" ]
        ] [
-         fhir:code [ fhir:v "C156443" ] ;
+         fhir:code [ fhir:v "NCIT:C156443" ] ;
          fhir:display [ fhir:v "Cell Line-Derived Xenograft" ]
        ] )
      ] )

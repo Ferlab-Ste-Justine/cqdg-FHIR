@@ -227,8 +227,8 @@
       "description" : "DUO codes",
       "uses" : {
       },
-      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
     },
     {
       "url" : "http://purl.obolibrary.org/obo/mondo.owl",
@@ -252,19 +252,19 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
-      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
-      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
       "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
       "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set"
+      "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -637,7 +637,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "CQDGTumorNormalDesignation",
+      "name" : "CQDGTumorNormalDesignationCodeSystem",
       "title" : "CQDG Tumor Normal Designation Codes",
       "description" : "Codes for tumor normal designation",
       "uses" : {
@@ -769,7 +769,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "QCEthnicity",
+      "name" : "QCEthnicityCodeSystem",
       "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
       "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
       "uses" : {
@@ -780,7 +780,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/race",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "Race",
+      "name" : "RaceCodeSystem",
       "title" : "Ferlab.bio CodeSystem/race",
       "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
       "uses" : {
@@ -799,10 +799,21 @@
       "ValueSet-race-collection-method-vs.html" : "Ferlab.bio ValueSet/race-collection-method"
     },
     {
+      "url" : "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "RelationshipToProbandCodeSystem",
+      "title" : "Ferlab.bio CodeSystem/relationship-to-proband",
+      "description" : "relationship to proband codes",
+      "uses" : {
+      },
+      "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "ResearchDomain",
+      "name" : "ResearchDomainCodeSystem",
       "title" : "Ferlab.bio CodeSystem/research-domain",
       "description" : "Research domain",
       "uses" : {
@@ -835,7 +846,7 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "SexAtBirth",
+      "name" : "SexAtBirthCodeSystem",
       "title" : "Ferlab.bio CodeSystem/sex-at-birth",
       "description" : "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets.",
       "uses" : {
@@ -868,30 +879,19 @@
       "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "TumorNormalDesignation",
+      "name" : "TumorNormalDesignationCodeSystem",
       "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
       "description" : "Tumor normal designation",
       "uses" : {
       },
-      "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset",
-      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation"
-    },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "V3RoleCode",
-      "title" : "Ferlab.bio CodeSystem/v3-roles",
-      "description" : "V3 role code",
-      "uses" : {
-      },
-      "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation",
+      "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset"
     },
     {
       "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "VitalStatus",
+      "name" : "VitalStatusCodeSystem",
       "title" : "Ferlab.bio CodeSystem/vital-status",
       "description" : "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets.",
       "uses" : {

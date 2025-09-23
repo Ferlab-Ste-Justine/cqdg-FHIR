@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2025-09-22T20:20:13+00:00"/>
+  <date value="2025-09-23T20:31:36+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -726,6 +726,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/relationship-to-proband"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/relationship-to-proband"/>
+      <description value="relationship to proband codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/research-domain"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/research-domain"/>
@@ -796,17 +807,6 @@
       </reference>
       <name value="Ferlab.bio CodeSystem/tumor-normal-designation"/>
       <description value="Tumor normal designation"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/v3-role-code"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/v3-roles"/>
-      <description value="V3 role code"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

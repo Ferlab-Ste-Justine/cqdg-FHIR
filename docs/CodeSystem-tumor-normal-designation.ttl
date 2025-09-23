@@ -15,11 +15,11 @@
   ] ; # 
   fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "TumorNormalDesignation"] ; # 
+  fhir:name [ fhir:v "TumorNormalDesignationCodeSystem"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/tumor-normal-designation"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-22T20:20:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-23T20:31:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;

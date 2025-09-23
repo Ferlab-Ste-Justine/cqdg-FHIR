@@ -60,7 +60,7 @@
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
     "version" : "0.1.0",
-    "name" : "CQDGTumorNormalDesignation"
+    "name" : "CQDGTumorNormalDesignationCodeSystem"
   },
   {
     "id" : "data-category",
@@ -144,14 +144,14 @@
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
     "version" : "0.1.0",
-    "name" : "QCEthnicity"
+    "name" : "QCEthnicityCodeSystem"
   },
   {
     "id" : "qc-race",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/race",
     "version" : "0.1.0",
-    "name" : "Race"
+    "name" : "RaceCodeSystem"
   },
   {
     "id" : "race-collection-method",
@@ -161,11 +161,18 @@
     "name" : "RaceCollectionMethod"
   },
   {
+    "id" : "relationship-to-proband",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband",
+    "version" : "0.1.0",
+    "name" : "RelationshipToProbandCodeSystem"
+  },
+  {
     "id" : "research-domain",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
     "version" : "0.1.0",
-    "name" : "ResearchDomain"
+    "name" : "ResearchDomainCodeSystem"
   },
   {
     "id" : "sequencing-experiment-selection",
@@ -186,7 +193,7 @@
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
     "version" : "0.1.0",
-    "name" : "SexAtBirth"
+    "name" : "SexAtBirthCodeSystem"
   },
   {
     "id" : "sex-at-birth-collection-method",
@@ -207,21 +214,14 @@
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
     "version" : "0.1.0",
-    "name" : "TumorNormalDesignation"
-  },
-  {
-    "id" : "v3-role-code",
-    "type" : "CodeSystem",
-    "url" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-    "version" : "0.1.0",
-    "name" : "V3RoleCode"
+    "name" : "TumorNormalDesignationCodeSystem"
   },
   {
     "id" : "vital-status",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
     "version" : "0.1.0",
-    "name" : "VitalStatus"
+    "name" : "VitalStatusCodeSystem"
   },
   {
     "id" : "fhir.cqdg",

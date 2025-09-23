@@ -3,15 +3,15 @@
   "id" : "qc-race",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-race</b></p><a name=\"qc-race\"> </a><a name=\"hcqc-race\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Black<a name=\"qc-race-Black\"> </a></td><td>Black</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-race-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-race-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-race-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-race-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-race-Prefernottoanswer\"> </a></td><td>Prefer not to Answer</td></tr><tr><td style=\"white-space:nowrap\">Do not know<a name=\"qc-race-Donotknow\"> </a></td><td>Do not know</td></tr><tr><td style=\"white-space:nowrap\">Another Racial Category<a name=\"qc-race-AnotherRacialCategory\"> </a></td><td>Another Racial Category</td></tr><tr><td style=\"white-space:nowrap\">White<a name=\"qc-race-White\"> </a></td><td>White</td></tr><tr><td style=\"white-space:nowrap\">Southeast Asian<a name=\"qc-race-SoutheastAsian\"> </a></td><td>Southeast Asian</td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-race-SouthAsian\"> </a></td><td>South Asian</td></tr><tr><td style=\"white-space:nowrap\">Middle Eastern or North African<a name=\"qc-race-MiddleEasternorNorthAfrican\"> </a></td><td>Middle Eastern or North African</td></tr><tr><td style=\"white-space:nowrap\">Latin American<a name=\"qc-race-LatinAmerican\"> </a></td><td>Latin American</td></tr><tr><td style=\"white-space:nowrap\">Indigenous (First Nations, Inuk/Inuit, Métis)<a name=\"qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41\"> </a></td><td>Indigenous (First Nations, Inuk/Inuit, Métis)</td></tr><tr><td style=\"white-space:nowrap\">East Asian<a name=\"qc-race-EastAsian\"> </a></td><td>East Asian</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-race</b></p><a name=\"qc-race\"> </a><a name=\"hcqc-race\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Black<a name=\"qc-race-Black\"> </a></td><td>Black</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-race-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-race-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-race-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-race-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-race-Prefernottoanswer\"> </a></td><td>Prefer not to Answer</td></tr><tr><td style=\"white-space:nowrap\">Do not know<a name=\"qc-race-Donotknow\"> </a></td><td>Do not Know</td></tr><tr><td style=\"white-space:nowrap\">Another Racial Category<a name=\"qc-race-AnotherRacialCategory\"> </a></td><td>Another Racial Category</td></tr><tr><td style=\"white-space:nowrap\">White<a name=\"qc-race-White\"> </a></td><td>White</td></tr><tr><td style=\"white-space:nowrap\">Southeast Asian<a name=\"qc-race-SoutheastAsian\"> </a></td><td>Southeast Asian</td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-race-SouthAsian\"> </a></td><td>South Asian</td></tr><tr><td style=\"white-space:nowrap\">Middle Eastern or North African<a name=\"qc-race-MiddleEasternorNorthAfrican\"> </a></td><td>Middle Eastern or North African</td></tr><tr><td style=\"white-space:nowrap\">Latin American<a name=\"qc-race-LatinAmerican\"> </a></td><td>Latin American</td></tr><tr><td style=\"white-space:nowrap\">Indigenous (First Nations, Inuk/Inuit, Métis)<a name=\"qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41\"> </a></td><td>Indigenous (First Nations, Inuk/Inuit, Métis)</td></tr><tr><td style=\"white-space:nowrap\">East Asian<a name=\"qc-race-EastAsian\"> </a></td><td>East Asian</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/race",
   "version" : "0.1.0",
-  "name" : "Race",
+  "name" : "RaceCodeSystem",
   "title" : "Ferlab.bio CodeSystem/race",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-22T20:20:13+00:00",
+  "date" : "2025-09-23T20:31:36+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -50,7 +50,7 @@
   },
   {
     "code" : "Do not know",
-    "display" : "Do not know"
+    "display" : "Do not Know"
   },
   {
     "code" : "Another Racial Category",

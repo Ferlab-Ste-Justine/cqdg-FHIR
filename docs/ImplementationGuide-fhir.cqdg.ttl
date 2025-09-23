@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-22T20:20:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-23T20:31:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -1285,6 +1285,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband> ;
+         fhir:reference [ fhir:v "CodeSystem/relationship-to-proband" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio CodeSystem/relationship-to-proband" ] ;
+       fhir:description [ fhir:v "relationship to proband codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://fhir.cqdg.ca/CodeSystem/research-domain> ;
          fhir:reference [ fhir:v "CodeSystem/research-domain" ]
        ] ;
@@ -1398,24 +1416,6 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio CodeSystem/tumor-normal-designation" ] ;
        fhir:description [ fhir:v "Tumor normal designation" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://fhir.cqdg.ca/CodeSystem/v3-role-code> ;
-         fhir:reference [ fhir:v "CodeSystem/v3-role-code" ]
-       ] ;
-       fhir:name [ fhir:v "Ferlab.bio CodeSystem/v3-roles" ] ;
-       fhir:description [ fhir:v "V3 role code" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

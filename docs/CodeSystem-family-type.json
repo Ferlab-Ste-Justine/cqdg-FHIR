@@ -3,7 +3,7 @@
   "id" : "family-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-type</b></p><a name=\"family-type\"> </a><a name=\"hcfamily-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Case-only<a name=\"family-type-Case-only\"> </a></td><td>Case only</td></tr><tr><td style=\"white-space:nowrap\">Case-parent-duo<a name=\"family-type-Case-parent-duo\"> </a></td><td>Case-parent duo</td></tr><tr><td style=\"white-space:nowrap\">Case-parent-trio<a name=\"family-type-Case-parent-trio\"> </a></td><td>Case-parent trio</td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td><td>Case-sibling</td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td><td>Twins</td></tr><tr><td style=\"white-space:nowrap\">Case-affected-relative<a name=\"family-type-Case-affected-relative\"> </a></td><td>Case - affected relative</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">Nuclear-family<a name=\"family-type-Nuclear-family\"> </a></td><td>Nuclear family</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-type</b></p><a name=\"family-type\"> </a><a name=\"hcfamily-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Case only<a name=\"family-type-Caseonly\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent duo<a name=\"family-type-Case-parentduo\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent trio<a name=\"family-type-Case-parenttrio\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case - affected relative<a name=\"family-type-Case-affectedrelative\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Nuclear family<a name=\"family-type-Nuclearfamily\"> </a></td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/family-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/family-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-22T20:20:13+00:00",
+  "date" : "2025-09-23T20:31:36+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -25,91 +25,35 @@
   "content" : "complete",
   "count" : 8,
   "concept" : [{
-    "code" : "Case-only",
-    "display" : "Case only",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Case-only"
-      },
-      "value" : "Case only"
-    }]
+    "code" : "Case only",
+    "display" : "Case only"
   },
   {
-    "code" : "Case-parent-duo",
-    "display" : "Case-parent duo",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Case-parent-duo"
-      },
-      "value" : "Case-parent duo"
-    }]
+    "code" : "Case-parent duo",
+    "display" : "Case-parent duo"
   },
   {
-    "code" : "Case-parent-trio",
-    "display" : "Case-parent trio",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Case-parent-trio"
-      },
-      "value" : "Case-parent trio"
-    }]
+    "code" : "Case-parent trio",
+    "display" : "Case-parent trio"
   },
   {
     "code" : "Case-sibling",
-    "display" : "Case-sibling",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Case-sibling"
-      },
-      "value" : "Case-sibling"
-    }]
+    "display" : "Case-sibling"
   },
   {
     "code" : "Twins",
-    "display" : "Twins",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Twins"
-      },
-      "value" : "Twins"
-    }]
+    "display" : "Twins"
   },
   {
-    "code" : "Case-affected-relative",
-    "display" : "Case - affected relative",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Case-affected-relative"
-      },
-      "value" : "Case - affected relative"
-    }]
+    "code" : "Case - affected relative",
+    "display" : "Case - affected relative"
   },
   {
     "code" : "Other",
-    "display" : "Other",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Other"
-      },
-      "value" : "Other"
-    }]
+    "display" : "Other"
   },
   {
-    "code" : "Nuclear-family",
-    "display" : "Nuclear family",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-        "code" : "Nuclear-family"
-      },
-      "value" : "Nuclear family"
-    }]
+    "code" : "Nuclear family",
+    "display" : "Nuclear family"
   }]
 }

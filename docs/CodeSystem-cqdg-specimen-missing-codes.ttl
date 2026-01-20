@@ -11,14 +11,17 @@
   fhir:id [ fhir:v "cqdg-specimen-missing-codes"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-specimen-missing-codes</b></p><a name=\"cqdg-specimen-missing-codes\"> </a><a name=\"hccqdg-specimen-missing-codes\"> </a><p>This  code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"cqdg-specimen-missing-codes-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"cqdg-specimen-missing-codes-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"cqdg-specimen-missing-codes-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"cqdg-specimen-missing-codes-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-specimen-missing-codes</b></p><a name=\"cqdg-specimen-missing-codes\"> </a><a name=\"hccqdg-specimen-missing-codes\"> </a><p>This  code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"cqdg-specimen-missing-codes-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"cqdg-specimen-missing-codes-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"cqdg-specimen-missing-codes-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"cqdg-specimen-missing-codes-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDGSpecimenTissueSourceMissingCodes"] ; # 
   fhir:title [ fhir:v "CQDG Specimen Missing Codes"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;

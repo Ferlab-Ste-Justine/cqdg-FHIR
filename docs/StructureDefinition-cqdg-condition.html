@@ -223,7 +223,7 @@
         
           Active
           
-            as of 2025-09-23
+            as of 2026-01-20
           
         
       </td>
@@ -362,7 +362,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a href="http://hl7.org/fhir/R4/group.html">Group</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Who has the condition?</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionK'), 'binding', document.getElementById('cbcqdg-conditionK-binding').checked, document.getElementById('ppcqdg-conditionK'));
 document.getElementById('cbcqdg-conditionK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -372,11 +372,72 @@ filterDesc(document.getElementById('cqdg-conditionK'), 'obligation', document.ge
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Condition.identifier:CQDG_ID.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.clinicalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">ConditionClinicalStatusCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.verificationStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The verification status to support or decline the clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a><div><code>http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<table class="list" data-fhir="generated-heirarchy">
+  <tr>
+    <td>
+      <b>Path</b>
+    </td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.clinicalStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">Condition Clinical Status Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.verificationStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The verification status to support or decline the clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -386,18 +447,118 @@ filterDesc(document.getElementById('cqdg-conditionK'), 'obligation', document.ge
             <a name="inv-key"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>con-3</td><td>best practice</td><td>Condition</td><td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item<br/>: clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</td><td></td></tr>
-<tr><td>con-4</td><td>error</td><td>Condition</td><td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission<br/>: abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</td><td></td></tr>
-<tr><td>con-5</td><td>error</td><td>Condition</td><td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error<br/>: verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</td><td></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Condition</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>con-3</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item</td>
+    <td>
+      <code>clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission</td>
+    <td>
+      <code>abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error</td>
+    <td>
+      <code>verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -441,7 +602,7 @@ filterDesc(document.getElementById('cqdg-conditionK'), 'obligation', document.ge
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The namespace for the identifier value</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://fhir.cqdg.ca/fhir/Condition</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionD'), 'binding', document.getElementById('cbcqdg-conditionD-binding').checked, document.getElementById('ppcqdg-conditionD'));
 document.getElementById('cbcqdg-conditionD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -758,7 +919,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional information about the Condition<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionS'), 'binding', document.getElementById('cbcqdg-conditionS-binding').checked, document.getElementById('ppcqdg-conditionS'));
 document.getElementById('cbcqdg-conditionS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -768,36 +929,207 @@ filterDesc(document.getElementById('cqdg-conditionS'), 'obligation', document.ge
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Condition.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
+<table class="list" data-fhir="generated-heirarchy">
   <tr>
-    <td style="font-size: 11px">
-      <b>Additional Bindings</b>
+    <td>
+      <b>Path</b>
     </td>
-    <td style="font-size: 11px">Purpose</td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
   </tr>
   <tr>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+    <td>Condition.language</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
+    <td title="A human language.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">Common Languages</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
     </td>
   </tr>
-</table>
-</td></tr>
-<tr><td>Condition.identifier:CQDG_ID.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.identifier:CQDG_ID.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.clinicalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">ConditionClinicalStatusCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.verificationStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The verification status to support or decline the clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a><div><code>http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A category assigned to the condition."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-category.html">ConditionCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-category|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-category|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.severity</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A subjective assessment of the severity of the condition as evaluated by the clinician."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/DiagnosisSeverity</a><div><code>http://hl7.org/fhir/ValueSet/condition-severity|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-severity|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Identification of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-code|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-code|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.bodySite</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing anatomical locations. May include laterality."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a><div><code>http://hl7.org/fhir/ValueSet/body-site|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/body-site|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.stage.summary</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing condition stages (e.g. Cancer stages)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage.html">ConditionStage</a><div><code>http://hl7.org/fhir/ValueSet/condition-stage|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.stage.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing the kind of condition staging (e.g. clinical or pathological)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">ConditionStageType</a><div><code>http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.evidence.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes that describe the manifestation or symptoms of a condition."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html">ManifestationAndSymptomCodes</a><div><code>http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.clinicalStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">Condition Clinical Status Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.verificationStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The verification status to support or decline the clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.category</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A category assigned to the condition.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-category.html">Condition Category Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-category|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.severity</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
+    </td>
+    <td title="A subjective assessment of the severity of the condition as evaluated by the clinician.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/Diagnosis Severity</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-severity|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.code</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Identification of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/Diagnosis Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-code|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.bodySite</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing anatomical locations. May include laterality.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMED CT Body Structures</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/body-site|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.stage.summary</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing condition stages (e.g. Cancer stages).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage.html">Condition Stage</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.stage.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing the kind of condition staging (e.g. clinical or pathological).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">Condition Stage Type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.evidence.code</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes that describe the manifestation or symptoms of a condition.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html">Manifestation and Symptom Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -807,20 +1139,136 @@ filterDesc(document.getElementById('cqdg-conditionS'), 'obligation', document.ge
             <a name="inv-snap"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>con-1</td><td>error</td><td>Condition.stage</td><td>Stage SHALL have summary or assessment<br/>: summary.exists() or assessment.exists()</td><td></td></tr>
-<tr><td>con-2</td><td>error</td><td>Condition.evidence</td><td>evidence SHALL have code or details<br/>: code.exists() or detail.exists()</td><td></td></tr>
-<tr><td>con-3</td><td>best practice</td><td>Condition</td><td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item<br/>: clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</td><td></td></tr>
-<tr><td>con-4</td><td>error</td><td>Condition</td><td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission<br/>: abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</td><td></td></tr>
-<tr><td>con-5</td><td>error</td><td>Condition</td><td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error<br/>: verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</td><td></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Condition</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>con-1</td>
+    <td>error</td>
+    <td>Condition.stage</td>
+    <td>Stage SHALL have summary or assessment</td>
+    <td>
+      <code>summary.exists() or assessment.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-2</td>
+    <td>error</td>
+    <td>Condition.evidence</td>
+    <td>evidence SHALL have code or details</td>
+    <td>
+      <code>code.exists() or detail.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-3</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item</td>
+    <td>
+      <code>clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission</td>
+    <td>
+      <code>abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error</td>
+    <td>
+      <code>verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -1023,7 +1471,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a href="http://hl7.org/fhir/R4/group.html">Group</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Who has the condition?</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionKA'), 'binding', document.getElementById('cbcqdg-conditionKA-binding').checked, document.getElementById('ppcqdg-conditionKA'));
 document.getElementById('cbcqdg-conditionKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1033,11 +1481,72 @@ filterDesc(document.getElementById('cqdg-conditionKA'), 'obligation', document.g
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Condition.identifier:CQDG_ID.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.clinicalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">ConditionClinicalStatusCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.verificationStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The verification status to support or decline the clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a><div><code>http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<table class="list" data-fhir="generated-heirarchy">
+  <tr>
+    <td>
+      <b>Path</b>
+    </td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.clinicalStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">Condition Clinical Status Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.verificationStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The verification status to support or decline the clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -1047,18 +1556,118 @@ filterDesc(document.getElementById('cqdg-conditionKA'), 'obligation', document.g
             <a name="inv-all-key"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>con-3</td><td>best practice</td><td>Condition</td><td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item<br/>: clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</td><td></td></tr>
-<tr><td>con-4</td><td>error</td><td>Condition</td><td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission<br/>: abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</td><td></td></tr>
-<tr><td>con-5</td><td>error</td><td>Condition</td><td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error<br/>: verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</td><td></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Condition</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>con-3</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item</td>
+    <td>
+      <code>clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission</td>
+    <td>
+      <code>abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error</td>
+    <td>
+      <code>verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -1102,7 +1711,7 @@ filterDesc(document.getElementById('cqdg-conditionKA'), 'obligation', document.g
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The namespace for the identifier value</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://fhir.cqdg.ca/fhir/Condition</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionDA'), 'binding', document.getElementById('cbcqdg-conditionDA-binding').checked, document.getElementById('ppcqdg-conditionDA'));
 document.getElementById('cbcqdg-conditionDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1418,7 +2027,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional information about the Condition<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 3f9af91a-23b0-42bd-8c70-5890cb9c04ba
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5b3e3ed6-3ca5-499d-bc0b-d9886206bec4
 document.getElementById('cbcqdg-conditionSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('cqdg-conditionSA'), 'binding', document.getElementById('cbcqdg-conditionSA-binding').checked, document.getElementById('ppcqdg-conditionSA'));
 document.getElementById('cbcqdg-conditionSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1428,36 +2037,207 @@ filterDesc(document.getElementById('cqdg-conditionSA'), 'obligation', document.g
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Condition.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
+<table class="list" data-fhir="generated-heirarchy">
   <tr>
-    <td style="font-size: 11px">
-      <b>Additional Bindings</b>
+    <td>
+      <b>Path</b>
     </td>
-    <td style="font-size: 11px">Purpose</td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
   </tr>
   <tr>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+    <td>Condition.language</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
+    <td title="A human language.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">Common Languages</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
     </td>
   </tr>
-</table>
-</td></tr>
-<tr><td>Condition.identifier:CQDG_ID.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.identifier:CQDG_ID.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.clinicalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">ConditionClinicalStatusCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.verificationStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The verification status to support or decline the clinical status of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a><div><code>http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A category assigned to the condition."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-category.html">ConditionCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-category|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-category|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.severity</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A subjective assessment of the severity of the condition as evaluated by the clinician."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/DiagnosisSeverity</a><div><code>http://hl7.org/fhir/ValueSet/condition-severity|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-severity|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Identification of the condition or diagnosis."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a><div><code>http://hl7.org/fhir/ValueSet/condition-code|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-code|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.bodySite</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing anatomical locations. May include laterality."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a><div><code>http://hl7.org/fhir/ValueSet/body-site|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/body-site|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.stage.summary</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing condition stages (e.g. Cancer stages)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage.html">ConditionStage</a><div><code>http://hl7.org/fhir/ValueSet/condition-stage|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.stage.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes describing the kind of condition staging (e.g. clinical or pathological)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">ConditionStageType</a><div><code>http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Condition.evidence.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Codes that describe the manifestation or symptoms of a condition."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html">ManifestationAndSymptomCodes</a><div><code>http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.identifier:CQDG_ID.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.clinicalStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-clinical.html">Condition Clinical Status Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.verificationStatus</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The verification status to support or decline the clinical status of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.category</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A category assigned to the condition.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-category.html">Condition Category Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-category|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.severity</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
+    </td>
+    <td title="A subjective assessment of the severity of the condition as evaluated by the clinician.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/Diagnosis Severity</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-severity|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.code</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Identification of the condition or diagnosis.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/Diagnosis Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-code|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.bodySite</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing anatomical locations. May include laterality.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMED CT Body Structures</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/body-site|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.stage.summary</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing condition stages (e.g. Cancer stages).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage.html">Condition Stage</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.stage.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes describing the kind of condition staging (e.g. clinical or pathological).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">Condition Stage Type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/condition-stage-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Condition.evidence.code</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Codes that describe the manifestation or symptoms of a condition.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html">Manifestation and Symptom Codes</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/manifestation-or-symptom|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -1467,20 +2247,136 @@ filterDesc(document.getElementById('cqdg-conditionSA'), 'obligation', document.g
             <a name="inv-all-snap"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>con-1</td><td>error</td><td>Condition.stage</td><td>Stage SHALL have summary or assessment<br/>: summary.exists() or assessment.exists()</td><td></td></tr>
-<tr><td>con-2</td><td>error</td><td>Condition.evidence</td><td>evidence SHALL have code or details<br/>: code.exists() or detail.exists()</td><td></td></tr>
-<tr><td>con-3</td><td>best practice</td><td>Condition</td><td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item<br/>: clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</td><td></td></tr>
-<tr><td>con-4</td><td>error</td><td>Condition</td><td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission<br/>: abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</td><td></td></tr>
-<tr><td>con-5</td><td>error</td><td>Condition</td><td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error<br/>: verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</td><td></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Condition</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Condition</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Condition</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>con-1</td>
+    <td>error</td>
+    <td>Condition.stage</td>
+    <td>Stage SHALL have summary or assessment</td>
+    <td>
+      <code>summary.exists() or assessment.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-2</td>
+    <td>error</td>
+    <td>Condition.evidence</td>
+    <td>evidence SHALL have code or details</td>
+    <td>
+      <code>code.exists() or detail.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-3</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item</td>
+    <td>
+      <code>clinicalStatus.exists() or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code = 'entered-in-error').exists() or category.select($this='problem-list-item').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If condition is abated, then clinicalStatus must be either inactive, resolved, or remission</td>
+    <td>
+      <code>abatement.empty() or clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and (code='resolved' or code='remission' or code='inactive')).exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>con-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error</td>
+    <td>
+      <code>verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status' and code='entered-in-error').empty() or clinicalStatus.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Condition</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Condition</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -1641,7 +2537,7 @@ Summary
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 23, 2025 20:39+0000">2025-09-23</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 16:06+0000">2026-01-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

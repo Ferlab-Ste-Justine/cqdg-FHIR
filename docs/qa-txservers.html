@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for CQDG_FHIR_IG</h1>
- <p>Generated Tue Sep 23 20:41:54 UTC 2025, FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = <a href="https://fhir.cqdg.ca">https://fhir.cqdg.ca</a> (<a href="https://fhir.cqdg.ca/history.html">history</a>))</p>
+ <p>Generated Tue Jan 20 16:09:14 UTC 2026, FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = <a href="https://fhir.cqdg.ca">https://fhir.cqdg.ca</a> (<a href="https://fhir.cqdg.ca/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -59,7 +59,7 @@
     <td>http://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:ietf:bcp:13</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server https://tx.ontoserver.csiro.au/fhir</td>
@@ -136,35 +136,28 @@
     <td>http://tx.fhir.org/r4</td>
     <td>http://hl7.org/fhir/ValueSet/languages|4.0.1</td>
     <td>urn:ietf:bcp:47</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found candidate server https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>null</td>
+    <td>http://purl.obolibrary.org/obo/mondo.owl|1.0.0</td>
+    <td>auth = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>https://tx-nordics.fhir.org/fhir/r4</td>
     <td>null</td>
     <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-    <td>auth = , candidates=</td>
+    <td>http://terminology.hl7.org/CodeSystem/icd10-CA</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -181,25 +174,18 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found candidate server https://tx.ontoserver.csiro.au/fhir</td>
+    <td>https://tx.ontoserver.csiro.au/fhir</td>
     <td>null</td>
-    <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://purl.obolibrary.org/obo/ncit.owl</td>
-    <td>auth = , candidates=</td>
+    <td>http://purl.obolibrary.org/obo/hp.owl</td>
+    <td>auth = , candidates=https://tx.ontoserver.csiro.au/fhir</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs</td>
     <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server https://tx.ontoserver.csiro.au/fhir</td>
@@ -209,39 +195,32 @@
     <td>auth = , candidates=https://tx.ontoserver.csiro.au/fhir</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found candidate server https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>https://tx-nordics.fhir.org/fhir/r4</td>
     <td>null</td>
     <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://snomed.info/sct</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:ee076048-4919-4d51-ba14-78cd654a2e8b</td>
+    <td>urn:uuid:c1f64cce-0d8b-47b0-9b85-1c6c1702bb32</td>
     <td>urn:ietf:bcp:13</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>http://hl7.org/fhir/ValueSet/mimetypes|4.0.1</td>
     <td>urn:ietf:bcp:13</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -304,28 +283,35 @@
     <td>http://tx.fhir.org/r4</td>
     <td></td>
     <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>http://hl7.org/fhir/ValueSet/observation-codes|4.0.1</td>
     <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found candidate server https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>https://tx-nordics.fhir.org/fhir/r4</td>
     <td></td>
     <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://terminology.hl7.org/CodeSystem/icd10-CA</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found most authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs|0.1.0</td>
     <td>[http://terminology.hl7.org/CodeSystem/icd10-CA, http://purl.obolibrary.org/obo/mondo.owl]</td>
-    <td>[auth = , candidates=, auth = , candidates=]</td>
+    <td>[auth = http://tx.fhir.org/r4, candidates=, auth = , candidates=https://tx-nordics.fhir.org/fhir/r4]</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -363,9 +349,28 @@
     <td>auth = , candidates=https://tx.ontoserver.csiro.au/fhir</td>
   </tr>
 </table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://purl.obolibrary.org/obo/hp.owl</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.ontoserver.csiro.au/fhir/CodeSystem?_format=json&amp;url=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2Fhp.owl">Error resolving CodeSystem http://purl.obolibrary.org/obo/hp.owl: Invalid ver1 version: '20201012"</span>
+    </td>
+  </tr>
+</table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 43. Code Systems used: </p>
+<p>Use Count: 48. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -385,22 +390,20 @@
     <td>http://loinc.org</td>
     <td>2</td>
     <td>1</td>
-    <td>
-      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
-    </td>
+    <td></td>
   </tr>
   <tr>
     <td>http://purl.obolibrary.org/obo/mondo.owl</td>
-    <td>2</td>
-    <td>2</td>
+    <td>1</td>
+    <td>0</td>
     <td>
-      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-MONDO.html">Mondo Disease Ontology</a>
+      <a href="https://tx-nordics.fhir.org/fhir/r4/ValueSet/0f5b48de-3ffa-4ade-a097-db7f30bb09b0">Mondo Disease Ontology</a>
     </td>
   </tr>
   <tr>
     <td>http://purl.obolibrary.org/obo/ncit.owl</td>
     <td>6</td>
-    <td>7</td>
+    <td>5</td>
     <td></td>
   </tr>
   <tr>
@@ -413,8 +416,8 @@
   </tr>
   <tr>
     <td>http://terminology.hl7.org/CodeSystem/icd10-CA</td>
+    <td>2</td>
     <td>1</td>
-    <td>0</td>
     <td></td>
   </tr>
   <tr>
@@ -447,17 +450,19 @@
     <td>urn:ietf:bcp:47</td>
     <td>0</td>
     <td>1</td>
-    <td>
-      <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ietf3066.html">Tags for the Identification of Languages</a>
-    </td>
+    <td></td>
   </tr>
 </table>
 <p>ValueSets fetched:</p>
 <ul>
+  <li>http://fhir.cqdg.ca/CodeSystem/cause-of-death-vs</li>
+  <li>http://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs</li>
+  <li>http://fhir.cqdg.ca/StructureDefinition/CQDGGroup</li>
+  <li>http://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy</li>
+  <li>http://fhir.cqdg.ca/StructureDefinition/CQDGTask</li>
   <li>http://purl.obolibrary.org/obo/hp.owl</li>
-  <li>http://purl.obolibrary.org/obo/hp.owl|null</li>
-  <li>http://purl.obolibrary.org/obo/ncit.owl|null</li>
-  <li>http://terminology.hl7.org/CodeSystem/icd10-CA|null</li>
+  <li>http://purl.obolibrary.org/obo/ncit.owl</li>
+  <li>http://terminology.hl7.org/CodeSystem/icd10-CA</li>
   <li>https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs</li>
   <li>https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs</li>
   <li>https://fhir.cqdg.ca/StructureDefinition/CQDGGroup</li>
@@ -466,7 +471,7 @@
 </ul>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 2. Code Systems used: </p>
+<p>Use Count: 8. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -481,6 +486,41 @@
     <th>
       <b>Details</b>
     </th>
+  </tr>
+</table>
+<h2>Server: https://tx-nordics.fhir.org/fhir/r4</h2>
+<a href="https://tx-nordics.fhir.org/fhir/r4"></a>
+<p>Use Count: 5. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+  <tr>
+    <td>http://purl.obolibrary.org/obo/mondo.owl</td>
+    <td>1</td>
+    <td>2</td>
+    <td>
+      <a href="https://tx-nordics.fhir.org/fhir/r4/ValueSet/0f5b48de-3ffa-4ade-a097-db7f30bb09b0">Mondo Disease Ontology</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://purl.obolibrary.org/obo/mondo.owl|1.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="https://tx-nordics.fhir.org/fhir/r4/ValueSet/0f5b48de-3ffa-4ade-a097-db7f30bb09b0">Mondo Disease Ontology</a>
+    </td>
   </tr>
 </table>
 <h2>Server: https://tx.ontoserver.csiro.au/fhir</h2>
@@ -504,7 +544,7 @@
   <tr>
     <td>http://purl.obolibrary.org/obo/hp.owl</td>
     <td>1</td>
-    <td>6</td>
+    <td>7</td>
     <td></td>
   </tr>
 </table>

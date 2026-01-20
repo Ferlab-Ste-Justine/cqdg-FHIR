@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "experimental-strategy"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem experimental-strategy</b></p><a name=\"experimental-strategy\"> </a><a name=\"hcexperimental-strategy\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"experimental-strategy-WXS\"> </a></td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">TARS<a name=\"experimental-strategy-TARS\"> </a></td><td>Targeted Sequencing</td></tr><tr><td style=\"white-space:nowrap\">RNAS<a name=\"experimental-strategy-RNAS\"> </a></td><td>RNA-Seq</td></tr><tr><td style=\"white-space:nowrap\">CHIPS<a name=\"experimental-strategy-CHIPS\"> </a></td><td>ChIP-Seq</td></tr><tr><td style=\"white-space:nowrap\">ATACS<a name=\"experimental-strategy-ATACS\"> </a></td><td>ATAC-Seq</td></tr><tr><td style=\"white-space:nowrap\">HIC<a name=\"experimental-strategy-HIC\"> </a></td><td>Hi-C</td></tr><tr><td style=\"white-space:nowrap\">BIS<a name=\"experimental-strategy-BIS\"> </a></td><td>Bisulfite-Seq</td></tr><tr><td style=\"white-space:nowrap\">TMS<a name=\"experimental-strategy-TMS\"> </a></td><td>Targeted Methyl-Seq</td></tr><tr><td style=\"white-space:nowrap\">MRES<a name=\"experimental-strategy-MRES\"> </a></td><td>MRE-Seq</td></tr><tr><td style=\"white-space:nowrap\">MDIPS<a name=\"experimental-strategy-MDIPS\"> </a></td><td>MeDIP-Seq</td></tr><tr><td style=\"white-space:nowrap\">MCCS<a name=\"experimental-strategy-MCCS\"> </a></td><td>MCC-Seq</td></tr><tr><td style=\"white-space:nowrap\">MBDS<a name=\"experimental-strategy-MBDS\"> </a></td><td>MBD-Seq</td></tr><tr><td style=\"white-space:nowrap\">EMS<a name=\"experimental-strategy-EMS\"> </a></td><td>EM-Seq</td></tr><tr><td style=\"white-space:nowrap\">DMS<a name=\"experimental-strategy-DMS\"> </a></td><td>Direct Methyl-Seq</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem experimental-strategy</b></p><a name=\"experimental-strategy\"> </a><a name=\"hcexperimental-strategy\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/experimental-strategy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"experimental-strategy-WXS\"> </a></td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">TARS<a name=\"experimental-strategy-TARS\"> </a></td><td>Targeted Sequencing</td></tr><tr><td style=\"white-space:nowrap\">RNAS<a name=\"experimental-strategy-RNAS\"> </a></td><td>RNA-Seq</td></tr><tr><td style=\"white-space:nowrap\">CHIPS<a name=\"experimental-strategy-CHIPS\"> </a></td><td>ChIP-Seq</td></tr><tr><td style=\"white-space:nowrap\">ATACS<a name=\"experimental-strategy-ATACS\"> </a></td><td>ATAC-Seq</td></tr><tr><td style=\"white-space:nowrap\">HIC<a name=\"experimental-strategy-HIC\"> </a></td><td>Hi-C</td></tr><tr><td style=\"white-space:nowrap\">BIS<a name=\"experimental-strategy-BIS\"> </a></td><td>Bisulfite-Seq</td></tr><tr><td style=\"white-space:nowrap\">TMS<a name=\"experimental-strategy-TMS\"> </a></td><td>Targeted Methyl-Seq</td></tr><tr><td style=\"white-space:nowrap\">MRES<a name=\"experimental-strategy-MRES\"> </a></td><td>MRE-Seq</td></tr><tr><td style=\"white-space:nowrap\">MDIPS<a name=\"experimental-strategy-MDIPS\"> </a></td><td>MeDIP-Seq</td></tr><tr><td style=\"white-space:nowrap\">MCCS<a name=\"experimental-strategy-MCCS\"> </a></td><td>MCC-Seq</td></tr><tr><td style=\"white-space:nowrap\">MBDS<a name=\"experimental-strategy-MBDS\"> </a></td><td>MBD-Seq</td></tr><tr><td style=\"white-space:nowrap\">EMS<a name=\"experimental-strategy-EMS\"> </a></td><td>EM-Seq</td></tr><tr><td style=\"white-space:nowrap\">DMS<a name=\"experimental-strategy-DMS\"> </a></td><td>Direct Methyl-Seq</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ExperimentalStrategy"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/experimental-strategy"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,7 +40,10 @@
      fhir:display [ fhir:v "Whole Exome Sequencing" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "WXS" ]
        ] ;
        fhir:value [ fhir:v "Whole Exome Sequencing" ]
@@ -47,7 +53,10 @@
      fhir:display [ fhir:v "Whole Genome Sequencing" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "WGS" ]
        ] ;
        fhir:value [ fhir:v "Whole Genome Sequencing" ]
@@ -57,7 +66,10 @@
      fhir:display [ fhir:v "Targeted Sequencing" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "TARS" ]
        ] ;
        fhir:value [ fhir:v "Targeted Sequencing" ]
@@ -67,7 +79,10 @@
      fhir:display [ fhir:v "RNA-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "RNAS" ]
        ] ;
        fhir:value [ fhir:v "RNA-Seq" ]
@@ -77,7 +92,10 @@
      fhir:display [ fhir:v "ChIP-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "CHIPS" ]
        ] ;
        fhir:value [ fhir:v "ChIP-Seq" ]
@@ -87,7 +105,10 @@
      fhir:display [ fhir:v "ATAC-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "ATACS" ]
        ] ;
        fhir:value [ fhir:v "ATAC-Seq" ]
@@ -97,7 +118,10 @@
      fhir:display [ fhir:v "Hi-C" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "HIC" ]
        ] ;
        fhir:value [ fhir:v "Hi-C" ]
@@ -107,7 +131,10 @@
      fhir:display [ fhir:v "Bisulfite-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "BIS" ]
        ] ;
        fhir:value [ fhir:v "Bisulfite-Seq" ]
@@ -117,7 +144,10 @@
      fhir:display [ fhir:v "Targeted Methyl-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "TMS" ]
        ] ;
        fhir:value [ fhir:v "Targeted Methyl-Seq" ]
@@ -127,7 +157,10 @@
      fhir:display [ fhir:v "MRE-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "MRES" ]
        ] ;
        fhir:value [ fhir:v "MRE-Seq" ]
@@ -137,7 +170,10 @@
      fhir:display [ fhir:v "MeDIP-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "MDIPS" ]
        ] ;
        fhir:value [ fhir:v "MeDIP-Seq" ]
@@ -147,7 +183,10 @@
      fhir:display [ fhir:v "MCC-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "MCCS" ]
        ] ;
        fhir:value [ fhir:v "MCC-Seq" ]
@@ -157,7 +196,10 @@
      fhir:display [ fhir:v "MBD-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "MBDS" ]
        ] ;
        fhir:value [ fhir:v "MBD-Seq" ]
@@ -167,7 +209,10 @@
      fhir:display [ fhir:v "EM-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "EMS" ]
        ] ;
        fhir:value [ fhir:v "EM-Seq" ]
@@ -177,7 +222,10 @@
      fhir:display [ fhir:v "Direct Methyl-Seq" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/experimental-strategy>
+         ] ;
          fhir:code [ fhir:v "DMS" ]
        ] ;
        fhir:value [ fhir:v "Direct Methyl-Seq" ]

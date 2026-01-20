@@ -171,97 +171,100 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/task.html#Task">Task</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;CQDGTaskExample&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#Task.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;CQDGTaskExample&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#Task.meta">meta</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://fhir.cqdg.ca/StructureDefinition/CQDGTask&quot;/&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.meta">meta</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.text">text</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/resource.html#Task.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Task.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Task CQDGTaskExample&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;CQDGTaskExample&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcCQDGTaskExample&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&amp;amp;canonical=https://fhir.cqdg.ca/StructureDefinition/CQDGTask&quot;&gt;https://fhir.cqdg.ca/StructureDefinition/CQDGTask&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/workflow&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;genomeBuild: &lt;a href=&quot;CodeSystem-genome-build.html#genome-build-GRCh38&quot;&gt;Ferlab.bio CodeSystem/genome-build GRCh38&lt;/a&gt;: GRCh38&lt;/li&gt;&lt;li&gt;pipeline: Some Pipeline&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/sequencing-experiment&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;experimentalStrategy: &lt;a href=&quot;CodeSystem-experimental-strategy.html#experimental-strategy-WXS&quot;&gt;Ferlab.bio CodeSystem/experimental-strategy WXS&lt;/a&gt;: Whole Exome Sequencing&lt;/li&gt;&lt;li&gt;isPairedEnd: true&lt;/li&gt;&lt;li&gt;platform: NovaSeq S4 PE150&lt;/li&gt;&lt;li&gt;readLength: 151,8,8,151&lt;/li&gt;&lt;li&gt;selection: &lt;a href=&quot;CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-CHIP&quot;&gt;Ferlab.bio CodeSystem/sequencing-experiment-selection CHIP&lt;/a&gt;: ChIP&lt;/li&gt;&lt;li&gt;source: &lt;a href=&quot;CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-GEN&quot;&gt;Ferlab.bio CodeSystem/sequencing-experiment-source GEN&lt;/a&gt;: Genomic&lt;/li&gt;&lt;li&gt;protocol: protocol2&lt;/li&gt;&lt;li&gt;targetCaptureKit: targetCaptureKit2&lt;/li&gt;&lt;li&gt;targetLoci: targetedLoci2&lt;/li&gt;&lt;li&gt;runIds: RunID12345&lt;/li&gt;&lt;li&gt;runIds: RunID67890&lt;/li&gt;&lt;li&gt;runDates: 2023-01-01&lt;/li&gt;&lt;li&gt;runDates: 2023-01-02&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/sample&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ldmSampleId: LDM12345&lt;/li&gt;&lt;li&gt;labAliquotId: AliquotID1&lt;/li&gt;&lt;li&gt;labAliquotId: AliquotID2&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code RABA}&quot;&gt;Reads Alignement Bioinformatic Analysis&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=&quot;Organization-OrganizationExample.html&quot;&gt;Organization CQDG&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;owner&lt;/b&gt;: &lt;a href=&quot;Organization-OrganizationExample.html&quot;&gt;Organization CQDG&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Inputs&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:&quot;&gt;Analysed sample&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Specimen-SpecimenExample.html&quot;&gt;Submitter Sample ID: SpecimenExample&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Aligned-reads}&quot;&gt;Aligned Reads&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample1.html&quot;&gt;DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type SNV}&quot;&gt;SNV&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample1.html&quot;&gt;DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Germline-CNV}&quot;&gt;Germline CNV&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample2.html&quot;&gt;DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Sequencing-data-supplement}&quot;&gt;Sequencing-data-supplement&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample2.html&quot;&gt;DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.text">text</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Task CQDGTaskExample&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;CQDGTaskExample&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcCQDGTaskExample&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&amp;amp;canonical=https://fhir.cqdg.ca/StructureDefinition/CQDGTask&quot;&gt;https://fhir.cqdg.ca/StructureDefinition/CQDGTask&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/workflow&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;genomeBuild: &lt;a href=&quot;CodeSystem-genome-build.html#genome-build-GRCh38&quot;&gt;Ferlab.bio CodeSystem/genome-build: GRCh38&lt;/a&gt; (GRCh38)&lt;/li&gt;&lt;li&gt;pipeline: First Pipeline&lt;/li&gt;&lt;li&gt;pipeline: Second Pipeline&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/sequencing-experiment&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;experimentalStrategy: &lt;a href=&quot;CodeSystem-experimental-strategy.html#experimental-strategy-WXS&quot;&gt;Ferlab.bio CodeSystem/experimental-strategy: WXS&lt;/a&gt; (Whole Exome Sequencing)&lt;/li&gt;&lt;li&gt;isPairedEnd: true&lt;/li&gt;&lt;li&gt;platform: NovaSeq S4 PE150&lt;/li&gt;&lt;li&gt;readLength: 151,8,8,151&lt;/li&gt;&lt;li&gt;selection: &lt;a href=&quot;CodeSystem-sequencing-experiment-selection.html#sequencing-experiment-selection-CHIP&quot;&gt;Ferlab.bio CodeSystem/sequencing-experiment-selection: CHIP&lt;/a&gt; (ChIP)&lt;/li&gt;&lt;li&gt;source: &lt;a href=&quot;CodeSystem-sequencing-experiment-source.html#sequencing-experiment-source-GEN&quot;&gt;Ferlab.bio CodeSystem/sequencing-experiment-source: GEN&lt;/a&gt; (Genomic)&lt;/li&gt;&lt;li&gt;protocol: protocol2&lt;/li&gt;&lt;li&gt;targetCaptureKit: targetCaptureKit2&lt;/li&gt;&lt;li&gt;targetLoci: targetedLoci2&lt;/li&gt;&lt;li&gt;runIds: RunID12345&lt;/li&gt;&lt;li&gt;runIds: RunID67890&lt;/li&gt;&lt;li&gt;runDates: 2023-01-01&lt;/li&gt;&lt;li&gt;runDates: 2023-01-02&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Ferlab.bio StructureDefinition/sample&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ldmSampleId: LDM12345&lt;/li&gt;&lt;li&gt;labAliquotId: AliquotID1&lt;/li&gt;&lt;li&gt;labAliquotId: AliquotID2&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code RABA}&quot;&gt;Reads Alignement Bioinformatic Analysis&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=&quot;Organization-OrganizationExample.html&quot;&gt;Organization CQDG&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;owner&lt;/b&gt;: &lt;a href=&quot;Organization-OrganizationExample.html&quot;&gt;Organization CQDG&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Inputs&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:&quot;&gt;Analysed sample&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Specimen-SpecimenExample.html&quot;&gt;Submitter Sample ID: SpecimenExample&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Aligned-reads}&quot;&gt;Aligned Reads&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample1.html&quot;&gt;DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type SNV}&quot;&gt;SNV&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample1.html&quot;&gt;DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Germline-CNV}&quot;&gt;Germline CNV&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample2.html&quot;&gt;DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;output&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{https://fhir.cqdg.ca/CodeSystem/data-type Sequencing-data-supplement}&quot;&gt;Sequencing-data-supplement&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=&quot;DocumentReference-DocumentReferenceExample2.html&quot;&gt;DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Task.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://fhir.cqdg.ca/StructureDefinition/workflowExtension&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;genomeBuild&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;genomeBuild&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://fhir.cqdg.ca/CodeSystem/genome-build&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;GRCh38&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GRCh38&quot;/&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;pipeline&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Some Pipeline&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a>
+      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;pipeline&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;First Pipeline&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;pipeline&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Second Pipeline&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;experimentalStrategy&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;experimentalStrategy&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://fhir.cqdg.ca/CodeSystem/experimental-strategy&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;WXS&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Whole Exome Sequencing&quot;/&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;isPairedEnd&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;platform&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NovaSeq S4 PE150&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;readLength&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;151,8,8,151&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;selection&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;isPairedEnd&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;platform&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NovaSeq S4 PE150&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;readLength&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;151,8,8,151&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;selection&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CHIP&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ChIP&quot;/&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;source&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;source&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;GEN&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Genomic&quot;/&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;protocol&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;protocol2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;targetCaptureKit&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;targetCaptureKit2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;targetLoci&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;targetedLoci2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runIds&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RunID12345&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runIds&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RunID67890&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runDates&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2023-01-01&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runDates&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2023-01-02&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://fhir.cqdg.ca/StructureDefinition/sampleExtension&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ldmSampleId&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LDM12345&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;labAliquotId&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AliquotID1&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;labAliquotId&quot;&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AliquotID2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;protocol&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;protocol2&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;targetCaptureKit&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;targetCaptureKit2&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;targetLoci&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;targetedLoci2&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runIds&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RunID12345&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runIds&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RunID67890&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runDates&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2023-01-01&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;runDates&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2023-01-02&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://fhir.cqdg.ca/StructureDefinition/sampleExtension&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ldmSampleId&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LDM12345&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;labAliquotId&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AliquotID1&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;labAliquotId&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AliquotID2&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Task.extension">extension</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.intent">intent</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;order&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.priority">priority</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;routine&quot;/&gt;
@@ -282,10 +285,10 @@
     &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.input.type">type</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Analysed sample&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.input.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.input.value[x]">valueReference</a>&gt;<a href="Specimen-SpecimenExample.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.input.value_x_">valueReference</a>&gt;<a href="Specimen-SpecimenExample.html" style="color: Maroon">&#x1F517;</a> 
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Specimen/SpecimenExample&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Submitter Sample ID: SpecimenExample&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.input.value[x]">valueReference</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.input.value_x_">valueReference</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.input">input</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
@@ -295,9 +298,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aligned Reads&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample1.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample1.html" style="color: Maroon">&#x1F517;</a> 
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DocumentReference/DocumentReferenceExample1&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
@@ -307,9 +310,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SNV&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample1.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample1.html" style="color: Maroon">&#x1F517;</a> 
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DocumentReference/DocumentReferenceExample1&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
@@ -319,9 +322,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Germline CNV&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample2.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample2.html" style="color: Maroon">&#x1F517;</a> 
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DocumentReference/DocumentReferenceExample2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
@@ -331,9 +334,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sequencing-data-supplement&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.type">type</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample2.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;<a href="DocumentReference-DocumentReferenceExample2.html" style="color: Maroon">&#x1F517;</a> 
       &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DocumentReference/DocumentReferenceExample2&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value[x]">valueReference</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output.value_x_">valueReference</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task.output">output</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R4/task.html#Task">Task</a>&gt;</code></pre>
 
@@ -359,7 +362,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 23, 2025 20:39+0000">2025-09-23</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 16:06+0000">2026-01-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

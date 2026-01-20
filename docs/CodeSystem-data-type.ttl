@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "data-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Unaligned-Reads<a name=\"data-type-Unaligned-Reads\"> </a></td><td>Unaligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-reads<a name=\"data-type-Aligned-reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">Germline-CNV<a name=\"data-type-Germline-CNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-supplement<a name=\"data-type-Sequencing-data-supplement\"> </a></td><td>Supplement</td></tr><tr><td style=\"white-space:nowrap\">Metrics<a name=\"data-type-Metrics\"> </a></td><td>Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-index<a name=\"data-type-Sequencing-data-index\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">Germline-structural-variant<a name=\"data-type-Germline-structural-variant\"> </a></td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Unaligned-Reads<a name=\"data-type-Unaligned-Reads\"> </a></td><td>Unaligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-reads<a name=\"data-type-Aligned-reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">Germline-CNV<a name=\"data-type-Germline-CNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-supplement<a name=\"data-type-Sequencing-data-supplement\"> </a></td><td>Supplement</td></tr><tr><td style=\"white-space:nowrap\">Metrics<a name=\"data-type-Metrics\"> </a></td><td>Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-data-index<a name=\"data-type-Sequencing-data-index\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">Germline-structural-variant<a name=\"data-type-Germline-structural-variant\"> </a></td><td>Germline Structural Variant</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "DataType"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/data-type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,7 +40,10 @@
      fhir:display [ fhir:v "Unaligned Reads" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Unaligned-Reads" ]
        ] ;
        fhir:value [ fhir:v "Unaligned Reads" ]
@@ -47,7 +53,10 @@
      fhir:display [ fhir:v "Aligned Reads" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Aligned-reads" ]
        ] ;
        fhir:value [ fhir:v "Aligned Reads" ]
@@ -57,7 +66,10 @@
      fhir:display [ fhir:v "SNV" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "SNV" ]
        ] ;
        fhir:value [ fhir:v "SNV" ]
@@ -67,7 +79,10 @@
      fhir:display [ fhir:v "Germline CNV" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Germline-CNV" ]
        ] ;
        fhir:value [ fhir:v "Germline CNV" ]
@@ -77,7 +92,10 @@
      fhir:display [ fhir:v "Supplement" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Sequencing-data-supplement" ]
        ] ;
        fhir:value [ fhir:v "Supplement" ]
@@ -87,7 +105,10 @@
      fhir:display [ fhir:v "Metrics" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Metrics" ]
        ] ;
        fhir:value [ fhir:v "Metrics" ]
@@ -97,7 +118,10 @@
      fhir:display [ fhir:v "Sequencing Data Index" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Sequencing-data-index" ]
        ] ;
        fhir:value [ fhir:v "Sequencing Data Index" ]
@@ -107,7 +131,10 @@
      fhir:display [ fhir:v "Germline Structural Variant" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Germline-structural-variant" ]
        ] ;
        fhir:value [ fhir:v "Germline Structural Variant" ]
@@ -117,7 +144,10 @@
      fhir:display [ fhir:v "IGV" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "IGV" ]
        ] ;
        fhir:value [ fhir:v "IGV" ]
@@ -127,7 +157,10 @@
      fhir:display [ fhir:v "Annotated SNV" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
+         ] ;
          fhir:code [ fhir:v "Annotated-SNV" ]
        ] ;
        fhir:value [ fhir:v "Annotated SNV" ]

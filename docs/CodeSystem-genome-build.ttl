@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "genome-build"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem genome-build</b></p><a name=\"genome-build\"> </a><a name=\"hcgenome-build\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem genome-build</b></p><a name=\"genome-build\"> </a><a name=\"hcgenome-build\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/genome-build"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/CodeSystem/genome-build"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/CodeSystem/genome-build>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "GenomeBuild"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/genome-build"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,7 +40,10 @@
      fhir:display [ fhir:v "GRCh38" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/genome-build"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/genome-build"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/genome-build>
+         ] ;
          fhir:code [ fhir:v "GRCh38" ]
        ] ;
        fhir:value [ fhir:v "GRCh38" ]

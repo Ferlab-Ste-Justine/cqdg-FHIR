@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "relationship-to-proband"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem relationship-to-proband</b></p><a name=\"relationship-to-proband\"> </a><a name=\"hcrelationship-to-proband\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/relationship-to-proband</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Proband<a name=\"relationship-to-proband-Proband\"> </a></td><td>Proband</td></tr><tr><td style=\"white-space:nowrap\">Mother<a name=\"relationship-to-proband-Mother\"> </a></td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\">Father<a name=\"relationship-to-proband-Father\"> </a></td><td>Father</td></tr><tr><td style=\"white-space:nowrap\">Brother<a name=\"relationship-to-proband-Brother\"> </a></td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\">Sister<a name=\"relationship-to-proband-Sister\"> </a></td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\">Half-brother<a name=\"relationship-to-proband-Half-brother\"> </a></td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\">Half-sister<a name=\"relationship-to-proband-Half-sister\"> </a></td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\">Identical-twin<a name=\"relationship-to-proband-Identical-twin\"> </a></td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-brother<a name=\"relationship-to-proband-Fraternal-twin-brother\"> </a></td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-sister<a name=\"relationship-to-proband-Fraternal-twin-sister\"> </a></td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\">Son<a name=\"relationship-to-proband-Son\"> </a></td><td>Son</td></tr><tr><td style=\"white-space:nowrap\">Daughter<a name=\"relationship-to-proband-Daughter\"> </a></td><td>Daughter</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"relationship-to-proband-Other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem relationship-to-proband</b></p><a name=\"relationship-to-proband\"> </a><a name=\"hcrelationship-to-proband\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/relationship-to-proband</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Proband<a name=\"relationship-to-proband-Proband\"> </a></td><td>Proband</td></tr><tr><td style=\"white-space:nowrap\">Mother<a name=\"relationship-to-proband-Mother\"> </a></td><td>Mother</td></tr><tr><td style=\"white-space:nowrap\">Father<a name=\"relationship-to-proband-Father\"> </a></td><td>Father</td></tr><tr><td style=\"white-space:nowrap\">Brother<a name=\"relationship-to-proband-Brother\"> </a></td><td>Brother</td></tr><tr><td style=\"white-space:nowrap\">Sister<a name=\"relationship-to-proband-Sister\"> </a></td><td>Sister</td></tr><tr><td style=\"white-space:nowrap\">Half-brother<a name=\"relationship-to-proband-Half-brother\"> </a></td><td>Half-brother</td></tr><tr><td style=\"white-space:nowrap\">Half-sister<a name=\"relationship-to-proband-Half-sister\"> </a></td><td>Half-sister</td></tr><tr><td style=\"white-space:nowrap\">Identical-twin<a name=\"relationship-to-proband-Identical-twin\"> </a></td><td>Identical twin</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-brother<a name=\"relationship-to-proband-Fraternal-twin-brother\"> </a></td><td>Fraternal twin brother</td></tr><tr><td style=\"white-space:nowrap\">Fraternal-twin-sister<a name=\"relationship-to-proband-Fraternal-twin-sister\"> </a></td><td>Fraternal twin sister</td></tr><tr><td style=\"white-space:nowrap\">Son<a name=\"relationship-to-proband-Son\"> </a></td><td>Son</td></tr><tr><td style=\"white-space:nowrap\">Daughter<a name=\"relationship-to-proband-Daughter\"> </a></td><td>Daughter</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"relationship-to-proband-Other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "RelationshipToProbandCodeSystem"] ; # 
   fhir:title [ fhir:v "Ferlab.bio CodeSystem/relationship-to-proband"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -37,7 +40,10 @@
      fhir:display [ fhir:v "Proband" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Proband" ]
        ] ;
        fhir:value [ fhir:v "Proband" ]
@@ -47,7 +53,10 @@
      fhir:display [ fhir:v "Mother" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Mother" ]
        ] ;
        fhir:value [ fhir:v "Mother" ]
@@ -57,7 +66,10 @@
      fhir:display [ fhir:v "Father" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Father" ]
        ] ;
        fhir:value [ fhir:v "Father" ]
@@ -67,7 +79,10 @@
      fhir:display [ fhir:v "Brother" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Brother" ]
        ] ;
        fhir:value [ fhir:v "Brother" ]
@@ -77,7 +92,10 @@
      fhir:display [ fhir:v "Sister" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Sister" ]
        ] ;
        fhir:value [ fhir:v "Sister" ]
@@ -87,7 +105,10 @@
      fhir:display [ fhir:v "Half-brother" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Half-brother" ]
        ] ;
        fhir:value [ fhir:v "Half-brother" ]
@@ -97,7 +118,10 @@
      fhir:display [ fhir:v "Half-sister" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Half-sister" ]
        ] ;
        fhir:value [ fhir:v "Half-sister" ]
@@ -107,7 +131,10 @@
      fhir:display [ fhir:v "Identical twin" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Identical-twin" ]
        ] ;
        fhir:value [ fhir:v "Identical twin" ]
@@ -117,7 +144,10 @@
      fhir:display [ fhir:v "Fraternal twin brother" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Fraternal-twin-brother" ]
        ] ;
        fhir:value [ fhir:v "Fraternal twin brother" ]
@@ -127,7 +157,10 @@
      fhir:display [ fhir:v "Fraternal twin sister" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Fraternal-twin-sister" ]
        ] ;
        fhir:value [ fhir:v "Fraternal twin sister" ]
@@ -137,7 +170,10 @@
      fhir:display [ fhir:v "Son" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Son" ]
        ] ;
        fhir:value [ fhir:v "Son" ]
@@ -147,7 +183,10 @@
      fhir:display [ fhir:v "Daughter" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Daughter" ]
        ] ;
        fhir:value [ fhir:v "Daughter" ]
@@ -157,7 +196,10 @@
      fhir:display [ fhir:v "Other" ] ;
      fhir:designation ( [
        fhir:use [
-         fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/CodeSystem/relationship-to-proband>
+         ] ;
          fhir:code [ fhir:v "Other" ]
        ] ;
        fhir:value [ fhir:v "Other" ]

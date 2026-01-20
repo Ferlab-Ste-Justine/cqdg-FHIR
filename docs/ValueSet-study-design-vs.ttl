@@ -11,14 +11,17 @@
   fhir:id [ fhir:v "study-design-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet study-design-vs</b></p><a name=\"study-design-vs\"> </a><a name=\"hcstudy-design-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-study-design.html\"><code>https://fhir.cqdg.ca/CodeSystem/study-design</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet study-design-vs</b></p><a name=\"study-design-vs\"> </a><a name=\"hcstudy-design-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-study-design.html\"><code>https://fhir.cqdg.ca/CodeSystem/study-design</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/ValueSet/study-design-vs"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/ValueSet/study-design-vs"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/ValueSet/study-design-vs>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "StudyDesignVS"] ; # 
   fhir:title [ fhir:v "Ferlab.bio ValueSet/study-design"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -30,7 +33,10 @@
   fhir:description [ fhir:v "Study Design ValueSet"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://fhir.cqdg.ca/CodeSystem/study-design"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "https://fhir.cqdg.ca/CodeSystem/study-design"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/CodeSystem/study-design>
+       ]
      ] )
   ] . # 
 

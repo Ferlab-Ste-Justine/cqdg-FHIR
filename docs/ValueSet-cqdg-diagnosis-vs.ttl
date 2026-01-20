@@ -11,14 +11,17 @@
   fhir:id [ fhir:v "cqdg-diagnosis-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cqdg-diagnosis-vs</b></p><a name=\"cqdg-diagnosis-vs\"> </a><a name=\"hccqdg-diagnosis-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-MONDO.html\"><code>http://purl.obolibrary.org/obo/mondo.owl</code></a></li><li>Include all codes defined in <code>http://terminology.hl7.org/CodeSystem/icd10-CA</code></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cqdg-diagnosis-vs</b></p><a name=\"cqdg-diagnosis-vs\"> </a><a name=\"hccqdg-diagnosis-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"https://tx-nordics.fhir.org/fhir/r4\"><code>http://purl.obolibrary.org/obo/mondo.owl</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li><li>Include all codes defined in <code>http://terminology.hl7.org/CodeSystem/icd10-CA</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs"^^xsd:anyURI ;
+     fhir:l <https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs>
+  ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDGDiagnosisVS"] ; # 
   fhir:title [ fhir:v "Ferlab.bio ValueSet/diagnosis"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-23T20:38:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-20T16:06:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -30,9 +33,15 @@
   fhir:description [ fhir:v "Diagnosis ValueSet"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/mondo.owl"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "http://purl.obolibrary.org/obo/mondo.owl"^^xsd:anyURI ;
+         fhir:l <http://purl.obolibrary.org/obo/mondo.owl>
+       ]
      ] [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/icd10-CA"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/icd10-CA"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/icd10-CA>
+       ]
      ] )
   ] . # 
 

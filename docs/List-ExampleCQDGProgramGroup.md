@@ -1,0 +1,209 @@
+# Ferlab.bio Example/cqdg-program-list - v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Ferlab.bio Example/cqdg-program-list**
+
+## Example List: Ferlab.bio Example/cqdg-program-list
+
+Profile: [Ferlab.bio StructureDefinition/cqdg-program](StructureDefinition-cqdg-program.md)
+
+## Example Research Program
+
+| | |
+| :--- | :--- |
+| Mode: Working List | Status: Current |
+|  | |
+
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "List",
+  "id" : "ExampleCQDGProgramGroup",
+  "meta" : {
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-program"]
+  },
+  "extension" : [
+    {
+      "extension" : [
+        {
+          "url" : "descriptionEN",
+          "valueString" : "Example program in English"
+        },
+        {
+          "url" : "descriptionFR",
+          "valueString" : "Exemple de programme en français"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "website",
+              "valueUrl" : "https://example.org"
+            },
+            {
+              "url" : "citationStatement",
+              "valueString" : "citation statement for the program"
+            },
+            {
+              "url" : "logo",
+              "valueUrl" : "https://example.org/logo.jpg"
+            }
+          ],
+          "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "name",
+              "valueString" : "Dr. Jane Doe"
+            },
+            {
+              "url" : "contactInstitution",
+              "valueString" : "Genomics Institute"
+            },
+            {
+              "url" : "telecom",
+              "valueContactPoint" : {
+                "system" : "email",
+                "value" : "jane.doe@example.org",
+                "use" : "work"
+              }
+            },
+            {
+              "url" : "telecom",
+              "valueContactPoint" : {
+                "system" : "phone",
+                "value" : "+1-555-123-4567",
+                "use" : "mobile"
+              }
+            },
+            {
+              "url" : "ProgramRoleEN",
+              "valueString" : "Program Role in English"
+            },
+            {
+              "url" : "ProgramRoleFR",
+              "valueString" : "Program Role en Français"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "contactPicture",
+                  "valueUrl" : "https://example.org/contact-picture.jpg"
+                },
+                {
+                  "url" : "website",
+                  "valueUrl" : "https://example.org/contact-website"
+                }
+              ],
+              "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
+            },
+            {
+              "url" : "rank",
+              "valueInteger" : 1
+            }
+          ],
+          "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "name",
+              "valueString" : "Dr. Jane Doe2"
+            },
+            {
+              "url" : "contactInstitution",
+              "valueString" : "Genomics Institute2"
+            },
+            {
+              "url" : "telecom",
+              "valueContactPoint" : {
+                "system" : "email",
+                "value" : "jane.doe@example2.org",
+                "use" : "work"
+              }
+            },
+            {
+              "url" : "telecom",
+              "valueContactPoint" : {
+                "system" : "phone",
+                "value" : "+1-555-123-4568",
+                "use" : "mobile"
+              }
+            },
+            {
+              "url" : "ProgramRoleEN",
+              "valueString" : "Program Role in English2"
+            },
+            {
+              "url" : "ProgramRoleFR",
+              "valueString" : "Program Role en Français2"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "contactPicture",
+                  "valueUrl" : "https://example.org/contact-picture2.jpg"
+                },
+                {
+                  "url" : "website",
+                  "valueUrl" : "https://example.org/contact-website2"
+                }
+              ],
+              "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"
+            },
+            {
+              "url" : "rank",
+              "valueInteger" : 2
+            }
+          ],
+          "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "name",
+              "valueString" : "Name of Partner"
+            },
+            {
+              "url" : "rank",
+              "valueInteger" : 1
+            },
+            {
+              "url" : "logo",
+              "valueUrl" : "/partners_logos/FRQS.svg"
+            }
+          ],
+          "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "name",
+              "valueString" : "Name of Partner2"
+            },
+            {
+              "url" : "rank",
+              "valueInteger" : 2
+            },
+            {
+              "url" : "logo",
+              "valueUrl" : "/partners_logos/FRQS2.svg"
+            }
+          ],
+          "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"
+        }
+      ],
+      "url" : "https://fhir.cqdg.ca/StructureDefinition/research-program"
+    }
+  ],
+  "status" : "current",
+  "mode" : "working",
+  "title" : "Example Research Program"
+}
+
+```

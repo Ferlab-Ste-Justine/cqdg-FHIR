@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="cqdg-diagnosis-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet cqdg-diagnosis-vs</b></p><a name="cqdg-diagnosis-vs"> </a><a name="hccqdg-diagnosis-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/6.5.0/CodeSystem-MONDO.html"><code>http://purl.obolibrary.org/obo/mondo.owl</code></a></li><li>Include all codes defined in <code>http://terminology.hl7.org/CodeSystem/icd10-CA</code></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet cqdg-diagnosis-vs</b></p><a name="cqdg-diagnosis-vs"> </a><a name="hccqdg-diagnosis-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="https://tx-nordics.fhir.org/fhir/r4"><code>http://purl.obolibrary.org/obo/mondo.owl</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li><li>Include all codes defined in <code>http://terminology.hl7.org/CodeSystem/icd10-CA</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
   </text>
   <url value="https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs"/>
   <version value="0.1.0"/>
   <name value="CQDGDiagnosisVS"/>
   <title value="Ferlab.bio ValueSet/diagnosis"/>
   <status value="active"/>
-  <date value="2025-09-23T20:38:56+00:00"/>
+  <date value="2026-01-20T16:06:26+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>

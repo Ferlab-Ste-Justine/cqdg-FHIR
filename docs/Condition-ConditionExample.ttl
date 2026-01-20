@@ -13,7 +13,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"^^xsd:anyURI ;
-       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
+       fhir:l <https://fhir.cqdg.ca/StructureDefinition/cqdg-condition>
      ] ) ;
      fhir:tag ( [
        fhir:code [ fhir:v "CAG" ]
@@ -21,41 +21,56 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ConditionExample</b></p><a name=\"ConditionExample\"> </a><a name=\"hcConditionExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-condition.html\">Ferlab.bio StructureDefinition/cqdg-condition</a></p><p style=\"margin-bottom: 0px\">Tag: CAG (Details: [not stated] code CAG)</p></div><p><b>Ferlab.bio Extension/age-at-event</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0030674}\">Antenatal onset</span></p><p><b>identifier</b>: <code>https://fhir.cqdg.ca/fhir/Condition</code>/ConditionExample</p><p><b>code</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/mondo.owl 1231245}\">fatigue</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</a></p><h3>Stages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Summary</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 254293002}\">TNM tumor staging system</span></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ConditionExample</b></p><a name=\"ConditionExample\"> </a><a name=\"hcConditionExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-condition.html\">Ferlab.bio StructureDefinition/cqdg-condition</a></p><p style=\"margin-bottom: 0px\">Tag: CAG (Details: [not stated] code CAG)</p></div><p><b>Ferlab.bio Extension/age-at-event</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0030674}\">Antenatal onset</span></p><p><b>identifier</b>: <code>https://fhir.cqdg.ca/fhir/Condition</code>/ConditionExample</p><p><b>code</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/mondo.owl 1231245}\">fatigue</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</a></p><h3>Stages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Summary</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 254293002}\">TNM tumor staging system</span></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent"^^xsd:anyURI ;
+       fhir:l <https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent>
+     ] ;
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ;
+           fhir:l <http://purl.obolibrary.org/obo/hp.owl>
+         ] ;
          fhir:code [ fhir:v "HP:0030674" ]
        ] )
      ]
   ] ) ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://fhir.cqdg.ca/fhir/Condition"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.cqdg.ca/fhir/Condition"^^xsd:anyURI ;
+       fhir:l <https://fhir.cqdg.ca/fhir/Condition>
+     ] ;
      fhir:value [ fhir:v "ConditionExample" ]
   ] ) ; # 
   fhir:code [
      fhir:coding ( [
        fhir:code [ fhir:v "L40" ]
      ] [
-       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/mondo.owl"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://purl.obolibrary.org/obo/mondo.owl"^^xsd:anyURI ;
+         fhir:l <http://purl.obolibrary.org/obo/mondo.owl>
+       ] ;
        fhir:code [ fhir:v "1231245" ] ;
        fhir:display [ fhir:v "fatigue" ]
      ] ) ;
      fhir:text [ fhir:v "fatigue" ]
   ] ; # 
   fhir:subject [
-     fhir:link <https://fhir.cqdg.ca/Patient/PatientExample> ;
+     fhir:l <https://fhir.cqdg.ca/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:stage ( [
      fhir:summary [
        fhir:coding ( [
          a sct:254293002 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "254293002" ] ;
          fhir:display [ fhir:v "TNM tumor staging system" ]
        ] )

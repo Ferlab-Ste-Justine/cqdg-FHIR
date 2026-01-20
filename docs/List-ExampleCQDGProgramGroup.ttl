@@ -12,62 +12,91 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-program"^^xsd:anyURI ;
-       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-program>
+       fhir:l <https://fhir.cqdg.ca/StructureDefinition/cqdg-program>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List ExampleCQDGProgramGroup</b></p><a name=\"ExampleCQDGProgramGroup\"> </a><a name=\"hcExampleCQDGProgramGroup\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-program.html\">Ferlab.bio StructureDefinition/cqdg-program</a></p></div><h2>Example Research Program</h2><table class=\"clstu\"><tr><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: List ExampleCQDGProgramGroup</b></p><a name=\"ExampleCQDGProgramGroup\"> </a><a name=\"hcExampleCQDGProgramGroup\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-program.html\">Ferlab.bio StructureDefinition/cqdg-program</a></p></div><h2>Example Research Program</h2><table class=\"clstu\"><tr><td>Mode: Working List </td><td>Status: Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:extension ( [
-       fhir:url [ fhir:v "descriptionEN"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "descriptionEN"^^xsd:anyURI ;
+         fhir:l fhir:descriptionEN
+       ] ;
        fhir:value [
-         a fhir:string ;
+         a fhir:String ;
          fhir:v "Example program in English"
        ]
      ] [
-       fhir:url [ fhir:v "descriptionFR"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "descriptionFR"^^xsd:anyURI ;
+         fhir:l fhir:descriptionFR
+       ] ;
        fhir:value [
-         a fhir:string ;
+         a fhir:String ;
          fhir:v "Exemple de programme en français"
        ]
      ] [
        fhir:extension ( [
-         fhir:url [ fhir:v "website"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "website"^^xsd:anyURI ;
+           fhir:l fhir:website
+         ] ;
          fhir:value [
-           a fhir:url ;
-           fhir:v "https://example.org"^^xsd:anyURI
+           a fhir:Url ;
+           fhir:v "https://example.org"^^xsd:anyURI ;
+           fhir:l <https://example.org>
          ]
        ] [
-         fhir:url [ fhir:v "citationStatement"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "citationStatement"^^xsd:anyURI ;
+           fhir:l fhir:citationStatement
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "citation statement for the program"
          ]
        ] [
-         fhir:url [ fhir:v "logo"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "logo"^^xsd:anyURI ;
+           fhir:l fhir:logo
+         ] ;
          fhir:value [
-           a fhir:url ;
-           fhir:v "https://example.org/logo.jpg"^^xsd:anyURI
+           a fhir:Url ;
+           fhir:v "https://example.org/logo.jpg"^^xsd:anyURI ;
+           fhir:l <https://example.org/logo.jpg>
          ]
        ] ) ;
-       fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact>
+       ]
      ] [
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Dr. Jane Doe"
          ]
        ] [
-         fhir:url [ fhir:v "contactInstitution"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "contactInstitution"^^xsd:anyURI ;
+           fhir:l fhir:contactInstitution
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Genomics Institute"
          ]
        ] [
-         fhir:url [ fhir:v "telecom"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "telecom"^^xsd:anyURI ;
+           fhir:l fhir:telecom
+         ] ;
          fhir:value [
            a fhir:ContactPoint ;
            fhir:system [ fhir:v "email" ] ;
@@ -75,7 +104,10 @@
            fhir:use [ fhir:v "work" ]
          ]
        ] [
-         fhir:url [ fhir:v "telecom"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "telecom"^^xsd:anyURI ;
+           fhir:l fhir:telecom
+         ] ;
          fhir:value [
            a fhir:ContactPoint ;
            fhir:system [ fhir:v "phone" ] ;
@@ -83,55 +115,87 @@
            fhir:use [ fhir:v "mobile" ]
          ]
        ] [
-         fhir:url [ fhir:v "ProgramRoleEN"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "ProgramRoleEN"^^xsd:anyURI ;
+           fhir:l fhir:ProgramRoleEN
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Program Role in English"
          ]
        ] [
-         fhir:url [ fhir:v "ProgramRoleFR"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "ProgramRoleFR"^^xsd:anyURI ;
+           fhir:l fhir:ProgramRoleFR
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Program Role en Français"
          ]
        ] [
          fhir:extension ( [
-           fhir:url [ fhir:v "contactPicture"^^xsd:anyURI ] ;
+           fhir:url [
+             fhir:v "contactPicture"^^xsd:anyURI ;
+             fhir:l fhir:contactPicture
+           ] ;
            fhir:value [
-             a fhir:url ;
-             fhir:v "https://example.org/contact-picture.jpg"^^xsd:anyURI
+             a fhir:Url ;
+             fhir:v "https://example.org/contact-picture.jpg"^^xsd:anyURI ;
+             fhir:l <https://example.org/contact-picture.jpg>
            ]
          ] [
-           fhir:url [ fhir:v "website"^^xsd:anyURI ] ;
+           fhir:url [
+             fhir:v "website"^^xsd:anyURI ;
+             fhir:l fhir:website
+           ] ;
            fhir:value [
-             a fhir:url ;
-             fhir:v "https://example.org/contact-website"^^xsd:anyURI
+             a fhir:Url ;
+             fhir:v "https://example.org/contact-website"^^xsd:anyURI ;
+             fhir:l <https://example.org/contact-website>
            ]
          ] ) ;
-         fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ]
+         fhir:url [
+           fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact>
+         ]
        ] [
-         fhir:url [ fhir:v "rank"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "rank"^^xsd:anyURI ;
+           fhir:l fhir:rank
+         ] ;
          fhir:value [
-           a fhir:integer ;
+           a fhir:Integer ;
            fhir:v 1
          ]
        ] ) ;
-       fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-contact>
+       ]
      ] [
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Dr. Jane Doe2"
          ]
        ] [
-         fhir:url [ fhir:v "contactInstitution"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "contactInstitution"^^xsd:anyURI ;
+           fhir:l fhir:contactInstitution
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Genomics Institute2"
          ]
        ] [
-         fhir:url [ fhir:v "telecom"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "telecom"^^xsd:anyURI ;
+           fhir:l fhir:telecom
+         ] ;
          fhir:value [
            a fhir:ContactPoint ;
            fhir:system [ fhir:v "email" ] ;
@@ -139,7 +203,10 @@
            fhir:use [ fhir:v "work" ]
          ]
        ] [
-         fhir:url [ fhir:v "telecom"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "telecom"^^xsd:anyURI ;
+           fhir:l fhir:telecom
+         ] ;
          fhir:value [
            a fhir:ContactPoint ;
            fhir:system [ fhir:v "phone" ] ;
@@ -147,84 +214,136 @@
            fhir:use [ fhir:v "mobile" ]
          ]
        ] [
-         fhir:url [ fhir:v "ProgramRoleEN"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "ProgramRoleEN"^^xsd:anyURI ;
+           fhir:l fhir:ProgramRoleEN
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Program Role in English2"
          ]
        ] [
-         fhir:url [ fhir:v "ProgramRoleFR"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "ProgramRoleFR"^^xsd:anyURI ;
+           fhir:l fhir:ProgramRoleFR
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Program Role en Français2"
          ]
        ] [
          fhir:extension ( [
-           fhir:url [ fhir:v "contactPicture"^^xsd:anyURI ] ;
+           fhir:url [
+             fhir:v "contactPicture"^^xsd:anyURI ;
+             fhir:l fhir:contactPicture
+           ] ;
            fhir:value [
-             a fhir:url ;
-             fhir:v "https://example.org/contact-picture2.jpg"^^xsd:anyURI
+             a fhir:Url ;
+             fhir:v "https://example.org/contact-picture2.jpg"^^xsd:anyURI ;
+             fhir:l <https://example.org/contact-picture2.jpg>
            ]
          ] [
-           fhir:url [ fhir:v "website"^^xsd:anyURI ] ;
+           fhir:url [
+             fhir:v "website"^^xsd:anyURI ;
+             fhir:l fhir:website
+           ] ;
            fhir:value [
-             a fhir:url ;
-             fhir:v "https://example.org/contact-website2"^^xsd:anyURI
+             a fhir:Url ;
+             fhir:v "https://example.org/contact-website2"^^xsd:anyURI ;
+             fhir:l <https://example.org/contact-website2>
            ]
          ] ) ;
-         fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ]
+         fhir:url [
+           fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact>
+         ]
        ] [
-         fhir:url [ fhir:v "rank"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "rank"^^xsd:anyURI ;
+           fhir:l fhir:rank
+         ] ;
          fhir:value [
-           a fhir:integer ;
+           a fhir:Integer ;
            fhir:v 2
          ]
        ] ) ;
-       fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-contact"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-contact>
+       ]
      ] [
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Name of Partner"
          ]
        ] [
-         fhir:url [ fhir:v "rank"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "rank"^^xsd:anyURI ;
+           fhir:l fhir:rank
+         ] ;
          fhir:value [
-           a fhir:integer ;
+           a fhir:Integer ;
            fhir:v 1
          ]
        ] [
-         fhir:url [ fhir:v "logo"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "logo"^^xsd:anyURI ;
+           fhir:l fhir:logo
+         ] ;
          fhir:value [
-           a fhir:url ;
-           fhir:v "/partners_logos/FRQS.svg"^^xsd:anyURI
+           a fhir:Url ;
+           fhir:v "/partners_logos/FRQS.svg"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca//partners_logos/FRQS.svg>
          ]
        ] ) ;
-       fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-partner>
+       ]
      ] [
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
-           a fhir:string ;
+           a fhir:String ;
            fhir:v "Name of Partner2"
          ]
        ] [
-         fhir:url [ fhir:v "rank"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "rank"^^xsd:anyURI ;
+           fhir:l fhir:rank
+         ] ;
          fhir:value [
-           a fhir:integer ;
+           a fhir:Integer ;
            fhir:v 2
          ]
        ] [
-         fhir:url [ fhir:v "logo"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "logo"^^xsd:anyURI ;
+           fhir:l fhir:logo
+         ] ;
          fhir:value [
-           a fhir:url ;
-           fhir:v "/partners_logos/FRQS2.svg"^^xsd:anyURI
+           a fhir:Url ;
+           fhir:v "/partners_logos/FRQS2.svg"^^xsd:anyURI ;
+           fhir:l <https://fhir.cqdg.ca//partners_logos/FRQS2.svg>
          ]
        ] ) ;
-       fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program-partner"^^xsd:anyURI ;
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program-partner>
+       ]
      ] ) ;
-     fhir:url [ fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program"^^xsd:anyURI ]
+     fhir:url [
+       fhir:v "https://fhir.cqdg.ca/StructureDefinition/research-program"^^xsd:anyURI ;
+       fhir:l <https://fhir.cqdg.ca/StructureDefinition/research-program>
+     ]
   ] ) ; # 
   fhir:status [ fhir:v "current"] ; # 
   fhir:mode [ fhir:v "working"] ; # 

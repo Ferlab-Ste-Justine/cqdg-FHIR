@@ -5,7 +5,7 @@ Title: "Ferlab.bio StructureDefinition/workflow"
 
 * extension contains
 genomeBuild 1..1 MS and
-pipeline 1..1 MS
+pipeline 1..* MS
 
 * extension[pipeline] ^definition = "No description"
 * extension[pipeline].value[x] only string

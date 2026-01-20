@@ -6,7 +6,8 @@ Usage: #example
 * meta.profile = "https://fhir.cqdg.ca/StructureDefinition/CQDGTask"
 
 * extension[workflowExtension].extension[genomeBuild].valueCoding = https://fhir.cqdg.ca/CodeSystem/genome-build#GRCh38 "GRCh38"
-* extension[workflowExtension].extension[pipeline].valueString = "Some Pipeline"
+* extension[workflowExtension].extension[pipeline][0].valueString = "First Pipeline"
+* extension[workflowExtension].extension[pipeline][+].valueString = "Second Pipeline"
 
 * extension[sequencingExperimentExtension].extension[experimentalStrategy].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS "Whole Exome Sequencing"
 * extension[sequencingExperimentExtension].extension[isPairedEnd].valueBoolean = true

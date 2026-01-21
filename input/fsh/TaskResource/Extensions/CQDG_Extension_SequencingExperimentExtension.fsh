@@ -23,8 +23,8 @@ runIds 0..*
 * extension[isPairedEnd] ^definition = "No description"
 * extension[isPairedEnd].value[x] only boolean
 
-* extension[platform] ^definition = "No description"
-* extension[platform].value[x] only string
+* extension[platform].value[x] only Coding
+* extension[platform].valueCoding from sequencing-experiment-platform-vs (required)
 
 * extension[protocol] ^definition = "No description"
 * extension[protocol].value[x] only string

@@ -11,7 +11,6 @@ Title: "Ferlab.bio CodeSystem/experimental-strategy"
 * #"WXS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS
 * #"WXS" ^designation.value = "Whole Exome Sequencing"
 
-
 * #"WGS" "Whole Genome Sequencing"
 * #"WGS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS
 * #"WGS" ^designation.value = "Whole Genome Sequencing"

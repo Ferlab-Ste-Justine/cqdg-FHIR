@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CQDG_FHIR_IG |
+| Active as of 2026-01-22 | *Computable Name*:CQDG_FHIR_IG |
 
 ### Description
 
@@ -42,7 +42,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {
@@ -1124,6 +1124,20 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
         },
         "name" : "Ferlab.bio CodeSystem/research-domain",
         "description" : "Research domain",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/sequencing-experiment-platform"
+        },
+        "name" : "Ferlab.bio CodeSystem/sequencing-experiment-platform",
+        "description" : "Sequencing experimental platform",
         "exampleBoolean" : false
       },
       {
@@ -2482,6 +2496,20 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
         },
         "name" : "Restricted",
         "description" : "Is the study restricted (no publicly shared data on individuals)",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "ValueSet"
+          }
+        ],
+        "reference" : {
+          "reference" : "ValueSet/sequencing-experiment-platform-vs"
+        },
+        "name" : "Sequencing Experiment Platform",
+        "description" : "Sequencing Experiment Platform ValueSet",
         "exampleBoolean" : false
       },
       {

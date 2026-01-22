@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1b22845f-0cb4-43cb-8f8b-6b543e23dd04"/>
+  <id value="1e5282ca-d82f-445c-bd0c-45b552ab3987"/>
   <meta>
-    <lastUpdated value="2026-01-20T16:06:26.153+00:00"/>
+    <lastUpdated value="2026-01-22T16:34:58.811+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -507,10 +507,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f6452215-6837-48fe-88db-a7aec15381b6"/>
-          <timestamp value="2026-01-20T16:08:21+00:00"/>
+          <identifier value="urn:uuid:9d0edef9-148b-44e8-8317-df3d3f480e44"/>
+          <timestamp value="2026-01-22T16:37:06+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -1153,10 +1153,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8540d3c7-3a71-4f80-a555-13c970135fa4"/>
-          <timestamp value="2026-01-20T16:08:21+00:00"/>
+          <identifier value="urn:uuid:918a3fa0-c16b-4271-897a-06a246cdd4e1"/>
+          <timestamp value="2026-01-22T16:37:06+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -1399,10 +1399,10 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0ff777d2-897d-4276-9f7c-727e102891d2"/>
-          <timestamp value="2026-01-20T16:08:21+00:00"/>
+          <identifier value="urn:uuid:befaf7ab-24eb-4299-9203-7ab3e38642f8"/>
+          <timestamp value="2026-01-22T16:37:06+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1585,10 +1585,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:43dad691-2da9-4333-a095-fe8897596636"/>
-          <timestamp value="2026-01-20T16:08:21+00:00"/>
+          <identifier value="urn:uuid:724f900a-2401-4aa8-b605-486f29db7883"/>
+          <timestamp value="2026-01-22T16:37:06+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -1841,10 +1841,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6aaa9298-1a34-44ab-8091-e2f70e1c651a"/>
-          <timestamp value="2026-01-20T16:08:21+00:00"/>
+          <identifier value="urn:uuid:86b0b554-4709-4afb-93ae-2cce586ec094"/>
+          <timestamp value="2026-01-22T16:37:06+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -2052,10 +2052,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5d76104b-f66b-4b27-8812-78c8fdec8c2e"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:213c3b66-71b9-4cfa-b1fa-ee931b3b243f"/>
+          <timestamp value="2026-01-22T16:37:09+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2208,10 +2208,10 @@
         <name value="CQDGTumorNormalDesignationVS"/>
         <title value="CQDG Tumor Normal Designation ValueSet"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3e82ac33-b20a-4210-ad37-0957e7c9fdf8"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:2b1c8a49-a5ad-4440-87be-22993c6742da"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2434,10 +2434,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:44f7f54e-756a-40f5-bc8c-ee3df98cc03c"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:31700d32-3cf4-4d42-8cef-ae6e0d431a63"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -2600,10 +2600,10 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:369eaecf-79be-453f-be13-0ade7ae22bab"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:b9861036-e225-4af8-b94d-b0737b99598b"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2886,10 +2886,10 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ae5fcc87-e580-4c6e-86be-af16203856b8"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:7eaaf9a4-b799-470e-83ff-86cb39ed8993"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -3067,10 +3067,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b7fac684-e632-4a2b-8f9d-76a23762781f"/>
-          <timestamp value="2026-01-20T16:08:13+00:00"/>
+          <identifier value="urn:uuid:0c856706-b472-4d83-adbe-4f35f6ae9c7a"/>
+          <timestamp value="2026-01-22T16:36:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -3453,10 +3453,10 @@
         <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3da37dd2-d735-45f8-86aa-e1c2a2be0e39"/>
-          <timestamp value="2026-01-20T16:08:23+00:00"/>
+          <identifier value="urn:uuid:4c74e453-8a78-4850-9c1b-fe84ced2d55f"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -3759,10 +3759,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e6f0748b-0037-4101-9642-bdc3f79b8dba"/>
-          <timestamp value="2026-01-20T16:08:24+00:00"/>
+          <identifier value="urn:uuid:ff3506e6-433a-47e6-8fee-415df02193c4"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -4090,10 +4090,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5bf6c5be-8192-4197-89bf-be9911368e77"/>
-          <timestamp value="2026-01-20T16:08:24+00:00"/>
+          <identifier value="urn:uuid:5acf1de6-746b-460d-be1a-38d8c23edeab"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -4336,10 +4336,10 @@
         <name value="GenderCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/gender-collection-method"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8812e38b-5c33-4373-ba54-6029b707273f"/>
-          <timestamp value="2026-01-20T16:08:24+00:00"/>
+          <identifier value="urn:uuid:0073b134-60d8-4054-86b2-ec84241105bd"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -4457,10 +4457,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:59a40085-fc47-4aaf-a3cc-5f35e139abdf"/>
-          <timestamp value="2026-01-20T16:08:24+00:00"/>
+          <identifier value="urn:uuid:017c2979-56ec-4131-a210-710c6b56e222"/>
+          <timestamp value="2026-01-22T16:37:11+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -22532,10 +22532,10 @@
         <name value="PhenotypeVS"/>
         <title value="Ferlab.bio ValueSet/phenotype"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f3227c51-daac-40fc-9bf5-07147417f466"/>
-          <timestamp value="2026-01-20T16:08:24+00:00"/>
+          <identifier value="urn:uuid:df179d7d-19f8-4320-8a76-e17387b34b1a"/>
+          <timestamp value="2026-01-22T16:37:12+00:00"/>
           <total value="30971"/>
           <offset value="0"/>
           <parameter>
@@ -27691,10 +27691,10 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a9f724f1-610d-4c30-b905-758ce66a94f7"/>
-          <timestamp value="2026-01-20T16:08:26+00:00"/>
+          <identifier value="urn:uuid:813a4891-0422-433e-9a2a-37683b19f18b"/>
+          <timestamp value="2026-01-22T16:37:14+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -28016,10 +28016,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:aaa65ade-b725-468e-8db7-da68b41ddfad"/>
-          <timestamp value="2026-01-20T16:08:18+00:00"/>
+          <identifier value="urn:uuid:98c4d0e1-a0ce-436a-afc2-6f01002685a2"/>
+          <timestamp value="2026-01-22T16:37:03+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -28322,10 +28322,10 @@
         <name value="GenderVS"/>
         <title value="Ferlab.bio ValueSet/gender"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:62cec14a-ba85-4959-b817-195cff405c07"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:72970356-3ab0-43c9-b223-3248702616d4"/>
+          <timestamp value="2026-01-22T16:37:14+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -28578,10 +28578,10 @@
         <name value="RaceCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/race-collection-method"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:378f9e9f-e0f0-4d6d-8358-464e49593b7a"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:2e1095af-c683-4d18-82ee-dc44b16e09c3"/>
+          <timestamp value="2026-01-22T16:37:14+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -28804,15 +28804,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-qc-race.html#qc-race-Donotknow">Do not know</a>
                 </td>
-                <td>Do not Know</td>
+                <td>Do not know</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/race&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Do not know&quot;, &quot;display&quot;: &quot;Do not Know&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/race&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Do not know&quot;, &quot;display&quot;: &quot;Do not know&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/race&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Do not know&quot;&gt;&lt;display value=&quot;Do not Know&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/race&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Do not know&quot;&gt;&lt;display value=&quot;Do not know&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -28984,10 +28984,10 @@
         <name value="RaceVS"/>
         <title value="Ferlab.bio ValueSet/race"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e5b9272d-69c1-455f-93e0-5ffc8baa5c53"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:8b3cc4ef-ec19-4d0f-9864-0837262ba605"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -29043,7 +29043,7 @@
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
             <code value="Do not know"/>
-            <display value="Do not Know"/>
+            <display value="Do not know"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/race"/>
@@ -29390,10 +29390,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cf803952-49b5-4ad0-9893-6236a2f62dd2"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:27b79f6d-58ee-4f01-bf76-a692511a3dc3"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -29823,10 +29823,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a55c3904-82e9-4d0e-bf96-f0832c169e70"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:e364deb5-0516-423a-98fe-4af7cbec3133"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="14"/>
           <offset value="0"/>
           <parameter>
@@ -29918,6 +29918,377 @@
             <system value="https://fhir.cqdg.ca/CodeSystem/research-domain"/>
             <code value="other"/>
             <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sequencing-experiment-platform.html">codesystem Ferlab.bio CodeSystem/sequencing-experiment-platform v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 12 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Capillary"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Capillary">Capillary</a>
+                </td>
+                <td>Capillary</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Capillary&quot;, &quot;display&quot;: &quot;Capillary&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Capillary&quot;&gt;&lt;display value=&quot;Capillary&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-DNBSEQ"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-DNBSEQ">DNBSEQ</a>
+                </td>
+                <td>DNBSEQ</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;DNBSEQ&quot;, &quot;display&quot;: &quot;DNBSEQ&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;DNBSEQ&quot;&gt;&lt;display value=&quot;DNBSEQ&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Element"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Element">Element</a>
+                </td>
+                <td>Element</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Element&quot;, &quot;display&quot;: &quot;Element&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Element&quot;&gt;&lt;display value=&quot;Element&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Helicos"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Helicos">Helicos</a>
+                </td>
+                <td>Helicos</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Helicos&quot;, &quot;display&quot;: &quot;Helicos&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Helicos&quot;&gt;&lt;display value=&quot;Helicos&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Illumina"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Illumina">Illumina</a>
+                </td>
+                <td>Illumina</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Illumina&quot;, &quot;display&quot;: &quot;Illumina&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Illumina&quot;&gt;&lt;display value=&quot;Illumina&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-IonTorrent"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-IonTorrent">IonTorrent</a>
+                </td>
+                <td>Ion Torrent</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;IonTorrent&quot;, &quot;display&quot;: &quot;Ion Torrent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;IonTorrent&quot;&gt;&lt;display value=&quot;Ion Torrent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-GS-FLX"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-GS-FLX">GS-FLX</a>
+                </td>
+                <td>454 / GS-FLX</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GS-FLX&quot;, &quot;display&quot;: &quot;454 / GS-FLX&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GS-FLX&quot;&gt;&lt;display value=&quot;454 / GS-FLX&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-ONT"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-ONT">ONT</a>
+                </td>
+                <td>ONT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ONT&quot;, &quot;display&quot;: &quot;ONT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ONT&quot;&gt;&lt;display value=&quot;ONT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-PacBio"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-PacBio">PacBio</a>
+                </td>
+                <td>PacBio</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PacBio&quot;, &quot;display&quot;: &quot;PacBio&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PacBio&quot;&gt;&lt;display value=&quot;PacBio&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Singular"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Singular">Singular</a>
+                </td>
+                <td>Singular</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Singular&quot;, &quot;display&quot;: &quot;Singular&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Singular&quot;&gt;&lt;display value=&quot;Singular&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-SOLiD"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-SOLiD">SOLiD</a>
+                </td>
+                <td>SOLiD</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SOLiD&quot;, &quot;display&quot;: &quot;SOLiD&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SOLiD&quot;&gt;&lt;display value=&quot;SOLiD&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform-Ultima"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sequencing-experiment-platform.html#sequencing-experiment-platform-Ultima">Ultima</a>
+                </td>
+                <td>Ultima</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Ultima&quot;, &quot;display&quot;: &quot;Ultima&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Ultima&quot;&gt;&lt;display value=&quot;Ultima&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs"/>
+        <version value="0.1.0"/>
+        <name value="SequencingExperimentPlatformVS"/>
+        <title value="Sequencing Experiment Platform"/>
+        <status value="active"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:701df58d-66bf-43e7-a890-79d4039fd467"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Capillary"/>
+            <display value="Capillary"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="DNBSEQ"/>
+            <display value="DNBSEQ"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Element"/>
+            <display value="Element"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Helicos"/>
+            <display value="Helicos"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Illumina"/>
+            <display value="Illumina"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="IonTorrent"/>
+            <display value="Ion Torrent"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="GS-FLX"/>
+            <display value="454 / GS-FLX"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="ONT"/>
+            <display value="ONT"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="PacBio"/>
+            <display value="PacBio"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Singular"/>
+            <display value="Singular"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="SOLiD"/>
+            <display value="SOLiD"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+            <code value="Ultima"/>
+            <display value="Ultima"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -30104,10 +30475,10 @@
         <name value="SequencingExperimentSelectionVS"/>
         <title value="Sequencing Experiment Selection"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:68b6613f-8a43-4704-a375-2f4eec903a3f"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:0d78f2e2-11fc-43d2-b68c-0f6f6372e369"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -30290,10 +30661,10 @@
         <name value="SequencingExperimentSourceVS"/>
         <title value="Sequencing Experiment Source"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7dc02b5a-6b06-450e-9d7a-575292b22854"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:17cd9439-f595-4c59-8c15-d84c35e77ad4"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -30541,10 +30912,10 @@
         <name value="SexAtBirthCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/sex-at-birth-collection-method"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:643d9644-1b60-44fd-b472-e2b619d78855"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:35ca0c2d-0814-4efe-abd7-ef215b9e5031"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -30812,10 +31183,10 @@
         <name value="SexAtBirthVS"/>
         <title value="Ferlab.bio ValueSet/sex-at-birth"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0badc92c-6ee0-4d6a-9cf6-d0f76305e549"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:ed39cbaf-fe30-471d-a31c-29ab4af9bd68"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -31083,10 +31454,10 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:851b85e4-4b46-446a-96a3-8c726f21c83d"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:e938f807-7b00-401c-b407-b2885e062bf5"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -31260,10 +31631,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:78475975-4781-4b7e-bd1c-c4181efef65e"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:cea246b7-f186-45eb-a5fd-d25dbd7d4955"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -31406,10 +31777,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3a23b001-bd99-4c01-999e-4fb1fa69d881"/>
-          <timestamp value="2026-01-20T16:08:27+00:00"/>
+          <identifier value="urn:uuid:68055047-1cc1-487c-900b-921fadcf1a18"/>
+          <timestamp value="2026-01-22T16:37:15+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -31632,10 +32003,10 @@
         <name value="VitalStatusVS"/>
         <title value="Ferlab.bio ValueSet/vital-status"/>
         <status value="active"/>
-        <date value="2026-01-20T16:06:26+00:00"/>
+        <date value="2026-01-22T16:34:58+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:584a439c-5e24-4d4c-99e3-8845e13687d7"/>
-          <timestamp value="2026-01-20T16:08:18+00:00"/>
+          <identifier value="urn:uuid:9f63a38a-aba4-440f-af65-33b573094973"/>
+          <timestamp value="2026-01-22T16:37:03+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>

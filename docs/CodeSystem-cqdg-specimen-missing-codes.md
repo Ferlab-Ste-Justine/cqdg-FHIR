@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CQDGSpecimenTissueSourceMissingCodes |
+| Active as of 2026-01-22 | *Computable Name*:CQDGSpecimenTissueSourceMissingCodes |
 
  
 Codes for missing specimen data 
@@ -31,7 +31,7 @@ Codes for missing specimen data
   "name" : "CQDGSpecimenTissueSourceMissingCodes",
   "title" : "CQDG Specimen Missing Codes",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/population | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:Population |
+| Active as of 2026-01-22 | *Computable Name*:Population |
 
  
 Population 
@@ -32,7 +32,7 @@ Population
   "title" : "Ferlab.bio CodeSystem/population",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

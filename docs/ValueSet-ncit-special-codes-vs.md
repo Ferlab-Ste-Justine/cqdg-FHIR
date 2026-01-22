@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CancerBiospecimenTypeVS |
+| Active as of 2026-01-22 | *Computable Name*:CancerBiospecimenTypeVS |
 
  
 ValueSet for selected NCIT codes from NCI Thesaurus. 
@@ -52,7 +52,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "CancerBiospecimenTypeVS",
   "title" : "NCIT Special Codes ValueSet",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

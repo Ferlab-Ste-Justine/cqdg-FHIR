@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/Race | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:Race |
+| Active as of 2026-01-22 | *Computable Name*:Race |
 
 race for cqdg project
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-Race.csv), [Excel](S
   "name" : "Race",
   "title" : "Ferlab.bio Extension/race",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

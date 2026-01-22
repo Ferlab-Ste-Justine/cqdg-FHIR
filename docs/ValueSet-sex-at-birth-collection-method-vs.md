@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/sex-at-birth-collection-method-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SexAtBirthCollectionMethodVS |
+| Active as of 2026-01-22 | *Computable Name*:SexAtBirthCollectionMethodVS |
 
  
 Sex At Birth Collection Method ValueSet 
@@ -50,7 +50,7 @@ Sex At Birth Collection Method ValueSet
   "name" : "SexAtBirthCollectionMethodVS",
   "title" : "Ferlab.bio ValueSet/sex-at-birth-collection-method",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

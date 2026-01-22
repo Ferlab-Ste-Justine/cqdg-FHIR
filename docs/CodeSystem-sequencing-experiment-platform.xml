@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sequencing-experiment-platform"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sequencing-experiment-platform</b></p><a name="sequencing-experiment-platform"> </a><a name="hcsequencing-experiment-platform"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Capillary<a name="sequencing-experiment-platform-Capillary"> </a></td><td>Capillary</td></tr><tr><td style="white-space:nowrap">DNBSEQ<a name="sequencing-experiment-platform-DNBSEQ"> </a></td><td>DNBSEQ</td></tr><tr><td style="white-space:nowrap">Element<a name="sequencing-experiment-platform-Element"> </a></td><td>Element</td></tr><tr><td style="white-space:nowrap">Helicos<a name="sequencing-experiment-platform-Helicos"> </a></td><td>Helicos</td></tr><tr><td style="white-space:nowrap">Illumina<a name="sequencing-experiment-platform-Illumina"> </a></td><td>Illumina</td></tr><tr><td style="white-space:nowrap">IonTorrent<a name="sequencing-experiment-platform-IonTorrent"> </a></td><td>Ion Torrent</td></tr><tr><td style="white-space:nowrap">GS-FLX<a name="sequencing-experiment-platform-GS-FLX"> </a></td><td>454 / GS-FLX</td></tr><tr><td style="white-space:nowrap">ONT<a name="sequencing-experiment-platform-ONT"> </a></td><td>ONT</td></tr><tr><td style="white-space:nowrap">PacBio<a name="sequencing-experiment-platform-PacBio"> </a></td><td>PacBio</td></tr><tr><td style="white-space:nowrap">Singular<a name="sequencing-experiment-platform-Singular"> </a></td><td>Singular</td></tr><tr><td style="white-space:nowrap">SOLiD<a name="sequencing-experiment-platform-SOLiD"> </a></td><td>SOLiD</td></tr><tr><td style="white-space:nowrap">Ultima<a name="sequencing-experiment-platform-Ultima"> </a></td><td>Ultima</td></tr></table></div>
+  </text>
+  <url value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+  <version value="0.1.0"/>
+  <name value="SequencingExperimentPlatform"/>
+  <title value="Ferlab.bio CodeSystem/sequencing-experiment-platform"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-01-22T16:34:58+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Ferlab.bio"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Sequencing experimental platform"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="Capillary"/>
+    <display value="Capillary"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Capillary"/>
+      </use>
+      <value value="Capillary"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DNBSEQ"/>
+    <display value="DNBSEQ"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="DNBSEQ"/>
+      </use>
+      <value value="DNBSEQ"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Element"/>
+    <display value="Element"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Element"/>
+      </use>
+      <value value="Element"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Helicos"/>
+    <display value="Helicos"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Helicos"/>
+      </use>
+      <value value="Helicos"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Illumina"/>
+    <display value="Illumina"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Illumina"/>
+      </use>
+      <value value="Illumina"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="IonTorrent"/>
+    <display value="Ion Torrent"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="IonTorrent"/>
+      </use>
+      <value value="Ion Torrent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GS-FLX"/>
+    <display value="454 / GS-FLX"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="GS-FLX"/>
+      </use>
+      <value value="454 / GS-FLX"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ONT"/>
+    <display value="ONT"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="ONT"/>
+      </use>
+      <value value="ONT"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PacBio"/>
+    <display value="PacBio"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="PacBio"/>
+      </use>
+      <value value="PacBio"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Singular"/>
+    <display value="Singular"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Singular"/>
+      </use>
+      <value value="Singular"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SOLiD"/>
+    <display value="SOLiD"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="SOLiD"/>
+      </use>
+      <value value="SOLiD"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Ultima"/>
+    <display value="Ultima"/>
+    <designation>
+      <use>
+        <system value="https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"/>
+        <code value="Ultima"/>
+      </use>
+      <value value="Ultima"/>
+    </designation>
+  </concept>
+</CodeSystem>

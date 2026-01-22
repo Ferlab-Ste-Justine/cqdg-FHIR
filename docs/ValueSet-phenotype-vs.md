@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/phenotype-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:PhenotypeVS |
+| Active as of 2026-01-22 | *Computable Name*:PhenotypeVS |
 
  
 Phenotype ValueSet 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "PhenotypeVS",
   "title" : "Ferlab.bio ValueSet/phenotype",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

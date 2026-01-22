@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CQDGDocumentReference |
+| Active as of 2026-01-22 | *Computable Name*:CQDGDocumentReference |
 
  
 A CQDG group 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-document-refere
   "name" : "CQDGDocumentReference",
   "title" : "Ferlab.bio StructureDefinition/cqdg-document-reference",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

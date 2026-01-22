@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SequencingExperimentSourceVS |
+| Active as of 2026-01-22 | *Computable Name*:SequencingExperimentSourceVS |
 
  
 Sequencing Experiment Source ValueSet 
@@ -50,7 +50,7 @@ Sequencing Experiment Source ValueSet
   "name" : "SequencingExperimentSourceVS",
   "title" : "Sequencing Experiment Source",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

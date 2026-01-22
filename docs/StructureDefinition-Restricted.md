@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/Restricted | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:Restricted |
+| Active as of 2026-01-22 | *Computable Name*:Restricted |
 
 Is the study restricted (no publicly shared data on individuals)
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-Restricted.csv), [Ex
   "name" : "Restricted",
   "title" : "Restricted",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

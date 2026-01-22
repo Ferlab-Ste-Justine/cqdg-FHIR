@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CQDGStudyCS |
+| Active as of 2026-01-22 | *Computable Name*:CQDGStudyCS |
 
  
 CQDG study code system 
@@ -32,7 +32,7 @@ CQDG study code system
   "title" : "Ferlab.bio CodeSystem/cqdg-study",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

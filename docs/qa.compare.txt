@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 67, warn = 142, info = 19
+err = 67, warn = 143, info = 19
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
@@ -30,6 +30,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-race-collection-method : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-relationship-to-proband : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-research-domain : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-platform : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-selection : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-source : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sex-at-birth : 0 / 0 / 1
@@ -124,6 +125,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-race-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-research-domain-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-platform-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-source-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sex-at-birth-collection-method-vs : 0 / 1 / 1
@@ -198,6 +200,7 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-
 == fsh-generated/resources/CodeSystem-race-collection-method.json ==
 == fsh-generated/resources/CodeSystem-relationship-to-proband.json ==
 == fsh-generated/resources/CodeSystem-research-domain.json ==
+== fsh-generated/resources/CodeSystem-sequencing-experiment-platform.json ==
 == fsh-generated/resources/CodeSystem-sequencing-experiment-selection.json ==
 == fsh-generated/resources/CodeSystem-sequencing-experiment-source.json ==
 == fsh-generated/resources/CodeSystem-sex-at-birth.json ==
@@ -493,6 +496,8 @@ WARNING: ValueSet/race-vs: ValueSet: Published value sets SHOULD conform to the 
 WARNING: ValueSet/relationship-to-proband-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-research-domain-vs.json ==
 WARNING: ValueSet/research-domain-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sequencing-experiment-platform-vs.json ==
+WARNING: ValueSet/sequencing-experiment-platform-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs.json ==
 WARNING: ValueSet/sequencing-experiment-selection-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-sequencing-experiment-source-vs.json ==

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/SexAtBirth | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SexAtBirth |
+| Active as of 2026-01-22 | *Computable Name*:SexAtBirth |
 
 Sex at birth for cqdg project
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-SexAtBirth.csv), [Ex
   "name" : "SexAtBirth",
   "title" : "Ferlab.bio Extension/sex-at-birth",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

@@ -104,6 +104,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Ferlab.bio ValueSet/tumor-normal-designation](ValueSet-tumor-normal-designation-vs.md) | Tumor Normal Designation ValueSet |
 | [Ferlab.bio ValueSet/vital-status](ValueSet-vital-status-vs.md) | Vital Status ValueSet |
 | [NCIT Special Codes ValueSet](ValueSet-ncit-special-codes-vs.md) | ValueSet for selected NCIT codes from NCI Thesaurus. |
+| [Sequencing Experiment Platform](ValueSet-sequencing-experiment-platform-vs.md) | Sequencing Experiment Platform ValueSet |
 | [Sequencing Experiment Selection](ValueSet-sequencing-experiment-selection-vs.md) | Sequencing Experiment Selection ValueSet |
 | [Sequencing Experiment Source](ValueSet-sequencing-experiment-source-vs.md) | Sequencing Experiment Source ValueSet |
 
@@ -138,6 +139,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Ferlab.bio CodeSystem/race-collection-method](CodeSystem-race-collection-method.md) | This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings. |
 | [Ferlab.bio CodeSystem/relationship-to-proband](CodeSystem-relationship-to-proband.md) | relationship to proband codes |
 | [Ferlab.bio CodeSystem/research-domain](CodeSystem-research-domain.md) | Research domain |
+| [Ferlab.bio CodeSystem/sequencing-experiment-platform](CodeSystem-sequencing-experiment-platform.md) | Sequencing experimental platform |
 | [Ferlab.bio CodeSystem/sequencing-experiment-selection](CodeSystem-sequencing-experiment-selection.md) | Library selection method |
 | [Ferlab.bio CodeSystem/sequencing-experiment-source](CodeSystem-sequencing-experiment-source.md) | Sequencing experimental source |
 | [Ferlab.bio CodeSystem/sex-at-birth](CodeSystem-sex-at-birth.md) | This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets. |

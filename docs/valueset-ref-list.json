@@ -86,8 +86,8 @@
       "uses" : {
       },
       "StructureDefinition-TumorHistologicalType.html" : "Ferlab.bio Extension/tumor-histological-type",
-      "StructureDefinition-CancerBiospecimenAnatomicLocation.html" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location",
-      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen"
+      "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
+      "StructureDefinition-CancerBiospecimenAnatomicLocation.html" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs",
@@ -126,8 +126,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
       "uses" : {
       },
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
+      "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method",
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -310,6 +310,20 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/research-domain"]
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentPlatformVS",
+      "title" : "Sequencing Experiment Platform",
+      "description" : "Sequencing Experiment Platform ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-sequencingExperimentExtension.html" : "Ferlab.bio StructureDefinition/sequencing-experiment"
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs",
       "version" : "0.1.0",
       "status" : "active",
@@ -373,8 +387,8 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
       "uses" : {
       },
-      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category",
-      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
+      "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
+      "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
     },
     {
       "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",

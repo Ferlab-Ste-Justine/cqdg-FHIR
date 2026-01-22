@@ -16,7 +16,7 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 > **Ferlab.bio StructureDefinition/sequencing-experiment**
 * experimentalStrategy: [Ferlab.bio CodeSystem/experimental-strategy: WXS](CodeSystem-experimental-strategy.md#experimental-strategy-WXS) (Whole Exome Sequencing)
 * isPairedEnd: true
-* platform: NovaSeq S4 PE150
+* platform: [Ferlab.bio CodeSystem/sequencing-experiment-platform: Illumina](CodeSystem-sequencing-experiment-platform.md#sequencing-experiment-platform-Illumina) (Illumina)
 * readLength: 151,8,8,151
 * selection: [Ferlab.bio CodeSystem/sequencing-experiment-selection: CHIP](CodeSystem-sequencing-experiment-selection.md#sequencing-experiment-selection-CHIP) (ChIP)
 * source: [Ferlab.bio CodeSystem/sequencing-experiment-source: GEN](CodeSystem-sequencing-experiment-source.md#sequencing-experiment-source-GEN) (Genomic)
@@ -52,13 +52,13 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 | - | **Type** | **Value[x]** |
 | * | Analysed sample | [Submitter Sample ID: SpecimenExample](Specimen-SpecimenExample.md) |
 
-> **output****type**:Aligned Reads**value**:[DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample1.md)
+> **output****type**: Aligned Reads**value**: [DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample1.md)
 
-> **output****type**:SNV**value**:[DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample1.md)
+> **output****type**: SNV**value**: [DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample1.md)
 
-> **output****type**:Germline CNV**value**:[DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
+> **output****type**: Germline CNV**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
 
-> **output****type**:Sequencing-data-supplement**value**:[DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
+> **output****type**: Sequencing-data-supplement**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
 
 
 
@@ -109,7 +109,11 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
         },
         {
           "url" : "platform",
-          "valueString" : "NovaSeq S4 PE150"
+          "valueCoding" : {
+            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+            "code" : "Illumina",
+            "display" : "Illumina"
+          }
         },
         {
           "url" : "readLength",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/research-program-related-artifact | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:ResearchProgramRelatedArtifact |
+| Active as of 2026-01-22 | *Computable Name*:ResearchProgramRelatedArtifact |
 
 Represents a related artifact for a research program.
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-research-program-rel
   "name" : "ResearchProgramRelatedArtifact",
   "title" : "Ferlab.bio Extension/research-program-related-artifact",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/research-program-contact | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:ResearchProgramContact |
+| Active as of 2026-01-22 | *Computable Name*:ResearchProgramContact |
 
 Contact details for a research program.
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-research-program-con
   "name" : "ResearchProgramContact",
   "title" : "Ferlab.bio Extension/research-program-contact",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

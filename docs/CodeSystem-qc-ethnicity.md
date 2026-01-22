@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/qc-ethnicity | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:QCEthnicityCodeSystem |
+| Active as of 2026-01-22 | *Computable Name*:QCEthnicityCodeSystem |
 
  
 Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center 
@@ -32,7 +32,7 @@ Classification of people living in Quebec in a named category of humans sharing 
   "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

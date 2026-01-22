@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:CQDGObservationGroup |
+| Active as of 2026-01-22 | *Computable Name*:CQDGObservationGroup |
 
  
 An example of a cqdg group 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-observation-gro
   "name" : "CQDGObservationGroup",
   "title" : "Ferlab.bio StructureDefinition/cqdg-observation",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

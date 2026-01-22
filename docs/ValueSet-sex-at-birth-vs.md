@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SexAtBirthVS |
+| Active as of 2026-01-22 | *Computable Name*:SexAtBirthVS |
 
  
 Sex At Birth ValueSet 
@@ -50,7 +50,7 @@ Sex At Birth ValueSet
   "name" : "SexAtBirthVS",
   "title" : "Ferlab.bio ValueSet/sex-at-birth",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

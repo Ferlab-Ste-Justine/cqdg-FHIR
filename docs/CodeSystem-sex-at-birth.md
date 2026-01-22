@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sex-at-birth | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SexAtBirthCodeSystem |
+| Active as of 2026-01-22 | *Computable Name*:SexAtBirthCodeSystem |
 
  
 This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets. 
@@ -32,7 +32,7 @@ This code system defines standardized categories for documenting a participant's
   "title" : "Ferlab.bio CodeSystem/sex-at-birth",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

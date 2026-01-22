@@ -175,6 +175,13 @@
     "name" : "ResearchDomainCodeSystem"
   },
   {
+    "id" : "sequencing-experiment-platform",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentPlatform"
+  },
+  {
     "id" : "sequencing-experiment-selection",
     "type" : "CodeSystem",
     "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
@@ -726,6 +733,13 @@
     "url" : "https://fhir.cqdg.ca/ValueSet/research-domain-vs",
     "version" : "0.1.0",
     "name" : "ResearchDomain"
+  },
+  {
+    "id" : "sequencing-experiment-platform-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs",
+    "version" : "0.1.0",
+    "name" : "SequencingExperimentPlatformVS"
   },
   {
     "id" : "sequencing-experiment-selection-vs",

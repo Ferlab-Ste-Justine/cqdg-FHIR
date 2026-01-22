@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/access-limitation-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:AccessLimitationsVS |
+| Active as of 2026-01-22 | *Computable Name*:AccessLimitationsVS |
 
  
 Restriction on access 
@@ -50,7 +50,7 @@ Restriction on access
   "name" : "AccessLimitationsVS",
   "title" : "Ferlab.bio ValueSet/access-limitation",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

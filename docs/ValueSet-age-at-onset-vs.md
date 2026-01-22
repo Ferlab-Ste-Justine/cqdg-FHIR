@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/age-at-onset-vs | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:AgeAtOnsetVS |
+| Active as of 2026-01-22 | *Computable Name*:AgeAtOnsetVS |
 
  
 This value set includes age at onset codes from Human Phenotype Ontology. 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "AgeAtOnsetVS",
   "title" : "Ferlab.bio ValueSet/age-at-onset",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

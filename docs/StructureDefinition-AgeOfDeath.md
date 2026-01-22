@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath | *Version*:0.1.0 |
-| Draft as of 2026-01-20 | *Computable Name*:AgeOfDeath |
+| Draft as of 2026-01-22 | *Computable Name*:AgeOfDeath |
 
 Patient's age (in days since birth) at the time of death
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-AgeOfDeath.csv), [Ex
   "name" : "AgeOfDeath",
   "title" : "Ferlab.bio Extension/age-of-death",
   "status" : "draft",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

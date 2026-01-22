@@ -252,6 +252,17 @@
       "systems" : ["https://fhir.cqdg.ca/CodeSystem/research-domain"]
     },
     {
+      "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SequencingExperimentPlatformVS",
+      "title" : "Sequencing Experiment Platform",
+      "description" : "Sequencing Experiment Platform ValueSet",
+      "systems" : [
+        "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+      ]
+    },
+    {
       "url" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-selection-vs",
       "version" : "0.1.0",
       "status" : "active",

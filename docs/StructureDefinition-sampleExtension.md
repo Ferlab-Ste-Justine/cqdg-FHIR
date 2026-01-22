@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/sampleExtension | *Version*:0.1.0 |
-| Active as of 2026-01-20 | *Computable Name*:SampleExtension |
+| Active as of 2026-01-22 | *Computable Name*:SampleExtension |
 
 Sequencing Experiment Extension
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-sampleExtension.csv)
   "name" : "SampleExtension",
   "title" : "Ferlab.bio StructureDefinition/sample",
   "status" : "active",
-  "date" : "2026-01-20T16:06:26+00:00",
+  "date" : "2026-01-22T16:34:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [
     {

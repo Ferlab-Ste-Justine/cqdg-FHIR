@@ -117,7 +117,7 @@
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_ExperimentalStrategy.fsh",
     "startLine": 1,
-    "endLine": 69
+    "endLine": 68
   },
   {
     "outputFile": "CodeSystem-family-type.json",
@@ -198,6 +198,14 @@
     "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_ResearchDomain.fsh",
     "startLine": 1,
     "endLine": 64
+  },
+  {
+    "outputFile": "CodeSystem-sequencing-experiment-platform.json",
+    "fshName": "SequencingExperimentPlatform",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-platform.fsh",
+    "startLine": 1,
+    "endLine": 56
   },
   {
     "outputFile": "CodeSystem-sequencing-experiment-selection.json",
@@ -940,6 +948,14 @@
     "fshName": "ResearchDomain",
     "fshType": "ValueSet",
     "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_StudyDomain.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-sequencing-experiment-platform-vs.json",
+    "fshName": "SequencingExperimentPlatformVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentPlatform.fsh",
     "startLine": 1,
     "endLine": 6
   },

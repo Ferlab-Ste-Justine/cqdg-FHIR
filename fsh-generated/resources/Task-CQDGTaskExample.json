@@ -44,7 +44,11 @@
         },
         {
           "url": "platform",
-          "valueString": "NovaSeq S4 PE150"
+          "valueCoding": {
+            "code": "Illumina",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+            "display": "Illumina"
+          }
         },
         {
           "url": "readLength",

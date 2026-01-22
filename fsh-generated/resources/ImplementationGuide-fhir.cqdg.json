@@ -249,6 +249,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/sequencing-experiment-platform"
+        },
+        "name": "Ferlab.bio CodeSystem/sequencing-experiment-platform",
+        "description": "Sequencing experimental platform",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/sequencing-experiment-selection"
         },
         "name": "Ferlab.bio CodeSystem/sequencing-experiment-selection",
@@ -1021,6 +1029,14 @@
         },
         "name": "Restricted",
         "description": "Is the study restricted (no publicly shared data on individuals)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sequencing-experiment-platform-vs"
+        },
+        "name": "Sequencing Experiment Platform",
+        "description": "Sequencing Experiment Platform ValueSet",
         "exampleBoolean": false
       },
       {

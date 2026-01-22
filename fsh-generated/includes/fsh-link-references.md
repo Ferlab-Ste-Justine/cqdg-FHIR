@@ -25,6 +25,7 @@
 [RaceCollectionMethod]: CodeSystem-race-collection-method.html
 [RelationshipToProbandCodeSystem]: CodeSystem-relationship-to-proband.html
 [ResearchDomainCodeSystem]: CodeSystem-research-domain.html
+[SequencingExperimentPlatform]: CodeSystem-sequencing-experiment-platform.html
 [SequencingExperimentSelection]: CodeSystem-sequencing-experiment-selection.html
 [SequencingExperimentSource]: CodeSystem-sequencing-experiment-source.html
 [SexAtBirthCodeSystem]: CodeSystem-sex-at-birth.html
@@ -122,5 +123,6 @@
 [VitalStatusVS]: ValueSet-vital-status-vs.html
 [CancerBiospecimenTypeVS]: ValueSet-ncit-special-codes-vs.html
 [Restricted]: StructureDefinition-Restricted.html
+[SequencingExperimentPlatformVS]: ValueSet-sequencing-experiment-platform-vs.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html
 [SequencingExperimentSourceVS]: ValueSet-sequencing-experiment-source-vs.html

@@ -11,7 +11,7 @@ Usage: #example
 
 * extension[sequencingExperimentExtension].extension[experimentalStrategy].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS "Whole Exome Sequencing"
 * extension[sequencingExperimentExtension].extension[isPairedEnd].valueBoolean = true
-* extension[sequencingExperimentExtension].extension[platform].valueString = "NovaSeq S4 PE150"
+* extension[sequencingExperimentExtension].extension[platform].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform#Illumina "Illumina"
 * extension[sequencingExperimentExtension].extension[protocol].valueString = "protocol2"
 * extension[sequencingExperimentExtension].extension[readLength].valueString = "151,8,8,151"
 * extension[sequencingExperimentExtension].extension[selection].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#CHIP "ChIP"

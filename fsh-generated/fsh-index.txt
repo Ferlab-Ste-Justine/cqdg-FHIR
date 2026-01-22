@@ -13,7 +13,7 @@ CodeSystem-data-type.json                                       DataType        
 CodeSystem-disease-status.json                                  DiseaseStatusCS                           CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_DiseaseStatus.fsh                 1 - 20
 CodeSystem-document-format.json                                 DocumentFormat                            CodeSystem  DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DocumentFormat.fsh          1 - 52
 CodeSystem-duo-codes.json                                       DUOCodes                                  CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_DUOCodes.fsh                     1 - 78
-CodeSystem-experimental-strategy.json                           ExperimentalStrategy                      CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_ExperimentalStrategy.fsh                 1 - 69
+CodeSystem-experimental-strategy.json                           ExperimentalStrategy                      CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_ExperimentalStrategy.fsh                 1 - 68
 CodeSystem-family-type.json                                     FamilyType                                CodeSystem  GroupResource/CodeSystems/CQDG_CodeSystem_FamilyType.fsh                          1 - 24
 CodeSystem-gender-collection-method.json                        GenderCollectionMethod                    CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_GenderCollectionMethod.fsh            1 - 20
 CodeSystem-genome-build.json                                    GenomeBuild                               CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_GenomeBuild.fsh                          1 - 12
@@ -24,6 +24,7 @@ CodeSystem-qc-race.json                                         RaceCodeSystem  
 CodeSystem-race-collection-method.json                          RaceCollectionMethod                      CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_RaceColectionMethod.fsh               1 - 22
 CodeSystem-relationship-to-proband.json                         RelationshipToProbandCodeSystem           CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_RelationshipToProband.fsh         1 - 60
 CodeSystem-research-domain.json                                 ResearchDomainCodeSystem                  CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_ResearchDomain.fsh               1 - 64
+CodeSystem-sequencing-experiment-platform.json                  SequencingExperimentPlatform              CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-platform.fsh       1 - 56
 CodeSystem-sequencing-experiment-selection.json                 SequencingExperimentSelection             CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-selection.fsh      1 - 36
 CodeSystem-sequencing-experiment-source.json                    SequencingExperimentSource                CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-source.fsh         1 - 24
 CodeSystem-sex-at-birth-collection-method.json                  SexAtBirthCollectionMethod                CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_SexAtBirthCollectionMethod.fsh        1 - 24
@@ -117,6 +118,7 @@ ValueSet-race-collection-method-vs.json                         RaceCollectionMe
 ValueSet-race-vs.json                                           RaceVS                                    ValueSet    PatientResource/ValueSets/CQDG_ValueSet_RaceVS.fsh                                1 - 6
 ValueSet-relationship-to-proband-vs.json                        RelationshipToProband                     ValueSet    ObservationResource/ValueSets/CQDG_ValueSet_RelationshipToProbandVS.fsh           1 - 6
 ValueSet-research-domain-vs.json                                ResearchDomain                            ValueSet    ResearchStudyResource/ValueSets/CQDG_ValueSet_StudyDomain.fsh                     1 - 6
+ValueSet-sequencing-experiment-platform-vs.json                 SequencingExperimentPlatformVS            ValueSet    TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentPlatform.fsh              1 - 6
 ValueSet-sequencing-experiment-selection-vs.json                SequencingExperimentSelectionVS           ValueSet    TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentSelection.fsh             1 - 6
 ValueSet-sequencing-experiment-source-vs.json                   SequencingExperimentSourceVS              ValueSet    TaskResource/ValueSet/CQDG_ValueSet_SequencingExperimentSource.fsh                1 - 6
 ValueSet-sex-at-birth-collection-method-vs.json                 SexAtBirthCollectionMethodVS              ValueSet    PatientResource/ValueSets/CQDG_ValueSet_SexAtBirthCollectionMethodVS.fsh          1 - 6

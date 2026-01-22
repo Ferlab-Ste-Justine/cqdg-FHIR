@@ -1,0 +1,171 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "SequencingExperimentPlatform",
+  "id": "sequencing-experiment-platform",
+  "title": "Ferlab.bio CodeSystem/sequencing-experiment-platform",
+  "url": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+  "concept": [
+    {
+      "code": "Capillary",
+      "display": "Capillary",
+      "designation": [
+        {
+          "use": {
+            "code": "Capillary",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Capillary"
+        }
+      ]
+    },
+    {
+      "code": "DNBSEQ",
+      "display": "DNBSEQ",
+      "designation": [
+        {
+          "use": {
+            "code": "DNBSEQ",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "DNBSEQ"
+        }
+      ]
+    },
+    {
+      "code": "Element",
+      "display": "Element",
+      "designation": [
+        {
+          "use": {
+            "code": "Element",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Element"
+        }
+      ]
+    },
+    {
+      "code": "Helicos",
+      "display": "Helicos",
+      "designation": [
+        {
+          "use": {
+            "code": "Helicos",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Helicos"
+        }
+      ]
+    },
+    {
+      "code": "Illumina",
+      "display": "Illumina",
+      "designation": [
+        {
+          "use": {
+            "code": "Illumina",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Illumina"
+        }
+      ]
+    },
+    {
+      "code": "IonTorrent",
+      "display": "Ion Torrent",
+      "designation": [
+        {
+          "use": {
+            "code": "IonTorrent",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Ion Torrent"
+        }
+      ]
+    },
+    {
+      "code": "GS-FLX",
+      "display": "454 / GS-FLX",
+      "designation": [
+        {
+          "use": {
+            "code": "GS-FLX",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "454 / GS-FLX"
+        }
+      ]
+    },
+    {
+      "code": "ONT",
+      "display": "ONT",
+      "designation": [
+        {
+          "use": {
+            "code": "ONT",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "ONT"
+        }
+      ]
+    },
+    {
+      "code": "PacBio",
+      "display": "PacBio",
+      "designation": [
+        {
+          "use": {
+            "code": "PacBio",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "PacBio"
+        }
+      ]
+    },
+    {
+      "code": "Singular",
+      "display": "Singular",
+      "designation": [
+        {
+          "use": {
+            "code": "Singular",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Singular"
+        }
+      ]
+    },
+    {
+      "code": "SOLiD",
+      "display": "SOLiD",
+      "designation": [
+        {
+          "use": {
+            "code": "SOLiD",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "SOLiD"
+        }
+      ]
+    },
+    {
+      "code": "Ultima",
+      "display": "Ultima",
+      "designation": [
+        {
+          "use": {
+            "code": "Ultima",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Ultima"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "description": "Sequencing experimental platform",
+  "caseSensitive": true,
+  "count": 12
+}

@@ -325,7 +325,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-document-reference1",
         "description": "Document Reference Example1",
-        "exampleBoolean": true
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference"
       },
       {
         "reference": {
@@ -333,7 +333,7 @@
         },
         "name": "Ferlab.bio Example/cqdg-document-reference2",
         "description": "Document Reference Example2",
-        "exampleBoolean": true
+        "exampleCanonical": "https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference"
       },
       {
         "reference": {
@@ -660,7 +660,7 @@
           "reference": "StructureDefinition/cqdg-document-reference"
         },
         "name": "Ferlab.bio StructureDefinition/cqdg-document-reference",
-        "description": "A CQDG group",
+        "description": "A CQDG DocumentReference profile with file size and MD5 checksum",
         "exampleBoolean": false
       },
       {

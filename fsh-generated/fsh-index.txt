@@ -33,8 +33,8 @@ CodeSystem-study-design.json                                    StudyDesign     
 CodeSystem-tumor-normal-designation.json                        TumorNormalDesignationCodeSystem          CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_TumorNormalDesignationCodes.fsh   1 - 20
 CodeSystem-vital-status.json                                    VitalStatusCodeSystem                     CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_VitalStatus.fsh                       1 - 22
 Condition-ConditionExample.json                                 ConditionExample                          Instance    ConditionResource/CQDG_Profile_Condition_Exemple.fsh                              1 - 28
-DocumentReference-DocumentReferenceExample1.json                DocumentReferenceExample1                 Instance    DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh              1 - 22
-DocumentReference-DocumentReferenceExample2.json                DocumentReferenceExample2                 Instance    DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh              26 - 44
+DocumentReference-DocumentReferenceExample1.json                DocumentReferenceExample1                 Instance    DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh              1 - 23
+DocumentReference-DocumentReferenceExample2.json                DocumentReferenceExample2                 Instance    DocumentReferenceResource/CQDG_Profile_DocumentReference_Exemple.fsh              27 - 46
 Group-CQDGGroupExample.json                                     CQDGGroupExample                          Instance    GroupResource/Examples/CQDG_Profile_Group_Example.fsh                             1 - 17
 List-ExampleCQDGProgramGroup.json                               ExampleCQDGProgramGroup                   Instance    ListProgram/Examples/CQDG_Profile_Program_Example.fsh                             1 - 57
 Observation-ObservationCauseOfDeathExample.json                 ObservationCauseOfDeathExample            Instance    ObservationResource/CQDG_Profile_Observation_Example.fsh                          43 - 56
@@ -71,7 +71,7 @@ StructureDefinition-TumorHistologicalType.json                  TumorHistologica
 StructureDefinition-TumorNormalDesignation.json                 TumorNormalDesignation                    Extension   SpecimenResource/Extensions/CQDG_Extension_TumorNormalDesignation.fsh             1 - 6
 StructureDefinition-VitalStatus.json                            VitalStatus                               Extension   PatientResource/Extensions/CQDG_Extension_VitalStatus.fsh                         1 - 5
 StructureDefinition-cqdg-condition.json                         CQDG_Condition                            Profile     ConditionResource/CQDG_Profile_Condition.fsh                                      1 - 15
-StructureDefinition-cqdg-document-reference.json                CQDGDocumentReference                     Profile     DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh                      1 - 5
+StructureDefinition-cqdg-document-reference.json                CQDGDocumentReference                     Profile     DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh                      1 - 13
 StructureDefinition-cqdg-group.json                             CQDGGroup                                 Profile     GroupResource/CQDG_Profile_Group.fsh                                              1 - 10
 StructureDefinition-cqdg-observation-group.json                 CQDGObservationGroup                      Profile     ObservationResource/CQDG_Profile_Observation.fsh                                  1 - 8
 StructureDefinition-cqdg-organization.json                      CQDGOrganization                          Profile     OrganizationResource/CQDG_Profile_Organization.fsh                                1 - 5

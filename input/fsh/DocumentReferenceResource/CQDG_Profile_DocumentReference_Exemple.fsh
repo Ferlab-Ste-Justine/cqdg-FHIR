@@ -1,5 +1,5 @@
 Instance: DocumentReferenceExample1
-InstanceOf: DocumentReference
+InstanceOf: CQDGDocumentReference
 Description: "Document Reference Example1"
 Title: "Ferlab.bio Example/cqdg-document-reference1"
 Usage: #example
@@ -14,7 +14,8 @@ Usage: #example
 * type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-data-supplement" "Sequencing Data Supplement"
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
-* content.attachment.extension[FullSizeExtension].valueDecimal
+* content.attachment.size = 15728640
+* content.attachment.hash = "ZjlmZDMyYjU4MTY3ZmY5MzQ0ZTk4ODJlZjQ1YWM3YzE="
 * content.attachment.contentType = #application/octet-stream
 * content.attachment.url = "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
 * content.format = https://fhir.cqdg.ca/CodeSystem/document-format#TGZ "TGZ Archive File"
@@ -24,7 +25,7 @@ Usage: #example
 //================================================
 
 Instance: DocumentReferenceExample2
-InstanceOf: DocumentReference
+InstanceOf: CQDGDocumentReference
 Description: "Document Reference Example2"
 Title: "Ferlab.bio Example/cqdg-document-reference2"
 Usage: #example
@@ -37,7 +38,8 @@ Usage: #example
 * type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-reads" "Aligned Reads"
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
-* content.attachment.extension[FullSizeExtension].valueDecimal = 22799222
+* content.attachment.size = 22799222
+* content.attachment.hash = "YTg3ZGUzYzJhYjQ2ZmY4NGI1ZTFmMjk4MzE0ZGJkNzg="
 * content.attachment.contentType = #application/octet-stream
 * content.attachment.url = "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
 * content.format = https://fhir.cqdg.ca/CodeSystem/document-format#TGZ "TGZ Archive File"

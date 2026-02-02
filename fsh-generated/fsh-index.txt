@@ -71,7 +71,7 @@ StructureDefinition-TumorHistologicalType.json                  TumorHistologica
 StructureDefinition-TumorNormalDesignation.json                 TumorNormalDesignation                    Extension   SpecimenResource/Extensions/CQDG_Extension_TumorNormalDesignation.fsh             1 - 6
 StructureDefinition-VitalStatus.json                            VitalStatus                               Extension   PatientResource/Extensions/CQDG_Extension_VitalStatus.fsh                         1 - 5
 StructureDefinition-cqdg-condition.json                         CQDG_Condition                            Profile     ConditionResource/CQDG_Profile_Condition.fsh                                      1 - 15
-StructureDefinition-cqdg-document-reference.json                CQDGDocumentReference                     Profile     DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh                      1 - 13
+StructureDefinition-cqdg-document-reference.json                CQDGDocumentReference                     Profile     DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh                      1 - 33
 StructureDefinition-cqdg-group.json                             CQDGGroup                                 Profile     GroupResource/CQDG_Profile_Group.fsh                                              1 - 10
 StructureDefinition-cqdg-observation-group.json                 CQDGObservationGroup                      Profile     ObservationResource/CQDG_Profile_Observation.fsh                                  1 - 8
 StructureDefinition-cqdg-organization.json                      CQDGOrganization                          Profile     OrganizationResource/CQDG_Profile_Organization.fsh                                1 - 5

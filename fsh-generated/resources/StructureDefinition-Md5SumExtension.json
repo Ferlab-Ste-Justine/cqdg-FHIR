@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Md5SumExtension",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/Md5SumExtension",
+  "name": "Md5SumExtension",
+  "title": "Ferlab.bio Extension/md5-sum",
+  "status": "active",
+  "description": "MD5 Sum Extension",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/md5-sum",
+        "definition": "MD5 Sum Extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/Md5SumExtension"
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
   "name": "CQDGDocumentReference",
   "title": "Ferlab.bio StructureDefinition/cqdg-document-reference",
   "status": "active",
-  "description": "A CQDG DocumentReference profile with file size and MD5 checksum",
+  "description": "A CQDG group",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -15,88 +15,8 @@
   "differential": {
     "element": [
       {
-        "id": "DocumentReference.content.attachment.size",
-        "path": "DocumentReference.content.attachment.size",
-        "short": "File size in bytes",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "fr"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Taille du fichier en octets"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "The number of bytes of content in the file",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "fr"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Le nombre d'octets du contenu dans le fichier"
-                }
-              ]
-            }
-          ]
-        },
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "DocumentReference.content.attachment.hash",
-        "path": "DocumentReference.content.attachment.hash",
-        "short": "File's checksum hash",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "fr"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Hachage de contrôle du fichier"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "File's checksum hash produced by the MD5 algorithm",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "fr"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Hachage de contrôle du fichier produit par l'algorithme MD5"
-                }
-              ]
-            }
-          ]
-        },
-        "min": 1,
-        "mustSupport": true
+        "id": "DocumentReference",
+        "path": "DocumentReference"
       }
     ]
   }

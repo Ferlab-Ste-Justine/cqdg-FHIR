@@ -62,6 +62,7 @@
 [ResearchStudyExpectedContent]: StructureDefinition-expectedStudyContent.html
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
 [Gender]: StructureDefinition-Gender.html
+[Md5SumExtension]: StructureDefinition-Md5SumExtension.html
 [PopulationInfo]: StructureDefinition-population-info.html
 [QCEthnicity]: StructureDefinition-QCEthnicity.html
 [Race]: StructureDefinition-Race.html

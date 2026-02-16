@@ -545,6 +545,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/Md5SumExtension"
+        },
+        "name": "Ferlab.bio Extension/md5-sum",
+        "description": "MD5 Sum Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/population-info"
         },
         "name": "Ferlab.bio Extension/population-info",
@@ -660,7 +668,7 @@
           "reference": "StructureDefinition/cqdg-document-reference"
         },
         "name": "Ferlab.bio StructureDefinition/cqdg-document-reference",
-        "description": "A CQDG DocumentReference profile with file size and MD5 checksum",
+        "description": "A CQDG group",
         "exampleBoolean": false
       },
       {

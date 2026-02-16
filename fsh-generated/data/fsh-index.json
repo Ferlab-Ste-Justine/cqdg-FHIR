@@ -504,6 +504,14 @@
     "endLine": 8
   },
   {
+    "outputFile": "StructureDefinition-Md5SumExtension.json",
+    "fshName": "Md5SumExtension",
+    "fshType": "Extension",
+    "fshFile": "DocumentReferenceResource/Extensions/CQDG_Extension_Md5-Sum.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
     "outputFile": "StructureDefinition-QCEthnicity.json",
     "fshName": "QCEthnicity",
     "fshType": "Extension",
@@ -581,7 +589,7 @@
     "fshType": "Profile",
     "fshFile": "DocumentReferenceResource/CQDG_Profile_DocumentReference.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 5
   },
   {
     "outputFile": "StructureDefinition-cqdg-group.json",

@@ -9,22 +9,14 @@ Title: "Ferlab.bio CodeSystem/bioinformatics-analysis"
 * ^caseSensitive = true
 
 
-* #"RABA"  "Reads Alignement Bioinformatic Analysis"
-* #"RABA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#RABA //reads-alignement-bioinformatic-analysis
-* #"RABA"  ^designation.value = "Reads Alignement Bioinformatic Analysis"
+* #"GBVA"  "Germline Variant Analysis"
+* #"GBVA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#GBVA // germline-variant-analysis
+* #"GBVA"  ^designation.value = "Germline Variant Analysis"
 
-* #"SNVC"  "SNV Calling Bioinformatic Analysis"
-* #"SNVC"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#SNVC //snv-calling-bioinformatic-nalysis
-* #"SNVC"  ^designation.value = "Reads Alignement Bioinformatic Analysis"
+* #"GBVF"  "Germline Variant Analysis with Family Joint Genotyping"
+* #"GBVF"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#GBVF // germline-variant-analysis-with-family-joint-genotyping
+* #"GBVF"  ^designation.value = "Germline Variant Analysis with Family Joint Genotyping"
 
-* #"QCBA"  "Quality Control Bioinformatic Analysis"
-* #"QCBA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#QCBA //quality-control-bioinformatic-analysis
-* #"QCBA"  ^designation.value = "Quality Control Bioinformatic Analysis"
-
-* #"GEBA"  "Germline Exome Bioinformatic Analysis"
-* #"GEBA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#GEBA //germline-exome-bioinformatic-analysis
-* #"GEBA"  ^designation.value = "Germline Exome Bioinformatic Analysis"
-
-* #"GGBA"  "Germline Genome Bioinformatic Analysis"
-* #"GGBA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#GGBA //germline-genome-bioinformatic-analysis
-* #"GGBA"  ^designation.value = "Germline Genome Bioinformatic Analysis"
+* #"SBVA"  "Somatic Variant Analysis"
+* #"SBVA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#SBVA // somatic-variant-analysis
+* #"SBVA"  ^designation.value = "Somatic Variant Analysis"

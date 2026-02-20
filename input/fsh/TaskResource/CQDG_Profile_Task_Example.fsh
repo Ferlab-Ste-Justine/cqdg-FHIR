@@ -30,7 +30,7 @@ Usage: #example
 * status = #completed
 * intent = #order
 * priority = #routine
-* code = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#"RABA" "Reads Alignement Bioinformatic Analysis"
+* code = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#"GBVA" "Germline Variant Analysis"
 * requester = Reference(Organization/OrganizationExample)
 * owner = Reference(Organization/OrganizationExample)
 * input.type.text = "Analysed sample"

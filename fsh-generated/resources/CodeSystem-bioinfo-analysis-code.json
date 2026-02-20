@@ -8,67 +8,41 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
   "concept": [
     {
-      "code": "RABA",
-      "display": "Reads Alignement Bioinformatic Analysis",
+      "code": "GBVA",
+      "display": "Germline Variant Analysis",
       "designation": [
         {
           "use": {
-            "code": "RABA",
+            "code": "GBVA",
             "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
           },
-          "value": "Reads Alignement Bioinformatic Analysis"
+          "value": "Germline Variant Analysis"
         }
       ]
     },
     {
-      "code": "SNVC",
-      "display": "SNV Calling Bioinformatic Analysis",
+      "code": "GBVF",
+      "display": "Germline Variant Analysis with Family Joint Genotyping",
       "designation": [
         {
           "use": {
-            "code": "SNVC",
+            "code": "GBVF",
             "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
           },
-          "value": "Reads Alignement Bioinformatic Analysis"
+          "value": "Germline Variant Analysis with Family Joint Genotyping"
         }
       ]
     },
     {
-      "code": "QCBA",
-      "display": "Quality Control Bioinformatic Analysis",
+      "code": "SBVA",
+      "display": "Somatic Variant Analysis",
       "designation": [
         {
           "use": {
-            "code": "QCBA",
+            "code": "SBVA",
             "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
           },
-          "value": "Quality Control Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code": "GEBA",
-      "display": "Germline Exome Bioinformatic Analysis",
-      "designation": [
-        {
-          "use": {
-            "code": "GEBA",
-            "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
-          },
-          "value": "Germline Exome Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code": "GGBA",
-      "display": "Germline Genome Bioinformatic Analysis",
-      "designation": [
-        {
-          "use": {
-            "code": "GGBA",
-            "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
-          },
-          "value": "Germline Genome Bioinformatic Analysis"
+          "value": "Somatic Variant Analysis"
         }
       ]
     }
@@ -76,5 +50,5 @@
   "experimental": false,
   "description": "Bioinformatics analysis code",
   "caseSensitive": true,
-  "count": 5
+  "count": 3
 }

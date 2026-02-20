@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/data-collection-method | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:DataCollectionMethod |
+| Active as of 2026-02-20 | *Computable Name*:DataCollectionMethod |
 
  
 Data category 
@@ -32,67 +32,55 @@ Data category
   "title" : "Ferlab.bio CodeSystem/data-collection-method",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Data category",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 3,
-  "concept" : [
-    {
-      "code" : "investigator_assessment",
-      "display" : "Investigator Assessment",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
-            "code" : "investigator_assessment"
-          },
-          "value" : "Évaluation de l'investigateur"
-        }
-      ]
-    },
-    {
-      "code" : "participant_caregiver_report",
-      "display" : "Participant or Caregiver Report",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
-            "code" : "participant_caregiver_report"
-          },
-          "value" : "Rapport du participant ou de l'aidant"
-        }
-      ]
-    },
-    {
-      "code" : "medical_records",
-      "display" : "Medical Records",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
-            "code" : "medical_records"
-          },
-          "value" : "Dossiers médicaux"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "investigator_assessment",
+    "display" : "Investigator Assessment",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+        "code" : "investigator_assessment"
+      },
+      "value" : "Évaluation de l'investigateur"
+    }]
+  },
+  {
+    "code" : "participant_caregiver_report",
+    "display" : "Participant or Caregiver Report",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+        "code" : "participant_caregiver_report"
+      },
+      "value" : "Rapport du participant ou de l'aidant"
+    }]
+  },
+  {
+    "code" : "medical_records",
+    "display" : "Medical Records",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+        "code" : "medical_records"
+      },
+      "value" : "Dossiers médicaux"
+    }]
+  }]
 }
 
 ```

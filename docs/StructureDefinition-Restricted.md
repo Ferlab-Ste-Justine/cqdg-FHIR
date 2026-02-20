@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/Restricted | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:Restricted |
+| Active as of 2026-02-20 | *Computable Name*:Restricted |
 
 Is the study restricted (no publicly shared data on individuals)
 
@@ -47,67 +47,55 @@ Other representations of profile: [CSV](StructureDefinition-Restricted.csv), [Ex
   "name" : "Restricted",
   "title" : "Restricted",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Is the study restricted (no publicly shared data on individuals)",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [
-    {
-      "type" : "element",
-      "expression" : "Element"
-    }
-  ],
+  "context" : [{
+    "type" : "element",
+    "expression" : "Element"
+  }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Extension",
-        "path" : "Extension",
-        "short" : "Restricted",
-        "definition" : "Is the study restricted (no publicly shared data on individuals)"
-      },
-      {
-        "id" : "Extension.extension",
-        "path" : "Extension.extension",
-        "max" : "0"
-      },
-      {
-        "id" : "Extension.url",
-        "path" : "Extension.url",
-        "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/Restricted"
-      },
-      {
-        "id" : "Extension.value[x]",
-        "path" : "Extension.value[x]",
-        "type" : [
-          {
-            "code" : "boolean"
-          }
-        ]
-      }
-    ]
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Restricted",
+      "definition" : "Is the study restricted (no publicly shared data on individuals)"
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/Restricted"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
   }
 }
 

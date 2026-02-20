@@ -1,359 +1,357 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "http://purl.obolibrary.org/obo/duo.owl",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DUOCodes",
-      "title" : "Ferlab.bio CodeSystem/duo-codes",
-      "description" : "DUO codes",
-      "uses" : {
-      },
-      "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-      "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+  "codeSystems" : [{
+    "url" : "http://purl.obolibrary.org/obo/duo.owl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DUOCodes",
+    "title" : "Ferlab.bio CodeSystem/duo-codes",
+    "description" : "DUO codes",
+    "uses" : {
     },
-    {
-      "url" : "http://purl.obolibrary.org/obo/mondo.owl",
-      "version" : "1.0.0",
-      "status" : "active",
-      "name" : "MONDO",
-      "title" : "Mondo Disease Ontology",
-      "description" : "The Mondo Disease Ontology is a semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology that contains cross-species disease terminology.\r\n\r\nNumerous sources for disease definitions and data models currently exist, which include HPO, OMIM, SNOMED CT, ICD, PhenoDB, MedDRA, MedGen, ORDO, DO, GARD, etc; however, these sources partially overlap and sometimes conflict, making it difficult to know definitively how they relate to each other. This has resulted in a proliferation of mappings between disease entries in different resources; however mappings are problematic: collectively, they are expensive to create and maintain. Most importantly, the mappings lack completeness, accuracy, and precision; as a result, mapping calls are often inconsistent between resources. The UMLS provides intermediate concepts through which other resources can be mapped, but these mappings suffer from the same challenges: they are not guaranteed to be one-to-one, especially in areas with evolving disease concepts such as rare disease.\r\n\r\nIn order to address the lack of a unified disease terminology that provides precise equivalences between disease concepts, we created Mondo, which provides a logic-based structure for unifying multiple disease resources.\r\n\r\nMondo’s development is coordinated with the Human Phenotype Ontology (HPO), which describes the individual phenotypic features that constitute a disease. Like the HPO, Mondo provides a hierarchical structure which can be used for classification or “rolling up” diseases to higher level groupings. It provides mappings to other disease resources, but in contrast to other mappings between ontologies, we precisely annotate each mapping using strict semantics, so that we know when two disease names or identifiers are equivalent or one-to-one, in contrast to simply being closely related.\r\n\r\nFor more information, see [https://mondo.monarchinitiative.org/](https://mondo.monarchinitiative.org/)",
-      "oids" : ["2.16.840.1.113883.3.9216"],
-      "uses" : {
-      },
-      "ValueSet-cqdg-diagnosis-vs.html" : "Ferlab.bio ValueSet/diagnosis"
+    "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+    "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
+  },
+  {
+    "url" : "http://purl.obolibrary.org/obo/mondo.owl",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MONDO",
+    "title" : "Mondo Disease Ontology",
+    "description" : "The Mondo Disease Ontology is a semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology that contains cross-species disease terminology.\r\n\r\nNumerous sources for disease definitions and data models currently exist, which include HPO, OMIM, SNOMED CT, ICD, PhenoDB, MedDRA, MedGen, ORDO, DO, GARD, etc; however, these sources partially overlap and sometimes conflict, making it difficult to know definitively how they relate to each other. This has resulted in a proliferation of mappings between disease entries in different resources; however mappings are problematic: collectively, they are expensive to create and maintain. Most importantly, the mappings lack completeness, accuracy, and precision; as a result, mapping calls are often inconsistent between resources. The UMLS provides intermediate concepts through which other resources can be mapped, but these mappings suffer from the same challenges: they are not guaranteed to be one-to-one, especially in areas with evolving disease concepts such as rare disease.\r\n\r\nIn order to address the lack of a unified disease terminology that provides precise equivalences between disease concepts, we created Mondo, which provides a logic-based structure for unifying multiple disease resources.\r\n\r\nMondo’s development is coordinated with the Human Phenotype Ontology (HPO), which describes the individual phenotypic features that constitute a disease. Like the HPO, Mondo provides a hierarchical structure which can be used for classification or “rolling up” diseases to higher level groupings. It provides mappings to other disease resources, but in contrast to other mappings between ontologies, we precisely annotate each mapping using strict semantics, so that we know when two disease names or identifiers are equivalent or one-to-one, in contrast to simply being closely related.\r\n\r\nFor more information, see [https://mondo.monarchinitiative.org/](https://mondo.monarchinitiative.org/)",
+    "oids" : ["2.16.840.1.113883.3.9216"],
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BioinfoAnalysisCode",
-      "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
-      "description" : "Bioinformatics analysis code",
-      "uses" : {
-      },
-      "ValueSet-bioinfo-analysis-vs.html" : "Ferlab.bio ValueSet/bioinfo-analysis"
+    "ValueSet-cqdg-diagnosis-vs.html" : "Ferlab.bio ValueSet/diagnosis"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "BioinfoAnalysisCode",
+    "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
+    "description" : "Bioinformatics analysis code",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "CauseOfDeathCodes",
-      "title" : "Ferlab.bio CodeSystem/cause-of-death",
-      "description" : "Codes for cause of death",
-      "uses" : {
-      },
-      "ValueSet-cause-of-death-vs.html" : "Ferlab.bio ValueSet/cause-of-death"
+    "ValueSet-bioinfo-analysis-vs.html" : "Ferlab.bio ValueSet/bioinfo-analysis"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CauseOfDeathCodes",
+    "title" : "Ferlab.bio CodeSystem/cause-of-death",
+    "description" : "Codes for cause of death",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "CQDGObservationCode",
-      "title" : "Ferlab.bio CodeSystem/cqdg-observation",
-      "description" : "CQDG Observation codes",
-      "uses" : {
-      },
-      "ValueSet-cqdg-observation-category.html" : "Ferlab.bio ValueSet/cqdg-observation"
+    "ValueSet-cause-of-death-vs.html" : "Ferlab.bio ValueSet/cause-of-death"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CQDGObservationCode",
+    "title" : "Ferlab.bio CodeSystem/cqdg-observation",
+    "description" : "CQDG Observation codes",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "CQDGSpecimenTissueSourceMissingCodes",
-      "title" : "CQDG Specimen Missing Codes",
-      "description" : "Codes for missing specimen data",
-      "uses" : {
-      },
-      "ValueSet-cqdg-specimen-tissue-source-vs.html" : "CQDG Specimen Tissue Source ValueSet"
+    "ValueSet-cqdg-observation-category.html" : "Ferlab.bio ValueSet/cqdg-observation"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CQDGSpecimenTissueSourceMissingCodes",
+    "title" : "CQDG Specimen Missing Codes",
+    "description" : "Codes for missing specimen data",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "CQDGStudyCS",
-      "title" : "Ferlab.bio CodeSystem/cqdg-study",
-      "description" : "CQDG study code system",
-      "uses" : {
-      },
-      "ValueSet-study-vs.html" : "Ferlab.bio ValueSet/cqdg-study"
+    "ValueSet-cqdg-specimen-tissue-source-vs.html" : "CQDG Specimen Tissue Source ValueSet"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CQDGStudyCS",
+    "title" : "Ferlab.bio CodeSystem/cqdg-study",
+    "description" : "CQDG study code system",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "CQDGTumorNormalDesignationCodeSystem",
-      "title" : "CQDG Tumor Normal Designation Codes",
-      "description" : "Codes for tumor normal designation",
-      "uses" : {
-      },
-      "ValueSet-cqdg-tumor-normal-designation-vs.html" : "CQDG Tumor Normal Designation ValueSet"
+    "ValueSet-study-vs.html" : "Ferlab.bio ValueSet/cqdg-study"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CQDGTumorNormalDesignationCodeSystem",
+    "title" : "CQDG Tumor Normal Designation Codes",
+    "description" : "Codes for tumor normal designation",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DataCategory",
-      "title" : "Ferlab.bio CodeSystem/data-category",
-      "description" : "Data category",
-      "uses" : {
-      },
-      "ValueSet-data-category-vs.html" : "Ferlab.bio ValueSet/data-category"
+    "ValueSet-cqdg-tumor-normal-designation-vs.html" : "CQDG Tumor Normal Designation ValueSet"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DataCategory",
+    "title" : "Ferlab.bio CodeSystem/data-category",
+    "description" : "Data category",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DataCollectionMethod",
-      "title" : "Ferlab.bio CodeSystem/data-collection-method",
-      "description" : "Data category",
-      "uses" : {
-      },
-      "ValueSet-data-collection-method-vs.html" : "Ferlab.bio ValueSet/data-collection-method"
+    "ValueSet-data-category-vs.html" : "Ferlab.bio ValueSet/data-category"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/data-collection-method",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DataCollectionMethod",
+    "title" : "Ferlab.bio CodeSystem/data-collection-method",
+    "description" : "Data category",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DataType",
-      "title" : "Ferlab.bio CodeSystem/data-type",
-      "description" : "Data Type",
-      "uses" : {
-      },
-      "ValueSet-data-type-vs.html" : "Ferlab.bio ValueSet/data-type"
+    "ValueSet-data-collection-method-vs.html" : "Ferlab.bio ValueSet/data-collection-method"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DataType",
+    "title" : "Ferlab.bio CodeSystem/data-type",
+    "description" : "Data Type",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DiseaseStatusCS",
-      "title" : "Ferlab.bio CodeSystem/disease-status",
-      "description" : "Disease status code system",
-      "uses" : {
-      },
-      "ValueSet-disease-status-vs.html" : "Ferlab.bio ValueSet/disease-status"
+    "ValueSet-data-type-vs.html" : "Ferlab.bio ValueSet/data-type"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DiseaseStatusCS",
+    "title" : "Ferlab.bio CodeSystem/disease-status",
+    "description" : "Disease status code system",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "DocumentFormat",
-      "title" : "Ferlab.bio CodeSystem/document-format",
-      "description" : "Document format",
-      "uses" : {
-      },
-      "ValueSet-file-format.html" : "Ferlab.bio ValueSet/file-format"
+    "ValueSet-disease-status-vs.html" : "Ferlab.bio ValueSet/disease-status"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "DocumentFormat",
+    "title" : "Ferlab.bio CodeSystem/document-format",
+    "description" : "Document format",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "ExperimentalStrategy",
-      "title" : "Ferlab.bio CodeSystem/experimental-strategy",
-      "description" : "Experimental strategy",
-      "uses" : {
-      },
-      "ValueSet-experimental-strategy-vs.html" : "Ferlab.bio ValueSet/experimental-strategy"
+    "ValueSet-file-format.html" : "Ferlab.bio ValueSet/file-format"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ExperimentalStrategy",
+    "title" : "Ferlab.bio CodeSystem/experimental-strategy",
+    "description" : "Experimental strategy",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/family-type",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "FamilyType",
-      "title" : "Ferlab.bio CodeSystem/family-type",
-      "description" : "Family type",
-      "uses" : {
-      },
-      "ValueSet-family-type-vs.html" : "Ferlab.bio ValueSet/family-type"
+    "ValueSet-experimental-strategy-vs.html" : "Ferlab.bio ValueSet/experimental-strategy"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/family-type",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "FamilyType",
+    "title" : "Ferlab.bio CodeSystem/family-type",
+    "description" : "Family type",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/gender",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "QCGender",
-      "title" : "Ferlab.bio CodeSystem/gender",
-      "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
-      "uses" : {
-      },
-      "ValueSet-qc-gender-vs.html" : "Ferlab.bio ValueSet/gender"
+    "ValueSet-family-type-vs.html" : "Ferlab.bio ValueSet/family-type"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/gender",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "QCGender",
+    "title" : "Ferlab.bio CodeSystem/gender",
+    "description" : "This code system defines gender concepts used in Ferlab.bio, including options for man, woman, other genders, and various missing or unknown statuses.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "GenderCollectionMethod",
-      "title" : "Ferlab.bio CodeSystem/gender-collection-method",
-      "description" : "This code system defines the possible methods by which a participant's gender information may be collected or recorded.",
-      "uses" : {
-      },
-      "ValueSet-gender-collection-method-vs.html" : "Ferlab.bio ValueSet/gender-collection-method"
+    "ValueSet-qc-gender-vs.html" : "Ferlab.bio ValueSet/gender"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "GenderCollectionMethod",
+    "title" : "Ferlab.bio CodeSystem/gender-collection-method",
+    "description" : "This code system defines the possible methods by which a participant's gender information may be collected or recorded.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "GenomeBuild",
-      "title" : "Ferlab.bio CodeSystem/genome-build",
-      "description" : "Genome build",
-      "uses" : {
-      },
-      "ValueSet-genome-build-vs.html" : "Ferlab.bio ValueSet/genome-build"
+    "ValueSet-gender-collection-method-vs.html" : "Ferlab.bio ValueSet/gender-collection-method"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "GenomeBuild",
+    "title" : "Ferlab.bio CodeSystem/genome-build",
+    "description" : "Genome build",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/population",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "Population",
-      "title" : "Ferlab.bio CodeSystem/population",
-      "description" : "Population",
-      "uses" : {
-      },
-      "ValueSet-population-vs.html" : "Ferlab.bio ValueSet/population"
+    "ValueSet-genome-build-vs.html" : "Ferlab.bio ValueSet/genome-build"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/population",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "Population",
+    "title" : "Ferlab.bio CodeSystem/population",
+    "description" : "Population",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "QCEthnicityCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
-      "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
-      "uses" : {
-      },
-      "ValueSet-qc-ethnicity-vs.html" : "Ferlab.bio ValueSet/qa-ethnicity"
+    "ValueSet-population-vs.html" : "Ferlab.bio ValueSet/population"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "QCEthnicityCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/qc-ethnicity",
+    "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/race",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "RaceCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/race",
-      "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
-      "uses" : {
-      },
-      "ValueSet-race-vs.html" : "Ferlab.bio ValueSet/race"
+    "ValueSet-qc-ethnicity-vs.html" : "Ferlab.bio ValueSet/qa-ethnicity"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/race",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "RaceCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/race",
+    "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "RaceCollectionMethod",
-      "title" : "Ferlab.bio CodeSystem/race-collection-method",
-      "description" : "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings.",
-      "uses" : {
-      },
-      "ValueSet-race-collection-method-vs.html" : "Ferlab.bio ValueSet/race-collection-method"
+    "ValueSet-race-vs.html" : "Ferlab.bio ValueSet/race"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "RaceCollectionMethod",
+    "title" : "Ferlab.bio CodeSystem/race-collection-method",
+    "description" : "This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "RelationshipToProbandCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/relationship-to-proband",
-      "description" : "relationship to proband codes",
-      "uses" : {
-      },
-      "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+    "ValueSet-race-collection-method-vs.html" : "Ferlab.bio ValueSet/race-collection-method"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/relationship-to-proband",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "RelationshipToProbandCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/relationship-to-proband",
+    "description" : "relationship to proband codes",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "ResearchDomainCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/research-domain",
-      "description" : "Research domain",
-      "uses" : {
-      },
-      "ValueSet-research-domain-vs.html" : "Ferlab.bio ValueSet/research-domain"
+    "ValueSet-relationship-to-proband-vs.html" : "Ferlab.bio ValueSet/relationship-to-proband"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/research-domain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ResearchDomainCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/research-domain",
+    "description" : "Research domain",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SequencingExperimentPlatform",
-      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-platform",
-      "description" : "Sequencing experimental platform",
-      "uses" : {
-      },
-      "ValueSet-sequencing-experiment-platform-vs.html" : "Sequencing Experiment Platform"
+    "ValueSet-research-domain-vs.html" : "Ferlab.bio ValueSet/research-domain"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SequencingExperimentPlatform",
+    "title" : "Ferlab.bio CodeSystem/sequencing-experiment-platform",
+    "description" : "Sequencing experimental platform",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SequencingExperimentSelection",
-      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
-      "description" : "Library selection method",
-      "uses" : {
-      },
-      "ValueSet-sequencing-experiment-selection-vs.html" : "Sequencing Experiment Selection"
+    "ValueSet-sequencing-experiment-platform-vs.html" : "Sequencing Experiment Platform"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SequencingExperimentSelection",
+    "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
+    "description" : "Library selection method",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SequencingExperimentSource",
-      "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
-      "description" : "Sequencing experimental source",
-      "uses" : {
-      },
-      "ValueSet-sequencing-experiment-source-vs.html" : "Sequencing Experiment Source"
+    "ValueSet-sequencing-experiment-selection-vs.html" : "Sequencing Experiment Selection"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SequencingExperimentSource",
+    "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
+    "description" : "Sequencing experimental source",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SexAtBirthCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/sex-at-birth",
-      "description" : "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets.",
-      "uses" : {
-      },
-      "ValueSet-sex-at-birth-vs.html" : "Ferlab.bio ValueSet/sex-at-birth"
+    "ValueSet-sequencing-experiment-source-vs.html" : "Sequencing Experiment Source"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SexAtBirthCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/sex-at-birth",
+    "description" : "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "SexAtBirthCollectionMethod",
-      "title" : "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
-      "description" : "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts.",
-      "uses" : {
-      },
-      "ValueSet-sex-at-birth-collection-method-vs.html" : "Ferlab.bio ValueSet/sex-at-birth-collection-method"
+    "ValueSet-sex-at-birth-vs.html" : "Ferlab.bio ValueSet/sex-at-birth"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SexAtBirthCollectionMethod",
+    "title" : "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
+    "description" : "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts.",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "StudyDesign",
-      "title" : "Ferlab.bio CodeSystem/study-design",
-      "description" : "Data category",
-      "uses" : {
-      },
-      "ValueSet-study-design-vs.html" : "Ferlab.bio ValueSet/study-design"
+    "ValueSet-sex-at-birth-collection-method-vs.html" : "Ferlab.bio ValueSet/sex-at-birth-collection-method"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "StudyDesign",
+    "title" : "Ferlab.bio CodeSystem/study-design",
+    "description" : "Data category",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "TumorNormalDesignationCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
-      "description" : "Tumor normal designation",
-      "uses" : {
-      },
-      "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset",
-      "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation"
+    "ValueSet-study-design-vs.html" : "Ferlab.bio ValueSet/study-design"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TumorNormalDesignationCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
+    "description" : "Tumor normal designation",
+    "uses" : {
     },
-    {
-      "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "VitalStatusCodeSystem",
-      "title" : "Ferlab.bio CodeSystem/vital-status",
-      "description" : "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets.",
-      "uses" : {
-      },
-      "ValueSet-vital-status-vs.html" : "Ferlab.bio ValueSet/vital-status"
-    }
-  ]
+    "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation",
+    "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VitalStatusCodeSystem",
+    "title" : "Ferlab.bio CodeSystem/vital-status",
+    "description" : "This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets.",
+    "uses" : {
+    },
+    "ValueSet-vital-status-vs.html" : "Ferlab.bio ValueSet/vital-status"
+  }]
 }

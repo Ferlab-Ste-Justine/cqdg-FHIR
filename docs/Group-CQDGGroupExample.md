@@ -36,38 +36,28 @@ Tag: CAG (Details: [not stated] code CAG)
   "resourceType" : "Group",
   "id" : "CQDGGroupExample",
   "meta" : {
-    "profile" : [
-      "https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
-      "https://fhir.cqdg.ca/StructureDefinition/CQDGGroup"
-    ],
-    "tag" : [
-      {
-        "code" : "CAG"
-      }
-    ]
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-group",
+    "https://fhir.cqdg.ca/StructureDefinition/CQDGGroup"],
+    "tag" : [{
+      "code" : "CAG"
+    }]
   },
-  "identifier" : [
-    {
-      "use" : "official"
-    }
-  ],
+  "identifier" : [{
+    "use" : "official"
+  }],
   "type" : "person",
   "actual" : true,
   "code" : {
-    "coding" : [
-      {
-        "display" : "Case - affected relative"
-      }
-    ]
+    "coding" : [{
+      "display" : "Case - affected relative"
+    }]
   },
   "quantity" : 3,
-  "member" : [
-    {
-      "entity" : {
-        "reference" : "Patient/PatientExample"
-      }
+  "member" : [{
+    "entity" : {
+      "reference" : "Patient/PatientExample"
     }
-  ]
+  }]
 }
 
 ```

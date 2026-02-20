@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/disease-status | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:DiseaseStatusCS |
+| Active as of 2026-02-20 | *Computable Name*:DiseaseStatusCS |
 
  
 Disease status code system 
@@ -32,64 +32,52 @@ Disease status code system
   "title" : "Ferlab.bio CodeSystem/disease-status",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Disease status code system",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 3,
-  "concept" : [
-    {
-      "code" : "Yes",
-      "display" : "Yes",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-            "code" : "Yes"
-          },
-          "value" : "Yes"
-        }
-      ]
-    },
-    {
-      "code" : "No",
-      "display" : "No",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-            "code" : "No"
-          },
-          "value" : "No"
-        }
-      ]
-    },
-    {
-      "code" : "Unknown",
-      "display" : "Unknown",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
-            "code" : "Unknown"
-          },
-          "value" : "Unknown"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "Yes",
+    "display" : "Yes",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "Yes"
+      },
+      "value" : "Yes"
+    }]
+  },
+  {
+    "code" : "No",
+    "display" : "No",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "No"
+      },
+      "value" : "No"
+    }]
+  },
+  {
+    "code" : "Unknown",
+    "display" : "Unknown",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/disease-status",
+        "code" : "Unknown"
+      },
+      "value" : "Unknown"
+    }]
+  }]
 }
 
 ```

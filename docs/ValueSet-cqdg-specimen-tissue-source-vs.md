@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGSpecimenTissueSourceVS |
+| Active as of 2026-02-20 | *Computable Name*:CQDGSpecimenTissueSourceVS |
 
  
 ValueSet for specimen tissue source including NCIT and missing codes 
@@ -54,29 +54,23 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "CQDGSpecimenTissueSourceVS",
   "title" : "CQDG Specimen Tissue Source ValueSet",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "ValueSet for specimen tissue source including NCIT and missing codes",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://purl.obolibrary.org/obo/ncit.owl"
-      },
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"
-      }
-    ]
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/ncit.owl"
+    },
+    {
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"
+    }]
   }
 }
 

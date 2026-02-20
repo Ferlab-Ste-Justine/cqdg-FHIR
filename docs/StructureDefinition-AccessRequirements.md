@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AccessRequirements | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:AccessRequirements |
+| Active as of 2026-02-20 | *Computable Name*:AccessRequirements |
 
 Requirements to access to studies.
 
@@ -49,87 +49,73 @@ Other representations of profile: [CSV](StructureDefinition-AccessRequirements.c
   "name" : "AccessRequirements",
   "title" : "Ferlab.bio Extension/access-requirement",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Requirements to access to studies.",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [
-    {
-      "type" : "element",
-      "expression" : "Element"
-    }
-  ],
+  "context" : [{
+    "type" : "element",
+    "expression" : "Element"
+  }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Extension",
-        "path" : "Extension",
-        "short" : "Ferlab.bio Extension/access-requirement",
-        "definition" : "Requirements to access to studies."
-      },
-      {
-        "id" : "Extension.url",
-        "path" : "Extension.url",
-        "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/AccessRequirements"
-      },
-      {
-        "id" : "Extension.value[x]",
-        "path" : "Extension.value[x]",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "type",
-              "path" : "$this"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        }
-      },
-      {
-        "id" : "Extension.value[x]:valueCoding",
-        "path" : "Extension.value[x]",
-        "sliceName" : "valueCoding",
-        "min" : 0,
-        "max" : "1",
-        "type" : [
-          {
-            "code" : "Coding"
-          }
-        ]
-      },
-      {
-        "id" : "Extension.value[x]:valueCoding.system",
-        "path" : "Extension.value[x].system",
-        "binding" : {
-          "strength" : "required",
-          "valueSet" : "https://fhir.cqdg.ca/ValueSet/access-requirement-vs"
-        }
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Ferlab.bio Extension/access-requirement",
+      "definition" : "Requirements to access to studies."
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/AccessRequirements"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
       }
-    ]
+    },
+    {
+      "id" : "Extension.value[x]:valueCoding",
+      "path" : "Extension.value[x]",
+      "sliceName" : "valueCoding",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }]
+    },
+    {
+      "id" : "Extension.value[x]:valueCoding.system",
+      "path" : "Extension.value[x].system",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://fhir.cqdg.ca/ValueSet/access-requirement-vs"
+      }
+    }]
   }
 }
 

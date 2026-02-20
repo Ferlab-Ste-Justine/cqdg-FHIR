@@ -19,11 +19,9 @@ Tag: CAG (Details: [not stated] code CAG)
   "resourceType" : "Organization",
   "id" : "OrganizationExample",
   "meta" : {
-    "tag" : [
-      {
-        "code" : "CAG"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    }]
   },
   "name" : "CQDG"
 }

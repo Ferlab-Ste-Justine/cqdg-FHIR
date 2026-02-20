@@ -39,7 +39,7 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 
 **priority**: Routine
 
-**code**: Reads Alignement Bioinformatic Analysis
+**code**: Germline Variant Analysis
 
 **requester**: [Organization CQDG](Organization-OrganizationExample.md)
 
@@ -71,130 +71,120 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
   "meta" : {
     "profile" : ["https://fhir.cqdg.ca/StructureDefinition/CQDGTask"]
   },
-  "extension" : [
-    {
-      "extension" : [
-        {
-          "url" : "genomeBuild",
-          "valueCoding" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
-            "code" : "GRCh38",
-            "display" : "GRCh38"
-          }
-        },
-        {
-          "url" : "pipeline",
-          "valueString" : "First Pipeline"
-        },
-        {
-          "url" : "pipeline",
-          "valueString" : "Second Pipeline"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/workflowExtension"
+  "extension" : [{
+    "extension" : [{
+      "url" : "genomeBuild",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+        "code" : "GRCh38",
+        "display" : "GRCh38"
+      }
     },
     {
-      "extension" : [
-        {
-          "url" : "experimentalStrategy",
-          "valueCoding" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-            "code" : "WXS",
-            "display" : "Whole Exome Sequencing"
-          }
-        },
-        {
-          "url" : "isPairedEnd",
-          "valueBoolean" : true
-        },
-        {
-          "url" : "platform",
-          "valueCoding" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
-            "code" : "Illumina",
-            "display" : "Illumina"
-          }
-        },
-        {
-          "url" : "readLength",
-          "valueString" : "151,8,8,151"
-        },
-        {
-          "url" : "selection",
-          "valueCoding" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "CHIP",
-            "display" : "ChIP"
-          }
-        },
-        {
-          "url" : "source",
-          "valueCoding" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-            "code" : "GEN",
-            "display" : "Genomic"
-          }
-        },
-        {
-          "url" : "protocol",
-          "valueString" : "protocol2"
-        },
-        {
-          "url" : "targetCaptureKit",
-          "valueString" : "targetCaptureKit2"
-        },
-        {
-          "url" : "targetLoci",
-          "valueString" : "targetedLoci2"
-        },
-        {
-          "url" : "runIds",
-          "valueString" : "RunID12345"
-        },
-        {
-          "url" : "runIds",
-          "valueString" : "RunID67890"
-        },
-        {
-          "url" : "runDates",
-          "valueDate" : "2023-01-01"
-        },
-        {
-          "url" : "runDates",
-          "valueDate" : "2023-01-02"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"
+      "url" : "pipeline",
+      "valueString" : "First Pipeline"
     },
     {
-      "extension" : [
-        {
-          "url" : "ldmSampleId",
-          "valueString" : "LDM12345"
-        },
-        {
-          "url" : "labAliquotId",
-          "valueString" : "AliquotID1"
-        },
-        {
-          "url" : "labAliquotId",
-          "valueString" : "AliquotID2"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/sampleExtension"
-    }
-  ],
+      "url" : "pipeline",
+      "valueString" : "Second Pipeline"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/workflowExtension"
+  },
+  {
+    "extension" : [{
+      "url" : "experimentalStrategy",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "code" : "WXS",
+        "display" : "Whole Exome Sequencing"
+      }
+    },
+    {
+      "url" : "isPairedEnd",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "platform",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+        "code" : "Illumina",
+        "display" : "Illumina"
+      }
+    },
+    {
+      "url" : "readLength",
+      "valueString" : "151,8,8,151"
+    },
+    {
+      "url" : "selection",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CHIP",
+        "display" : "ChIP"
+      }
+    },
+    {
+      "url" : "source",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "GEN",
+        "display" : "Genomic"
+      }
+    },
+    {
+      "url" : "protocol",
+      "valueString" : "protocol2"
+    },
+    {
+      "url" : "targetCaptureKit",
+      "valueString" : "targetCaptureKit2"
+    },
+    {
+      "url" : "targetLoci",
+      "valueString" : "targetedLoci2"
+    },
+    {
+      "url" : "runIds",
+      "valueString" : "RunID12345"
+    },
+    {
+      "url" : "runIds",
+      "valueString" : "RunID67890"
+    },
+    {
+      "url" : "runDates",
+      "valueDate" : "2023-01-01"
+    },
+    {
+      "url" : "runDates",
+      "valueDate" : "2023-01-02"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"
+  },
+  {
+    "extension" : [{
+      "url" : "ldmSampleId",
+      "valueString" : "LDM12345"
+    },
+    {
+      "url" : "labAliquotId",
+      "valueString" : "AliquotID1"
+    },
+    {
+      "url" : "labAliquotId",
+      "valueString" : "AliquotID2"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/sampleExtension"
+  }],
   "status" : "completed",
   "intent" : "order",
   "priority" : "routine",
   "code" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-        "code" : "RABA",
-        "display" : "Reads Alignement Bioinformatic Analysis"
-      }
-    ]
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+      "code" : "GBVA",
+      "display" : "Germline Variant Analysis"
+    }]
   },
   "requester" : {
     "reference" : "Organization/OrganizationExample"
@@ -202,75 +192,63 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
   "owner" : {
     "reference" : "Organization/OrganizationExample"
   },
-  "input" : [
-    {
-      "type" : {
-        "text" : "Analysed sample"
-      },
-      "valueReference" : {
-        "reference" : "Specimen/SpecimenExample",
-        "display" : "Submitter Sample ID: SpecimenExample"
-      }
+  "input" : [{
+    "type" : {
+      "text" : "Analysed sample"
+    },
+    "valueReference" : {
+      "reference" : "Specimen/SpecimenExample",
+      "display" : "Submitter Sample ID: SpecimenExample"
     }
-  ],
-  "output" : [
-    {
-      "type" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "code" : "Aligned-reads",
-            "display" : "Aligned Reads"
-          }
-        ]
-      },
-      "valueReference" : {
-        "reference" : "DocumentReference/DocumentReferenceExample1"
-      }
+  }],
+  "output" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Aligned-reads",
+        "display" : "Aligned Reads"
+      }]
     },
-    {
-      "type" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "code" : "SNV",
-            "display" : "SNV"
-          }
-        ]
-      },
-      "valueReference" : {
-        "reference" : "DocumentReference/DocumentReferenceExample1"
-      }
-    },
-    {
-      "type" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "code" : "Germline-CNV",
-            "display" : "Germline CNV"
-          }
-        ]
-      },
-      "valueReference" : {
-        "reference" : "DocumentReference/DocumentReferenceExample2"
-      }
-    },
-    {
-      "type" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "code" : "Sequencing-data-supplement",
-            "display" : "Sequencing-data-supplement"
-          }
-        ]
-      },
-      "valueReference" : {
-        "reference" : "DocumentReference/DocumentReferenceExample2"
-      }
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample1"
     }
-  ]
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "SNV",
+        "display" : "SNV"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample1"
+    }
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Germline-CNV",
+        "display" : "Germline CNV"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample2"
+    }
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Sequencing-data-supplement",
+        "display" : "Sequencing-data-supplement"
+      }]
+    },
+    "valueReference" : {
+      "reference" : "DocumentReference/DocumentReferenceExample2"
+    }
+  }]
 }
 
 ```

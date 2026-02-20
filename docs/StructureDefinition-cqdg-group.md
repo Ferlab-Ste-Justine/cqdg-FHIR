@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-group | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGGroup |
+| Active as of 2026-02-20 | *Computable Name*:CQDGGroup |
 
  
 A CQDG group 
@@ -41,53 +41,45 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-group.csv), [Ex
   "name" : "CQDGGroup",
   "title" : "Ferlab.bio StructureDefinition/cqdg-group",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "A CQDG group",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    },
-    {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  }],
   "kind" : "resource",
   "abstract" : false,
   "type" : "Group",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Group",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Group",
-        "path" : "Group"
-      },
-      {
-        "id" : "Group.code.coding.system",
-        "path" : "Group.code.coding.system",
-        "binding" : {
-          "strength" : "required",
-          "valueSet" : "https://fhir.cqdg.ca/ValueSet/family-type-vs"
-        }
+    "element" : [{
+      "id" : "Group",
+      "path" : "Group"
+    },
+    {
+      "id" : "Group.code.coding.system",
+      "path" : "Group.code.coding.system",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://fhir.cqdg.ca/ValueSet/family-type-vs"
       }
-    ]
+    }]
   }
 }
 

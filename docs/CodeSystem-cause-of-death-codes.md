@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CauseOfDeathCodes |
+| Active as of 2026-02-20 | *Computable Name*:CauseOfDeathCodes |
 
  
 Codes for cause of death 
@@ -32,129 +32,107 @@ Codes for cause of death
   "title" : "Ferlab.bio CodeSystem/cause-of-death",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Codes for cause of death",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
-  "concept" : [
-    {
-      "code" : "Cancer",
-      "display" : "Cancer",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Cancer"
-          },
-          "value" : "Cancer"
-        }
-      ]
-    },
-    {
-      "code" : "Heart-disease",
-      "display" : "Heart disease",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Heart-disease"
-          },
-          "value" : "Heart disease"
-        }
-      ]
-    },
-    {
-      "code" : "Cerebrovascular-disease",
-      "display" : "Cerebrovascular disease",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Cerebrovascular-disease"
-          },
-          "value" : "Cerebrovascular disease"
-        }
-      ]
-    },
-    {
-      "code" : "Accidental-death",
-      "display" : "Accidental death",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Accidental-death"
-          },
-          "value" : "Accidental death"
-        }
-      ]
-    },
-    {
-      "code" : "Chronic-lower-respiratory-diseases",
-      "display" : "Chronic lower respiratory diseases",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Chronic-lower-respiratory-diseases"
-          },
-          "value" : "Chronic lower respiratory diseases"
-        }
-      ]
-    },
-    {
-      "code" : "Influenza-and-pneumonia",
-      "display" : "Influenza and pneumonia",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Influenza-and-pneumonia"
-          },
-          "value" : "Influenza and pneumonia"
-        }
-      ]
-    },
-    {
-      "code" : "Other-reasons",
-      "display" : "Other reasons",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Other-reasons"
-          },
-          "value" : "Other reasons"
-        }
-      ]
-    },
-    {
-      "code" : "Unknown",
-      "display" : "Unknown",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
-            "code" : "Unknown"
-          },
-          "value" : "Unknown"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "Cancer",
+    "display" : "Cancer",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Cancer"
+      },
+      "value" : "Cancer"
+    }]
+  },
+  {
+    "code" : "Heart-disease",
+    "display" : "Heart disease",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Heart-disease"
+      },
+      "value" : "Heart disease"
+    }]
+  },
+  {
+    "code" : "Cerebrovascular-disease",
+    "display" : "Cerebrovascular disease",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Cerebrovascular-disease"
+      },
+      "value" : "Cerebrovascular disease"
+    }]
+  },
+  {
+    "code" : "Accidental-death",
+    "display" : "Accidental death",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Accidental-death"
+      },
+      "value" : "Accidental death"
+    }]
+  },
+  {
+    "code" : "Chronic-lower-respiratory-diseases",
+    "display" : "Chronic lower respiratory diseases",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Chronic-lower-respiratory-diseases"
+      },
+      "value" : "Chronic lower respiratory diseases"
+    }]
+  },
+  {
+    "code" : "Influenza-and-pneumonia",
+    "display" : "Influenza and pneumonia",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Influenza-and-pneumonia"
+      },
+      "value" : "Influenza and pneumonia"
+    }]
+  },
+  {
+    "code" : "Other-reasons",
+    "display" : "Other reasons",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Other-reasons"
+      },
+      "value" : "Other reasons"
+    }]
+  },
+  {
+    "code" : "Unknown",
+    "display" : "Unknown",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Unknown"
+      },
+      "value" : "Unknown"
+    }]
+  }]
 }
 
 ```

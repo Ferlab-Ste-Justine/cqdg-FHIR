@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/vital-status-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:VitalStatusVS |
+| Active as of 2026-02-20 | *Computable Name*:VitalStatusVS |
 
  
 Vital Status ValueSet 
@@ -50,26 +50,20 @@ Vital Status ValueSet
   "name" : "VitalStatusVS",
   "title" : "Ferlab.bio ValueSet/vital-status",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Vital Status ValueSet",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/vital-status"
-      }
-    ]
+    "include" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/vital-status"
+    }]
   }
 }
 

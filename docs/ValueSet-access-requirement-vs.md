@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/access-requirement-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:AccessRequirementVS |
+| Active as of 2026-02-20 | *Computable Name*:AccessRequirementVS |
 
  
 Requirements before access 
@@ -50,26 +50,20 @@ Requirements before access
   "name" : "AccessRequirementVS",
   "title" : "Ferlab.bio ValueSet/access-requirement",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Requirements before access",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://purl.obolibrary.org/obo/duo.owl"
-      }
-    ]
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/duo.owl"
+    }]
   }
 }
 

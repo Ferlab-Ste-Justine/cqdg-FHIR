@@ -25,26 +25,20 @@ Tags: tag1 (Details: [not stated] code tag1), tag2 (Details: [not stated] code t
   "resourceType" : "Observation",
   "id" : "ObservationCauseOfDeathExample",
   "meta" : {
-    "profile" : [
-      "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"
-    ],
-    "tag" : [
-      {
-        "code" : "tag1"
-      },
-      {
-        "code" : "tag2"
-      }
-    ]
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath"],
+    "tag" : [{
+      "code" : "tag1"
+    },
+    {
+      "code" : "tag2"
+    }]
   },
   "status" : "registered",
   "code" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-        "code" : "Cause-of-Death"
-      }
-    ],
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+      "code" : "Cause-of-Death"
+    }],
     "text" : "Cause-of-Death observation"
   },
   "subject" : {

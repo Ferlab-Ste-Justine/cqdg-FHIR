@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/family-type | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:FamilyType |
+| Active as of 2026-02-20 | *Computable Name*:FamilyType |
 
  
 Family type 
@@ -32,57 +32,51 @@ Family type
   "title" : "Ferlab.bio CodeSystem/family-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Family type",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
-  "concept" : [
-    {
-      "code" : "Case only",
-      "display" : "Case only"
-    },
-    {
-      "code" : "Case-parent duo",
-      "display" : "Case-parent duo"
-    },
-    {
-      "code" : "Case-parent trio",
-      "display" : "Case-parent trio"
-    },
-    {
-      "code" : "Case-sibling",
-      "display" : "Case-sibling"
-    },
-    {
-      "code" : "Twins",
-      "display" : "Twins"
-    },
-    {
-      "code" : "Case - affected relative",
-      "display" : "Case - affected relative"
-    },
-    {
-      "code" : "Other",
-      "display" : "Other"
-    },
-    {
-      "code" : "Nuclear family",
-      "display" : "Nuclear family"
-    }
-  ]
+  "concept" : [{
+    "code" : "Case only",
+    "display" : "Case only"
+  },
+  {
+    "code" : "Case-parent duo",
+    "display" : "Case-parent duo"
+  },
+  {
+    "code" : "Case-parent trio",
+    "display" : "Case-parent trio"
+  },
+  {
+    "code" : "Case-sibling",
+    "display" : "Case-sibling"
+  },
+  {
+    "code" : "Twins",
+    "display" : "Twins"
+  },
+  {
+    "code" : "Case - affected relative",
+    "display" : "Case - affected relative"
+  },
+  {
+    "code" : "Other",
+    "display" : "Other"
+  },
+  {
+    "code" : "Nuclear family",
+    "display" : "Nuclear family"
+  }]
 }
 
 ```

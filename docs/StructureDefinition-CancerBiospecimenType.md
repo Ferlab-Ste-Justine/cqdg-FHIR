@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CancerBiospecimenType |
+| Active as of 2026-02-20 | *Computable Name*:CancerBiospecimenType |
 
 Extension for selected NCIT codes from NCI Thesaurus.
 
@@ -49,89 +49,75 @@ Other representations of profile: [CSV](StructureDefinition-CancerBiospecimenTyp
   "name" : "CancerBiospecimenType",
   "title" : "Ferlab.bio Extension/CancerBiospecimenType",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Extension for selected NCIT codes from NCI Thesaurus.",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [
-    {
-      "type" : "element",
-      "expression" : "Element"
-    }
-  ],
+  "context" : [{
+    "type" : "element",
+    "expression" : "Element"
+  }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Extension",
-        "path" : "Extension",
-        "short" : "Ferlab.bio Extension/CancerBiospecimenType",
-        "definition" : "Extension for selected NCIT codes from NCI Thesaurus."
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Ferlab.bio Extension/CancerBiospecimenType",
+      "definition" : "Extension for selected NCIT codes from NCI Thesaurus."
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
       },
-      {
-        "id" : "Extension.extension",
-        "path" : "Extension.extension",
-        "max" : "0"
-      },
-      {
-        "id" : "Extension.url",
-        "path" : "Extension.url",
-        "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType"
-      },
-      {
-        "id" : "Extension.value[x]",
-        "path" : "Extension.value[x]",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "type",
-              "path" : "$this"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1
-      },
-      {
-        "id" : "Extension.value[x]:valueCodeableConcept",
-        "path" : "Extension.value[x]",
-        "sliceName" : "valueCodeableConcept",
-        "min" : 1,
-        "max" : "1",
-        "type" : [
-          {
-            "code" : "CodeableConcept"
-          }
-        ],
-        "binding" : {
-          "strength" : "required",
-          "valueSet" : "https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs"
-        }
+      "min" : 1
+    },
+    {
+      "id" : "Extension.value[x]:valueCodeableConcept",
+      "path" : "Extension.value[x]",
+      "sliceName" : "valueCodeableConcept",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs"
       }
-    ]
+    }]
   }
 }
 

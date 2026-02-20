@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGDiagnosisVS |
+| Active as of 2026-02-20 | *Computable Name*:CQDGDiagnosisVS |
 
  
 Diagnosis ValueSet 
@@ -52,29 +52,23 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "CQDGDiagnosisVS",
   "title" : "Ferlab.bio ValueSet/diagnosis",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Diagnosis ValueSet",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://purl.obolibrary.org/obo/mondo.owl"
-      },
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/icd10-CA"
-      }
-    ]
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/mondo.owl"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/icd10-CA"
+    }]
   }
 }
 

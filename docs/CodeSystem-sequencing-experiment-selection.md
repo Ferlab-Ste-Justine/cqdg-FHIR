@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:SequencingExperimentSelection |
+| Active as of 2026-02-20 | *Computable Name*:SequencingExperimentSelection |
 
  
 Library selection method 
@@ -32,116 +32,96 @@ Library selection method
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Library selection method",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 7,
-  "concept" : [
-    {
-      "code" : "CHIP",
-      "display" : "ChIP",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "CHIP"
-          },
-          "value" : "ChIP"
-        }
-      ]
-    },
-    {
-      "code" : "RR",
-      "display" : "Reduced Representation",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "RR"
-          },
-          "value" : "Reduced Representation"
-        }
-      ]
-    },
-    {
-      "code" : "RANDOM",
-      "display" : "Random",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "RANDOM"
-          },
-          "value" : "Random"
-        }
-      ]
-    },
-    {
-      "code" : "PA",
-      "display" : "PolyA",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "PA"
-          },
-          "value" : "PolyA"
-        }
-      ]
-    },
-    {
-      "code" : "PCR",
-      "display" : "PCR",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "PCR"
-          },
-          "value" : "PCR"
-        }
-      ]
-    },
-    {
-      "code" : "ODT",
-      "display" : "Oligo-dT",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "ODT"
-          },
-          "value" : "Oligo-dT"
-        }
-      ]
-    },
-    {
-      "code" : "HS",
-      "display" : "Hybrid Selection",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "code" : "HS"
-          },
-          "value" : "Hybrid Selection"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "CHIP",
+    "display" : "ChIP",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CHIP"
+      },
+      "value" : "ChIP"
+    }]
+  },
+  {
+    "code" : "RR",
+    "display" : "Reduced Representation",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "RR"
+      },
+      "value" : "Reduced Representation"
+    }]
+  },
+  {
+    "code" : "RANDOM",
+    "display" : "Random",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "RANDOM"
+      },
+      "value" : "Random"
+    }]
+  },
+  {
+    "code" : "PA",
+    "display" : "PolyA",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "PA"
+      },
+      "value" : "PolyA"
+    }]
+  },
+  {
+    "code" : "PCR",
+    "display" : "PCR",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "PCR"
+      },
+      "value" : "PCR"
+    }]
+  },
+  {
+    "code" : "ODT",
+    "display" : "Oligo-dT",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "ODT"
+      },
+      "value" : "Oligo-dT"
+    }]
+  },
+  {
+    "code" : "HS",
+    "display" : "Hybrid Selection",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "HS"
+      },
+      "value" : "Hybrid Selection"
+    }]
+  }]
 }
 
 ```

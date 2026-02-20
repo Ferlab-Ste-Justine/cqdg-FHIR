@@ -40,105 +40,83 @@ Tag: CAG (Details: [not stated] code CAG)
   "id" : "SpecimenExample",
   "meta" : {
     "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen"],
-    "tag" : [
-      {
-        "code" : "CAG"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    }]
   },
-  "extension" : [
-    {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation",
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
-            "code" : "Tumor"
-          }
-        ]
-      }
-    },
-    {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://purl.obolibrary.org/obo/hp.owl",
-            "code" : "HP:0030674"
-          }
-        ]
-      }
-    },
-    {
-      "extension" : [
-        {
-          "url" : "ncitCode",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-                "code" : "C12434"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "sourceText",
-          "valueString" : "Left lung lobe"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "ncitCode",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-                "code" : "C12455"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "sourceText",
-          "valueString" : "Something carcinoma"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType"
-    },
-    {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType",
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-            "code" : "C156445"
-          }
-        ]
-      }
+  "extension" : [{
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorNormalDesignation",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation",
+        "code" : "Tumor"
+      }]
     }
-  ],
-  "identifier" : [
-    {
-      "system" : "https://fhir.cqdg.ca/fhir/Specimen",
-      "value" : "SpecimenExample"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://purl.obolibrary.org/obo/hp.owl",
+        "code" : "HP:0030674"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "ncitCode",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
+          "code" : "C12434"
+        }]
+      }
     },
     {
-      "use" : "secondary",
-      "value" : "cag_sp_25565"
-    }
-  ],
-  "type" : {
-    "coding" : [
-      {
+      "url" : "sourceText",
+      "valueString" : "Left lung lobe"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation"
+  },
+  {
+    "extension" : [{
+      "url" : "ncitCode",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://purl.obolibrary.org/obo/ncit.owl",
+          "code" : "C12455"
+        }]
+      }
+    },
+    {
+      "url" : "sourceText",
+      "valueString" : "Something carcinoma"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/TumorHistologicalType"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType",
+    "valueCodeableConcept" : {
+      "coding" : [{
         "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-        "code" : "C12434",
-        "display" : "DNA"
-      }
-    ]
+        "code" : "C156445"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "system" : "https://fhir.cqdg.ca/fhir/Specimen",
+    "value" : "SpecimenExample"
+  },
+  {
+    "use" : "secondary",
+    "value" : "cag_sp_25565"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "http://purl.obolibrary.org/obo/ncit.owl",
+      "code" : "C12434",
+      "display" : "DNA"
+    }]
   },
   "subject" : {
     "reference" : "Patient/PatientExample"

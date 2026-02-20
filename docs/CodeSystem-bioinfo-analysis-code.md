@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:BioinfoAnalysisCode |
+| Active as of 2026-02-20 | *Computable Name*:BioinfoAnalysisCode |
 
  
 Bioinformatics analysis code 
@@ -32,90 +32,52 @@ Bioinformatics analysis code
   "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Bioinformatics analysis code",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 5,
-  "concept" : [
-    {
-      "code" : "RABA",
-      "display" : "Reads Alignement Bioinformatic Analysis",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-            "code" : "RABA"
-          },
-          "value" : "Reads Alignement Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code" : "SNVC",
-      "display" : "SNV Calling Bioinformatic Analysis",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-            "code" : "SNVC"
-          },
-          "value" : "Reads Alignement Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code" : "QCBA",
-      "display" : "Quality Control Bioinformatic Analysis",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-            "code" : "QCBA"
-          },
-          "value" : "Quality Control Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code" : "GEBA",
-      "display" : "Germline Exome Bioinformatic Analysis",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-            "code" : "GEBA"
-          },
-          "value" : "Germline Exome Bioinformatic Analysis"
-        }
-      ]
-    },
-    {
-      "code" : "GGBA",
-      "display" : "Germline Genome Bioinformatic Analysis",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-            "code" : "GGBA"
-          },
-          "value" : "Germline Genome Bioinformatic Analysis"
-        }
-      ]
-    }
-  ]
+  "count" : 3,
+  "concept" : [{
+    "code" : "GBVA",
+    "display" : "Germline Variant Analysis",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "code" : "GBVA"
+      },
+      "value" : "Germline Variant Analysis"
+    }]
+  },
+  {
+    "code" : "GBVF",
+    "display" : "Germline Variant Analysis with Family Joint Genotyping",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "code" : "GBVF"
+      },
+      "value" : "Germline Variant Analysis with Family Joint Genotyping"
+    }]
+  },
+  {
+    "code" : "SBVA",
+    "display" : "Somatic Variant Analysis",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
+        "code" : "SBVA"
+      },
+      "value" : "Somatic Variant Analysis"
+    }]
+  }]
 }
 
 ```

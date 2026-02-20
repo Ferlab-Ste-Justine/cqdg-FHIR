@@ -2,8 +2,8 @@ CQDG_FHIR_IG : Validation Results
 =========================================
 
 err = 67, warn = 143, info = 19
-IG Publisher Version: 2.0.30
-Generated Thu Jan 22 16:38:00 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+IG Publisher Version: 2.1.1
+Generated Fri Feb 20 16:33:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -447,13 +447,13 @@ WARNING: ValueSet/cause-of-death-vs: ValueSet: Published value sets SHOULD confo
 == fsh-generated/resources/ValueSet-cqdg-diagnosis-vs.json ==
 ERROR: ValueSet/cqdg-diagnosis-vs: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/icd10-CA'
 WARNING: ValueSet/cqdg-diagnosis-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the value set cannot be expanded
+ERROR: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs.json ==
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
+ERROR: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs.json ==
 WARNING: ValueSet/cqdg-tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
@@ -478,7 +478,7 @@ WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
+ERROR: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==
 WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'phenotype-vs'): The value set expansion is too large, and only a subset has been displayed

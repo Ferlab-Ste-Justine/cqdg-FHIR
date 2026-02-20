@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/population | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:Population |
+| Active as of 2026-02-20 | *Computable Name*:Population |
 
  
 Population 
@@ -32,41 +32,35 @@ Population
   "title" : "Ferlab.bio CodeSystem/population",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Population",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 4,
-  "concept" : [
-    {
-      "code" : "Fetal",
-      "display" : "Fetal"
-    },
-    {
-      "code" : "Pediatric",
-      "display" : "Pediatric"
-    },
-    {
-      "code" : "Adult",
-      "display" : "Adult"
-    },
-    {
-      "code" : "Pediatric and Adult",
-      "display" : "Pediatric and Adult"
-    }
-  ]
+  "concept" : [{
+    "code" : "Fetal",
+    "display" : "Fetal"
+  },
+  {
+    "code" : "Pediatric",
+    "display" : "Pediatric"
+  },
+  {
+    "code" : "Adult",
+    "display" : "Adult"
+  },
+  {
+    "code" : "Pediatric and Adult",
+    "display" : "Pediatric and Adult"
+  }]
 }
 
 ```

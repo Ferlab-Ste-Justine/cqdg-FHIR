@@ -44,167 +44,135 @@ Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: seconda
   "id" : "PatientExample",
   "meta" : {
     "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"],
-    "tag" : [
-      {
-        "code" : "CAG"
-      },
-      {
-        "code" : "tag2"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    },
+    {
+      "code" : "tag2"
+    }]
   },
-  "extension" : [
-    {
-      "extension" : [
-        {
-          "url" : "gender",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/gender",
-                "code" : "Man",
-                "display" : "Man"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "genderCollectionMethod",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
-                "code" : "Self-identified",
-                "display" : "Self-identified"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "genderAnotherCategory",
-          "valueString" : "Non-binary, self-described"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/Gender"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "sexAtBirth",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
-                "code" : "Male",
-                "display" : "Male"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "sexAtBirthCollectionMethod",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
-                "code" : "Missing - Not provided",
-                "display" : "Missing - Not provided"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "sexAtBirthAnotherCategory",
-          "valueString" : "Fluff sex"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "race",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/race",
-                "code" : "Black",
-                "display" : "Black"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "raceCollectionMethod",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
-                "code" : "Socially assigned",
-                "display" : "Socially assigned"
-              }
-            ]
-          }
-        },
-        {
-          "url" : "raceAnotherCategory",
-          "valueString" : "Fluff"
-        }
-      ],
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/Race"
-    },
-    {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/VitalStatus",
+  "extension" : [{
+    "extension" : [{
+      "url" : "gender",
       "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
-            "code" : "Deceased",
-            "display" : "Deceased"
-          }
-        ]
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/gender",
+          "code" : "Man",
+          "display" : "Man"
+        }]
       }
     },
     {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
+      "url" : "genderCollectionMethod",
       "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://purl.obolibrary.org/obo/hp.owl",
-            "code" : "HP:0011463"
-          }
-        ]
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/gender-collection-method",
+          "code" : "Self-identified",
+          "display" : "Self-identified"
+        }]
       }
     },
     {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+      "url" : "genderAnotherCategory",
+      "valueString" : "Non-binary, self-described"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/Gender"
+  },
+  {
+    "extension" : [{
+      "url" : "sexAtBirth",
       "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://purl.obolibrary.org/obo/hp.owl",
-            "code" : "HP:0003584"
-          }
-        ]
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth",
+          "code" : "Male",
+          "display" : "Male"
+        }]
       }
     },
     {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
+      "url" : "sexAtBirthCollectionMethod",
       "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
-            "code" : "Arab"
-          }
-        ]
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method",
+          "code" : "Missing - Not provided",
+          "display" : "Missing - Not provided"
+        }]
       }
+    },
+    {
+      "url" : "sexAtBirthAnotherCategory",
+      "valueString" : "Fluff sex"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth"
+  },
+  {
+    "extension" : [{
+      "url" : "race",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/race",
+          "code" : "Black",
+          "display" : "Black"
+        }]
+      }
+    },
+    {
+      "url" : "raceCollectionMethod",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://fhir.cqdg.ca/CodeSystem/race-collection-method",
+          "code" : "Socially assigned",
+          "display" : "Socially assigned"
+        }]
+      }
+    },
+    {
+      "url" : "raceAnotherCategory",
+      "valueString" : "Fluff"
+    }],
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/Race"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/VitalStatus",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/vital-status",
+        "code" : "Deceased",
+        "display" : "Deceased"
+      }]
     }
-  ],
-  "identifier" : [
-    {
-      "use" : "secondary",
-      "value" : "343434343434"
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://purl.obolibrary.org/obo/hp.owl",
+        "code" : "HP:0011463"
+      }]
     }
-  ],
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://purl.obolibrary.org/obo/hp.owl",
+        "code" : "HP:0003584"
+      }]
+    }
+  },
+  {
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
+        "code" : "Arab"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "use" : "secondary",
+    "value" : "343434343434"
+  }],
   "deceasedBoolean" : true
 }
 

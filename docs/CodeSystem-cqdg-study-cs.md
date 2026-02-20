@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGStudyCS |
+| Active as of 2026-02-20 | *Computable Name*:CQDGStudyCS |
 
  
 CQDG study code system 
@@ -32,66 +32,54 @@ CQDG study code system
   "title" : "Ferlab.bio CodeSystem/cqdg-study",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "CQDG study code system",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 3,
-  "concept" : [
-    {
-      "code" : "Cartagène",
-      "display" : "CARTaGENE",
-      "definition" : "CARTaGENE study",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-            "code" : "Cartagène"
-          },
-          "value" : "Étude CARTaGENE"
-        }
-      ]
-    },
-    {
-      "code" : "Developmental-and-Epileptic-Encephalopathies",
-      "display" : "Developmental and Epileptic Encephalopathies",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-            "code" : "Developmental-and-Epileptic-Encephalopathies"
-          },
-          "value" : "Étude CARTaGENE"
-        }
-      ]
-    },
-    {
-      "code" : "Other",
-      "display" : "Other",
-      "definition" : "Another study",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
-            "code" : "Other"
-          },
-          "value" : "Autre étude"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "Cartagène",
+    "display" : "CARTaGENE",
+    "definition" : "CARTaGENE study",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+        "code" : "Cartagène"
+      },
+      "value" : "Étude CARTaGENE"
+    }]
+  },
+  {
+    "code" : "Developmental-and-Epileptic-Encephalopathies",
+    "display" : "Developmental and Epileptic Encephalopathies",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+        "code" : "Developmental-and-Epileptic-Encephalopathies"
+      },
+      "value" : "Étude CARTaGENE"
+    }]
+  },
+  {
+    "code" : "Other",
+    "display" : "Other",
+    "definition" : "Another study",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs",
+        "code" : "Other"
+      },
+      "value" : "Autre étude"
+    }]
+  }]
 }
 
 ```

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGObservationCode |
+| Active as of 2026-02-20 | *Computable Name*:CQDGObservationCode |
 
  
 CQDG Observation codes 
@@ -32,90 +32,74 @@ CQDG Observation codes
   "title" : "Ferlab.bio CodeSystem/cqdg-observation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "CQDG Observation codes",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 5,
-  "concept" : [
-    {
-      "code" : "Family-relationship",
-      "display" : "Family Relationship",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-            "code" : "Family-relationship"
-          },
-          "value" : "Social history observation"
-        }
-      ]
-    },
-    {
-      "code" : "Tumor-normal-designation",
-      "display" : "Tumor Normal Designation",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-            "code" : "Tumor-normal-designation"
-          },
-          "value" : "Histological Diagnosis"
-        }
-      ]
-    },
-    {
-      "code" : "Disease-Status",
-      "display" : "Disease Status",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-            "code" : "Disease-Status"
-          },
-          "value" : "Disease Status observation"
-        }
-      ]
-    },
-    {
-      "code" : "Phenotype",
-      "display" : "Phenotype",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-            "code" : "Phenotype"
-          },
-          "value" : "Phenotype observation"
-        }
-      ]
-    },
-    {
-      "code" : "Cause-of-Death",
-      "display" : "Cause of Death",
-      "designation" : [
-        {
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-            "code" : "Cause-of-Death"
-          },
-          "value" : "Cause of death"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "Family-relationship",
+    "display" : "Family Relationship",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code" : "Family-relationship"
+      },
+      "value" : "Social history observation"
+    }]
+  },
+  {
+    "code" : "Tumor-normal-designation",
+    "display" : "Tumor Normal Designation",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code" : "Tumor-normal-designation"
+      },
+      "value" : "Histological Diagnosis"
+    }]
+  },
+  {
+    "code" : "Disease-Status",
+    "display" : "Disease Status",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code" : "Disease-Status"
+      },
+      "value" : "Disease Status observation"
+    }]
+  },
+  {
+    "code" : "Phenotype",
+    "display" : "Phenotype",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code" : "Phenotype"
+      },
+      "value" : "Phenotype observation"
+    }]
+  },
+  {
+    "code" : "Cause-of-Death",
+    "display" : "Cause of Death",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+        "code" : "Cause-of-Death"
+      },
+      "value" : "Cause of death"
+    }]
+  }]
 }
 
 ```

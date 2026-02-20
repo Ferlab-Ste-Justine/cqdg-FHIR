@@ -45,74 +45,56 @@ Tags: CAG (Details: [not stated] code CAG), dataset: ds_name 1 (Details: Ferlab.
   "resourceType" : "DocumentReference",
   "id" : "DocumentReferenceExample1",
   "meta" : {
-    "tag" : [
-      {
-        "code" : "CAG"
-      },
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs",
-        "code" : "dataset: ds_name 1"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    },
+    {
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs",
+      "code" : "dataset: ds_name 1"
+    }]
   },
   "status" : "current",
   "type" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Sequencing-data-supplement",
-        "display" : "Sequencing Data Supplement"
-      }
-    ]
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+      "code" : "Sequencing-data-supplement",
+      "display" : "Sequencing Data Supplement"
+    }]
   },
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-          "code" : "genomics",
-          "display" : "Genomics"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+      "code" : "genomics",
+      "display" : "Genomics"
+    }]
+  }],
   "subject" : {
     "reference" : "Patient/PatientExample"
   },
-  "securityLabel" : [
-    {
-      "coding" : [
-        {
-          "display" : "test"
-        }
-      ]
+  "securityLabel" : [{
+    "coding" : [{
+      "display" : "test"
+    }]
+  }],
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
+      }],
+      "contentType" : "application/octet-stream",
+      "url" : "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
+    },
+    "format" : {
+      "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+      "code" : "TGZ",
+      "display" : "TGZ Archive File"
     }
-  ],
-  "content" : [
-    {
-      "attachment" : {
-        "extension" : [
-          {
-            "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
-          }
-        ],
-        "contentType" : "application/octet-stream",
-        "url" : "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
-      },
-      "format" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-        "code" : "TGZ",
-        "display" : "TGZ Archive File"
-      }
-    }
-  ],
+  }],
   "context" : {
-    "related" : [
-      {
-        "reference" : "Specimen/SpecimenExample",
-        "display" : "Submitter Sample ID: SpecimenExample"
-      }
-    ]
+    "related" : [{
+      "reference" : "Specimen/SpecimenExample",
+      "display" : "Submitter Sample ID: SpecimenExample"
+    }]
   }
 }
 

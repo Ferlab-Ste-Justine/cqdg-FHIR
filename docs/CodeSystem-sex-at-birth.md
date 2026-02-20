@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sex-at-birth | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:SexAtBirthCodeSystem |
+| Active as of 2026-02-20 | *Computable Name*:SexAtBirthCodeSystem |
 
  
 This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets. 
@@ -32,57 +32,51 @@ This code system defines standardized categories for documenting a participant's
   "title" : "Ferlab.bio CodeSystem/sex-at-birth",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets.",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
-  "concept" : [
-    {
-      "code" : "Male",
-      "display" : "Male"
-    },
-    {
-      "code" : "Missing - Restricted access",
-      "display" : "Missing - Restricted Access"
-    },
-    {
-      "code" : "Missing - Not provided",
-      "display" : "Missing - Not Provided"
-    },
-    {
-      "code" : "Missing - Not collected",
-      "display" : "Missing - Not Collected"
-    },
-    {
-      "code" : "Missing - Unknown",
-      "display" : "Missing - Unknown"
-    },
-    {
-      "code" : "Another Sex",
-      "display" : "Another Sex"
-    },
-    {
-      "code" : "Intersex",
-      "display" : "Intersex"
-    },
-    {
-      "code" : "Female",
-      "display" : "Female"
-    }
-  ]
+  "concept" : [{
+    "code" : "Male",
+    "display" : "Male"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted Access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not Provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not Collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Another Sex",
+    "display" : "Another Sex"
+  },
+  {
+    "code" : "Intersex",
+    "display" : "Intersex"
+  },
+  {
+    "code" : "Female",
+    "display" : "Female"
+  }]
 }
 
 ```

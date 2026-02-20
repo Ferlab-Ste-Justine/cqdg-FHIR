@@ -45,71 +45,53 @@ Tag: CAG (Details: [not stated] code CAG)
   "resourceType" : "DocumentReference",
   "id" : "DocumentReferenceExample2",
   "meta" : {
-    "tag" : [
-      {
-        "code" : "CAG"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    }]
   },
   "status" : "current",
   "type" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Aligned-reads",
-        "display" : "Aligned Reads"
-      }
-    ]
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+      "code" : "Aligned-reads",
+      "display" : "Aligned Reads"
+    }]
   },
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-          "code" : "genomics",
-          "display" : "Genomics"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+      "code" : "genomics",
+      "display" : "Genomics"
+    }]
+  }],
   "subject" : {
     "reference" : "Patient/PatientExample"
   },
-  "securityLabel" : [
-    {
-      "coding" : [
-        {
-          "display" : "test"
-        }
-      ]
+  "securityLabel" : [{
+    "coding" : [{
+      "display" : "test"
+    }]
+  }],
+  "content" : [{
+    "attachment" : {
+      "extension" : [{
+        "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
+        "valueDecimal" : 22799222
+      }],
+      "contentType" : "application/octet-stream",
+      "url" : "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
+    },
+    "format" : {
+      "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
+      "code" : "TGZ",
+      "display" : "TGZ Archive File"
     }
-  ],
-  "content" : [
-    {
-      "attachment" : {
-        "extension" : [
-          {
-            "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
-            "valueDecimal" : 22799222
-          }
-        ],
-        "contentType" : "application/octet-stream",
-        "url" : "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
-      },
-      "format" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/document-format",
-        "code" : "TGZ",
-        "display" : "TGZ Archive File"
-      }
-    }
-  ],
+  }],
   "context" : {
-    "related" : [
-      {
-        "reference" : "Specimen/SpecimenExample",
-        "display" : "Submitter Sample ID: SpecimenExample"
-      }
-    ]
+    "related" : [{
+      "reference" : "Specimen/SpecimenExample",
+      "display" : "Submitter Sample ID: SpecimenExample"
+    }]
   }
 }
 

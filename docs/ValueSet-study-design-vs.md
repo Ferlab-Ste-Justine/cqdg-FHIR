@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/study-design-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:StudyDesignVS |
+| Active as of 2026-02-20 | *Computable Name*:StudyDesignVS |
 
  
 Study Design ValueSet 
@@ -51,26 +51,20 @@ Study Design ValueSet
   "name" : "StudyDesignVS",
   "title" : "Ferlab.bio ValueSet/study-design",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Study Design ValueSet",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design"
-      }
-    ]
+    "include" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/study-design"
+    }]
   }
 }
 

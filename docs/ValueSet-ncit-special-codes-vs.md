@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CancerBiospecimenTypeVS |
+| Active as of 2026-02-20 | *Computable Name*:CancerBiospecimenTypeVS |
 
  
 ValueSet for selected NCIT codes from NCI Thesaurus. 
@@ -52,56 +52,48 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "CancerBiospecimenTypeVS",
   "title" : "NCIT Special Codes ValueSet",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "ValueSet for selected NCIT codes from NCI Thesaurus.",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/ncit.owl",
+      "concept" : [{
+        "code" : "NCIT:C156445",
+        "display" : "Derived Cell Line"
+      },
       {
-        "system" : "http://purl.obolibrary.org/obo/ncit.owl",
-        "concept" : [
-          {
-            "code" : "NCIT:C156445",
-            "display" : "Derived Cell Line"
-          },
-          {
-            "code" : "NCIT:156440",
-            "display" : "Metastatic Tumor Sample"
-          },
-          {
-            "code" : "NCIT:156441",
-            "display" : "Sample Derived from New Primary"
-          },
-          {
-            "code" : "NCIT:164032",
-            "display" : "Tumor-Adjacent Normal Specimen"
-          },
-          {
-            "code" : "NCIT:C18009",
-            "display" : "Tumor Tissue"
-          },
-          {
-            "code" : "NCIT:C162623",
-            "display" : "Normal Tissue Segment"
-          },
-          {
-            "code" : "NCIT:C156443",
-            "display" : "Cell Line-Derived Xenograft"
-          }
-        ]
-      }
-    ]
+        "code" : "NCIT:156440",
+        "display" : "Metastatic Tumor Sample"
+      },
+      {
+        "code" : "NCIT:156441",
+        "display" : "Sample Derived from New Primary"
+      },
+      {
+        "code" : "NCIT:164032",
+        "display" : "Tumor-Adjacent Normal Specimen"
+      },
+      {
+        "code" : "NCIT:C18009",
+        "display" : "Tumor Tissue"
+      },
+      {
+        "code" : "NCIT:C162623",
+        "display" : "Normal Tissue Segment"
+      },
+      {
+        "code" : "NCIT:C156443",
+        "display" : "Cell Line-Derived Xenograft"
+      }]
+    }]
   }
 }
 

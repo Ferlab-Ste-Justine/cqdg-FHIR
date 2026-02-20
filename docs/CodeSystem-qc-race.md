@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/race | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:RaceCodeSystem |
+| Active as of 2026-02-20 | *Computable Name*:RaceCodeSystem |
 
  
 This code system defines standardized categories for documenting a participant's race within clinical and research datasets. 
@@ -32,85 +32,79 @@ This code system defines standardized categories for documenting a participant's
   "title" : "Ferlab.bio CodeSystem/race",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "This code system defines standardized categories for documenting a participant's race within clinical and research datasets.",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 15,
-  "concept" : [
-    {
-      "code" : "Black",
-      "display" : "Black"
-    },
-    {
-      "code" : "Missing - Restricted access",
-      "display" : "Missing - Restricted Access"
-    },
-    {
-      "code" : "Missing - Not provided",
-      "display" : "Missing - Not Provided"
-    },
-    {
-      "code" : "Missing - Not collected",
-      "display" : "Missing - Not Collected"
-    },
-    {
-      "code" : "Missing - Unknown",
-      "display" : "Missing - Unknown"
-    },
-    {
-      "code" : "Prefer not to answer",
-      "display" : "Prefer not to Answer"
-    },
-    {
-      "code" : "Do not know",
-      "display" : "Do not know"
-    },
-    {
-      "code" : "Another Racial Category",
-      "display" : "Another Racial Category"
-    },
-    {
-      "code" : "White",
-      "display" : "White"
-    },
-    {
-      "code" : "Southeast Asian",
-      "display" : "Southeast Asian"
-    },
-    {
-      "code" : "South Asian",
-      "display" : "South Asian"
-    },
-    {
-      "code" : "Middle Eastern or North African",
-      "display" : "Middle Eastern or North African"
-    },
-    {
-      "code" : "Latin American",
-      "display" : "Latin American"
-    },
-    {
-      "code" : "Indigenous (First Nations, Inuk/Inuit, Métis)",
-      "display" : "Indigenous (First Nations, Inuk/Inuit, Métis)"
-    },
-    {
-      "code" : "East Asian",
-      "display" : "East Asian"
-    }
-  ]
+  "concept" : [{
+    "code" : "Black",
+    "display" : "Black"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted Access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not Provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not Collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Prefer not to answer",
+    "display" : "Prefer not to Answer"
+  },
+  {
+    "code" : "Do not know",
+    "display" : "Do not know"
+  },
+  {
+    "code" : "Another Racial Category",
+    "display" : "Another Racial Category"
+  },
+  {
+    "code" : "White",
+    "display" : "White"
+  },
+  {
+    "code" : "Southeast Asian",
+    "display" : "Southeast Asian"
+  },
+  {
+    "code" : "South Asian",
+    "display" : "South Asian"
+  },
+  {
+    "code" : "Middle Eastern or North African",
+    "display" : "Middle Eastern or North African"
+  },
+  {
+    "code" : "Latin American",
+    "display" : "Latin American"
+  },
+  {
+    "code" : "Indigenous (First Nations, Inuk/Inuit, Métis)",
+    "display" : "Indigenous (First Nations, Inuk/Inuit, Métis)"
+  },
+  {
+    "code" : "East Asian",
+    "display" : "East Asian"
+  }]
 }
 
 ```

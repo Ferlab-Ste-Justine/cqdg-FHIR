@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGSpecimenTissueSourceMissingCodes |
+| Active as of 2026-02-20 | *Computable Name*:CQDGSpecimenTissueSourceMissingCodes |
 
  
 Codes for missing specimen data 
@@ -31,40 +31,34 @@ Codes for missing specimen data
   "name" : "CQDGSpecimenTissueSourceMissingCodes",
   "title" : "CQDG Specimen Missing Codes",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Codes for missing specimen data",
   "content" : "complete",
   "count" : 4,
-  "concept" : [
-    {
-      "code" : "Missing - Restricted access",
-      "display" : "Missing - Restricted Access"
-    },
-    {
-      "code" : "Missing - Not provided",
-      "display" : "Missing - Not Provided"
-    },
-    {
-      "code" : "Missing - Not collected",
-      "display" : "Missing - Not Collected"
-    },
-    {
-      "code" : "Missing - Unknown",
-      "display" : "Missing - Unknown"
-    }
-  ]
+  "concept" : [{
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted Access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not Provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not Collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  }]
 }
 
 ```

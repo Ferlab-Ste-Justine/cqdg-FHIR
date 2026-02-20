@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/data-category | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:DataCategory |
+| Active as of 2026-02-20 | *Computable Name*:DataCategory |
 
  
 Data category 
@@ -32,123 +32,103 @@ Data category
   "title" : "Ferlab.bio CodeSystem/data-category",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Data category",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 7,
-  "concept" : [
-    {
-      "code" : "genomics",
-      "display" : "Genomics",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "genomics"
-          },
-          "value" : "Génomique"
-        }
-      ]
-    },
-    {
-      "code" : "imaging",
-      "display" : "Imaging",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "imaging"
-          },
-          "value" : "Imagerie"
-        }
-      ]
-    },
-    {
-      "code" : "clinical",
-      "display" : "Clinical",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "clinical"
-          },
-          "value" : "Clinique"
-        }
-      ]
-    },
-    {
-      "code" : "transcriptomics",
-      "display" : "Transcriptomics",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "transcriptomics"
-          },
-          "value" : "Transcriptomique"
-        }
-      ]
-    },
-    {
-      "code" : "proteomics",
-      "display" : "Proteomics",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "proteomics"
-          },
-          "value" : "Protéomique"
-        }
-      ]
-    },
-    {
-      "code" : "metabolomics",
-      "display" : "Metabolomics",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "metabolomics"
-          },
-          "value" : "Métabolomique"
-        }
-      ]
-    },
-    {
-      "code" : "other",
-      "display" : "Other",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
-            "code" : "other"
-          },
-          "value" : "Autre"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "genomics",
+    "display" : "Genomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "genomics"
+      },
+      "value" : "Génomique"
+    }]
+  },
+  {
+    "code" : "imaging",
+    "display" : "Imaging",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "imaging"
+      },
+      "value" : "Imagerie"
+    }]
+  },
+  {
+    "code" : "clinical",
+    "display" : "Clinical",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "clinical"
+      },
+      "value" : "Clinique"
+    }]
+  },
+  {
+    "code" : "transcriptomics",
+    "display" : "Transcriptomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "transcriptomics"
+      },
+      "value" : "Transcriptomique"
+    }]
+  },
+  {
+    "code" : "proteomics",
+    "display" : "Proteomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "proteomics"
+      },
+      "value" : "Protéomique"
+    }]
+  },
+  {
+    "code" : "metabolomics",
+    "display" : "Metabolomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "metabolomics"
+      },
+      "value" : "Métabolomique"
+    }]
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "other"
+      },
+      "value" : "Autre"
+    }]
+  }]
 }
 
 ```

@@ -35,60 +35,46 @@ Tag: CAG (Details: [not stated] code CAG)
   "id" : "ConditionExample",
   "meta" : {
     "profile" : ["https://fhir.cqdg.ca/StructureDefinition/cqdg-condition"],
-    "tag" : [
-      {
-        "code" : "CAG"
-      }
-    ]
+    "tag" : [{
+      "code" : "CAG"
+    }]
   },
-  "extension" : [
-    {
-      "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://purl.obolibrary.org/obo/hp.owl",
-            "code" : "HP:0030674"
-          }
-        ]
-      }
+  "extension" : [{
+    "url" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://purl.obolibrary.org/obo/hp.owl",
+        "code" : "HP:0030674"
+      }]
     }
-  ],
-  "identifier" : [
-    {
-      "system" : "https://fhir.cqdg.ca/fhir/Condition",
-      "value" : "ConditionExample"
-    }
-  ],
+  }],
+  "identifier" : [{
+    "system" : "https://fhir.cqdg.ca/fhir/Condition",
+    "value" : "ConditionExample"
+  }],
   "code" : {
-    "coding" : [
-      {
-        "code" : "L40"
-      },
-      {
-        "system" : "http://purl.obolibrary.org/obo/mondo.owl",
-        "code" : "1231245",
-        "display" : "fatigue"
-      }
-    ],
+    "coding" : [{
+      "code" : "L40"
+    },
+    {
+      "system" : "http://purl.obolibrary.org/obo/mondo.owl",
+      "code" : "1231245",
+      "display" : "fatigue"
+    }],
     "text" : "fatigue"
   },
   "subject" : {
     "reference" : "Patient/PatientExample"
   },
-  "stage" : [
-    {
-      "summary" : {
-        "coding" : [
-          {
-            "system" : "http://snomed.info/sct",
-            "code" : "254293002",
-            "display" : "TNM tumor staging system"
-          }
-        ]
-      }
+  "stage" : [{
+    "summary" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "254293002",
+        "display" : "TNM tumor staging system"
+      }]
     }
-  ]
+  }]
 }
 
 ```

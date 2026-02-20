@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment | *Version*:0.1.0 |
-| Draft as of 2026-01-22 | *Computable Name*:AgeAtRecruitment |
+| Draft as of 2026-02-20 | *Computable Name*:AgeAtRecruitment |
 
 Patient's age (in days since birth) at the time of recruitment
 
@@ -47,69 +47,57 @@ Other representations of profile: [CSV](StructureDefinition-AgeAtRecruitment.csv
   "name" : "AgeAtRecruitment",
   "title" : "Ferlab.bio Extension/age-at-recruitment",
   "status" : "draft",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Patient's age (in days since birth) at the time of recruitment",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [
-    {
-      "type" : "element",
-      "expression" : "Patient"
-    }
-  ],
+  "context" : [{
+    "type" : "element",
+    "expression" : "Patient"
+  }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Extension",
-        "path" : "Extension",
-        "short" : "Age at recruitment",
-        "definition" : "Age at the time of medical consultation",
-        "max" : "1",
-        "mustSupport" : true
-      },
-      {
-        "id" : "Extension.extension",
-        "path" : "Extension.extension",
-        "max" : "0"
-      },
-      {
-        "id" : "Extension.url",
-        "path" : "Extension.url",
-        "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"
-      },
-      {
-        "id" : "Extension.value[x]",
-        "path" : "Extension.value[x]",
-        "type" : [
-          {
-            "code" : "CodeableConcept"
-          }
-        ]
-      }
-    ]
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Age at recruitment",
+      "definition" : "Age at the time of medical consultation",
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    }]
   }
 }
 

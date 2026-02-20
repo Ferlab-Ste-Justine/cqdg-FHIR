@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/study-design | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:StudyDesign |
+| Active as of 2026-02-20 | *Computable Name*:StudyDesign |
 
  
 Data category 
@@ -32,137 +32,115 @@ Data category
   "title" : "Ferlab.bio CodeSystem/study-design",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Data category",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
-  "concept" : [
-    {
-      "code" : "case_only",
-      "display" : "Case only",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "case_only"
-          },
-          "value" : "Cas unique"
-        }
-      ]
-    },
-    {
-      "code" : "case_control",
-      "display" : "Case-control",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "case_control"
-          },
-          "value" : "Cas-témoins"
-        }
-      ]
-    },
-    {
-      "code" : "retrospective",
-      "display" : "Retrospective",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "retrospective"
-          },
-          "value" : "Rétrospectif"
-        }
-      ]
-    },
-    {
-      "code" : "registry",
-      "display" : "Registry",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "registry"
-          },
-          "value" : "Registre"
-        }
-      ]
-    },
-    {
-      "code" : "prospective",
-      "display" : "Prospective",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "prospective"
-          },
-          "value" : "Prospectif"
-        }
-      ]
-    },
-    {
-      "code" : "interventional",
-      "display" : "Interventional",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "interventional"
-          },
-          "value" : "Interventionnel"
-        }
-      ]
-    },
-    {
-      "code" : "cross_sectional",
-      "display" : "Cross-sectional",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "cross_sectional"
-          },
-          "value" : "Transversal"
-        }
-      ]
-    },
-    {
-      "code" : "cohort",
-      "display" : "Cohort",
-      "designation" : [
-        {
-          "language" : "fr",
-          "use" : {
-            "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
-            "code" : "cohort"
-          },
-          "value" : "Cohorte"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "case_only",
+    "display" : "Case only",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "case_only"
+      },
+      "value" : "Cas unique"
+    }]
+  },
+  {
+    "code" : "case_control",
+    "display" : "Case-control",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "case_control"
+      },
+      "value" : "Cas-témoins"
+    }]
+  },
+  {
+    "code" : "retrospective",
+    "display" : "Retrospective",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "retrospective"
+      },
+      "value" : "Rétrospectif"
+    }]
+  },
+  {
+    "code" : "registry",
+    "display" : "Registry",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "registry"
+      },
+      "value" : "Registre"
+    }]
+  },
+  {
+    "code" : "prospective",
+    "display" : "Prospective",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "prospective"
+      },
+      "value" : "Prospectif"
+    }]
+  },
+  {
+    "code" : "interventional",
+    "display" : "Interventional",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "interventional"
+      },
+      "value" : "Interventionnel"
+    }]
+  },
+  {
+    "code" : "cross_sectional",
+    "display" : "Cross-sectional",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "cross_sectional"
+      },
+      "value" : "Transversal"
+    }]
+  },
+  {
+    "code" : "cohort",
+    "display" : "Cohort",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/study-design",
+        "code" : "cohort"
+      },
+      "value" : "Cohorte"
+    }]
+  }]
 }
 
 ```

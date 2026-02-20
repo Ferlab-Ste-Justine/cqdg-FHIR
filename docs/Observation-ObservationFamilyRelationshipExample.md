@@ -29,44 +29,34 @@ Tags: tag1 (Details: [not stated] code tag1), tag2 (Details: [not stated] code t
   "resourceType" : "Observation",
   "id" : "ObservationFamilyRelationshipExample",
   "meta" : {
-    "profile" : [
-      "https://fhir.cqdg.ca/StructureDefinition/CQDGObservationFamilyRelationship"
-    ],
-    "tag" : [
-      {
-        "code" : "tag1"
-      },
-      {
-        "code" : "tag2"
-      }
-    ]
+    "profile" : ["https://fhir.cqdg.ca/StructureDefinition/CQDGObservationFamilyRelationship"],
+    "tag" : [{
+      "code" : "tag1"
+    },
+    {
+      "code" : "tag2"
+    }]
   },
   "status" : "registered",
   "code" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
-        "code" : "Family-relationship"
-      }
-    ],
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code",
+      "code" : "Family-relationship"
+    }],
     "text" : "Family-relationship observation"
   },
   "subject" : {
     "reference" : "Patient/PatientExample"
   },
-  "focus" : [
-    {
-      "reference" : "Patient/PatientExample2"
-    }
-  ],
+  "focus" : [{
+    "reference" : "Patient/PatientExample2"
+  }],
   "valueCodeableConcept" : {
-    "coding" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
-        "code" : "Proband",
-        "display" : "Proband"
-      }
-    ]
+    "coding" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/v3-role-code",
+      "code" : "Proband",
+      "display" : "Proband"
+    }]
   }
 }
 

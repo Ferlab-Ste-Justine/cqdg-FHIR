@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-tumor-normal-designation | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGTumorNormalDesignationCodeSystem |
+| Active as of 2026-02-20 | *Computable Name*:CQDGTumorNormalDesignationCodeSystem |
 
  
 Codes for tumor normal designation 
@@ -31,36 +31,30 @@ Codes for tumor normal designation
   "name" : "CQDGTumorNormalDesignationCodeSystem",
   "title" : "CQDG Tumor Normal Designation Codes",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Codes for tumor normal designation",
   "content" : "complete",
   "count" : 3,
-  "concept" : [
-    {
-      "code" : "Normal",
-      "display" : "Normal"
-    },
-    {
-      "code" : "Tumor",
-      "display" : "Tumor"
-    },
-    {
-      "code" : "Not applicable",
-      "display" : "Not applicable"
-    }
-  ]
+  "concept" : [{
+    "code" : "Normal",
+    "display" : "Normal"
+  },
+  {
+    "code" : "Tumor",
+    "display" : "Tumor"
+  },
+  {
+    "code" : "Not applicable",
+    "display" : "Not applicable"
+  }]
 }
 
 ```

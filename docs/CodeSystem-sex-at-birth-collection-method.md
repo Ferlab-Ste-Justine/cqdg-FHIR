@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:SexAtBirthCollectionMethod |
+| Active as of 2026-02-20 | *Computable Name*:SexAtBirthCollectionMethod |
 
  
 This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts. 
@@ -32,57 +32,51 @@ This code system defines standardized methods for collecting or recording a part
   "title" : "Ferlab.bio CodeSystem/sex-at-birth-collection-method",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts.",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
-  "concept" : [
-    {
-      "code" : "Self-identified",
-      "display" : "Self-identified"
-    },
-    {
-      "code" : "Missing - Restricted access",
-      "display" : "Missing - Restricted Access"
-    },
-    {
-      "code" : "Missing - Not provided",
-      "display" : "Missing - Not Provided"
-    },
-    {
-      "code" : "Missing - Not collected",
-      "display" : "Missing - Not Collected"
-    },
-    {
-      "code" : "Missing - Unknown",
-      "display" : "Missing - Unknown"
-    },
-    {
-      "code" : "Other",
-      "display" : "Other"
-    },
-    {
-      "code" : "Derived",
-      "display" : "Derived"
-    },
-    {
-      "code" : "Clinician-recorded",
-      "display" : "Clinician-recorded"
-    }
-  ]
+  "concept" : [{
+    "code" : "Self-identified",
+    "display" : "Self-identified"
+  },
+  {
+    "code" : "Missing - Restricted access",
+    "display" : "Missing - Restricted Access"
+  },
+  {
+    "code" : "Missing - Not provided",
+    "display" : "Missing - Not Provided"
+  },
+  {
+    "code" : "Missing - Not collected",
+    "display" : "Missing - Not Collected"
+  },
+  {
+    "code" : "Missing - Unknown",
+    "display" : "Missing - Unknown"
+  },
+  {
+    "code" : "Other",
+    "display" : "Other"
+  },
+  {
+    "code" : "Derived",
+    "display" : "Derived"
+  },
+  {
+    "code" : "Clinician-recorded",
+    "display" : "Clinician-recorded"
+  }]
 }
 
 ```

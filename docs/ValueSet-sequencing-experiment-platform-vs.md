@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:SequencingExperimentPlatformVS |
+| Active as of 2026-02-20 | *Computable Name*:SequencingExperimentPlatformVS |
 
  
 Sequencing Experiment Platform ValueSet 
@@ -50,26 +50,20 @@ Sequencing Experiment Platform ValueSet
   "name" : "SequencingExperimentPlatformVS",
   "title" : "Sequencing Experiment Platform",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Sequencing Experiment Platform ValueSet",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
-      }
-    ]
+    "include" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+    }]
   }
 }
 

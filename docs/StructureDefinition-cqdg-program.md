@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-program | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDG_Program |
+| Active as of 2026-02-20 | *Computable Name*:CQDG_Program |
 
  
 A CQDG program 
@@ -41,73 +41,61 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-program.csv), [
   "name" : "CQDG_Program",
   "title" : "Ferlab.bio StructureDefinition/cqdg-program",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "A CQDG program",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    },
-    {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  }],
   "kind" : "resource",
   "abstract" : false,
   "type" : "List",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/List",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "List",
-        "path" : "List"
+    "element" : [{
+      "id" : "List",
+      "path" : "List"
+    },
+    {
+      "id" : "List.extension",
+      "path" : "List.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
       },
-      {
-        "id" : "List.extension",
-        "path" : "List.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1
-      },
-      {
-        "id" : "List.extension:researchProgram",
-        "path" : "List.extension",
-        "sliceName" : "researchProgram",
-        "min" : 1,
-        "max" : "1",
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : ["https://fhir.cqdg.ca/StructureDefinition/research-program"]
-          }
-        ]
-      }
-    ]
+      "min" : 1
+    },
+    {
+      "id" : "List.extension:researchProgram",
+      "path" : "List.extension",
+      "sliceName" : "researchProgram",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://fhir.cqdg.ca/StructureDefinition/research-program"]
+      }]
+    }]
   }
 }
 

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-observation-category | *Version*:0.1.0 |
-| Active as of 2026-01-22 | *Computable Name*:CQDGObservationCategory |
+| Active as of 2026-02-20 | *Computable Name*:CQDGObservationCategory |
 
  
 Observation ValueSet 
@@ -50,26 +50,20 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "CQDGObservationCategory",
   "title" : "Ferlab.bio ValueSet/cqdg-observation",
   "status" : "active",
-  "date" : "2026-01-22T16:34:58+00:00",
+  "date" : "2026-02-20T16:31:02+00:00",
   "publisher" : "Ferlab.bio",
-  "contact" : [
-    {
-      "name" : "Ferlab.bio",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://example.org/example-publisher"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "Ferlab.bio",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
   "description" : "Observation ValueSet",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"
-      }
-    ]
+    "include" : [{
+      "system" : "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"
+    }]
   }
 }
 

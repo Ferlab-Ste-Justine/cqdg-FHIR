@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:SequencingExperimentSource |
+| Active as of 2026-03-05 | *Computable Name*:SequencingExperimentSource |
 
  
 Sequencing experimental source 
@@ -32,7 +32,7 @@ Sequencing experimental source
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -46,45 +46,45 @@ Sequencing experimental source
   "content" : "complete",
   "count" : 4,
   "concept" : [{
-    "code" : "GEN",
+    "code" : "Genomic",
     "display" : "Genomic",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "GEN"
+        "code" : "Genomic"
       },
       "value" : "Genomic"
     }]
   },
   {
-    "code" : "TSC",
+    "code" : "Transcriptomic-Single-Cell",
     "display" : "Transcriptomic Single Cell",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "TSC"
+        "code" : "Transcriptomic-Single-Cell"
       },
       "value" : "Transcriptomic Single Cell"
     }]
   },
   {
-    "code" : "TS",
+    "code" : "Transcriptomic",
     "display" : "Transcriptomic",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "TS"
+        "code" : "Transcriptomic"
       },
       "value" : "Transcriptomic"
     }]
   },
   {
-    "code" : "GSC",
+    "code" : "Genomic-Single-Cell",
     "display" : "Genomic Single Cell",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "GSC"
+        "code" : "Genomic-Single-Cell"
       },
       "value" : "Genomic Single Cell"
     }]

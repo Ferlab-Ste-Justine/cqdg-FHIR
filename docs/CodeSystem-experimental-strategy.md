@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/experimental-strategy | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:ExperimentalStrategy |
+| Active as of 2026-03-05 | *Computable Name*:ExperimentalStrategy |
 
  
 Experimental strategy 
@@ -32,7 +32,7 @@ Experimental strategy
   "title" : "Ferlab.bio CodeSystem/experimental-strategy",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -46,34 +46,34 @@ Experimental strategy
   "content" : "complete",
   "count" : 15,
   "concept" : [{
-    "code" : "WXS",
+    "code" : "Whole-Exome-Sequencing",
     "display" : "Whole Exome Sequencing",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-        "code" : "WXS"
+        "code" : "Whole-Exome-Sequencing"
       },
       "value" : "Whole Exome Sequencing"
     }]
   },
   {
-    "code" : "WGS",
+    "code" : "Whole-Genome-Sequencing",
     "display" : "Whole Genome Sequencing",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-        "code" : "WGS"
+        "code" : "Whole-Genome-Sequencing"
       },
       "value" : "Whole Genome Sequencing"
     }]
   },
   {
-    "code" : "TARS",
+    "code" : "Targeted-Sequencing",
     "display" : "Targeted Sequencing",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-        "code" : "TARS"
+        "code" : "Targeted-Sequencing"
       },
       "value" : "Targeted Sequencing"
     }]

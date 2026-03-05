@@ -23,7 +23,7 @@ Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: seconda
 * raceAnotherCategory: Fluff
  |
 | [Ferlab.bio Extension/vital-status](StructureDefinition-VitalStatus.md) | Deceased |
-| [Ferlab.bio Extension/age-at-recruitment](StructureDefinition-AgeAtRecruitment.md) | Childhood onset |
+| [Ferlab.bio Extension/age-at-recruitment](StructureDefinition-AgeAtRecruitment.md) | HP:0011463 |
 | Ferlab.bio Extension/gender: | * gender: Man
 * genderCollectionMethod: Self-identified
 * genderAnotherCategory: Non-binary, self-described
@@ -32,7 +32,7 @@ Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: seconda
 * sexAtBirthCollectionMethod: Missing - Not provided
 * sexAtBirthAnotherCategory: Fluff sex
  |
-| [Ferlab.bio Extension/age-of-death](StructureDefinition-AgeOfDeath.md) | Late onset |
+| [Ferlab.bio Extension/age-of-death](StructureDefinition-AgeOfDeath.md) | HP:0003584 |
 
 
 

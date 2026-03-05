@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-task | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:CQDGTask |
+| Active as of 2026-03-05 | *Computable Name*:CQDGTask |
 
  
 CQDG Task 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-task.csv), [Exc
   "name" : "CQDGTask",
   "title" : "Ferlab.bio Profile/cqdg-task",
   "status" : "active",
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

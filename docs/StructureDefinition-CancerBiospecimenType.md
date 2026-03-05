@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenType | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:CancerBiospecimenType |
+| Active as of 2026-03-05 | *Computable Name*:CancerBiospecimenType |
 
 Extension for selected NCIT codes from NCI Thesaurus.
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-CancerBiospecimenTyp
   "name" : "CancerBiospecimenType",
   "title" : "Ferlab.bio Extension/CancerBiospecimenType",
   "status" : "active",
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

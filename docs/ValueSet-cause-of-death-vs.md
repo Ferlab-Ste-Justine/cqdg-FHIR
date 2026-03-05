@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cause-of-death-vs | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:CauseOfDeathVS |
+| Active as of 2026-03-05 | *Computable Name*:CauseOfDeathVS |
 
  
 Cause of death 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "CauseOfDeathVS",
   "title" : "Ferlab.bio ValueSet/cause-of-death",
   "status" : "active",
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

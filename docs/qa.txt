@@ -1,9 +1,9 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 67, warn = 143, info = 19
-IG Publisher Version: 2.1.1
-Generated Fri Feb 20 16:33:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+err = 64, warn = 150, info = 18
+IG Publisher Version: 2.1.2
+Generated Thu Mar 05 20:30:15 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -50,9 +50,9 @@ Generated Fri Feb 20 16:33:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 0 / 7 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 0 / 8 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 1 / 1
@@ -103,9 +103,9 @@ Generated Fri Feb 20 16:33:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-bioinfo-analysis-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 2 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 1 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-observation-category : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 1 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 3 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-category-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-collection-method-vs : 0 / 1 / 1
@@ -116,8 +116,8 @@ Generated Fri Feb 20 16:33:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-file-format : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-gender-collection-method-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-genome-build-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 1 / 2 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 0 / 3 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-gender-vs : 0 / 1 / 1
@@ -210,9 +210,9 @@ ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-
 == fsh-generated/resources/CodeSystem-vital-status.json ==
 == fsh-generated/resources/Condition-ConditionExample.json ==
 WARNING: Condition/ConditionExample: Condition.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Condition/ConditionExample: Condition.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 WARNING: Condition/ConditionExample: Condition.identifier[0].system: No definition could be found for URL value 'https://fhir.cqdg.ca/fhir/Condition'
 WARNING: Condition/ConditionExample: Condition.code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: Condition/ConditionExample: Condition.code: Unable to check whether the code is in the value set '' because the code system http://purl.obolibrary.org/obo/mondo.owl was not found
 WARNING: Condition/ConditionExample: Condition.code.coding[1].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the code cannot be validated
 WARNING: Condition/ConditionExample: Condition.stage[0].summary.coding[0]: The concept '254293002' has a status of inactive and its use should be reviewed
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample1.json ==
@@ -313,6 +313,8 @@ WARNING: Organization/OrganizationExample: Organization.meta.tag[0]: A code with
 == fsh-generated/resources/Patient-PatientExample.json ==
 WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Patient/PatientExample: Patient.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Patient/PatientExample: Patient.extension[4].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
+WARNING: Patient/PatientExample: Patient.extension[5].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy'
@@ -335,6 +337,7 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Prof
 == fsh-generated/resources/Specimen-SpecimenExample.json ==
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Specimen/SpecimenExample: Specimen.extension[1].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
@@ -447,13 +450,13 @@ WARNING: ValueSet/cause-of-death-vs: ValueSet: Published value sets SHOULD confo
 == fsh-generated/resources/ValueSet-cqdg-diagnosis-vs.json ==
 ERROR: ValueSet/cqdg-diagnosis-vs: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/icd10-CA'
 WARNING: ValueSet/cqdg-diagnosis-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the value set cannot be expanded
+WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs.json ==
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
+WARNING: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs.json ==
 WARNING: ValueSet/cqdg-tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
@@ -478,10 +481,10 @@ WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
+WARNING: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==
 WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-INFORMATION: ValueSet.where(id = 'phenotype-vs'): The value set expansion is too large, and only a subset has been displayed
+WARNING: ValueSet.where(id = 'phenotype-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-population-vs.json ==
 WARNING: ValueSet/population-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-qc-ethnicity-vs.json ==

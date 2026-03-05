@@ -12,7 +12,7 @@ Tag: CAG (Details: [not stated] code CAG)
 
 **Ferlab.bio Extension/tumor-normal-designation**: Tumor
 
-**Ferlab.bio Extension/age-at-event**: Antenatal onset
+**Ferlab.bio Extension/age-at-event**: HP:0030674
 
 > **Ferlab.bio Extension/cancer-biospecimen-anatomic-location**
 * ncitCode: C12434

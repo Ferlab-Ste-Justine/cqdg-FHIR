@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:DataCollectionMethodExtension |
+| Active as of 2026-03-05 | *Computable Name*:DataCollectionMethodExtension |
 
 Describes the data collection methods for the study.
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-DataCollectionMethod
   "name" : "DataCollectionMethodExtension",
   "title" : "Ferlab.bio Extension/data-collection-method",
   "status" : "active",
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

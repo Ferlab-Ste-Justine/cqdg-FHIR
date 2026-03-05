@@ -10,7 +10,7 @@ Profile: [Ferlab.bio StructureDefinition/cqdg-condition](StructureDefinition-cqd
 
 Tag: CAG (Details: [not stated] code CAG)
 
-**Ferlab.bio Extension/age-at-event**: Antenatal onset
+**Ferlab.bio Extension/age-at-event**: HP:0030674
 
 **identifier**: `https://fhir.cqdg.ca/fhir/Condition`/ConditionExample
 

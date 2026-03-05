@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/DataCategoryExtension | *Version*:0.1.0 |
-| Active as of 2026-02-20 | *Computable Name*:DataCategoryExtension |
+| Active as of 2026-03-05 | *Computable Name*:DataCategoryExtension |
 
 Categories of data collected in this study (e.g. genomics, imaging…).
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-DataCategoryExtensio
   "name" : "DataCategoryExtension",
   "title" : "Ferlab.bio Extension/data-category",
   "status" : "active",
-  "date" : "2026-02-20T16:31:02+00:00",
+  "date" : "2026-03-05T20:27:55+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

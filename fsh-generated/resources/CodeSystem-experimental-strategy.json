@@ -8,12 +8,12 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
   "concept": [
     {
-      "code": "WXS",
+      "code": "Whole-Exome-Sequencing",
       "display": "Whole Exome Sequencing",
       "designation": [
         {
           "use": {
-            "code": "WXS",
+            "code": "Whole-Exome-Sequencing",
             "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
           },
           "value": "Whole Exome Sequencing"
@@ -21,12 +21,12 @@
       ]
     },
     {
-      "code": "WGS",
+      "code": "Whole-Genome-Sequencing",
       "display": "Whole Genome Sequencing",
       "designation": [
         {
           "use": {
-            "code": "WGS",
+            "code": "Whole-Genome-Sequencing",
             "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
           },
           "value": "Whole Genome Sequencing"
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "code": "TARS",
+      "code": "Targeted-Sequencing",
       "display": "Targeted Sequencing",
       "designation": [
         {
           "use": {
-            "code": "TARS",
+            "code": "Targeted-Sequencing",
             "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
           },
           "value": "Targeted Sequencing"

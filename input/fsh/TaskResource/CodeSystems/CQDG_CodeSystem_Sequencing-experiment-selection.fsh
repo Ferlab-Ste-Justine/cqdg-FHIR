@@ -11,9 +11,9 @@ Title: "Ferlab.bio CodeSystem/sequencing-experiment-selection"
 * #"CHIP" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#CHIP
 * #"CHIP" ^designation.value = "ChIP"
 
-* #"Reduced-Representation" "Reduced Representation"
-* #"Reduced-Representation" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#Reduced-Representation
-* #"Reduced-Representation" ^designation.value = "Reduced Representation"
+* #"RR" "Reduced Representation"
+* #"RR" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#RR
+* #"RR" ^designation.value = "Reduced Representation"
 
 * #"RANDOM" "Random"
 * #"RANDOM" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#RANDOM
@@ -31,6 +31,6 @@ Title: "Ferlab.bio CodeSystem/sequencing-experiment-selection"
 * #"ODT" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#ODT
 * #"ODT" ^designation.value = "Oligo-dT"
 
-* #"Hybrid-Selection" "Hybrid Selection"
-* #"Hybrid-Selection" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#Hybrid-Selection
-* #"Hybrid-Selection" ^designation.value = "Hybrid Selection"
+* #"HS" "Hybrid Selection"
+* #"HS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#HS
+* #"HS" ^designation.value = "Hybrid Selection"

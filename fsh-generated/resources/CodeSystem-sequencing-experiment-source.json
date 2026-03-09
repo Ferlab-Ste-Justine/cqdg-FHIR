@@ -8,12 +8,12 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
   "concept": [
     {
-      "code": "Genomic",
+      "code": "GEN",
       "display": "Genomic",
       "designation": [
         {
           "use": {
-            "code": "Genomic",
+            "code": "GEN",
             "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
           },
           "value": "Genomic"
@@ -21,12 +21,12 @@
       ]
     },
     {
-      "code": "Transcriptomic-Single-Cell",
+      "code": "TSC",
       "display": "Transcriptomic Single Cell",
       "designation": [
         {
           "use": {
-            "code": "Transcriptomic-Single-Cell",
+            "code": "TSC",
             "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
           },
           "value": "Transcriptomic Single Cell"
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "code": "Transcriptomic",
+      "code": "TS",
       "display": "Transcriptomic",
       "designation": [
         {
           "use": {
-            "code": "Transcriptomic",
+            "code": "TS",
             "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
           },
           "value": "Transcriptomic"
@@ -47,12 +47,12 @@
       ]
     },
     {
-      "code": "Genomic-Single-Cell",
+      "code": "GSC",
       "display": "Genomic Single Cell",
       "designation": [
         {
           "use": {
-            "code": "Genomic-Single-Cell",
+            "code": "GSC",
             "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"
           },
           "value": "Genomic Single Cell"

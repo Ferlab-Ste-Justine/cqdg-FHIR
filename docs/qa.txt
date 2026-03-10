@@ -1,9 +1,9 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 64, warn = 150, info = 18
+err = 66, warn = 150, info = 18
 IG Publisher Version: 2.1.2
-Generated Thu Mar 05 20:30:15 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+Generated Tue Mar 10 20:43:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -97,7 +97,7 @@ Generated Thu Mar 05 20:30:15 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sampleExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sequencingExperimentExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-workflowExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 1 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 3 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs : 0 / 1 / 1
@@ -435,6 +435,8 @@ WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.
 WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type for workflowExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/Task-CQDGTaskExample.json ==
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask'
+ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding).display: Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US')
+ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding): The Coding provided (https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS) was not found in the value set 'Ferlab.bio ValueSet/experimental-strategy' (https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs|0.1.0), and a code is required from this value set.  (error message = Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US'))
 ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0].display: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en-US')
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ValueSet-access-limitation-vs.json ==

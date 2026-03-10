@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/research-domain | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:ResearchDomainCodeSystem |
+| Active as of 2026-03-10 | *Computable Name*:ResearchDomainCodeSystem |
 
  
 Research domain 
@@ -32,7 +32,7 @@ Research domain
   "title" : "Ferlab.bio CodeSystem/research-domain",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

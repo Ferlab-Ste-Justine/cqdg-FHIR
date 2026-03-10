@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:CQDGSpecimen |
+| Active as of 2026-03-10 | *Computable Name*:CQDGSpecimen |
 
  
 An example of a cqdg Specimen 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-specimen.csv), 
   "name" : "CQDGSpecimen",
   "title" : "Ferlab.bio StructureDefinition/cqdg-specimen",
   "status" : "active",
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

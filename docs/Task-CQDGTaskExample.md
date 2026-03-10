@@ -14,12 +14,12 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 * pipeline: Second Pipeline
 
 > **Ferlab.bio StructureDefinition/sequencing-experiment**
-* experimentalStrategy: [Ferlab.bio CodeSystem/experimental-strategy: Whole-Exome-Sequencing](CodeSystem-experimental-strategy.md#experimental-strategy-Whole-Exome-Sequencing) (Whole Exome Sequencing)
+* experimentalStrategy: [Ferlab.bio CodeSystem/experimental-strategy: WGS](CodeSystem-experimental-strategy.md#experimental-strategy-WGS) (Whole Exome Sequencing)
 * isPairedEnd: true
 * platform: [Ferlab.bio CodeSystem/sequencing-experiment-platform: Illumina](CodeSystem-sequencing-experiment-platform.md#sequencing-experiment-platform-Illumina) (Illumina)
 * readLength: 151,8,8,151
 * selection: [Ferlab.bio CodeSystem/sequencing-experiment-selection: CHIP](CodeSystem-sequencing-experiment-selection.md#sequencing-experiment-selection-CHIP) (ChIP)
-* source: [Ferlab.bio CodeSystem/sequencing-experiment-source: Genomic](CodeSystem-sequencing-experiment-source.md#sequencing-experiment-source-Genomic) (Genomic)
+* source: [Ferlab.bio CodeSystem/sequencing-experiment-source: GEN](CodeSystem-sequencing-experiment-source.md#sequencing-experiment-source-GEN) (Genomic)
 * protocol: protocol2
 * targetCaptureKit: targetCaptureKit2
 * targetLoci: targetedLoci2
@@ -95,7 +95,7 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
       "url" : "experimentalStrategy",
       "valueCoding" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-        "code" : "Whole-Exome-Sequencing",
+        "code" : "WGS",
         "display" : "Whole Exome Sequencing"
       }
     },
@@ -127,7 +127,7 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
       "url" : "source",
       "valueCoding" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "Genomic",
+        "code" : "GEN",
         "display" : "Genomic"
       }
     },

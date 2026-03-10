@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/bioinfo-analysis-vs | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:BioinfoAnalysisVS |
+| Active as of 2026-03-10 | *Computable Name*:BioinfoAnalysisVS |
 
  
 Bioinfo Analysis ValueSet 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "BioinfoAnalysisVS",
   "title" : "Ferlab.bio ValueSet/bioinfo-analysis",
   "status" : "active",
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

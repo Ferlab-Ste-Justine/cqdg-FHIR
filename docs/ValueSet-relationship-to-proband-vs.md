@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:RelationshipToProband |
+| Active as of 2026-03-10 | *Computable Name*:RelationshipToProband |
 
  
 Relationship To Proband ValueSet 
@@ -50,7 +50,7 @@ Relationship To Proband ValueSet
   "name" : "RelationshipToProband",
   "title" : "Ferlab.bio ValueSet/relationship-to-proband",
   "status" : "active",
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

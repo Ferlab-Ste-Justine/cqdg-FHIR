@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/data-type | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:DataType |
+| Active as of 2026-03-10 | *Computable Name*:DataType |
 
  
 Data Type 
@@ -32,7 +32,7 @@ Data Type
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

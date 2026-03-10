@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-diagnosis-vs | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:CQDGDiagnosisVS |
+| Active as of 2026-03-10 | *Computable Name*:CQDGDiagnosisVS |
 
  
 Diagnosis ValueSet 
@@ -52,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "CQDGDiagnosisVS",
   "title" : "Ferlab.bio ValueSet/diagnosis",
   "status" : "active",
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

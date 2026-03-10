@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:CQDG_FHIR_IG |
+| Active as of 2026-03-10 | *Computable Name*:CQDG_FHIR_IG |
 
 ### Description
 
@@ -42,7 +42,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -62,7 +62,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",

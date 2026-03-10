@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:SequencingExperimentSelection |
+| Active as of 2026-03-10 | *Computable Name*:SequencingExperimentSelection |
 
  
 Library selection method 
@@ -32,7 +32,7 @@ Library selection method
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -57,12 +57,12 @@ Library selection method
     }]
   },
   {
-    "code" : "Reduced-Representation",
+    "code" : "RR",
     "display" : "Reduced Representation",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-        "code" : "Reduced-Representation"
+        "code" : "RR"
       },
       "value" : "Reduced Representation"
     }]
@@ -112,12 +112,12 @@ Library selection method
     }]
   },
   {
-    "code" : "Hybrid-Selection",
+    "code" : "HS",
     "display" : "Hybrid Selection",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-        "code" : "Hybrid-Selection"
+        "code" : "HS"
       },
       "value" : "Hybrid Selection"
     }]

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/vital-status | *Version*:0.1.0 |
-| Active as of 2026-03-05 | *Computable Name*:VitalStatusCodeSystem |
+| Active as of 2026-03-10 | *Computable Name*:VitalStatusCodeSystem |
 
  
 This code system defines standardized categories for documenting a participant's vital status in clinical and research datasets. 
@@ -32,7 +32,7 @@ This code system defines standardized categories for documenting a participant's
   "title" : "Ferlab.bio CodeSystem/vital-status",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-05T20:27:55+00:00",
+  "date" : "2026-03-10T20:40:46+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

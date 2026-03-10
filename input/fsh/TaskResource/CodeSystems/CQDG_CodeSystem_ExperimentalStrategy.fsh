@@ -7,17 +7,17 @@ Title: "Ferlab.bio CodeSystem/experimental-strategy"
 * ^description = "Experimental strategy"
 * ^caseSensitive = true
 
-* #"Whole-Exome-Sequencing" "Whole Exome Sequencing"
-* #"Whole-Exome-Sequencing" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#Whole-Exome-Sequencing
-* #"Whole-Exome-Sequencing" ^designation.value = "Whole Exome Sequencing"
+* #"WXS" "Whole Exome Sequencing"
+* #"WXS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WXS
+* #"WXS" ^designation.value = "Whole Exome Sequencing"
 
-* #"Whole-Genome-Sequencing" "Whole Genome Sequencing"
-* #"Whole-Genome-Sequencing" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#Whole-Genome-Sequencing
-* #"Whole-Genome-Sequencing" ^designation.value = "Whole Genome Sequencing"
+* #"WGS" "Whole Genome Sequencing"
+* #"WGS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS
+* #"WGS" ^designation.value = "Whole Genome Sequencing"
 
-* #"Targeted-Sequencing" "Targeted Sequencing"
-* #"Targeted-Sequencing" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#Targeted-Sequencing
-* #"Targeted-Sequencing" ^designation.value = "Targeted Sequencing"
+* #"TARS" "Targeted Sequencing"
+* #"TARS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#TARS
+* #"TARS" ^designation.value = "Targeted Sequencing"
 
 * #"RNAS" "RNA-Seq"
 * #"RNAS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#RNAS

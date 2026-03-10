@@ -9,13 +9,13 @@ Usage: #example
 * extension[workflowExtension].extension[pipeline][0].valueString = "First Pipeline"
 * extension[workflowExtension].extension[pipeline][+].valueString = "Second Pipeline"
 
-* extension[sequencingExperimentExtension].extension[experimentalStrategy].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#Whole-Exome-Sequencing "Whole Exome Sequencing"
+* extension[sequencingExperimentExtension].extension[experimentalStrategy].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS "Whole Exome Sequencing"
 * extension[sequencingExperimentExtension].extension[isPairedEnd].valueBoolean = true
 * extension[sequencingExperimentExtension].extension[platform].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform#Illumina "Illumina"
 * extension[sequencingExperimentExtension].extension[protocol].valueString = "protocol2"
 * extension[sequencingExperimentExtension].extension[readLength].valueString = "151,8,8,151"
 * extension[sequencingExperimentExtension].extension[selection].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection#CHIP "ChIP"
-* extension[sequencingExperimentExtension].extension[source].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source#Genomic "Genomic"
+* extension[sequencingExperimentExtension].extension[source].valueCoding = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source#GEN "Genomic"
 * extension[sequencingExperimentExtension].extension[targetCaptureKit].valueString = "targetCaptureKit2"
 * extension[sequencingExperimentExtension].extension[targetLoci].valueString = "targetedLoci2"
 * extension[sequencingExperimentExtension].extension[runIds][0].valueString = "RunID12345"

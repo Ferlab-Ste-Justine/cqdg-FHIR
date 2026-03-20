@@ -11,7 +11,7 @@ Usage: #example
 * securityLabel.coding[0].display = "test"
 
 * status = #current
-* type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-data-supplement" "Sequencing Data Supplement"
+* type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-Data-Supplement" "Sequencing Data Supplement"
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal
@@ -34,7 +34,7 @@ Usage: #example
 * securityLabel.coding[0].display = "test"
 
 * status = #current
-* type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-reads" "Aligned Reads"
+* type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-Reads" "Aligned Reads"
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal = 22799222

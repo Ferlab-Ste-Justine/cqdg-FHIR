@@ -153,7 +153,7 @@
       "type": {
         "coding": [
           {
-            "code": "Aligned-reads",
+            "code": "Aligned-Reads",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
             "display": "Aligned Reads"
           }
@@ -181,9 +181,9 @@
       "type": {
         "coding": [
           {
-            "code": "Germline-CNV",
+            "code": "CNV",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "Germline CNV"
+            "display": "Copy Number Variations (CNVs)"
           }
         ]
       },
@@ -195,9 +195,9 @@
       "type": {
         "coding": [
           {
-            "code": "Sequencing-data-supplement",
+            "code": "Sequencing-Data-Supplement",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "Sequencing-data-supplement"
+            "display": "Sequencing Data Supplement"
           }
         ]
       },

@@ -55,9 +55,9 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Annotated-SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Annotated-SNV
 * #"Annotated-SNV" ^designation.value = "Annotated SNV"
 
-* #"QC-Metrics" "Quality Control Metrics"
-* #"QC-Metrics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#QC-Metrics
-* #"QC-Metrics" ^designation.value = "Quality Control Metrics"
+* #"Quality-Control-Metrics" "Quality Control Metrics"
+* #"Quality-Control-Metrics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Quality-Control-Metrics
+* #"Quality-Control-Metrics" ^designation.value = "Quality Control Metrics"
 
 * #"Sequencing-Data-Supplement" "Sequencing Data Supplement"
 * #"Sequencing-Data-Supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-Data-Supplement

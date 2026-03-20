@@ -2,12 +2,10 @@ CodeSystem: BioinfoAnalysisCode
 Id: bioinfo-analysis-code
 Title: "Ferlab.bio CodeSystem/bioinformatics-analysis"
 
-
 * ^url = "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"
 * ^experimental = false
 * ^description = "Bioinformatics analysis code"
 * ^caseSensitive = true
-
 
 * #"GBVA"  "Germline Variant Analysis"
 * #"GBVA"  ^designation.use = https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code#GBVA // germline-variant-analysis

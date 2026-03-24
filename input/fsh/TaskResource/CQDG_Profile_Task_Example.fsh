@@ -35,11 +35,11 @@ Usage: #example
 * owner = Reference(Organization/OrganizationExample)
 * input.type.text = "Analysed sample"
 * input.valueReference = Reference(Specimen/SpecimenExample) "Submitter Sample ID: SpecimenExample"
-* output[0].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-reads" "Aligned Reads"
+* output[0].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Aligned-Reads" "Aligned Reads"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample1)
 * output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#SNV "SNV"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample1)
-* output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Germline-CNV" "Germline CNV"
+* output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#CNV "Copy Number Variations (CNVs)"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample2)
-* output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-data-supplement" "Sequencing-data-supplement"
+* output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-Data-Supplement" "Sequencing Data Supplement"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample2)

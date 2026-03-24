@@ -7,42 +7,62 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * ^description = "Data Type"
 * ^caseSensitive = true
 
-* #"Unaligned-Reads" "Unaligned Reads"
-* #"Unaligned-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Unaligned-Reads
-* #"Unaligned-Reads" ^designation.value = "Unaligned Reads"
+* #"Raw-Sequencing-Reads" "Raw Sequencing Reads"
+* #"Raw-Sequencing-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads
+* #"Raw-Sequencing-Reads" ^designation.value = "Raw Sequencing Reads"
 
-* #"Aligned-reads" "Aligned Reads"
-* #"Aligned-reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-reads
-* #"Aligned-reads" ^designation.value = "Aligned Reads"
+* #"Raw-Sequencing-Reads-R1" "Raw Sequencing Reads R1"
+* #"Raw-Sequencing-Reads-R1" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads-R1
+* #"Raw-Sequencing-Reads-R1" ^designation.value = "Raw Sequencing Reads R1"
 
-* #"SNV" "SNV"
+* #"Raw-Sequencing-Reads-R2" "Raw Sequencing Reads R2"
+* #"Raw-Sequencing-Reads-R2" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads-R2
+* #"Raw-Sequencing-Reads-R2" ^designation.value = "Raw Sequencing Reads R2"
+
+* #"Aligned-Reads" "Aligned Reads"
+* #"Aligned-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-Reads
+* #"Aligned-Reads" ^designation.value = "Aligned Reads"
+
+* #"Aligned-Reads-Index" "Aligned Reads Index"
+* #"Aligned-Reads-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-Reads-Index
+* #"Aligned-Reads-Index" ^designation.value = "Aligned Reads Index"
+
+* #"SNV" "Single Nucleotide Variants (SNVs)"
 * #"SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#SNV
-* #"SNV" ^designation.value = "SNV"
+* #"SNV" ^designation.value = "Single Nucleotide Variants (SNVs)"
 
-* #"Germline-CNV" "Germline CNV"
-* #"Germline-CNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Germline-CNV
-* #"Germline-CNV" ^designation.value = "Germline CNV"
+* #"InDel" "Insertions and Deletions (InDels)"
+* #"InDel" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#InDel
+* #"InDel" ^designation.value = "Insertions and Deletions (InDels)"
 
-* #"Sequencing-data-supplement" "Supplement"
-* #"Sequencing-data-supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement
-* #"Sequencing-data-supplement" ^designation.value = "Supplement"
+* #"SV" "Structural Variations (SVs)"
+* #"SV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#SV
+* #"SV" ^designation.value = "Structural Variations (SVs)"
 
-* #"Metrics" "Metrics"
-* #"Metrics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Metrics
-* #"Metrics" ^designation.value = "Metrics"
+* #"CNV" "Copy Number Variations (CNVs)"
+* #"CNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#CNV
+* #"CNV" ^designation.value = "Copy Number Variations (CNVs)"
 
-* #"Sequencing-data-index" "Sequencing Data Index"
-* #"Sequencing-data-index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-index
-* #"Sequencing-data-index" ^designation.value = "Sequencing Data Index"
+* #"Variant-Calls-Index" "Variant Calls Index"
+* #"Variant-Calls-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Variant-Calls-Index
+* #"Variant-Calls-Index" ^designation.value = "Variant Calls Index"
 
-* #"Germline-structural-variant" "Germline Structural Variant"
-* #"Germline-structural-variant" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Germline-structural-variant
-* #"Germline-structural-variant" ^designation.value = "Germline Structural Variant"
-
-* #"IGV" "IGV"
-* #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#IGV
-* #"IGV" ^designation.value = "IGV"
+* #"Joint-Genotype-SNV" "Joint Genotype SNV"
+* #"Joint-Genotype-SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Joint-Genotype-SNV
+* #"Joint-Genotype-SNV" ^designation.value = "Joint Genotype SNV"
 
 * #"Annotated-SNV" "Annotated SNV"
 * #"Annotated-SNV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Annotated-SNV
 * #"Annotated-SNV" ^designation.value = "Annotated SNV"
+
+* #"Quality-Control-Metrics" "Quality Control Metrics"
+* #"Quality-Control-Metrics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Quality-Control-Metrics
+* #"Quality-Control-Metrics" ^designation.value = "Quality Control Metrics"
+
+* #"Sequencing-Data-Supplement" "Sequencing Data Supplement"
+* #"Sequencing-Data-Supplement" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-Data-Supplement
+* #"Sequencing-Data-Supplement" ^designation.value = "Sequencing Data Supplement"
+
+* #"IGV" "IGV"
+* #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#IGV
+* #"IGV" ^designation.value = "IGV"

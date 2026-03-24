@@ -1,6 +1,6 @@
 Output File                                                     Name                                      Type        FSH File                                                                          Lines
 CodeSystem-age-at-onset.json                                    AgeAtOnset                                CodeSystem  Common/CQDG_CodeSystem_AgeAtOnset.fsh                                             1 - 45
-CodeSystem-bioinfo-analysis-code.json                           BioinfoAnalysisCode                       CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_BioinfoAnalysisCode.fsh                  1 - 22
+CodeSystem-bioinfo-analysis-code.json                           BioinfoAnalysisCode                       CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_BioinfoAnalysisCode.fsh                  1 - 20
 CodeSystem-cause-of-death-codes.json                            CauseOfDeathCodes                         CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_CauseOfDeath.fsh                  1 - 41
 CodeSystem-cqdg-dataset-cs.json                                 CQDGDatasetCS                             CodeSystem  Common/CQDG_CodeSystem_Dataset.fsh                                                1 - 7
 CodeSystem-cqdg-observation-code.json                           CQDGObservationCode                       CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_ObservationCode.fsh               1 - 30
@@ -9,7 +9,7 @@ CodeSystem-cqdg-study-cs.json                                   CQDGStudyCS     
 CodeSystem-cqdg-tumor-normal-designation.json                   CQDGTumorNormalDesignationCodeSystem      CodeSystem  SpecimenResource/CodeSytem/CQDG_CodeSystem_TumorNormalDesignation.fsh             1 - 11
 CodeSystem-data-category.json                                   DataCategory                              CodeSystem  Common/CQDG_CodeSystem_DataCategory.fsh                                           1 - 43
 CodeSystem-data-collection-method.json                          DataCollectionMethod                      CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_DataCollectionMethod.fsh         1 - 23
-CodeSystem-data-type.json                                       DataType                                  CodeSystem  DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DataType.fsh                1 - 48
+CodeSystem-data-type.json                                       DataType                                  CodeSystem  DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DataType.fsh                1 - 68
 CodeSystem-disease-status.json                                  DiseaseStatusCS                           CodeSystem  ObservationResource/CodeSystems/CQDG_CodeSystem_DiseaseStatus.fsh                 1 - 20
 CodeSystem-document-format.json                                 DocumentFormat                            CodeSystem  DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DocumentFormat.fsh          1 - 52
 CodeSystem-duo-codes.json                                       DUOCodes                                  CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_DUOCodes.fsh                     1 - 78

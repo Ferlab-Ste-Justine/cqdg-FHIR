@@ -8,6 +8,16 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/document-format",
   "concept": [
     {
+      "code": "FASTQ",
+      "display": "FASTQ File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "FASTQ"
+        }
+      ]
+    },
+    {
       "code": "CRAM",
       "display": "CRAM",
       "designation": [
@@ -58,16 +68,6 @@
       ]
     },
     {
-      "code": "TGZ",
-      "display": "TGZ Archive File",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "TGZ"
-        }
-      ]
-    },
-    {
       "code": "gVCF",
       "display": "gVCF File",
       "designation": [
@@ -88,12 +88,22 @@
       ]
     },
     {
-      "code": "BW",
-      "display": "BW File",
+      "code": "TGZ",
+      "display": "TGZ Archive File",
       "designation": [
         {
           "language": "fr",
-          "value": "BW"
+          "value": "TGZ"
+        }
+      ]
+    },
+    {
+      "code": "bigWig",
+      "display": "bigWig File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "bigWig"
         }
       ]
     },
@@ -104,16 +114,6 @@
         {
           "language": "fr",
           "value": "BED"
-        }
-      ]
-    },
-    {
-      "code": "FASTQ",
-      "display": "FASTQ File",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "FASTQ"
         }
       ]
     }

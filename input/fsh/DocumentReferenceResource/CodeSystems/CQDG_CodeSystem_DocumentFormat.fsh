@@ -7,6 +7,10 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * ^description = "Document format"
 * ^caseSensitive = true
 
+* #"FASTQ" "FASTQ File"
+* #"FASTQ" ^designation.language = #fr
+* #"FASTQ" ^designation.value = "FASTQ"
+
 * #"CRAM" "CRAM"
 * #"CRAM" ^designation.language = #fr
 * #"CRAM" ^designation.value = "CRAM"
@@ -27,10 +31,6 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"VCF" ^designation.language = #fr
 * #"VCF" ^designation.value = "VCF"
 
-* #"TGZ" "TGZ Archive File"
-* #"TGZ" ^designation.language = #fr
-* #"TGZ" ^designation.value = "TGZ"
-
 * #"gVCF" "gVCF File"
 * #"gVCF" ^designation.language = #fr
 * #"gVCF" ^designation.value = "gVCF"
@@ -39,14 +39,14 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"TBI" ^designation.language = #fr
 * #"TBI" ^designation.value = "TBI"
 
-* #"BW" "BW File"
-* #"BW" ^designation.language = #fr
-* #"BW" ^designation.value = "BW"
+* #"TGZ" "TGZ Archive File"
+* #"TGZ" ^designation.language = #fr
+* #"TGZ" ^designation.value = "TGZ"
+
+* #"bigWig" "bigWig File"
+* #"bigWig" ^designation.language = #fr
+* #"bigWig" ^designation.value = "bigWig"
 
 * #"BED" "BED File"
 * #"BED" ^designation.language = #fr
 * #"BED" ^designation.value = "BED"
-
-* #"FASTQ" "FASTQ File"
-* #"FASTQ" ^designation.language = #fr
-* #"FASTQ" ^designation.value = "FASTQ"

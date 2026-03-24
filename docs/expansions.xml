@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="047c6874-7bd9-435c-9460-f9fa3f1b0e31"/>
+  <id value="b77b9920-6b55-458f-8c91-0021f547bcec"/>
   <meta>
-    <lastUpdated value="2026-03-10T20:40:46.107+00:00"/>
+    <lastUpdated value="2026-03-24T15:55:50.170+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -507,10 +507,10 @@
         <name value="AccessLimitationsVS"/>
         <title value="Ferlab.bio ValueSet/access-limitation"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:360fede9-bb01-4ce8-b408-96e3a43ab1a5"/>
-          <timestamp value="2026-03-10T20:42:41+00:00"/>
+          <identifier value="urn:uuid:8b8bdd72-1b79-48a7-a6b3-d655c58e5696"/>
+          <timestamp value="2026-03-24T15:57:26+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -1153,10 +1153,10 @@
         <name value="AccessRequirementVS"/>
         <title value="Ferlab.bio ValueSet/access-requirement"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b6693e98-f99a-4451-87f4-eb3b12106e31"/>
-          <timestamp value="2026-03-10T20:42:41+00:00"/>
+          <identifier value="urn:uuid:01f0f034-e69a-43c1-9cac-5f9191bfa742"/>
+          <timestamp value="2026-03-24T15:57:26+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -1399,10 +1399,10 @@
         <name value="AgeAtOnsetVS"/>
         <title value="Ferlab.bio ValueSet/age-at-onset"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:13fb0820-cf3f-4b35-9d2c-8ef86b15dbea"/>
-          <timestamp value="2026-03-10T20:42:41+00:00"/>
+          <identifier value="urn:uuid:002b0a8d-64e6-44bc-b18e-1a4fe6ea3d58"/>
+          <timestamp value="2026-03-24T15:57:26+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1545,10 +1545,10 @@
         <name value="BioinfoAnalysisVS"/>
         <title value="Ferlab.bio ValueSet/bioinfo-analysis"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:91b5fcad-4320-41b3-aedf-da527e476c4b"/>
-          <timestamp value="2026-03-10T20:42:41+00:00"/>
+          <identifier value="urn:uuid:34ebbe4c-c1f9-4769-9bce-e0ad3e6281c3"/>
+          <timestamp value="2026-03-24T15:57:26+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1791,10 +1791,10 @@
         <name value="CauseOfDeathVS"/>
         <title value="Ferlab.bio ValueSet/cause-of-death"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7f69b9ae-b26f-40fa-8cc2-c1ec6b9e5ba6"/>
-          <timestamp value="2026-03-10T20:42:41+00:00"/>
+          <identifier value="urn:uuid:a86295ef-a1ff-4461-82b6-df8073a05b5c"/>
+          <timestamp value="2026-03-24T15:57:26+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -2002,10 +2002,10 @@
         <name value="CQDGObservationCategory"/>
         <title value="Ferlab.bio ValueSet/cqdg-observation"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:bb4c9493-bc8d-4dea-9e17-2517ec6291b7"/>
-          <timestamp value="2026-03-10T20:42:42+00:00"/>
+          <identifier value="urn:uuid:2d9662c0-309e-4163-8cd5-3be940cefc0e"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2158,10 +2158,10 @@
         <name value="CQDGTumorNormalDesignationVS"/>
         <title value="CQDG Tumor Normal Designation ValueSet"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:93948e41-85e3-4b89-bce9-83153dc579e0"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:03b45cf4-ea15-43e5-b8fa-041e18d84069"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2384,10 +2384,10 @@
         <name value="DataCategoryVS"/>
         <title value="Ferlab.bio ValueSet/data-category"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6fe77a18-75f1-4f7e-af72-4e28ceb076cc"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:621ec0f2-a755-46db-80be-29202dd4857e"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -2550,10 +2550,10 @@
         <name value="DataCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/data-collection-method"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5aac8abe-17ae-4871-9d1c-9f14aa3e0789"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:238647fa-502e-4261-aa51-8a70f38d5840"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2609,7 +2609,7 @@
                 <button data-clipboard-text="https://fhir.cqdg.ca/CodeSystem/data-type|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
-            <p>This value set contains 10 concepts</p>
+            <p>This value set contains 15 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -2630,41 +2630,101 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Unaligned-Reads"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Raw-Sequencing-Reads"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Unaligned-Reads">Unaligned-Reads</a>
+                  <a href="CodeSystem-data-type.html#data-type-Raw-Sequencing-Reads">Raw-Sequencing-Reads</a>
                 </td>
-                <td>Unaligned Reads</td>
+                <td>Raw Sequencing Reads</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Unaligned-Reads&quot;, &quot;display&quot;: &quot;Unaligned Reads&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Raw-Sequencing-Reads&quot;, &quot;display&quot;: &quot;Raw Sequencing Reads&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Unaligned-Reads&quot;&gt;&lt;display value=&quot;Unaligned Reads&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Raw-Sequencing-Reads&quot;&gt;&lt;display value=&quot;Raw Sequencing Reads&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Aligned-reads"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Raw-Sequencing-Reads-R1"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Aligned-reads">Aligned-reads</a>
+                  <a href="CodeSystem-data-type.html#data-type-Raw-Sequencing-Reads-R1">Raw-Sequencing-Reads-R1</a>
                 </td>
-                <td>Aligned Reads</td>
+                <td>Raw Sequencing Reads R1</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Aligned-reads&quot;, &quot;display&quot;: &quot;Aligned Reads&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Raw-Sequencing-Reads-R1&quot;, &quot;display&quot;: &quot;Raw Sequencing Reads R1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Aligned-reads&quot;&gt;&lt;display value=&quot;Aligned Reads&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Raw-Sequencing-Reads-R1&quot;&gt;&lt;display value=&quot;Raw Sequencing Reads R1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Raw-Sequencing-Reads-R2"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-Raw-Sequencing-Reads-R2">Raw-Sequencing-Reads-R2</a>
+                </td>
+                <td>Raw Sequencing Reads R2</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Raw-Sequencing-Reads-R2&quot;, &quot;display&quot;: &quot;Raw Sequencing Reads R2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Raw-Sequencing-Reads-R2&quot;&gt;&lt;display value=&quot;Raw Sequencing Reads R2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Aligned-Reads"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-Aligned-Reads">Aligned-Reads</a>
+                </td>
+                <td>Aligned Reads</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Aligned-Reads&quot;, &quot;display&quot;: &quot;Aligned Reads&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Aligned-Reads&quot;&gt;&lt;display value=&quot;Aligned Reads&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Aligned-Reads-Index"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-Aligned-Reads-Index">Aligned-Reads-Index</a>
+                </td>
+                <td>Aligned Reads Index</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Aligned-Reads-Index&quot;, &quot;display&quot;: &quot;Aligned Reads Index&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Aligned-Reads-Index&quot;&gt;&lt;display value=&quot;Aligned Reads Index&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2676,135 +2736,115 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
                 </td>
-                <td>SNV</td>
+                <td>Single Nucleotide Variants (SNVs)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SNV&quot;, &quot;display&quot;: &quot;SNV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SNV&quot;, &quot;display&quot;: &quot;Single Nucleotide Variants (SNVs)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SNV&quot;&gt;&lt;display value=&quot;SNV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Germline-CNV"> </a>
-                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Germline-CNV">Germline-CNV</a>
-                </td>
-                <td>Germline CNV</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Germline-CNV&quot;, &quot;display&quot;: &quot;Germline CNV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Germline-CNV&quot;&gt;&lt;display value=&quot;Germline CNV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SNV&quot;&gt;&lt;display value=&quot;Single Nucleotide Variants (SNVs)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Sequencing-data-supplement"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-InDel"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-supplement">Sequencing-data-supplement</a>
+                  <a href="CodeSystem-data-type.html#data-type-InDel">InDel</a>
                 </td>
-                <td>Supplement</td>
+                <td>Insertions and Deletions (InDels)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Sequencing-data-supplement&quot;, &quot;display&quot;: &quot;Supplement&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;InDel&quot;, &quot;display&quot;: &quot;Insertions and Deletions (InDels)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Sequencing-data-supplement&quot;&gt;&lt;display value=&quot;Supplement&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;InDel&quot;&gt;&lt;display value=&quot;Insertions and Deletions (InDels)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Metrics"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-SV"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Metrics">Metrics</a>
+                  <a href="CodeSystem-data-type.html#data-type-SV">SV</a>
                 </td>
-                <td>Metrics</td>
+                <td>Structural Variations (SVs)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Metrics&quot;, &quot;display&quot;: &quot;Metrics&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SV&quot;, &quot;display&quot;: &quot;Structural Variations (SVs)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Metrics&quot;&gt;&lt;display value=&quot;Metrics&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SV&quot;&gt;&lt;display value=&quot;Structural Variations (SVs)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Sequencing-data-index"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-CNV"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Sequencing-data-index">Sequencing-data-index</a>
+                  <a href="CodeSystem-data-type.html#data-type-CNV">CNV</a>
                 </td>
-                <td>Sequencing Data Index</td>
+                <td>Copy Number Variations (CNVs)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Sequencing-data-index&quot;, &quot;display&quot;: &quot;Sequencing Data Index&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNV&quot;, &quot;display&quot;: &quot;Copy Number Variations (CNVs)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Sequencing-data-index&quot;&gt;&lt;display value=&quot;Sequencing Data Index&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNV&quot;&gt;&lt;display value=&quot;Copy Number Variations (CNVs)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Germline-structural-variant"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Variant-Calls-Index"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-Germline-structural-variant">Germline-structural-variant</a>
+                  <a href="CodeSystem-data-type.html#data-type-Variant-Calls-Index">Variant-Calls-Index</a>
                 </td>
-                <td>Germline Structural Variant</td>
+                <td>Variant Calls Index</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Germline-structural-variant&quot;, &quot;display&quot;: &quot;Germline Structural Variant&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Variant-Calls-Index&quot;, &quot;display&quot;: &quot;Variant Calls Index&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Germline-structural-variant&quot;&gt;&lt;display value=&quot;Germline Structural Variant&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Variant-Calls-Index&quot;&gt;&lt;display value=&quot;Variant Calls Index&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-IGV"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Joint-Genotype-SNV"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-data-type.html#data-type-IGV">IGV</a>
+                  <a href="CodeSystem-data-type.html#data-type-Joint-Genotype-SNV">Joint-Genotype-SNV</a>
                 </td>
-                <td>IGV</td>
+                <td>Joint Genotype SNV</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;IGV&quot;, &quot;display&quot;: &quot;IGV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Joint-Genotype-SNV&quot;, &quot;display&quot;: &quot;Joint Genotype SNV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;IGV&quot;&gt;&lt;display value=&quot;IGV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Joint-Genotype-SNV&quot;&gt;&lt;display value=&quot;Joint Genotype SNV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2828,6 +2868,66 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Quality-Control-Metrics"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-Quality-Control-Metrics">Quality-Control-Metrics</a>
+                </td>
+                <td>Quality Control Metrics</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Quality-Control-Metrics&quot;, &quot;display&quot;: &quot;Quality Control Metrics&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Quality-Control-Metrics&quot;&gt;&lt;display value=&quot;Quality Control Metrics&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-Sequencing-Data-Supplement"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-Sequencing-Data-Supplement">Sequencing-Data-Supplement</a>
+                </td>
+                <td>Sequencing Data Supplement</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Sequencing-Data-Supplement&quot;, &quot;display&quot;: &quot;Sequencing Data Supplement&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Sequencing-Data-Supplement&quot;&gt;&lt;display value=&quot;Sequencing Data Supplement&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/data-type-IGV"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/data-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-data-type.html#data-type-IGV">IGV</a>
+                </td>
+                <td>IGV</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;IGV&quot;, &quot;display&quot;: &quot;IGV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/data-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;IGV&quot;&gt;&lt;display value=&quot;IGV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -2836,11 +2936,11 @@
         <name value="DataTypeVS"/>
         <title value="Ferlab.bio ValueSet/data-type"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1dcd9983-3fc6-416b-a1b7-c6e43f77a294"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
-          <total value="10"/>
+          <identifier value="urn:uuid:54bde578-fadd-4476-9195-82a417496432"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
+          <total value="15"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -2864,53 +2964,78 @@
           </parameter>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Unaligned-Reads"/>
-            <display value="Unaligned Reads"/>
+            <code value="Raw-Sequencing-Reads"/>
+            <display value="Raw Sequencing Reads"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Aligned-reads"/>
+            <code value="Raw-Sequencing-Reads-R1"/>
+            <display value="Raw Sequencing Reads R1"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Raw-Sequencing-Reads-R2"/>
+            <display value="Raw Sequencing Reads R2"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Aligned-Reads"/>
             <display value="Aligned Reads"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Aligned-Reads-Index"/>
+            <display value="Aligned Reads Index"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
             <code value="SNV"/>
-            <display value="SNV"/>
+            <display value="Single Nucleotide Variants (SNVs)"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Germline-CNV"/>
-            <display value="Germline CNV"/>
+            <code value="InDel"/>
+            <display value="Insertions and Deletions (InDels)"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Sequencing-data-supplement"/>
-            <display value="Supplement"/>
+            <code value="SV"/>
+            <display value="Structural Variations (SVs)"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Metrics"/>
-            <display value="Metrics"/>
+            <code value="CNV"/>
+            <display value="Copy Number Variations (CNVs)"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Sequencing-data-index"/>
-            <display value="Sequencing Data Index"/>
+            <code value="Variant-Calls-Index"/>
+            <display value="Variant Calls Index"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="Germline-structural-variant"/>
-            <display value="Germline Structural Variant"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
-            <code value="IGV"/>
-            <display value="IGV"/>
+            <code value="Joint-Genotype-SNV"/>
+            <display value="Joint Genotype SNV"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
             <code value="Annotated-SNV"/>
             <display value="Annotated SNV"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Quality-Control-Metrics"/>
+            <display value="Quality Control Metrics"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="Sequencing-Data-Supplement"/>
+            <display value="Sequencing Data Supplement"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/data-type"/>
+            <code value="IGV"/>
+            <display value="IGV"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3017,10 +3142,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Ferlab.bio ValueSet/disease-status"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7c228cca-51aa-4ad1-a4e7-8400e30b7cdd"/>
-          <timestamp value="2026-03-10T20:42:36+00:00"/>
+          <identifier value="urn:uuid:8ae87335-9cc1-4758-9dfa-c4dc35169e75"/>
+          <timestamp value="2026-03-24T15:57:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -3403,10 +3528,10 @@
         <name value="ExperimentalStrategyVS"/>
         <title value="Ferlab.bio ValueSet/experimental-strategy"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a51d1068-42ff-4fca-bb42-dbe4f6220b0a"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:3de63b14-32c2-43bc-9361-36201a00573f"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -3709,10 +3834,10 @@
         <name value="FamilyTypeVS"/>
         <title value="Ferlab.bio ValueSet/family-type"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:65c27c65-104e-4b8c-84bf-fdc6ffa79f45"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:99f837a3-783d-4d4a-8905-6ad9d528de3f"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -3810,6 +3935,26 @@
                 </td>
                 <td>
                   <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-FASTQ"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-document-format.html#document-format-FASTQ">FASTQ</a>
+                </td>
+                <td>FASTQ File</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FASTQ&quot;, &quot;display&quot;: &quot;FASTQ File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FASTQ&quot;&gt;&lt;display value=&quot;FASTQ File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
@@ -3914,26 +4059,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-TGZ"> </a>
-                  <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
-                </td>
-                <td>TGZ Archive File</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TGZ&quot;, &quot;display&quot;: &quot;TGZ Archive File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TGZ&quot;&gt;&lt;display value=&quot;TGZ Archive File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-gVCF"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
                 </td>
@@ -3974,21 +4099,41 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-BW"> </a>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-TGZ"> </a>
                   <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-document-format.html#document-format-BW">BW</a>
+                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
                 </td>
-                <td>BW File</td>
+                <td>TGZ Archive File</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;BW&quot;, &quot;display&quot;: &quot;BW File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TGZ&quot;, &quot;display&quot;: &quot;TGZ Archive File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;BW&quot;&gt;&lt;display value=&quot;BW File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TGZ&quot;&gt;&lt;display value=&quot;TGZ Archive File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-bigWig"> </a>
+                  <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-document-format.html#document-format-bigWig">bigWig</a>
+                </td>
+                <td>bigWig File</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;bigWig&quot;, &quot;display&quot;: &quot;bigWig File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;bigWig&quot;&gt;&lt;display value=&quot;bigWig File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -4012,26 +4157,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-https://fhir.cqdg.ca/CodeSystem/document-format-FASTQ"> </a>
-                  <code>https://fhir.cqdg.ca/CodeSystem/document-format</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-document-format.html#document-format-FASTQ">FASTQ</a>
-                </td>
-                <td>FASTQ File</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FASTQ&quot;, &quot;display&quot;: &quot;FASTQ File&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.cqdg.ca/CodeSystem/document-format&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FASTQ&quot;&gt;&lt;display value=&quot;FASTQ File&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -4040,10 +4165,10 @@
         <name value="FileFormat"/>
         <title value="Ferlab.bio ValueSet/file-format"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:08898a1f-4871-4e5f-a5cb-277b68ad90e9"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:e75deba6-026d-4acf-a84f-4a82f0a1747f"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -4066,6 +4191,11 @@
             <name value="used-codesystem"/>
             <valueUri value="https://fhir.cqdg.ca/CodeSystem/document-format|0.1.0"/>
           </parameter>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="FASTQ"/>
+            <display value="FASTQ File"/>
+          </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
             <code value="CRAM"/>
@@ -4093,11 +4223,6 @@
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="TGZ"/>
-            <display value="TGZ Archive File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
             <code value="gVCF"/>
             <display value="gVCF File"/>
           </contains>
@@ -4108,18 +4233,18 @@
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="BW"/>
-            <display value="BW File"/>
+            <code value="TGZ"/>
+            <display value="TGZ Archive File"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
+            <code value="bigWig"/>
+            <display value="bigWig File"/>
           </contains>
           <contains>
             <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
             <code value="BED"/>
             <display value="BED File"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.cqdg.ca/CodeSystem/document-format"/>
-            <code value="FASTQ"/>
-            <display value="FASTQ File"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -4286,10 +4411,10 @@
         <name value="GenderCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/gender-collection-method"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:13eb5bc1-9b0b-4988-9bf2-b49d49f1880b"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:706331ba-098c-4d8d-816b-91a9188e6f30"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -4407,10 +4532,10 @@
         <name value="GenomeBuildVS"/>
         <title value="Ferlab.bio ValueSet/genome-build"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5defdd8f-6e29-424b-b551-79e1b5c01cff"/>
-          <timestamp value="2026-03-10T20:42:43+00:00"/>
+          <identifier value="urn:uuid:bda84fb6-883d-4ab1-9d59-34ecb5a3e17f"/>
+          <timestamp value="2026-03-24T15:57:27+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -4563,10 +4688,10 @@
         <name value="PopulationVS"/>
         <title value="Ferlab.bio ValueSet/population"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d9876f62-05ff-4743-b9d8-f28187b548f7"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:c9fe4c97-dc49-46ad-acd7-565888d86a74"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -4888,10 +5013,10 @@
         <name value="QCEthnicityVS"/>
         <title value="Ferlab.bio ValueSet/qa-ethnicity"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:afa9a5cf-7be5-44bb-a1d0-ef9ad8ec587d"/>
-          <timestamp value="2026-03-10T20:42:39+00:00"/>
+          <identifier value="urn:uuid:7beeca14-ba05-4959-842a-9c9eff580626"/>
+          <timestamp value="2026-03-24T15:57:23+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -5194,10 +5319,10 @@
         <name value="GenderVS"/>
         <title value="Ferlab.bio ValueSet/gender"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:bf5233c5-ba08-4416-8016-32295d3b8cac"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:94326ea0-3e07-487f-a649-84c315bbd067"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -5450,10 +5575,10 @@
         <name value="RaceCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/race-collection-method"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:52e553fe-526d-4486-88e7-e1632f18fda0"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:ee2185ea-958a-431b-8f99-818731301a0f"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -5856,10 +5981,10 @@
         <name value="RaceVS"/>
         <title value="Ferlab.bio ValueSet/race"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2ee6771a-1fd5-421d-91d9-df2e5b6404f8"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:c9be3cfb-459a-4e76-81b7-531fff4ca021"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -6262,10 +6387,10 @@
         <name value="RelationshipToProband"/>
         <title value="Ferlab.bio ValueSet/relationship-to-proband"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:dc413553-7207-4f83-ac11-6e1da5bb8df3"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:bf2c5fad-a607-46af-b897-4995cdf6899a"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -6695,10 +6820,10 @@
         <name value="ResearchDomain"/>
         <title value="Ferlab.bio ValueSet/research-domain"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:744541be-65f6-45fb-bfc9-7a8a76e538e5"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:f2bc98a8-3818-4291-92e0-682131d40063"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="14"/>
           <offset value="0"/>
           <parameter>
@@ -7076,10 +7201,10 @@
         <name value="SequencingExperimentPlatformVS"/>
         <title value="Sequencing Experiment Platform"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:04feacd5-fd86-4872-9122-96f5a3d7300b"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:5827df81-3e7b-4b7e-bca7-0a9357566b2b"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -7347,10 +7472,10 @@
         <name value="SequencingExperimentSelectionVS"/>
         <title value="Sequencing Experiment Selection"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2ff28d15-4a61-4ac1-a9a6-4570b5ff2607"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:d55f989d-058e-46a7-83e7-3109aff43677"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -7533,10 +7658,10 @@
         <name value="SequencingExperimentSourceVS"/>
         <title value="Sequencing Experiment Source"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c7b71538-ddb6-4bcc-8f85-29cf2df7adc4"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:28d53997-53c6-4a45-ac25-d7049c99e205"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -7784,10 +7909,10 @@
         <name value="SexAtBirthCollectionMethodVS"/>
         <title value="Ferlab.bio ValueSet/sex-at-birth-collection-method"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ce894bc4-0b15-4758-9f88-5c5ad62c205d"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:26eef0c7-d443-4cba-93d7-a3ab3c0a09ad"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -8055,10 +8180,10 @@
         <name value="SexAtBirthVS"/>
         <title value="Ferlab.bio ValueSet/sex-at-birth"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b31da41a-8b30-4a4f-b9dd-a2ca5fdacb70"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:c290ae3e-f8a0-498c-93cb-1c65723d9f49"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -8326,10 +8451,10 @@
         <name value="StudyDesignVS"/>
         <title value="Ferlab.bio ValueSet/study-design"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:33873022-4521-4493-9870-49ecabf112aa"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:7bb97d02-9cf5-4a8b-989b-1e5673855141"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -8503,10 +8628,10 @@
         <name value="StudyVS"/>
         <title value="Ferlab.bio ValueSet/cqdg-study"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a58cf3b9-a661-4e16-8428-692eadc857e3"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:afd6a579-ffc2-4f9b-b369-3d5bc6cca592"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -8649,10 +8774,10 @@
         <name value="TumorNormalDesignationVS"/>
         <title value="Ferlab.bio ValueSet/tumor-normal-designation"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a602863f-c942-4693-8b0c-b74d8af92aaa"/>
-          <timestamp value="2026-03-10T20:42:45+00:00"/>
+          <identifier value="urn:uuid:c04d14b6-524f-4702-ab72-a6f51d8219fb"/>
+          <timestamp value="2026-03-24T15:57:28+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -8875,10 +9000,10 @@
         <name value="VitalStatusVS"/>
         <title value="Ferlab.bio ValueSet/vital-status"/>
         <status value="active"/>
-        <date value="2026-03-10T20:40:46+00:00"/>
+        <date value="2026-03-24T15:55:50+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e12dddc1-3bdb-4d8b-acaa-7298e788d18f"/>
-          <timestamp value="2026-03-10T20:42:39+00:00"/>
+          <identifier value="urn:uuid:b29baf1a-aad9-4620-8b25-f3299b71ca34"/>
+          <timestamp value="2026-03-24T15:57:23+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>

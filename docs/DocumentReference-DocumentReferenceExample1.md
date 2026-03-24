@@ -57,7 +57,7 @@ Tags: CAG (Details: [not stated] code CAG), dataset: ds_name 1 (Details: Ferlab.
   "type" : {
     "coding" : [{
       "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-      "code" : "Sequencing-data-supplement",
+      "code" : "Sequencing-Data-Supplement",
       "display" : "Sequencing Data Supplement"
     }]
   },

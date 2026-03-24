@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:CQDGTumorNormalDesignationVS |
+| Active as of 2026-03-24 | *Computable Name*:CQDGTumorNormalDesignationVS |
 
  
 ValueSet for Tumor Normal Designation including CQDG codes 
 
  **References** 
 
+* [Ferlab.bio Extension/tumor-normal-designation](StructureDefinition-TumorNormalDesignation.md)
 * [Ferlab.bio Extension/tumor-normal-designation](StructureDefinition-TumorNormalDesignation.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ ValueSet for Tumor Normal Designation including CQDG codes
   "name" : "CQDGTumorNormalDesignationVS",
   "title" : "CQDG Tumor Normal Designation ValueSet",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

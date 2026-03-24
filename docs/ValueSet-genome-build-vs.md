@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/genome-build-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:GenomeBuildVS |
+| Active as of 2026-03-24 | *Computable Name*:GenomeBuildVS |
 
  
 Genome Build ValueSet 
 
  **References** 
 
+* [Ferlab.bio StructureDefinition/workflow](StructureDefinition-workflowExtension.md)
 * [Ferlab.bio StructureDefinition/workflow](StructureDefinition-workflowExtension.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ Genome Build ValueSet
   "name" : "GenomeBuildVS",
   "title" : "Ferlab.bio ValueSet/genome-build",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

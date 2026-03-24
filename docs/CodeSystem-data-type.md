@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/data-type | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:DataType |
+| Active as of 2026-03-24 | *Computable Name*:DataType |
 
  
 Data Type 
@@ -32,7 +32,7 @@ Data Type
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,104 +44,126 @@ Data Type
   "description" : "Data Type",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 10,
+  "count" : 15,
   "concept" : [{
-    "code" : "Unaligned-Reads",
-    "display" : "Unaligned Reads",
+    "code" : "Raw-Sequencing-Reads",
+    "display" : "Raw Sequencing Reads",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Unaligned-Reads"
+        "code" : "Raw-Sequencing-Reads"
       },
-      "value" : "Unaligned Reads"
+      "value" : "Raw Sequencing Reads"
     }]
   },
   {
-    "code" : "Aligned-reads",
+    "code" : "Raw-Sequencing-Reads-R1",
+    "display" : "Raw Sequencing Reads R1",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Sequencing-Reads-R1"
+      },
+      "value" : "Raw Sequencing Reads R1"
+    }]
+  },
+  {
+    "code" : "Raw-Sequencing-Reads-R2",
+    "display" : "Raw Sequencing Reads R2",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Sequencing-Reads-R2"
+      },
+      "value" : "Raw Sequencing Reads R2"
+    }]
+  },
+  {
+    "code" : "Aligned-Reads",
     "display" : "Aligned Reads",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Aligned-reads"
+        "code" : "Aligned-Reads"
       },
       "value" : "Aligned Reads"
     }]
   },
   {
+    "code" : "Aligned-Reads-Index",
+    "display" : "Aligned Reads Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Aligned-Reads-Index"
+      },
+      "value" : "Aligned Reads Index"
+    }]
+  },
+  {
     "code" : "SNV",
-    "display" : "SNV",
+    "display" : "Single Nucleotide Variants (SNVs)",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
         "code" : "SNV"
       },
-      "value" : "SNV"
+      "value" : "Single Nucleotide Variants (SNVs)"
     }]
   },
   {
-    "code" : "Germline-CNV",
-    "display" : "Germline CNV",
+    "code" : "InDel",
+    "display" : "Insertions and Deletions (InDels)",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Germline-CNV"
+        "code" : "InDel"
       },
-      "value" : "Germline CNV"
+      "value" : "Insertions and Deletions (InDels)"
     }]
   },
   {
-    "code" : "Sequencing-data-supplement",
-    "display" : "Supplement",
+    "code" : "SV",
+    "display" : "Structural Variations (SVs)",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Sequencing-data-supplement"
+        "code" : "SV"
       },
-      "value" : "Supplement"
+      "value" : "Structural Variations (SVs)"
     }]
   },
   {
-    "code" : "Metrics",
-    "display" : "Metrics",
+    "code" : "CNV",
+    "display" : "Copy Number Variations (CNVs)",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Metrics"
+        "code" : "CNV"
       },
-      "value" : "Metrics"
+      "value" : "Copy Number Variations (CNVs)"
     }]
   },
   {
-    "code" : "Sequencing-data-index",
-    "display" : "Sequencing Data Index",
+    "code" : "Variant-Calls-Index",
+    "display" : "Variant Calls Index",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Sequencing-data-index"
+        "code" : "Variant-Calls-Index"
       },
-      "value" : "Sequencing Data Index"
+      "value" : "Variant Calls Index"
     }]
   },
   {
-    "code" : "Germline-structural-variant",
-    "display" : "Germline Structural Variant",
+    "code" : "Joint-Genotype-SNV",
+    "display" : "Joint Genotype SNV",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Germline-structural-variant"
+        "code" : "Joint-Genotype-SNV"
       },
-      "value" : "Germline Structural Variant"
-    }]
-  },
-  {
-    "code" : "IGV",
-    "display" : "IGV",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "IGV"
-      },
-      "value" : "IGV"
+      "value" : "Joint Genotype SNV"
     }]
   },
   {
@@ -153,6 +175,39 @@ Data Type
         "code" : "Annotated-SNV"
       },
       "value" : "Annotated SNV"
+    }]
+  },
+  {
+    "code" : "Quality-Control-Metrics",
+    "display" : "Quality Control Metrics",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Quality-Control-Metrics"
+      },
+      "value" : "Quality Control Metrics"
+    }]
+  },
+  {
+    "code" : "Sequencing-Data-Supplement",
+    "display" : "Sequencing Data Supplement",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Sequencing-Data-Supplement"
+      },
+      "value" : "Sequencing Data Supplement"
+    }]
+  },
+  {
+    "code" : "IGV",
+    "display" : "IGV",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "IGV"
+      },
+      "value" : "IGV"
     }]
   }]
 }

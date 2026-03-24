@@ -53,7 +53,7 @@ Tag: CAG (Details: [not stated] code CAG)
   "type" : {
     "coding" : [{
       "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-      "code" : "Aligned-reads",
+      "code" : "Aligned-Reads",
       "display" : "Aligned Reads"
     }]
   },

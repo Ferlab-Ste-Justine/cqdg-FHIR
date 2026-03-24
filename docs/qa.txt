@@ -1,9 +1,9 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 66, warn = 150, info = 18
-IG Publisher Version: 2.1.2
-Generated Tue Mar 10 20:43:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+err = 65, warn = 150, info = 18
+IG Publisher Version: 2.2.2
+Generated Tue Mar 24 15:58:10 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -39,7 +39,7 @@ Generated Tue Mar 10 20:43:30 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-tumor-normal-designation : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-vital-status : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 0 / 6 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 4 / 2 / 4
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 3 / 2 / 4
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 2 / 4
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
@@ -218,8 +218,7 @@ WARNING: Condition/ConditionExample: Condition.stage[0].summary.coding[0]: The c
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample1.json ==
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[1].code: Unknown code 'dataset: ds_name 1' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs' version '0.1.0'
-ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.type.coding[0].display: Wrong Display Name 'Sequencing Data Supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en-US')
-INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement)
+INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-Data-Supplement)
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.securityLabel[0]: Reference to retired ValueSet http://terminology.hl7.org/ValueSet/v3-ActUSPrivacyLaw|3.0.0
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both (extension.exists() != value.exists())' (defined in http://hl7.org/fhir/StructureDefinition/Extension)
@@ -227,7 +226,7 @@ ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0]
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/DocumentReference-DocumentReferenceExample2.json ==
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-reads)
+INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-Reads)
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.securityLabel[0]: Reference to retired ValueSet http://terminology.hl7.org/ValueSet/v3-ActUSPrivacyLaw|3.0.0
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
@@ -437,7 +436,7 @@ WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: 
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask'
 ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding).display: Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US')
 ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding): The Coding provided (https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS) was not found in the value set 'Ferlab.bio ValueSet/experimental-strategy' (https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs|0.1.0), and a code is required from this value set.  (error message = Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US'))
-ERROR: Task/CQDGTaskExample: Task.output[3].type.coding[0].display: Wrong Display Name 'Sequencing-data-supplement' for https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-data-supplement. Valid display is one of 2 choices: 'Supplement' or 'Supplement' (null) (for the language(s) 'en-US')
+ERROR: Task/CQDGTaskExample: Task.output[1].type.coding[0].display: Wrong Display Name 'SNV' for https://fhir.cqdg.ca/CodeSystem/data-type#SNV. Valid display is one of 2 choices: 'Single Nucleotide Variants (SNVs)' or 'Single Nucleotide Variants (SNVs)' (null) (for the language(s) 'en-US')
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ValueSet-access-limitation-vs.json ==
 WARNING: ValueSet/access-limitation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
@@ -481,7 +480,7 @@ WARNING: ValueSet/gender-collection-method-vs: ValueSet: Published value sets SH
 WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-ncit-special-codes-vs.json ==
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
-INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://purl.obolibrary.org/obo/ncit.owl' is not known, and no terminology service supports it
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==

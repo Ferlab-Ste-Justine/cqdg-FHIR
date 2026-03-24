@@ -56,9 +56,9 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 
 > **output****type**: SNV**value**: [DocumentReference: status = current; type = Sequencing Data Supplement; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample1.md)
 
-> **output****type**: Germline CNV**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
+> **output****type**: Copy Number Variations (CNVs)**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
 
-> **output****type**: Sequencing-data-supplement**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
+> **output****type**: Sequencing Data Supplement**value**: [DocumentReference: status = current; type = Aligned Reads; category = Genomics; securityLabel = test](DocumentReference-DocumentReferenceExample2.md)
 
 
 
@@ -205,7 +205,7 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
     "type" : {
       "coding" : [{
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Aligned-reads",
+        "code" : "Aligned-Reads",
         "display" : "Aligned Reads"
       }]
     },
@@ -229,8 +229,8 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
     "type" : {
       "coding" : [{
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Germline-CNV",
-        "display" : "Germline CNV"
+        "code" : "CNV",
+        "display" : "Copy Number Variations (CNVs)"
       }]
     },
     "valueReference" : {
@@ -241,8 +241,8 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
     "type" : {
       "coding" : [{
         "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
-        "code" : "Sequencing-data-supplement",
-        "display" : "Sequencing-data-supplement"
+        "code" : "Sequencing-Data-Supplement",
+        "display" : "Sequencing Data Supplement"
       }]
     },
     "valueReference" : {

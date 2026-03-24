@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/race-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:RaceVS |
+| Active as of 2026-03-24 | *Computable Name*:RaceVS |
 
  
 Race ValueSet 
 
  **References** 
 
+* [Ferlab.bio Extension/race](StructureDefinition-Race.md)
 * [Ferlab.bio Extension/race](StructureDefinition-Race.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ Race ValueSet
   "name" : "RaceVS",
   "title" : "Ferlab.bio ValueSet/race",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

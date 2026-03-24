@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/access-limitation-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:AccessLimitationsVS |
+| Active as of 2026-03-24 | *Computable Name*:AccessLimitationsVS |
 
  
 Restriction on access 
 
  **References** 
 
+* [Ferlab.bio Extension/access-limitations](StructureDefinition-AccessLimitations.md)
 * [Ferlab.bio Extension/access-limitations](StructureDefinition-AccessLimitations.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ Restriction on access
   "name" : "AccessLimitationsVS",
   "title" : "Ferlab.bio ValueSet/access-limitation",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

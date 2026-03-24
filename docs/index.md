@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:CQDG_FHIR_IG |
+| Active as of 2026-03-24 | *Computable Name*:CQDG_FHIR_IG |
 
 ### Description
 
@@ -42,7 +42,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -358,7 +358,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.0"
     },
     {
       "extension" : [{

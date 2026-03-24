@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/document-format | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:DocumentFormat |
+| Active as of 2026-03-24 | *Computable Name*:DocumentFormat |
 
  
 Document format 
@@ -32,7 +32,7 @@ Document format
   "title" : "Ferlab.bio CodeSystem/document-format",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -46,6 +46,14 @@ Document format
   "content" : "complete",
   "count" : 11,
   "concept" : [{
+    "code" : "FASTQ",
+    "display" : "FASTQ File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "FASTQ"
+    }]
+  },
+  {
     "code" : "CRAM",
     "display" : "CRAM",
     "designation" : [{
@@ -86,14 +94,6 @@ Document format
     }]
   },
   {
-    "code" : "TGZ",
-    "display" : "TGZ Archive File",
-    "designation" : [{
-      "language" : "fr",
-      "value" : "TGZ"
-    }]
-  },
-  {
     "code" : "gVCF",
     "display" : "gVCF File",
     "designation" : [{
@@ -110,11 +110,19 @@ Document format
     }]
   },
   {
-    "code" : "BW",
-    "display" : "BW File",
+    "code" : "TGZ",
+    "display" : "TGZ Archive File",
     "designation" : [{
       "language" : "fr",
-      "value" : "BW"
+      "value" : "TGZ"
+    }]
+  },
+  {
+    "code" : "bigWig",
+    "display" : "bigWig File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "bigWig"
     }]
   },
   {
@@ -123,14 +131,6 @@ Document format
     "designation" : [{
       "language" : "fr",
       "value" : "BED"
-    }]
-  },
-  {
-    "code" : "FASTQ",
-    "display" : "FASTQ File",
-    "designation" : [{
-      "language" : "fr",
-      "value" : "FASTQ"
     }]
   }]
 }

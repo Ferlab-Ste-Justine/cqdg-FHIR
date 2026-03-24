@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/access-requirement-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:AccessRequirementVS |
+| Active as of 2026-03-24 | *Computable Name*:AccessRequirementVS |
 
  
 Requirements before access 
 
  **References** 
 
+* [Ferlab.bio Extension/access-requirement](StructureDefinition-AccessRequirements.md)
 * [Ferlab.bio Extension/access-requirement](StructureDefinition-AccessRequirements.md)
 
 ### Logical Definition (CLD)
@@ -50,7 +51,7 @@ Requirements before access
   "name" : "AccessRequirementVS",
   "title" : "Ferlab.bio ValueSet/access-requirement",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

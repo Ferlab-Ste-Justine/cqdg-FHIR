@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/data-collection-method-vs | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:DataCollectionMethodVS |
+| Active as of 2026-03-24 | *Computable Name*:DataCollectionMethodVS |
 
  
 Data Collection Method ValueSet 
@@ -17,6 +17,8 @@ Data Collection Method ValueSet
  **References** 
 
 * [Ferlab.bio Extension/data-collection-method](StructureDefinition-DataCollectionMethodExtension.md)
+* [Ferlab.bio Extension/data-collection-method](StructureDefinition-DataCollectionMethodExtension.md)
+* [Ferlab.bio StructureDefinition/cqdg-study](StructureDefinition-cqdg-research-study.md)
 * [Ferlab.bio StructureDefinition/cqdg-study](StructureDefinition-cqdg-research-study.md)
 
 ### Logical Definition (CLD)
@@ -51,7 +53,7 @@ Data Collection Method ValueSet
   "name" : "DataCollectionMethodVS",
   "title" : "Ferlab.bio ValueSet/data-collection-method",
   "status" : "active",
-  "date" : "2026-03-10T20:40:46+00:00",
+  "date" : "2026-03-24T15:55:50+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

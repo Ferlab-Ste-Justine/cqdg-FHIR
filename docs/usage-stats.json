@@ -447,6 +447,62 @@
       ]
     },
     {
+      "url": "https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension",
+      "title": "Ferlab.bio Extension/file-md5-sum",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",
       "title": "Ferlab.bio Extension/full-size",
       "types": [
@@ -2581,6 +2637,9 @@
     ],
     "https://fhir.cqdg.ca/StructureDefinition/DataCollectionMethodExtension": [
       "ResearchStudy"
+    ],
+    "https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension": [
+      "DocumentReference.content.attachment"
     ],
     "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension": [
       "DocumentReference.content.attachment"

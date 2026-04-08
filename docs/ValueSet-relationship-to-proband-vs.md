@@ -9,14 +9,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/relationship-to-proband-vs | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:RelationshipToProband |
+| Active as of 2026-04-08 | *Computable Name*:RelationshipToProband |
 
  
 Relationship To Proband ValueSet 
 
  **References** 
 
-* [Ferlab.bio StructureDefinition/family-relationship](StructureDefinition-CQDGObservationFamilyRelationship.md)
 * [Ferlab.bio StructureDefinition/family-relationship](StructureDefinition-CQDGObservationFamilyRelationship.md)
 
 ### Logical Definition (CLD)
@@ -51,7 +50,7 @@ Relationship To Proband ValueSet
   "name" : "RelationshipToProband",
   "title" : "Ferlab.bio ValueSet/relationship-to-proband",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

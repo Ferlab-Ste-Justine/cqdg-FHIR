@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/data-type-vs | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:DataTypeVS |
+| Active as of 2026-04-08 | *Computable Name*:DataTypeVS |
 
  
 Date Type ValueSet 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "DataTypeVS",
   "title" : "Ferlab.bio ValueSet/data-type",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -80,8 +80,8 @@
     "http://purl.obolibrary.org/obo/ncit.owl"],
     "uses" : {
     },
-    "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
     "StructureDefinition-CancerBiospecimenAnatomicLocation.html" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location",
+    "StructureDefinition-cqdg-specimen.html" : "Ferlab.bio StructureDefinition/cqdg-specimen",
     "StructureDefinition-TumorHistologicalType.html" : "Ferlab.bio Extension/tumor-histological-type"
   },
   {
@@ -106,8 +106,8 @@
     "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-category"],
     "uses" : {
     },
-    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-    "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category"
+    "StructureDefinition-DataCategoryExtension.html" : "Ferlab.bio Extension/data-category",
+    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
   },
   {
     "url" : "https://fhir.cqdg.ca/ValueSet/data-collection-method-vs",
@@ -119,8 +119,8 @@
     "systems" : ["https://fhir.cqdg.ca/CodeSystem/data-collection-method"],
     "uses" : {
     },
-    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-    "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method"
+    "StructureDefinition-DataCollectionMethodExtension.html" : "Ferlab.bio Extension/data-collection-method",
+    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
   },
   {
     "url" : "https://fhir.cqdg.ca/ValueSet/data-type-vs",
@@ -372,8 +372,8 @@
     "systems" : ["https://fhir.cqdg.ca/CodeSystem/study-design"],
     "uses" : {
     },
-    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study",
-    "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category"
+    "StructureDefinition-StudyDesignExtension.html" : "Ferlab.bio Extension/data-category",
+    "StructureDefinition-cqdg-research-study.html" : "Ferlab.bio StructureDefinition/cqdg-study"
   },
   {
     "url" : "https://fhir.cqdg.ca/ValueSet/study-vs",

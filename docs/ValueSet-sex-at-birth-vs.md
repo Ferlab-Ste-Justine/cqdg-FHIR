@@ -9,14 +9,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/sex-at-birth-vs | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:SexAtBirthVS |
+| Active as of 2026-04-08 | *Computable Name*:SexAtBirthVS |
 
  
 Sex At Birth ValueSet 
 
  **References** 
 
-* [Ferlab.bio Extension/sex-at-birth](StructureDefinition-SexAtBirth.md)
 * [Ferlab.bio Extension/sex-at-birth](StructureDefinition-SexAtBirth.md)
 
 ### Logical Definition (CLD)
@@ -51,7 +50,7 @@ Sex At Birth ValueSet
   "name" : "SexAtBirthVS",
   "title" : "Ferlab.bio ValueSet/sex-at-birth",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

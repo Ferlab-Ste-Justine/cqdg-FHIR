@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:FullSizeExtension |
+| Active as of 2026-04-08 | *Computable Name*:FullSizeExtension |
 
 Full Size Extension
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-FullSizeExtension.cs
   "name" : "FullSizeExtension",
   "title" : "Ferlab.bio Extension/full-size",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

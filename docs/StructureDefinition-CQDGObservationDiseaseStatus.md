@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/CQDGObservationDiseaseStatus | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:CQDGObservationDiseaseStatus |
+| Active as of 2026-04-08 | *Computable Name*:CQDGObservationDiseaseStatus |
 
  
 An example of a cqdg group 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-CQDGObservationDisea
   "name" : "CQDGObservationDiseaseStatus",
   "title" : "Ferlab.bio StructureDefinition/disease-status",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

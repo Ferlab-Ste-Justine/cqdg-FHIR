@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/gender-collection-method | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:GenderCollectionMethod |
+| Active as of 2026-04-08 | *Computable Name*:GenderCollectionMethod |
 
  
 This code system defines the possible methods by which a participant's gender information may be collected or recorded. 
@@ -32,7 +32,7 @@ This code system defines the possible methods by which a participant's gender in
   "title" : "Ferlab.bio CodeSystem/gender-collection-method",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

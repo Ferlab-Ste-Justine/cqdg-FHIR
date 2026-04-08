@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CQDG_FHIR_IG"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-24T15:55:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-08T14:48:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ferlab.bio" ] ;
@@ -685,7 +685,7 @@
        ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "hl7.fhir.uv.tools.r4#1.1.0"
+         fhir:v "hl7.fhir.uv.tools.r4#1.1.2"
        ]
      ] [
        fhir:extension ( [
@@ -2597,6 +2597,27 @@
        ] ;
        fhir:name [ fhir:v "Ferlab.bio Extension/expectedStudyContent" ] ;
        fhir:description [ fhir:v "dataset for cqdg project" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/FileMd5SumExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Ferlab.bio Extension/file-md5-sum" ] ;
+       fhir:description [ fhir:v "File MD5 Sum Extension" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

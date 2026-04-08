@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:SequencingExperimentExtension |
+| Active as of 2026-04-08 | *Computable Name*:SequencingExperimentExtension |
 
 Sequencing Experiment Extension
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
   "name" : "SequencingExperimentExtension",
   "title" : "Ferlab.bio StructureDefinition/sequencing-experiment",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

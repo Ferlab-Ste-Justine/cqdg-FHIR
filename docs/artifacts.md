@@ -47,6 +47,7 @@ These define constraints on FHIR data types for systems conforming to this imple
 | [Ferlab.bio Extension/data-collection-method](StructureDefinition-DataCollectionMethodExtension.md) | Describes the data collection methods for the study. |
 | [Ferlab.bio Extension/dataset](StructureDefinition-datasetExtension.md) | dataset for cqdg project |
 | [Ferlab.bio Extension/expectedStudyContent](StructureDefinition-expectedStudyContent.md) | dataset for cqdg project |
+| [Ferlab.bio Extension/file-md5-sum](StructureDefinition-FileMd5SumExtension.md) | File MD5 Sum Extension |
 | [Ferlab.bio Extension/full-size](StructureDefinition-FullSizeExtension.md) | Full Size Extension |
 | [Ferlab.bio Extension/gender](StructureDefinition-Gender.md) | gender for cqdg project |
 | [Ferlab.bio Extension/population-info](StructureDefinition-population-info.md) | Population Info Extension |

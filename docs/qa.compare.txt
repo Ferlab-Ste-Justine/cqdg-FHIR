@@ -1,7 +1,7 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 65, warn = 150, info = 18
+err = 65, warn = 151, info = 18
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
@@ -67,6 +67,7 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenType : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FileMd5SumExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Gender : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-QCEthnicity : 0 / 1 / 1
@@ -371,6 +372,8 @@ WARNING: StructureDefinition/CancerBiospecimenType: StructureDefinition.context[
 WARNING: StructureDefinition/DataCategoryExtension: StructureDefinition.context[0]: Review the extension type for DataCategoryExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension.json ==
 WARNING: StructureDefinition/DataCollectionMethodExtension: StructureDefinition.context[0]: Review the extension type for DataCollectionMethodExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-FileMd5SumExtension.json ==
+WARNING: StructureDefinition/FileMd5SumExtension: StructureDefinition.context[0]: Review the extension type for FileMd5SumExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-FullSizeExtension.json ==
 WARNING: StructureDefinition/FullSizeExtension: StructureDefinition.context[0]: Review the extension type for FullSizeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-Gender.json ==

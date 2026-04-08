@@ -335,6 +335,13 @@
   "name" : "DataCollectionMethodExtension"
 },
 {
+  "id" : "FileMd5SumExtension",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension",
+  "version" : "0.1.0",
+  "name" : "FileMd5SumExtension"
+},
+{
   "id" : "FullSizeExtension",
   "type" : "StructureDefinition",
   "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension",

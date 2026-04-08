@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/data-category-vs | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:DataCategoryVS |
+| Active as of 2026-04-08 | *Computable Name*:DataCategoryVS |
 
  
 Data Category ValueSet 
@@ -17,8 +17,6 @@ Data Category ValueSet
  **References** 
 
 * [Ferlab.bio Extension/data-category](StructureDefinition-DataCategoryExtension.md)
-* [Ferlab.bio Extension/data-category](StructureDefinition-DataCategoryExtension.md)
-* [Ferlab.bio StructureDefinition/cqdg-study](StructureDefinition-cqdg-research-study.md)
 * [Ferlab.bio StructureDefinition/cqdg-study](StructureDefinition-cqdg-research-study.md)
 
 ### Logical Definition (CLD)
@@ -53,7 +51,7 @@ Data Category ValueSet
   "name" : "DataCategoryVS",
   "title" : "Ferlab.bio ValueSet/data-category",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

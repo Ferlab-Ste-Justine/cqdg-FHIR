@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg | *Version*:0.1.0 |
-| Active as of 2026-03-24 | *Computable Name*:CQDG_FHIR_IG |
+| Active as of 2026-04-08 | *Computable Name*:CQDG_FHIR_IG |
 
 ### Description
 
@@ -42,7 +42,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-03-24T15:55:50+00:00",
+  "date" : "2026-04-08T14:48:38+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -358,7 +358,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
     },
     {
       "extension" : [{
@@ -1377,6 +1377,18 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
       },
       "name" : "Ferlab.bio Extension/expectedStudyContent",
       "description" : "dataset for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/FileMd5SumExtension"
+      },
+      "name" : "Ferlab.bio Extension/file-md5-sum",
+      "description" : "File MD5 Sum Extension",
       "exampleBoolean" : false
     },
     {

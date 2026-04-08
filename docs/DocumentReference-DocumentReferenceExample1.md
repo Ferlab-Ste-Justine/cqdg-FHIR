@@ -25,7 +25,7 @@ Tags: CAG (Details: [not stated] code CAG), dataset: ds_name 1 (Details: Ferlab.
 | | | | |
 | :--- | :--- | :--- | :--- |
 | - | **Extension** | **ContentType** | **Url** |
-| * |  | application/octet-stream | [https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681](https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&canonical=https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681) |
+| * | , | application/octet-stream | [https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681](https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&canonical=https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681) |
 
 **format**: [Ferlab.bio CodeSystem/document-format: TGZ](CodeSystem-document-format.md#document-format-TGZ) (TGZ Archive File)
 
@@ -80,6 +80,10 @@ Tags: CAG (Details: [not stated] code CAG), dataset: ds_name 1 (Details: Ferlab.
     "attachment" : {
       "extension" : [{
         "url" : "https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension"
+      },
+      {
+        "url" : "https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension",
+        "valueString" : "5d41402abc4b2a76b9719d911017c592"
       }],
       "contentType" : "application/octet-stream",
       "url" : "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"

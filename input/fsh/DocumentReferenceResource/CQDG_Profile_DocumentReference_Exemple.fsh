@@ -15,6 +15,7 @@ Usage: #example
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal
+* content.attachment.extension[FileMd5SumExtension].valueString = "5d41402abc4b2a76b9719d911017c592"
 * content.attachment.contentType = #application/octet-stream
 * content.attachment.url = "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
 * content.format = https://fhir.cqdg.ca/CodeSystem/document-format#TGZ "TGZ Archive File"
@@ -38,6 +39,7 @@ Usage: #example
 * category = https://fhir.cqdg.ca/CodeSystem/data-category#genomics "Genomics"
 * subject = Reference(Patient/PatientExample)
 * content.attachment.extension[FullSizeExtension].valueDecimal = 22799222
+* content.attachment.extension[FileMd5SumExtension].valueString = "098f6bcd4621d373cade4e832627b4f6"
 * content.attachment.contentType = #application/octet-stream
 * content.attachment.url = "https://ferload.qa.cqgc.hsj.rtss.qc.ca/blue/0cdf0811-d528-466b-9b55-1abcbfc9f681"
 * content.format = https://fhir.cqdg.ca/CodeSystem/document-format#TGZ "TGZ Archive File"

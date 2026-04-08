@@ -529,6 +529,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/FileMd5SumExtension"
+        },
+        "name": "Ferlab.bio Extension/file-md5-sum",
+        "description": "File MD5 Sum Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/FullSizeExtension"
         },
         "name": "Ferlab.bio Extension/full-size",

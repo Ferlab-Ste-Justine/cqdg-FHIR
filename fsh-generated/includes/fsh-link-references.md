@@ -60,6 +60,7 @@
 [DataCollectionMethodExtension]: StructureDefinition-DataCollectionMethodExtension.html
 [Dataset]: StructureDefinition-datasetExtension.html
 [ResearchStudyExpectedContent]: StructureDefinition-expectedStudyContent.html
+[FileMd5SumExtension]: StructureDefinition-FileMd5SumExtension.html
 [FullSizeExtension]: StructureDefinition-FullSizeExtension.html
 [Gender]: StructureDefinition-Gender.html
 [PopulationInfo]: StructureDefinition-population-info.html

@@ -8,6 +8,19 @@
   "url": "https://fhir.cqdg.ca/CodeSystem/genome-build",
   "concept": [
     {
+      "code": "GRCh37",
+      "display": "GRCh37",
+      "designation": [
+        {
+          "use": {
+            "code": "GRCh37",
+            "system": "https://fhir.cqdg.ca/CodeSystem/genome-build"
+          },
+          "value": "GRCh37"
+        }
+      ]
+    },
+    {
       "code": "GRCh38",
       "display": "GRCh38",
       "designation": [
@@ -24,5 +37,5 @@
   "experimental": false,
   "description": "Genome build",
   "caseSensitive": true,
-  "count": 1
+  "count": 2
 }

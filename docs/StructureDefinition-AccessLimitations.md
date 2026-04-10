@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AccessLimitations | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:AccessLimitations |
+| Active as of 2026-04-10 | *Computable Name*:AccessLimitations |
 
 Limitation of access to studies.
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-AccessLimitations.cs
   "name" : "AccessLimitations",
   "title" : "Ferlab.bio Extension/access-limitations",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

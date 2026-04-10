@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-condition | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:CQDG_Condition |
+| Active as of 2026-04-10 | *Computable Name*:CQDG_Condition |
 
  
 A condition in CQDG 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-condition.csv),
   "name" : "CQDG_Condition",
   "title" : "Ferlab.bio StructureDefinition/cqdg-condition",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

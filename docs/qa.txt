@@ -1,9 +1,9 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 65, warn = 151, info = 18
+err = 65, warn = 157, info = 18
 IG Publisher Version: 2.2.5
-Generated Wed Apr 08 14:50:53 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
+Generated Fri Apr 10 13:56:29 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
@@ -58,11 +58,11 @@ Generated Wed Apr 08 14:50:53 UTC 2026. FHIR version 4.0.1 for fhir.cqdg#0.1.0 (
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtRecruitment : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeOfDeath : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 4 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus : 0 / 0 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenType : 0 / 1 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 1
@@ -356,13 +356,19 @@ WARNING: StructureDefinition/AgeAtEvent: StructureDefinition.context[0]: Review 
 INFORMATION: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[12].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[47].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs'
 WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs'
+WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[5].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[47].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship.json ==
 == fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype.json ==
+WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[5].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[47].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
 == fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation.json ==
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
+WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
+WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation.json ==
 WARNING: StructureDefinition/CancerBiospecimenAnatomicLocation: StructureDefinition.context[0]: Review the extension type for CancerBiospecimenAnatomicLocation: extensions should not have a context of Element unless it's really intended that they can be used anywhere

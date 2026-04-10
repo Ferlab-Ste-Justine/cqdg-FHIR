@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:ExperimentalStrategyVS |
+| Active as of 2026-04-10 | *Computable Name*:ExperimentalStrategyVS |
 
  
 Experimental Strategy ValueSet 
@@ -50,7 +50,7 @@ Experimental Strategy ValueSet
   "name" : "ExperimentalStrategyVS",
   "title" : "Ferlab.bio ValueSet/experimental-strategy",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

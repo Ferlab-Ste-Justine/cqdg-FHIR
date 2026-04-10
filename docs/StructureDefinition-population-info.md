@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/population-info | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:PopulationInfo |
+| Active as of 2026-04-10 | *Computable Name*:PopulationInfo |
 
 Population Info Extension
 
@@ -48,7 +48,7 @@ Other representations of profile: [CSV](StructureDefinition-population-info.csv)
   "name" : "PopulationInfo",
   "title" : "Ferlab.bio Extension/population-info",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

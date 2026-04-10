@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/family-type-vs | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:FamilyTypeVS |
+| Active as of 2026-04-10 | *Computable Name*:FamilyTypeVS |
 
  
 Family Type ValueSet 
@@ -50,7 +50,7 @@ Family Type ValueSet
   "name" : "FamilyTypeVS",
   "title" : "Ferlab.bio ValueSet/family-type",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

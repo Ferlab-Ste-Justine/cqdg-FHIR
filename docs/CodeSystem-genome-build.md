@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/genome-build | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:GenomeBuild |
+| Active as of 2026-04-10 | *Computable Name*:GenomeBuild |
 
  
 Genome build 
@@ -32,7 +32,7 @@ Genome build
   "title" : "Ferlab.bio CodeSystem/genome-build",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,8 +44,19 @@ Genome build
   "description" : "Genome build",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 1,
+  "count" : 2,
   "concept" : [{
+    "code" : "GRCh37",
+    "display" : "GRCh37",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+        "code" : "GRCh37"
+      },
+      "value" : "GRCh37"
+    }]
+  },
+  {
     "code" : "GRCh38",
     "display" : "GRCh38",
     "designation" : [{

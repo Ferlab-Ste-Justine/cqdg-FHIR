@@ -3,7 +3,7 @@
   "id" : "genome-build",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem genome-build</b></p><a name=\"genome-build\"> </a><a name=\"hcgenome-build\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem genome-build</b></p><a name=\"genome-build\"> </a><a name=\"hcgenome-build\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/genome-build</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh37<a name=\"genome-build-GRCh37\"> </a></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/genome-build",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -23,8 +23,19 @@
   "description" : "Genome build",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 1,
+  "count" : 2,
   "concept" : [{
+    "code" : "GRCh37",
+    "display" : "GRCh37",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/genome-build",
+        "code" : "GRCh37"
+      },
+      "value" : "GRCh37"
+    }]
+  },
+  {
     "code" : "GRCh38",
     "display" : "GRCh38",
     "designation" : [{

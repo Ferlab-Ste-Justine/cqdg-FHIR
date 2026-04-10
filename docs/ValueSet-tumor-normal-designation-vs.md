@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/tumor-normal-designation-vs | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:TumorNormalDesignationVS |
+| Active as of 2026-04-10 | *Computable Name*:TumorNormalDesignationVS |
 
  
 Tumor Normal Designation ValueSet 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "TumorNormalDesignationVS",
   "title" : "Ferlab.bio ValueSet/tumor-normal-designation",
   "status" : "active",
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

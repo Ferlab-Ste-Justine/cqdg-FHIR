@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code | *Version*:0.1.0 |
-| Active as of 2026-04-08 | *Computable Name*:CQDGObservationCode |
+| Active as of 2026-04-10 | *Computable Name*:CQDGObservationCode |
 
  
 CQDG Observation codes 
@@ -32,7 +32,7 @@ CQDG Observation codes
   "title" : "Ferlab.bio CodeSystem/cqdg-observation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-08T14:48:38+00:00",
+  "date" : "2026-04-10T13:54:16+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

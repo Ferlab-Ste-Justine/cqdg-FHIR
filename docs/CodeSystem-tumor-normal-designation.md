@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:TumorNormalDesignationCodeSystem |
+| Active as of 2026-04-21 | *Computable Name*:TumorNormalDesignationCodeSystem |
 
  
 Tumor normal designation 
@@ -33,7 +33,7 @@ Tumor normal designation
   "title" : "Ferlab.bio CodeSystem/tumor-normal-designation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/QCEthnicity | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:QCEthnicity |
+| Active as of 2026-04-21 | *Computable Name*:QCEthnicity |
 
 qc ethnicity for cqdg project
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-QCEthnicity.csv), [E
   "name" : "QCEthnicity",
   "title" : "Ferlab.bio Extension/qc-ethnicity",
   "status" : "active",
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:BioinfoAnalysisCode |
+| Active as of 2026-04-21 | *Computable Name*:BioinfoAnalysisCode |
 
  
 Bioinformatics analysis code 
@@ -32,7 +32,7 @@ Bioinformatics analysis code
   "title" : "Ferlab.bio CodeSystem/bioinformatics-analysis",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

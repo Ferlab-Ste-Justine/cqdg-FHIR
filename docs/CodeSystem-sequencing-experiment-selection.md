@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:SequencingExperimentSelection |
+| Active as of 2026-04-21 | *Computable Name*:SequencingExperimentSelection |
 
  
 Library selection method 
@@ -32,7 +32,7 @@ Library selection method
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-specimen-tissue-source-vs | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:CQDGSpecimenTissueSourceVS |
+| Active as of 2026-04-21 | *Computable Name*:CQDGSpecimenTissueSourceVS |
 
  
 ValueSet for specimen tissue source including NCIT and missing codes 
@@ -54,7 +54,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "CQDGSpecimenTissueSourceVS",
   "title" : "CQDG Specimen Tissue Source ValueSet",
   "status" : "active",
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

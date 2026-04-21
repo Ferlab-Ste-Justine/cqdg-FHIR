@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/study-vs | *Version*:0.1.0 |
-| Active as of 2026-04-10 | *Computable Name*:StudyVS |
+| Active as of 2026-04-21 | *Computable Name*:StudyVS |
 
  
 Study ValueSet 
@@ -50,7 +50,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "StudyVS",
   "title" : "Ferlab.bio ValueSet/cqdg-study",
   "status" : "active",
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

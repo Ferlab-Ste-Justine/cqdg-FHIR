@@ -3,7 +3,7 @@
   "id" : "data-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Laboratory-Values<a name=\"data-type-Laboratory-Values\"> </a></td><td>Laboratory Values</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-10T13:54:16+00:00",
+  "date" : "2026-04-21T17:45:58+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -23,7 +23,7 @@
   "description" : "Data Type",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 15,
+  "count" : 16,
   "concept" : [{
     "code" : "Raw-Sequencing-Reads",
     "display" : "Raw Sequencing Reads",
@@ -187,6 +187,17 @@
         "code" : "IGV"
       },
       "value" : "IGV"
+    }]
+  },
+  {
+    "code" : "Laboratory-Values",
+    "display" : "Laboratory Values",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Laboratory-Values"
+      },
+      "value" : "Laboratory Values"
     }]
   }]
 }

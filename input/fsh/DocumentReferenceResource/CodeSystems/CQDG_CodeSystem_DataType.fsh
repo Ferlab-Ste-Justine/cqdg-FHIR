@@ -66,3 +66,7 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"IGV" "IGV"
 * #"IGV" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#IGV
 * #"IGV" ^designation.value = "IGV"
+
+* #"Laboratory-Values" "Laboratory Values"
+* #"Laboratory-Values" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Laboratory-Values
+* #"Laboratory-Values" ^designation.value = "Laboratory Values"

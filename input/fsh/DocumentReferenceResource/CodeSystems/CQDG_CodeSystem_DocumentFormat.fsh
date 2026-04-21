@@ -50,3 +50,7 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"BED" "BED File"
 * #"BED" ^designation.language = #fr
 * #"BED" ^designation.value = "BED"
+
+* #"CSV" "CSV File"
+* #"CSV" ^designation.language = #fr
+* #"CSV" ^designation.value = "CSV"

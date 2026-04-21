@@ -201,10 +201,23 @@
           "value": "IGV"
         }
       ]
+    },
+    {
+      "code": "Laboratory-Values",
+      "display": "Laboratory Values",
+      "designation": [
+        {
+          "use": {
+            "code": "Laboratory-Values",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Laboratory Values"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Data Type",
   "caseSensitive": true,
-  "count": 15
+  "count": 16
 }

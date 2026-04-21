@@ -116,10 +116,20 @@
           "value": "BED"
         }
       ]
+    },
+    {
+      "code": "CSV",
+      "display": "CSV File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CSV"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Document format",
   "caseSensitive": true,
-  "count": 11
+  "count": 12
 }

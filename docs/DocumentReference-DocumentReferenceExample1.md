@@ -6,7 +6,7 @@
 
 ## Example DocumentReference: Ferlab.bio Example/cqdg-document-reference1
 
-Tags: CAG (Details: [not stated] code CAG), dataset: ds_name 1 (Details: Ferlab.bio CodeSystem/cqdg-dataset code dataset: ds_name 1)
+Tags: , [dataset: ds_name 1 (Details: Ferlab.bio CodeSystem/cqdg-dataset code dataset: ds_name 1)](CodeSystem-cqdg-dataset-cs.md)
 
 **status**: Current
 

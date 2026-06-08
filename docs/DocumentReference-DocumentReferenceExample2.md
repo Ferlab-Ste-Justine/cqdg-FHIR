@@ -6,7 +6,7 @@
 
 ## Example DocumentReference: Ferlab.bio Example/cqdg-document-reference2
 
-Tag: CAG (Details: [not stated] code CAG)
+Tag: 
 
 **status**: Current
 

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDGResearchStudy |
+| Active as of 2026-06-08 | *Computable Name*:CQDGResearchStudy |
 
  
 A research study in CQDG 
@@ -18,7 +18,7 @@ A research study in CQDG
 
 * Examples for this Profile: [ResearchStudy/ResearchStudyExample](ResearchStudy-ResearchStudyExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/cqdg-research-study)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-cqdg-research-study.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-research-study.
   "name" : "CQDGResearchStudy",
   "title" : "Ferlab.bio StructureDefinition/cqdg-study",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/Race | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:Race |
+| Active as of 2026-06-08 | *Computable Name*:Race |
 
 race for cqdg project
 
@@ -22,7 +22,7 @@ race for cqdg project
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-patient](StructureDefinition-cqdg-patient.md)
 * Examples for this Extension: [Patient/PatientExample](Patient-PatientExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/Race)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-Race.json)
 
 ### Formal Views of Extension Content
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-Race.csv), [Excel](S
   "name" : "Race",
   "title" : "Ferlab.bio Extension/race",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

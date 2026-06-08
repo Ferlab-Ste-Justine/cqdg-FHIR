@@ -8,7 +8,7 @@
 
 Profiles: [Ferlab.bio StructureDefinition/cqdg-group](StructureDefinition-cqdg-group.md), [https://fhir.cqdg.ca/StructureDefinition/CQDGGroup](https://simplifier.net/resolve?scope=hl7.fhir.ca.baseline@1.0.2&canonical=https://fhir.cqdg.ca/StructureDefinition/CQDGGroup)
 
-Tag: CAG (Details: [not stated] code CAG)
+Tag: 
 
 **identifier**: ?ngen-9? (use: official, )
 

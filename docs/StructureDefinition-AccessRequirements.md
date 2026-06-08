@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AccessRequirements | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:AccessRequirements |
+| Active as of 2026-06-08 | *Computable Name*:AccessRequirements |
 
 Requirements to access to studies.
 
@@ -22,7 +22,7 @@ Requirements to access to studies.
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-study](StructureDefinition-cqdg-research-study.md)
 * Examples for this Extension: [ResearchStudy/ResearchStudyExample](ResearchStudy-ResearchStudyExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/AccessRequirements)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-AccessRequirements.json)
 
 ### Formal Views of Extension Content
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-AccessRequirements.c
   "name" : "AccessRequirements",
   "title" : "Ferlab.bio Extension/access-requirement",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

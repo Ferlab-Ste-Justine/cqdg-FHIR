@@ -8,7 +8,7 @@
 
 Profile: [Ferlab.bio StructureDefinition/cqdg-patient](StructureDefinition-cqdg-patient.md)
 
-Tags: CAG (Details: [not stated] code CAG), tag2 (Details: [not stated] code tag2)
+Tags: , 
 
 Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))
 

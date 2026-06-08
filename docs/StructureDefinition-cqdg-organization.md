@@ -9,16 +9,16 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-organization | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDGOrganization |
+| Active as of 2026-06-08 | *Computable Name*:CQDGOrganization |
 
  
 A CQDG organization 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* This Profile is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/cqdg-organization)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-cqdg-organization.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-organization.cs
   "name" : "CQDGOrganization",
   "title" : "Ferlab.bio StructureDefinition/cqdg-organization",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

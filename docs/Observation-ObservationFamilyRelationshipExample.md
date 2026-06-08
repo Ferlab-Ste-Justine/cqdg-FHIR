@@ -8,7 +8,7 @@
 
 Profile: [Ferlab.bio StructureDefinition/family-relationship](StructureDefinition-CQDGObservationFamilyRelationship.md)
 
-Tags: tag1 (Details: [not stated] code tag1), tag2 (Details: [not stated] code tag2)
+Tags: , 
 
 **status**: Registered
 

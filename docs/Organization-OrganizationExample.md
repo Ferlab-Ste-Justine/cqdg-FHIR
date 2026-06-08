@@ -6,7 +6,7 @@
 
 ## Example Organization: Ferlab.bio Example/cqdg-organization
 
-Tag: CAG (Details: [not stated] code CAG)
+Tag: 
 
 **name**: CQDG
 

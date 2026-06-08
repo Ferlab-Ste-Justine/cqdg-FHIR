@@ -8,7 +8,7 @@
 
 Profile: [Ferlab.bio StructureDefinition/cqdg-condition](StructureDefinition-cqdg-condition.md)
 
-Tag: CAG (Details: [not stated] code CAG)
+Tag: 
 
 **Ferlab.bio Extension/age-at-event**: HP:0030674
 

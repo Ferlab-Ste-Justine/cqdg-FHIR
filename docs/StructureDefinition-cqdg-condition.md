@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-condition | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDG_Condition |
+| Active as of 2026-06-08 | *Computable Name*:CQDG_Condition |
 
  
 A condition in CQDG 
@@ -18,7 +18,7 @@ A condition in CQDG
 
 * Examples for this Profile: [Condition/ConditionExample](Condition-ConditionExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/cqdg-condition)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-cqdg-condition.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-condition.csv),
   "name" : "CQDG_Condition",
   "title" : "Ferlab.bio StructureDefinition/cqdg-condition",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

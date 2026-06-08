@@ -58,6 +58,7 @@ These define constraints on FHIR data types for systems conforming to this imple
 | [Ferlab.bio Extension/research-program-partner](StructureDefinition-research-program-partner.md) | Partner details for a research program. |
 | [Ferlab.bio Extension/research-program-related-artifact](StructureDefinition-research-program-related-artifact.md) | Represents a related artifact for a research program. |
 | [Ferlab.bio Extension/sex-at-birth](StructureDefinition-SexAtBirth.md) | Sex at birth for cqdg project |
+| [Ferlab.bio Extension/stable-file-id](StructureDefinition-StableFileIdExtension.md) | Stable path-based file identifier (FH) |
 | [Ferlab.bio Extension/tumor-histological-type](StructureDefinition-TumorHistologicalType.md) | tumor histological type for cqdg project |
 | [Ferlab.bio Extension/tumor-normal-designation](StructureDefinition-TumorNormalDesignation.md) | tumor normal designation for cqdg project |
 | [Ferlab.bio Extension/vital-status](StructureDefinition-VitalStatus.md) | vital status for cqdg project |

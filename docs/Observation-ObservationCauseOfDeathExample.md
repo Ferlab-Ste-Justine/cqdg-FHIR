@@ -8,7 +8,7 @@
 
 Profile: [Ferlab.bio StructureDefinition/cause-of-death](StructureDefinition-CQDGObservationCauseOfDeath.md)
 
-Tags: tag1 (Details: [not stated] code tag1), tag2 (Details: [not stated] code tag2)
+Tags: , 
 
 **status**: Registered
 

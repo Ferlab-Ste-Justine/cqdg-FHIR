@@ -8,7 +8,7 @@
 
 Profile: [Ferlab.bio StructureDefinition/cqdg-specimen](StructureDefinition-cqdg-specimen.md)
 
-Tag: CAG (Details: [not stated] code CAG)
+Tag: 
 
 **Ferlab.bio Extension/tumor-normal-designation**: Tumor
 

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/QCEthnicity | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:QCEthnicity |
+| Active as of 2026-06-08 | *Computable Name*:QCEthnicity |
 
 qc ethnicity for cqdg project
 
@@ -22,7 +22,7 @@ qc ethnicity for cqdg project
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-patient](StructureDefinition-cqdg-patient.md)
 * Examples for this Extension: [Patient/PatientExample](Patient-PatientExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/QCEthnicity)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-QCEthnicity.json)
 
 ### Formal Views of Extension Content
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-QCEthnicity.csv), [E
   "name" : "QCEthnicity",
   "title" : "Ferlab.bio Extension/qc-ethnicity",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

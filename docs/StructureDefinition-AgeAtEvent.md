@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AgeAtEvent | *Version*:0.1.0 |
-| Draft as of 2026-04-21 | *Computable Name*:AgeAtEvent |
+| Draft as of 2026-06-08 | *Computable Name*:AgeAtEvent |
 
 Patient's age (in days since birth) at the time of death
 
@@ -22,7 +22,7 @@ Patient's age (in days since birth) at the time of death
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-condition](StructureDefinition-cqdg-condition.md) and [Ferlab.bio StructureDefinition/cqdg-specimen](StructureDefinition-cqdg-specimen.md)
 * Examples for this Extension: [Condition/ConditionExample](Condition-ConditionExample.md) and [Specimen/SpecimenExample](Specimen-SpecimenExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/AgeAtEvent)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-AgeAtEvent.json)
 
 ### Formal Views of Extension Content
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-AgeAtEvent.csv), [Ex
   "name" : "AgeAtEvent",
   "title" : "Ferlab.bio Extension/age-at-event",
   "status" : "draft",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/CQDGObservationCauseOfDeath | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDGObservationCauseOfDeath |
+| Active as of 2026-06-08 | *Computable Name*:CQDGObservationCauseOfDeath |
 
  
 An example of a cqdg Observation (cause of death) 
@@ -18,7 +18,7 @@ An example of a cqdg Observation (cause of death)
 
 * Examples for this Profile: [Observation/ObservationCauseOfDeathExample](Observation-ObservationCauseOfDeathExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/CQDGObservationCauseOfDeath)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-CQDGObservationCauseOfDeath.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-CQDGObservationCause
   "name" : "CQDGObservationCauseOfDeath",
   "title" : "Ferlab.bio StructureDefinition/cause-of-death",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

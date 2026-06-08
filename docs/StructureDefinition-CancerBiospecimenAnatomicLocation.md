@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/CancerBiospecimenAnatomicLocation | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CancerBiospecimenAnatomicLocation |
+| Active as of 2026-06-08 | *Computable Name*:CancerBiospecimenAnatomicLocation |
 
 cancer biospecimen anatomic location for cqdg project
 
@@ -22,7 +22,7 @@ cancer biospecimen anatomic location for cqdg project
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-specimen](StructureDefinition-cqdg-specimen.md)
 * Examples for this Extension: [Specimen/SpecimenExample](Specimen-SpecimenExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/CancerBiospecimenAnatomicLocation)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-CancerBiospecimenAnatomicLocation.json)
 
 ### Formal Views of Extension Content
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-CancerBiospecimenAna
   "name" : "CancerBiospecimenAnatomicLocation",
   "title" : "Ferlab.bio Extension/cancer-biospecimen-anatomic-location",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

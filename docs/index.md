@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ImplementationGuide/fhir.cqdg | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDG_FHIR_IG |
+| Active as of 2026-06-08 | *Computable Name*:CQDG_FHIR_IG |
 
 ### Description
 
@@ -42,7 +42,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -72,7 +72,7 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0"
   },
   {
     "id" : "hl7_fhir_ca_baseline",
@@ -1509,6 +1509,18 @@ Adrian Paul [adipaul1981](https://github.com/adipaul1981) Vincent Ferretti [vfer
       },
       "name" : "Ferlab.bio Extension/sex-at-birth",
       "description" : "Sex at birth for cqdg project",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/StableFileIdExtension"
+      },
+      "name" : "Ferlab.bio Extension/stable-file-id",
+      "description" : "Stable path-based file identifier (FH)",
       "exampleBoolean" : false
     },
     {

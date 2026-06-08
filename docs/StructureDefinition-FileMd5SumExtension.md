@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/FileMd5SumExtension | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:FileMd5SumExtension |
+| Active as of 2026-06-08 | *Computable Name*:FileMd5SumExtension |
 
 File MD5 Sum Extension
 
@@ -21,7 +21,7 @@ File MD5 Sum Extension
 
 * Examples for this Extension: [DocumentReference/DocumentReferenceExample1](DocumentReference-DocumentReferenceExample1.md) and [DocumentReference/DocumentReferenceExample2](DocumentReference-DocumentReferenceExample2.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/FileMd5SumExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-FileMd5SumExtension.json)
 
 ### Formal Views of Extension Content
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-FileMd5SumExtension.
   "name" : "FileMd5SumExtension",
   "title" : "Ferlab.bio Extension/file-md5-sum",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

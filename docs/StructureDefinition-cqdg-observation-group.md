@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group | *Version*:0.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:CQDGObservationGroup |
+| Active as of 2026-06-08 | *Computable Name*:CQDGObservationGroup |
 
  
 An example of a cqdg group 
@@ -18,7 +18,7 @@ An example of a cqdg group
 
 * Derived from this Profile: [Ferlab.bio StructureDefinition/cause-of-death](StructureDefinition-CQDGObservationCauseOfDeath.md), [Ferlab.bio StructureDefinition/disease-status](StructureDefinition-CQDGObservationDiseaseStatus.md), [Ferlab.bio StructureDefinition/family-relationship](StructureDefinition-CQDGObservationFamilyRelationship.md), [Ferlab.bio StructureDefinition/phenotype](StructureDefinition-CQDGObservationPhenotype.md) and [Ferlab.bio StructureDefinition/tumor-normal-designation](StructureDefinition-CQDGObservationTumorNormalDesignation.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/cqdg-observation-group)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-cqdg-observation-group.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-observation-gro
   "name" : "CQDGObservationGroup",
   "title" : "Ferlab.bio StructureDefinition/cqdg-observation",
   "status" : "active",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

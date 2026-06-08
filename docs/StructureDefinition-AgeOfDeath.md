@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath | *Version*:0.1.0 |
-| Draft as of 2026-04-21 | *Computable Name*:AgeOfDeath |
+| Draft as of 2026-06-08 | *Computable Name*:AgeOfDeath |
 
 Patient's age (in days since birth) at the time of death
 
@@ -22,7 +22,7 @@ Patient's age (in days since birth) at the time of death
 * Use this Extension: [Ferlab.bio StructureDefinition/cqdg-patient](StructureDefinition-cqdg-patient.md)
 * Examples for this Extension: [Patient/PatientExample](Patient-PatientExample.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/fhir.cqdg|current/StructureDefinition/AgeOfDeath)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-AgeOfDeath.json)
 
 ### Formal Views of Extension Content
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-AgeOfDeath.csv), [Ex
   "name" : "AgeOfDeath",
   "title" : "Ferlab.bio Extension/age-of-death",
   "status" : "draft",
-  "date" : "2026-04-21T17:45:58+00:00",
+  "date" : "2026-06-08T17:19:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

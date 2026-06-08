@@ -617,6 +617,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/StableFileIdExtension"
+        },
+        "name": "Ferlab.bio Extension/stable-file-id",
+        "description": "Stable path-based file identifier (FH)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/TumorHistologicalType"
         },
         "name": "Ferlab.bio Extension/tumor-histological-type",

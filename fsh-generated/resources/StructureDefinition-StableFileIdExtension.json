@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "StableFileIdExtension",
+  "url": "https://fhir.cqdg.ca/StructureDefinition/StableFileIdExtension",
+  "name": "StableFileIdExtension",
+  "title": "Ferlab.bio Extension/stable-file-id",
+  "status": "active",
+  "description": "Stable path-based file identifier (FH)",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Ferlab.bio Extension/stable-file-id",
+        "definition": "Stable path-based file identifier (FH)"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.cqdg.ca/StructureDefinition/StableFileIdExtension"
+      }
+    ]
+  }
+}

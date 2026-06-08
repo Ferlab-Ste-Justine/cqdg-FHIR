@@ -71,6 +71,7 @@
 [ResearchProgramPartner]: StructureDefinition-research-program-partner.html
 [ResearchProgramRelatedArtifact]: StructureDefinition-research-program-related-artifact.html
 [SexAtBirth]: StructureDefinition-SexAtBirth.html
+[StableFileIdExtension]: StructureDefinition-StableFileIdExtension.html
 [TumorHistologicalType]: StructureDefinition-TumorHistologicalType.html
 [TumorNormalDesignation]: StructureDefinition-TumorNormalDesignation.html
 [VitalStatus]: StructureDefinition-VitalStatus.html

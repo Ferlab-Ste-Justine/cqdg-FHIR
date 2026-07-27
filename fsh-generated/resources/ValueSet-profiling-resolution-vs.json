@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ProfilingResolutionVS",
+  "id": "profiling-resolution-vs",
+  "title": "Profiling Resolution",
+  "description": "Profiling Resolution ValueSet",
+  "url": "https://fhir.cqdg.ca/ValueSet/profiling-resolution-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+      }
+    ]
+  }
+}

@@ -54,3 +54,39 @@ Title: "Ferlab.bio CodeSystem/document-format"
 * #"CSV" "CSV File"
 * #"CSV" ^designation.language = #fr
 * #"CSV" ^designation.value = "CSV"
+
+* #"TSV" "TSV File"
+* #"TSV" ^designation.language = #fr
+* #"TSV" ^designation.value = "TSV"
+
+* #"POD5" "POD5 File"
+* #"POD5" ^designation.language = #fr
+* #"POD5" ^designation.value = "POD5"
+
+* #"HDF5" "HDF5 File"
+* #"HDF5" ^designation.language = #fr
+* #"HDF5" ^designation.value = "HDF5"
+
+* #"cloupe" "cloupe File"
+* #"cloupe" ^designation.language = #fr
+* #"cloupe" ^designation.value = "cloupe"
+
+* #"GFF" "GFF File"
+* #"GFF" ^designation.language = #fr
+* #"GFF" ^designation.value = "GFF"
+
+* #"GTF" "GTF File"
+* #"GTF" ^designation.language = #fr
+* #"GTF" ^designation.value = "GTF"
+
+* #"FAM" "FAM Pedigree File"
+* #"FAM" ^designation.language = #fr
+* #"FAM" ^designation.value = "FAM"
+
+* #"HTML" "HTML File"
+* #"HTML" ^designation.language = #fr
+* #"HTML" ^designation.value = "HTML"
+
+* #"JSON" "JSON File"
+* #"JSON" ^designation.language = #fr
+* #"JSON" ^designation.value = "JSON"

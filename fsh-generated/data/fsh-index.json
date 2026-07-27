@@ -13,7 +13,7 @@
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_BioinfoAnalysisCode.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 48
   },
   {
     "outputFile": "CodeSystem-cause-of-death-codes.json",
@@ -21,7 +21,7 @@
     "fshType": "CodeSystem",
     "fshFile": "ObservationResource/CodeSystems/CQDG_CodeSystem_CauseOfDeath.fsh",
     "startLine": 1,
-    "endLine": 41
+    "endLine": 49
   },
   {
     "outputFile": "CodeSystem-cqdg-dataset-cs.json",
@@ -69,7 +69,7 @@
     "fshType": "CodeSystem",
     "fshFile": "Common/CQDG_CodeSystem_DataCategory.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 53
   },
   {
     "outputFile": "CodeSystem-data-collection-method.json",
@@ -85,7 +85,7 @@
     "fshType": "CodeSystem",
     "fshFile": "DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DataType.fsh",
     "startLine": 1,
-    "endLine": 72
+    "endLine": 156
   },
   {
     "outputFile": "CodeSystem-disease-status.json",
@@ -101,7 +101,7 @@
     "fshType": "CodeSystem",
     "fshFile": "DocumentReferenceResource/CodeSystems/CQDG_CodeSystem_DocumentFormat.fsh",
     "startLine": 1,
-    "endLine": 56
+    "endLine": 92
   },
   {
     "outputFile": "CodeSystem-duo-codes.json",
@@ -117,7 +117,7 @@
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_ExperimentalStrategy.fsh",
     "startLine": 1,
-    "endLine": 68
+    "endLine": 76
   },
   {
     "outputFile": "CodeSystem-family-type.json",
@@ -150,6 +150,14 @@
     "fshFile": "ResearchStudyResource/CodeSystem/CQDG_CodeSystem_Population.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-profiling-resolution.json",
+    "fshName": "ProfilingResolution",
+    "fshType": "CodeSystem",
+    "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_ProfilingResolution.fsh",
+    "startLine": 1,
+    "endLine": 32
   },
   {
     "outputFile": "CodeSystem-qc-ethnicity.json",
@@ -205,7 +213,7 @@
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-platform.fsh",
     "startLine": 1,
-    "endLine": 56
+    "endLine": 64
   },
   {
     "outputFile": "CodeSystem-sequencing-experiment-selection.json",
@@ -213,15 +221,15 @@
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-selection.fsh",
     "startLine": 1,
-    "endLine": 36
+    "endLine": 64
   },
   {
     "outputFile": "CodeSystem-sequencing-experiment-source.json",
     "fshName": "SequencingExperimentSource",
     "fshType": "CodeSystem",
     "fshFile": "TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-source.fsh",
-    "startLine": 1,
-    "endLine": 24
+    "startLine": 8,
+    "endLine": 64
   },
   {
     "outputFile": "CodeSystem-sex-at-birth-collection-method.json",
@@ -733,7 +741,7 @@
     "fshType": "Extension",
     "fshFile": "TaskResource/Extensions/CQDG_Extension_SequencingExperimentExtension.fsh",
     "startLine": 1,
-    "endLine": 51
+    "endLine": 70
   },
   {
     "outputFile": "StructureDefinition-workflowExtension.json",
@@ -741,7 +749,7 @@
     "fshType": "Extension",
     "fshFile": "TaskResource/Extensions/CQDG_Extension_WorkFlowExtension.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 15
   },
   {
     "outputFile": "Task-CQDGTaskExample.json",
@@ -749,7 +757,23 @@
     "fshType": "Instance",
     "fshFile": "TaskResource/CQDG_Profile_Task_Example.fsh",
     "startLine": 1,
-    "endLine": 45
+    "endLine": 48
+  },
+  {
+    "outputFile": "Task-CQDGTaskLongReadExample.json",
+    "fshName": "CQDGTaskLongReadExample",
+    "fshType": "Instance",
+    "fshFile": "TaskResource/CQDG_Profile_Task_Example.fsh",
+    "startLine": 96,
+    "endLine": 129
+  },
+  {
+    "outputFile": "Task-CQDGTaskMultiOmicExample.json",
+    "fshName": "CQDGTaskMultiOmicExample",
+    "fshType": "Instance",
+    "fshFile": "TaskResource/CQDG_Profile_Task_Example.fsh",
+    "startLine": 55,
+    "endLine": 90
   },
   {
     "outputFile": "ValueSet-access-limitation-vs.json",
@@ -916,6 +940,14 @@
     "fshName": "PopulationVS",
     "fshType": "ValueSet",
     "fshFile": "ResearchStudyResource/ValueSets/CQDG_ValueSet_PopulationVS.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-profiling-resolution-vs.json",
+    "fshName": "ProfilingResolutionVS",
+    "fshType": "ValueSet",
+    "fshFile": "TaskResource/ValueSet/CQDG_ValueSet_ProfilingResolution.fsh",
     "startLine": 1,
     "endLine": 6
   },

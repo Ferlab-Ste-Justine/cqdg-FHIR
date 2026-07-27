@@ -209,6 +209,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/profiling-resolution"
+        },
+        "name": "Ferlab.bio CodeSystem/profiling-resolution",
+        "description": "Resolution at which the experiment profiles the sample.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/qc-ethnicity"
         },
         "name": "Ferlab.bio CodeSystem/qc-ethnicity",
@@ -268,7 +276,7 @@
           "reference": "CodeSystem/sequencing-experiment-source"
         },
         "name": "Ferlab.bio CodeSystem/sequencing-experiment-source",
-        "description": "Sequencing experimental source",
+        "description": "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical).",
         "exampleBoolean": false
       },
       {
@@ -381,6 +389,22 @@
         },
         "name": "Ferlab.bio Example/cqdg-task",
         "description": "An example of a cqdg Task",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/CQDGTaskLongReadExample"
+        },
+        "name": "Ferlab.bio Example/cqdg-task-long-read",
+        "description": "An example of a cqdg long-read Task (ONT adaptive sampling, de novo assembly)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/CQDGTaskMultiOmicExample"
+        },
+        "name": "Ferlab.bio Example/cqdg-task-multi-omic",
+        "description": "An example of a cqdg multi-omic Task (single-nucleus RNA-seq + ATAC-seq)",
         "exampleBoolean": true
       },
       {
@@ -1037,6 +1061,14 @@
         },
         "name": "NCIT Special Codes ValueSet",
         "description": "ValueSet for selected NCIT codes from NCI Thesaurus.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/profiling-resolution-vs"
+        },
+        "name": "Profiling Resolution",
+        "description": "Profiling Resolution ValueSet",
         "exampleBoolean": false
       },
       {

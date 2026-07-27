@@ -126,10 +126,100 @@
           "value": "CSV"
         }
       ]
+    },
+    {
+      "code": "TSV",
+      "display": "TSV File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "TSV"
+        }
+      ]
+    },
+    {
+      "code": "POD5",
+      "display": "POD5 File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "POD5"
+        }
+      ]
+    },
+    {
+      "code": "HDF5",
+      "display": "HDF5 File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "HDF5"
+        }
+      ]
+    },
+    {
+      "code": "cloupe",
+      "display": "cloupe File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "cloupe"
+        }
+      ]
+    },
+    {
+      "code": "GFF",
+      "display": "GFF File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "GFF"
+        }
+      ]
+    },
+    {
+      "code": "GTF",
+      "display": "GTF File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "GTF"
+        }
+      ]
+    },
+    {
+      "code": "FAM",
+      "display": "FAM Pedigree File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "FAM"
+        }
+      ]
+    },
+    {
+      "code": "HTML",
+      "display": "HTML File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "HTML"
+        }
+      ]
+    },
+    {
+      "code": "JSON",
+      "display": "JSON File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "JSON"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Document format",
   "caseSensitive": true,
-  "count": 12
+  "count": 21
 }

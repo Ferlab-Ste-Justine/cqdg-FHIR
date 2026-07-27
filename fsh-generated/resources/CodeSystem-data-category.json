@@ -78,6 +78,34 @@
       ]
     },
     {
+      "code": "epigenomics",
+      "display": "Epigenomics",
+      "designation": [
+        {
+          "use": {
+            "code": "epigenomics",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Épigénomique"
+        }
+      ]
+    },
+    {
+      "code": "multi-omic",
+      "display": "Multi-omic",
+      "designation": [
+        {
+          "use": {
+            "code": "multi-omic",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-category"
+          },
+          "language": "fr",
+          "value": "Multi-omique"
+        }
+      ]
+    },
+    {
       "code": "metabolomics",
       "display": "Metabolomics",
       "designation": [
@@ -109,5 +137,5 @@
   "experimental": false,
   "description": "Data category",
   "caseSensitive": true,
-  "count": 7
+  "count": 9
 }

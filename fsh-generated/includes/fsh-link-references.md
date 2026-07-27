@@ -20,6 +20,7 @@
 [GenderCollectionMethod]: CodeSystem-gender-collection-method.html
 [GenomeBuild]: CodeSystem-genome-build.html
 [Population]: CodeSystem-population.html
+[ProfilingResolution]: CodeSystem-profiling-resolution.html
 [QCEthnicityCodeSystem]: CodeSystem-qc-ethnicity.html
 [RaceCodeSystem]: CodeSystem-qc-race.html
 [RaceCollectionMethod]: CodeSystem-race-collection-method.html
@@ -42,6 +43,8 @@
 [ExampleCQDGProgramGroup]: List-ExampleCQDGProgramGroup.html
 [ResearchStudyExample]: ResearchStudy-ResearchStudyExample.html
 [CQDGTaskExample]: Task-CQDGTaskExample.html
+[CQDGTaskLongReadExample]: Task-CQDGTaskLongReadExample.html
+[CQDGTaskMultiOmicExample]: Task-CQDGTaskMultiOmicExample.html
 [ObservationCauseOfDeathExample]: Observation-ObservationCauseOfDeathExample.html
 [ObservationDiseaseStatusExample]: Observation-ObservationDiseaseStatusExample.html
 [ObservationFamilyRelationshipExample]: Observation-ObservationFamilyRelationshipExample.html
@@ -124,6 +127,7 @@
 [TumorNormalDesignationVS]: ValueSet-tumor-normal-designation-vs.html
 [VitalStatusVS]: ValueSet-vital-status-vs.html
 [CancerBiospecimenTypeVS]: ValueSet-ncit-special-codes-vs.html
+[ProfilingResolutionVS]: ValueSet-profiling-resolution-vs.html
 [Restricted]: StructureDefinition-Restricted.html
 [SequencingExperimentPlatformVS]: ValueSet-sequencing-experiment-platform-vs.html
 [SequencingExperimentSelectionVS]: ValueSet-sequencing-experiment-selection-vs.html

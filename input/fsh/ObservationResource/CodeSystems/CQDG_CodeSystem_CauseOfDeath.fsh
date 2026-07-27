@@ -32,6 +32,14 @@ Title: "Ferlab.bio CodeSystem/cause-of-death"
 * #"Influenza-and-pneumonia" ^designation.use = https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes#Influenza-and-pneumonia
 * #"Influenza-and-pneumonia" ^designation.value = "Influenza and pneumonia"
 
+* #"Natural" "Natural"
+* #"Natural" ^designation.use = https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes#Natural
+* #"Natural" ^designation.value = "Natural"
+
+* #"Suicide" "Suicide"
+* #"Suicide" ^designation.use = https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes#Suicide
+* #"Suicide" ^designation.value = "Suicide"
+
 * #"Other-reasons" "Other reasons"
 * #"Other-reasons" ^designation.use = https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes#Other-reasons
 * #"Other-reasons" ^designation.value = "Other reasons"

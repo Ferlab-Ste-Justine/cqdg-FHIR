@@ -32,6 +32,16 @@ Title: "Ferlab.bio CodeSystem/data-category"
 * #"proteomics" ^designation.language = #fr
 * #"proteomics" ^designation.value = "Protéomique"
 
+* #"epigenomics" "Epigenomics"
+* #"epigenomics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-category#epigenomics
+* #"epigenomics" ^designation.language = #fr
+* #"epigenomics" ^designation.value = "Épigénomique"
+
+* #"multi-omic" "Multi-omic"
+* #"multi-omic" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-category#multi-omic
+* #"multi-omic" ^designation.language = #fr
+* #"multi-omic" ^designation.value = "Multi-omique"
+
 * #"metabolomics" "Metabolomics"
 * #"metabolomics" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-category#metabolomics
 * #"metabolomics" ^designation.language = #fr

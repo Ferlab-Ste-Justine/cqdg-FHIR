@@ -99,11 +99,7 @@
       ],
       "property": [
         {
-          "code": "status",
-          "valueCode": "deprecated"
-        },
-        {
-          "code": "deprecationDate",
+          "code": "deprecated",
           "valueDateTime": "2026-07-27"
         }
       ]
@@ -122,11 +118,7 @@
       ],
       "property": [
         {
-          "code": "status",
-          "valueCode": "deprecated"
-        },
-        {
-          "code": "deprecationDate",
+          "code": "deprecated",
           "valueDateTime": "2026-07-27"
         }
       ]
@@ -137,15 +129,9 @@
   "caseSensitive": true,
   "property": [
     {
-      "code": "status",
-      "uri": "http://hl7.org/fhir/concept-properties#status",
-      "description": "A property that indicates the status of the concept.",
-      "type": "code"
-    },
-    {
-      "code": "deprecationDate",
-      "uri": "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description": "The date at which a concept was deprecated.",
+      "code": "deprecated",
+      "uri": "http://hl7.org/fhir/concept-properties#deprecated",
+      "description": "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.",
       "type": "dateTime"
     }
   ],

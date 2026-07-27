@@ -14,13 +14,9 @@ Title: "Ferlab.bio CodeSystem/sequencing-experiment-source"
 * ^description = "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical)."
 * ^caseSensitive = true
 
-* ^property[0].code = #status
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
-* ^property[=].description = "A property that indicates the status of the concept."
-* ^property[=].type = #code
-* ^property[+].code = #deprecationDate
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
-* ^property[=].description = "The date at which a concept was deprecated."
+* ^property[0].code = #deprecated
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecated"
+* ^property[=].description = "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."
 * ^property[=].type = #dateTime
 
 * #"GEN" "Genomics"
@@ -50,15 +46,11 @@ Title: "Ferlab.bio CodeSystem/sequencing-experiment-source"
 * #"TSC" "Transcriptomic Single Cell"
 * #"TSC" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source#TSC
 * #"TSC" ^designation.value = "Transcriptomic Single Cell"
-* #"TSC" ^property[0].code = #status
-* #"TSC" ^property[=].valueCode = #deprecated
-* #"TSC" ^property[+].code = #deprecationDate
+* #"TSC" ^property[0].code = #deprecated
 * #"TSC" ^property[=].valueDateTime = "2026-07-27"
 
 * #"GSC" "Genomic Single Cell"
 * #"GSC" ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source#GSC
 * #"GSC" ^designation.value = "Genomic Single Cell"
-* #"GSC" ^property[0].code = #status
-* #"GSC" ^property[=].valueCode = #deprecated
-* #"GSC" ^property[+].code = #deprecationDate
+* #"GSC" ^property[0].code = #deprecated
 * #"GSC" ^property[=].valueDateTime = "2026-07-27"

@@ -47,11 +47,6 @@ Usage: #example
 * output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Sequencing-Data-Supplement" "Sequencing Data Supplement"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample2)
 
-//================================================
-// Multi-omic (10x CellRanger ARC) example — exercises the index-linked parallel arrays,
-// the nullable workflow fields and the new data types. Element i of experimentalStrategy pairs
-// with element i of profilingResolution; likewise for platform and instrumentModel.
-
 Instance: CQDGTaskMultiOmicExample
 InstanceOf: Task
 Title: "Ferlab.bio Example/cqdg-task-multi-omic"
@@ -59,7 +54,6 @@ Description: "An example of a cqdg multi-omic Task (single-nucleus RNA-seq + ATA
 Usage: #example
 * meta.profile = "https://fhir.cqdg.ca/StructureDefinition/CQDGTask"
 
-// No pipeline: not required for a Multi-omic analysis type.
 * extension[workflowExtension].extension[genomeBuild].valueCoding = https://fhir.cqdg.ca/CodeSystem/genome-build#GRCh38 "GRCh38"
 
 * extension[sequencingExperimentExtension].extension[experimentalStrategy][0].valueCoding = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#RNAS "RNA-Seq"
@@ -88,10 +82,6 @@ Usage: #example
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample1)
 * output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Filtered-Peak-Barcode-Matrix" "Filtered Peak Barcode Matrix"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample2)
-
-//================================================
-// Long-read (ONT) example — exercises poreType, the absent isPairedEnd / readLength / genomeBuild
-// (de novo assembly has no reference) and the long-read data types.
 
 Instance: CQDGTaskLongReadExample
 InstanceOf: Task

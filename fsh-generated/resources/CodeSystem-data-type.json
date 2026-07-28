@@ -333,28 +333,28 @@
       ]
     },
     {
-      "code": "Raw-Gene-Expression-Matrix",
-      "display": "Raw Gene Expression Matrix",
+      "code": "Raw-Feature-Count-Matrix",
+      "display": "Raw Feature Count Matrix",
       "designation": [
         {
           "use": {
-            "code": "Raw-Gene-Expression-Matrix",
+            "code": "Raw-Feature-Count-Matrix",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
           },
-          "value": "Raw Gene Expression Matrix"
+          "value": "Raw Feature Count Matrix"
         }
       ]
     },
     {
-      "code": "Filtered-Gene-Expression-Matrix",
-      "display": "Filtered Gene Expression Matrix",
+      "code": "Filtered-Feature-Count-Matrix",
+      "display": "Filtered Feature Count Matrix",
       "designation": [
         {
           "use": {
-            "code": "Filtered-Gene-Expression-Matrix",
+            "code": "Filtered-Feature-Count-Matrix",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
           },
-          "value": "Filtered Gene Expression Matrix"
+          "value": "Filtered Feature Count Matrix"
         }
       ]
     },

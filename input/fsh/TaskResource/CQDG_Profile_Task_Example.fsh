@@ -78,7 +78,7 @@ Usage: #example
 * owner = Reference(Organization/OrganizationExample)
 * input.type.text = "Analysed sample"
 * input.valueReference = Reference(Specimen/SpecimenExample) "Submitter Sample ID: SpecimenExample"
-* output[0].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Filtered-Gene-Expression-Matrix" "Filtered Gene Expression Matrix"
+* output[0].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Filtered-Feature-Count-Matrix" "Filtered Feature Count Matrix"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample1)
 * output[+].type = https://fhir.cqdg.ca/CodeSystem/data-type#"Filtered-Peak-Barcode-Matrix" "Filtered Peak Barcode Matrix"
 * output[=].valueReference = Reference(DocumentReference/DocumentReferenceExample2)

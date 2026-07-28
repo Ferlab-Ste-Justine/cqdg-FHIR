@@ -107,13 +107,13 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Methylation-Calls-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Methylation-Calls-Index
 * #"Methylation-Calls-Index" ^designation.value = "Methylation Calls Index"
 
-* #"Raw-Gene-Expression-Matrix" "Raw Gene Expression Matrix"
-* #"Raw-Gene-Expression-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Gene-Expression-Matrix
-* #"Raw-Gene-Expression-Matrix" ^designation.value = "Raw Gene Expression Matrix"
+* #"Raw-Feature-Count-Matrix" "Raw Feature Count Matrix"
+* #"Raw-Feature-Count-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Feature-Count-Matrix
+* #"Raw-Feature-Count-Matrix" ^designation.value = "Raw Feature Count Matrix"
 
-* #"Filtered-Gene-Expression-Matrix" "Filtered Gene Expression Matrix"
-* #"Filtered-Gene-Expression-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Filtered-Gene-Expression-Matrix
-* #"Filtered-Gene-Expression-Matrix" ^designation.value = "Filtered Gene Expression Matrix"
+* #"Filtered-Feature-Count-Matrix" "Filtered Feature Count Matrix"
+* #"Filtered-Feature-Count-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Filtered-Feature-Count-Matrix
+* #"Filtered-Feature-Count-Matrix" ^designation.value = "Filtered Feature Count Matrix"
 
 * #"Raw-Peak-Barcode-Matrix" "Raw Peak Barcode Matrix"
 * #"Raw-Peak-Barcode-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Peak-Barcode-Matrix

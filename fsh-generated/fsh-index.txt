@@ -27,7 +27,7 @@ CodeSystem-relationship-to-proband.json                         RelationshipToPr
 CodeSystem-research-domain.json                                 ResearchDomainCodeSystem                  CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_ResearchDomain.fsh               1 - 64
 CodeSystem-sequencing-experiment-platform.json                  SequencingExperimentPlatform              CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-platform.fsh       1 - 64
 CodeSystem-sequencing-experiment-selection.json                 SequencingExperimentSelection             CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-selection.fsh      1 - 64
-CodeSystem-sequencing-experiment-source.json                    SequencingExperimentSource                CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-source.fsh         8 - 56
+CodeSystem-sequencing-experiment-source.json                    SequencingExperimentSource                CodeSystem  TaskResource/CodeSystems/CQDG_CodeSystem_Sequencing-experiment-source.fsh         1 - 49
 CodeSystem-sex-at-birth-collection-method.json                  SexAtBirthCollectionMethod                CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_SexAtBirthCollectionMethod.fsh        1 - 24
 CodeSystem-sex-at-birth.json                                    SexAtBirthCodeSystem                      CodeSystem  PatientResource/CodeSystems/CQDG_CodeSystem_SexAtBirth.fsh                        1 - 24
 CodeSystem-study-design.json                                    StudyDesign                               CodeSystem  ResearchStudyResource/CodeSystem/CQDG_CodeSystem_StudyDesign.fsh                  1 - 48
@@ -94,8 +94,8 @@ StructureDefinition-sampleExtension.json                        SampleExtension 
 StructureDefinition-sequencingExperimentExtension.json          SequencingExperimentExtension             Extension   TaskResource/Extensions/CQDG_Extension_SequencingExperimentExtension.fsh          1 - 70
 StructureDefinition-workflowExtension.json                      WorkflowExtension                         Extension   TaskResource/Extensions/CQDG_Extension_WorkFlowExtension.fsh                      1 - 15
 Task-CQDGTaskExample.json                                       CQDGTaskExample                           Instance    TaskResource/CQDG_Profile_Task_Example.fsh                                        1 - 48
-Task-CQDGTaskLongReadExample.json                               CQDGTaskLongReadExample                   Instance    TaskResource/CQDG_Profile_Task_Example.fsh                                        96 - 129
-Task-CQDGTaskMultiOmicExample.json                              CQDGTaskMultiOmicExample                  Instance    TaskResource/CQDG_Profile_Task_Example.fsh                                        55 - 90
+Task-CQDGTaskLongReadExample.json                               CQDGTaskLongReadExample                   Instance    TaskResource/CQDG_Profile_Task_Example.fsh                                        86 - 119
+Task-CQDGTaskMultiOmicExample.json                              CQDGTaskMultiOmicExample                  Instance    TaskResource/CQDG_Profile_Task_Example.fsh                                        50 - 84
 ValueSet-access-limitation-vs.json                              AccessLimitationsVS                       ValueSet    ResearchStudyResource/ValueSets/CQDG_ValueSet_AccessLimitationVS.fsh              1 - 6
 ValueSet-access-requirement-vs.json                             AccessRequirementVS                       ValueSet    ResearchStudyResource/ValueSets/CQDG_ValueSet_AccessRequirementVS.fsh             1 - 6
 ValueSet-age-at-onset-vs.json                                   AgeAtOnsetVS                              ValueSet    Common/CQDG_ValueSet_AgeAtOnset.fsh                                               1 - 6

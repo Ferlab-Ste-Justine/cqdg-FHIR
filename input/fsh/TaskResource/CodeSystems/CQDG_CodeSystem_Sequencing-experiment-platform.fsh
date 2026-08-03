@@ -59,6 +59,6 @@ Title: "Ferlab.bio CodeSystem/sequencing-experiment-platform"
 * #Chromium ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform#Chromium
 * #Chromium ^designation.value = "Chromium"
 
-* #CASH "Comprehensive Assessment of Symptoms and History"
+* #CASH "Comprehensive Assessment of Symptoms and History (CASH)"
 * #CASH ^designation.use = https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform#CASH
-* #CASH ^designation.value = "Comprehensive Assessment of Symptoms and History"
+* #CASH ^designation.value = "Comprehensive Assessment of Symptoms and History (CASH)"

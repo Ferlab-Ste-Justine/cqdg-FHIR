@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,46 +7,54 @@
 
 <https://fhir.cqdg.ca/CodeSystem/population> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "population"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem population</b></p><a name=\"population\"> </a><a name=\"hcpopulation\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/population</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Fetal<a name=\"population-Fetal\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"population-Pediatric\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"population-Adult\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Pediatric and Adult<a name=\"population-PediatricandAdult\"> </a></td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/population"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/population>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "Population"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/population"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Population"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Fetal" ] ;
-     fhir:display [ fhir:v "Fetal" ]
-  ] [
-     fhir:code [ fhir:v "Pediatric" ] ;
-     fhir:display [ fhir:v "Pediatric" ]
-  ] [
-     fhir:code [ fhir:v "Adult" ] ;
-     fhir:display [ fhir:v "Adult" ]
-  ] [
-     fhir:code [ fhir:v "Pediatric and Adult" ] ;
-     fhir:display [ fhir:v "Pediatric and Adult" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "population"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem population</b></p><a name=\"population\"> </a><a name=\"hcpopulation\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/population</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Fetal<a name=\"population-Fetal\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"population-Pediatric\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"population-Adult\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Pediatric and Adult<a name=\"population-PediatricandAdult\"> </a></td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/population"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "Population"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/population"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Population"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Fetal" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fetal" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Pediatric" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pediatric" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Adult" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Adult" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Pediatric and Adult" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pediatric and Adult" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/population.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

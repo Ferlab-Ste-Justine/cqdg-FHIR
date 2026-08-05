@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,73 +7,158 @@
 
 <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "bioinfo-analysis-code"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem bioinfo-analysis-code</b></p><a name=\"bioinfo-analysis-code\"> </a><a name=\"hcbioinfo-analysis-code\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">GBVA<a name=\"bioinfo-analysis-code-GBVA\"> </a></td><td>Germline Variant Analysis</td></tr><tr><td style=\"white-space:nowrap\">GBVF<a name=\"bioinfo-analysis-code-GBVF\"> </a></td><td>Germline Variant Analysis with Family Joint Genotyping</td></tr><tr><td style=\"white-space:nowrap\">SBVA<a name=\"bioinfo-analysis-code-SBVA\"> </a></td><td>Somatic Variant Analysis</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "BioinfoAnalysisCode"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/bioinformatics-analysis"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Bioinformatics analysis code"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "GBVA" ] ;
-     fhir:display [ fhir:v "Germline Variant Analysis" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code>
-         ] ;
-         fhir:code [ fhir:v "GBVA" ]
+  fhir:Resource.id [ fhir:value "bioinfo-analysis-code"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem bioinfo-analysis-code</b></p><a name=\"bioinfo-analysis-code\"> </a><a name=\"hcbioinfo-analysis-code\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">GBVA<a name=\"bioinfo-analysis-code-GBVA\"> </a></td><td>Germline Variant Analysis</td></tr><tr><td style=\"white-space:nowrap\">GBVF<a name=\"bioinfo-analysis-code-GBVF\"> </a></td><td>Germline Variant Analysis with Family Joint Genotyping</td></tr><tr><td style=\"white-space:nowrap\">SBVA<a name=\"bioinfo-analysis-code-SBVA\"> </a></td><td>Somatic Variant Analysis</td></tr><tr><td style=\"white-space:nowrap\">MOA<a name=\"bioinfo-analysis-code-MOA\"> </a></td><td>Multi-omic Analysis</td></tr><tr><td style=\"white-space:nowrap\">TPHS<a name=\"bioinfo-analysis-code-TPHS\"> </a></td><td>Transcriptome Profiling by High-throughput Sequencing</td></tr><tr><td style=\"white-space:nowrap\">TRVA<a name=\"bioinfo-analysis-code-TRVA\"> </a></td><td>Transcriptome Variant Analysis</td></tr><tr><td style=\"white-space:nowrap\">CAPHS<a name=\"bioinfo-analysis-code-CAPHS\"> </a></td><td>Chromatin Accessibility Profiling by High-throughput Sequencing</td></tr><tr><td style=\"white-space:nowrap\">MBDS<a name=\"bioinfo-analysis-code-MBDS\"> </a></td><td>Methylation Binding Domain Sequencing</td></tr><tr><td style=\"white-space:nowrap\">MPHS<a name=\"bioinfo-analysis-code-MPHS\"> </a></td><td>Methylation Profiling by High-throughput Sequencing</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"bioinfo-analysis-code-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BioinfoAnalysisCode"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/bioinformatics-analysis"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Bioinformatics analysis code"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GBVA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Germline Variant Analysis" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "GBVA" ]
        ] ;
-       fhir:value [ fhir:v "Germline Variant Analysis" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "GBVF" ] ;
-     fhir:display [ fhir:v "Germline Variant Analysis with Family Joint Genotyping" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code>
-         ] ;
-         fhir:code [ fhir:v "GBVF" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Germline Variant Analysis" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GBVF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Germline Variant Analysis with Family Joint Genotyping" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "GBVF" ]
        ] ;
-       fhir:value [ fhir:v "Germline Variant Analysis with Family Joint Genotyping" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "SBVA" ] ;
-     fhir:display [ fhir:v "Somatic Variant Analysis" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code>
-         ] ;
-         fhir:code [ fhir:v "SBVA" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Germline Variant Analysis with Family Joint Genotyping" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SBVA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Somatic Variant Analysis" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "SBVA" ]
        ] ;
-       fhir:value [ fhir:v "Somatic Variant Analysis" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Somatic Variant Analysis" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MOA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Multi-omic Analysis" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "MOA" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Multi-omic Analysis" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPHS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transcriptome Profiling by High-throughput Sequencing" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "TPHS" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Transcriptome Profiling by High-throughput Sequencing" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TRVA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transcriptome Variant Analysis" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "TRVA" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Transcriptome Variant Analysis" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CAPHS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chromatin Accessibility Profiling by High-throughput Sequencing" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "CAPHS" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Chromatin Accessibility Profiling by High-throughput Sequencing" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MBDS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Methylation Binding Domain Sequencing" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "MBDS" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Methylation Binding Domain Sequencing" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MPHS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Methylation Profiling by High-throughput Sequencing" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "MPHS" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Methylation Profiling by High-throughput Sequencing" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTHER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code" ] ;
+         fhir:Coding.code [ fhir:value "OTHER" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Other" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

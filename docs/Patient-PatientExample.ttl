@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,233 +7,168 @@
 
 <https://fhir.cqdg.ca/Patient/PatientExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "PatientExample"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
-     ] ) ;
-     fhir:tag ( [
-       fhir:code [ fhir:v "CAG" ]
-     ] [
-       fhir:code [ fhir:v "tag2" ]
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient PatientExample</b></p><a name=\"PatientExample\"> </a><a name=\"hcPatientExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-patient.html\">Ferlab.bio StructureDefinition/cqdg-patient</a></p><p style=\"margin-bottom: 0px\">Tags: , </p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"qc ethnicity for cqdg project\"><a href=\"StructureDefinition-QCEthnicity.html\">Ferlab.bio Extension/qc-ethnicity</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/qc-ethnicity Arab}\">Arab</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"race for cqdg project\">Ferlab.bio Extension/race:</td><td colspan=\"3\"><ul><li>race: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/race Black}\">Black</span></li><li>raceCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/race-collection-method Socially assigned}\">Socially assigned</span></li><li>raceAnotherCategory: Fluff</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"vital status for cqdg project\"><a href=\"StructureDefinition-VitalStatus.html\">Ferlab.bio Extension/vital-status</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/vital-status Deceased}\">Deceased</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient's age (in days since birth) at the time of recruitment\"><a href=\"StructureDefinition-AgeAtRecruitment.html\">Ferlab.bio Extension/age-at-recruitment</a></td><td colspan=\"3\"><span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0011463}\">HP:0011463</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"gender for cqdg project\">Ferlab.bio Extension/gender:</td><td colspan=\"3\"><ul><li>gender: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/gender Man}\">Man</span></li><li>genderCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/gender-collection-method Self-identified}\">Self-identified</span></li><li>genderAnotherCategory: Non-binary, self-described</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Sex at birth for cqdg project\">Ferlab.bio Extension/sex-at-birth:</td><td colspan=\"3\"><ul><li>sexAtBirth: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/sex-at-birth Male}\">Male</span></li><li>sexAtBirthCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method Missing - Not provided}\">Missing - Not provided</span></li><li>sexAtBirthAnotherCategory: Fluff sex</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient's age (in days since birth) at the time of death\"><a href=\"StructureDefinition-AgeOfDeath.html\">Ferlab.bio Extension/age-of-death</a></td><td colspan=\"3\"><span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0003584}\">HP:0003584</span></td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:extension ( [
-       fhir:url [
-         fhir:v "gender"^^xsd:anyURI ;
-         fhir:l fhir:gender
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/gender"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/gender>
-           ] ;
-           fhir:code [ fhir:v "Man" ] ;
-           fhir:display [ fhir:v "Man" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "genderCollectionMethod"^^xsd:anyURI ;
-         fhir:l fhir:genderCollectionMethod
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/gender-collection-method"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/gender-collection-method>
-           ] ;
-           fhir:code [ fhir:v "Self-identified" ] ;
-           fhir:display [ fhir:v "Self-identified" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "genderAnotherCategory"^^xsd:anyURI ;
-         fhir:l fhir:genderAnotherCategory
-       ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "Non-binary, self-described"
-       ]
-     ] ) ;
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/Gender"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/Gender>
-     ]
-  ] [
-     fhir:extension ( [
-       fhir:url [
-         fhir:v "sexAtBirth"^^xsd:anyURI ;
-         fhir:l fhir:sexAtBirth
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/sex-at-birth"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/sex-at-birth>
-           ] ;
-           fhir:code [ fhir:v "Male" ] ;
-           fhir:display [ fhir:v "Male" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "sexAtBirthCollectionMethod"^^xsd:anyURI ;
-         fhir:l fhir:sexAtBirthCollectionMethod
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method>
-           ] ;
-           fhir:code [ fhir:v "Missing - Not provided" ] ;
-           fhir:display [ fhir:v "Missing - Not provided" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "sexAtBirthAnotherCategory"^^xsd:anyURI ;
-         fhir:l fhir:sexAtBirthAnotherCategory
-       ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "Fluff sex"
-       ]
-     ] ) ;
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/SexAtBirth>
-     ]
-  ] [
-     fhir:extension ( [
-       fhir:url [
-         fhir:v "race"^^xsd:anyURI ;
-         fhir:l fhir:race
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/race"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/race>
-           ] ;
-           fhir:code [ fhir:v "Black" ] ;
-           fhir:display [ fhir:v "Black" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "raceCollectionMethod"^^xsd:anyURI ;
-         fhir:l fhir:raceCollectionMethod
-       ] ;
-       fhir:value [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "https://fhir.cqdg.ca/CodeSystem/race-collection-method"^^xsd:anyURI ;
-             fhir:l <https://fhir.cqdg.ca/CodeSystem/race-collection-method>
-           ] ;
-           fhir:code [ fhir:v "Socially assigned" ] ;
-           fhir:display [ fhir:v "Socially assigned" ]
-         ] )
-       ]
-     ] [
-       fhir:url [
-         fhir:v "raceAnotherCategory"^^xsd:anyURI ;
-         fhir:l fhir:raceAnotherCategory
-       ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "Fluff"
-       ]
-     ] ) ;
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/Race"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/Race>
-     ]
-  ] [
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/VitalStatus"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/VitalStatus>
+  fhir:Resource.id [ fhir:value "PatientExample"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.cqdg.ca/StructureDefinition/cqdg-patient" ;
+       fhir:index 0 ;
+       fhir:link <https://fhir.cqdg.ca/StructureDefinition/cqdg-patient>
      ] ;
-     fhir:value [
-       a fhir:CodeableConcept ;
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/vital-status"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/vital-status>
-         ] ;
-         fhir:code [ fhir:v "Deceased" ] ;
-         fhir:display [ fhir:v "Deceased" ]
-       ] )
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.code [ fhir:value "CAG" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Coding.code [ fhir:value "tag2" ]
      ]
-  ] [
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment>
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient PatientExample</b></p><a name=\"PatientExample\"> </a><a name=\"hcPatientExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cqdg-patient.html\">Ferlab.bio StructureDefinition/cqdg-patient</a></p><p style=\"margin-bottom: 0px\">Tags: , </p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Anonymous Patient (no stated gender), DoB Unknown ( 343434343434 (use: secondary, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"qc ethnicity for cqdg project\"><a href=\"StructureDefinition-QCEthnicity.html\">Ferlab.bio Extension/qc-ethnicity</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/qc-ethnicity Arab}\">Arab</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"race for cqdg project\">Ferlab.bio Extension/race:</td><td colspan=\"3\"><ul><li>race: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/race Black}\">Black</span></li><li>raceCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/race-collection-method Socially assigned}\">Socially assigned</span></li><li>raceAnotherCategory: Fluff</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"vital status for cqdg project\"><a href=\"StructureDefinition-VitalStatus.html\">Ferlab.bio Extension/vital-status</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/vital-status Deceased}\">Deceased</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient's age (in days since birth) at the time of recruitment\"><a href=\"StructureDefinition-AgeAtRecruitment.html\">Ferlab.bio Extension/age-at-recruitment</a></td><td colspan=\"3\"><span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0011463}\">Childhood onset</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"gender for cqdg project\">Ferlab.bio Extension/gender:</td><td colspan=\"3\"><ul><li>gender: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/gender Man}\">Man</span></li><li>genderCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/gender-collection-method Self-identified}\">Self-identified</span></li><li>genderAnotherCategory: Non-binary, self-described</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Sex at birth for cqdg project\">Ferlab.bio Extension/sex-at-birth:</td><td colspan=\"3\"><ul><li>sexAtBirth: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/sex-at-birth Male}\">Male</span></li><li>sexAtBirthCollectionMethod: <span title=\"Codes:{https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method Missing - Not provided}\">Missing - Not provided</span></li><li>sexAtBirthAnotherCategory: Fluff sex</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient's age (in days since birth) at the time of death\"><a href=\"StructureDefinition-AgeOfDeath.html\">Ferlab.bio Extension/age-of-death</a></td><td colspan=\"3\"><span title=\"Codes:{http://purl.obolibrary.org/obo/hp.owl HP:0003584}\">Late onset</span></td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "gender" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/gender" ] ;
+           fhir:Coding.code [ fhir:value "Man" ] ;
+           fhir:Coding.display [ fhir:value "Man" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "genderCollectionMethod" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/gender-collection-method" ] ;
+           fhir:Coding.code [ fhir:value "Self-identified" ] ;
+           fhir:Coding.display [ fhir:value "Self-identified" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "genderAnotherCategory" ] ;
+       fhir:Extension.valueString [ fhir:value "Non-binary, self-described" ]
      ] ;
-     fhir:value [
-       a fhir:CodeableConcept ;
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ;
-           fhir:l <http://purl.obolibrary.org/obo/hp.owl>
-         ] ;
-         fhir:code [ fhir:v "HP:0011463" ]
-       ] )
-     ]
-  ] [
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath>
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/Gender" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "sexAtBirth" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sex-at-birth" ] ;
+           fhir:Coding.code [ fhir:value "Male" ] ;
+           fhir:Coding.display [ fhir:value "Male" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "sexAtBirthCollectionMethod" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sex-at-birth-collection-method" ] ;
+           fhir:Coding.code [ fhir:value "Missing - Not provided" ] ;
+           fhir:Coding.display [ fhir:value "Missing - Not provided" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "sexAtBirthAnotherCategory" ] ;
+       fhir:Extension.valueString [ fhir:value "Fluff sex" ]
      ] ;
-     fhir:value [
-       a fhir:CodeableConcept ;
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ;
-           fhir:l <http://purl.obolibrary.org/obo/hp.owl>
-         ] ;
-         fhir:code [ fhir:v "HP:0003584" ]
-       ] )
-     ]
-  ] [
-     fhir:url [
-       fhir:v "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity"^^xsd:anyURI ;
-       fhir:l <https://fhir.cqdg.ca/StructureDefinition/QCEthnicity>
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/SexAtBirth" ]
+  ], [
+     fhir:index 2 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "race" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/race" ] ;
+           fhir:Coding.code [ fhir:value "Black" ] ;
+           fhir:Coding.display [ fhir:value "Black" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "raceCollectionMethod" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/race-collection-method" ] ;
+           fhir:Coding.code [ fhir:value "Socially assigned" ] ;
+           fhir:Coding.display [ fhir:value "Socially assigned" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "raceAnotherCategory" ] ;
+       fhir:Extension.valueString [ fhir:value "Fluff" ]
      ] ;
-     fhir:value [
-       a fhir:CodeableConcept ;
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/qc-ethnicity>
-         ] ;
-         fhir:code [ fhir:v "Arab" ]
-       ] )
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/Race" ]
+  ], [
+     fhir:index 3 ;
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/VitalStatus" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/vital-status" ] ;
+         fhir:Coding.code [ fhir:value "Deceased" ] ;
+         fhir:Coding.display [ fhir:value "Deceased" ]
+       ]
      ]
-  ] ) ; # 
-  fhir:identifier ( [
-     fhir:use [ fhir:v "secondary" ] ;
-     fhir:value [ fhir:v "343434343434" ]
-  ] ) ; # 
-  fhir:deceased [
-     a fhir:Boolean ;
-     fhir:v true
-  ] . # 
+  ], [
+     fhir:index 4 ;
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ] ;
+         fhir:Coding.code [ fhir:value "HP:0011463" ]
+       ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/AgeOfDeath" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ] ;
+         fhir:Coding.code [ fhir:value "HP:0003584" ]
+       ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:Extension.url [ fhir:value "https://fhir.cqdg.ca/StructureDefinition/QCEthnicity" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity" ] ;
+         fhir:Coding.code [ fhir:value "Arab" ]
+       ]
+     ]
+  ] ;
+  fhir:Patient.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.value [ fhir:value "343434343434" ]
+  ] ;
+  fhir:Patient.deceasedBoolean [ fhir:value "true"^^xsd:boolean] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/Patient/PatientExample.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

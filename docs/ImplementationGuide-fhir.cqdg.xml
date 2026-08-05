@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CQDG_FHIR_IG"/>
   <status value="active"/>
-  <date value="2026-06-08T17:19:56+00:00"/>
+  <date value="2026-08-05T14:46:26+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.1.0"/>
+    <version value="7.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -693,6 +693,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/profiling-resolution"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/profiling-resolution"/>
+      <description value="Resolution at which the experiment profiles the sample."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/qc-ethnicity"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/qc-ethnicity"/>
@@ -773,7 +784,7 @@
         <reference value="CodeSystem/sequencing-experiment-source"/>
       </reference>
       <name value="Ferlab.bio CodeSystem/sequencing-experiment-source"/>
-      <description value="Sequencing experimental source"/>
+      <description value="Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -928,6 +939,28 @@
       </reference>
       <name value="Ferlab.bio Example/cqdg-task"/>
       <description value="An example of a cqdg Task"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/CQDGTaskLongReadExample"/>
+      </reference>
+      <name value="Ferlab.bio Example/cqdg-task-long-read"/>
+      <description value="An example of a cqdg long-read Task (ONT adaptive sampling, de novo assembly)"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/CQDGTaskMultiOmicExample"/>
+      </reference>
+      <name value="Ferlab.bio Example/cqdg-task-multi-omic"/>
+      <description value="An example of a cqdg multi-omic Task (single-nucleus RNA-seq + ATAC-seq)"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1830,6 +1863,17 @@
       </reference>
       <name value="NCIT Special Codes ValueSet"/>
       <description value="ValueSet for selected NCIT codes from NCI Thesaurus."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/profiling-resolution-vs"/>
+      </reference>
+      <name value="Profiling Resolution"/>
+      <description value="Profiling Resolution ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

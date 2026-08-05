@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,242 +7,482 @@
 
 <https://fhir.cqdg.ca/CodeSystem/data-type> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "data-type"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Laboratory-Values<a name=\"data-type-Laboratory-Values\"> </a></td><td>Laboratory Values</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "DataType"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/data-type"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Data Type"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "16"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Raw-Sequencing-Reads" ] ;
-     fhir:display [ fhir:v "Raw Sequencing Reads" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Raw-Sequencing-Reads" ]
+  fhir:Resource.id [ fhir:value "data-type"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Unaligned-Reads-Index<a name=\"data-type-Unaligned-Reads-Index\"> </a></td><td>Unaligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Laboratory-Values<a name=\"data-type-Laboratory-Values\"> </a></td><td>Laboratory Values</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-I1<a name=\"data-type-Raw-Sequencing-Reads-I1\"> </a></td><td>Raw Sequencing Reads I1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-I2<a name=\"data-type-Raw-Sequencing-Reads-I2\"> </a></td><td>Raw Sequencing Reads I2</td></tr><tr><td style=\"white-space:nowrap\">Processed-Reads<a name=\"data-type-Processed-Reads\"> </a></td><td>Processed Reads</td></tr><tr><td style=\"white-space:nowrap\">Processed-Reads-Index<a name=\"data-type-Processed-Reads-Index\"> </a></td><td>Processed Reads Index</td></tr><tr><td style=\"white-space:nowrap\">De-Novo-Assembly-Aligned-Reads<a name=\"data-type-De-Novo-Assembly-Aligned-Reads\"> </a></td><td>De Novo Assembly Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">De-Novo-Assembly-Aligned-Reads-Index<a name=\"data-type-De-Novo-Assembly-Aligned-Reads-Index\"> </a></td><td>De Novo Assembly Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">Methylation-Calls<a name=\"data-type-Methylation-Calls\"> </a></td><td>Methylation Calls</td></tr><tr><td style=\"white-space:nowrap\">Methylation-Calls-Index<a name=\"data-type-Methylation-Calls-Index\"> </a></td><td>Methylation Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Raw-Feature-Count-Matrix<a name=\"data-type-Raw-Feature-Count-Matrix\"> </a></td><td>Raw Feature Count Matrix</td></tr><tr><td style=\"white-space:nowrap\">Filtered-Feature-Count-Matrix<a name=\"data-type-Filtered-Feature-Count-Matrix\"> </a></td><td>Filtered Feature Count Matrix</td></tr><tr><td style=\"white-space:nowrap\">Raw-Peak-Barcode-Matrix<a name=\"data-type-Raw-Peak-Barcode-Matrix\"> </a></td><td>Raw Peak Barcode Matrix</td></tr><tr><td style=\"white-space:nowrap\">Filtered-Peak-Barcode-Matrix<a name=\"data-type-Filtered-Peak-Barcode-Matrix\"> </a></td><td>Filtered Peak Barcode Matrix</td></tr><tr><td style=\"white-space:nowrap\">Peak-Calls<a name=\"data-type-Peak-Calls\"> </a></td><td>Peak Calls</td></tr><tr><td style=\"white-space:nowrap\">Peak-Calls-Index<a name=\"data-type-Peak-Calls-Index\"> </a></td><td>Peak Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Annotated-Peaks<a name=\"data-type-Annotated-Peaks\"> </a></td><td>Annotated Peaks</td></tr><tr><td style=\"white-space:nowrap\">Tandem-Repeats<a name=\"data-type-Tandem-Repeats\"> </a></td><td>Tandem Repeats (TRs)</td></tr><tr><td style=\"white-space:nowrap\">Secondary-Analysis<a name=\"data-type-Secondary-Analysis\"> </a></td><td>Secondary Analysis</td></tr><tr><td style=\"white-space:nowrap\">Gene-Annotations<a name=\"data-type-Gene-Annotations\"> </a></td><td>Gene Annotations</td></tr><tr><td style=\"white-space:nowrap\">Pedigree<a name=\"data-type-Pedigree\"> </a></td><td>Pedigree</td></tr><tr><td style=\"white-space:nowrap\">Psychiatric-Assessment-Scores<a name=\"data-type-Psychiatric-Assessment-Scores\"> </a></td><td>Psychiatric Assessment Scores</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "DataType"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/data-type"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Data Type"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "37"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Sequencing-Reads" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Sequencing Reads" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Sequencing-Reads" ]
        ] ;
-       fhir:value [ fhir:v "Raw Sequencing Reads" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Raw-Sequencing-Reads-R1" ] ;
-     fhir:display [ fhir:v "Raw Sequencing Reads R1" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Raw-Sequencing-Reads-R1" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Sequencing Reads" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Unaligned-Reads-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Unaligned Reads Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Unaligned-Reads-Index" ]
        ] ;
-       fhir:value [ fhir:v "Raw Sequencing Reads R1" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Raw-Sequencing-Reads-R2" ] ;
-     fhir:display [ fhir:v "Raw Sequencing Reads R2" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Raw-Sequencing-Reads-R2" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Unaligned Reads Index" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Sequencing-Reads-R1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Sequencing Reads R1" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Sequencing-Reads-R1" ]
        ] ;
-       fhir:value [ fhir:v "Raw Sequencing Reads R2" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Aligned-Reads" ] ;
-     fhir:display [ fhir:v "Aligned Reads" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Aligned-Reads" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Sequencing Reads R1" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Sequencing-Reads-R2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Sequencing Reads R2" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Sequencing-Reads-R2" ]
        ] ;
-       fhir:value [ fhir:v "Aligned Reads" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Aligned-Reads-Index" ] ;
-     fhir:display [ fhir:v "Aligned Reads Index" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Aligned-Reads-Index" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Sequencing Reads R2" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Aligned-Reads" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aligned Reads" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Aligned-Reads" ]
        ] ;
-       fhir:value [ fhir:v "Aligned Reads Index" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "SNV" ] ;
-     fhir:display [ fhir:v "Single Nucleotide Variants (SNVs)" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "SNV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Aligned Reads" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Aligned-Reads-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aligned Reads Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Aligned-Reads-Index" ]
        ] ;
-       fhir:value [ fhir:v "Single Nucleotide Variants (SNVs)" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "InDel" ] ;
-     fhir:display [ fhir:v "Insertions and Deletions (InDels)" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "InDel" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Aligned Reads Index" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SNV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Single Nucleotide Variants (SNVs)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "SNV" ]
        ] ;
-       fhir:value [ fhir:v "Insertions and Deletions (InDels)" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "SV" ] ;
-     fhir:display [ fhir:v "Structural Variations (SVs)" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "SV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Single Nucleotide Variants (SNVs)" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "InDel" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Insertions and Deletions (InDels)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "InDel" ]
        ] ;
-       fhir:value [ fhir:v "Structural Variations (SVs)" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "CNV" ] ;
-     fhir:display [ fhir:v "Copy Number Variations (CNVs)" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "CNV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Insertions and Deletions (InDels)" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Structural Variations (SVs)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "SV" ]
        ] ;
-       fhir:value [ fhir:v "Copy Number Variations (CNVs)" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Variant-Calls-Index" ] ;
-     fhir:display [ fhir:v "Variant Calls Index" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Variant-Calls-Index" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Structural Variations (SVs)" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CNV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Copy Number Variations (CNVs)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "CNV" ]
        ] ;
-       fhir:value [ fhir:v "Variant Calls Index" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Joint-Genotype-SNV" ] ;
-     fhir:display [ fhir:v "Joint Genotype SNV" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Joint-Genotype-SNV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Copy Number Variations (CNVs)" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Variant-Calls-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Variant Calls Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Variant-Calls-Index" ]
        ] ;
-       fhir:value [ fhir:v "Joint Genotype SNV" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Annotated-SNV" ] ;
-     fhir:display [ fhir:v "Annotated SNV" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Annotated-SNV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Variant Calls Index" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Joint-Genotype-SNV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Joint Genotype SNV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Joint-Genotype-SNV" ]
        ] ;
-       fhir:value [ fhir:v "Annotated SNV" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Quality-Control-Metrics" ] ;
-     fhir:display [ fhir:v "Quality Control Metrics" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Quality-Control-Metrics" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Joint Genotype SNV" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Annotated-SNV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Annotated SNV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Annotated-SNV" ]
        ] ;
-       fhir:value [ fhir:v "Quality Control Metrics" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Sequencing-Data-Supplement" ] ;
-     fhir:display [ fhir:v "Sequencing Data Supplement" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Sequencing-Data-Supplement" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Annotated SNV" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Quality-Control-Metrics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Quality Control Metrics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Quality-Control-Metrics" ]
        ] ;
-       fhir:value [ fhir:v "Sequencing Data Supplement" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "IGV" ] ;
-     fhir:display [ fhir:v "IGV" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "IGV" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Quality Control Metrics" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Sequencing-Data-Supplement" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sequencing Data Supplement" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Sequencing-Data-Supplement" ]
        ] ;
-       fhir:value [ fhir:v "IGV" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Laboratory-Values" ] ;
-     fhir:display [ fhir:v "Laboratory Values" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-type"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-type>
-         ] ;
-         fhir:code [ fhir:v "Laboratory-Values" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Sequencing Data Supplement" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IGV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IGV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "IGV" ]
        ] ;
-       fhir:value [ fhir:v "Laboratory Values" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "IGV" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Laboratory-Values" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratory Values" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Laboratory-Values" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Laboratory Values" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Sequencing-Reads-I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Sequencing Reads I1" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Sequencing-Reads-I1" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Sequencing Reads I1" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Sequencing-Reads-I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Sequencing Reads I2" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Sequencing-Reads-I2" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Sequencing Reads I2" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Processed-Reads" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Processed Reads" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Processed-Reads" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Processed Reads" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Processed-Reads-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Processed Reads Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Processed-Reads-Index" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Processed Reads Index" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "De-Novo-Assembly-Aligned-Reads" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "De Novo Assembly Aligned Reads" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "De-Novo-Assembly-Aligned-Reads" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "De Novo Assembly Aligned Reads" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "De-Novo-Assembly-Aligned-Reads-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "De Novo Assembly Aligned Reads Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "De-Novo-Assembly-Aligned-Reads-Index" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "De Novo Assembly Aligned Reads Index" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Methylation-Calls" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Methylation Calls" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Methylation-Calls" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Methylation Calls" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Methylation-Calls-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Methylation Calls Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Methylation-Calls-Index" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Methylation Calls Index" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Feature-Count-Matrix" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Feature Count Matrix" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Feature-Count-Matrix" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Feature Count Matrix" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Filtered-Feature-Count-Matrix" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Filtered Feature Count Matrix" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Filtered-Feature-Count-Matrix" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Filtered Feature Count Matrix" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Raw-Peak-Barcode-Matrix" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Raw Peak Barcode Matrix" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Raw-Peak-Barcode-Matrix" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Raw Peak Barcode Matrix" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Filtered-Peak-Barcode-Matrix" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Filtered Peak Barcode Matrix" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Filtered-Peak-Barcode-Matrix" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Filtered Peak Barcode Matrix" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Peak-Calls" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peak Calls" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Peak-Calls" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Peak Calls" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Peak-Calls-Index" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peak Calls Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Peak-Calls-Index" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Peak Calls Index" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Annotated-Peaks" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Annotated Peaks" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Annotated-Peaks" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Annotated Peaks" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Tandem-Repeats" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tandem Repeats (TRs)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Tandem-Repeats" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Tandem Repeats (TRs)" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Secondary-Analysis" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Secondary Analysis" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Secondary-Analysis" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Secondary Analysis" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Gene-Annotations" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gene Annotations" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Gene-Annotations" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Gene Annotations" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Pedigree" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pedigree" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Pedigree" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pedigree" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Psychiatric-Assessment-Scores" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychiatric Assessment Scores" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-type" ] ;
+         fhir:Coding.code [ fhir:value "Psychiatric-Assessment-Scores" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Psychiatric Assessment Scores" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/data-type.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

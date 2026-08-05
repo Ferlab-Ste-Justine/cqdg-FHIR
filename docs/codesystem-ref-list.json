@@ -8,8 +8,8 @@
     "description" : "DUO codes",
     "uses" : {
     },
-    "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation",
-    "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement"
+    "ValueSet-access-requirement-vs.html" : "Ferlab.bio ValueSet/access-requirement",
+    "ValueSet-access-limitation-vs.html" : "Ferlab.bio ValueSet/access-limitation"
   },
   {
     "url" : "http://purl.obolibrary.org/obo/mondo.owl",
@@ -211,6 +211,17 @@
     "ValueSet-population-vs.html" : "Ferlab.bio ValueSet/population"
   },
   {
+    "url" : "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ProfilingResolution",
+    "title" : "Ferlab.bio CodeSystem/profiling-resolution",
+    "description" : "Resolution at which the experiment profiles the sample.",
+    "uses" : {
+    },
+    "ValueSet-profiling-resolution-vs.html" : "Profiling Resolution"
+  },
+  {
     "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
     "version" : "0.1.0",
     "status" : "active",
@@ -293,7 +304,7 @@
     "status" : "active",
     "name" : "SequencingExperimentSource",
     "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
-    "description" : "Sequencing experimental source",
+    "description" : "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical).",
     "uses" : {
     },
     "ValueSet-sequencing-experiment-source-vs.html" : "Sequencing Experiment Source"
@@ -340,8 +351,8 @@
     "description" : "Tumor normal designation",
     "uses" : {
     },
-    "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation",
-    "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset"
+    "ValueSet-age-at-onset-vs.html" : "Ferlab.bio ValueSet/age-at-onset",
+    "ValueSet-tumor-normal-designation-vs.html" : "Ferlab.bio ValueSet/tumor-normal-designation"
   },
   {
     "url" : "https://fhir.cqdg.ca/CodeSystem/vital-status",

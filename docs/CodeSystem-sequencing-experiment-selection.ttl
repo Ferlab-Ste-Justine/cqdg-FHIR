@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,125 +7,206 @@
 
 <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "sequencing-experiment-selection"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-selection</b></p><a name=\"sequencing-experiment-selection\"> </a><a name=\"hcsequencing-experiment-selection\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CHIP<a name=\"sequencing-experiment-selection-CHIP\"> </a></td><td>ChIP</td></tr><tr><td style=\"white-space:nowrap\">RR<a name=\"sequencing-experiment-selection-RR\"> </a></td><td>Reduced Representation</td></tr><tr><td style=\"white-space:nowrap\">RANDOM<a name=\"sequencing-experiment-selection-RANDOM\"> </a></td><td>Random</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"sequencing-experiment-selection-PA\"> </a></td><td>PolyA</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"sequencing-experiment-selection-PCR\"> </a></td><td>PCR</td></tr><tr><td style=\"white-space:nowrap\">ODT<a name=\"sequencing-experiment-selection-ODT\"> </a></td><td>Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">HS<a name=\"sequencing-experiment-selection-HS\"> </a></td><td>Hybrid Selection</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "SequencingExperimentSelection"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/sequencing-experiment-selection"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Library selection method"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "CHIP" ] ;
-     fhir:display [ fhir:v "ChIP" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "CHIP" ]
+  fhir:Resource.id [ fhir:value "sequencing-experiment-selection"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-selection</b></p><a name=\"sequencing-experiment-selection\"> </a><a name=\"hcsequencing-experiment-selection\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CHIP<a name=\"sequencing-experiment-selection-CHIP\"> </a></td><td>ChIP</td></tr><tr><td style=\"white-space:nowrap\">RR<a name=\"sequencing-experiment-selection-RR\"> </a></td><td>Reduced Representation</td></tr><tr><td style=\"white-space:nowrap\">RANDOM<a name=\"sequencing-experiment-selection-RANDOM\"> </a></td><td>Random</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"sequencing-experiment-selection-PA\"> </a></td><td>PolyA</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"sequencing-experiment-selection-PCR\"> </a></td><td>PCR</td></tr><tr><td style=\"white-space:nowrap\">ODT<a name=\"sequencing-experiment-selection-ODT\"> </a></td><td>Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">HS<a name=\"sequencing-experiment-selection-HS\"> </a></td><td>Hybrid Selection</td></tr><tr><td style=\"white-space:nowrap\">DIRECT<a name=\"sequencing-experiment-selection-DIRECT\"> </a></td><td>Direct</td></tr><tr><td style=\"white-space:nowrap\">TN5<a name=\"sequencing-experiment-selection-TN5\"> </a></td><td>Tn5</td></tr><tr><td style=\"white-space:nowrap\">CDNA<a name=\"sequencing-experiment-selection-CDNA\"> </a></td><td>cDNA</td></tr><tr><td style=\"white-space:nowrap\">CDNA-ODT<a name=\"sequencing-experiment-selection-CDNA-ODT\"> </a></td><td>cDNA Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">IRRNA<a name=\"sequencing-experiment-selection-IRRNA\"> </a></td><td>Inverse rRNA</td></tr><tr><td style=\"white-space:nowrap\">UNSPECIFIED<a name=\"sequencing-experiment-selection-UNSPECIFIED\"> </a></td><td>Unspecified</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sequencing-experiment-selection-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "SequencingExperimentSelection"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/sequencing-experiment-selection"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Library selection method"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "14"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHIP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ChIP" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "CHIP" ]
        ] ;
-       fhir:value [ fhir:v "ChIP" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "RR" ] ;
-     fhir:display [ fhir:v "Reduced Representation" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "RR" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "ChIP" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reduced Representation" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "RR" ]
        ] ;
-       fhir:value [ fhir:v "Reduced Representation" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "RANDOM" ] ;
-     fhir:display [ fhir:v "Random" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "RANDOM" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Reduced Representation" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RANDOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Random" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "RANDOM" ]
        ] ;
-       fhir:value [ fhir:v "Random" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "PA" ] ;
-     fhir:display [ fhir:v "PolyA" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "PA" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Random" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PolyA" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "PA" ]
        ] ;
-       fhir:value [ fhir:v "PolyA" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "PCR" ] ;
-     fhir:display [ fhir:v "PCR" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "PCR" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "PolyA" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCR" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "PCR" ]
        ] ;
-       fhir:value [ fhir:v "PCR" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "ODT" ] ;
-     fhir:display [ fhir:v "Oligo-dT" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "ODT" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "PCR" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ODT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oligo-dT" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "ODT" ]
        ] ;
-       fhir:value [ fhir:v "Oligo-dT" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "HS" ] ;
-     fhir:display [ fhir:v "Hybrid Selection" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection>
-         ] ;
-         fhir:code [ fhir:v "HS" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Oligo-dT" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hybrid Selection" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "HS" ]
        ] ;
-       fhir:value [ fhir:v "Hybrid Selection" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Hybrid Selection" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIRECT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Direct" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "DIRECT" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Direct" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TN5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tn5" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "TN5" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Tn5" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CDNA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "cDNA" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "CDNA" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "cDNA" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CDNA-ODT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "cDNA Oligo-dT" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "CDNA-ODT" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "cDNA Oligo-dT" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IRRNA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inverse rRNA" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "IRRNA" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Inverse rRNA" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "UNSPECIFIED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Unspecified" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "UNSPECIFIED" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Unspecified" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTHER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection" ] ;
+         fhir:Coding.code [ fhir:value "OTHER" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Other" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

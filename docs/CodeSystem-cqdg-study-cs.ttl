@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,75 +7,76 @@
 
 <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "cqdg-study-cs"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-study-cs</b></p><a name=\"cqdg-study-cs\"> </a><a name=\"hccqdg-study-cs\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Cartagène<a name=\"cqdg-study-cs-Cartag.232ne\"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style=\"white-space:nowrap\">Developmental-and-Epileptic-Encephalopathies<a name=\"cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"cqdg-study-cs-Other\"> </a></td><td>Other</td><td>Another study</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "CQDGStudyCS"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/cqdg-study"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "CQDG study code system"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Cartagène" ] ;
-     fhir:display [ fhir:v "CARTaGENE" ] ;
-     fhir:definition [ fhir:v "CARTaGENE study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs>
-         ] ;
-         fhir:code [ fhir:v "Cartagène" ]
+  fhir:Resource.id [ fhir:value "cqdg-study-cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-study-cs</b></p><a name=\"cqdg-study-cs\"> </a><a name=\"hccqdg-study-cs\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Cartagène<a name=\"cqdg-study-cs-Cartag.232ne\"> </a></td><td>CARTaGENE</td><td>CARTaGENE study</td></tr><tr><td style=\"white-space:nowrap\">Developmental-and-Epileptic-Encephalopathies<a name=\"cqdg-study-cs-Developmental-and-Epileptic-Encephalopathies\"> </a></td><td>Developmental and Epileptic Encephalopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"cqdg-study-cs-Other\"> </a></td><td>Other</td><td>Another study</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CQDGStudyCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/cqdg-study"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "CQDG study code system"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Cartagène" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CARTaGENE" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "CARTaGENE study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs" ] ;
+         fhir:Coding.code [ fhir:value "Cartagène" ]
        ] ;
-       fhir:value [ fhir:v "Étude CARTaGENE" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Developmental-and-Epileptic-Encephalopathies" ] ;
-     fhir:display [ fhir:v "Developmental and Epileptic Encephalopathies" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs>
-         ] ;
-         fhir:code [ fhir:v "Developmental-and-Epileptic-Encephalopathies" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Étude CARTaGENE" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Developmental-and-Epileptic-Encephalopathies" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Developmental and Epileptic Encephalopathies" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs" ] ;
+         fhir:Coding.code [ fhir:value "Developmental-and-Epileptic-Encephalopathies" ]
        ] ;
-       fhir:value [ fhir:v "Étude CARTaGENE" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Other" ] ;
-     fhir:display [ fhir:v "Other" ] ;
-     fhir:definition [ fhir:v "Another study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs>
-         ] ;
-         fhir:code [ fhir:v "Other" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Étude CARTaGENE" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Another study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs" ] ;
+         fhir:Coding.code [ fhir:value "Other" ]
        ] ;
-       fhir:value [ fhir:v "Autre étude" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Autre étude" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/cqdg-study-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

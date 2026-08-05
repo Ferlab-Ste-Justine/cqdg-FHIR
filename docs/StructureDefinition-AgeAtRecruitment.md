@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/AgeAtRecruitment | *Version*:0.1.0 |
-| Draft as of 2026-06-08 | *Computable Name*:AgeAtRecruitment |
+| Draft as of 2026-08-05 | *Computable Name*:AgeAtRecruitment |
 
 Patient's age (in days since birth) at the time of recruitment
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-AgeAtRecruitment.csv
   "name" : "AgeAtRecruitment",
   "title" : "Ferlab.bio Extension/age-at-recruitment",
   "status" : "draft",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

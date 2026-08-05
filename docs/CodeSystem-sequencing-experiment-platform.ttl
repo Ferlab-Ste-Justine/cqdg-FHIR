@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,190 +7,206 @@
 
 <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "sequencing-experiment-platform"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-platform</b></p><a name=\"sequencing-experiment-platform\"> </a><a name=\"hcsequencing-experiment-platform\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Capillary<a name=\"sequencing-experiment-platform-Capillary\"> </a></td><td>Capillary</td></tr><tr><td style=\"white-space:nowrap\">DNBSEQ<a name=\"sequencing-experiment-platform-DNBSEQ\"> </a></td><td>DNBSEQ</td></tr><tr><td style=\"white-space:nowrap\">Element<a name=\"sequencing-experiment-platform-Element\"> </a></td><td>Element</td></tr><tr><td style=\"white-space:nowrap\">Helicos<a name=\"sequencing-experiment-platform-Helicos\"> </a></td><td>Helicos</td></tr><tr><td style=\"white-space:nowrap\">Illumina<a name=\"sequencing-experiment-platform-Illumina\"> </a></td><td>Illumina</td></tr><tr><td style=\"white-space:nowrap\">IonTorrent<a name=\"sequencing-experiment-platform-IonTorrent\"> </a></td><td>Ion Torrent</td></tr><tr><td style=\"white-space:nowrap\">GS-FLX<a name=\"sequencing-experiment-platform-GS-FLX\"> </a></td><td>454 / GS-FLX</td></tr><tr><td style=\"white-space:nowrap\">ONT<a name=\"sequencing-experiment-platform-ONT\"> </a></td><td>ONT</td></tr><tr><td style=\"white-space:nowrap\">PacBio<a name=\"sequencing-experiment-platform-PacBio\"> </a></td><td>PacBio</td></tr><tr><td style=\"white-space:nowrap\">Singular<a name=\"sequencing-experiment-platform-Singular\"> </a></td><td>Singular</td></tr><tr><td style=\"white-space:nowrap\">SOLiD<a name=\"sequencing-experiment-platform-SOLiD\"> </a></td><td>SOLiD</td></tr><tr><td style=\"white-space:nowrap\">Ultima<a name=\"sequencing-experiment-platform-Ultima\"> </a></td><td>Ultima</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "SequencingExperimentPlatform"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/sequencing-experiment-platform"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Sequencing experimental platform"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Capillary" ] ;
-     fhir:display [ fhir:v "Capillary" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Capillary" ]
+  fhir:Resource.id [ fhir:value "sequencing-experiment-platform"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-platform</b></p><a name=\"sequencing-experiment-platform\"> </a><a name=\"hcsequencing-experiment-platform\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Capillary<a name=\"sequencing-experiment-platform-Capillary\"> </a></td><td>Capillary</td></tr><tr><td style=\"white-space:nowrap\">DNBSEQ<a name=\"sequencing-experiment-platform-DNBSEQ\"> </a></td><td>DNBSEQ</td></tr><tr><td style=\"white-space:nowrap\">Element<a name=\"sequencing-experiment-platform-Element\"> </a></td><td>Element</td></tr><tr><td style=\"white-space:nowrap\">Helicos<a name=\"sequencing-experiment-platform-Helicos\"> </a></td><td>Helicos</td></tr><tr><td style=\"white-space:nowrap\">Illumina<a name=\"sequencing-experiment-platform-Illumina\"> </a></td><td>Illumina</td></tr><tr><td style=\"white-space:nowrap\">IonTorrent<a name=\"sequencing-experiment-platform-IonTorrent\"> </a></td><td>Ion Torrent</td></tr><tr><td style=\"white-space:nowrap\">GS-FLX<a name=\"sequencing-experiment-platform-GS-FLX\"> </a></td><td>454 / GS-FLX</td></tr><tr><td style=\"white-space:nowrap\">ONT<a name=\"sequencing-experiment-platform-ONT\"> </a></td><td>ONT</td></tr><tr><td style=\"white-space:nowrap\">PacBio<a name=\"sequencing-experiment-platform-PacBio\"> </a></td><td>PacBio</td></tr><tr><td style=\"white-space:nowrap\">Singular<a name=\"sequencing-experiment-platform-Singular\"> </a></td><td>Singular</td></tr><tr><td style=\"white-space:nowrap\">SOLiD<a name=\"sequencing-experiment-platform-SOLiD\"> </a></td><td>SOLiD</td></tr><tr><td style=\"white-space:nowrap\">Ultima<a name=\"sequencing-experiment-platform-Ultima\"> </a></td><td>Ultima</td></tr><tr><td style=\"white-space:nowrap\">Chromium<a name=\"sequencing-experiment-platform-Chromium\"> </a></td><td>Chromium</td></tr><tr><td style=\"white-space:nowrap\">CASH<a name=\"sequencing-experiment-platform-CASH\"> </a></td><td>Comprehensive Assessment of Symptoms and History (CASH)</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "SequencingExperimentPlatform"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/sequencing-experiment-platform"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Sequencing experimental platform"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "14"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Capillary" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Capillary" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Capillary" ]
        ] ;
-       fhir:value [ fhir:v "Capillary" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "DNBSEQ" ] ;
-     fhir:display [ fhir:v "DNBSEQ" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "DNBSEQ" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Capillary" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DNBSEQ" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DNBSEQ" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "DNBSEQ" ]
        ] ;
-       fhir:value [ fhir:v "DNBSEQ" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Element" ] ;
-     fhir:display [ fhir:v "Element" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Element" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DNBSEQ" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Element" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Element" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Element" ]
        ] ;
-       fhir:value [ fhir:v "Element" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Helicos" ] ;
-     fhir:display [ fhir:v "Helicos" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Helicos" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Element" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Helicos" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Helicos" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Helicos" ]
        ] ;
-       fhir:value [ fhir:v "Helicos" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Illumina" ] ;
-     fhir:display [ fhir:v "Illumina" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Illumina" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Helicos" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Illumina" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Illumina" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Illumina" ]
        ] ;
-       fhir:value [ fhir:v "Illumina" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "IonTorrent" ] ;
-     fhir:display [ fhir:v "Ion Torrent" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "IonTorrent" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Illumina" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IonTorrent" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ion Torrent" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "IonTorrent" ]
        ] ;
-       fhir:value [ fhir:v "Ion Torrent" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "GS-FLX" ] ;
-     fhir:display [ fhir:v "454 / GS-FLX" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "GS-FLX" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Ion Torrent" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GS-FLX" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "454 / GS-FLX" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "GS-FLX" ]
        ] ;
-       fhir:value [ fhir:v "454 / GS-FLX" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "ONT" ] ;
-     fhir:display [ fhir:v "ONT" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "ONT" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "454 / GS-FLX" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ONT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ONT" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "ONT" ]
        ] ;
-       fhir:value [ fhir:v "ONT" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "PacBio" ] ;
-     fhir:display [ fhir:v "PacBio" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "PacBio" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "ONT" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PacBio" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PacBio" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "PacBio" ]
        ] ;
-       fhir:value [ fhir:v "PacBio" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Singular" ] ;
-     fhir:display [ fhir:v "Singular" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Singular" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "PacBio" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Singular" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Singular" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Singular" ]
        ] ;
-       fhir:value [ fhir:v "Singular" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "SOLiD" ] ;
-     fhir:display [ fhir:v "SOLiD" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "SOLiD" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Singular" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SOLiD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SOLiD" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "SOLiD" ]
        ] ;
-       fhir:value [ fhir:v "SOLiD" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Ultima" ] ;
-     fhir:display [ fhir:v "Ultima" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform>
-         ] ;
-         fhir:code [ fhir:v "Ultima" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "SOLiD" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Ultima" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ultima" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Ultima" ]
        ] ;
-       fhir:value [ fhir:v "Ultima" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Ultima" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Chromium" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chromium" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "Chromium" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Chromium" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CASH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Comprehensive Assessment of Symptoms and History (CASH)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform" ] ;
+         fhir:Coding.code [ fhir:value "CASH" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Comprehensive Assessment of Symptoms and History (CASH)" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

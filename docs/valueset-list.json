@@ -191,6 +191,15 @@
     "systems" : ["https://fhir.cqdg.ca/CodeSystem/population"]
   },
   {
+    "url" : "https://fhir.cqdg.ca/ValueSet/profiling-resolution-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ProfilingResolutionVS",
+    "title" : "Profiling Resolution",
+    "description" : "Profiling Resolution ValueSet",
+    "systems" : ["https://fhir.cqdg.ca/CodeSystem/profiling-resolution"]
+  },
+  {
     "url" : "https://fhir.cqdg.ca/ValueSet/qc-ethnicity-vs",
     "version" : "0.1.0",
     "status" : "active",

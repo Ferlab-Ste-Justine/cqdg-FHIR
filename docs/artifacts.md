@@ -106,6 +106,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Ferlab.bio ValueSet/tumor-normal-designation](ValueSet-tumor-normal-designation-vs.md) | Tumor Normal Designation ValueSet |
 | [Ferlab.bio ValueSet/vital-status](ValueSet-vital-status-vs.md) | Vital Status ValueSet |
 | [NCIT Special Codes ValueSet](ValueSet-ncit-special-codes-vs.md) | ValueSet for selected NCIT codes from NCI Thesaurus. |
+| [Profiling Resolution](ValueSet-profiling-resolution-vs.md) | Profiling Resolution ValueSet |
 | [Sequencing Experiment Platform](ValueSet-sequencing-experiment-platform-vs.md) | Sequencing Experiment Platform ValueSet |
 | [Sequencing Experiment Selection](ValueSet-sequencing-experiment-selection-vs.md) | Sequencing Experiment Selection ValueSet |
 | [Sequencing Experiment Source](ValueSet-sequencing-experiment-source-vs.md) | Sequencing Experiment Source ValueSet |
@@ -136,6 +137,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Ferlab.bio CodeSystem/gender-collection-method](CodeSystem-gender-collection-method.md) | This code system defines the possible methods by which a participant's gender information may be collected or recorded. |
 | [Ferlab.bio CodeSystem/genome-build](CodeSystem-genome-build.md) | Genome build |
 | [Ferlab.bio CodeSystem/population](CodeSystem-population.md) | Population |
+| [Ferlab.bio CodeSystem/profiling-resolution](CodeSystem-profiling-resolution.md) | Resolution at which the experiment profiles the sample. |
 | [Ferlab.bio CodeSystem/qc-ethnicity](CodeSystem-qc-ethnicity.md) | Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center |
 | [Ferlab.bio CodeSystem/race](CodeSystem-qc-race.md) | This code system defines standardized categories for documenting a participant's race within clinical and research datasets. |
 | [Ferlab.bio CodeSystem/race-collection-method](CodeSystem-race-collection-method.md) | This code system defines standardized methods for collecting or recording a participant's race information in clinical and research settings. |
@@ -143,7 +145,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Ferlab.bio CodeSystem/research-domain](CodeSystem-research-domain.md) | Research domain |
 | [Ferlab.bio CodeSystem/sequencing-experiment-platform](CodeSystem-sequencing-experiment-platform.md) | Sequencing experimental platform |
 | [Ferlab.bio CodeSystem/sequencing-experiment-selection](CodeSystem-sequencing-experiment-selection.md) | Library selection method |
-| [Ferlab.bio CodeSystem/sequencing-experiment-source](CodeSystem-sequencing-experiment-source.md) | Sequencing experimental source |
+| [Ferlab.bio CodeSystem/sequencing-experiment-source](CodeSystem-sequencing-experiment-source.md) | Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical). |
 | [Ferlab.bio CodeSystem/sex-at-birth](CodeSystem-sex-at-birth.md) | This code system defines standardized categories for documenting a participant's sex assigned at birth in clinical and research datasets. |
 | [Ferlab.bio CodeSystem/sex-at-birth-collection-method](CodeSystem-sex-at-birth-collection-method.md) | This code system defines standardized methods for collecting or recording a participant's sex assigned at birth in clinical and research contexts. |
 | [Ferlab.bio CodeSystem/study-design](CodeSystem-study-design.md) | Data category |
@@ -170,5 +172,7 @@ These are example instances that show what data produced and consumed by systems
 | [Ferlab.bio Example/cqdg-program-list](List-ExampleCQDGProgramGroup.md) | A Group resource example using the CQDG_Program profile |
 | [Ferlab.bio Example/cqdg-study](ResearchStudy-ResearchStudyExample.md) | An example of a research study. |
 | [Ferlab.bio Example/cqdg-task](Task-CQDGTaskExample.md) | An example of a cqdg Task |
+| [Ferlab.bio Example/cqdg-task-long-read](Task-CQDGTaskLongReadExample.md) | An example of a cqdg long-read Task (ONT adaptive sampling, de novo assembly) |
+| [Ferlab.bio Example/cqdg-task-multi-omic](Task-CQDGTaskMultiOmicExample.md) | An example of a cqdg multi-omic Task (single-nucleus RNA-seq + ATAC-seq) |
 | [Ferlab.bio Example/specimen1](Specimen-SpecimenExample.md) | An example of a specimen |
 

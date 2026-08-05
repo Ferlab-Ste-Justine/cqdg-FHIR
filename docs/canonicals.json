@@ -139,6 +139,13 @@
   "name" : "Population"
 },
 {
+  "id" : "profiling-resolution",
+  "type" : "CodeSystem",
+  "url" : "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+  "version" : "0.1.0",
+  "name" : "ProfilingResolution"
+},
+{
   "id" : "qc-ethnicity",
   "type" : "CodeSystem",
   "url" : "https://fhir.cqdg.ca/CodeSystem/qc-ethnicity",
@@ -704,6 +711,13 @@
   "url" : "https://fhir.cqdg.ca/ValueSet/population-vs",
   "version" : "0.1.0",
   "name" : "PopulationVS"
+},
+{
+  "id" : "profiling-resolution-vs",
+  "type" : "ValueSet",
+  "url" : "https://fhir.cqdg.ca/ValueSet/profiling-resolution-vs",
+  "version" : "0.1.0",
+  "name" : "ProfilingResolutionVS"
 },
 {
   "id" : "qc-ethnicity-vs",

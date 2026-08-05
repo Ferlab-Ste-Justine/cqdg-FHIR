@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,58 +7,70 @@
 
 <https://fhir.cqdg.ca/CodeSystem/family-type> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "family-type"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-type</b></p><a name=\"family-type\"> </a><a name=\"hcfamily-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Case only<a name=\"family-type-Caseonly\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent duo<a name=\"family-type-Case-parentduo\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent trio<a name=\"family-type-Case-parenttrio\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case - affected relative<a name=\"family-type-Case-affectedrelative\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Nuclear family<a name=\"family-type-Nuclearfamily\"> </a></td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/family-type"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/family-type>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "FamilyType"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/family-type"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Family type"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Case only" ] ;
-     fhir:display [ fhir:v "Case only" ]
-  ] [
-     fhir:code [ fhir:v "Case-parent duo" ] ;
-     fhir:display [ fhir:v "Case-parent duo" ]
-  ] [
-     fhir:code [ fhir:v "Case-parent trio" ] ;
-     fhir:display [ fhir:v "Case-parent trio" ]
-  ] [
-     fhir:code [ fhir:v "Case-sibling" ] ;
-     fhir:display [ fhir:v "Case-sibling" ]
-  ] [
-     fhir:code [ fhir:v "Twins" ] ;
-     fhir:display [ fhir:v "Twins" ]
-  ] [
-     fhir:code [ fhir:v "Case - affected relative" ] ;
-     fhir:display [ fhir:v "Case - affected relative" ]
-  ] [
-     fhir:code [ fhir:v "Other" ] ;
-     fhir:display [ fhir:v "Other" ]
-  ] [
-     fhir:code [ fhir:v "Nuclear family" ] ;
-     fhir:display [ fhir:v "Nuclear family" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "family-type"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-type</b></p><a name=\"family-type\"> </a><a name=\"hcfamily-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/family-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Case only<a name=\"family-type-Caseonly\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent duo<a name=\"family-type-Case-parentduo\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-parent trio<a name=\"family-type-Case-parenttrio\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case-sibling<a name=\"family-type-Case-sibling\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Twins<a name=\"family-type-Twins\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Case - affected relative<a name=\"family-type-Case-affectedrelative\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-type-Other\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Nuclear family<a name=\"family-type-Nuclearfamily\"> </a></td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/family-type"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "FamilyType"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/family-type"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Family type"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Case only" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Case only" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Case-parent duo" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Case-parent duo" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Case-parent trio" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Case-parent trio" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Case-sibling" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Case-sibling" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Twins" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Twins" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Case - affected relative" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Case - affected relative" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Nuclear family" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nuclear family" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/family-type.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/StableFileIdExtension | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:StableFileIdExtension |
+| Active as of 2026-08-05 | *Computable Name*:StableFileIdExtension |
 
 Stable path-based file identifier (FH)
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-StableFileIdExtensio
   "name" : "StableFileIdExtension",
   "title" : "Ferlab.bio Extension/stable-file-id",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

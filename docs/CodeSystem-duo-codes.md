@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://purl.obolibrary.org/obo/duo.owl | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:DUOCodes |
+| Active as of 2026-08-05 | *Computable Name*:DUOCodes |
 
  
 DUO codes 
@@ -33,7 +33,7 @@ DUO codes
   "title" : "Ferlab.bio CodeSystem/duo-codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

@@ -14,13 +14,16 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
 * pipeline: Second Pipeline
 
 > **Ferlab.bio StructureDefinition/sequencing-experiment**
-* experimentalStrategy: [Ferlab.bio CodeSystem/experimental-strategy: WGS](CodeSystem-experimental-strategy.md#experimental-strategy-WGS) (Whole Exome Sequencing)
-* isPairedEnd: true
+* experimentalStrategy: [Ferlab.bio CodeSystem/experimental-strategy: WGS](CodeSystem-experimental-strategy.md#experimental-strategy-WGS) (Whole Genome Sequencing)
 * platform: [Ferlab.bio CodeSystem/sequencing-experiment-platform: Illumina](CodeSystem-sequencing-experiment-platform.md#sequencing-experiment-platform-Illumina) (Illumina)
-* readLength: 151,8,8,151
 * selection: [Ferlab.bio CodeSystem/sequencing-experiment-selection: CHIP](CodeSystem-sequencing-experiment-selection.md#sequencing-experiment-selection-CHIP) (ChIP)
-* source: [Ferlab.bio CodeSystem/sequencing-experiment-source: GEN](CodeSystem-sequencing-experiment-source.md#sequencing-experiment-source-GEN) (Genomic)
+* source: [Ferlab.bio CodeSystem/sequencing-experiment-source: GEN](CodeSystem-sequencing-experiment-source.md#sequencing-experiment-source-GEN) (Genomics)
+* profilingResolution: [Ferlab.bio CodeSystem/profiling-resolution: Bulk](CodeSystem-profiling-resolution.md#profiling-resolution-Bulk) (Bulk)
+* isPairedEnd: true
+* instrumentModel: NovaSeq 6000
 * protocol: protocol2
+* readLength: 151,8,8,151
+* isImputed: false
 * targetCaptureKit: targetCaptureKit2
 * targetLoci: targetedLoci2
 * runIds: RunID12345
@@ -96,12 +99,8 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
       "valueCoding" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
         "code" : "WGS",
-        "display" : "Whole Exome Sequencing"
+        "display" : "Whole Genome Sequencing"
       }
-    },
-    {
-      "url" : "isPairedEnd",
-      "valueBoolean" : true
     },
     {
       "url" : "platform",
@@ -110,10 +109,6 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
         "code" : "Illumina",
         "display" : "Illumina"
       }
-    },
-    {
-      "url" : "readLength",
-      "valueString" : "151,8,8,151"
     },
     {
       "url" : "selection",
@@ -128,12 +123,36 @@ Profile: [https://fhir.cqdg.ca/StructureDefinition/CQDGTask](https://simplifier.
       "valueCoding" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
         "code" : "GEN",
-        "display" : "Genomic"
+        "display" : "Genomics"
       }
+    },
+    {
+      "url" : "profilingResolution",
+      "valueCoding" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+        "code" : "Bulk",
+        "display" : "Bulk"
+      }
+    },
+    {
+      "url" : "isPairedEnd",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "instrumentModel",
+      "valueString" : "NovaSeq 6000"
     },
     {
       "url" : "protocol",
       "valueString" : "protocol2"
+    },
+    {
+      "url" : "readLength",
+      "valueString" : "151,8,8,151"
+    },
+    {
+      "url" : "isImputed",
+      "valueBoolean" : false
     },
     {
       "url" : "targetCaptureKit",

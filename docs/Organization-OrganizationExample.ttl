@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,17 +7,23 @@
 
 <https://fhir.cqdg.ca/Organization/OrganizationExample> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "OrganizationExample"] ; # 
-  fhir:meta [
-     fhir:tag ( [
-       fhir:code [ fhir:v "CAG" ]
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization OrganizationExample</b></p><a name=\"OrganizationExample\"> </a><a name=\"hcOrganizationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Tag: </p></div><p><b>name</b>: CQDG</p></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:name [ fhir:v "CQDG"] . # 
+  fhir:Resource.id [ fhir:value "OrganizationExample"] ;
+  fhir:Resource.meta [
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.code [ fhir:value "CAG" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization OrganizationExample</b></p><a name=\"OrganizationExample\"> </a><a name=\"hcOrganizationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Tag: </p></div><p><b>name</b>: CQDG</p></div>"
+  ] ;
+  fhir:Organization.name [ fhir:value "CQDG"] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/Organization/OrganizationExample.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

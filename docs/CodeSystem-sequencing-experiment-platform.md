@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:SequencingExperimentPlatform |
+| Active as of 2026-08-05 | *Computable Name*:SequencingExperimentPlatform |
 
  
 Sequencing experimental platform 
@@ -32,7 +32,7 @@ Sequencing experimental platform
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-platform",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Sequencing experimental platform
   "description" : "Sequencing experimental platform",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 12,
+  "count" : 14,
   "concept" : [{
     "code" : "Capillary",
     "display" : "Capillary",
@@ -175,6 +175,28 @@ Sequencing experimental platform
         "code" : "Ultima"
       },
       "value" : "Ultima"
+    }]
+  },
+  {
+    "code" : "Chromium",
+    "display" : "Chromium",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+        "code" : "Chromium"
+      },
+      "value" : "Chromium"
+    }]
+  },
+  {
+    "code" : "CASH",
+    "display" : "Comprehensive Assessment of Symptoms and History (CASH)",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+        "code" : "CASH"
+      },
+      "value" : "Comprehensive Assessment of Symptoms and History (CASH)"
     }]
   }]
 }

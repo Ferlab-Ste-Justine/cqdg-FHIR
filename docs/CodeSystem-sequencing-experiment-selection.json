@@ -3,7 +3,7 @@
   "id" : "sequencing-experiment-selection",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-selection</b></p><a name=\"sequencing-experiment-selection\"> </a><a name=\"hcsequencing-experiment-selection\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CHIP<a name=\"sequencing-experiment-selection-CHIP\"> </a></td><td>ChIP</td></tr><tr><td style=\"white-space:nowrap\">RR<a name=\"sequencing-experiment-selection-RR\"> </a></td><td>Reduced Representation</td></tr><tr><td style=\"white-space:nowrap\">RANDOM<a name=\"sequencing-experiment-selection-RANDOM\"> </a></td><td>Random</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"sequencing-experiment-selection-PA\"> </a></td><td>PolyA</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"sequencing-experiment-selection-PCR\"> </a></td><td>PCR</td></tr><tr><td style=\"white-space:nowrap\">ODT<a name=\"sequencing-experiment-selection-ODT\"> </a></td><td>Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">HS<a name=\"sequencing-experiment-selection-HS\"> </a></td><td>Hybrid Selection</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-selection</b></p><a name=\"sequencing-experiment-selection\"> </a><a name=\"hcsequencing-experiment-selection\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CHIP<a name=\"sequencing-experiment-selection-CHIP\"> </a></td><td>ChIP</td></tr><tr><td style=\"white-space:nowrap\">RR<a name=\"sequencing-experiment-selection-RR\"> </a></td><td>Reduced Representation</td></tr><tr><td style=\"white-space:nowrap\">RANDOM<a name=\"sequencing-experiment-selection-RANDOM\"> </a></td><td>Random</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"sequencing-experiment-selection-PA\"> </a></td><td>PolyA</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"sequencing-experiment-selection-PCR\"> </a></td><td>PCR</td></tr><tr><td style=\"white-space:nowrap\">ODT<a name=\"sequencing-experiment-selection-ODT\"> </a></td><td>Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">HS<a name=\"sequencing-experiment-selection-HS\"> </a></td><td>Hybrid Selection</td></tr><tr><td style=\"white-space:nowrap\">DIRECT<a name=\"sequencing-experiment-selection-DIRECT\"> </a></td><td>Direct</td></tr><tr><td style=\"white-space:nowrap\">TN5<a name=\"sequencing-experiment-selection-TN5\"> </a></td><td>Tn5</td></tr><tr><td style=\"white-space:nowrap\">CDNA<a name=\"sequencing-experiment-selection-CDNA\"> </a></td><td>cDNA</td></tr><tr><td style=\"white-space:nowrap\">CDNA-ODT<a name=\"sequencing-experiment-selection-CDNA-ODT\"> </a></td><td>cDNA Oligo-dT</td></tr><tr><td style=\"white-space:nowrap\">IRRNA<a name=\"sequencing-experiment-selection-IRRNA\"> </a></td><td>Inverse rRNA</td></tr><tr><td style=\"white-space:nowrap\">UNSPECIFIED<a name=\"sequencing-experiment-selection-UNSPECIFIED\"> </a></td><td>Unspecified</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sequencing-experiment-selection-OTHER\"> </a></td><td>Other</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -23,7 +23,7 @@
   "description" : "Library selection method",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 7,
+  "count" : 14,
   "concept" : [{
     "code" : "CHIP",
     "display" : "ChIP",
@@ -99,6 +99,83 @@
         "code" : "HS"
       },
       "value" : "Hybrid Selection"
+    }]
+  },
+  {
+    "code" : "DIRECT",
+    "display" : "Direct",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "DIRECT"
+      },
+      "value" : "Direct"
+    }]
+  },
+  {
+    "code" : "TN5",
+    "display" : "Tn5",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "TN5"
+      },
+      "value" : "Tn5"
+    }]
+  },
+  {
+    "code" : "CDNA",
+    "display" : "cDNA",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CDNA"
+      },
+      "value" : "cDNA"
+    }]
+  },
+  {
+    "code" : "CDNA-ODT",
+    "display" : "cDNA Oligo-dT",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CDNA-ODT"
+      },
+      "value" : "cDNA Oligo-dT"
+    }]
+  },
+  {
+    "code" : "IRRNA",
+    "display" : "Inverse rRNA",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "IRRNA"
+      },
+      "value" : "Inverse rRNA"
+    }]
+  },
+  {
+    "code" : "UNSPECIFIED",
+    "display" : "Unspecified",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "UNSPECIFIED"
+      },
+      "value" : "Unspecified"
+    }]
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "OTHER"
+      },
+      "value" : "Other"
     }]
   }]
 }

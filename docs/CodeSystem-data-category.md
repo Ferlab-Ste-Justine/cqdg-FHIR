@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/data-category | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:DataCategory |
+| Active as of 2026-08-05 | *Computable Name*:DataCategory |
 
  
 Data category 
@@ -32,7 +32,7 @@ Data category
   "title" : "Ferlab.bio CodeSystem/data-category",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Data category
   "description" : "Data category",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 7,
+  "count" : 9,
   "concept" : [{
     "code" : "genomics",
     "display" : "Genomics",
@@ -103,6 +103,30 @@ Data category
         "code" : "proteomics"
       },
       "value" : "Protéomique"
+    }]
+  },
+  {
+    "code" : "epigenomics",
+    "display" : "Epigenomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "epigenomics"
+      },
+      "value" : "Épigénomique"
+    }]
+  },
+  {
+    "code" : "multi-omic",
+    "display" : "Multi-omic",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "multi-omic"
+      },
+      "value" : "Multi-omique"
     }]
   },
   {

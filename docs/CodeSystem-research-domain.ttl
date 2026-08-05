@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,224 +7,214 @@
 
 <https://fhir.cqdg.ca/CodeSystem/research-domain> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "research-domain"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem research-domain</b></p><a name=\"research-domain\"> </a><a name=\"hcresearch-domain\"> </a><p>This case-insensitive code system <code>https://fhir.cqdg.ca/CodeSystem/research-domain</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">aging<a name=\"research-domain-aging\"> </a></td><td>Aging study</td><td/></tr><tr><td style=\"white-space:nowrap\">birth-defect<a name=\"research-domain-birth-defect\"> </a></td><td>Birth defect study</td><td/></tr><tr><td style=\"white-space:nowrap\">cancer<a name=\"research-domain-cancer\"> </a></td><td>Cancer study</td><td/></tr><tr><td style=\"white-space:nowrap\">circulatory-and-respiratory-health<a name=\"research-domain-circulatory-and-respiratory-health\"> </a></td><td>Circulatory and Respiratory Health study</td><td/></tr><tr><td style=\"white-space:nowrap\">general-health<a name=\"research-domain-general-health\"> </a></td><td>General Health</td><td>General Health study</td></tr><tr><td style=\"white-space:nowrap\">infection-and-immunity<a name=\"research-domain-infection-and-immunity\"> </a></td><td>Infection and Immunity study</td><td/></tr><tr><td style=\"white-space:nowrap\">musculoskeletal-health-and-arthritis<a name=\"research-domain-musculoskeletal-health-and-arthritis\"> </a></td><td>Musculoskeletal Health and Arthritis study</td><td/></tr><tr><td style=\"white-space:nowrap\">neurodevelopmental-conditions<a name=\"research-domain-neurodevelopmental-conditions\"> </a></td><td>Neurodevelopmental Conditions</td><td>Neurodevelopmental Conditions study</td></tr><tr><td style=\"white-space:nowrap\">neurosciences-mental-health-and-addiction<a name=\"research-domain-neurosciences-mental-health-and-addiction\"> </a></td><td>Neurosciences, Mental Health and Addiction</td><td>Neurosciences, Mental Health and Addiction study</td></tr><tr><td style=\"white-space:nowrap\">nutrition-metabolism-and-diabetes<a name=\"research-domain-nutrition-metabolism-and-diabetes\"> </a></td><td>Nutrition, Metabolism and Diabetes</td><td>Nutrition, Metabolism and Diabetes study</td></tr><tr><td style=\"white-space:nowrap\">population-genomics<a name=\"research-domain-population-genomics\"> </a></td><td>Population Genomics</td><td>Population Genomics study</td></tr><tr><td style=\"white-space:nowrap\">rare-diseases<a name=\"research-domain-rare-diseases\"> </a></td><td>Rare Diseases</td><td>Rare Diseases study</td></tr><tr><td style=\"white-space:nowrap\">not-applicable<a name=\"research-domain-not-applicable\"> </a></td><td>Not Applicable</td><td>Not Applicable study</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"research-domain-other\"> </a></td><td>Other</td><td>Other study</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "ResearchDomainCodeSystem"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/research-domain"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Research domain"] ; # 
-  fhir:caseSensitive [ fhir:v false] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "14"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "aging" ] ;
-     fhir:display [ fhir:v "Aging study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "aging" ]
+  fhir:Resource.id [ fhir:value "research-domain"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem research-domain</b></p><a name=\"research-domain\"> </a><a name=\"hcresearch-domain\"> </a><p>This case-insensitive code system <code>https://fhir.cqdg.ca/CodeSystem/research-domain</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">aging<a name=\"research-domain-aging\"> </a></td><td>Aging study</td><td/></tr><tr><td style=\"white-space:nowrap\">birth-defect<a name=\"research-domain-birth-defect\"> </a></td><td>Birth defect study</td><td/></tr><tr><td style=\"white-space:nowrap\">cancer<a name=\"research-domain-cancer\"> </a></td><td>Cancer study</td><td/></tr><tr><td style=\"white-space:nowrap\">circulatory-and-respiratory-health<a name=\"research-domain-circulatory-and-respiratory-health\"> </a></td><td>Circulatory and Respiratory Health study</td><td/></tr><tr><td style=\"white-space:nowrap\">general-health<a name=\"research-domain-general-health\"> </a></td><td>General Health</td><td>General Health study</td></tr><tr><td style=\"white-space:nowrap\">infection-and-immunity<a name=\"research-domain-infection-and-immunity\"> </a></td><td>Infection and Immunity study</td><td/></tr><tr><td style=\"white-space:nowrap\">musculoskeletal-health-and-arthritis<a name=\"research-domain-musculoskeletal-health-and-arthritis\"> </a></td><td>Musculoskeletal Health and Arthritis study</td><td/></tr><tr><td style=\"white-space:nowrap\">neurodevelopmental-conditions<a name=\"research-domain-neurodevelopmental-conditions\"> </a></td><td>Neurodevelopmental Conditions</td><td>Neurodevelopmental Conditions study</td></tr><tr><td style=\"white-space:nowrap\">neurosciences-mental-health-and-addiction<a name=\"research-domain-neurosciences-mental-health-and-addiction\"> </a></td><td>Neurosciences, Mental Health and Addiction</td><td>Neurosciences, Mental Health and Addiction study</td></tr><tr><td style=\"white-space:nowrap\">nutrition-metabolism-and-diabetes<a name=\"research-domain-nutrition-metabolism-and-diabetes\"> </a></td><td>Nutrition, Metabolism and Diabetes</td><td>Nutrition, Metabolism and Diabetes study</td></tr><tr><td style=\"white-space:nowrap\">population-genomics<a name=\"research-domain-population-genomics\"> </a></td><td>Population Genomics</td><td>Population Genomics study</td></tr><tr><td style=\"white-space:nowrap\">rare-diseases<a name=\"research-domain-rare-diseases\"> </a></td><td>Rare Diseases</td><td>Rare Diseases study</td></tr><tr><td style=\"white-space:nowrap\">not-applicable<a name=\"research-domain-not-applicable\"> </a></td><td>Not Applicable</td><td>Not Applicable study</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"research-domain-other\"> </a></td><td>Other</td><td>Other study</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ResearchDomainCodeSystem"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/research-domain"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Research domain"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "14"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aging" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aging study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "aging" ]
        ] ;
-       fhir:value [ fhir:v "Aging study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "birth-defect" ] ;
-     fhir:display [ fhir:v "Birth defect study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "birth-defect" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Aging study" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "birth-defect" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Birth defect study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "birth-defect" ]
        ] ;
-       fhir:value [ fhir:v "Birth defect study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "cancer" ] ;
-     fhir:display [ fhir:v "Cancer study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "cancer" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Birth defect study" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cancer" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancer study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "cancer" ]
        ] ;
-       fhir:value [ fhir:v "cancer study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "circulatory-and-respiratory-health" ] ;
-     fhir:display [ fhir:v "Circulatory and Respiratory Health study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "circulatory-and-respiratory-health" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "cancer study" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "circulatory-and-respiratory-health" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Circulatory and Respiratory Health study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "circulatory-and-respiratory-health" ]
        ] ;
-       fhir:value [ fhir:v "Circulatory and Respiratory Health study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "general-health" ] ;
-     fhir:display [ fhir:v "General Health" ] ;
-     fhir:definition [ fhir:v "General Health study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "general-health" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Circulatory and Respiratory Health study" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "general-health" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "General Health" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "General Health study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "general-health" ]
        ] ;
-       fhir:value [ fhir:v "General Health study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "infection-and-immunity" ] ;
-     fhir:display [ fhir:v "Infection and Immunity study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "infection-and-immunity" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "General Health study" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "infection-and-immunity" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Infection and Immunity study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "infection-and-immunity" ]
        ] ;
-       fhir:value [ fhir:v "Infection and Immunity study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "musculoskeletal-health-and-arthritis" ] ;
-     fhir:display [ fhir:v "Musculoskeletal Health and Arthritis study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "musculoskeletal-health-and-arthritis" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Infection and Immunity study" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "musculoskeletal-health-and-arthritis" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Musculoskeletal Health and Arthritis study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "musculoskeletal-health-and-arthritis" ]
        ] ;
-       fhir:value [ fhir:v "Musculoskeletal Health and Arthritis study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "neurodevelopmental-conditions" ] ;
-     fhir:display [ fhir:v "Neurodevelopmental Conditions" ] ;
-     fhir:definition [ fhir:v "Neurodevelopmental Conditions study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "neurodevelopmental-conditions" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Musculoskeletal Health and Arthritis study" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "neurodevelopmental-conditions" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neurodevelopmental Conditions" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Neurodevelopmental Conditions study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "neurodevelopmental-conditions" ]
        ] ;
-       fhir:value [ fhir:v "Neurodevelopmental Conditions study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "neurosciences-mental-health-and-addiction" ] ;
-     fhir:display [ fhir:v "Neurosciences, Mental Health and Addiction" ] ;
-     fhir:definition [ fhir:v "Neurosciences, Mental Health and Addiction study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "neurosciences-mental-health-and-addiction" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Neurodevelopmental Conditions study" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "neurosciences-mental-health-and-addiction" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neurosciences, Mental Health and Addiction" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Neurosciences, Mental Health and Addiction study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "neurosciences-mental-health-and-addiction" ]
        ] ;
-       fhir:value [ fhir:v "Neurosciences, Mental Health and Addiction study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "nutrition-metabolism-and-diabetes" ] ;
-     fhir:display [ fhir:v "Nutrition, Metabolism and Diabetes" ] ;
-     fhir:definition [ fhir:v "Nutrition, Metabolism and Diabetes study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "nutrition-metabolism-and-diabetes" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Neurosciences, Mental Health and Addiction study" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "nutrition-metabolism-and-diabetes" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutrition, Metabolism and Diabetes" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nutrition, Metabolism and Diabetes study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "nutrition-metabolism-and-diabetes" ]
        ] ;
-       fhir:value [ fhir:v "Nutrition, Metabolism and Diabetes study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "population-genomics" ] ;
-     fhir:display [ fhir:v "Population Genomics" ] ;
-     fhir:definition [ fhir:v "Population Genomics study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "population-genomics" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Nutrition, Metabolism and Diabetes study" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "population-genomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Population Genomics" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Population Genomics study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "population-genomics" ]
        ] ;
-       fhir:value [ fhir:v "Population Genomics study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "rare-diseases" ] ;
-     fhir:display [ fhir:v "Rare Diseases" ] ;
-     fhir:definition [ fhir:v "Rare Diseases study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "rare-diseases" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Population Genomics study" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rare-diseases" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rare Diseases" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Rare Diseases study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "rare-diseases" ]
        ] ;
-       fhir:value [ fhir:v "Rare Diseases study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "not-applicable" ] ;
-     fhir:display [ fhir:v "Not Applicable" ] ;
-     fhir:definition [ fhir:v "Not Applicable study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "not-applicable" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Rare Diseases study" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "not-applicable" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Not Applicable" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Not Applicable study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "not-applicable" ]
        ] ;
-       fhir:value [ fhir:v "Not Applicable study" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "other" ] ;
-     fhir:display [ fhir:v "Other" ] ;
-     fhir:definition [ fhir:v "Other study" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/research-domain"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/research-domain>
-         ] ;
-         fhir:code [ fhir:v "other" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Not Applicable study" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Other study" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/research-domain" ] ;
+         fhir:Coding.code [ fhir:value "other" ]
        ] ;
-       fhir:value [ fhir:v "Other study" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Other study" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/research-domain.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

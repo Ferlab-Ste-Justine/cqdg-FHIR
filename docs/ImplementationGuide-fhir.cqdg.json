@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CQDG_FHIR_IG",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -29,7 +29,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.1.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -872,6 +872,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/profiling-resolution"
+      },
+      "name" : "Ferlab.bio CodeSystem/profiling-resolution",
+      "description" : "Resolution at which the experiment profiles the sample.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/qc-ethnicity"
       },
       "name" : "Ferlab.bio CodeSystem/qc-ethnicity",
@@ -959,7 +971,7 @@
         "reference" : "CodeSystem/sequencing-experiment-source"
       },
       "name" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
-      "description" : "Sequencing experimental source",
+      "description" : "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical).",
       "exampleBoolean" : false
     },
     {
@@ -1128,6 +1140,30 @@
       },
       "name" : "Ferlab.bio Example/cqdg-task",
       "description" : "An example of a cqdg Task",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/CQDGTaskLongReadExample"
+      },
+      "name" : "Ferlab.bio Example/cqdg-task-long-read",
+      "description" : "An example of a cqdg long-read Task (ONT adaptive sampling, de novo assembly)",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/CQDGTaskMultiOmicExample"
+      },
+      "name" : "Ferlab.bio Example/cqdg-task-multi-omic",
+      "description" : "An example of a cqdg multi-omic Task (single-nucleus RNA-seq + ATAC-seq)",
       "exampleBoolean" : true
     },
     {
@@ -2112,6 +2148,18 @@
       },
       "name" : "NCIT Special Codes ValueSet",
       "description" : "ValueSet for selected NCIT codes from NCI Thesaurus.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/profiling-resolution-vs"
+      },
+      "name" : "Profiling Resolution",
+      "description" : "Profiling Resolution ValueSet",
       "exampleBoolean" : false
     },
     {

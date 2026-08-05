@@ -3,7 +3,7 @@
   "id" : "data-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Laboratory-Values<a name=\"data-type-Laboratory-Values\"> </a></td><td>Laboratory Values</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-type</b></p><a name=\"data-type\"> </a><a name=\"hcdata-type\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads<a name=\"data-type-Raw-Sequencing-Reads\"> </a></td><td>Raw Sequencing Reads</td></tr><tr><td style=\"white-space:nowrap\">Unaligned-Reads-Index<a name=\"data-type-Unaligned-Reads-Index\"> </a></td><td>Unaligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R1<a name=\"data-type-Raw-Sequencing-Reads-R1\"> </a></td><td>Raw Sequencing Reads R1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-R2<a name=\"data-type-Raw-Sequencing-Reads-R2\"> </a></td><td>Raw Sequencing Reads R2</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads<a name=\"data-type-Aligned-Reads\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">Aligned-Reads-Index<a name=\"data-type-Aligned-Reads-Index\"> </a></td><td>Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Single Nucleotide Variants (SNVs)</td></tr><tr><td style=\"white-space:nowrap\">InDel<a name=\"data-type-InDel\"> </a></td><td>Insertions and Deletions (InDels)</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"data-type-SV\"> </a></td><td>Structural Variations (SVs)</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Copy Number Variations (CNVs)</td></tr><tr><td style=\"white-space:nowrap\">Variant-Calls-Index<a name=\"data-type-Variant-Calls-Index\"> </a></td><td>Variant Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Joint-Genotype-SNV<a name=\"data-type-Joint-Genotype-SNV\"> </a></td><td>Joint Genotype SNV</td></tr><tr><td style=\"white-space:nowrap\">Annotated-SNV<a name=\"data-type-Annotated-SNV\"> </a></td><td>Annotated SNV</td></tr><tr><td style=\"white-space:nowrap\">Quality-Control-Metrics<a name=\"data-type-Quality-Control-Metrics\"> </a></td><td>Quality Control Metrics</td></tr><tr><td style=\"white-space:nowrap\">Sequencing-Data-Supplement<a name=\"data-type-Sequencing-Data-Supplement\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV</td></tr><tr><td style=\"white-space:nowrap\">Laboratory-Values<a name=\"data-type-Laboratory-Values\"> </a></td><td>Laboratory Values</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-I1<a name=\"data-type-Raw-Sequencing-Reads-I1\"> </a></td><td>Raw Sequencing Reads I1</td></tr><tr><td style=\"white-space:nowrap\">Raw-Sequencing-Reads-I2<a name=\"data-type-Raw-Sequencing-Reads-I2\"> </a></td><td>Raw Sequencing Reads I2</td></tr><tr><td style=\"white-space:nowrap\">Processed-Reads<a name=\"data-type-Processed-Reads\"> </a></td><td>Processed Reads</td></tr><tr><td style=\"white-space:nowrap\">Processed-Reads-Index<a name=\"data-type-Processed-Reads-Index\"> </a></td><td>Processed Reads Index</td></tr><tr><td style=\"white-space:nowrap\">De-Novo-Assembly-Aligned-Reads<a name=\"data-type-De-Novo-Assembly-Aligned-Reads\"> </a></td><td>De Novo Assembly Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">De-Novo-Assembly-Aligned-Reads-Index<a name=\"data-type-De-Novo-Assembly-Aligned-Reads-Index\"> </a></td><td>De Novo Assembly Aligned Reads Index</td></tr><tr><td style=\"white-space:nowrap\">Methylation-Calls<a name=\"data-type-Methylation-Calls\"> </a></td><td>Methylation Calls</td></tr><tr><td style=\"white-space:nowrap\">Methylation-Calls-Index<a name=\"data-type-Methylation-Calls-Index\"> </a></td><td>Methylation Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Raw-Feature-Count-Matrix<a name=\"data-type-Raw-Feature-Count-Matrix\"> </a></td><td>Raw Feature Count Matrix</td></tr><tr><td style=\"white-space:nowrap\">Filtered-Feature-Count-Matrix<a name=\"data-type-Filtered-Feature-Count-Matrix\"> </a></td><td>Filtered Feature Count Matrix</td></tr><tr><td style=\"white-space:nowrap\">Raw-Peak-Barcode-Matrix<a name=\"data-type-Raw-Peak-Barcode-Matrix\"> </a></td><td>Raw Peak Barcode Matrix</td></tr><tr><td style=\"white-space:nowrap\">Filtered-Peak-Barcode-Matrix<a name=\"data-type-Filtered-Peak-Barcode-Matrix\"> </a></td><td>Filtered Peak Barcode Matrix</td></tr><tr><td style=\"white-space:nowrap\">Peak-Calls<a name=\"data-type-Peak-Calls\"> </a></td><td>Peak Calls</td></tr><tr><td style=\"white-space:nowrap\">Peak-Calls-Index<a name=\"data-type-Peak-Calls-Index\"> </a></td><td>Peak Calls Index</td></tr><tr><td style=\"white-space:nowrap\">Annotated-Peaks<a name=\"data-type-Annotated-Peaks\"> </a></td><td>Annotated Peaks</td></tr><tr><td style=\"white-space:nowrap\">Tandem-Repeats<a name=\"data-type-Tandem-Repeats\"> </a></td><td>Tandem Repeats (TRs)</td></tr><tr><td style=\"white-space:nowrap\">Secondary-Analysis<a name=\"data-type-Secondary-Analysis\"> </a></td><td>Secondary Analysis</td></tr><tr><td style=\"white-space:nowrap\">Gene-Annotations<a name=\"data-type-Gene-Annotations\"> </a></td><td>Gene Annotations</td></tr><tr><td style=\"white-space:nowrap\">Pedigree<a name=\"data-type-Pedigree\"> </a></td><td>Pedigree</td></tr><tr><td style=\"white-space:nowrap\">Psychiatric-Assessment-Scores<a name=\"data-type-Psychiatric-Assessment-Scores\"> </a></td><td>Psychiatric Assessment Scores</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/data-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/data-type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -23,7 +23,7 @@
   "description" : "Data Type",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 16,
+  "count" : 37,
   "concept" : [{
     "code" : "Raw-Sequencing-Reads",
     "display" : "Raw Sequencing Reads",
@@ -33,6 +33,17 @@
         "code" : "Raw-Sequencing-Reads"
       },
       "value" : "Raw Sequencing Reads"
+    }]
+  },
+  {
+    "code" : "Unaligned-Reads-Index",
+    "display" : "Unaligned Reads Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Unaligned-Reads-Index"
+      },
+      "value" : "Unaligned Reads Index"
     }]
   },
   {
@@ -198,6 +209,226 @@
         "code" : "Laboratory-Values"
       },
       "value" : "Laboratory Values"
+    }]
+  },
+  {
+    "code" : "Raw-Sequencing-Reads-I1",
+    "display" : "Raw Sequencing Reads I1",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Sequencing-Reads-I1"
+      },
+      "value" : "Raw Sequencing Reads I1"
+    }]
+  },
+  {
+    "code" : "Raw-Sequencing-Reads-I2",
+    "display" : "Raw Sequencing Reads I2",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Sequencing-Reads-I2"
+      },
+      "value" : "Raw Sequencing Reads I2"
+    }]
+  },
+  {
+    "code" : "Processed-Reads",
+    "display" : "Processed Reads",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Processed-Reads"
+      },
+      "value" : "Processed Reads"
+    }]
+  },
+  {
+    "code" : "Processed-Reads-Index",
+    "display" : "Processed Reads Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Processed-Reads-Index"
+      },
+      "value" : "Processed Reads Index"
+    }]
+  },
+  {
+    "code" : "De-Novo-Assembly-Aligned-Reads",
+    "display" : "De Novo Assembly Aligned Reads",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "De-Novo-Assembly-Aligned-Reads"
+      },
+      "value" : "De Novo Assembly Aligned Reads"
+    }]
+  },
+  {
+    "code" : "De-Novo-Assembly-Aligned-Reads-Index",
+    "display" : "De Novo Assembly Aligned Reads Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "De-Novo-Assembly-Aligned-Reads-Index"
+      },
+      "value" : "De Novo Assembly Aligned Reads Index"
+    }]
+  },
+  {
+    "code" : "Methylation-Calls",
+    "display" : "Methylation Calls",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Methylation-Calls"
+      },
+      "value" : "Methylation Calls"
+    }]
+  },
+  {
+    "code" : "Methylation-Calls-Index",
+    "display" : "Methylation Calls Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Methylation-Calls-Index"
+      },
+      "value" : "Methylation Calls Index"
+    }]
+  },
+  {
+    "code" : "Raw-Feature-Count-Matrix",
+    "display" : "Raw Feature Count Matrix",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Feature-Count-Matrix"
+      },
+      "value" : "Raw Feature Count Matrix"
+    }]
+  },
+  {
+    "code" : "Filtered-Feature-Count-Matrix",
+    "display" : "Filtered Feature Count Matrix",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Filtered-Feature-Count-Matrix"
+      },
+      "value" : "Filtered Feature Count Matrix"
+    }]
+  },
+  {
+    "code" : "Raw-Peak-Barcode-Matrix",
+    "display" : "Raw Peak Barcode Matrix",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Raw-Peak-Barcode-Matrix"
+      },
+      "value" : "Raw Peak Barcode Matrix"
+    }]
+  },
+  {
+    "code" : "Filtered-Peak-Barcode-Matrix",
+    "display" : "Filtered Peak Barcode Matrix",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Filtered-Peak-Barcode-Matrix"
+      },
+      "value" : "Filtered Peak Barcode Matrix"
+    }]
+  },
+  {
+    "code" : "Peak-Calls",
+    "display" : "Peak Calls",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Peak-Calls"
+      },
+      "value" : "Peak Calls"
+    }]
+  },
+  {
+    "code" : "Peak-Calls-Index",
+    "display" : "Peak Calls Index",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Peak-Calls-Index"
+      },
+      "value" : "Peak Calls Index"
+    }]
+  },
+  {
+    "code" : "Annotated-Peaks",
+    "display" : "Annotated Peaks",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Annotated-Peaks"
+      },
+      "value" : "Annotated Peaks"
+    }]
+  },
+  {
+    "code" : "Tandem-Repeats",
+    "display" : "Tandem Repeats (TRs)",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Tandem-Repeats"
+      },
+      "value" : "Tandem Repeats (TRs)"
+    }]
+  },
+  {
+    "code" : "Secondary-Analysis",
+    "display" : "Secondary Analysis",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Secondary-Analysis"
+      },
+      "value" : "Secondary Analysis"
+    }]
+  },
+  {
+    "code" : "Gene-Annotations",
+    "display" : "Gene Annotations",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Gene-Annotations"
+      },
+      "value" : "Gene Annotations"
+    }]
+  },
+  {
+    "code" : "Pedigree",
+    "display" : "Pedigree",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Pedigree"
+      },
+      "value" : "Pedigree"
+    }]
+  },
+  {
+    "code" : "Psychiatric-Assessment-Scores",
+    "display" : "Psychiatric Assessment Scores",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-type",
+        "code" : "Psychiatric-Assessment-Scores"
+      },
+      "value" : "Psychiatric Assessment Scores"
     }]
   }]
 }

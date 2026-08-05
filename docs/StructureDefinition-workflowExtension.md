@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/workflowExtension | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:WorkflowExtension |
+| Active as of 2026-08-05 | *Computable Name*:WorkflowExtension |
 
 Workflow Extension
 
@@ -20,7 +20,7 @@ Workflow Extension
 **Usages:**
 
 * Use this Extension: [Ferlab.bio Profile/cqdg-task](StructureDefinition-cqdg-task.md)
-* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md)
+* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md), [Task/CQDGTaskLongReadExample](Task-CQDGTaskLongReadExample.md) and [Task/CQDGTaskMultiOmicExample](Task-CQDGTaskMultiOmicExample.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-workflowExtension.json)
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-workflowExtension.cs
   "name" : "WorkflowExtension",
   "title" : "Ferlab.bio StructureDefinition/workflow",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -82,15 +82,11 @@ Other representations of profile: [CSV](StructureDefinition-workflowExtension.cs
       "definition" : "Workflow Extension"
     },
     {
-      "id" : "Extension.extension",
-      "path" : "Extension.extension",
-      "min" : 2
-    },
-    {
       "id" : "Extension.extension:genomeBuild",
       "path" : "Extension.extension",
       "sliceName" : "genomeBuild",
-      "min" : 1,
+      "definition" : "Reference genome build.",
+      "min" : 0,
       "max" : "1",
       "mustSupport" : true
     },
@@ -119,8 +115,8 @@ Other representations of profile: [CSV](StructureDefinition-workflowExtension.cs
       "id" : "Extension.extension:pipeline",
       "path" : "Extension.extension",
       "sliceName" : "pipeline",
-      "definition" : "No description",
-      "min" : 1,
+      "definition" : "Pipeline used to produce the analysis.",
+      "min" : 0,
       "max" : "*",
       "mustSupport" : true
     },

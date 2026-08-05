@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:SequencingExperimentExtension |
+| Active as of 2026-08-05 | *Computable Name*:SequencingExperimentExtension |
 
 Sequencing Experiment Extension
 
@@ -20,7 +20,7 @@ Sequencing Experiment Extension
 **Usages:**
 
 * Use this Extension: [Ferlab.bio Profile/cqdg-task](StructureDefinition-cqdg-task.md)
-* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md)
+* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md), [Task/CQDGTaskLongReadExample](Task-CQDGTaskLongReadExample.md) and [Task/CQDGTaskMultiOmicExample](Task-CQDGTaskMultiOmicExample.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-sequencingExperimentExtension.json)
 
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
   "name" : "SequencingExperimentExtension",
   "title" : "Ferlab.bio StructureDefinition/sequencing-experiment",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -84,14 +84,15 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
     {
       "id" : "Extension.extension",
       "path" : "Extension.extension",
-      "min" : 6
+      "min" : 4
     },
     {
       "id" : "Extension.extension:experimentalStrategy",
       "path" : "Extension.extension",
       "sliceName" : "experimentalStrategy",
+      "definition" : "Experimental strategy of the experiment.",
       "min" : 1,
-      "max" : "1"
+      "max" : "*"
     },
     {
       "id" : "Extension.extension:experimentalStrategy.extension",
@@ -115,11 +116,40 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
       }
     },
     {
+      "id" : "Extension.extension:profilingResolution",
+      "path" : "Extension.extension",
+      "sliceName" : "profilingResolution",
+      "definition" : "Resolution at which the sample is profiled.",
+      "min" : 0,
+      "max" : "*"
+    },
+    {
+      "id" : "Extension.extension:profilingResolution.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:profilingResolution.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "profilingResolution"
+    },
+    {
+      "id" : "Extension.extension:profilingResolution.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://fhir.cqdg.ca/ValueSet/profiling-resolution-vs"
+      }
+    },
+    {
       "id" : "Extension.extension:isPairedEnd",
       "path" : "Extension.extension",
       "sliceName" : "isPairedEnd",
-      "definition" : "No description",
-      "min" : 1,
+      "definition" : "Whether the run is paired-end.",
+      "min" : 0,
       "max" : "1"
     },
     {
@@ -143,8 +173,9 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
       "id" : "Extension.extension:platform",
       "path" : "Extension.extension",
       "sliceName" : "platform",
+      "definition" : "Platform used for the experiment.",
       "min" : 1,
-      "max" : "1"
+      "max" : "*"
     },
     {
       "id" : "Extension.extension:platform.extension",
@@ -166,6 +197,56 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
         "strength" : "required",
         "valueSet" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-platform-vs"
       }
+    },
+    {
+      "id" : "Extension.extension:instrumentModel",
+      "path" : "Extension.extension",
+      "sliceName" : "instrumentModel",
+      "definition" : "Instrument model.",
+      "min" : 0,
+      "max" : "*"
+    },
+    {
+      "id" : "Extension.extension:instrumentModel.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:instrumentModel.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "instrumentModel"
+    },
+    {
+      "id" : "Extension.extension:instrumentModel.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Extension.extension:poreType",
+      "path" : "Extension.extension",
+      "sliceName" : "poreType",
+      "definition" : "ONT pore chemistry.",
+      "min" : 0,
+      "max" : "1"
+    },
+    {
+      "id" : "Extension.extension:poreType.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:poreType.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "poreType"
+    },
+    {
+      "id" : "Extension.extension:poreType.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "type" : [{
+        "code" : "string"
+      }]
     },
     {
       "id" : "Extension.extension:protocol",
@@ -197,7 +278,7 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
       "path" : "Extension.extension",
       "sliceName" : "readLength",
       "definition" : "No description",
-      "min" : 1,
+      "min" : 0,
       "max" : "1"
     },
     {
@@ -250,6 +331,7 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
       "id" : "Extension.extension:source",
       "path" : "Extension.extension",
       "sliceName" : "source",
+      "definition" : "Experimental category of the experiment.",
       "min" : 1,
       "max" : "1",
       "mustSupport" : true
@@ -274,6 +356,31 @@ Other representations of profile: [CSV](StructureDefinition-sequencingExperiment
         "strength" : "required",
         "valueSet" : "https://fhir.cqdg.ca/ValueSet/sequencing-experiment-source-vs"
       }
+    },
+    {
+      "id" : "Extension.extension:isImputed",
+      "path" : "Extension.extension",
+      "sliceName" : "isImputed",
+      "definition" : "Whether the variant calls were imputed.",
+      "min" : 0,
+      "max" : "1"
+    },
+    {
+      "id" : "Extension.extension:isImputed.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:isImputed.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "isImputed"
+    },
+    {
+      "id" : "Extension.extension:isImputed.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "type" : [{
+        "code" : "boolean"
+      }]
     },
     {
       "id" : "Extension.extension:targetCaptureKit",

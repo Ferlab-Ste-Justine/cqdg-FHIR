@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:SequencingExperimentSelection |
+| Active as of 2026-08-05 | *Computable Name*:SequencingExperimentSelection |
 
  
 Library selection method 
@@ -32,7 +32,7 @@ Library selection method
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-selection",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Library selection method
   "description" : "Library selection method",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 7,
+  "count" : 14,
   "concept" : [{
     "code" : "CHIP",
     "display" : "ChIP",
@@ -120,6 +120,83 @@ Library selection method
         "code" : "HS"
       },
       "value" : "Hybrid Selection"
+    }]
+  },
+  {
+    "code" : "DIRECT",
+    "display" : "Direct",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "DIRECT"
+      },
+      "value" : "Direct"
+    }]
+  },
+  {
+    "code" : "TN5",
+    "display" : "Tn5",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "TN5"
+      },
+      "value" : "Tn5"
+    }]
+  },
+  {
+    "code" : "CDNA",
+    "display" : "cDNA",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CDNA"
+      },
+      "value" : "cDNA"
+    }]
+  },
+  {
+    "code" : "CDNA-ODT",
+    "display" : "cDNA Oligo-dT",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "CDNA-ODT"
+      },
+      "value" : "cDNA Oligo-dT"
+    }]
+  },
+  {
+    "code" : "IRRNA",
+    "display" : "Inverse rRNA",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "IRRNA"
+      },
+      "value" : "Inverse rRNA"
+    }]
+  },
+  {
+    "code" : "UNSPECIFIED",
+    "display" : "Unspecified",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "UNSPECIFIED"
+      },
+      "value" : "Unspecified"
+    }]
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+        "code" : "OTHER"
+      },
+      "value" : "Other"
     }]
   }]
 }

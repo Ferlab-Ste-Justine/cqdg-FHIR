@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,99 +7,98 @@
 
 <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "cqdg-observation-code"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-observation-code</b></p><a name=\"cqdg-observation-code\"> </a><a name=\"hccqdg-observation-code\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "CQDGObservationCode"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/cqdg-observation"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "CQDG Observation codes"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Family-relationship" ] ;
-     fhir:display [ fhir:v "Family Relationship" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-         ] ;
-         fhir:code [ fhir:v "Family-relationship" ]
+  fhir:Resource.id [ fhir:value "cqdg-observation-code"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-observation-code</b></p><a name=\"cqdg-observation-code\"> </a><a name=\"hccqdg-observation-code\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Family-relationship<a name=\"cqdg-observation-code-Family-relationship\"> </a></td><td>Family Relationship</td></tr><tr><td style=\"white-space:nowrap\">Tumor-normal-designation<a name=\"cqdg-observation-code-Tumor-normal-designation\"> </a></td><td>Tumor Normal Designation</td></tr><tr><td style=\"white-space:nowrap\">Disease-Status<a name=\"cqdg-observation-code-Disease-Status\"> </a></td><td>Disease Status</td></tr><tr><td style=\"white-space:nowrap\">Phenotype<a name=\"cqdg-observation-code-Phenotype\"> </a></td><td>Phenotype</td></tr><tr><td style=\"white-space:nowrap\">Cause-of-Death<a name=\"cqdg-observation-code-Cause-of-Death\"> </a></td><td>Cause of Death</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CQDGObservationCode"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/cqdg-observation"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "CQDG Observation codes"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Family-relationship" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Family Relationship" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code" ] ;
+         fhir:Coding.code [ fhir:value "Family-relationship" ]
        ] ;
-       fhir:value [ fhir:v "Social history observation" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Tumor-normal-designation" ] ;
-     fhir:display [ fhir:v "Tumor Normal Designation" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-         ] ;
-         fhir:code [ fhir:v "Tumor-normal-designation" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Social history observation" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Tumor-normal-designation" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tumor Normal Designation" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code" ] ;
+         fhir:Coding.code [ fhir:value "Tumor-normal-designation" ]
        ] ;
-       fhir:value [ fhir:v "Histological Diagnosis" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Disease-Status" ] ;
-     fhir:display [ fhir:v "Disease Status" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-         ] ;
-         fhir:code [ fhir:v "Disease-Status" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Histological Diagnosis" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Disease-Status" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Disease Status" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code" ] ;
+         fhir:Coding.code [ fhir:value "Disease-Status" ]
        ] ;
-       fhir:value [ fhir:v "Disease Status observation" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Phenotype" ] ;
-     fhir:display [ fhir:v "Phenotype" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-         ] ;
-         fhir:code [ fhir:v "Phenotype" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Disease Status observation" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Phenotype" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Phenotype" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code" ] ;
+         fhir:Coding.code [ fhir:value "Phenotype" ]
        ] ;
-       fhir:value [ fhir:v "Phenotype observation" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "Cause-of-Death" ] ;
-     fhir:display [ fhir:v "Cause of Death" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code>
-         ] ;
-         fhir:code [ fhir:v "Cause-of-Death" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Phenotype observation" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Cause-of-Death" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cause of Death" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code" ] ;
+         fhir:Coding.code [ fhir:value "Cause-of-Death" ]
        ] ;
-       fhir:value [ fhir:v "Cause of death" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cause of death" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/cqdg-observation-code.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

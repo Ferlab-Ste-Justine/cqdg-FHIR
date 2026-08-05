@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/experimental-strategy | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:ExperimentalStrategy |
+| Active as of 2026-08-05 | *Computable Name*:ExperimentalStrategy |
 
  
 Experimental strategy 
@@ -32,7 +32,7 @@ Experimental strategy
   "title" : "Ferlab.bio CodeSystem/experimental-strategy",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Experimental strategy
   "description" : "Experimental strategy",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 15,
+  "count" : 17,
   "concept" : [{
     "code" : "WXS",
     "display" : "Whole Exome Sequencing",
@@ -208,6 +208,28 @@ Experimental strategy
         "code" : "DMS"
       },
       "value" : "Direct Methyl-Seq"
+    }]
+  },
+  {
+    "code" : "ADAS",
+    "display" : "Adaptive Sampling",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "code" : "ADAS"
+      },
+      "value" : "Adaptive Sampling"
+    }]
+  },
+  {
+    "code" : "QUES",
+    "display" : "Questionnaire",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+        "code" : "QUES"
+      },
+      "value" : "Questionnaire"
     }]
   }]
 }

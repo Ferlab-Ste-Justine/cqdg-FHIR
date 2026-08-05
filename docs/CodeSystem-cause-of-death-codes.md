@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:CauseOfDeathCodes |
+| Active as of 2026-08-05 | *Computable Name*:CauseOfDeathCodes |
 
  
 Codes for cause of death 
@@ -32,7 +32,7 @@ Codes for cause of death
   "title" : "Ferlab.bio CodeSystem/cause-of-death",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Codes for cause of death
   "description" : "Codes for cause of death",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 8,
+  "count" : 10,
   "concept" : [{
     "code" : "Cancer",
     "display" : "Cancer",
@@ -109,6 +109,28 @@ Codes for cause of death
         "code" : "Influenza-and-pneumonia"
       },
       "value" : "Influenza and pneumonia"
+    }]
+  },
+  {
+    "code" : "Natural",
+    "display" : "Natural",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Natural"
+      },
+      "value" : "Natural"
+    }]
+  },
+  {
+    "code" : "Suicide",
+    "display" : "Suicide",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes",
+        "code" : "Suicide"
+      },
+      "value" : "Suicide"
     }]
   },
   {

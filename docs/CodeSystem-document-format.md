@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/CodeSystem/document-format | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:DocumentFormat |
+| Active as of 2026-08-05 | *Computable Name*:DocumentFormat |
 
  
 Document format 
@@ -32,7 +32,7 @@ Document format
   "title" : "Ferlab.bio CodeSystem/document-format",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -44,7 +44,7 @@ Document format
   "description" : "Document format",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 12,
+  "count" : 21,
   "concept" : [{
     "code" : "FASTQ",
     "display" : "FASTQ File",
@@ -139,6 +139,78 @@ Document format
     "designation" : [{
       "language" : "fr",
       "value" : "CSV"
+    }]
+  },
+  {
+    "code" : "TSV",
+    "display" : "TSV File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "TSV"
+    }]
+  },
+  {
+    "code" : "POD5",
+    "display" : "POD5 File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "POD5"
+    }]
+  },
+  {
+    "code" : "HDF5",
+    "display" : "HDF5 File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "HDF5"
+    }]
+  },
+  {
+    "code" : "cloupe",
+    "display" : "cloupe File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "cloupe"
+    }]
+  },
+  {
+    "code" : "GFF",
+    "display" : "GFF File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "GFF"
+    }]
+  },
+  {
+    "code" : "GTF",
+    "display" : "GTF File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "GTF"
+    }]
+  },
+  {
+    "code" : "FAM",
+    "display" : "FAM Pedigree File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "FAM"
+    }]
+  },
+  {
+    "code" : "HTML",
+    "display" : "HTML File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "HTML"
+    }]
+  },
+  {
+    "code" : "JSON",
+    "display" : "JSON File",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "JSON"
     }]
   }]
 }

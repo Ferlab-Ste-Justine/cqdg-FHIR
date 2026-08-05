@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/sampleExtension | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:SampleExtension |
+| Active as of 2026-08-05 | *Computable Name*:SampleExtension |
 
 Sequencing Experiment Extension
 
@@ -20,7 +20,7 @@ Sequencing Experiment Extension
 **Usages:**
 
 * Use this Extension: [Ferlab.bio Profile/cqdg-task](StructureDefinition-cqdg-task.md)
-* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md)
+* Examples for this Extension: [Task/CQDGTaskExample](Task-CQDGTaskExample.md), [Task/CQDGTaskLongReadExample](Task-CQDGTaskLongReadExample.md) and [Task/CQDGTaskMultiOmicExample](Task-CQDGTaskMultiOmicExample.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/fhir.cqdg|current/StructureDefinition/StructureDefinition-sampleExtension.json)
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-sampleExtension.csv)
   "name" : "SampleExtension",
   "title" : "Ferlab.bio StructureDefinition/sample",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

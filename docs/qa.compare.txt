@@ -1,48 +1,49 @@
 CQDG_FHIR_IG : Validation Results
 =========================================
 
-err = 65, warn = 159, info = 16
+err = 64, warn = 224, info = 66
 $--
 Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg.ca)
  Build Errors : 20 / 4 / 0
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-dataset-cs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-observation-code : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-specimen-missing-codes : 0 / 2 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-study-cs : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-tumor-normal-designation : 0 / 2 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-category : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-collection-method : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-type : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-disease-status : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-document-format : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes : 2 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-experimental-strategy : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-family-type : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-gender-collection-method : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-genome-build : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-population : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-ethnicity : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender : 3 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-race : 3 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-race-collection-method : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-relationship-to-proband : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-research-domain : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-platform : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-selection : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-source : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sex-at-birth : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sex-at-birth-collection-method : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-study-design : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-tumor-normal-designation : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-vital-status : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 0 / 6 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 3 / 2 / 3
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 2 / 3
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-age-at-onset : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-bioinfo-analysis-code : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cause-of-death-codes : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-dataset-cs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-observation-code : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-specimen-missing-codes : 0 / 3 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-study-cs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-cqdg-tumor-normal-designation : 0 / 3 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-category : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-collection-method : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-data-type : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-disease-status : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-document-format : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes : 2 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-experimental-strategy : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-family-type : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-gender-collection-method : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-genome-build : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-population : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-profiling-resolution : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-ethnicity : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender : 3 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-race : 3 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-race-collection-method : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-relationship-to-proband : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-research-domain : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-platform : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-selection : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sequencing-experiment-source : 1 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sex-at-birth : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-sex-at-birth-collection-method : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-study-design : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-tumor-normal-designation : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-vital-status : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Condition-ConditionExample : 0 / 5 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample1 : 3 / 2 / 4
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/DocumentReference-DocumentReferenceExample2 : 0 / 2 / 4
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Group-CQDGGroupExample : 0 / 4 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ImplementationGuide-fhir.cqdg : 0 / 0 / 2
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/List-ExampleCQDGProgramGroup : 37 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationCauseOfDeathExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationDiseaseStatusExample : 2 / 4 / 1
@@ -50,92 +51,95 @@ Generated $--. FHIR version $-- for fhir.cqdg#$-- (canonical = https://fhir.cqdg
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationPhenotypeExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Observation-ObservationTumorNormalDesignationExample : 0 / 4 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Organization-OrganizationExample : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 0 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Patient-PatientExample : 0 / 2 / 1
  /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ResearchStudy-ResearchStudyExample : 0 / 11 / 8
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 0 / 8 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtRecruitment : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeOfDeath : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 4 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 4 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenType : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FileMd5SumExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Gender : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-QCEthnicity : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Race : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Restricted : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-SexAtBirth : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StableFileIdExtension : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StudyDesignExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorHistologicalType : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorNormalDesignation : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-VitalStatus : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-condition : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-document-reference : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-group : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-observation-group : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-organization : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-patient : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-program : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-research-study : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-specimen : 0 / 0 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-task : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension : 3 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-expectedStudyContent : 3 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-population-info : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-contact : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-partner : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-related-artifact : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sampleExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sequencingExperimentExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-workflowExtension : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 3 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-bioinfo-analysis-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 1 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-observation-category : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 3 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-category-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-collection-method-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-type-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-disease-status-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-experimental-strategy-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-family-type-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-file-format : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-gender-collection-method-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-genome-build-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 0 / 3 / 2
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 2 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-gender-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-race-collection-method-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-race-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-research-domain-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-platform-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-source-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sex-at-birth-collection-method-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sex-at-birth-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-design-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-tumor-normal-designation-vs : 0 / 1 / 1
- /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-vital-status-vs : 0 / 1 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Specimen-SpecimenExample : 0 / 7 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessLimitations : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AccessRequirements : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtEvent : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeAtRecruitment : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-AgeOfDeath : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath : 1 / 2 / 3
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation : 1 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-CancerBiospecimenType : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCategoryExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FileMd5SumExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-FullSizeExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Gender : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-QCEthnicity : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Race : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-Restricted : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-SexAtBirth : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StableFileIdExtension : 0 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-StudyDesignExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorHistologicalType : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-TumorNormalDesignation : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-VitalStatus : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-condition : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-document-reference : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-group : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-observation-group : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-organization : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-patient : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-program : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-research-study : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-specimen : 0 / 0 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-cqdg-task : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension : 3 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-expectedStudyContent : 3 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-population-info : 0 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-contact : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-partner : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-research-program-related-artifact : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sampleExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-sequencingExperimentExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-workflowExtension : 0 / 1 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskExample : 1 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskLongReadExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/Task-CQDGTaskMultiOmicExample : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-limitation-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-access-requirement-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-age-at-onset-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-bioinfo-analysis-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cause-of-death-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-diagnosis-vs : 1 / 3 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-observation-category : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs : 0 / 4 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-category-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-collection-method-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-data-type-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-disease-status-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-experimental-strategy-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-family-type-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-file-format : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-gender-collection-method-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-genome-build-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-ncit-special-codes-vs : 0 / 4 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-phenotype-vs : 0 / 2 / 2
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-population-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-profiling-resolution-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-ethnicity-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-qc-gender-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-race-collection-method-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-race-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-relationship-to-proband-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-research-domain-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-platform-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sequencing-experiment-source-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sex-at-birth-collection-method-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-sex-at-birth-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-design-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-study-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-tumor-normal-designation-vs : 0 / 2 / 1
+ /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/ValueSet-vital-status-vs : 0 / 2 / 1
 </table>
 == n/a ==
 ERROR: StructureDefinition-CQDGObservationCauseOfDeath-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 291, column 1669: The link 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' for "https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs" cannot be resolved
@@ -163,56 +167,91 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-age-at-onset.json ==
+WARNING: Resource: The resource CodeSystem/age-at-onset should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-bioinfo-analysis-code.json ==
+WARNING: Resource: The resource CodeSystem/bioinfo-analysis-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cause-of-death-codes.json ==
+WARNING: Resource: The resource CodeSystem/cause-of-death-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cqdg-dataset-cs.json ==
 WARNING: CodeSystem/cqdg-dataset-cs: CodeSystem: When a CodeSystem has content = 'complete', it doesnt make sense for there to be no concepts defined
+WARNING: Resource: The resource CodeSystem/cqdg-dataset-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cqdg-observation-code.json ==
+WARNING: Resource: The resource CodeSystem/cqdg-observation-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cqdg-specimen-missing-codes.json ==
 INFORMATION: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/cqdg-specimen-missing-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: Resource: The resource CodeSystem/cqdg-specimen-missing-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cqdg-study-cs.json ==
+WARNING: Resource: The resource CodeSystem/cqdg-study-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cqdg-tumor-normal-designation.json ==
 INFORMATION: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/cqdg-tumor-normal-designation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: Resource: The resource CodeSystem/cqdg-tumor-normal-designation should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-data-category.json ==
+WARNING: Resource: The resource CodeSystem/data-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-data-collection-method.json ==
+WARNING: Resource: The resource CodeSystem/data-collection-method should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-data-type.json ==
+WARNING: Resource: The resource CodeSystem/data-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-disease-status.json ==
+WARNING: Resource: The resource CodeSystem/disease-status should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-document-format.json ==
+WARNING: Resource: The resource CodeSystem/document-format should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-duo-codes.json ==
 ERROR: CodeSystem.where(url = 'http://purl.obolibrary.org/obo/duo.owl'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/duo-codes) does not match the URL (http://purl.obolibrary.org/obo/duo.owl). Use the special-url parameter if you really mean for it not to match
+WARNING: Resource: The resource CodeSystem/duo-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-duo-codes: URL Mismatch https://fhir.cqdg.ca/CodeSystem/duo-codes vs http://purl.obolibrary.org/obo/duo.owl
 == fsh-generated/resources/CodeSystem-experimental-strategy.json ==
+WARNING: Resource: The resource CodeSystem/experimental-strategy should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-family-type.json ==
+WARNING: Resource: The resource CodeSystem/family-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-gender-collection-method.json ==
+WARNING: Resource: The resource CodeSystem/gender-collection-method should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-genome-build.json ==
+WARNING: Resource: The resource CodeSystem/genome-build should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-population.json ==
+WARNING: Resource: The resource CodeSystem/population should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-profiling-resolution.json ==
+WARNING: Resource: The resource CodeSystem/profiling-resolution should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-qc-ethnicity.json ==
+WARNING: Resource: The resource CodeSystem/qc-ethnicity should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-qc-gender.json ==
 ERROR: CodeSystem.where(url = 'https://fhir.cqdg.ca/CodeSystem/gender'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/qc-gender) does not match the URL (https://fhir.cqdg.ca/CodeSystem/gender). Use the special-url parameter if you really mean for it not to match
 ERROR: CodeSystem.url: Resource id/url mismatch: qc-gender/https://fhir.cqdg.ca/CodeSystem/gender
+WARNING: Resource: The resource CodeSystem/qc-gender should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-gender: URL Mismatch https://fhir.cqdg.ca/CodeSystem/qc-gender vs https://fhir.cqdg.ca/CodeSystem/gender
 == fsh-generated/resources/CodeSystem-qc-race.json ==
 ERROR: CodeSystem.where(url = 'https://fhir.cqdg.ca/CodeSystem/race'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-race.json - the canonical URL (https://fhir.cqdg.ca/CodeSystem/qc-race) does not match the URL (https://fhir.cqdg.ca/CodeSystem/race). Use the special-url parameter if you really mean for it not to match
 ERROR: CodeSystem.url: Resource id/url mismatch: qc-race/https://fhir.cqdg.ca/CodeSystem/race
+WARNING: Resource: The resource CodeSystem/qc-race should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/CodeSystem-qc-race: URL Mismatch https://fhir.cqdg.ca/CodeSystem/qc-race vs https://fhir.cqdg.ca/CodeSystem/race
 == fsh-generated/resources/CodeSystem-race-collection-method.json ==
+WARNING: Resource: The resource CodeSystem/race-collection-method should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-relationship-to-proband.json ==
+WARNING: Resource: The resource CodeSystem/relationship-to-proband should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-research-domain.json ==
+WARNING: Resource: The resource CodeSystem/research-domain should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-sequencing-experiment-platform.json ==
+WARNING: Resource: The resource CodeSystem/sequencing-experiment-platform should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-sequencing-experiment-selection.json ==
+WARNING: Resource: The resource CodeSystem/sequencing-experiment-selection should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-sequencing-experiment-source.json ==
+ERROR: CodeSystem/sequencing-experiment-source: CodeSystem.property[0]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#deprecated'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: Resource: The resource CodeSystem/sequencing-experiment-source should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-sex-at-birth.json ==
+WARNING: Resource: The resource CodeSystem/sex-at-birth should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-sex-at-birth-collection-method.json ==
+WARNING: Resource: The resource CodeSystem/sex-at-birth-collection-method should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-study-design.json ==
+WARNING: Resource: The resource CodeSystem/study-design should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-tumor-normal-designation.json ==
+WARNING: Resource: The resource CodeSystem/tumor-normal-designation should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-vital-status.json ==
+WARNING: Resource: The resource CodeSystem/vital-status should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Condition-ConditionExample.json ==
 WARNING: Condition/ConditionExample: Condition.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: Condition/ConditionExample: Condition.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 WARNING: Condition/ConditionExample: Condition.identifier[0].system: No definition could be found for URL value 'https://fhir.cqdg.ca/fhir/Condition'
 WARNING: Condition/ConditionExample: Condition.code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Condition/ConditionExample: Condition.code.coding[1].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the code cannot be validated
@@ -222,6 +261,7 @@ WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.meta.tag[1].code: Unknown code 'dataset: ds_name 1' in the CodeSystem 'https://fhir.cqdg.ca/CodeSystem/cqdg-dataset-cs' version '0.1.0'
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Sequencing-Data-Supplement)
 WARNING: DocumentReference/DocumentReferenceExample1: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.securityLabel[0]: Reference to retired ValueSet http://terminology.hl7.org/ValueSet/v3-ActUSPrivacyLaw|3.0.0
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both (extension.exists() != value.exists())' (defined in http://hl7.org/fhir/StructureDefinition/Extension)
 ERROR: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].attachment.extension[0]: The Extension 'https://fhir.cqdg.ca/StructureDefinition/FullSizeExtension' definition is for a simple extension, so it must contain a value
 INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
@@ -229,6 +269,7 @@ INFORMATION: DocumentReference/DocumentReferenceExample1: DocumentReference.cont
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = https://fhir.cqdg.ca/CodeSystem/data-type#Aligned-Reads)
 WARNING: DocumentReference/DocumentReferenceExample2: DocumentReference.securityLabel[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.securityLabel[0]: Reference to retired ValueSet http://terminology.hl7.org/ValueSet/v3-ActUSPrivacyLaw|3.0.0
 INFORMATION: DocumentReference/DocumentReferenceExample2: DocumentReference.content[0].format: The Coding provided (https://fhir.cqdg.ca/CodeSystem/document-format#TGZ) was not found in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code 'https://fhir.cqdg.ca/CodeSystem/document-format#TGZ: 'TGZ Archive File'' was not found in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 == fsh-generated/resources/Group-CQDGGroupExample.json ==
 WARNING: Group/CQDGGroupExample: Group.meta.profile[1]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGGroup'
@@ -236,6 +277,7 @@ WARNING: Group/CQDGGroupExample: Group.meta.tag[0]: A code with no system has no
 WARNING: Group/CQDGGroupExample: Group.code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Group/CQDGGroupExample: Group.meta.profile[1]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGGroup' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ImplementationGuide-fhir.cqdg.json ==
+INFORMATION: Resource: The resource ImplementationGuide/fhir.cqdg could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/List-ExampleCQDGProgramGroup.json ==
 ERROR: List/ExampleCQDGProgramGroup: List.extension[0].extension[0]: Slicing cannot be evaluated: Could not match discriminator (url) for slice Extension.extension:relatedArtifact/ResearchProgramRelatedArtifact in profile https://fhir.cqdg.ca/StructureDefinition/research-program|0.1.0 - the discriminator [url] does not have fixed value, binding or existence assertions
 ERROR: List/ExampleCQDGProgramGroup: List.extension[0].extension[1]: Slicing cannot be evaluated: Could not match discriminator (url) for slice Extension.extension:relatedArtifact/ResearchProgramRelatedArtifact in profile https://fhir.cqdg.ca/StructureDefinition/research-program|0.1.0 - the discriminator [url] does not have fixed value, binding or existence assertions
@@ -312,8 +354,6 @@ WARNING: Organization/OrganizationExample: Organization.meta.tag[0]: A code with
 == fsh-generated/resources/Patient-PatientExample.json ==
 WARNING: Patient/PatientExample: Patient.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: Patient/PatientExample: Patient.meta.tag[1]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: Patient/PatientExample: Patient.extension[4].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
-WARNING: Patient/PatientExample: Patient.extension[5].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 == fsh-generated/resources/ResearchStudy-ResearchStudyExample.json ==
 INFORMATION: ResearchStudy/ResearchStudyExample: ResearchStudy.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-research-study|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGResearchStudy'
@@ -336,7 +376,6 @@ WARNING: ResearchStudy/ResearchStudyExample: ResearchStudy.meta.profile[1]: Prof
 == fsh-generated/resources/Specimen-SpecimenExample.json ==
 INFORMATION: Specimen/SpecimenExample: Specimen.identifier[1]: This element does not match any known slice defined in the profile https://fhir.cqdg.ca/StructureDefinition/cqdg-specimen|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/SpecimenExample: Specimen.meta.tag[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: Specimen/SpecimenExample: Specimen.extension[1].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[2].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
 WARNING: Specimen/SpecimenExample: Specimen.extension[3].extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
@@ -345,187 +384,270 @@ WARNING: Specimen/SpecimenExample: Specimen.identifier[0].system: No definition 
 WARNING: Specimen/SpecimenExample: Specimen.type.coding[0]: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-AccessLimitations.json ==
 WARNING: StructureDefinition/AccessLimitations: StructureDefinition.context[0]: Review the extension type for AccessLimitations: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/AccessLimitations could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AccessRequirements.json ==
 WARNING: StructureDefinition/AccessRequirements: StructureDefinition.context[0]: Review the extension type for AccessRequirements: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/AccessRequirements could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AgeAtEvent.json ==
 WARNING: StructureDefinition/AgeAtEvent: StructureDefinition.context[0]: Review the extension type for AgeAtEvent: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/AgeAtEvent could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AgeAtRecruitment.json ==
+INFORMATION: Resource: The resource StructureDefinition/AgeAtRecruitment could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AgeOfDeath.json ==
+INFORMATION: Resource: The resource StructureDefinition/AgeOfDeath could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CQDGObservationCauseOfDeath.json ==
 INFORMATION: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[12].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[47].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs'
 WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs'
-WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.differential.element[5].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
-WARNING: StructureDefinition/CQDGObservationCauseOfDeath: StructureDefinition.snapshot.element[47].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs on element Observation.value[x].coding.system could not be resolved
+INFORMATION: Resource: The resource StructureDefinition/CQDGObservationCauseOfDeath could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/cause-of-death-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-CQDGObservationDiseaseStatus.json ==
+INFORMATION: Resource: The resource StructureDefinition/CQDGObservationDiseaseStatus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CQDGObservationFamilyRelationship.json ==
+INFORMATION: Resource: The resource StructureDefinition/CQDGObservationFamilyRelationship could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CQDGObservationPhenotype.json ==
-WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.differential.element[5].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
-WARNING: StructureDefinition/CQDGObservationPhenotype: StructureDefinition.snapshot.element[47].binding: The valueSet reference http://purl.obolibrary.org/obo/hp.owl on element Observation.value[x].coding.system could not be resolved
+INFORMATION: Resource: The resource StructureDefinition/CQDGObservationPhenotype could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CQDGObservationTumorNormalDesignation.json ==
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
 WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs'
-WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.differential.element[5].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
-WARNING: StructureDefinition/CQDGObservationTumorNormalDesignation: StructureDefinition.snapshot.element[47].binding: The valueSet reference https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs on element Observation.value[x].coding.system could not be resolved
+INFORMATION: Resource: The resource StructureDefinition/CQDGObservationTumorNormalDesignation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: StructureDefinition.text.div: Hyperlink 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' at 'div/table/tr/td/a' for 'https://fhir.cqdg.ca/CodeSystem/tumor-normal-designation-vs' does not resolve
 == fsh-generated/resources/StructureDefinition-CancerBiospecimenAnatomicLocation.json ==
 WARNING: StructureDefinition/CancerBiospecimenAnatomicLocation: StructureDefinition.context[0]: Review the extension type for CancerBiospecimenAnatomicLocation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/CancerBiospecimenAnatomicLocation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CancerBiospecimenType.json ==
 WARNING: StructureDefinition/CancerBiospecimenType: StructureDefinition.context[0]: Review the extension type for CancerBiospecimenType: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/CancerBiospecimenType could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-DataCategoryExtension.json ==
 WARNING: StructureDefinition/DataCategoryExtension: StructureDefinition.context[0]: Review the extension type for DataCategoryExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/DataCategoryExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-DataCollectionMethodExtension.json ==
 WARNING: StructureDefinition/DataCollectionMethodExtension: StructureDefinition.context[0]: Review the extension type for DataCollectionMethodExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/DataCollectionMethodExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-FileMd5SumExtension.json ==
 WARNING: StructureDefinition/FileMd5SumExtension: StructureDefinition.context[0]: Review the extension type for FileMd5SumExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/FileMd5SumExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-FullSizeExtension.json ==
 WARNING: StructureDefinition/FullSizeExtension: StructureDefinition.context[0]: Review the extension type for FullSizeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/FullSizeExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-Gender.json ==
 WARNING: StructureDefinition/Gender: StructureDefinition.context[0]: Review the extension type for Gender: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/Gender could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-QCEthnicity.json ==
 WARNING: StructureDefinition/QCEthnicity: StructureDefinition.context[0]: Review the extension type for QCEthnicity: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/QCEthnicity could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-Race.json ==
 WARNING: StructureDefinition/Race: StructureDefinition.context[0]: Review the extension type for Race: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/Race could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-Restricted.json ==
 WARNING: StructureDefinition/Restricted: StructureDefinition.context[0]: Review the extension type for Restricted: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/Restricted could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-SexAtBirth.json ==
 WARNING: StructureDefinition/SexAtBirth: StructureDefinition.context[0]: Review the extension type for SexAtBirth: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/SexAtBirth could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-StableFileIdExtension.json ==
 WARNING: StructureDefinition/StableFileIdExtension: StructureDefinition.context[0]: Review the extension type for StableFileIdExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/StableFileIdExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/StableFileIdExtension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-StudyDesignExtension.json ==
 WARNING: StructureDefinition/StudyDesignExtension: StructureDefinition.context[0]: Review the extension type for StudyDesignExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/StudyDesignExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-TumorHistologicalType.json ==
 WARNING: StructureDefinition/TumorHistologicalType: StructureDefinition.context[0]: Review the extension type for TumorHistologicalType: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/TumorHistologicalType could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-TumorNormalDesignation.json ==
 WARNING: StructureDefinition/TumorNormalDesignation: StructureDefinition.context[0]: Review the extension type for TumorNormalDesignation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/TumorNormalDesignation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-VitalStatus.json ==
 WARNING: StructureDefinition/VitalStatus: StructureDefinition.context[0]: Review the extension type for VitalStatus: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/VitalStatus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-condition.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-condition could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-document-reference.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-document-reference could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-document-reference'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-cqdg-group.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-group could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-observation-group.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-observation-group could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-observation-group'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-cqdg-organization.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-organization could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-organization'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-cqdg-patient.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-program.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-program could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-research-study.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-research-study could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-specimen.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-specimen could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-cqdg-task.json ==
+INFORMATION: Resource: The resource StructureDefinition/cqdg-task could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/cqdg-task'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-datasetExtension.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/dataset'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension.json - the canonical URL (https://fhir.cqdg.ca/StructureDefinition/datasetExtension) does not match the URL (https://fhir.cqdg.ca/StructureDefinition/dataset). Use the special-url parameter if you really mean for it not to match
 ERROR: StructureDefinition.url: Resource id/url mismatch: datasetExtension/https://fhir.cqdg.ca/StructureDefinition/dataset
 WARNING: StructureDefinition/datasetExtension: StructureDefinition.context[0]: Review the extension type for datasetExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/datasetExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-datasetExtension: URL Mismatch https://fhir.cqdg.ca/StructureDefinition/datasetExtension vs https://fhir.cqdg.ca/StructureDefinition/dataset
 == fsh-generated/resources/StructureDefinition-expectedStudyContent.json ==
 ERROR: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent'): Conformance resource /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-expectedStudyContent.json - the canonical URL (https://fhir.cqdg.ca/StructureDefinition/expectedStudyContent) does not match the URL (https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent). Use the special-url parameter if you really mean for it not to match
 ERROR: StructureDefinition.url: Resource id/url mismatch: expectedStudyContent/https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent
 WARNING: StructureDefinition/expectedStudyContent: StructureDefinition.context[0]: Review the extension type for expectedStudyContent: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/expectedStudyContent could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cqdg-FHIR/cqdg-FHIR/fsh-generated/resources/StructureDefinition-expectedStudyContent: URL Mismatch https://fhir.cqdg.ca/StructureDefinition/expectedStudyContent vs https://fhir.cqdg.ca/StructureDefinition/ResearchStudy/ExpectedContent
 == fsh-generated/resources/StructureDefinition-population-info.json ==
 WARNING: StructureDefinition/population-info: StructureDefinition.context[0]: Review the extension type for population-info: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/population-info could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://fhir.cqdg.ca/StructureDefinition/population-info'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-research-program.json ==
 WARNING: StructureDefinition/research-program: StructureDefinition.context[0]: Review the extension type for research-program: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/research-program could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-research-program-contact.json ==
 WARNING: StructureDefinition/research-program-contact: StructureDefinition.context[0]: Review the extension type for research-program-contact: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/research-program-contact could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-research-program-partner.json ==
 WARNING: StructureDefinition/research-program-partner: StructureDefinition.context[0]: Review the extension type for research-program-partner: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/research-program-partner could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-research-program-related-artifact.json ==
 WARNING: StructureDefinition/research-program-related-artifact: StructureDefinition.context[0]: Review the extension type for research-program-related-artifact: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/research-program-related-artifact could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-sampleExtension.json ==
 WARNING: StructureDefinition/sampleExtension: StructureDefinition.context[0]: Review the extension type for sampleExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/sampleExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-sequencingExperimentExtension.json ==
 WARNING: StructureDefinition/sequencingExperimentExtension: StructureDefinition.context[0]: Review the extension type for sequencingExperimentExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/sequencingExperimentExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-workflowExtension.json ==
 WARNING: StructureDefinition/workflowExtension: StructureDefinition.context[0]: Review the extension type for workflowExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+INFORMATION: Resource: The resource StructureDefinition/workflowExtension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Task-CQDGTaskExample.json ==
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask'
-ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding).display: Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US')
-ERROR: Task/CQDGTaskExample: Task.extension[1].extension[0].value.ofType(Coding): The Coding provided (https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS) was not found in the value set 'Ferlab.bio ValueSet/experimental-strategy' (https://fhir.cqdg.ca/ValueSet/experimental-strategy-vs|0.1.0), and a code is required from this value set.  (error message = Wrong Display Name 'Whole Exome Sequencing' for https://fhir.cqdg.ca/CodeSystem/experimental-strategy#WGS. Valid display is one of 2 choices: 'Whole Genome Sequencing' or 'Whole Genome Sequencing' (null) (for the language(s) 'en-US'))
 ERROR: Task/CQDGTaskExample: Task.output[1].type.coding[0].display: Wrong Display Name 'SNV' for https://fhir.cqdg.ca/CodeSystem/data-type#SNV. Valid display is one of 2 choices: 'Single Nucleotide Variants (SNVs)' or 'Single Nucleotide Variants (SNVs)' (null) (for the language(s) 'en-US')
 WARNING: Task/CQDGTaskExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Task-CQDGTaskLongReadExample.json ==
+WARNING: Task/CQDGTaskLongReadExample: Task.meta.profile[0]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask'
+WARNING: Task/CQDGTaskLongReadExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Task-CQDGTaskMultiOmicExample.json ==
+WARNING: Task/CQDGTaskMultiOmicExample: Task.meta.profile[0]: A definition could not be found for Canonical URL 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask'
+WARNING: Task/CQDGTaskMultiOmicExample: Task.meta.profile[0]: Profile reference 'https://fhir.cqdg.ca/StructureDefinition/CQDGTask' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ValueSet-access-limitation-vs.json ==
 WARNING: ValueSet/access-limitation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/access-limitation-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-access-requirement-vs.json ==
 WARNING: ValueSet/access-requirement-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/access-requirement-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-age-at-onset-vs.json ==
 WARNING: ValueSet/age-at-onset-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/age-at-onset-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-bioinfo-analysis-vs.json ==
 WARNING: ValueSet/bioinfo-analysis-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/bioinfo-analysis-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-cause-of-death-vs.json ==
 WARNING: ValueSet/cause-of-death-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/cause-of-death-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-cqdg-diagnosis-vs.json ==
 ERROR: ValueSet/cqdg-diagnosis-vs: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/icd10-CA'
 WARNING: ValueSet/cqdg-diagnosis-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/cqdg-diagnosis-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: ValueSet.where(id = 'cqdg-diagnosis-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/mondo.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-observation-category.json ==
 WARNING: ValueSet/cqdg-observation-category: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/cqdg-observation-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-cqdg-specimen-tissue-source-vs.json ==
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 WARNING: ValueSet/cqdg-specimen-tissue-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/cqdg-specimen-tissue-source-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: ValueSet.where(id = 'cqdg-specimen-tissue-source-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-cqdg-tumor-normal-designation-vs.json ==
 WARNING: ValueSet/cqdg-tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/cqdg-tumor-normal-designation-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-data-category-vs.json ==
 WARNING: ValueSet/data-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/data-category-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-data-collection-method-vs.json ==
 WARNING: ValueSet/data-collection-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/data-collection-method-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-data-type-vs.json ==
 WARNING: ValueSet/data-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/data-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-disease-status-vs.json ==
 WARNING: ValueSet/disease-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/disease-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-experimental-strategy-vs.json ==
 WARNING: ValueSet/experimental-strategy-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/experimental-strategy-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-family-type-vs.json ==
 WARNING: ValueSet/family-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/family-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-file-format.json ==
 WARNING: ValueSet/file-format: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/file-format should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-gender-collection-method-vs.json ==
 WARNING: ValueSet/gender-collection-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/gender-collection-method-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-genome-build-vs.json ==
 WARNING: ValueSet/genome-build-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/genome-build-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-ncit-special-codes-vs.json ==
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/ncit.owl'
 INFORMATION: ValueSet/ncit-special-codes-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://purl.obolibrary.org/obo/ncit.owl' is not known, and no terminology service supports it
 WARNING: ValueSet/ncit-special-codes-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ncit-special-codes-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: ValueSet.where(id = 'ncit-special-codes-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/ncit.owl' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-phenotype-vs.json ==
 WARNING: ValueSet/phenotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'phenotype-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' could not be found, so the value set cannot be expanded
+WARNING: Resource: The resource ValueSet/phenotype-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+INFORMATION: ValueSet.where(id = 'phenotype-vs'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-population-vs.json ==
 WARNING: ValueSet/population-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/population-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-profiling-resolution-vs.json ==
+WARNING: ValueSet/profiling-resolution-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/profiling-resolution-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-qc-ethnicity-vs.json ==
 WARNING: ValueSet/qc-ethnicity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/qc-ethnicity-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-qc-gender-vs.json ==
 WARNING: ValueSet/qc-gender-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/qc-gender-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-race-collection-method-vs.json ==
 WARNING: ValueSet/race-collection-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/race-collection-method-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-race-vs.json ==
 WARNING: ValueSet/race-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/race-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-relationship-to-proband-vs.json ==
 WARNING: ValueSet/relationship-to-proband-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/relationship-to-proband-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-research-domain-vs.json ==
 WARNING: ValueSet/research-domain-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/research-domain-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-sequencing-experiment-platform-vs.json ==
 WARNING: ValueSet/sequencing-experiment-platform-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/sequencing-experiment-platform-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-sequencing-experiment-selection-vs.json ==
 WARNING: ValueSet/sequencing-experiment-selection-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/sequencing-experiment-selection-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-sequencing-experiment-source-vs.json ==
 WARNING: ValueSet/sequencing-experiment-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/sequencing-experiment-source-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-sex-at-birth-collection-method-vs.json ==
 WARNING: ValueSet/sex-at-birth-collection-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/sex-at-birth-collection-method-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-sex-at-birth-vs.json ==
 WARNING: ValueSet/sex-at-birth-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/sex-at-birth-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-study-design-vs.json ==
 WARNING: ValueSet/study-design-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/study-design-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-study-vs.json ==
 WARNING: ValueSet/study-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/study-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-tumor-normal-designation-vs.json ==
 WARNING: ValueSet/tumor-normal-designation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/tumor-normal-designation-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-vital-status-vs.json ==
 WARNING: ValueSet/vital-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/vital-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

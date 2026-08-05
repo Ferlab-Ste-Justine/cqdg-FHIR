@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/cqdg-tumor-normal-designation-vs | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:CQDGTumorNormalDesignationVS |
+| Active as of 2026-08-05 | *Computable Name*:CQDGTumorNormalDesignationVS |
 
  
 ValueSet for Tumor Normal Designation including CQDG codes 
@@ -50,7 +50,7 @@ ValueSet for Tumor Normal Designation including CQDG codes
   "name" : "CQDGTumorNormalDesignationVS",
   "title" : "CQDG Tumor Normal Designation ValueSet",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

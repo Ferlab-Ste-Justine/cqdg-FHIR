@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/StructureDefinition/cqdg-program | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:CQDG_Program |
+| Active as of 2026-08-05 | *Computable Name*:CQDG_Program |
 
  
 A CQDG program 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-cqdg-program.csv), [
   "name" : "CQDG_Program",
   "title" : "Ferlab.bio StructureDefinition/cqdg-program",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",

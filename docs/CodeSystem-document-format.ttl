@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,118 +7,227 @@
 
 <https://fhir.cqdg.ca/CodeSystem/document-format> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "document-format"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem document-format</b></p><a name=\"document-format\"> </a><a name=\"hcdocument-format\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/document-format</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">FASTQ<a name=\"document-format-FASTQ\"> </a></td><td>FASTQ File</td><td>FASTQ</td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM</td><td>CRAM</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td><td>CRAI</td></tr><tr><td style=\"white-space:nowrap\">BAM<a name=\"document-format-BAM\"> </a></td><td>BAM File</td><td>BAM</td></tr><tr><td style=\"white-space:nowrap\">BAI<a name=\"document-format-BAI\"> </a></td><td>BAI Index File</td><td>BAI</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF</td><td>VCF</td></tr><tr><td style=\"white-space:nowrap\">gVCF<a name=\"document-format-gVCF\"> </a></td><td>gVCF File</td><td>gVCF</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td><td>TBI</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td><td>TGZ</td></tr><tr><td style=\"white-space:nowrap\">bigWig<a name=\"document-format-bigWig\"> </a></td><td>bigWig File</td><td>bigWig</td></tr><tr><td style=\"white-space:nowrap\">BED<a name=\"document-format-BED\"> </a></td><td>BED File</td><td>BED</td></tr><tr><td style=\"white-space:nowrap\">CSV<a name=\"document-format-CSV\"> </a></td><td>CSV File</td><td>CSV</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/document-format"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/document-format>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "DocumentFormat"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/document-format"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Document format"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "FASTQ" ] ;
-     fhir:display [ fhir:v "FASTQ File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "FASTQ" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "CRAM" ] ;
-     fhir:display [ fhir:v "CRAM" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "CRAM" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "CRAI" ] ;
-     fhir:display [ fhir:v "CRAI Index File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "CRAI" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "BAM" ] ;
-     fhir:display [ fhir:v "BAM File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "BAM" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "BAI" ] ;
-     fhir:display [ fhir:v "BAI Index File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "BAI" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "VCF" ] ;
-     fhir:display [ fhir:v "VCF" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "VCF" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "gVCF" ] ;
-     fhir:display [ fhir:v "gVCF File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "gVCF" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "TBI" ] ;
-     fhir:display [ fhir:v "TBI Index File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "TBI" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "TGZ" ] ;
-     fhir:display [ fhir:v "TGZ Archive File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "TGZ" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "bigWig" ] ;
-     fhir:display [ fhir:v "bigWig File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "bigWig" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "BED" ] ;
-     fhir:display [ fhir:v "BED File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "BED" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "CSV" ] ;
-     fhir:display [ fhir:v "CSV File" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "CSV" ]
-     ] )
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "document-format"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem document-format</b></p><a name=\"document-format\"> </a><a name=\"hcdocument-format\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/document-format</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">FASTQ<a name=\"document-format-FASTQ\"> </a></td><td>FASTQ File</td><td>FASTQ</td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM</td><td>CRAM</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td><td>CRAI</td></tr><tr><td style=\"white-space:nowrap\">BAM<a name=\"document-format-BAM\"> </a></td><td>BAM File</td><td>BAM</td></tr><tr><td style=\"white-space:nowrap\">BAI<a name=\"document-format-BAI\"> </a></td><td>BAI Index File</td><td>BAI</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF</td><td>VCF</td></tr><tr><td style=\"white-space:nowrap\">gVCF<a name=\"document-format-gVCF\"> </a></td><td>gVCF File</td><td>gVCF</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td><td>TBI</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td><td>TGZ</td></tr><tr><td style=\"white-space:nowrap\">bigWig<a name=\"document-format-bigWig\"> </a></td><td>bigWig File</td><td>bigWig</td></tr><tr><td style=\"white-space:nowrap\">BED<a name=\"document-format-BED\"> </a></td><td>BED File</td><td>BED</td></tr><tr><td style=\"white-space:nowrap\">CSV<a name=\"document-format-CSV\"> </a></td><td>CSV File</td><td>CSV</td></tr><tr><td style=\"white-space:nowrap\">TSV<a name=\"document-format-TSV\"> </a></td><td>TSV File</td><td>TSV</td></tr><tr><td style=\"white-space:nowrap\">POD5<a name=\"document-format-POD5\"> </a></td><td>POD5 File</td><td>POD5</td></tr><tr><td style=\"white-space:nowrap\">HDF5<a name=\"document-format-HDF5\"> </a></td><td>HDF5 File</td><td>HDF5</td></tr><tr><td style=\"white-space:nowrap\">cloupe<a name=\"document-format-cloupe\"> </a></td><td>cloupe File</td><td>cloupe</td></tr><tr><td style=\"white-space:nowrap\">GFF<a name=\"document-format-GFF\"> </a></td><td>GFF File</td><td>GFF</td></tr><tr><td style=\"white-space:nowrap\">GTF<a name=\"document-format-GTF\"> </a></td><td>GTF File</td><td>GTF</td></tr><tr><td style=\"white-space:nowrap\">FAM<a name=\"document-format-FAM\"> </a></td><td>FAM Pedigree File</td><td>FAM</td></tr><tr><td style=\"white-space:nowrap\">HTML<a name=\"document-format-HTML\"> </a></td><td>HTML File</td><td>HTML</td></tr><tr><td style=\"white-space:nowrap\">JSON<a name=\"document-format-JSON\"> </a></td><td>JSON File</td><td>JSON</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/document-format"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "DocumentFormat"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/document-format"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Document format"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "21"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FASTQ" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FASTQ File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "FASTQ" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CRAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CRAM" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "CRAM" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CRAI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CRAI Index File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "CRAI" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAM File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "BAM" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BAI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAI Index File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "BAI" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VCF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VCF" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "VCF" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "gVCF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "gVCF File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "gVCF" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TBI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TBI Index File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "TBI" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TGZ" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TGZ Archive File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "TGZ" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "bigWig" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "bigWig File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "bigWig" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BED File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "BED" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CSV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CSV File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "CSV" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TSV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TSV File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "TSV" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "POD5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "POD5 File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "POD5" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HDF5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HDF5 File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "HDF5" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cloupe" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "cloupe File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "cloupe" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GFF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GFF File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "GFF" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GTF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GTF File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "GTF" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FAM Pedigree File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "FAM" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HTML" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HTML File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "HTML" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "JSON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "JSON File" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "JSON" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/document-format.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

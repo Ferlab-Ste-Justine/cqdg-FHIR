@@ -3,7 +3,7 @@
   "id" : "data-category",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-category</b></p><a name=\"data-category\"> </a><a name=\"hcdata-category\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"data-category-genomics\"> </a></td><td>Genomics</td><td>Génomique</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"data-category-imaging\"> </a></td><td>Imaging</td><td>Imagerie</td></tr><tr><td style=\"white-space:nowrap\">clinical<a name=\"data-category-clinical\"> </a></td><td>Clinical</td><td>Clinique</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"data-category-transcriptomics\"> </a></td><td>Transcriptomics</td><td>Transcriptomique</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"data-category-proteomics\"> </a></td><td>Proteomics</td><td>Protéomique</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"data-category-metabolomics\"> </a></td><td>Metabolomics</td><td>Métabolomique</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"data-category-other\"> </a></td><td>Other</td><td>Autre</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-category</b></p><a name=\"data-category\"> </a><a name=\"hcdata-category\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"data-category-genomics\"> </a></td><td>Genomics</td><td>Génomique</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"data-category-imaging\"> </a></td><td>Imaging</td><td>Imagerie</td></tr><tr><td style=\"white-space:nowrap\">clinical<a name=\"data-category-clinical\"> </a></td><td>Clinical</td><td>Clinique</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"data-category-transcriptomics\"> </a></td><td>Transcriptomics</td><td>Transcriptomique</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"data-category-proteomics\"> </a></td><td>Proteomics</td><td>Protéomique</td></tr><tr><td style=\"white-space:nowrap\">epigenomics<a name=\"data-category-epigenomics\"> </a></td><td>Epigenomics</td><td>Épigénomique</td></tr><tr><td style=\"white-space:nowrap\">multi-omic<a name=\"data-category-multi-omic\"> </a></td><td>Multi-omic</td><td>Multi-omique</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"data-category-metabolomics\"> </a></td><td>Metabolomics</td><td>Métabolomique</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"data-category-other\"> </a></td><td>Other</td><td>Autre</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/data-category",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/data-category",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -23,7 +23,7 @@
   "description" : "Data category",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 7,
+  "count" : 9,
   "concept" : [{
     "code" : "genomics",
     "display" : "Genomics",
@@ -82,6 +82,30 @@
         "code" : "proteomics"
       },
       "value" : "Protéomique"
+    }]
+  },
+  {
+    "code" : "epigenomics",
+    "display" : "Epigenomics",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "epigenomics"
+      },
+      "value" : "Épigénomique"
+    }]
+  },
+  {
+    "code" : "multi-omic",
+    "display" : "Multi-omic",
+    "designation" : [{
+      "language" : "fr",
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/data-category",
+        "code" : "multi-omic"
+      },
+      "value" : "Multi-omique"
     }]
   },
   {

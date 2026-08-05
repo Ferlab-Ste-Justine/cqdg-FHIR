@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,132 +7,155 @@
 
 <https://fhir.cqdg.ca/CodeSystem/data-category> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "data-category"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-category</b></p><a name=\"data-category\"> </a><a name=\"hcdata-category\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"data-category-genomics\"> </a></td><td>Genomics</td><td>Génomique</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"data-category-imaging\"> </a></td><td>Imaging</td><td>Imagerie</td></tr><tr><td style=\"white-space:nowrap\">clinical<a name=\"data-category-clinical\"> </a></td><td>Clinical</td><td>Clinique</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"data-category-transcriptomics\"> </a></td><td>Transcriptomics</td><td>Transcriptomique</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"data-category-proteomics\"> </a></td><td>Proteomics</td><td>Protéomique</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"data-category-metabolomics\"> </a></td><td>Metabolomics</td><td>Métabolomique</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"data-category-other\"> </a></td><td>Other</td><td>Autre</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "DataCategory"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/data-category"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Data category"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "genomics" ] ;
-     fhir:display [ fhir:v "Genomics" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "genomics" ]
+  fhir:Resource.id [ fhir:value "data-category"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem data-category</b></p><a name=\"data-category\"> </a><a name=\"hcdata-category\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/data-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"data-category-genomics\"> </a></td><td>Genomics</td><td>Génomique</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"data-category-imaging\"> </a></td><td>Imaging</td><td>Imagerie</td></tr><tr><td style=\"white-space:nowrap\">clinical<a name=\"data-category-clinical\"> </a></td><td>Clinical</td><td>Clinique</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"data-category-transcriptomics\"> </a></td><td>Transcriptomics</td><td>Transcriptomique</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"data-category-proteomics\"> </a></td><td>Proteomics</td><td>Protéomique</td></tr><tr><td style=\"white-space:nowrap\">epigenomics<a name=\"data-category-epigenomics\"> </a></td><td>Epigenomics</td><td>Épigénomique</td></tr><tr><td style=\"white-space:nowrap\">multi-omic<a name=\"data-category-multi-omic\"> </a></td><td>Multi-omic</td><td>Multi-omique</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"data-category-metabolomics\"> </a></td><td>Metabolomics</td><td>Métabolomique</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"data-category-other\"> </a></td><td>Other</td><td>Autre</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "DataCategory"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/data-category"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Data category"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "genomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Genomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "genomics" ]
        ] ;
-       fhir:value [ fhir:v "Génomique" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "imaging" ] ;
-     fhir:display [ fhir:v "Imaging" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "imaging" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Génomique" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "imaging" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Imaging" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "imaging" ]
        ] ;
-       fhir:value [ fhir:v "Imagerie" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "clinical" ] ;
-     fhir:display [ fhir:v "Clinical" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "clinical" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Imagerie" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "clinical" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "clinical" ]
        ] ;
-       fhir:value [ fhir:v "Clinique" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "transcriptomics" ] ;
-     fhir:display [ fhir:v "Transcriptomics" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "transcriptomics" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Clinique" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "transcriptomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transcriptomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "transcriptomics" ]
        ] ;
-       fhir:value [ fhir:v "Transcriptomique" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "proteomics" ] ;
-     fhir:display [ fhir:v "Proteomics" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "proteomics" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Transcriptomique" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "proteomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Proteomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "proteomics" ]
        ] ;
-       fhir:value [ fhir:v "Protéomique" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "metabolomics" ] ;
-     fhir:display [ fhir:v "Metabolomics" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "metabolomics" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Protéomique" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "epigenomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Epigenomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "epigenomics" ]
        ] ;
-       fhir:value [ fhir:v "Métabolomique" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "other" ] ;
-     fhir:display [ fhir:v "Other" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "fr" ] ;
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/data-category"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/data-category>
-         ] ;
-         fhir:code [ fhir:v "other" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Épigénomique" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "multi-omic" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Multi-omic" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "multi-omic" ]
        ] ;
-       fhir:value [ fhir:v "Autre" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Multi-omique" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "metabolomics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Metabolomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "metabolomics" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Métabolomique" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/data-category" ] ;
+         fhir:Coding.code [ fhir:value "other" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Autre" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/data-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

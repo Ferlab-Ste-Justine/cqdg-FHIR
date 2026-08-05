@@ -3,7 +3,7 @@
   "id" : "sequencing-experiment-source",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-source</b></p><a name=\"sequencing-experiment-source\"> </a><a name=\"hcsequencing-experiment-source\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">GEN<a name=\"sequencing-experiment-source-GEN\"> </a></td><td>Genomic</td></tr><tr><td style=\"white-space:nowrap\">TSC<a name=\"sequencing-experiment-source-TSC\"> </a></td><td>Transcriptomic Single Cell</td></tr><tr><td style=\"white-space:nowrap\">TS<a name=\"sequencing-experiment-source-TS\"> </a></td><td>Transcriptomic</td></tr><tr><td style=\"white-space:nowrap\">GSC<a name=\"sequencing-experiment-source-GSC\"> </a></td><td>Genomic Single Cell</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-source</b></p><a name=\"sequencing-experiment-source\"> </a><a name=\"hcsequencing-experiment-source\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Deprecated</td><td>deprecated</td><td>http://hl7.org/fhir/concept-properties#deprecated</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Deprecated</b></td></tr><tr><td style=\"white-space:nowrap\">GEN<a name=\"sequencing-experiment-source-GEN\"> </a></td><td>Genomics</td><td/></tr><tr><td style=\"white-space:nowrap\">TS<a name=\"sequencing-experiment-source-TS\"> </a></td><td>Transcriptomics</td><td/></tr><tr><td style=\"white-space:nowrap\">EPI<a name=\"sequencing-experiment-source-EPI\"> </a></td><td>Epigenomics</td><td/></tr><tr><td style=\"white-space:nowrap\">PRO<a name=\"sequencing-experiment-source-PRO\"> </a></td><td>Proteomics</td><td/></tr><tr><td style=\"white-space:nowrap\">MUL<a name=\"sequencing-experiment-source-MUL\"> </a></td><td>Multi-omic</td><td/></tr><tr><td style=\"white-space:nowrap\">CLI<a name=\"sequencing-experiment-source-CLI\"> </a></td><td>Clinical</td><td/></tr><tr><td style=\"white-space:nowrap\">TSC<a name=\"sequencing-experiment-source-TSC\"> </a></td><td>Transcriptomic Single Cell</td><td>2026-07-27</td></tr><tr><td style=\"white-space:nowrap\">GSC<a name=\"sequencing-experiment-source-GSC\"> </a></td><td>Genomic Single Cell</td><td>2026-07-27</td></tr></table></div>"
   },
   "url" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Ferlab.bio CodeSystem/sequencing-experiment-source",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -20,19 +20,80 @@
       "value" : "http://example.org/example-publisher"
     }]
   }],
-  "description" : "Sequencing experimental source",
+  "description" : "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical).",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 4,
+  "count" : 8,
+  "property" : [{
+    "code" : "deprecated",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecated",
+    "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.",
+    "type" : "dateTime"
+  }],
   "concept" : [{
     "code" : "GEN",
-    "display" : "Genomic",
+    "display" : "Genomics",
     "designation" : [{
       "use" : {
         "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
         "code" : "GEN"
       },
-      "value" : "Genomic"
+      "value" : "Genomics"
+    }]
+  },
+  {
+    "code" : "TS",
+    "display" : "Transcriptomics",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "TS"
+      },
+      "value" : "Transcriptomics"
+    }]
+  },
+  {
+    "code" : "EPI",
+    "display" : "Epigenomics",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "EPI"
+      },
+      "value" : "Epigenomics"
+    }]
+  },
+  {
+    "code" : "PRO",
+    "display" : "Proteomics",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "PRO"
+      },
+      "value" : "Proteomics"
+    }]
+  },
+  {
+    "code" : "MUL",
+    "display" : "Multi-omic",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "MUL"
+      },
+      "value" : "Multi-omic"
+    }]
+  },
+  {
+    "code" : "CLI",
+    "display" : "Clinical",
+    "designation" : [{
+      "use" : {
+        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+        "code" : "CLI"
+      },
+      "value" : "Clinical"
     }]
   },
   {
@@ -44,17 +105,10 @@
         "code" : "TSC"
       },
       "value" : "Transcriptomic Single Cell"
-    }]
-  },
-  {
-    "code" : "TS",
-    "display" : "Transcriptomic",
-    "designation" : [{
-      "use" : {
-        "system" : "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-        "code" : "TS"
-      },
-      "value" : "Transcriptomic"
+    }],
+    "property" : [{
+      "code" : "deprecated",
+      "valueDateTime" : "2026-07-27"
     }]
   },
   {
@@ -66,6 +120,10 @@
         "code" : "GSC"
       },
       "value" : "Genomic Single Cell"
+    }],
+    "property" : [{
+      "code" : "deprecated",
+      "valueDateTime" : "2026-07-27"
     }]
   }]
 }

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,44 +7,52 @@
 
 <https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "cqdg-specimen-missing-codes"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-specimen-missing-codes</b></p><a name=\"cqdg-specimen-missing-codes\"> </a><a name=\"hccqdg-specimen-missing-codes\"> </a><p>This  code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"cqdg-specimen-missing-codes-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"cqdg-specimen-missing-codes-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"cqdg-specimen-missing-codes-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"cqdg-specimen-missing-codes-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "CQDGSpecimenTissueSourceMissingCodes"] ; # 
-  fhir:title [ fhir:v "CQDG Specimen Missing Codes"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Codes for missing specimen data"] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Missing - Restricted access" ] ;
-     fhir:display [ fhir:v "Missing - Restricted Access" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Not provided" ] ;
-     fhir:display [ fhir:v "Missing - Not Provided" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Not collected" ] ;
-     fhir:display [ fhir:v "Missing - Not Collected" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Unknown" ] ;
-     fhir:display [ fhir:v "Missing - Unknown" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "cqdg-specimen-missing-codes"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cqdg-specimen-missing-codes</b></p><a name=\"cqdg-specimen-missing-codes\"> </a><a name=\"hccqdg-specimen-missing-codes\"> </a><p>This  code system <code>https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"cqdg-specimen-missing-codes-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"cqdg-specimen-missing-codes-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"cqdg-specimen-missing-codes-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"cqdg-specimen-missing-codes-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CQDGSpecimenTissueSourceMissingCodes"] ;
+  fhir:CodeSystem.title [ fhir:value "CQDG Specimen Missing Codes"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Codes for missing specimen data"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Restricted access" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Restricted Access" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Not provided" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Not Provided" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Not collected" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Not Collected" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Unknown" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Unknown" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/cqdg-specimen-missing-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

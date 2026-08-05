@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.93"}
-    h3,h4,h5,h6{--heading-prefix:"2.93"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.94"}
+    h3,h4,h5,h6{--heading-prefix:"2.94"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -182,7 +182,7 @@
         
           Active
           
-            as of 2026-06-08
+            as of 2026-08-05
           
         
       </td>
@@ -221,6 +221,8 @@
 <table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
 <tr><td style="white-space:nowrap">Raw-Sequencing-Reads<a name="data-type-Raw-Sequencing-Reads"> </a></td>
 <td>Raw Sequencing Reads</td></tr>
+<tr><td style="white-space:nowrap">Unaligned-Reads-Index<a name="data-type-Unaligned-Reads-Index"> </a></td>
+<td>Unaligned Reads Index</td></tr>
 <tr><td style="white-space:nowrap">Raw-Sequencing-Reads-R1<a name="data-type-Raw-Sequencing-Reads-R1"> </a></td>
 <td>Raw Sequencing Reads R1</td></tr>
 <tr><td style="white-space:nowrap">Raw-Sequencing-Reads-R2<a name="data-type-Raw-Sequencing-Reads-R2"> </a></td>
@@ -250,7 +252,47 @@
 <tr><td style="white-space:nowrap">IGV<a name="data-type-IGV"> </a></td>
 <td>IGV</td></tr>
 <tr><td style="white-space:nowrap">Laboratory-Values<a name="data-type-Laboratory-Values"> </a></td>
-<td>Laboratory Values</td></tr></table></div>
+<td>Laboratory Values</td></tr>
+<tr><td style="white-space:nowrap">Raw-Sequencing-Reads-I1<a name="data-type-Raw-Sequencing-Reads-I1"> </a></td>
+<td>Raw Sequencing Reads I1</td></tr>
+<tr><td style="white-space:nowrap">Raw-Sequencing-Reads-I2<a name="data-type-Raw-Sequencing-Reads-I2"> </a></td>
+<td>Raw Sequencing Reads I2</td></tr>
+<tr><td style="white-space:nowrap">Processed-Reads<a name="data-type-Processed-Reads"> </a></td>
+<td>Processed Reads</td></tr>
+<tr><td style="white-space:nowrap">Processed-Reads-Index<a name="data-type-Processed-Reads-Index"> </a></td>
+<td>Processed Reads Index</td></tr>
+<tr><td style="white-space:nowrap">De-Novo-Assembly-Aligned-Reads<a name="data-type-De-Novo-Assembly-Aligned-Reads"> </a></td>
+<td>De Novo Assembly Aligned Reads</td></tr>
+<tr><td style="white-space:nowrap">De-Novo-Assembly-Aligned-Reads-Index<a name="data-type-De-Novo-Assembly-Aligned-Reads-Index"> </a></td>
+<td>De Novo Assembly Aligned Reads Index</td></tr>
+<tr><td style="white-space:nowrap">Methylation-Calls<a name="data-type-Methylation-Calls"> </a></td>
+<td>Methylation Calls</td></tr>
+<tr><td style="white-space:nowrap">Methylation-Calls-Index<a name="data-type-Methylation-Calls-Index"> </a></td>
+<td>Methylation Calls Index</td></tr>
+<tr><td style="white-space:nowrap">Raw-Feature-Count-Matrix<a name="data-type-Raw-Feature-Count-Matrix"> </a></td>
+<td>Raw Feature Count Matrix</td></tr>
+<tr><td style="white-space:nowrap">Filtered-Feature-Count-Matrix<a name="data-type-Filtered-Feature-Count-Matrix"> </a></td>
+<td>Filtered Feature Count Matrix</td></tr>
+<tr><td style="white-space:nowrap">Raw-Peak-Barcode-Matrix<a name="data-type-Raw-Peak-Barcode-Matrix"> </a></td>
+<td>Raw Peak Barcode Matrix</td></tr>
+<tr><td style="white-space:nowrap">Filtered-Peak-Barcode-Matrix<a name="data-type-Filtered-Peak-Barcode-Matrix"> </a></td>
+<td>Filtered Peak Barcode Matrix</td></tr>
+<tr><td style="white-space:nowrap">Peak-Calls<a name="data-type-Peak-Calls"> </a></td>
+<td>Peak Calls</td></tr>
+<tr><td style="white-space:nowrap">Peak-Calls-Index<a name="data-type-Peak-Calls-Index"> </a></td>
+<td>Peak Calls Index</td></tr>
+<tr><td style="white-space:nowrap">Annotated-Peaks<a name="data-type-Annotated-Peaks"> </a></td>
+<td>Annotated Peaks</td></tr>
+<tr><td style="white-space:nowrap">Tandem-Repeats<a name="data-type-Tandem-Repeats"> </a></td>
+<td>Tandem Repeats (TRs)</td></tr>
+<tr><td style="white-space:nowrap">Secondary-Analysis<a name="data-type-Secondary-Analysis"> </a></td>
+<td>Secondary Analysis</td></tr>
+<tr><td style="white-space:nowrap">Gene-Annotations<a name="data-type-Gene-Annotations"> </a></td>
+<td>Gene Annotations</td></tr>
+<tr><td style="white-space:nowrap">Pedigree<a name="data-type-Pedigree"> </a></td>
+<td>Pedigree</td></tr>
+<tr><td style="white-space:nowrap">Psychiatric-Assessment-Scores<a name="data-type-Psychiatric-Assessment-Scores"> </a></td>
+<td>Psychiatric Assessment Scores</td></tr></table></div>
 
   
 
@@ -277,7 +319,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 8, 2026 17:19+0000">2026-06-08</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Ferlab.bio</a>.  Package fhir.cqdg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 5, 2026 14:46+0000">2026-08-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

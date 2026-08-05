@@ -10,7 +10,7 @@ Profile: [Ferlab.bio StructureDefinition/cqdg-condition](StructureDefinition-cqd
 
 Tag: 
 
-**Ferlab.bio Extension/age-at-event**: HP:0030674
+**Ferlab.bio Extension/age-at-event**: Antenatal onset
 
 **identifier**: `https://fhir.cqdg.ca/fhir/Condition`/ConditionExample
 

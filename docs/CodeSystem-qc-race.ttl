@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,79 +7,98 @@
 
 <https://fhir.cqdg.ca/CodeSystem/qc-race> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "qc-race"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-race</b></p><a name=\"qc-race\"> </a><a name=\"hcqc-race\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Black<a name=\"qc-race-Black\"> </a></td><td>Black</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-race-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-race-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-race-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-race-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-race-Prefernottoanswer\"> </a></td><td>Prefer not to Answer</td></tr><tr><td style=\"white-space:nowrap\">Do not know<a name=\"qc-race-Donotknow\"> </a></td><td>Do not know</td></tr><tr><td style=\"white-space:nowrap\">Another Racial Category<a name=\"qc-race-AnotherRacialCategory\"> </a></td><td>Another Racial Category</td></tr><tr><td style=\"white-space:nowrap\">White<a name=\"qc-race-White\"> </a></td><td>White</td></tr><tr><td style=\"white-space:nowrap\">Southeast Asian<a name=\"qc-race-SoutheastAsian\"> </a></td><td>Southeast Asian</td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-race-SouthAsian\"> </a></td><td>South Asian</td></tr><tr><td style=\"white-space:nowrap\">Middle Eastern or North African<a name=\"qc-race-MiddleEasternorNorthAfrican\"> </a></td><td>Middle Eastern or North African</td></tr><tr><td style=\"white-space:nowrap\">Latin American<a name=\"qc-race-LatinAmerican\"> </a></td><td>Latin American</td></tr><tr><td style=\"white-space:nowrap\">Indigenous (First Nations, Inuk/Inuit, Métis)<a name=\"qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41\"> </a></td><td>Indigenous (First Nations, Inuk/Inuit, Métis)</td></tr><tr><td style=\"white-space:nowrap\">East Asian<a name=\"qc-race-EastAsian\"> </a></td><td>East Asian</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/race"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/race>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "RaceCodeSystem"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/race"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "This code system defines standardized categories for documenting a participant's race within clinical and research datasets."] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "15"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "Black" ] ;
-     fhir:display [ fhir:v "Black" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Restricted access" ] ;
-     fhir:display [ fhir:v "Missing - Restricted Access" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Not provided" ] ;
-     fhir:display [ fhir:v "Missing - Not Provided" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Not collected" ] ;
-     fhir:display [ fhir:v "Missing - Not Collected" ]
-  ] [
-     fhir:code [ fhir:v "Missing - Unknown" ] ;
-     fhir:display [ fhir:v "Missing - Unknown" ]
-  ] [
-     fhir:code [ fhir:v "Prefer not to answer" ] ;
-     fhir:display [ fhir:v "Prefer not to Answer" ]
-  ] [
-     fhir:code [ fhir:v "Do not know" ] ;
-     fhir:display [ fhir:v "Do not know" ]
-  ] [
-     fhir:code [ fhir:v "Another Racial Category" ] ;
-     fhir:display [ fhir:v "Another Racial Category" ]
-  ] [
-     fhir:code [ fhir:v "White" ] ;
-     fhir:display [ fhir:v "White" ]
-  ] [
-     fhir:code [ fhir:v "Southeast Asian" ] ;
-     fhir:display [ fhir:v "Southeast Asian" ]
-  ] [
-     fhir:code [ fhir:v "South Asian" ] ;
-     fhir:display [ fhir:v "South Asian" ]
-  ] [
-     fhir:code [ fhir:v "Middle Eastern or North African" ] ;
-     fhir:display [ fhir:v "Middle Eastern or North African" ]
-  ] [
-     fhir:code [ fhir:v "Latin American" ] ;
-     fhir:display [ fhir:v "Latin American" ]
-  ] [
-     fhir:code [ fhir:v "Indigenous (First Nations, Inuk/Inuit, Métis)" ] ;
-     fhir:display [ fhir:v "Indigenous (First Nations, Inuk/Inuit, Métis)" ]
-  ] [
-     fhir:code [ fhir:v "East Asian" ] ;
-     fhir:display [ fhir:v "East Asian" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "qc-race"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem qc-race</b></p><a name=\"qc-race\"> </a><a name=\"hcqc-race\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/race</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Black<a name=\"qc-race-Black\"> </a></td><td>Black</td></tr><tr><td style=\"white-space:nowrap\">Missing - Restricted access<a name=\"qc-race-Missing-Restrictedaccess\"> </a></td><td>Missing - Restricted Access</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not provided<a name=\"qc-race-Missing-Notprovided\"> </a></td><td>Missing - Not Provided</td></tr><tr><td style=\"white-space:nowrap\">Missing - Not collected<a name=\"qc-race-Missing-Notcollected\"> </a></td><td>Missing - Not Collected</td></tr><tr><td style=\"white-space:nowrap\">Missing - Unknown<a name=\"qc-race-Missing-Unknown\"> </a></td><td>Missing - Unknown</td></tr><tr><td style=\"white-space:nowrap\">Prefer not to answer<a name=\"qc-race-Prefernottoanswer\"> </a></td><td>Prefer not to Answer</td></tr><tr><td style=\"white-space:nowrap\">Do not know<a name=\"qc-race-Donotknow\"> </a></td><td>Do not know</td></tr><tr><td style=\"white-space:nowrap\">Another Racial Category<a name=\"qc-race-AnotherRacialCategory\"> </a></td><td>Another Racial Category</td></tr><tr><td style=\"white-space:nowrap\">White<a name=\"qc-race-White\"> </a></td><td>White</td></tr><tr><td style=\"white-space:nowrap\">Southeast Asian<a name=\"qc-race-SoutheastAsian\"> </a></td><td>Southeast Asian</td></tr><tr><td style=\"white-space:nowrap\">South Asian<a name=\"qc-race-SouthAsian\"> </a></td><td>South Asian</td></tr><tr><td style=\"white-space:nowrap\">Middle Eastern or North African<a name=\"qc-race-MiddleEasternorNorthAfrican\"> </a></td><td>Middle Eastern or North African</td></tr><tr><td style=\"white-space:nowrap\">Latin American<a name=\"qc-race-LatinAmerican\"> </a></td><td>Latin American</td></tr><tr><td style=\"white-space:nowrap\">Indigenous (First Nations, Inuk/Inuit, Métis)<a name=\"qc-race-Indigenous.40FirstNations.44Inuk.47Inuit.44M.233tis.41\"> </a></td><td>Indigenous (First Nations, Inuk/Inuit, Métis)</td></tr><tr><td style=\"white-space:nowrap\">East Asian<a name=\"qc-race-EastAsian\"> </a></td><td>East Asian</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/race"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "RaceCodeSystem"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/race"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "This code system defines standardized categories for documenting a participant's race within clinical and research datasets."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "15"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Black" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Black" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Restricted access" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Restricted Access" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Not provided" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Not Provided" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Not collected" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Not Collected" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Missing - Unknown" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Missing - Unknown" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Prefer not to answer" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prefer not to Answer" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Do not know" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Do not know" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Another Racial Category" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Another Racial Category" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "White" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "White" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Southeast Asian" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Southeast Asian" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "South Asian" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "South Asian" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Middle Eastern or North African" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Middle Eastern or North African" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Latin American" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Latin American" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Indigenous (First Nations, Inuk/Inuit, Métis)" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Indigenous (First Nations, Inuk/Inuit, Métis)" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "East Asian" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "East Asian" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/qc-race.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

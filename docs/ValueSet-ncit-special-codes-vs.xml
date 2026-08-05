@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ncit-special-codes-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name="ncit-special-codes-vs"> </a><a name="hcncit-special-codes-vs"> </a><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>NCIT:C156445</td><td>Derived Cell Line</td></tr><tr><td>NCIT:156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>NCIT:156441</td><td>Sample Derived from New Primary</td></tr><tr><td>NCIT:164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>NCIT:C18009</td><td>Tumor Tissue</td></tr><tr><td>NCIT:C162623</td><td>Normal Tissue Segment</td></tr><tr><td>NCIT:C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ncit-special-codes-vs</b></p><a name="ncit-special-codes-vs"> </a><a name="hcncit-special-codes-vs"> </a><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>NCIT:C156445</td><td>Derived Cell Line</td></tr><tr><td>NCIT:C156440</td><td>Metastatic Tumor Sample</td></tr><tr><td>NCIT:C156441</td><td>Sample Derived from New Primary</td></tr><tr><td>NCIT:C164032</td><td>Tumor-Adjacent Normal Specimen</td></tr><tr><td>NCIT:C18009</td><td>Tumor Tissue</td></tr><tr><td>NCIT:C162623</td><td>Normal Tissue Segment</td></tr><tr><td>NCIT:C156443</td><td>Cell Line-Derived Xenograft</td></tr></table></li></ul></div>
   </text>
   <url value="https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs"/>
   <version value="0.1.0"/>
   <name value="CancerBiospecimenTypeVS"/>
   <title value="NCIT Special Codes ValueSet"/>
   <status value="active"/>
-  <date value="2026-06-08T17:19:56+00:00"/>
+  <date value="2026-08-05T14:46:26+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Ferlab.bio"/>
@@ -28,15 +28,15 @@
         <display value="Derived Cell Line"/>
       </concept>
       <concept>
-        <code value="NCIT:156440"/>
+        <code value="NCIT:C156440"/>
         <display value="Metastatic Tumor Sample"/>
       </concept>
       <concept>
-        <code value="NCIT:156441"/>
+        <code value="NCIT:C156441"/>
         <display value="Sample Derived from New Primary"/>
       </concept>
       <concept>
-        <code value="NCIT:164032"/>
+        <code value="NCIT:C164032"/>
         <display value="Tumor-Adjacent Normal Specimen"/>
       </concept>
       <concept>

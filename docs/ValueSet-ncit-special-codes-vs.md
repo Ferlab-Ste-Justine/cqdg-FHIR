@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.cqdg.ca/ValueSet/ncit-special-codes-vs | *Version*:0.1.0 |
-| Active as of 2026-06-08 | *Computable Name*:CancerBiospecimenTypeVS |
+| Active as of 2026-08-05 | *Computable Name*:CancerBiospecimenTypeVS |
 
  
 ValueSet for selected NCIT codes from NCI Thesaurus. 
@@ -52,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "CancerBiospecimenTypeVS",
   "title" : "NCIT Special Codes ValueSet",
   "status" : "active",
-  "date" : "2026-06-08T17:19:56+00:00",
+  "date" : "2026-08-05T14:46:26+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Ferlab.bio",
@@ -70,15 +70,15 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Derived Cell Line"
       },
       {
-        "code" : "NCIT:156440",
+        "code" : "NCIT:C156440",
         "display" : "Metastatic Tumor Sample"
       },
       {
-        "code" : "NCIT:156441",
+        "code" : "NCIT:C156441",
         "display" : "Sample Derived from New Primary"
       },
       {
-        "code" : "NCIT:164032",
+        "code" : "NCIT:C164032",
         "display" : "Tumor-Adjacent Normal Specimen"
       },
       {

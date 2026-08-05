@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,86 +7,151 @@
 
 <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "sequencing-experiment-source"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-source</b></p><a name=\"sequencing-experiment-source\"> </a><a name=\"hcsequencing-experiment-source\"> </a><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">GEN<a name=\"sequencing-experiment-source-GEN\"> </a></td><td>Genomic</td></tr><tr><td style=\"white-space:nowrap\">TSC<a name=\"sequencing-experiment-source-TSC\"> </a></td><td>Transcriptomic Single Cell</td></tr><tr><td style=\"white-space:nowrap\">TS<a name=\"sequencing-experiment-source-TS\"> </a></td><td>Transcriptomic</td></tr><tr><td style=\"white-space:nowrap\">GSC<a name=\"sequencing-experiment-source-GSC\"> </a></td><td>Genomic Single Cell</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"^^xsd:anyURI ;
-     fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "SequencingExperimentSource"] ; # 
-  fhir:title [ fhir:v "Ferlab.bio CodeSystem/sequencing-experiment-source"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T17:19:56+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ferlab.bio" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Sequencing experimental source"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "GEN" ] ;
-     fhir:display [ fhir:v "Genomic" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source>
-         ] ;
-         fhir:code [ fhir:v "GEN" ]
+  fhir:Resource.id [ fhir:value "sequencing-experiment-source"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sequencing-experiment-source</b></p><a name=\"sequencing-experiment-source\"> </a><a name=\"hcsequencing-experiment-source\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Deprecated</td><td>deprecated</td><td>http://hl7.org/fhir/concept-properties#deprecated</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Deprecated</b></td></tr><tr><td style=\"white-space:nowrap\">GEN<a name=\"sequencing-experiment-source-GEN\"> </a></td><td>Genomics</td><td/></tr><tr><td style=\"white-space:nowrap\">TS<a name=\"sequencing-experiment-source-TS\"> </a></td><td>Transcriptomics</td><td/></tr><tr><td style=\"white-space:nowrap\">EPI<a name=\"sequencing-experiment-source-EPI\"> </a></td><td>Epigenomics</td><td/></tr><tr><td style=\"white-space:nowrap\">PRO<a name=\"sequencing-experiment-source-PRO\"> </a></td><td>Proteomics</td><td/></tr><tr><td style=\"white-space:nowrap\">MUL<a name=\"sequencing-experiment-source-MUL\"> </a></td><td>Multi-omic</td><td/></tr><tr><td style=\"white-space:nowrap\">CLI<a name=\"sequencing-experiment-source-CLI\"> </a></td><td>Clinical</td><td/></tr><tr><td style=\"white-space:nowrap\">TSC<a name=\"sequencing-experiment-source-TSC\"> </a></td><td>Transcriptomic Single Cell</td><td>2026-07-27</td></tr><tr><td style=\"white-space:nowrap\">GSC<a name=\"sequencing-experiment-source-GSC\"> </a></td><td>Genomic Single Cell</td><td>2026-07-27</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "SequencingExperimentSource"] ;
+  fhir:CodeSystem.title [ fhir:value "Ferlab.bio CodeSystem/sequencing-experiment-source"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-05T14:46:26+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ferlab.bio" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://example.org/example-publisher" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Experimental category of the experiment (Genomics, Transcriptomics, Epigenomics, Proteomics, Multi-omic, Clinical)."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecated" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecated" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GEN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Genomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "GEN" ]
        ] ;
-       fhir:value [ fhir:v "Genomic" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "TSC" ] ;
-     fhir:display [ fhir:v "Transcriptomic Single Cell" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source>
-         ] ;
-         fhir:code [ fhir:v "TSC" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Genomics" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transcriptomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "TS" ]
        ] ;
-       fhir:value [ fhir:v "Transcriptomic Single Cell" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "TS" ] ;
-     fhir:display [ fhir:v "Transcriptomic" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source>
-         ] ;
-         fhir:code [ fhir:v "TS" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Transcriptomics" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EPI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Epigenomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "EPI" ]
        ] ;
-       fhir:value [ fhir:v "Transcriptomic" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "GSC" ] ;
-     fhir:display [ fhir:v "Genomic Single Cell" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:system [
-           fhir:v "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source"^^xsd:anyURI ;
-           fhir:l <https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source>
-         ] ;
-         fhir:code [ fhir:v "GSC" ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Epigenomics" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PRO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Proteomics" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "PRO" ]
        ] ;
-       fhir:value [ fhir:v "Genomic Single Cell" ]
-     ] )
-  ] ) . # 
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Proteomics" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MUL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Multi-omic" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "MUL" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Multi-omic" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CLI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "CLI" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Clinical" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TSC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transcriptomic Single Cell" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "TSC" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Transcriptomic Single Cell" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-07-27"^^xsd:date ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GSC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Genomic Single Cell" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.use [
+         fhir:Coding.system [ fhir:value "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source" ] ;
+         fhir:Coding.code [ fhir:value "GSC" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Genomic Single Cell" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-07-27"^^xsd:date ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

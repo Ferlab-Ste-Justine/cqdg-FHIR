@@ -1,0 +1,93 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ProfilingResolution",
+  "id": "profiling-resolution",
+  "title": "Ferlab.bio CodeSystem/profiling-resolution",
+  "url": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+  "concept": [
+    {
+      "code": "Bulk",
+      "display": "Bulk",
+      "designation": [
+        {
+          "use": {
+            "code": "Bulk",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Bulk"
+        }
+      ]
+    },
+    {
+      "code": "Pseudo-bulk",
+      "display": "Pseudo-bulk",
+      "designation": [
+        {
+          "use": {
+            "code": "Pseudo-bulk",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Pseudo-bulk"
+        }
+      ]
+    },
+    {
+      "code": "Single-Cell",
+      "display": "Single Cell",
+      "designation": [
+        {
+          "use": {
+            "code": "Single-Cell",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Single Cell"
+        }
+      ]
+    },
+    {
+      "code": "Single-Nucleus",
+      "display": "Single Nucleus",
+      "designation": [
+        {
+          "use": {
+            "code": "Single-Nucleus",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Single Nucleus"
+        }
+      ]
+    },
+    {
+      "code": "Spatial",
+      "display": "Spatial",
+      "designation": [
+        {
+          "use": {
+            "code": "Spatial",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Spatial"
+        }
+      ]
+    },
+    {
+      "code": "Other",
+      "display": "Other",
+      "designation": [
+        {
+          "use": {
+            "code": "Other",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution"
+          },
+          "value": "Other"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "description": "Resolution at which the experiment profiles the sample.",
+  "caseSensitive": true,
+  "count": 6
+}

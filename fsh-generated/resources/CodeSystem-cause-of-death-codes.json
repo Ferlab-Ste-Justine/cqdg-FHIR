@@ -86,6 +86,32 @@
       ]
     },
     {
+      "code": "Natural",
+      "display": "Natural",
+      "designation": [
+        {
+          "use": {
+            "code": "Natural",
+            "system": "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"
+          },
+          "value": "Natural"
+        }
+      ]
+    },
+    {
+      "code": "Suicide",
+      "display": "Suicide",
+      "designation": [
+        {
+          "use": {
+            "code": "Suicide",
+            "system": "https://fhir.cqdg.ca/CodeSystem/cause-of-death-codes"
+          },
+          "value": "Suicide"
+        }
+      ]
+    },
+    {
       "code": "Other-reasons",
       "display": "Other reasons",
       "designation": [
@@ -116,5 +142,5 @@
   "description": "Codes for cause of death",
   "caseSensitive": true,
   "publisher": "ferlab.bio",
-  "count": 8
+  "count": 10
 }

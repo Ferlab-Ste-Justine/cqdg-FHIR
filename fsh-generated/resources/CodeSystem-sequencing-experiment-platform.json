@@ -162,10 +162,36 @@
           "value": "Ultima"
         }
       ]
+    },
+    {
+      "code": "Chromium",
+      "display": "Chromium",
+      "designation": [
+        {
+          "use": {
+            "code": "Chromium",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Chromium"
+        }
+      ]
+    },
+    {
+      "code": "CASH",
+      "display": "Comprehensive Assessment of Symptoms and History (CASH)",
+      "designation": [
+        {
+          "use": {
+            "code": "CASH",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform"
+          },
+          "value": "Comprehensive Assessment of Symptoms and History (CASH)"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Sequencing experimental platform",
   "caseSensitive": true,
-  "count": 12
+  "count": 14
 }

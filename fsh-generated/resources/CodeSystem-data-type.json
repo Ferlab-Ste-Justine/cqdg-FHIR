@@ -21,6 +21,19 @@
       ]
     },
     {
+      "code": "Unaligned-Reads-Index",
+      "display": "Unaligned Reads Index",
+      "designation": [
+        {
+          "use": {
+            "code": "Unaligned-Reads-Index",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Unaligned Reads Index"
+        }
+      ]
+    },
+    {
       "code": "Raw-Sequencing-Reads-R1",
       "display": "Raw Sequencing Reads R1",
       "designation": [
@@ -214,10 +227,270 @@
           "value": "Laboratory Values"
         }
       ]
+    },
+    {
+      "code": "Raw-Sequencing-Reads-I1",
+      "display": "Raw Sequencing Reads I1",
+      "designation": [
+        {
+          "use": {
+            "code": "Raw-Sequencing-Reads-I1",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Raw Sequencing Reads I1"
+        }
+      ]
+    },
+    {
+      "code": "Raw-Sequencing-Reads-I2",
+      "display": "Raw Sequencing Reads I2",
+      "designation": [
+        {
+          "use": {
+            "code": "Raw-Sequencing-Reads-I2",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Raw Sequencing Reads I2"
+        }
+      ]
+    },
+    {
+      "code": "Processed-Reads",
+      "display": "Processed Reads",
+      "designation": [
+        {
+          "use": {
+            "code": "Processed-Reads",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Processed Reads"
+        }
+      ]
+    },
+    {
+      "code": "Processed-Reads-Index",
+      "display": "Processed Reads Index",
+      "designation": [
+        {
+          "use": {
+            "code": "Processed-Reads-Index",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Processed Reads Index"
+        }
+      ]
+    },
+    {
+      "code": "De-Novo-Assembly-Aligned-Reads",
+      "display": "De Novo Assembly Aligned Reads",
+      "designation": [
+        {
+          "use": {
+            "code": "De-Novo-Assembly-Aligned-Reads",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "De Novo Assembly Aligned Reads"
+        }
+      ]
+    },
+    {
+      "code": "De-Novo-Assembly-Aligned-Reads-Index",
+      "display": "De Novo Assembly Aligned Reads Index",
+      "designation": [
+        {
+          "use": {
+            "code": "De-Novo-Assembly-Aligned-Reads-Index",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "De Novo Assembly Aligned Reads Index"
+        }
+      ]
+    },
+    {
+      "code": "Methylation-Calls",
+      "display": "Methylation Calls",
+      "designation": [
+        {
+          "use": {
+            "code": "Methylation-Calls",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Methylation Calls"
+        }
+      ]
+    },
+    {
+      "code": "Methylation-Calls-Index",
+      "display": "Methylation Calls Index",
+      "designation": [
+        {
+          "use": {
+            "code": "Methylation-Calls-Index",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Methylation Calls Index"
+        }
+      ]
+    },
+    {
+      "code": "Raw-Feature-Count-Matrix",
+      "display": "Raw Feature Count Matrix",
+      "designation": [
+        {
+          "use": {
+            "code": "Raw-Feature-Count-Matrix",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Raw Feature Count Matrix"
+        }
+      ]
+    },
+    {
+      "code": "Filtered-Feature-Count-Matrix",
+      "display": "Filtered Feature Count Matrix",
+      "designation": [
+        {
+          "use": {
+            "code": "Filtered-Feature-Count-Matrix",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Filtered Feature Count Matrix"
+        }
+      ]
+    },
+    {
+      "code": "Raw-Peak-Barcode-Matrix",
+      "display": "Raw Peak Barcode Matrix",
+      "designation": [
+        {
+          "use": {
+            "code": "Raw-Peak-Barcode-Matrix",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Raw Peak Barcode Matrix"
+        }
+      ]
+    },
+    {
+      "code": "Filtered-Peak-Barcode-Matrix",
+      "display": "Filtered Peak Barcode Matrix",
+      "designation": [
+        {
+          "use": {
+            "code": "Filtered-Peak-Barcode-Matrix",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Filtered Peak Barcode Matrix"
+        }
+      ]
+    },
+    {
+      "code": "Peak-Calls",
+      "display": "Peak Calls",
+      "designation": [
+        {
+          "use": {
+            "code": "Peak-Calls",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Peak Calls"
+        }
+      ]
+    },
+    {
+      "code": "Peak-Calls-Index",
+      "display": "Peak Calls Index",
+      "designation": [
+        {
+          "use": {
+            "code": "Peak-Calls-Index",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Peak Calls Index"
+        }
+      ]
+    },
+    {
+      "code": "Annotated-Peaks",
+      "display": "Annotated Peaks",
+      "designation": [
+        {
+          "use": {
+            "code": "Annotated-Peaks",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Annotated Peaks"
+        }
+      ]
+    },
+    {
+      "code": "Tandem-Repeats",
+      "display": "Tandem Repeats (TRs)",
+      "designation": [
+        {
+          "use": {
+            "code": "Tandem-Repeats",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Tandem Repeats (TRs)"
+        }
+      ]
+    },
+    {
+      "code": "Secondary-Analysis",
+      "display": "Secondary Analysis",
+      "designation": [
+        {
+          "use": {
+            "code": "Secondary-Analysis",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Secondary Analysis"
+        }
+      ]
+    },
+    {
+      "code": "Gene-Annotations",
+      "display": "Gene Annotations",
+      "designation": [
+        {
+          "use": {
+            "code": "Gene-Annotations",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Gene Annotations"
+        }
+      ]
+    },
+    {
+      "code": "Pedigree",
+      "display": "Pedigree",
+      "designation": [
+        {
+          "use": {
+            "code": "Pedigree",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Pedigree"
+        }
+      ]
+    },
+    {
+      "code": "Psychiatric-Assessment-Scores",
+      "display": "Psychiatric Assessment Scores",
+      "designation": [
+        {
+          "use": {
+            "code": "Psychiatric-Assessment-Scores",
+            "system": "https://fhir.cqdg.ca/CodeSystem/data-type"
+          },
+          "value": "Psychiatric Assessment Scores"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Data Type",
   "caseSensitive": true,
-  "count": 16
+  "count": 37
 }

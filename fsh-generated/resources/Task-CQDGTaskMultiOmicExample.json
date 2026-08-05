@@ -1,6 +1,6 @@
 {
   "resourceType": "Task",
-  "id": "CQDGTaskExample",
+  "id": "CQDGTaskMultiOmicExample",
   "meta": {
     "profile": [
       "https://fhir.cqdg.ca/StructureDefinition/CQDGTask"
@@ -16,14 +16,6 @@
             "system": "https://fhir.cqdg.ca/CodeSystem/genome-build",
             "display": "GRCh38"
           }
-        },
-        {
-          "url": "pipeline",
-          "valueString": "First Pipeline"
-        },
-        {
-          "url": "pipeline",
-          "valueString": "Second Pipeline"
         }
       ],
       "url": "https://fhir.cqdg.ca/StructureDefinition/workflowExtension"
@@ -33,9 +25,57 @@
         {
           "url": "experimentalStrategy",
           "valueCoding": {
-            "code": "WGS",
+            "code": "RNAS",
             "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
-            "display": "Whole Genome Sequencing"
+            "display": "RNA-Seq"
+          }
+        },
+        {
+          "url": "platform",
+          "valueCoding": {
+            "code": "Chromium",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-platform",
+            "display": "Chromium"
+          }
+        },
+        {
+          "url": "selection",
+          "valueCoding": {
+            "code": "TN5",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
+            "display": "Tn5"
+          }
+        },
+        {
+          "url": "source",
+          "valueCoding": {
+            "code": "MUL",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
+            "display": "Multi-omic"
+          }
+        },
+        {
+          "url": "experimentalStrategy",
+          "valueCoding": {
+            "code": "ATACS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy",
+            "display": "ATAC-Seq"
+          }
+        },
+        {
+          "url": "profilingResolution",
+          "valueCoding": {
+            "code": "Single-Nucleus",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+            "display": "Single Nucleus"
+          }
+        },
+        {
+          "url": "profilingResolution",
+          "valueCoding": {
+            "code": "Single-Nucleus",
+            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
+            "display": "Single Nucleus"
           }
         },
         {
@@ -47,72 +87,12 @@
           }
         },
         {
-          "url": "selection",
-          "valueCoding": {
-            "code": "CHIP",
-            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection",
-            "display": "ChIP"
-          }
-        },
-        {
-          "url": "source",
-          "valueCoding": {
-            "code": "GEN",
-            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-source",
-            "display": "Genomics"
-          }
-        },
-        {
-          "url": "profilingResolution",
-          "valueCoding": {
-            "code": "Bulk",
-            "system": "https://fhir.cqdg.ca/CodeSystem/profiling-resolution",
-            "display": "Bulk"
-          }
-        },
-        {
-          "url": "isPairedEnd",
-          "valueBoolean": true
+          "url": "instrumentModel",
+          "valueString": "Chromium X"
         },
         {
           "url": "instrumentModel",
-          "valueString": "NovaSeq 6000"
-        },
-        {
-          "url": "protocol",
-          "valueString": "protocol2"
-        },
-        {
-          "url": "readLength",
-          "valueString": "151,8,8,151"
-        },
-        {
-          "url": "isImputed",
-          "valueBoolean": false
-        },
-        {
-          "url": "targetCaptureKit",
-          "valueString": "targetCaptureKit2"
-        },
-        {
-          "url": "targetLoci",
-          "valueString": "targetedLoci2"
-        },
-        {
-          "url": "runIds",
-          "valueString": "RunID12345"
-        },
-        {
-          "url": "runIds",
-          "valueString": "RunID67890"
-        },
-        {
-          "url": "runDates",
-          "valueDate": "2023-01-01"
-        },
-        {
-          "url": "runDates",
-          "valueDate": "2023-01-02"
+          "valueString": "NovaSeq X"
         }
       ],
       "url": "https://fhir.cqdg.ca/StructureDefinition/sequencingExperimentExtension"
@@ -121,15 +101,11 @@
       "extension": [
         {
           "url": "ldmSampleId",
-          "valueString": "LDM12345"
+          "valueString": "LDM67890"
         },
         {
           "url": "labAliquotId",
-          "valueString": "AliquotID1"
-        },
-        {
-          "url": "labAliquotId",
-          "valueString": "AliquotID2"
+          "valueString": "AliquotID3"
         }
       ],
       "url": "https://fhir.cqdg.ca/StructureDefinition/sampleExtension"
@@ -141,9 +117,9 @@
   "code": {
     "coding": [
       {
-        "code": "GBVA",
+        "code": "MOA",
         "system": "https://fhir.cqdg.ca/CodeSystem/bioinfo-analysis-code",
-        "display": "Germline Variant Analysis"
+        "display": "Multi-omic Analysis"
       }
     ]
   },
@@ -169,9 +145,9 @@
       "type": {
         "coding": [
           {
-            "code": "Aligned-Reads",
+            "code": "Filtered-Feature-Count-Matrix",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "Aligned Reads"
+            "display": "Filtered Feature Count Matrix"
           }
         ]
       },
@@ -183,37 +159,9 @@
       "type": {
         "coding": [
           {
-            "code": "SNV",
+            "code": "Filtered-Peak-Barcode-Matrix",
             "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "SNV"
-          }
-        ]
-      },
-      "valueReference": {
-        "reference": "DocumentReference/DocumentReferenceExample1"
-      }
-    },
-    {
-      "type": {
-        "coding": [
-          {
-            "code": "CNV",
-            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "Copy Number Variations (CNVs)"
-          }
-        ]
-      },
-      "valueReference": {
-        "reference": "DocumentReference/DocumentReferenceExample2"
-      }
-    },
-    {
-      "type": {
-        "coding": [
-          {
-            "code": "Sequencing-Data-Supplement",
-            "system": "https://fhir.cqdg.ca/CodeSystem/data-type",
-            "display": "Sequencing Data Supplement"
+            "display": "Filtered Peak Barcode Matrix"
           }
         ]
       },

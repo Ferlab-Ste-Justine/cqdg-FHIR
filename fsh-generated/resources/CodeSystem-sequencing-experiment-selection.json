@@ -97,10 +97,101 @@
           "value": "Hybrid Selection"
         }
       ]
+    },
+    {
+      "code": "DIRECT",
+      "display": "Direct",
+      "designation": [
+        {
+          "use": {
+            "code": "DIRECT",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "Direct"
+        }
+      ]
+    },
+    {
+      "code": "TN5",
+      "display": "Tn5",
+      "designation": [
+        {
+          "use": {
+            "code": "TN5",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "Tn5"
+        }
+      ]
+    },
+    {
+      "code": "CDNA",
+      "display": "cDNA",
+      "designation": [
+        {
+          "use": {
+            "code": "CDNA",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "cDNA"
+        }
+      ]
+    },
+    {
+      "code": "CDNA-ODT",
+      "display": "cDNA Oligo-dT",
+      "designation": [
+        {
+          "use": {
+            "code": "CDNA-ODT",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "cDNA Oligo-dT"
+        }
+      ]
+    },
+    {
+      "code": "IRRNA",
+      "display": "Inverse rRNA",
+      "designation": [
+        {
+          "use": {
+            "code": "IRRNA",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "Inverse rRNA"
+        }
+      ]
+    },
+    {
+      "code": "UNSPECIFIED",
+      "display": "Unspecified",
+      "designation": [
+        {
+          "use": {
+            "code": "UNSPECIFIED",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "Unspecified"
+        }
+      ]
+    },
+    {
+      "code": "OTHER",
+      "display": "Other",
+      "designation": [
+        {
+          "use": {
+            "code": "OTHER",
+            "system": "https://fhir.cqdg.ca/CodeSystem/sequencing-experiment-selection"
+          },
+          "value": "Other"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Library selection method",
   "caseSensitive": true,
-  "count": 7
+  "count": 14
 }

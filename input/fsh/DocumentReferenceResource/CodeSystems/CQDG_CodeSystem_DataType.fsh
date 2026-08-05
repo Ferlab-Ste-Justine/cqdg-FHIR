@@ -11,6 +11,10 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Raw-Sequencing-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads
 * #"Raw-Sequencing-Reads" ^designation.value = "Raw Sequencing Reads"
 
+* #"Unaligned-Reads-Index" "Unaligned Reads Index"
+* #"Unaligned-Reads-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Unaligned-Reads-Index
+* #"Unaligned-Reads-Index" ^designation.value = "Unaligned Reads Index"
+
 * #"Raw-Sequencing-Reads-R1" "Raw Sequencing Reads R1"
 * #"Raw-Sequencing-Reads-R1" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads-R1
 * #"Raw-Sequencing-Reads-R1" ^designation.value = "Raw Sequencing Reads R1"
@@ -70,3 +74,83 @@ Title: "Ferlab.bio CodeSystem/data-type"
 * #"Laboratory-Values" "Laboratory Values"
 * #"Laboratory-Values" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Laboratory-Values
 * #"Laboratory-Values" ^designation.value = "Laboratory Values"
+
+* #"Raw-Sequencing-Reads-I1" "Raw Sequencing Reads I1"
+* #"Raw-Sequencing-Reads-I1" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads-I1
+* #"Raw-Sequencing-Reads-I1" ^designation.value = "Raw Sequencing Reads I1"
+
+* #"Raw-Sequencing-Reads-I2" "Raw Sequencing Reads I2"
+* #"Raw-Sequencing-Reads-I2" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Sequencing-Reads-I2
+* #"Raw-Sequencing-Reads-I2" ^designation.value = "Raw Sequencing Reads I2"
+
+* #"Processed-Reads" "Processed Reads"
+* #"Processed-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Processed-Reads
+* #"Processed-Reads" ^designation.value = "Processed Reads"
+
+* #"Processed-Reads-Index" "Processed Reads Index"
+* #"Processed-Reads-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Processed-Reads-Index
+* #"Processed-Reads-Index" ^designation.value = "Processed Reads Index"
+
+* #"De-Novo-Assembly-Aligned-Reads" "De Novo Assembly Aligned Reads"
+* #"De-Novo-Assembly-Aligned-Reads" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#De-Novo-Assembly-Aligned-Reads
+* #"De-Novo-Assembly-Aligned-Reads" ^designation.value = "De Novo Assembly Aligned Reads"
+
+* #"De-Novo-Assembly-Aligned-Reads-Index" "De Novo Assembly Aligned Reads Index"
+* #"De-Novo-Assembly-Aligned-Reads-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#De-Novo-Assembly-Aligned-Reads-Index
+* #"De-Novo-Assembly-Aligned-Reads-Index" ^designation.value = "De Novo Assembly Aligned Reads Index"
+
+* #"Methylation-Calls" "Methylation Calls"
+* #"Methylation-Calls" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Methylation-Calls
+* #"Methylation-Calls" ^designation.value = "Methylation Calls"
+
+* #"Methylation-Calls-Index" "Methylation Calls Index"
+* #"Methylation-Calls-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Methylation-Calls-Index
+* #"Methylation-Calls-Index" ^designation.value = "Methylation Calls Index"
+
+* #"Raw-Feature-Count-Matrix" "Raw Feature Count Matrix"
+* #"Raw-Feature-Count-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Feature-Count-Matrix
+* #"Raw-Feature-Count-Matrix" ^designation.value = "Raw Feature Count Matrix"
+
+* #"Filtered-Feature-Count-Matrix" "Filtered Feature Count Matrix"
+* #"Filtered-Feature-Count-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Filtered-Feature-Count-Matrix
+* #"Filtered-Feature-Count-Matrix" ^designation.value = "Filtered Feature Count Matrix"
+
+* #"Raw-Peak-Barcode-Matrix" "Raw Peak Barcode Matrix"
+* #"Raw-Peak-Barcode-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Raw-Peak-Barcode-Matrix
+* #"Raw-Peak-Barcode-Matrix" ^designation.value = "Raw Peak Barcode Matrix"
+
+* #"Filtered-Peak-Barcode-Matrix" "Filtered Peak Barcode Matrix"
+* #"Filtered-Peak-Barcode-Matrix" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Filtered-Peak-Barcode-Matrix
+* #"Filtered-Peak-Barcode-Matrix" ^designation.value = "Filtered Peak Barcode Matrix"
+
+* #"Peak-Calls" "Peak Calls"
+* #"Peak-Calls" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Peak-Calls
+* #"Peak-Calls" ^designation.value = "Peak Calls"
+
+* #"Peak-Calls-Index" "Peak Calls Index"
+* #"Peak-Calls-Index" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Peak-Calls-Index
+* #"Peak-Calls-Index" ^designation.value = "Peak Calls Index"
+
+* #"Annotated-Peaks" "Annotated Peaks"
+* #"Annotated-Peaks" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Annotated-Peaks
+* #"Annotated-Peaks" ^designation.value = "Annotated Peaks"
+
+* #"Tandem-Repeats" "Tandem Repeats (TRs)"
+* #"Tandem-Repeats" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Tandem-Repeats
+* #"Tandem-Repeats" ^designation.value = "Tandem Repeats (TRs)"
+
+* #"Secondary-Analysis" "Secondary Analysis"
+* #"Secondary-Analysis" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Secondary-Analysis
+* #"Secondary-Analysis" ^designation.value = "Secondary Analysis"
+
+* #"Gene-Annotations" "Gene Annotations"
+* #"Gene-Annotations" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Gene-Annotations
+* #"Gene-Annotations" ^designation.value = "Gene Annotations"
+
+* #"Pedigree" "Pedigree"
+* #"Pedigree" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Pedigree
+* #"Pedigree" ^designation.value = "Pedigree"
+
+* #"Psychiatric-Assessment-Scores" "Psychiatric Assessment Scores"
+* #"Psychiatric-Assessment-Scores" ^designation.use = https://fhir.cqdg.ca/CodeSystem/data-type#Psychiatric-Assessment-Scores
+* #"Psychiatric-Assessment-Scores" ^designation.value = "Psychiatric Assessment Scores"

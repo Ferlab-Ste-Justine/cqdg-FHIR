@@ -66,3 +66,11 @@ Title: "Ferlab.bio CodeSystem/experimental-strategy"
 * #"DMS" "Direct Methyl-Seq"
 * #"DMS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#DMS
 * #"DMS" ^designation.value = "Direct Methyl-Seq"
+
+* #"ADAS" "Adaptive Sampling"
+* #"ADAS" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#ADAS
+* #"ADAS" ^designation.value = "Adaptive Sampling"
+
+* #"QUES" "Questionnaire"
+* #"QUES" ^designation.use = https://fhir.cqdg.ca/CodeSystem/experimental-strategy#QUES
+* #"QUES" ^designation.value = "Questionnaire"

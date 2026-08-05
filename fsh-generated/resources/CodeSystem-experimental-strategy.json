@@ -201,10 +201,36 @@
           "value": "Direct Methyl-Seq"
         }
       ]
+    },
+    {
+      "code": "ADAS",
+      "display": "Adaptive Sampling",
+      "designation": [
+        {
+          "use": {
+            "code": "ADAS",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Adaptive Sampling"
+        }
+      ]
+    },
+    {
+      "code": "QUES",
+      "display": "Questionnaire",
+      "designation": [
+        {
+          "use": {
+            "code": "QUES",
+            "system": "https://fhir.cqdg.ca/CodeSystem/experimental-strategy"
+          },
+          "value": "Questionnaire"
+        }
+      ]
     }
   ],
   "experimental": false,
   "description": "Experimental strategy",
   "caseSensitive": true,
-  "count": 15
+  "count": 17
 }
